@@ -71,6 +71,23 @@
             "string",
             "null"
           ]
+        },
+        "qualifications": {
+          "type": "string",
+          "minLength": 40
+        },
+        "languages": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 2
+          }
+        },
+        "conflicts_of_interest": {
+          "type": "string",
+          "minLength": 10
         }
       },
       "additionalProperties": false
@@ -79,13 +96,15 @@
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "pattern": "^[a-f0-9]{64}$"
     },
     "target_sha256": {
       "type": [
         "string",
         "null"
-      ]
+      ],
+      "pattern": "^[a-f0-9]{64}$"
     },
     "segments_reviewed": {
       "type": "array",
@@ -106,19 +125,34 @@
       ],
       "properties": {
         "semantic_fidelity": {
-          "type": "number"
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10,
+          "multipleOf": 0.5
         },
         "literary_voice": {
-          "type": "number"
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10,
+          "multipleOf": 0.5
         },
         "target_naturalness": {
-          "type": "number"
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10,
+          "multipleOf": 0.5
         },
         "imagery_consistency": {
-          "type": "number"
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10,
+          "multipleOf": 0.5
         },
         "editorial_mechanics": {
-          "type": "number"
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10,
+          "multipleOf": 0.5
         }
       },
       "additionalProperties": false
@@ -167,5 +201,36 @@
       "minLength": 80
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "independent_human"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "reviewer": {
+            "type": "object",
+            "required": [
+              "qualifications",
+              "languages",
+              "conflicts_of_interest"
+            ]
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "target_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    }
+  ]
 }

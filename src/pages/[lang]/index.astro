@@ -1,28 +1,92 @@
 ---
 import Base from '../../layouts/Base.astro';
-import {supported,strings,catalog,readableEditions,type Locale} from '../../lib/corpus';
-import {pagePath} from '../../lib/urls';
+import {strings,supported,type Locale} from '../../lib/i18n';
+import {publicWorks,publishedEditions,languageNames,bestEdition} from '../../lib/corpus';
+import {pagePath,assetPath,basePath} from '../../lib/urls';
 export function getStaticPaths(){return supported.map(lang=>({params:{lang}}));}
 const lang=Astro.params.lang as Locale;const t=strings[lang];
-const publishedWorks=catalog.filter(w=>w.visibility==='public' && readableEditions(w.id).some(e=>e.status==='published'));
+const works=publicWorks();
+const authors=[...new Set(works.map(w=>w.author))].sort();
+const languages=[...new Set(works.flatMap(w=>publishedEditions(w.id).map(e=>e.language)))].sort();
 ---
 <Base lang={lang} title={t.title}>
 <div class="container">
-  <section class="hero"><p class="eyebrow">{t.tag}</p><h1>{t.title}</h1><p>{t.intro}</p><a class="button" href="#collection">{t.explore} ↗</a></section>
-  <section id="collection" class="section">
-    <p class="eyebrow">{t.works}</p><h2>{t.works}</h2>
-    <div class="grid">{publishedWorks.map(work=>
-      <a class="card" href={pagePath(lang,'works',work.id)}>
-        <span class="pill">Original text · sourced</span>
-        <h3>{work.title}</h3>
-        <p class="muted">{work.author} · {work.original_language.toUpperCase()} · {work.first_published_year}</p>
-        <p>{work.description}</p>
-        <span style="color:#24553e">{t.read} →</span>
-      </a>
-    )}</div>
+  <section class="hero">
+    <p class="eyebrow">{t.tag}</p><h1>{t.title}</h1><p>{t.intro}</p>
+    <a class="button" href="#collection">{t.explore} <span aria-hidden="true">→</span></a>
   </section>
-  <section class="section"><p class="eyebrow">Our approach</p><h2>{t.why}</h2><p style="max-width:690px;line-height:1.8">{t.whytext}</p>
-    <p class="muted">Translations are released only after independent literary review and documented licensing.</p>
+  <section id="collection" class="section collection-section" aria-labelledby="collection-title">
+    <div class="section-head"><h2 id="collection-title">{t.works}</h2><p>{works.length} · {t.collectionCount}</p></div>
+    <form id="collection-search" class="search-form" role="search" hidden data-index={assetPath('search-index.json')} data-base={basePath} data-locale={lang} data-none={t.noResults} data-unavailable={t.searchUnavailable} data-loading={t.searchLoading} data-results={t.results}>
+      <label class="query-label" for="query">{t.search}<input id="query" name="query" type="search" autocomplete="off" placeholder={t.searchHint} /></label>
+      <label for="text-language">{t.language}<select name="language" id="text-language"><option value="">{t.allLanguages}</option>{languages.map(code=><option value={code}>{languageNames[code]??code}</option>)}</select></label>
+      <label for="author">{t.author}<select name="author" id="author"><option value="">{t.allAuthors}</option>{authors.map(author=><option value={author}>{author}</option>)}</select></label>
+      <button type="submit">{t.searchButton}</button>
+    </form>
+    <noscript><p class="notice">{t.noScriptSearch}</p></noscript>
+    <p class="search-status muted" id="search-status" role="status" aria-live="polite"></p>
+    <section id="passage-results" class="search-results" aria-labelledby="results-title" hidden><h3 id="results-title">{t.results}</h3><ol></ol></section>
+    <div class="grid" id="collection-cards">{works.map(work=>{
+      const editions=publishedEditions(work.id);const first=bestEdition(work,lang)!;
+      return <article class="card" data-work-id={work.id} data-author={work.author} data-languages={editions.map(e=>e.language).join(' ')}>
+        <span class="pill">{first.kind==='source'?t.sourcePublished:t.translationPublished}</span>
+        <h3 lang={work.original_language}><a href={pagePath(lang,'works',work.id)}>{work.title}</a></h3>
+        <p class="muted">{work.author} · {work.first_published_year}<br/>{editions.map(e=>languageNames[e.language]??e.language).filter((v,i,a)=>a.indexOf(v)===i).join(' · ')}</p>
+        <p lang="en">{work.description}</p>
+        <a class="card-link" href={pagePath(lang,'read',work.id,first.id)}>{t.read} <span aria-hidden="true">→</span></a>
+      </article>;
+    })}</div>
   </section>
+  <section class="section policy-body"><p class="eyebrow">{t.approach}</p><h2>{t.why}</h2><p>{t.whytext}</p><p class="muted">{t.translationPolicy}</p></section>
 </div>
+<script>
+  import {normalizeQuery} from '../../../scripts/lib/reader-data.mjs';
+  type SearchRecord={workId:string;editionId:string;title:string;author:string;language:string;passages:[string,string][]};
+  const form=document.querySelector<HTMLFormElement>('#collection-search');
+  if(form){
+    form.hidden=false;
+    const query=form.elements.namedItem('query') as HTMLInputElement;
+    const language=form.elements.namedItem('language') as HTMLSelectElement;
+    const author=form.elements.namedItem('author') as HTMLSelectElement;
+    const cards=[...document.querySelectorAll<HTMLElement>('[data-work-id]')];
+    const status=document.querySelector<HTMLElement>('#search-status')!;
+    const results=document.querySelector<HTMLElement>('#passage-results')!;
+    const list=results.querySelector('ol')!;
+    let index:SearchRecord[]|null=null,request=0;
+    const filter=(workIds?:Set<string>)=>cards.forEach(card=>{
+      card.hidden=Boolean((author.value&&card.dataset.author!==author.value)||(language.value&&!card.dataset.languages?.split(' ').includes(language.value))||(workIds&&!workIds.has(card.dataset.workId!)));
+    });
+    const changeFilter=()=>{request++;query.value='';results.hidden=true;filter();status.textContent=cards.some(card=>!card.hidden)?'':form.dataset.none!;};
+    language.addEventListener('change',changeFilter);author.addEventListener('change',changeFilter);
+    const initial=new URLSearchParams(location.search).get('author');
+    if(initial&&[...author.options].some(option=>option.value===initial)){author.value=initial;filter();}
+    form.addEventListener('submit',async event=>{
+      event.preventDefault();const version=++request;
+      const terms:string[]=normalizeQuery(query.value).split(/\s+/).filter(Boolean);
+      results.hidden=true;list.replaceChildren();
+      if(!terms.length){filter();status.textContent=cards.some(card=>!card.hidden)?'':form.dataset.none!;return;}
+      status.textContent=form.dataset.loading!;
+      try{
+        if(!index){const response=await fetch(form.dataset.index!);if(!response.ok)throw new Error('Search unavailable');index=await response.json();}
+        if(version!==request)return;
+        const found=new Set<string>();let count=0;
+        for(const edition of index!){
+          if(author.value&&edition.author!==author.value||language.value&&edition.language!==language.value)continue;
+          const meta=normalizeQuery(edition.title+' '+edition.author);
+          for(const [id,text] of edition.passages){
+            if(!terms.every(term=>normalizeQuery(meta+' '+text).includes(term)))continue;
+            found.add(edition.workId);
+            if(count++>=50)continue;
+            const item=document.createElement('li'),link=document.createElement('a'),excerpt=document.createElement('p');
+            link.href=form.dataset.base!+form.dataset.locale!+'/read/'+edition.workId+'/'+edition.editionId+'/#'+encodeURIComponent(id);
+            link.textContent=edition.title+' · '+edition.author+' · '+id.split(':').pop();
+            excerpt.lang=edition.language;excerpt.textContent=text.length>280?text.slice(0,280)+'…':text;
+            item.append(link,excerpt);list.append(item);
+          }
+        }
+        filter(found);results.hidden=count===0;status.textContent=count?Math.min(count,50)+(count>50?' / '+count:'')+' · '+form.dataset.results:form.dataset.none!;
+      }catch{if(version===request){status.textContent=form.dataset.unavailable!;filter();}}
+    });
+  }
+</script>
 </Base>

@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "work_id": "machado-um-apologo",
+  "segment_ids": [
+    "machado-um-apologo:1.1",
+    "machado-um-apologo:1.2",
+    "machado-um-apologo:1.3",
+    "machado-um-apologo:1.4",
+    "machado-um-apologo:1.5",
+    "machado-um-apologo:1.6",
+    "machado-um-apologo:1.7",
+    "machado-um-apologo:1.8",
+    "machado-um-apologo:1.9",
+    "machado-um-apologo:1.10",
+    "machado-um-apologo:1.11",
+    "machado-um-apologo:1.12",
+    "machado-um-apologo:1.13",
+    "machado-um-apologo:1.14",
+    "machado-um-apologo:1.15",
+    "machado-um-apologo:1.16",
+    "machado-um-apologo:1.17",
+    "machado-um-apologo:1.18",
+    "machado-um-apologo:1.19",
+    "machado-um-apologo:1.20",
+    "machado-um-apologo:1.21",
+    "machado-um-apologo:1.22"
+  ],
+  "deprecated_ids": {},
+  "notes": "Canonical units follow the historical witness’s prose paragraphs and separately indented dialogue. Page breaks and discretionary line-end hyphens are joined, without modernizing spelling. IDs are immutable and must never be reassigned. Full source-check and typographic notes are in corpus/editorial/source-checks/."
+}

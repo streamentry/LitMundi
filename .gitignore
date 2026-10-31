@@ -5,3 +5,7 @@ dist/
 !.env.example
 .DS_Store
 coverage/
+dist-archive/
+dist-archive.zip
+public/downloads/
+review-packets/

@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "work_id": "pardo-bazan-el-encaje-roto",
+  "segment_ids": [
+    "pardo-bazan-el-encaje-roto:1.1",
+    "pardo-bazan-el-encaje-roto:1.2",
+    "pardo-bazan-el-encaje-roto:1.3",
+    "pardo-bazan-el-encaje-roto:1.4",
+    "pardo-bazan-el-encaje-roto:1.5",
+    "pardo-bazan-el-encaje-roto:1.6",
+    "pardo-bazan-el-encaje-roto:1.7",
+    "pardo-bazan-el-encaje-roto:1.8",
+    "pardo-bazan-el-encaje-roto:1.9",
+    "pardo-bazan-el-encaje-roto:1.10",
+    "pardo-bazan-el-encaje-roto:1.11",
+    "pardo-bazan-el-encaje-roto:1.12",
+    "pardo-bazan-el-encaje-roto:1.13",
+    "pardo-bazan-el-encaje-roto:1.14",
+    "pardo-bazan-el-encaje-roto:1.15"
+  ],
+  "deprecated_ids": {},
+  "notes": "Canonical units follow the historical witness’s prose paragraphs and separately indented dialogue. Page breaks and discretionary line-end hyphens are joined, without modernizing spelling. IDs are immutable and must never be reassigned. Full source-check and typographic notes are in corpus/editorial/source-checks/."
+}

@@ -1,56 +1,61 @@
 # LitMundi
-**Great literature. Every language.** Open, accountable translations of the world's literary heritage.
 
-> Status: **first original source text published, translations under review**. The Oscar Wilde pilot is a source-checked 1913 English transcription; the Vietnamese AI-assisted draft is **not** a published or independently reviewed translation. The earlier Proust example remains a non-indexed demonstration.
+**Great literature. Every language.** An open literary library built around complete texts, traceable sources and accountable translation.
 
-## Mission
-Make culturally important literature accessible across languages where verified, complete, legally usable translations are missing or inaccessible. Value is measured by preservation, accuracy, discoverability and actual reading—not the number of machine-generated books.
+> Release state, 2026-11-01: **three source editions and three complete Vietnamese review drafts, covering 42 aligned passages**. No translation has the required independent human approval or cleared contributor license. Drafts are excluded from the public reader, search and publication downloads. The earlier Proust sample remains only as a non-indexed legacy demonstration.
 
-## Quick start
-Requires Node.js 22+.
-```bash
+## The first three works
+
+| Work | Original witness | Passages | Vietnamese status |
+| --- | --- | ---: | --- |
+| [Oscar Wilde — The Artist](docs/PILOT-WILDE-THE-ARTIST.md) | English; Methuen 1913, Gutenberg #774 | 5 | Revised draft; AI preflight 8.60 |
+| [Machado de Assis — Um Apólogo](docs/PILOT-MACHADO-UM-APOLOGO.md) | Portuguese; Laemmert 1896, pp. 253–257 | 22 | Complete draft; AI preflight 8.55 |
+| [Emilia Pardo Bazán — El encaje roto](docs/PILOT-PARDO-BAZAN-EL-ENCAJE-ROTO.md) | Spanish; Administración [1898?], pp. 233–239 | 15 | Complete draft; AI preflight 8.43 |
+
+Source checks disclose AI-assisted passage comparison and exact witnesses; they are not human-certified critical editions. AI scores are advisory and do not authorize publication. Each translated edition requires **two independent qualified human reviews, each ≥9.0**, plus all [quality and rights gates](docs/QUALITY.md).
+
+The [Translation Gap Atlas](docs/TRANSLATION-GAP-ATLAS.md) surveys **20 works across Vietnamese and Indonesian: 40 assessments, 12 original languages and 81 evidence records**. It records existing translations, bounded searches and uncertainty. It establishes no verified absence or independently assessed inadequacy, and no measured reader demand. Indonesian is a research comparator, not a production commitment.
+
+## Read and contribute
+
+The [GitHub Pages library](https://streamentry.github.io/LitMundi/) has English, Vietnamese, French and Spanish interfaces. Interface languages do not promise translated editions. Readers can browse by author or text language, search published text, follow stable passage links, submit corrections through GitHub and download JSON, TXT or EPUB. TSV is also generated as a portable export.
+
+The reader supports keyboard navigation, mobile layouts, edition selection and optional reading-position storage on the reader's own device. Published translations can display their original alongside the documented passage alignment; no unpublished draft is used to populate that view. Reading and browsing require no account. Submitting an issue uses GitHub's own sign-in.
+
+## Develop and verify
+
+Requires Node.js 22+ and Python 3 for archive verification. Dependencies are locked in `package-lock.json`.
+
+```sh
 npm ci
 npm run validate
 npm run quality:status
 npm test
-npm run dev
+npm run check
 npm run build
+npm run verify:build
 npm run export
+npm run verify:archive
 ```
-Open http://localhost:4321. Locales: English, Vietnamese, French and Spanish. UI locales are **not** promises of available translations.
 
-## Design
-- Astro static website, no application database, no runtime server required.
-- Canonical [corpus v2](corpus/README.md) in UTF-8 JSON; segment-level IDs aligned across languages, modeled after [SuttaCentral Bilara](https://github.com/suttacentral/bilara-data). Editions have independent immutable identities, primary-source witness metadata, rights records and explicit alignments.
-- Stable URLs: `/<ui-locale>/works/<work-id>/` and `/<ui-locale>/read/<work-id>/<edition-id>/#<segment-id>`. Legacy Proust `/fr/` route remains a canonicalized alias.
-- GitHub issues are the feedback and moderation workflow; no local account records or fake GitHub OAuth flows.
-- Published text is immutable by ID; corrections are reviewed PRs with Git history.
-- **Published translations** require rights provenance, translator consent, full alignment, and **two independent bilingual reviews each scoring ≥9/10 on the [literary rubric](docs/QUALITY.md)**, with hashes tied to current source and target. AI self-scoring can inform editing but never unlock publishing. Machine-verifiable gates run on every CI build.
-- Content and presentation separately licensed: [MIT](LICENSE) code; **corpus files are NOT automatically MIT or CC0**; see [RIGHTS](docs/RIGHTS.md).
-- Archive preservation means open standards, independent mirrors, checksums, governance continuity and periodic migration. No platform can guarantee 1000 years.
+Use `npm run dev` for the local reader at `http://localhost:4321/LitMundi/`. On restricted workstations, `ASTRO_TELEMETRY_DISABLED=1` avoids writing optional Astro telemetry settings. Before a PR, run `npm run verify:ids -- <base-commit>` to check that established identities and legacy URLs remain intact.
 
-## Roadmap and governance
-[Roadmap](docs/ROADMAP.md) · [Architecture](docs/ARCHITECTURE.md) · [Preservation](docs/PRESERVATION.md) · [Rights](docs/RIGHTS.md) · [Contributing](CONTRIBUTING.md) · [Governance](GOVERNANCE.md) · [Security](SECURITY.md) · [ADR index](docs/adr/README.md).
+## Durable architecture
 
-### Feedback
-The site links readers directly to GitHub's new-issue flow. GitHub handles login; readers need a GitHub account to submit. Work/segment/language metadata prefill the form; editorial approval happens through pull requests. GitHub Discussions is not enabled on this repository. Do not promise embedded comments until a separate, security-reviewed design is adopted.
+[UTF-8 JSON corpus v2](corpus/README.md) is the system of record. Astro is a replaceable static view; there is no database, site-owned account system or OAuth secret. Work, edition and passage identifiers remain stable while reviewed corrections remain in Git history.
 
-## Deployment (GitHub Pages)
-Every pull request is validated and built; pushes to `main` deploy via GitHub Actions to **https://streamentry.github.io/LitMundi/**. The Astro build uses a `/LitMundi/` base path, and site URLs use the shared `pagePath()` helper. No custom domain or credential is required.
+`npm run build` creates publication downloads only for eligible published editions. `npm run export` creates a separate **editorial archive** with canonical data, labelled drafts and review packets, rights, provenance, schemas, documentation, deterministic ZIP packaging and SHA-256 fixity records. That archive grants no blanket license to its drafts. A standalone Python 3 restorer rebuilds published HTML/TXT without Astro, npm, GitHub, network access or the original domain. See [Preservation](docs/PRESERVATION.md).
 
-**Pages activation:** repository Settings → Pages → Build and deployment → Source: **GitHub Actions**. Pages was initialized successfully through GitHub Actions on 2026-10-31; if recreating or forking the repository, an administrator may need to select the publishing source once. See [Deployment operations](docs/DEPLOYMENT.md).
+## Deployment and remaining work
 
-The website publishes one complete source-checked original-language prose poem [Oscar Wilde, “The Artist”](docs/PILOT-WILDE-THE-ARTIST.md). Unreviewed translations and demo editions are excluded from public reading and indexing. The `litmundi.org` domain is neither verified nor configured.
+Pull requests are validated and built. A successful push to `main` deploys through the pinned [GitHub Actions workflow](.github/workflows/ci.yml) to `https://streamentry.github.io/LitMundi/`. Follow [Deployment](docs/DEPLOYMENT.md) to verify the actual production run and routes; a local build is not proof of deployment. No custom domain is configured.
 
-## Credits
-LitMundi draws architectural inspiration from SuttaCentral/Bilara's language-aligned segment JSON model. It is independent of SuttaCentral. All corpus works must credit their individual source editions and translators.
+The highest-value next step is a real bilingual review of the short Wilde draft, followed by the second independent review and contributor permission. Reader feedback, committed reviewers and independent archival mirrors remain outstanding. GitHub's 30-day workflow artifact retention is not an independent mirror.
 
-## First pilot
-- [The Artist — provenance, legal review and literary-editor checklist](docs/PILOT-WILDE-THE-ARTIST.md)
-- [Corpus schema and alignment format](corpus/README.md)
-- Current source reading: https://streamentry.github.io/LitMundi/en/read/wilde-the-artist/wilde-artist-en-methuen-1913/
+[Editorial workflow](docs/EDITORIAL-WORKFLOW.md) · [Contributing](CONTRIBUTING.md) · [Architecture](docs/ARCHITECTURE.md) · [Roadmap](docs/ROADMAP.md) · [Governance](GOVERNANCE.md) · [Rights](docs/RIGHTS.md) · [ADRs](docs/adr/README.md)
 
-**Important:** The presence of a source edition does not establish that a target-language translation gap exists. The first pilot is deliberately an integrity test, not a claim of market demand.
+## Licensing and credit
 
-## Quality scoring and publication
-The first Vietnamese Wilde draft has an **AI-only preliminary score of 8.6/10** after source comparison and revision. This is not an independent quality certificate, so it is withheld from public reading. See [the detailed rubric](docs/QUALITY.md), [pilot dossier](docs/PILOT-WILDE-THE-ARTIST.md) and [open editorial issue](https://github.com/streamentry/LitMundi/issues/2). Once contributors submit two independent evidence-backed human reviews scoring ≥9, and rights/editorial conditions are met, changing the edition state to `published` through a reviewed PR triggers automatic GitHub Pages deployment. No background grading agent runs.
+The [MIT license](LICENSE) covers software and documentation. Corpus texts have **per-edition rights**, not an automatic MIT or CC0 license. Cite the selected original witness and credited contributors before reuse.
+
+The passage-aligned JSON model draws inspiration from [SuttaCentral/Bilara](https://github.com/suttacentral/bilara-data). LitMundi is independent of SuttaCentral. The aim is a small library readers value and can lawfully preserve, not a count of generated books.

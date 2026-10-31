@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "work_id": "pardo-bazan-el-encaje-roto",
+  "edition_id": "pardo-encaje-vi-ai-draft-2026",
+  "source_edition_id": "pardo-encaje-es-administracion-c1898",
+  "title_vi": "Dải ren rách",
+  "updated_at": "2026-11-01",
+  "stage": "awaiting_independent_human_review",
+  "translation_direction": "es → vi; direct from Spanish Administración [1898?] facsimile transcription",
+  "source_sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e",
+  "target_sha256": "400ff0ff139097327a9fb032cd3f02061a704a847cb26d8f8270f8acea17f1c8",
+  "coverage": {
+    "canonical_passages": 15,
+    "translated_passages": 15,
+    "aligned_passages": 15
+  },
+  "ai_disclosure": "The draft, these notes and preliminary scores were prepared by AI-assisted agents. Multiple AI reads are not independent human certification. No named human translator/editor, reviewer qualification, review approval, open-license permission or reader response is invented.",
+  "glossary": [
+    {
+      "source_term": "encaje / volante de encaje",
+      "draft_rendering": "ren / dải ren xếp nếp",
+      "alternatives": [
+        "đường diềm ren"
+      ],
+      "rationale": "The lace is both a specific garment trimming and a repeated fragile/strong image. Keep it distinct from the satin dress and the tulle veil.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.10",
+        "pardo-bazan-el-encaje-roto:1.11"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Alenzón / una tercia",
+      "draft_rendering": "Alençon / một tercia",
+      "alternatives": [
+        "ren Alençon / rộng một phần ba vara"
+      ],
+      "rationale": "The original’s historical Alenzón spelling is retained in Spanish; the Vietnamese uses the established French place name. RAE defines tercia as one third of a vara. Retain the unit and explain in notes, rather than silently convert a locally variable historical measure into an exact centimeter value.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.10"
+      ],
+      "evidence_urls": [
+        "https://dle.rae.es/tercio"
+      ]
+    },
+    {
+      "source_term": "mantilla / tul / raso",
+      "draft_rendering": "khăn mantilla / vải tuyn / sa tanh",
+      "alternatives": [
+        "khăn trùm ren / màn tuyn / lụa sa tanh"
+      ],
+      "rationale": "Keep the three textiles and uses distinct. Mantilla is identified by the text’s action of putting it over the head; no unsupported lace material is added to that particular garment.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.3",
+        "pardo-bazan-el-encaje-roto:1.4",
+        "pardo-bazan-el-encaje-roto:1.11"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "roca antigua del aderezo nupcial",
+      "draft_rendering": "những viên đá quý cổ trong bộ trang sức cưới",
+      "alternatives": [
+        "đá quý cổ của bộ trang sức cưới"
+      ],
+      "rationale": "Provisional contextual reading of the bridal jewels. The singular/collective roca is not securely resolved as a specific mineral or cut by the modern RAE entry; do not confidently claim diamond or rock crystal. A historical costume/jewelry source is still needed.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.4"
+      ],
+      "evidence_urls": [
+        "https://dle.rae.es/roca"
+      ]
+    },
+    {
+      "source_term": "departamento lleno de azahar",
+      "draft_rendering": "cả một khoang hoa cam",
+      "alternatives": [
+        "cả khoang chật hoa cam",
+        "một khoang tàu đầy hoa cam"
+      ],
+      "rationale": "Probably a transport compartment in context, but the Spanish does not explicitly name a train. The draft leaves the vehicle unspecified; the logistics are subordinate to the extravagant display.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.3"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "logogrifo",
+      "draft_rendering": "câu đố hóc búa",
+      "alternatives": [
+        "câu đố chữ"
+      ],
+      "rationale": "Retain the narrator’s framing of the refusal as an enigma. A fully literal word-puzzle gloss could distract from the figurative use.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "un decir Jesús",
+      "draft_rendering": "trong chớp mắt, vừa đủ thốt tiếng Giêsu",
+      "alternatives": [
+        "trong chớp mắt"
+      ],
+      "rationale": "The idiom means an instant; retain its religious utterance as well as the temporal meaning, but evaluate whether the explanatory doubling is too obtrusive.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.8"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "violento / fiera y avinagrada condición",
+      "draft_rendering": "tính khí hung bạo / tính nết hung hãn, chua cay",
+      "alternatives": [
+        "dữ dằn / hung tợn, cay nghiệt"
+      ],
+      "rationale": "The first draft’s nóng nảy underweighted the warning. Corrected after adversarial AI feedback. Do not go beyond the text to assert a documented act of physical abuse or translate it as vũ phu.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.9"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "se alzó un telón / apareció desnuda un alma",
+      "draft_rendering": "một bức màn được vén lên / một tâm hồn trần trụi",
+      "alternatives": [
+        "màn sân khấu kéo lên / tâm hồn lộ trần"
+      ],
+      "rationale": "Theatrical exposure of character is paired with tearing textile; keep the image rather than replace it with an abstract diagnosis.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.11"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "no / sí",
+      "draft_rendering": "“không” / “có”",
+      "alternatives": [
+        "“không” / “đồng ý”"
+      ],
+      "rationale": "Spoken refusal/assent are quoted in Vietnamese. Without the quotes, tiếng không rõ ràng can be read as an unclear sound, reversing the force of a clear refusal. The source’s corresponding italics are recorded in source-check metadata.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.1",
+        "pardo-bazan-el-encaje-roto:1.4",
+        "pardo-bazan-el-encaje-roto:1.6",
+        "pardo-bazan-el-encaje-roto:1.13"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "decisions": [
+    {
+      "id": "pardo-2026-11-01-01",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.1",
+        "pardo-bazan-el-encaje-roto:1.4",
+        "pardo-bazan-el-encaje-roto:1.6",
+        "pardo-bazan-el-encaje-roto:1.13"
+      ],
+      "proposal": "Transcribe spoken no/sí as unmarked Vietnamese không/có.",
+      "outcome": "Rejected; quote “không” and “có” throughout the vows/refusal context.",
+      "rationale": "An unmarked không before rõ ràng accidentally reads as negating clarity. This was a substantive ambiguity, now corrected.",
+      "status": "rejected_then_revised"
+    },
+    {
+      "id": "pardo-2026-11-01-02",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.9"
+      ],
+      "proposal": "Translate violento as nóng nảy.",
+      "outcome": "Corrected to tính khí hung bạo after independent AI adversarial feedback.",
+      "rationale": "The weaker term softened the bride’s warning; the revised term does not invent a witnessed physical assault.",
+      "status": "adopted"
+    },
+    {
+      "id": "pardo-2026-11-01-03",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.3",
+        "pardo-bazan-el-encaje-roto:1.4"
+      ],
+      "proposal": "Break the elaborate imagined ceremony into short modern paragraphs.",
+      "outcome": "Rejected; preserve the historical witness’s long accumulating paragraphs and narrator’s imagined status.",
+      "rationale": "The narrator did not attend the wedding; her imagined social spectacle must not become eyewitness testimony.",
+      "status": "rejected"
+    },
+    {
+      "id": "pardo-2026-11-01-04",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.9",
+        "pardo-bazan-el-encaje-roto:1.11",
+        "pardo-bazan-el-encaje-roto:1.12"
+      ],
+      "proposal": "Explain the fiancé with a modern psychiatric or domestic-abuse label.",
+      "outcome": "Rejected; keep Micaelita’s reported observations, suspicion and resolve without new diagnosis.",
+      "rationale": "The original centers a woman’s right to refuse and the meaning she assigns to a moment, not a clinical fact claim.",
+      "status": "rejected"
+    },
+    {
+      "id": "pardo-2026-11-01-05",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.10"
+      ],
+      "proposal": "Silently convert tercia to approximately 28 cm.",
+      "outcome": "Not adopted; retain tercia with a source-backed glossary definition.",
+      "rationale": "Exact historical measurement varies; a rounded modern value belongs in a qualified note if later added.",
+      "status": "rejected"
+    },
+    {
+      "id": "pardo-encaje-vi-ai-draft-2026-adversarial-final-1",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.11"
+      ],
+      "proposal": "Anh chưa nói đến thế",
+      "outcome": "Anh không buông ra những lời ấy",
+      "rationale": "No llegó á tanto describes an aborted insult; chưa adds a not-yet implication which the source does not establish.",
+      "status": "adopted"
+    },
+    {
+      "id": "pardo-encaje-vi-ai-draft-2026-adversarial-final-2",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.12"
+      ],
+      "proposal": "giận dữ, cứng rắn, khinh miệt",
+      "outcome": "giận dữ, khắc nghiệt, khinh miệt",
+      "rationale": "In this sequence dureza is harshness, not neutral or admirable firmness.",
+      "status": "adopted"
+    },
+    {
+      "id": "pardo-encaje-vi-ai-draft-2026-adversarial-final-3",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.3"
+      ],
+      "proposal": "giới người chứng kiến nó",
+      "outcome": "khung cảnh xã hội nơi chuyện xảy ra",
+      "rationale": "Medio ambiente includes the social setting and constraints, not only the onlookers.",
+      "status": "adopted"
+    }
+  ],
+  "preflight_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-preflight-2026-11-01.json",
+  "review_process": {
+    "entry_conditions": [
+      "Complete named-source text and aligned translation; exact content hashes attached.",
+      "Read the source and target before opening model score records to avoid anchoring."
+    ],
+    "required_reviewers": 2,
+    "qualified_human_reviewers_obtained": 0,
+    "human_editorial_contributor_obtained": false,
+    "open_license_permission_obtained": false,
+    "exit_conditions": [
+      "Each independent qualified bilingual human reviewer >=9.0 weighted, fidelity >=9.0, other dimensions >=8.0.",
+      "All passages reviewed; no unresolved major/critical errors; review digests match the final texts.",
+      "Maintainer authenticates qualifications, independence, review evidence, named editorial contribution and affirmative open-license permission."
+    ]
+  },
+  "unresolved_questions": [
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.4",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Roca antigua is rendered generally as antique precious stones; the exact historical jewelry sense and singular/collective force remain uncertain."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.8",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The idiom un decir Jesús is rendered with both a time gloss and the religious utterance. A bilingual editor should decide whether this doubles the explanation and slows the conversational voice."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The long ceremony paragraph preserves the source’s accumulating clauses, but Vietnamese breath groups and social-register terms still require read-aloud literary revision."
+    }
+  ],
+  "selection_limit": "This is a limited editorial feasibility pilot, not evidence of an absent Vietnamese translation or verified reader demand. The Translation Gap Atlas records evidence and search limitations; no expansion is justified before real reader feedback and reviewer capacity.",
+  "additional_adversarial_read": {
+    "review_kind": "ai_assisted_not_human",
+    "date": "2026-11-01",
+    "pre_revision_target_sha256": "2d23eabab2bd956a5ffcb3927203de616458005d3d53c5196735e6d939639ecd",
+    "changes_recorded": 3,
+    "limitation": "The additional agent read is correlated AI evidence and does not count as an independent qualified human review. No new approval authority or score increase is inferred."
+  }
+}

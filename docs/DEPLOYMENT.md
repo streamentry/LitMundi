@@ -1,37 +1,67 @@
 # GitHub Pages deployment
 
-## Production URL
-- Repository: https://github.com/streamentry/LitMundi
-- Canonical Pages URL: https://streamentry.github.io/LitMundi/
-- Site interface language variants: `/LitMundi/en/`, `/LitMundi/vi/`, `/LitMundi/fr/`, `/LitMundi/es/`.
-- No custom domain is configured. Do not add a CNAME until DNS and domain ownership are verified.
+## Target and routes
 
-## How CI/CD works
-One workflow (`.github/workflows/ci.yml`) runs checks on pull requests and pushes:
-1. Reproducible `npm ci` from committed `package-lock.json`, validate JSON corpus and tests.
-2. Compile Astro as a static site, verify all internal paths use `/LitMundi/`, and export preservation archive.
-3. On `main` only, upload the static `dist/` artifact.
-4. Deploy through GitHub Pages using short-lived GitHub Actions OIDC. The workflow never needs a personal access token.
+- Repository: <https://github.com/streamentry/LitMundi>
+- Canonical site: <https://streamentry.github.io/LitMundi/>
+- Interface roots: `/LitMundi/en/`, `/LitMundi/vi/`, `/LitMundi/fr/`, `/LitMundi/es/`.
+- No custom domain is configured. Do not add a CNAME without verified ownership and DNS.
 
-Deployments are serialized per ref and use the dedicated `github-pages` environment. Action revisions are pinned to immutable commit SHAs.
+The target URL and local build do not prove a new release is live. Record the completed deployment run and verify production after merge.
 
-## First-time activation
-1. Go to **https://github.com/streamentry/LitMundi/settings/pages**.
-2. Under **Build and deployment**, confirm **Source** is **GitHub Actions** (not Deploy from a branch). As of 2026-10-31, LitMundi's source is enabled and its initial deployment has succeeded.
-3. Go to **Actions**, review `CI and Deploy to GitHub Pages`, and rerun if the earlier deployment was blocked by Pages initialization.
-4. Confirm the workflow's `deploy` job is green, then visit https://streamentry.github.io/LitMundi/vi/.
+## CI/CD contract
 
-The workflow runs `actions/configure-pages` before deployment, which may initialize Pages automatically in some configurations. If it fails due to insufficient repository administration permission, step 2 must be done by a repository administrator; do not add a PAT secret.
+The pinned [workflow](../.github/workflows/ci.yml) runs on PRs, pushes to `main` and manual dispatch:
 
-## Troubleshooting
-- **404 under /en or /vi:** Confirm Astro config `base: '/LitMundi'` and `pagePath` use; inspect `npm run verify:build`.
-- **Deploy error: Pages not found or source not Actions:** Activate source in Settings > Pages.
-- **No deploy on PR:** Intentional: PRs are tests only, never production publishing.
-- **Site seems stale:** Check completed deployment run, CDN propagation, browser cache.
-- **Cannot resolve website:** Verify Pages deployment green and repo visibility public.
+1. Check out full Git history (`fetch-depth: 0`) and install locked dependencies with `npm ci`.
+2. Validate schemas, corpus, Atlas and publication gates. Compare established IDs and legacy URLs against the PR base or preceding push commit with `verify:ids`.
+3. Report quality state, run tests, build the static site and generated publication downloads, and verify routes, links, SEO and draft exclusion.
+4. Export the editorial archive and run deterministic, isolated offline restoration checks.
+5. Upload the archive ZIP and manifest digest as a workflow artifact with **30-day retention**.
+6. On `main` only, upload `dist/` and deploy through GitHub Pages with short-lived Actions OIDC credentials.
 
-## Custom domain migration
-Once the owner verifies domain/DNS, update `site` and `base` in `astro.config.mjs`, adapt `scripts/verify-build.mjs` and `public/404.html`, and configure the same domain in GitHub Pages settings. Keep permanent redirects from the existing repository URL where feasible. Do not change content identifiers.
+PRs do not deploy production. The archive artifact includes labelled editorial drafts and rights restrictions; it is separate from website downloads and is not an independent mirror. Deployments are serialized per ref. No personal access token or site-owned login secret is needed.
 
-## Operational notes
-GitHub Pages has no server runtime or private state. GitHub handles issue author login on its own domain. GitHub Pages is convenient distribution, **not an archival backup**. Independently export and mirror the content according to PRESERVATION.md.
+## Local release checks
+
+```sh
+npm ci
+npm run validate
+npm run verify:ids -- <base-commit>
+npm run quality:status
+npm test
+npm run check
+npm run build
+npm run verify:build
+npm run export
+npm run verify:archive
+```
+
+On a restricted workstation, use `ASTRO_TELEMETRY_DISABLED=1` if optional telemetry settings cannot be written. CI already sets it. `quality:status` correctly reports the three Vietnamese drafts as blocked; that is distinct from a failed mechanical build.
+
+## Production verification
+
+After the `Deploy public site` job succeeds, verify the deployed revision and actual URLs:
+
+```sh
+npm run verify:deployed -- --output /tmp/litmundi-production-check.json
+```
+
+This read-only check compares production routes, complete passage text, provenance, publication downloads and their hashes against the validated local checkout. It also checks that draft/planned/withdrawn reader routes return 404. Keep the deployment run and commit SHA alongside the resulting report; do not run it against a checkout different from the intended release.
+
+- All four interface roots, each public work and source-edition route, the sitemap and 404 page.
+- Language switching keeps the work/edition and passage context; text-language fallback is explicit.
+- Published text search, author/language filters, JSON/TXT/EPUB downloads, provenance and copyright notices.
+- Passage permalinks and GitHub correction links contain the correct work, edition and segment. Inspect the issue form without submitting a fabricated reader report.
+- No draft reader route, draft search text or publication download appears. Legacy demonstration aliases remain non-indexed.
+- Mobile layout and keyboard reading/edition navigation. Optional saved position stays local and can be cleared.
+
+Retain observed checks and failures in [verification records](verification/README.md). Browser automation confirms behavior, not real-reader demand or human literary approval.
+
+## Initial activation and troubleshooting
+
+For a new fork, an administrator may need to select **Settings → Pages → Build and deployment → GitHub Actions**. The original repository's initial Pages deployment was established on 2026-10-31. If `configure-pages` lacks administration permission, configure the setting rather than adding a PAT secret.
+
+For a route 404, check Astro's `/LitMundi/` base and shared URL helpers, then run `verify:build`. For a stale site, inspect the actual deployment run and cache propagation. A successful PR build intentionally has no deployment. Archive failures must be fixed before treating the snapshot as restorable.
+
+A later domain migration requires updating the site/base configuration and verification assumptions while preserving work, edition and passage IDs and redirects where available. GitHub Pages remains replaceable distribution; use [Preservation](PRESERVATION.md) for independent recovery.

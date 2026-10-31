@@ -28,5 +28,35 @@
       "status": "unverified",
       "notes": "Demonstration only."
     }
+  },
+  {
+    "id": "machado-um-apologo",
+    "title": "Um Apólogo",
+    "author": "Machado de Assis",
+    "author_death_year": 1908,
+    "first_published_year": 1885,
+    "original_language": "pt",
+    "genre": "short_story",
+    "description": "A needle and a thread dispute who deserves the credit in a brief Brazilian satire of labor, vanity and social advancement.",
+    "visibility": "public",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Selected as a bounded direct-translation and editorial feasibility pilot after Translation Gap Atlas research. No exact Vietnamese or Indonesian version was located in the recorded bounded searches; that is not proof of absence, inaccessibility or inadequate quality. Reader demand and qualified reviewer capacity remain unverified."
+    }
+  },
+  {
+    "id": "pardo-bazan-el-encaje-roto",
+    "title": "El encaje roto",
+    "author": "Emilia Pardo Bazán",
+    "author_death_year": 1921,
+    "first_published_year": 1897,
+    "original_language": "es",
+    "genre": "short_story",
+    "description": "A bride refuses her vows; years later she explains a fleeting glimpse of her fiancé’s character. A Spanish story about social appearances and a woman’s power to refuse.",
+    "visibility": "public",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Selected as a bounded direct-translation and editorial feasibility pilot after Translation Gap Atlas research. No exact Vietnamese or Indonesian version was located in the recorded bounded searches; that is not proof of absence, inaccessibility or inadequate quality. Reader demand and qualified reviewer capacity remain unverified."
+    }
   }
 ]

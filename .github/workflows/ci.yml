@@ -9,6 +9,9 @@ on:
 permissions:
   contents: read
 
+env:
+  ASTRO_TELEMETRY_DISABLED: '1'
+
 concurrency:
   group: litmundi-pages-${{ github.ref }}
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
@@ -20,6 +23,8 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
       - name: Set up Node.js
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
@@ -29,16 +34,32 @@ jobs:
         run: npm ci --no-audit --no-fund
       - name: Validate corpus
         run: npm run validate
+      - name: Preserve canonical identifiers and legacy URLs
+        env:
+          LITMUNDI_BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before || github.sha }}
+        run: npm run verify:ids
       - name: Quality rubric status
         run: npm run quality:status
       - name: Test
         run: npm test
+      - name: Check Astro types
+        run: npm run check
       - name: Build Astro
         run: npm run build
       - name: Verify GitHub Pages routing
         run: npm run verify:build
       - name: Test preservation export
         run: npm run export
+      - name: Verify deterministic archive and isolated offline restoration
+        run: npm run verify:archive
+      - name: Retain editorial archive and review packets
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: litmundi-editorial-archive-${{ github.sha }}
+          path: |
+            dist-archive.zip
+            dist-archive/manifest.sha256
+          retention-days: 30
       - name: Upload GitHub Pages artifact
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4

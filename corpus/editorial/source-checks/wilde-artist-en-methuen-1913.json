@@ -1,0 +1,24 @@
+{
+  "edition_id": "wilde-artist-en-methuen-1913",
+  "work_id": "wilde-the-artist",
+  "checked_at": "2026-11-01",
+  "checker_kind": "ai_assisted",
+  "source_sha256": "bd014887242c1b44ed98a4a9e1f8568494173d3fedb0ecf4fd9951c808fcf4ef",
+  "segments_checked": [
+    "wilde-the-artist:1.1",
+    "wilde-the-artist:1.2",
+    "wilde-the-artist:1.3",
+    "wilde-the-artist:1.4",
+    "wilde-the-artist:1.5"
+  ],
+  "witness_url": "https://www.gutenberg.org/cache/epub/774/pg774-images.html",
+  "witness_pages": [
+    "227",
+    "228"
+  ],
+  "notes": "Re-fetched the exact Gutenberg #774 HTML witness; extracted The Artist section and compared all five paragraph strings after HTML and whitespace normalization. Exact match, 5/5; source JSON left unchanged. AI-assisted passage comparison confirmed completeness and the ambiguous one thing/dead thing wording. No newly verified physical facsimile or independent human review is claimed. The 1913 witness identification is Gutenberg’s transcription statement; the 1894 manuscript is a different witness.",
+  "witness_sha256": "6abd624c98126962e9f1ff5230faf010770cdacb3764a3dd9732fdc3722866c2",
+  "normalization_decisions": [
+    "HTML tags, page markers, repeated spaces and nonbreaking spaces normalized for comparison only. Canonical JSON preserves the original wording and capitalization."
+  ]
+}

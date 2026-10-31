@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "work_id": "pardo-bazan-el-encaje-roto",
+  "edition_id": "pardo-encaje-vi-ai-draft-2026",
+  "source_edition_id": "pardo-encaje-es-administracion-c1898",
+  "links": [
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.1"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.1"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.2"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.2"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.3"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.3"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.4"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.4"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.5"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.5"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.6"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.6"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.7"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.7"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.8"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.8"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.9"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.9"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.10"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.10"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.11"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.11"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.12"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.12"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.13"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.13"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.14"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.14"
+      ]
+    },
+    {
+      "source": [
+        "pardo-bazan-el-encaje-roto:1.15"
+      ],
+      "target": [
+        "pardo-bazan-el-encaje-roto:1.15"
+      ]
+    }
+  ]
+}

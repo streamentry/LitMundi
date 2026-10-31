@@ -1,50 +1,36 @@
+import Ajv2020 from 'ajv/dist/2020.js';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {assessReview,assessPublication,checkRubric,weightedScore} from './lib/quality.mjs';
+import {assessReview,assessPublication,checkRubric} from './lib/quality.mjs';
 
 const errors = [];
+function rejectSymlinks(directory){
+  if(fs.lstatSync(directory).isSymbolicLink())throw new Error('Canonical data may not use symlinks: '+directory);
+  for(const entry of fs.readdirSync(directory,{withFileTypes:true})){
+    const child=path.join(directory,entry.name);
+    if(entry.isSymbolicLink())throw new Error('Canonical data may not use symlinks: '+child);
+    if(entry.isDirectory())rejectSymlinks(child);
+  }
+}
+rejectSymlinks('corpus');
+rejectSymlinks('research');
 const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
 const exists = p => fs.existsSync(p);
 const works = read('corpus/catalog/works.json');
 const editions = read('corpus/catalog/editions.json');
 const languages = read('corpus/catalog/languages.json');
-const schemas = Object.fromEntries(['work','edition','structure','alignment','review'].map(x => [x, read('corpus/schemas/'+x+'.schema.json')]));
+const schemas = Object.fromEntries(['work','edition','structure','alignment','review','source-check'].map(x => [x, read('corpus/schemas/'+x+'.schema.json')]));
 const fail = message => errors.push(message);
 const check = (condition, message) => { if(!condition) fail(message); };
+const webUrl = value => {try {return ['https:','http:'].includes(new URL(value).protocol);} catch {return false;}};
 
+const ajv = new Ajv2020({allErrors:true,strict:true,strictRequired:false});
+const validators = new Map();
 function schemaCheck(value, schema, at) {
-  const types = schema.type ? (Array.isArray(schema.type) ? schema.type : [schema.type]) : [];
-  const accepts = type => ({
-    null: value === null,
-    string: typeof value === 'string',
-    object: value !== null && typeof value === 'object' && !Array.isArray(value),
-    array: Array.isArray(value),
-    integer: typeof value === 'number' && Number.isInteger(value),
-    number: typeof value === 'number' && Number.isFinite(value),
-    boolean: typeof value === 'boolean'
-  })[type] === true;
-  if(types.length && !types.some(accepts)){ fail(at+' has wrong type (expected '+types.join('|')+')'); return; }
-  if(Object.hasOwn(schema, 'const')) check(value === schema.const, at+' differs from fixed schema value');
-  if(schema.enum) check(schema.enum.includes(value), at+' outside schema enumeration');
-  if(typeof value==='string'){
-    if(schema.minLength!==undefined) check(value.length>=schema.minLength,at+' too short');
-    if(schema.pattern) check(new RegExp(schema.pattern).test(value),at+' fails pattern');
-  }
-  if(Array.isArray(value)){
-    if(schema.minItems!==undefined) check(value.length>=schema.minItems,at+' has too few items');
-    if(schema.uniqueItems) check(new Set(value.map(v=>JSON.stringify(v))).size===value.length,at+' has duplicates');
-    if(schema.items) value.forEach((v,i)=>schemaCheck(v,schema.items,at+'['+i+']'));
-  }
-  if(value!==null&&typeof value==='object'&&!Array.isArray(value)){
-    for(const k of schema.required??[])check(Object.hasOwn(value,k),at+' missing '+k);
-    for(const [key,v] of Object.entries(value)){
-      const child=schema.properties?.[key];
-      if(child) schemaCheck(v,child,at+'.'+key);
-      else if(schema.additionalProperties===false)fail(at+' has unsupported property '+key);
-      else if(typeof schema.additionalProperties==='object')schemaCheck(v,schema.additionalProperties,at+'.'+key);
-    }
-  }
+  if (!validators.has(schema)) validators.set(schema, ajv.compile(schema));
+  const validate=validators.get(schema);
+  if (!validate(value)) for (const error of validate.errors) fail(at+error.instancePath+' '+error.message);
 }
 
 works.forEach((w,i)=>schemaCheck(w,schemas.work,'works['+i+']'));
@@ -78,6 +64,8 @@ for(const e of editions) {
   editionIds.add(e.id); editionById.set(e.id,e);
   check(workIds.has(e.work_id),'Orphan edition '+e.id);
   check(Object.hasOwn(languages,e.language),'Unknown edition language '+e.id);
+  for(const url of [...e.rights.evidence_urls,...e.review.evidence_urls,e.provenance.catalog_url,e.provenance.text_url].filter(v=>v!==null))
+    check(webUrl(url),'Invalid or unsafe evidence URL in '+e.id);
   for(const slug of [e.id,...e.legacy_slugs]){
     const route=e.work_id+'/'+slug;
     check(!publicRoutes.has(route),'Conflicting edition URL '+route);
@@ -107,7 +95,7 @@ for(const e of editions) {
   if(file!==null){
     const safe=file==='corpus/segments/demo-proust/fr.json' ||
       file==='corpus/segments/'+e.work_id+'/'+e.id+'.json';
-    check(safe,'Unexpected edition data path '+file);
+    if(!safe){fail('Unexpected edition data path '+file);continue;}
     if(!exists(file)){fail('Missing edition data '+file);continue;}
     const data=read(file);
     const s=structureMap.get(e.work_id);
@@ -122,9 +110,9 @@ for(const e of editions) {
           check(!/<\s*(script|iframe|img|a)(\s|>)/i.test(value),'HTML found in prose '+id);
         }
       }
-      if(e.status==='published'){
-        check(Object.keys(data).length===s.segment_ids.length,'Published work incomplete '+e.id);
-        check(s.segment_ids.every(id=>Object.hasOwn(data,id)),'Published edition missing canonical passages '+e.id);
+      if(['published','draft'].includes(e.status)){
+        check(Object.keys(data).length===s.segment_ids.length,'Complete edition incomplete '+e.id);
+        check(s.segment_ids.every(id=>Object.hasOwn(data,id)),'Complete edition missing canonical passages '+e.id);
       }
     }
   }
@@ -147,13 +135,17 @@ for(const e of editions) {
   check(data.work_id===e.work_id&&data.edition_id===e.id&&data.source_edition_id===e.source_edition_id,'Alignment edition mismatch '+e.id);
   const original=source?.content_path&&exists(source.content_path)?read(source.content_path):{};
   const target=read(e.content_path);
-  const targetIds=[];
+  const targetIds=[],sourceIds=[];
   for(const link of data.links){
-    for(const id of link.source)check(Object.hasOwn(original,id),'Alignment points to absent source passage '+id);
+    for(const id of link.source){check(Object.hasOwn(original,id),'Alignment points to absent source passage '+id);sourceIds.push(id);}
     for(const id of link.target){check(Object.hasOwn(target,id),'Alignment points to absent target passage '+id);targetIds.push(id);}
   }
   check(new Set(targetIds).size===targetIds.length,'Duplicate target alignment '+e.id);
-  if(e.status==='published')check(targetIds.length===Object.keys(target).length,'Published translation has unaligned passages '+e.id);
+  check(new Set(sourceIds).size===sourceIds.length,'Duplicate source alignment '+e.id);
+  if(['published','draft'].includes(e.status)){
+    check(targetIds.length===Object.keys(target).length,'Complete translation has unaligned target passages '+e.id);
+    check(sourceIds.length===Object.keys(original).length,'Complete translation omits source passages '+e.id);
+  }
 }
 
 
@@ -165,6 +157,18 @@ for(const e of editions) {
 const rubric = read('corpus/reviews/rubric-literary-v1.json');
 checkRubric(rubric).forEach(fail);
 const sha = filename => createHash('sha256').update(fs.readFileSync(filename)).digest('hex');
+for(const edition of editions.filter(e=>e.kind==='source'&&e.status==='published')){
+  const file='corpus/editorial/source-checks/'+edition.id+'.json';
+  if(!exists(file)){fail('Published original needs a recorded source comparison: '+edition.id);continue;}
+  const record=read(file);
+  schemaCheck(record,schemas['source-check'],'source-check('+edition.id+')');
+  check(record.edition_id===edition.id&&record.work_id===edition.work_id,'Source comparison identity mismatch '+edition.id);
+  if(edition.content_path&&exists(edition.content_path))check(record.source_sha256===sha(edition.content_path),'Stale original source comparison '+edition.id);
+  const ids=structureMap.get(edition.work_id)?.segment_ids??[];
+  check(Array.isArray(record.segments_checked)&&record.segments_checked.length===ids.length&&ids.every(id=>record.segments_checked.includes(id)),'Source comparison must cover every passage '+edition.id);
+  check(record.witness_url===edition.provenance.text_url,'Source comparison must identify the selected witness '+edition.id);
+  if(record.checker_kind==='ai_assisted')check(edition.credits.ai_assisted===true,'AI source comparison must be disclosed '+edition.id);
+}
 const reviewsByEdition = new Map();
 function reviewFiles(directory) {
   if(!exists(directory))return [];
@@ -187,7 +191,7 @@ for(const file of reviewFiles('corpus/reviews')) {
     fail('Review has missing edition content or source '+file); continue;
   }
   const assessment=assessReview(review,{
-    rubric,edition,sourceSha:sha(source.content_path),targetSha:sha(edition.content_path),
+    rubric,edition,sourceSha:sha(source.content_path),targetSha:sha(edition.content_path),sourceLanguage:source.language,
     segmentIds:known
   });
   if(assessment.errors.length) assessment.errors.forEach(error=>fail(file+': '+error));
@@ -214,4 +218,4 @@ if(errors.length){
   errors.forEach(s=>console.error(' - '+s));
   process.exit(1);
 }
-console.log('Corpus v2 validated: '+works.length+' works, '+editions.length+' editions, '+editions.filter(e=>e.status==='published').length+' published original/source edition(s).');
+console.log('Corpus v2 validated: '+works.length+' works, '+editions.length+' editions, '+editions.filter(e=>e.status==='published').length+' published edition(s).');

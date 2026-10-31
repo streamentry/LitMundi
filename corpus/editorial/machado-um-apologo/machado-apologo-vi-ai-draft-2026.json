@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "work_id": "machado-um-apologo",
+  "edition_id": "machado-apologo-vi-ai-draft-2026",
+  "source_edition_id": "machado-apologo-pt-laemmert-1896",
+  "title_vi": "Một ngụ ngôn",
+  "updated_at": "2026-11-01",
+  "stage": "awaiting_independent_human_review",
+  "translation_direction": "pt → vi; direct from 1896 Portuguese facsimile transcription",
+  "source_sha256": "17b46a94ca47b08eb7c32af2f91c6d449d8e8dae07883e2b27f118e4ed58f5f6",
+  "target_sha256": "95cba2c25828c70eb2bbbba794d93c696258894b68e11eed20281fe6370baf2e",
+  "coverage": {
+    "canonical_passages": 22,
+    "translated_passages": 22,
+    "aligned_passages": 22
+  },
+  "ai_disclosure": "The draft, these notes and preliminary scores were prepared by AI-assisted agents. Multiple AI reads are not independent human certification. No named human translator/editor, reviewer qualification, review approval, open-license permission or reader response is invented.",
+  "glossary": [
+    {
+      "source_term": "agulha / alfinete / linha / novello",
+      "draft_rendering": "kim khâu / kim ghim / chỉ / cuộn chỉ",
+      "alternatives": [
+        "kim / đinh ghim / sợi chỉ"
+      ],
+      "rationale": "Keep sewing needle versus headed pin distinct: the head pun and final pin’s advice depend on it. Novello is a ball/wound skein, not a spool requiring a bobbin.",
+      "passages": [
+        "machado-um-apologo:1.1",
+        "machado-um-apologo:1.5",
+        "machado-um-apologo:1.21"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "toda cheia de si, toda enrolada",
+      "draft_rendering": "tự đắc thế, cuộn tròn thế",
+      "alternatives": [
+        "vênh váo, cuộn mình lại"
+      ],
+      "rationale": "Retain both vanity and the visible wound shape; a clever invented Vietnamese pun would risk changing Machado’s joke.",
+      "passages": [
+        "machado-um-apologo:1.2"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "que me der na cabeça / Que cabeça",
+      "draft_rendering": "hễ nảy ra trong đầu / Đầu nào",
+      "alternatives": [
+        "hễ thích / Đầu óc gì"
+      ],
+      "rationale": "Literal đầu keeps the idiom’s sudden material literalization. Translating the first only as thích would destroy the reply’s mechanism.",
+      "passages": [
+        "machado-um-apologo:1.4",
+        "machado-um-apologo:1.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "batedores",
+      "draft_rendering": "lính dẹp đường",
+      "alternatives": [
+        "người mở đường",
+        "lính tiền trạm"
+      ],
+      "rationale": "The imperial procession comparison distinguishes going first from having rank. Lính dẹp đường is a contextual choice, not a claim that the text names a particular military unit.",
+      "passages": [
+        "machado-um-apologo:1.13"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "galgos de Diana / para dar a isto uma côr poetica",
+      "draft_rendering": "bầy chó săn của Diana / nói thế cho có chút chất thơ",
+      "alternatives": [
+        "chó săn nhanh nhẹn của nữ thần Diana"
+      ],
+      "rationale": "Retain the named classical allusion and the narrator’s mock-poetic interruption; do not silently replace Diana with a generic huntress.",
+      "passages": [
+        "machado-um-apologo:1.16"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "plic-plic-plic-plic",
+      "draft_rendering": "plic-plic-plic-plic",
+      "alternatives": [
+        "lách tách lách tách"
+      ],
+      "rationale": "Keeping the author’s four-beat sound is conservative but foreign-looking in Vietnamese; a bilingual editor must judge whether naturalization changes the sewing rhythm.",
+      "passages": [
+        "machado-um-apologo:1.18"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "corpinho",
+      "draft_rendering": "thân áo mình",
+      "alternatives": [
+        "vạt áo mình",
+        "áo nịt thân"
+      ],
+      "rationale": "Read as the seamstress’s bodice, where she parks the needle, rather than the baroness’s skin or the needle’s little body.",
+      "passages": [
+        "machado-um-apologo:1.19"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "mucamas",
+      "draft_rendering": "hầu gái",
+      "alternatives": [
+        "nữ tỳ",
+        "những người hầu gái da đen"
+      ],
+      "rationale": "Historical specificity is not fully conveyed by the general Vietnamese hầu gái. Michaelis marks the obsolete sense as an enslaved Black domestic woman; Priberam includes servant or enslaved attendant in Brazil/Africa. The story does not separately specify each attendant’s legal status or race; choose wording/annotation with a Brazilian literature reviewer, and do not erase slavery from the editorial account.",
+      "passages": [
+        "machado-um-apologo:1.20"
+      ],
+      "evidence_urls": [
+        "https://michaelis.uol.com.br/palavra/yVnWw/mucama/",
+        "https://dicionario.priberam.org/mucama"
+      ]
+    },
+    {
+      "source_term": "professor de melancolia",
+      "draft_rendering": "ông giáo dạy môn u sầu",
+      "alternatives": [
+        "bậc thầy về nỗi u sầu",
+        "ông thầy về nỗi buồn"
+      ],
+      "rationale": "Keep the narrator’s deliberately improbable title instead of turning the speaker into a diagnosed patient or a generic sad man. The literal school-subject formulation may overstate the joke.",
+      "passages": [
+        "machado-um-apologo:1.22"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "linha ordinaria",
+      "draft_rendering": "thứ chỉ tầm thường",
+      "alternatives": [
+        "sợi chỉ xoàng xĩnh",
+        "chỉ hạng xoàng"
+      ],
+      "rationale": "Preserve thread as well as the social insult. Do not spell out which careerists the professor means or call this an explicit authorial moral.",
+      "passages": [
+        "machado-um-apologo:1.22"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "decisions": [
+    {
+      "id": "machado-2026-11-01-01",
+      "passages": [
+        "machado-um-apologo:1.5",
+        "machado-um-apologo:1.21"
+      ],
+      "proposal": "Use one Vietnamese word for all needles and pins.",
+      "outcome": "Rejected; kim khâu versus kim ghim explicitly distinguished at the head joke.",
+      "rationale": "Material differences in the fable carry the satire.",
+      "status": "rejected"
+    },
+    {
+      "id": "machado-2026-11-01-02",
+      "passages": [
+        "machado-um-apologo:1.16"
+      ],
+      "proposal": "Modernize the repeated pegou and omit the narrator’s Diana aside.",
+      "outcome": "Rejected; retain the chain of actions and the abrupt narrator intrusion.",
+      "rationale": "The ironic narrator is part of the work, not an editorial digression.",
+      "status": "rejected"
+    },
+    {
+      "id": "machado-2026-11-01-03",
+      "passages": [
+        "machado-um-apologo:1.20"
+      ],
+      "proposal": "Treat mucamas as an ordinary neutral modern employment label.",
+      "outcome": "Not accepted as a full account; provisional hầu gái is accompanied by explicit historical ambiguity and dictionary evidence.",
+      "rationale": "A Brazilian bilingual reviewer must decide whether the prose needs nữ tỳ or a note; no silent claim that slavery is absent.",
+      "status": "open"
+    },
+    {
+      "id": "machado-2026-11-01-04",
+      "passages": [
+        "machado-um-apologo:1.22"
+      ],
+      "proposal": "Replace professor de melancolia with a natural description of a gloomy teacher.",
+      "outcome": "Rejected; provisional ông giáo dạy môn u sầu preserves the comic conceptual title.",
+      "rationale": "The cure for strangeness cannot be to erase the author’s strange conceit.",
+      "status": "rejected"
+    },
+    {
+      "id": "machado-apologo-vi-ai-draft-2026-adversarial-final-1",
+      "passages": [
+        "machado-um-apologo:1.12"
+      ],
+      "proposal": "kéo chị theo sau, tuân theo mọi việc tôi làm, mọi lời tôi bảo",
+      "outcome": "kéo chị theo, còn chị đi sau, làm theo những gì tôi làm, vâng những điều tôi sai bảo",
+      "rationale": "The dangling Vietnamese subject could make the needle obey itself; the source explicitly makes the following thread the obedient subject.",
+      "status": "adopted"
+    }
+  ],
+  "preflight_record": "corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-preflight-2026-11-01.json",
+  "review_process": {
+    "entry_conditions": [
+      "Complete named-source text and aligned translation; exact content hashes attached.",
+      "Read the source and target before opening model score records to avoid anchoring."
+    ],
+    "required_reviewers": 2,
+    "qualified_human_reviewers_obtained": 0,
+    "human_editorial_contributor_obtained": false,
+    "open_license_permission_obtained": false,
+    "exit_conditions": [
+      "Each independent qualified bilingual human reviewer >=9.0 weighted, fidelity >=9.0, other dimensions >=8.0.",
+      "All passages reviewed; no unresolved major/critical errors; review digests match the final texts.",
+      "Maintainer authenticates qualifications, independence, review evidence, named editorial contribution and affirmative open-license permission."
+    ]
+  },
+  "unresolved_questions": [
+    {
+      "segment": "machado-um-apologo:1.20",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Hầu gái weakens the Brazilian historical specificity of mucamas. Dictionary evidence and the competing renderings nữ tỳ / hầu gái need a qualified literary historian’s choice or annotation."
+    },
+    {
+      "segment": "machado-um-apologo:1.22",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Ông giáo dạy môn u sầu preserves the joke but may over-literalize professor de melancolia as a curriculum. Test against bậc thầy về nỗi u sầu without losing the mock-academic voice."
+    },
+    {
+      "segment": "machado-um-apologo:1.18",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The four plic beats are retained exactly; a Vietnamese read-aloud test is still needed to decide if a local sound-word is preferable."
+    }
+  ],
+  "selection_limit": "This is a limited editorial feasibility pilot, not evidence of an absent Vietnamese translation or verified reader demand. The Translation Gap Atlas records evidence and search limitations; no expansion is justified before real reader feedback and reviewer capacity.",
+  "additional_adversarial_read": {
+    "review_kind": "ai_assisted_not_human",
+    "date": "2026-11-01",
+    "pre_revision_target_sha256": "c59afcff970b9441fe9e1e5e4d6515faf60c547e4ae0e9ea42309beeccefd701",
+    "changes_recorded": 1,
+    "limitation": "The additional agent read is correlated AI evidence and does not count as an independent qualified human review. No new approval authority or score increase is inferred."
+  }
+}

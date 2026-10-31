@@ -5,20 +5,27 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run validate && astro build",
+    "build": "npm run validate && npm run downloads && astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "validate": "node scripts/validate.mjs",
-    "export": "node scripts/export.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/validate-atlas.mjs",
+    "export": "npm run validate && node scripts/export.mjs && python3 dist-archive/restore.py --verify-only",
     "test": "node --test tests/*.test.mjs",
     "verify:build": "node scripts/verify-build.mjs",
-    "quality:status": "node scripts/quality-status.mjs"
+    "quality:status": "node scripts/quality-status.mjs",
+    "downloads": "node scripts/downloads.mjs",
+    "verify:archive": "node scripts/verify-archive.mjs",
+    "review:packet": "npm run validate && node scripts/review-packet.mjs",
+    "verify:ids": "node scripts/verify-identifiers.mjs",
+    "verify:deployed": "python3 scripts/verify-deployed.py"
   },
   "dependencies": {
     "astro": "^5.15.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
+    "ajv": "^8.20.0",
+    "fflate": "^0.8.3",
     "typescript": "^5.9.3"
   }
 }

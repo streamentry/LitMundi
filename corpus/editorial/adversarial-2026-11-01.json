@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "record_kind": "adversarial_ai_editorial_notes",
+  "reviewer": {
+    "kind": "ai",
+    "role": "Separate research agent performing adversarial source-to-target comparison",
+    "is_human": false,
+    "counts_toward_independent_human_gate": false
+  },
+  "publication_authorized": false,
+  "numeric_score": null,
+  "method": "Read all 22 Machado and 15 Pardo source/target passages, identify concrete semantic and register risks, then compare every changed passage with the pre-revision snapshot. Preserve before/after hashes and disagreements. The translating agent accepted four revisions. A later grammatical repair in Pardo passage 1.9 was checked separately against the source and verified as the only subsequent target-file byte change; its prior and current hashes are preserved in revision_history.",
+  "records": [
+    {
+      "work_id": "machado-um-apologo",
+      "source_path": "corpus/segments/machado-um-apologo/machado-apologo-pt-laemmert-1896.json",
+      "target_path": "corpus/segments/machado-um-apologo/machado-apologo-vi-ai-draft-2026.json",
+      "reviewed_source_sha256": "17b46a94ca47b08eb7c32af2f91c6d449d8e8dae07883e2b27f118e4ed58f5f6",
+      "reviewed_target_before_sha256": "c59afcff970b9441fe9e1e5e4d6515faf60c547e4ae0e9ea42309beeccefd701",
+      "verified_target_after_sha256": "95cba2c25828c70eb2bbbba794d93c696258894b68e11eed20281fe6370baf2e",
+      "covered_passage_ids": [
+        "machado-um-apologo:1.1",
+        "machado-um-apologo:1.2",
+        "machado-um-apologo:1.3",
+        "machado-um-apologo:1.4",
+        "machado-um-apologo:1.5",
+        "machado-um-apologo:1.6",
+        "machado-um-apologo:1.7",
+        "machado-um-apologo:1.8",
+        "machado-um-apologo:1.9",
+        "machado-um-apologo:1.10",
+        "machado-um-apologo:1.11",
+        "machado-um-apologo:1.12",
+        "machado-um-apologo:1.13",
+        "machado-um-apologo:1.14",
+        "machado-um-apologo:1.15",
+        "machado-um-apologo:1.16",
+        "machado-um-apologo:1.17",
+        "machado-um-apologo:1.18",
+        "machado-um-apologo:1.19",
+        "machado-um-apologo:1.20",
+        "machado-um-apologo:1.21",
+        "machado-um-apologo:1.22"
+      ],
+      "coverage_count": 22,
+      "full_source_target_read_completed": true,
+      "revised_passages_rechecked": [
+        "machado-um-apologo:1.12"
+      ],
+      "findings": [
+        {
+          "id": "machado-following-subject",
+          "passage_id": "machado-um-apologo:1.12",
+          "severity": "major",
+          "category": "semantic_role_ambiguity",
+          "status": "resolved",
+          "source_phrase": "puxando por você, que vem atraz, obedecendo ao que eu faço e mando",
+          "before_phrase": "kéo chị theo sau, tuân theo mọi việc tôi làm, mọi lời tôi bảo",
+          "after_phrase": "kéo chị theo, còn chị đi sau, làm theo những gì tôi làm, vâng những điều tôi sai bảo",
+          "rationale": "The earlier Vietnamese construction left the subject of obeying ambiguous. The revision explicitly makes the thread follow and obey the needle, as the Portuguese does."
+        }
+      ],
+      "remaining_minor_review_questions": [
+        {
+          "passage_id": "machado-um-apologo:1.20",
+          "severity": "minor",
+          "status": "human_judgment_requested",
+          "term": "mucamas",
+          "current_choice": "hầu gái",
+          "rationale": "Historical word may denote a domestic servant or an enslaved domestic attendant. Hầu gái avoids asserting an unspoken legal status but loses some historical resonance. Preserve this context in the glossary; do not mechanically replace with nô tỳ.",
+          "evidence_urls": [
+            "https://dicionario.priberam.org/mucama",
+            "https://www.aulete.com.br/mucama"
+          ]
+        },
+        {
+          "passage_id": "machado-um-apologo:1.22",
+          "severity": "minor",
+          "status": "human_judgment_requested",
+          "term": "professor de melancolia",
+          "current_choice": "ông giáo dạy môn u sầu",
+          "rationale": "The comic phrase permits both a teacher metaphor and a master/expert in melancholy. Dạy môn makes the imaginary classroom more explicit. A human editor should compare alternatives for rhythm and ambiguity, without flattening the joke to merely a sad man.",
+          "evidence_urls": [
+            "https://www.dicionario.priberam.org/professor"
+          ]
+        }
+      ],
+      "omitted_canonical_passages_found": [],
+      "unresolved_major_or_critical_findings": [],
+      "limits": "AI comparison with canonical JSON only; not a human literary certification or independent facsimile collation. No numeric score assigned. Absence of detected errors is not proof of publication-grade quality."
+    },
+    {
+      "work_id": "pardo-bazan-el-encaje-roto",
+      "source_path": "corpus/segments/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898.json",
+      "target_path": "corpus/segments/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026.json",
+      "reviewed_source_sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e",
+      "reviewed_target_before_sha256": "2d23eabab2bd956a5ffcb3927203de616458005d3d53c5196735e6d939639ecd",
+      "verified_target_after_sha256": "400ff0ff139097327a9fb032cd3f02061a704a847cb26d8f8270f8acea17f1c8",
+      "covered_passage_ids": [
+        "pardo-bazan-el-encaje-roto:1.1",
+        "pardo-bazan-el-encaje-roto:1.2",
+        "pardo-bazan-el-encaje-roto:1.3",
+        "pardo-bazan-el-encaje-roto:1.4",
+        "pardo-bazan-el-encaje-roto:1.5",
+        "pardo-bazan-el-encaje-roto:1.6",
+        "pardo-bazan-el-encaje-roto:1.7",
+        "pardo-bazan-el-encaje-roto:1.8",
+        "pardo-bazan-el-encaje-roto:1.9",
+        "pardo-bazan-el-encaje-roto:1.10",
+        "pardo-bazan-el-encaje-roto:1.11",
+        "pardo-bazan-el-encaje-roto:1.12",
+        "pardo-bazan-el-encaje-roto:1.13",
+        "pardo-bazan-el-encaje-roto:1.14",
+        "pardo-bazan-el-encaje-roto:1.15"
+      ],
+      "coverage_count": 15,
+      "full_source_target_read_completed": true,
+      "revised_passages_rechecked": [
+        "pardo-bazan-el-encaje-roto:1.11",
+        "pardo-bazan-el-encaje-roto:1.12",
+        "pardo-bazan-el-encaje-roto:1.3",
+        "pardo-bazan-el-encaje-roto:1.9"
+      ],
+      "findings": [
+        {
+          "id": "pardo-social-milieu",
+          "passage_id": "pardo-bazan-el-encaje-roto:1.3",
+          "severity": "minor",
+          "category": "semantic_scope",
+          "status": "resolved",
+          "source_phrase": "el medio ambiente en que se desarrolló",
+          "before_phrase": "giới người chứng kiến nó",
+          "after_phrase": "khung cảnh xã hội nơi chuyện xảy ra",
+          "rationale": "The source refers to the surrounding social setting, not only the witnesses. The revision retains the broader milieu developed by the long sentence."
+        },
+        {
+          "id": "pardo-aborted-insult",
+          "passage_id": "pardo-bazan-el-encaje-roto:1.11",
+          "severity": "minor",
+          "category": "aspect_and_implication",
+          "status": "resolved",
+          "source_phrase": "No llegó á tanto",
+          "before_phrase": "Anh chưa nói đến thế",
+          "after_phrase": "Anh không buông ra những lời ấy",
+          "rationale": "The source says he did not go so far as to utter the insult. The earlier chưa could suggest not yet, importing a temporal implication. The revision describes the aborted speech."
+        },
+        {
+          "id": "pardo-harshness",
+          "passage_id": "pardo-bazan-el-encaje-roto:1.12",
+          "severity": "minor",
+          "category": "connotation",
+          "status": "resolved",
+          "source_phrase": "ira, dureza y menosprecio",
+          "before_phrase": "giận dữ, cứng rắn, khinh miệt",
+          "after_phrase": "giận dữ, khắc nghiệt, khinh miệt",
+          "rationale": "In the sequence of anger and contempt, dureza has a hostile harshness sense. Cứng rắn can suggest admirable firmness. Khắc nghiệt preserves the negative character of the expression."
+        }
+      ],
+      "remaining_minor_review_questions": [
+        {
+          "passage_id": "pardo-bazan-el-encaje-roto:1.10",
+          "severity": "minor",
+          "status": "human_judgment_requested",
+          "term": "una tercia; era poco para mí",
+          "current_choice": "một tercia; với tôi, chừng ấy vẫn còn là ít",
+          "rationale": "Keep the historical unit explained in the glossary. Preserve the bride’s potentially self-regarding class perspective; do not rewrite the gift judgment into an authorial moral lesson.",
+          "evidence_urls": []
+        },
+        {
+          "passage_id": "pardo-bazan-el-encaje-roto:1.13",
+          "severity": "minor",
+          "status": "human_judgment_requested",
+          "term": "sin proponérmelo; para que lo oyesen todos",
+          "current_choice": "trào ra ngoài ý định; để mọi người cùng nghe thấy",
+          "rationale": "The apparent tension between an unpremeditated no and its public force belongs to the text. A human editor may improve the first phrase’s Vietnamese cadence while retaining that tension.",
+          "evidence_urls": []
+        }
+      ],
+      "omitted_canonical_passages_found": [],
+      "unresolved_major_or_critical_findings": [],
+      "limits": "AI comparison with canonical JSON only; not a human literary certification or independent facsimile collation. No numeric score assigned. Absence of detected errors is not proof of publication-grade quality.",
+      "revision_history": [
+        {
+          "date": "2026-11-01",
+          "target_sha256": "bad664300171fb6adcdb5cf0bc45f2f60e1a509b1f733c6ed0f8ef854f6a0ce5",
+          "status": "historical_verified_revision",
+          "note": "Verified after the three Pardo adversarial findings were resolved; superseded only by the final grammar repair in passage 1.9."
+        },
+        {
+          "date": "2026-11-01",
+          "target_sha256": "400ff0ff139097327a9fb032cd3f02061a704a847cb26d8f8270f8acea17f1c8",
+          "previous_target_sha256": "bad664300171fb6adcdb5cf0bc45f2f60e1a509b1f733c6ed0f8ef854f6a0ce5",
+          "status": "current_verified_revision",
+          "passage_id": "pardo-bazan-el-encaje-roto:1.9",
+          "change_origin": "Final grammatical correction reported and applied by the translating agent, then independently rechecked by this AI reviewer.",
+          "source_phrase": "algunas personas le juzgaban violento",
+          "before_phrase": "có người cho anh tính khí hung bạo",
+          "after_phrase": "có người cho rằng anh có tính khí hung bạo",
+          "recheck": "Re-read the full canonical source and revised target passage 1.9. The inserted complement completes the Vietnamese grammar while retaining the reported judgment that Bernardo was violent. Reversing this exact phrase substitution in the current file reproduces the previous SHA-256 byte for byte, verifying that it was the only subsequent target-file change. The source hash remains unchanged. This narrow recheck supplements the earlier full read; it is not a new full literary review or human certification."
+        }
+      ]
+    }
+  ],
+  "remaining_publication_gates": [
+    "Two genuinely independent qualified bilingual human reviewers, each meeting the unchanged rubric.",
+    "Verified human editorial attribution and open-license permission.",
+    "Maintainer verification of reviewer identity, qualifications, independence, consent and final exact hashes."
+  ]
+}

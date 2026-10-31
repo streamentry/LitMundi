@@ -28,14 +28,17 @@
       "evidence_urls": [
         "https://www.gutenberg.org/ebooks/774",
         "https://www.themorgan.org/collection/oscar-wilde/manuscripts-letters/13",
-        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html"
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://www.copyright.gov/circs/circ38b.pdf",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116"
       ]
     },
     "credits": {
       "author": "Oscar Wilde",
       "translator": null,
       "editors": [],
-      "ai_assisted": false
+      "ai_assisted": true
     },
     "review": {
       "status": "source_checked",
@@ -43,7 +46,7 @@
       "evidence_urls": [
         "https://www.gutenberg.org/cache/epub/774/pg774-images.html"
       ],
-      "notes": "Five complete paragraphs manually transcribed against the identified Gutenberg reproduction; not an independently certified critical edition."
+      "notes": "Five complete paragraphs rechecked against the identified Gutenberg reproduction on 2026-11-01: exact match after HTML/whitespace normalization, plus AI-assisted passage comparison. This technical source check does not assert human peer review or a certified critical edition."
     }
   },
   {
@@ -60,7 +63,7 @@
       "citation": "Direct working draft translated from the LitMundi English source edition; not based on a modern third-party translation.",
       "catalog_url": null,
       "text_url": null,
-      "retrieved_at": "2026-10-31",
+      "retrieved_at": "2026-11-01",
       "source_witness": "wilde-artist-en-methuen-1913"
     },
     "rights": {
@@ -80,7 +83,7 @@
       "status": "unreviewed",
       "reviewers": [],
       "evidence_urls": [],
-      "notes": "DRAFT ONLY. Needs independent bilingual literary review, correction of register, source comparison, rights and contributor licensing decisions. Never indexed or presented as published."
+      "notes": "DRAFT ONLY. Revised on 2026-11-01 with documented AI-assisted adversarial feedback; complete 5/5 alignment. Historical 8.6 advisory record retained. No human literary reviews, named human editorial contribution or written open-license permission. Publication remains blocked."
     }
   },
   {
@@ -231,6 +234,183 @@
       "reviewers": [],
       "evidence_urls": [],
       "notes": "Not published."
+    }
+  },
+  {
+    "id": "machado-apologo-pt-laemmert-1896",
+    "work_id": "machado-um-apologo",
+    "language": "pt",
+    "kind": "source",
+    "status": "published",
+    "label": "Um Apólogo · original Portuguese, Laemmert 1896",
+    "content_path": "corpus/segments/machado-um-apologo/machado-apologo-pt-laemmert-1896.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Machado de Assis, “Um Apologo”, Várias histórias, 1st ed. (Rio de Janeiro: Laemmert & C. Editores, 1896), pp. 253–257. Facsimile: Biblioteca Brasiliana Guita e José Mindlin, Universidade de São Paulo, bbm/5307.",
+      "catalog_url": "https://digital.bbm.usp.br/handle/bbm/5307",
+      "text_url": "https://digital.bbm.usp.br/bitstream/bbm/5307/4/45000018590_Output.o.pdf",
+      "retrieved_at": "2026-11-01",
+      "source_witness": "1896 Laemmert first edition, printed pp. 253–257 (PDF pp. 265–269); direct plain-text transcription of the facsimile, historical spelling retained."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Machado de Assis text)",
+      "basis": "Term-based assessment, 2026-11-01. Machado died in 1908; this named-author story was published in 1885, and the selected witness in 1896. Brazil: Law 9.610/1998 art. 41, life plus 70, expired. Vietnam: ordinary literary term life plus 50, expired. USA: the 95-year maximum for these pre-1978 publications has expired; URAA restoration supplies only the remainder of that term, not a new 95 years. Only the underlying literary text is reproduced, with attribution and integrity respected. The digitized images, institutional branding and modern editorial material are not redistributed or relicensed. Assessment is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "VN",
+        "BR"
+      ],
+      "evidence_urls": [
+        "https://digital.bbm.usp.br/handle/bbm/5307",
+        "https://machado.byu.edu/text/um-apologo/?lang=pt",
+        "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9610-19-fevereiro-1998-365399-normaatualizada-pl.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://www.copyright.gov/circs/circ38b.pdf",
+        "https://www.copyright.gov/title17/92chap3.html"
+      ]
+    },
+    "credits": {
+      "author": "Machado de Assis",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://digital.bbm.usp.br/bitstream/bbm/5307/4/45000018590_Output.o.pdf",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/machado-apologo-pt-laemmert-1896.json"
+      ],
+      "notes": "Complete original-language transcription compared passage by passage with every listed facsimile page by an AI-assisted checker. This is a technical source check, not an independent human review or a certified critical edition. Printed spelling, paragraph boundaries and known typographic losses are documented in the source-check record."
+    }
+  },
+  {
+    "id": "machado-apologo-vi-ai-draft-2026",
+    "work_id": "machado-um-apologo",
+    "language": "vi",
+    "kind": "translation",
+    "status": "draft",
+    "label": "Một ngụ ngôn · bản thảo tiếng Việt do AI hỗ trợ, chờ thẩm định độc lập",
+    "content_path": "corpus/segments/machado-um-apologo/machado-apologo-vi-ai-draft-2026.json",
+    "source_edition_id": "machado-apologo-pt-laemmert-1896",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Direct AI-assisted Vietnamese working translation of the specified Portuguese original. No modern third-party translation is used as an intermediary.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-01",
+      "source_witness": "machado-apologo-pt-laemmert-1896"
+    },
+    "rights": {
+      "status": "unreviewed",
+      "license": null,
+      "basis": "Draft only. No human translator/editor attribution or affirmative open-license permission has been obtained. The original’s public-domain status does not supply contributor consent or certify authorship of a new translation.",
+      "jurisdictions_assessed": [],
+      "evidence_urls": []
+    },
+    "credits": {
+      "author": "Machado de Assis",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "unreviewed",
+      "reviewers": [],
+      "evidence_urls": [],
+      "notes": "Complete aligned DRAFT, revised with AI-assisted adversarial preflight; no qualifying human reviewers. Needs two independent qualified bilingual literary reviews at >=9, maintainer authentication, named editorial contribution and open-license consent before publication. See the versioned dossier, glossary and editorial decisions."
+    }
+  },
+  {
+    "id": "pardo-encaje-es-administracion-c1898",
+    "work_id": "pardo-bazan-el-encaje-roto",
+    "language": "es",
+    "kind": "source",
+    "status": "published",
+    "label": "El encaje roto · original Spanish, Administración [1898?]",
+    "content_path": "corpus/segments/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Emilia Pardo Bazán, “El encaje roto”, Cuentos de amor, Obras completas, vol. XVI (Madrid: Administración, [1898?]), pp. 233–239. Facsimile: Biblioteca de la Universidad de Alicante; bibliographic record: Biblioteca Virtual Miguel de Cervantes.",
+      "catalog_url": "https://www.cervantesvirtual.com/obra/cuentos-de-amor/",
+      "text_url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/index.htm",
+      "retrieved_at": "2026-11-01",
+      "source_witness": "Madrid Administración [1898?], Obras completas vol. XVI, printed pp. 233–239. Approximate publication date is the catalog’s, not a verified printed year. Direct transcription of Alicante page images; not the 1963 Aguilar text."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Emilia Pardo Bazán text)",
+      "basis": "Term-based assessment, 2026-11-01. Pardo Bazán died in 1921. The story appeared in El Liberal on 19 September 1897; the selected historical book is cataloged [1898?]. Spain: pre-7 December 1987 authors fall under the older life-plus-80 term (TRLPI transitional provision 4; BNE explanation), expired by 2002 even using the later calendar-year calculation. Vietnam: ordinary literary life plus 50, expired. USA: 95 years from these nineteenth-century publications has expired, including any otherwise restored URAA remainder. Only the author’s historical text is reproduced; no 1963 editor’s additions, digital page design, facsimile images or modern translation are imported. Moral rights and accurate attribution remain relevant. Not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "VN",
+        "ES"
+      ],
+      "evidence_urls": [
+        "https://www.cervantesvirtual.com/obra/cuentos-de-amor/",
+        "https://www.cervantesvirtual.com/obra-visor/cuentos-de-amor--0/html/fee33ed8-82b1-11df-acc7-002185ce6064_3.html",
+        "https://consultas.bne.es/faq/267300",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://www.copyright.gov/circs/circ38b.pdf",
+        "https://www.copyright.gov/title17/92chap3.html"
+      ]
+    },
+    "credits": {
+      "author": "Emilia Pardo Bazán",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://sirio.ua.es/libros/BEducacion/cuentos_amor/index.htm",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/pardo-encaje-es-administracion-c1898.json"
+      ],
+      "notes": "Complete original-language transcription compared passage by passage with every listed facsimile page by an AI-assisted checker. This is a technical source check, not an independent human review or a certified critical edition. Printed spelling, paragraph boundaries and known typographic losses are documented in the source-check record."
+    }
+  },
+  {
+    "id": "pardo-encaje-vi-ai-draft-2026",
+    "work_id": "pardo-bazan-el-encaje-roto",
+    "language": "vi",
+    "kind": "translation",
+    "status": "draft",
+    "label": "Dải ren rách · bản thảo tiếng Việt do AI hỗ trợ, chờ thẩm định độc lập",
+    "content_path": "corpus/segments/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026.json",
+    "source_edition_id": "pardo-encaje-es-administracion-c1898",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Direct AI-assisted Vietnamese working translation of the specified Spanish original. No modern third-party translation is used as an intermediary.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-01",
+      "source_witness": "pardo-encaje-es-administracion-c1898"
+    },
+    "rights": {
+      "status": "unreviewed",
+      "license": null,
+      "basis": "Draft only. No human translator/editor attribution or affirmative open-license permission has been obtained. The original’s public-domain status does not supply contributor consent or certify authorship of a new translation.",
+      "jurisdictions_assessed": [],
+      "evidence_urls": []
+    },
+    "credits": {
+      "author": "Emilia Pardo Bazán",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "unreviewed",
+      "reviewers": [],
+      "evidence_urls": [],
+      "notes": "Complete aligned DRAFT, revised with AI-assisted adversarial preflight; no qualifying human reviewers. Needs two independent qualified bilingual literary reviews at >=9, maintainer authentication, named editorial contribution and open-license consent before publication. See the versioned dossier, glossary and editorial decisions."
     }
   }
 ]

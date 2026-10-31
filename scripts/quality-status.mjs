@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {weightedScore,assessPublication,checkRubric} from './lib/quality.mjs';
+import {weightedScore,assessPublication,assessReview,checkRubric} from './lib/quality.mjs';
 
 const load = p => JSON.parse(fs.readFileSync(p,'utf8'));
 const editions=load('corpus/catalog/editions.json');
@@ -29,7 +29,10 @@ for(const edition of editions.filter(e=>e.kind==='translation' && e.content_path
   });
   console.log('\n'+edition.id);
   console.log('  Publication: '+(edition.status==='published'&&decision.eligible?'PUBLISHED': 'BLOCKED'));
-  for(const review of ai) console.log('  AI preflight (not a certification): '+weightedScore(review.scores,rubric)+'/10');
+  for(const review of ai){
+    const result=assessReview(review,{rubric,edition,sourceSha:hash(source.content_path),targetSha:hash(edition.content_path),segmentIds:structure.segment_ids,sourceLanguage:source.language});
+    console.log('  AI preflight ('+(result.current?'current, advisory only':'historical/stale/unbound; not current evidence')+'): '+weightedScore(review.scores,rubric)+'/10');
+  }
   console.log('  Human review files: '+human.length+'; qualified: '+decision.reviewers.length+'/2');
   for(const problem of decision.problems) console.log('  - '+problem);
 }

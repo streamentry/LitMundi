@@ -1,0 +1,112 @@
+{
+  "executed_at_utc": "2026-10-31T23:38:34.115158+00:00",
+  "steps": [
+    {
+      "command": "npm ci --no-audit --no-fund",
+      "exit_code": 0,
+      "duration_seconds": 3.16
+    },
+    {
+      "command": "npm run validate",
+      "exit_code": 0,
+      "duration_seconds": 0.39
+    },
+    {
+      "command": "npm run verify:ids",
+      "exit_code": 0,
+      "duration_seconds": 0.15
+    },
+    {
+      "command": "npm run quality:status",
+      "exit_code": 0,
+      "duration_seconds": 0.16
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "duration_seconds": 0.63
+    },
+    {
+      "command": "npm run check",
+      "exit_code": 0,
+      "duration_seconds": 3.21
+    },
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "duration_seconds": 2.19
+    },
+    {
+      "command": "npm run verify:build",
+      "exit_code": 0,
+      "duration_seconds": 0.23
+    },
+    {
+      "command": "npm run review:packet",
+      "exit_code": 0,
+      "duration_seconds": 0.55
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "duration_seconds": 0.01
+    }
+  ],
+  "scope": "Local release acceptance, before the first deployment of this change set. Not human literary review or reader-demand evidence.",
+  "baseline_commit": "7e59fbbf3ee0da3873b1e9e4a761d681cd6e4e83",
+  "versions": {
+    "node": "v24.22.1",
+    "astro": "5.18.2",
+    "epubcheck": "5.4.0"
+  },
+  "tests": {
+    "passed": 49,
+    "failed": 0,
+    "skipped": 0
+  },
+  "astro_check": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "static_verification": {
+    "html_pages": 46,
+    "local_links_and_anchors": 1357,
+    "public_sitemap_routes": 32,
+    "complete_public_editions": 3,
+    "draft_reader_search_and_download_exclusion": "passed"
+  },
+  "epubcheck": [
+    {
+      "file": "machado-apologo-pt-laemmert-1896.epub",
+      "exit_code": 0,
+      "output": "Validating using EPUB version 3.4 rules.\nNo errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed"
+    },
+    {
+      "file": "pardo-encaje-es-administracion-c1898.epub",
+      "exit_code": 0,
+      "output": "Validating using EPUB version 3.4 rules.\nNo errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed"
+    },
+    {
+      "file": "wilde-artist-en-methuen-1913.epub",
+      "exit_code": 0,
+      "output": "Validating using EPUB version 3.4 rules.\nNo errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed"
+    }
+  ],
+  "archive_drill": {
+    "procedure": "npm run export && npm run verify:archive",
+    "status": "passed",
+    "published_editions_restored": 3,
+    "actual_zip_extraction": true,
+    "repeat_zip_byte_identity": true,
+    "offline_without_astro": true,
+    "draft_exclusion": true,
+    "corruption_and_unlisted_file_rejection": true,
+    "note": "The procedure is rerun after final documentation changes; each CI run also verifies its own snapshot."
+  },
+  "limitations": [
+    "Automated source comparisons are not expert human proofreading.",
+    "Browser accessibility and interactions are documented separately in reader-2026-11-01.json.",
+    "No production deployment or human review is asserted by this local record."
+  ]
+}
