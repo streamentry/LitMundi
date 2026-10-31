@@ -1,7 +1,8 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import {supported,strings,catalog,type Locale,languageNames} from '../../../lib/corpus';
+import {pagePath} from '../../../lib/urls';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.map(work=>({params:{lang,work:work.id}})));}
 const lang=Astro.params.lang as Locale;const t=strings[lang];const w=catalog.find(w=>w.id===Astro.params.work)!;
 ---
-<Base lang={lang} title={w.title}><div class="container reader-head"><p class="eyebrow">{w.author}</p><h1>{w.title}</h1><p>{w.description}</p><p class="muted">{t.original}: {languageNames[w.original_language]} · {w.year}</p><div class="notice">This work is currently a catalog and formatting demonstration. A verified public-domain source edition and complete translations must be added before publication.</div><h2>{t.all}</h2><div class="grid">{w.editions.map(e=><a class="card" href={'/'+lang+'/read/'+w.id+'/'+e.language+'/'}><span class="pill">{e.status}</span><h3>{languageNames[e.language]}</h3><p class="muted">{e.label}</p><span>{t.read} →</span></a>)}</div><p><a href={'/'+lang+'/'}>← {t.works}</a></p></div></Base>
+<Base lang={lang} title={w.title} noindex={w.editions.every(e=>e.status !== "published")}><div class="container reader-head"><p class="eyebrow">{w.author}</p><h1>{w.title}</h1><p>{w.description}</p><p class="muted">{t.original}: {languageNames[w.original_language]} · {w.year}</p><div class="notice">This work is currently a catalog and formatting demonstration. A verified public-domain source edition and complete translations must be added before publication.</div><h2>{t.all}</h2><div class="grid">{w.editions.map(e=><a class="card" href={pagePath(lang,'read',w.id,e.language)}><span class="pill">{e.status}</span><h3>{languageNames[e.language]}</h3><p class="muted">{e.label}</p><span>{t.read} →</span></a>)}</div><p><a href={pagePath(lang)}>← {t.works}</a></p></div></Base>

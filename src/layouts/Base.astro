@@ -1,8 +1,20 @@
 ---
 import '../styles/global.css';
 import {strings,supported,type Locale} from '../lib/corpus';
-const {lang='en',title='LitMundi',description}=Astro.props as {lang?:Locale,title?:string,description?:string};
+import {pagePath,assetPath} from '../lib/urls';
+const {lang='en',title='LitMundi',description,noindex=false}=Astro.props as {lang?:Locale,title?:string,description?:string,noindex?:boolean};
 const t=strings[lang];
 const canonical=new URL(Astro.url.pathname,Astro.site);
 ---
-<!doctype html><html lang={lang}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#24553e"/><meta name="description" content={description??t.intro}/><link rel="canonical" href={canonical}/><title>{title} · LitMundi</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"/></head><body><header class="topbar"><div class="container nav"><a class="logo" href={'/'+lang+'/'}>LitMundi<span style="color:#ac9158">.</span></a><nav class="links" aria-label="Main navigation"><a href={'/'+lang+'/'}>{t.works}</a><a href="https://github.com/streamentry/LitMundi#readme">{t.about}</a><a href="https://github.com/streamentry/LitMundi">{t.github}</a><label class="lang">Language <select id="locale" aria-label="Website language">{supported.map(x=><option value={x} selected={x===lang}>{x.toUpperCase()}</option>)}</select></label></nav></div></header><main><slot/></main><footer class="footer"><div class="container"><div class="logo" style="margin-bottom:14px">LitMundi.</div><p>Literature is humanity's shared inheritance. Texts and translations have individual rights and review statuses.</p><a href="https://github.com/streamentry/LitMundi/blob/main/LICENSE">Code license</a><a href="https://github.com/streamentry/LitMundi/blob/main/docs/PRESERVATION.md">Preservation</a><a href="https://github.com/streamentry/LitMundi/issues">Feedback</a></div></footer><script>document.querySelector<HTMLSelectElement>('#locale')?.addEventListener('change',(e)=>{const next=(e.target as HTMLSelectElement).value;const parts=location.pathname.split('/').filter(Boolean);parts[0]=next;location.href='/'+parts.join('/')+'/';});</script></body></html>
+<!doctype html><html lang={lang}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#24553e"/><meta name="description" content={description??t.intro}/>{noindex && <meta name="robots" content="noindex, nofollow" />}<link rel="canonical" href={canonical}/><title>{title} · LitMundi</title><link rel="icon" type="image/svg+xml" href={assetPath("favicon.svg")}/></head><body><header class="topbar"><div class="container nav"><a class="logo" href={pagePath(lang)}>LitMundi<span style="color:#ac9158">.</span></a><nav class="links" aria-label="Main navigation"><a href={pagePath(lang)}>{t.works}</a><a href="https://github.com/streamentry/LitMundi#readme">{t.about}</a><a href="https://github.com/streamentry/LitMundi">{t.github}</a><label class="lang">Language <select id="locale" aria-label="Website language">{supported.map(x=><option value={x} selected={x===lang}>{x.toUpperCase()}</option>)}</select></label></nav></div></header><main><slot/></main><footer class="footer"><div class="container"><div class="logo" style="margin-bottom:14px">LitMundi.</div><p>Literature is humanity's shared inheritance. Texts and translations have individual rights and review statuses.</p><a href="https://github.com/streamentry/LitMundi/blob/main/LICENSE">Code license</a><a href="https://github.com/streamentry/LitMundi/blob/main/docs/PRESERVATION.md">Preservation</a><a href="https://github.com/streamentry/LitMundi/issues">Feedback</a></div></footer><script>
+  import {basePath,pagePath} from '../lib/urls';
+  document.querySelector<HTMLSelectElement>('#locale')?.addEventListener('change',(event)=>{
+    const selected = (event.target as HTMLSelectElement).value;
+    const relative = location.pathname.startsWith(basePath)
+      ? location.pathname.slice(basePath.length)
+      : location.pathname.replace(/^\/+/, '');
+    const parts = relative.split('/').filter(Boolean);
+    parts[0] = selected;
+    location.assign(pagePath(...parts));
+  });
+</script></body></html>

@@ -34,8 +34,12 @@ Open http://localhost:4321. Locales: English, Vietnamese, French and Spanish. UI
 ### Feedback
 The site links readers directly to GitHub's new-issue flow. GitHub handles login; readers need a GitHub account to submit. Work/segment/language metadata prefill the form; editorial approval happens through pull requests. GitHub Discussions is not enabled on this repository. Do not promise embedded comments until a separate, security-reviewed design is adopted.
 
-## Deployment
-Static build output is `dist/`. Deploy to any static host. Set the canonical `site` in `astro.config.mjs` to the actual production origin before publishing. The suggested `litmundi.org` domain is **not yet verified or configured**.
+## Deployment (GitHub Pages)
+Every pull request is validated and built; pushes to `main` deploy via GitHub Actions to **https://streamentry.github.io/LitMundi/**. The Astro build uses a `/LitMundi/` base path, and site URLs use the shared `pagePath()` helper. No custom domain or credential is required.
+
+**Pages activation:** repository Settings → Pages → Build and deployment → Source: **GitHub Actions**. The workflow attempts to configure an uninitialized Pages site automatically; if GitHub rejects that step, an administrator must select the publishing source once. See [Deployment operations](docs/DEPLOYMENT.md).
+
+The generated source does not claim to publish an editorially verified book; demo editions are marked `noindex`. The `litmundi.org` domain is neither verified nor configured.
 
 ## Credits
 LitMundi draws architectural inspiration from SuttaCentral/Bilara's language-aligned segment JSON model. It is independent of SuttaCentral. All corpus works must credit their individual source editions and translators.

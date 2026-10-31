@@ -1,2 +1,7 @@
 import { defineConfig } from 'astro/config';
-export default defineConfig({ site: 'https://litmundi.org', output: 'static', trailingSlash: 'always' });
+export default defineConfig({
+  site: 'https://streamentry.github.io',
+  base: '/LitMundi',
+  output: 'static',
+  trailingSlash: 'always',
+});
