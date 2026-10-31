@@ -11,14 +11,16 @@ const {default:AxeBuilder}=await import(pathToFileURL(join(modules,'@axe-core/pl
 const base=(process.argv[2]??'http://127.0.0.1:4321/LitMundi/').replace(/\/?$/,'/');
 const output=process.argv[3]??'/tmp/litmundi-reader-check.json';
 const fixture=process.env.LITMUNDI_PARALLEL_FIXTURE_URL;
+const ignoreHTTPSErrors=process.env.LITMUNDI_BROWSER_IGNORE_HTTPS_ERRORS==='1';
 const read=path=>JSON.parse(readFileSync(path,'utf8'));
 const works=read('corpus/catalog/works.json');
 const editions=read('corpus/catalog/editions.json');
 const published=editions.filter(e=>e.status==='published'&&works.some(w=>w.id===e.work_id&&w.visibility==='public'));
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
-const context=await browser.newContext({viewport:{width:1440,height:1000}}),page=await context.newPage();
+const context=await browser.newContext({viewport:{width:1440,height:1000},ignoreHTTPSErrors}),page=await context.newPage();
 const exceptions=[];page.on('pageerror',error=>exceptions.push(error.message));
-const report={status:'running',base_url:base,scope:'Local production build; no human literary review or reader-demand claim.',versions:{node:process.version,playwright:read(join(modules,'playwright/package.json')).version,axePlaywright:read(join(modules,'@axe-core/playwright/package.json')).version,chromium:browser.version()},accessibility:[],mobile:[],interactions:[],parallel_fixture:null,source_hashes:published.map(e=>({edition_id:e.id,sha256:createHash('sha256').update(readFileSync(e.content_path)).digest('hex')})),browser_exceptions:exceptions};
+const report={status:'running',base_url:base,scope:'Browser acceptance against the supplied base URL; no human literary review or reader-demand claim.',versions:{node:process.version,playwright:read(join(modules,'playwright/package.json')).version,axePlaywright:read(join(modules,'@axe-core/playwright/package.json')).version,chromium:browser.version()},accessibility:[],mobile:[],interactions:[],parallel_fixture:null,source_hashes:published.map(e=>({edition_id:e.id,sha256:createHash('sha256').update(readFileSync(e.content_path)).digest('hex')})),browser_exceptions:exceptions};
+report.browser_https_errors_ignored=ignoreHTTPSErrors;
 const overflow=()=>page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
 try{
   for(const locale of ['en','vi','fr','es'])for(const route of ['', 'quality/',...published.flatMap(e=>['works/'+e.work_id+'/','read/'+e.work_id+'/'+e.id+'/'])]){
@@ -50,7 +52,7 @@ try{
       if(route.includes('/read/')){await page.locator('.metadata').first().locator('summary').click();assert.equal(await overflow(),false,'Expanded metadata overflows: '+route);}
     }
   }
-  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}),fallback=await nojs.newPage();
+  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844},ignoreHTTPSErrors}),fallback=await nojs.newPage();
   await fallback.goto(base+'vi/');assert.ok(await fallback.locator('#collection-cards a').count()>0);await fallback.locator('.locale-menu summary').click();await fallback.getByRole('link',{name:'Français',exact:true}).click();await fallback.waitForURL('**/fr/');
   for(const edition of published){await fallback.goto(base+'en/read/'+edition.work_id+'/'+edition.id+'/');assert.equal(await fallback.locator('[data-reading-segment]').count(),Object.keys(read(edition.content_path)).length);assert.equal(await fallback.locator('a[href*="/downloads/"]').count(),3);}
   await nojs.close();report.interactions.push('All three complete sources, language navigation and JSON/TXT/EPUB links remain usable without JavaScript.');
@@ -71,9 +73,10 @@ try{
   const scripts=readdirSync('dist/_astro').filter(file=>file.endsWith('.js')).map(file=>readFileSync('dist/_astro/'+file));
   const inlineFor=path=>[...readFileSync(path,'utf8').matchAll(/<script(?![^>]*application\/ld\+json)[^>]*>([\s\S]*?)<\/script>/g)].map(match=>Buffer.from(match[1]));
   const inlineSummary=path=>{const blocks=inlineFor(path);return {blocks:blocks.length,bytes:blocks.reduce((sum,b)=>sum+b.length,0),sum_gzip_bytes:blocks.reduce((sum,b)=>sum+gzipSync(b).length,0)};};
-  report.client_javascript={external_files:scripts.length,external_total_bytes:scripts.reduce((sum,b)=>sum+b.length,0),home_inline:inlineSummary('dist/en/index.html'),reader_inline:inlineSummary('dist/en/read/wilde-the-artist/wilde-artist-en-methuen-1913/index.html'),note:'Executable inline script bytes counted separately from external assets; JSON-LD excluded. Search-index JSON is loaded only when search runs. Gzip sums are estimates, not measured network transfer.'};
+  report.client_javascript={external_files:scripts.length,external_total_bytes:scripts.reduce((sum,b)=>sum+b.length,0),home_inline:inlineSummary('dist/en/index.html'),reader_inline:inlineSummary('dist/en/read/wilde-the-artist/wilde-artist-en-methuen-1913/index.html'),note:'Script bytes are counted from the local dist build, not measured network transfer. Inline scripts are separate from external assets; JSON-LD is excluded. Search-index JSON is loaded only when search runs. Gzip sums are estimates.'};
   report.status='passed';
   report.limitations=['Automated axe checks and keyboard spot checks do not certify complete accessibility conformance.','These are software checks, not real reader feedback or a literary quality review.','No real translation has been published. Parallel rendering uses only the isolated synthetic fixture when supplied.'];
+  if(ignoreHTTPSErrors)report.limitations.push('Browser certificate errors were explicitly ignored for this run; this record is not evidence of TLS certificate validity.');
 }finally{
   writeFileSync(output,JSON.stringify(report,null,2)+'\n');await browser.close();
 }
