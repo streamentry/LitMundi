@@ -1,34 +1,42 @@
 # Roadmap: evidence before scale
 
-## Phase 0 — foundation (current)
-Astro static site, four UI locales, demo segment data, GitHub-hosted correction pathway, corpus validation and checksum export, architecture/legal/preservation ADRs. Automated GitHub Pages CI/CD deployed successfully to streamentry.github.io/LitMundi on 2026-10-31. Site is a foundation/demo, not yet an editorially reviewed literature publication. No OAuth app.
+State of the first three-work release cycle, 2026-11-01. This separates implemented repository work from external evidence still required; it does not certify an unverified deployment or translation.
 
-## Phase 1 — credible pilot (first 30 days)
-- Build a translation-gap atlas for 20 works x 2 languages; validate at least 10 apparent gaps via libraries and publishers, not web search alone.
-- Choose 1 short public-domain original and its exact source edition; record bibliographic and rights evidence.
-- Extend schema for independently identified source editions and multiple translations in the same language.
-- Commission two independent bilingual literary reviewers; publish first permissioned, reviewed sample with clear status.
-- Complete language fallbacks, hreflang/SEO, accessible parallel reading, privacy statement and issue-template end-to-end test.
-- Gate: at least 100 real non-paid readers, >=15% measured 7-day return rate (experimental thresholds), and 10 substantive reader assessments.
+## Implemented
 
-## Phase 2 — trusted editions
-Translation diff UI, reviewer endorsements, bilingual glossary, document-anchored issue reports, semantic search, edition revision histories, download EPUB/TXT/JSON, accessible typography and read-aloud if rights permit. Moderation queues and responsible disclosure policies.
+- Three complete, legally assessed original editions: Wilde's *The Artist* (English), Machado's *Um Apólogo* (Portuguese) and Pardo Bazán's *El encaje roto* (Spanish), with exact witnesses and disclosed technical source checks.
+- Three complete direct Vietnamese drafts: **42 canonical passages**, explicit alignments, glossaries, interpretive alternatives, revision records and hash-bound AI preflights. All remain withheld from public reading.
+- [Translation Gap Atlas](TRANSLATION-GAP-ATLAS.md): 20 works × two target languages, 12 original languages and 81 evidence records. Existing translations and search limitations are explicit; no verified absence, independent inadequacy judgment or measured demand is claimed.
+- Four interface locales; accessible reading and passage navigation; edition/language fallback; published-text search; source/translation alignment support; correction links; optional local reading position; canonicals, locale alternatives, sitemap and structured metadata.
+- Portable JSON, TXT, TSV and EPUB publication exports, plus a separate editorial archive with labelled review packets, per-edition rights and fixity records.
+- Original quality thresholds retained, with current-versus-historical review handling, full schema validation, PR-base identifier checks and explicit maintainer verification.
+- Deterministic archive verification and an executable Python 3 offline restoration drill; GitHub Actions archive retention is 30 days.
 
-## Phase 3 — sustainability
-Negotiate mirror stewards, diversified funding, costs per reviewed word, non-intrusive ads where lawful, donations/sponsorship and archival deposits. Never prioritize ad RPM over reader trust. Build a contributor succession council.
+Actual release evidence belongs in the completed CI/deployment run and [verification records](verification/README.md). A passing local check does not establish that production has updated.
 
-## Stop/pivot criteria
-Stop producing bulk translations if review cost per quality-assured word is not sustainable or reader demand remains absent after two measured pilots. Shift toward preservation, source discovery or partnerships rather than misleading quantity metrics.
+## The next editorial milestone
 
-## Pilot recorded 2026-10-31
-- Corpus v2 designed: work vs edition identity, independent multiple translations, stable anchors, explicit alignments, schemas and publication-gate validation.
-- Oscar Wilde *The Artist* first source witness: 1913 Methuen as digitized by Project Gutenberg #774. Rights assessment and source-check provenance recorded.
-- Vietnamese draft stored for editorial review only, not generated as a reader route; translation-gap status unverified.
-- **Pending human action:** at least two independent bilingual literary reviewers, evidence of market gap, consent to content license, and archival mirror steward.
+The shortest path is to finish **one** independently reviewed Vietnamese edition, beginning with Wilde's five passages:
 
-## Quality gate v1 — October 31, 2026
-- [x] Machine-readable weighted rubric with 9/10 threshold and non-compensatory fidelity/error gates.
-- [x] Human-review records bound to source and target SHA-256 with CI fail-closed checks.
-- [x] Initial Vietnamese AI preflight and source-aware revision; 8.6/10 advisory (below threshold).
-- [ ] Obtain two independent bilingual human reviews ≥9 each; document errors and permissions.
-- [ ] Approve an open license and release a genuinely reviewed Vietnamese translation.
+1. Obtain one qualified English–Vietnamese literary review against the exact source and score-free review packet; revise the text and retain disagreements.
+2. Obtain the second independent review of the final text. Each reviewer must meet every [quality threshold](QUALITY.md); all evidence must match the final hashes.
+3. Record named human editorial contributions and affirmative permission for CC BY 4.0 or CC0. A maintainer must authenticate the evidence before a publication PR.
+4. After deployment, verify reading, downloads, metadata, corrections and draft exclusion on the actual public URLs.
+
+No qualified reviewer commitment or contributor grant has yet been verified. Multiple AI evaluations cannot replace those steps. Machado and Pardo Bazán remain complete review packets while this work proceeds.
+
+## Reader evidence before another batch
+
+After one translation is approved, invite a small group of relevant readers through an explicitly authorized outreach process. Use the site's feedback form to record completed readings, stopping points, voluntary returns, useful corrections, recommendations and comparisons with existing lawful editions. The current project has no measured reader cohort or retention result.
+
+The [editorial workflow](EDITORIAL-WORKFLOW.md) proposes 5–10 initial readers and at least five completed readings with specific evidence of added value as a **provisional experiment**, not a validated benchmark. If existing editions meet the need better, link to or partner with them. Indonesian remains a research comparator until a specific reader need and bilingual review capacity are established.
+
+## Preservation and succession
+
+Obtain an actual independent archive custodian, a separately retained digest and a documented restore result. Then establish additional custody and a named succession arrangement. No external mirror or successor has accepted responsibility. The [current executable procedure](PRESERVATION.md) and [governance terms](../GOVERNANCE.md) make a handoff possible without pretending it has happened.
+
+## Continue, pause or redirect
+
+Continue a work when source rights, editorial capacity and a concrete reader benefit are credible. Pause publication when any required human review, permission, source integrity or current hash is missing. Pause new translation production if reviewers cannot be secured or reader feedback shows no added value. Redirect effort toward corrections, source preservation or collaboration rather than increasing the number of unverified drafts.
+
+Do not add a database, account system, bulk generation pipeline, semantic-search service or speculative preservation network to avoid the present human and reader bottlenecks.

@@ -1,0 +1,44 @@
+import fs from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {spawnSync} from 'node:child_process';
+import {sha256} from './lib/portable.mjs';
+
+const initial=await fs.readFile('dist-archive.zip');
+const repeat=spawnSync(process.execPath,['scripts/export.mjs'],{encoding:'utf8'});
+assert.equal(repeat.status,0,repeat.stderr);
+assert.equal(sha256(await fs.readFile('dist-archive.zip')),sha256(initial),'Repeated exports must be byte-identical.');
+const temp=await fs.mkdtemp(path.join(os.tmpdir(),'litmundi-restore-'));
+try {
+  const archive=path.join(temp,'archive'),output=path.join(temp,'readable');
+  // Exercise the actual deliverable, including its ZIP inventory and extraction.
+  const extractCode='import pathlib,sys,zipfile\nwith zipfile.ZipFile(sys.argv[1]) as z:\n assert z.testzip() is None, "Corrupt ZIP member"\n for name in z.namelist():\n  p=pathlib.PurePosixPath(name)\n  assert not p.is_absolute() and ".." not in p.parts and "\\\\" not in name, "Unsafe ZIP path"\n z.extractall(sys.argv[2])';
+  const extract=spawnSync('python3',['-I','-c',extractCode,path.resolve('dist-archive.zip'),archive],{cwd:temp,encoding:'utf8'});
+  assert.equal(extract.status,0,extract.stderr);
+  // Only the exported Python script is available; network use is explicitly disabled.
+  const wrapper='import socket,runpy,sys\ndef blocked(*a,**k): raise RuntimeError("Network forbidden in restoration drill")\nsocket.socket=blocked\nsocket.create_connection=blocked\nroot,output=sys.argv[1:]\nsys.argv=["restore.py","--archive",root,"--output",output]\nrunpy.run_path(root+"/restore.py",run_name="__main__")';
+  const restore=spawnSync('python3',['-I','-c',wrapper,archive,output],{cwd:temp,encoding:'utf8'});
+  assert.equal(restore.status,0,restore.stderr);
+  const editions=JSON.parse(await fs.readFile(path.join(archive,'corpus/catalog/editions.json'),'utf8'));
+  const works=JSON.parse(await fs.readFile(path.join(archive,'corpus/catalog/works.json'),'utf8'));
+  const expected=editions.filter(e=>e.status==='published'&&works.find(w=>w.id===e.work_id)?.visibility==='public');
+  for(const e of expected){
+    const txt=await fs.readFile(path.join(output,'editions',e.id+'.txt'),'utf8');
+    const prose=JSON.parse(await fs.readFile(path.join(archive,e.content_path),'utf8'));
+    for(const [id,text] of Object.entries(prose)){assert.ok(txt.includes('['+id+']'));assert.ok(txt.includes(text));}
+  }
+  const names=await fs.readdir(path.join(output,'editions'));
+  for(const e of editions.filter(e=>e.status!=='published')) assert.ok(!names.some(n=>n.startsWith(e.id+'.')),'Draft/sample must not be restored as publication.');
+  // Check real corruption and unexpected-file failures, not only the happy path.
+  const victim=path.join(archive,expected[0].content_path),original=await fs.readFile(victim);
+  await fs.appendFile(victim,' ');
+  let verify=spawnSync('python3',['-I',path.join(archive,'restore.py'),'--archive',archive,'--verify-only'],{cwd:temp,encoding:'utf8'});
+  assert.notEqual(verify.status,0,'Corrupted content must fail fixity.');
+  assert.match(verify.stderr,/Fixity failure/);
+  await fs.writeFile(victim,original);
+  await fs.writeFile(path.join(archive,'unexpected.txt'),'Unlisted file');
+  verify=spawnSync('python3',['-I',path.join(archive,'restore.py'),'--archive',archive,'--verify-only'],{cwd:temp,encoding:'utf8'});
+  assert.notEqual(verify.status,0,'Unlisted files must fail archive validation.');
+  console.log('Archive verified: byte-identical ZIP export, checked extraction, isolated offline reconstruction of '+expected.length+' editions, draft exclusion, corruption and inventory rejection.');
+} finally {await fs.rm(temp,{recursive:true,force:true});}

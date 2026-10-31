@@ -17,7 +17,9 @@ function human(handle,id=1) {
  return {
   rubric_id:rubric.id, edition_id:candidate.id, source_edition_id:source.id,reviewed_at:'2026-10-31',
   kind:'independent_human',
-  reviewer:{identifier:handle,display_name:handle,github_handle:handle,independent:true,evidence_url:ev(id)},
+  reviewer:{identifier:handle,display_name:handle,github_handle:handle,independent:true,evidence_url:ev(id),
+   qualifications:'Synthetic bilingual literary qualifications for a test fixture only; no real person is claimed.',
+   languages:['en','vi'],conflicts_of_interest:'Synthetic fixture only: no actual reviewer or conflict attestation.'},
   source_sha256:sourceSha,target_sha256:targetSha,segments_reviewed:[...ids],
   scores:Object.fromEntries(rubric.criteria.map(c=>[c.id,9.5])),
   findings:[],
@@ -33,6 +35,12 @@ function prepared(){
  e.review.status='literary_edited';
  e.review.reviewers=['synthetic-qa-a','synthetic-qa-b'];
  e.review.evidence_urls=[ev(123),ev(124)];
+ e.editorial_attestation={
+   verified_by:'synthetic-maintainer',verified_at:'2026-11-01',evidence_url:'https://github.com/streamentry/LitMundi/pull/122',
+   source_sha256:sourceSha,target_sha256:targetSha,reviewer_handles:e.review.reviewers,
+   license_consent_urls:[...e.rights.evidence_urls],
+   checks:{reviewer_identity:true,reviewer_qualifications:true,reviewer_independence:true,source_rights:true,contributor_consent:true}
+ };
  return e;
 }
 function decision(edition=prepared(),reviews=[reviewerA,reviewerB],target=targetSha) {
@@ -81,4 +89,46 @@ test('missing reviewed segment blocks approval',()=>{
 test('scores reject false precision and out-of-range values',()=>{
  assert.equal(weightedScore({...reviewerA.scores,semantic_fidelity:9.01},rubric),null);
  assert.equal(weightedScore({...reviewerA.scores,semantic_fidelity:11},rubric),null);
+});
+
+test('honest negative draft reviews are structurally valid but cannot approve',()=>{
+ const r=structuredClone(reviewerA);
+ r.scores.semantic_fidelity=7;
+ r.findings=[{segment:ids[0],category:'semantic_fidelity',severity:'major',status:'open',explanation:'Synthetic evidence of omitted meaning, retained for editorial revision.'}];
+ const result=assessReview(r,{rubric,edition:candidate,sourceSha,targetSha,segmentIds:ids});
+ assert.deepEqual(result.errors,[]);
+ assert.ok(result.blockers.length>0);
+ assert.equal(result.qualifies,false);
+});
+test('old hash-bound review history does not poison new explicitly selected approvals',()=>{
+ const historical=structuredClone(reviewerA);
+ historical.target_sha256='a'.repeat(64);historical.reviewer.evidence_url=ev(99);
+ historical.scores.semantic_fidelity=6;
+ assert.equal(decision(prepared(),[historical,reviewerA,reviewerB]).eligible,true);
+});
+test('direct review permalinks, qualifications and maintainer verification are mandatory',()=>{
+ const e=prepared();delete e.editorial_attestation;
+ assert.equal(decision(e).eligible,false);
+ const r=structuredClone(reviewerA);r.reviewer.evidence_url='https://github.com/streamentry/LitMundi/pull/123';
+ assert.equal(decision(prepared(),[r,reviewerB]).eligible,false);
+ r.reviewer.evidence_url=ev(123);delete r.reviewer.qualifications;
+ assert.equal(decision(prepared(),[r,reviewerB]).eligible,false);
+});
+test('duplicate coverage cannot masquerade as complete coverage',()=>{
+ const r=structuredClone(reviewerA);r.segments_reviewed.push(ids[0]);
+ assert.equal(assessReview(r,{rubric,edition:candidate,sourceSha,targetSha,segmentIds:ids}).qualifies,false);
+});
+test('every immutable rubric gate and weight is protected against weakening',()=>{
+ for (const [key,v] of Object.entries(rubric.release_gate)){
+   const changed=structuredClone(rubric);
+   changed.release_gate[key]=typeof v==='boolean'?false:Array.isArray(v)?[]:v-1;
+   assert.ok(checkRubric(changed).length,key);
+ }
+ const changed=structuredClone(rubric);changed.criteria[0].weight-=5;changed.criteria[1].weight+=5;
+ assert.ok(checkRubric(changed).length);
+});
+test('current severe AI findings block publication despite two human passing scores',()=>{
+ const ai=structuredClone(reviewerA);ai.kind='ai_preflight';ai.reviewer.independent=false;
+ ai.findings=[{segment:ids[0],category:'semantic_fidelity',severity:'critical',status:'open',explanation:'Synthetic current omission must be resolved before any publication.'}];
+ assert.equal(decision(prepared(),[reviewerA,reviewerB,ai]).eligible,false);
 });

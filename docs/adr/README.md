@@ -7,3 +7,5 @@
 
 - [ADR-0005: translation publication gates](0005-translation-publication-gate.md)
 - [ADR-0006: literary review rubric and release gates](0006-literary-review-gates.md)
+- [ADR-0007: honest review history and disclosed technical source checks](0007-review-history-and-technical-source-checks.md)
+- [ADR-0008: portable publications and independent offline restoration](0008-portable-publications-and-offline-restoration.md)

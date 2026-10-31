@@ -1,25 +1,45 @@
-# Architecture v0.1
+# Architecture
 
-## Architectural boundaries
-```text
-UTF-8 JSON corpus -> schema and editorial validation -> Astro static build -> static hosting/CDN
-                  -> deterministic corpus export + SHA-256 manifest -> independent preservation mirrors
-GitHub identity -> GitHub issue form -> editorial triage -> PR review -> canonical JSON correction
-```
+## System boundary
 
-There is **no runtime backend**: JSON files tracked in Git are the system of record. Astro is a disposable view. This is a deliberate implementation of the requested JSON backend, not an authenticated API or database.
+UTF-8 JSON tracked in Git is the canonical corpus. Build-time validation produces an Astro static site and portable editions; a separate archive preserves editorial evidence and can rebuild a minimal reader independently. There is no application database, runtime content server, site-owned account system or GitHub OAuth secret.
 
-## Data
-Catalog entries bind canonical work ID, authorship, date, original language, availability and source bibliographic status. Cognate segment maps use IDs such as `demo-proust:1.1`, with original and translations sharing IDs. Files are UTF-8 JSON and contain plaintext, never executable HTML. An edition is an independently identified, sourced and credited intellectual object; language alone is not an edition ID. Corpus v2 implements unique edition IDs, source witnesses, translation links, segment structure and optional many-to-many alignment maps (ADR-0002), plus separate original and translation publication gates (ADR-0005).
+The website remains replaceable. Work, edition and passage identity do not depend on an interface language, framework or domain. Reviewed corrections change text with an inspectable history; identifiers are never recycled.
 
-## URL and SEO
-Locale-prefixed homepage/works/read pages with canonical links; root language negotiation is only an enhancement and has HTML fallback. Future work: hreflang alternate tags, per-edition structured data, a sitemap, proper 404s, indexing policies for unpublished editions, and a stable permalink resolver independent of UI locales. No fake available translations should be indexed.
+## Data and gates
 
-## GitHub feedback
-A report button links to GitHub with prefilled issue fields. Authentication and comment threads are on GitHub; issues are not embedded on LitMundi. No GitHub client secret is necessary. Correct translation changes happen through PRs, not mutable public comments. Later: client-only read-only issue viewer via cached JSON at build time; rate-limited API only after threat review.
+| Layer | Responsibility |
+| --- | --- |
+| `corpus/catalog/` | Work and edition identity, languages, exact witnesses, rights, credits and publication status |
+| `corpus/structure/` and `corpus/segments/` | Stable ordered passage IDs and Unicode plaintext |
+| `corpus/alignments/` | Explicit source/translation relationships, including many-to-many links |
+| `corpus/editorial/` and `corpus/reviews/` | Source checks, glossaries, decisions, review history and exact text hashes |
+| `research/` | Evidence-based discovery with bounded uncertainty |
+| `scripts/` | Schema/domain validation, publication gates, identifier preservation, exports and restoration checks |
+| `src/` | Disposable static reader and small optional browser enhancements |
 
-## Security
-No untrusted Markdown/HTML in segment values. Content escaped by Astro interpolation. Third-party scripts and ad networks require a security/privacy review. All CI actions should be pinned to immutable SHAs before a production launch.
+JSON Schema 2020-12 validation uses Ajv at build time. Domain checks cover completeness, identity, alignment, rights metadata, source-check coverage and review freshness. PR CI compares identifiers with its base commit using a full Git checkout. Negative or stale reviews remain valid historical evidence; they cannot approve a new translation.
 
-## Scaling
-Split corpus from application repo if size warrants it; retain content-addressed release manifests and archival exports. Partition by stable work and edition identity; static generation may later use incremental publishing without changing data format.
+Original editions require a specific witness, assessed rights and a disclosed passage-by-passage source check. AI-assisted technical checking is not labelled a human proofread or critical edition. Translations retain the separate two-qualified-human-review gate and maintainer attestation; see [QUALITY.md](QUALITY.md), [Editorial workflow](EDITORIAL-WORKFLOW.md) and [ADR-0007](adr/0007-review-history-and-technical-source-checks.md).
+
+## Reading, navigation and discovery
+
+Routes remain `/<ui-locale>/works/<work-id>/` and `/<ui-locale>/read/<work-id>/<edition-id>/#<passage-id>`, below the GitHub Pages `/LitMundi/` base. English, Vietnamese, French and Spanish are interface locales. Edition choice prefers a published edition in the requested language, with a visible original-language fallback.
+
+The reader supplies passage navigation, edition and author links, keyboard focus, mobile typography, explicit provenance and portable downloads. Published translations can show their source beside the recorded alignment. There is currently no approved translation to populate that production view; local editorial review packets provide clearly labelled comparisons outside the public site.
+
+Search loads a static index of published works and passages, with title, author and language filters. Browsing and reading remain available without JavaScript. Optional progress and resume controls save only to the reader's browser after opt-in, with a clear control; they are not analytics or evidence of reader demand.
+
+Canonical links, locale `hreflang` alternatives, per-edition structured metadata, sitemap and a base-aware 404 support discovery. Draft text is excluded from routes, the search index, publication downloads and sitemap. The Proust demonstration and its legacy alias remain resolvable and non-indexed, outside the collection.
+
+## Contributions and trust
+
+Passage corrections and reading-experience feedback open GitHub issues with context. GitHub owns authentication and discussion; changes to the corpus require reviewed PRs. Corpus text is escaped as plaintext rather than executed as HTML. No third-party analytics or reader credentials are required.
+
+CI checks metadata and declarations; it cannot establish a person's identity, literary qualification, independence, permission or the truth of a bibliographic absence claim. Maintainers verify that evidence. No machine score creates human certification.
+
+## Publication exports and preservation
+
+Build-time exports generate JSON, TXT, TSV and EPUB only for eligible published editions and clear the generated directory first. The separate editorial archive retains labelled drafts, review packets, evidence, schemas, rights and governance. SHA-256 inventories and deterministic ZIP output support fixity; Python 3 restores published HTML/TXT without the original application or network.
+
+[ADR-0008](adr/0008-portable-publications-and-offline-restoration.md) and [Preservation](PRESERVATION.md) describe the executable drill. Independent custody remains a governance task. The current 30-day GitHub artifact is not a mirror. Scale the corpus only after human review capacity and actual reader value are demonstrated.
