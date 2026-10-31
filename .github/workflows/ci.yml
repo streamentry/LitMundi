@@ -29,6 +29,8 @@ jobs:
         run: npm ci --no-audit --no-fund
       - name: Validate corpus
         run: npm run validate
+      - name: Quality rubric status
+        run: npm run quality:status
       - name: Test
         run: npm test
       - name: Build Astro

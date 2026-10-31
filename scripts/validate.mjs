@@ -1,5 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {assessReview,assessPublication,checkRubric,weightedScore} from './lib/quality.mjs';
 
 const errors = [];
 const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
@@ -7,7 +9,7 @@ const exists = p => fs.existsSync(p);
 const works = read('corpus/catalog/works.json');
 const editions = read('corpus/catalog/editions.json');
 const languages = read('corpus/catalog/languages.json');
-const schemas = Object.fromEntries(['work','edition','structure','alignment'].map(x => [x, read('corpus/schemas/'+x+'.schema.json')]));
+const schemas = Object.fromEntries(['work','edition','structure','alignment','review'].map(x => [x, read('corpus/schemas/'+x+'.schema.json')]));
 const fail = message => errors.push(message);
 const check = (condition, message) => { if(!condition) fail(message); };
 
@@ -92,7 +94,7 @@ for(const e of editions) {
     check(e.content_path!==null,'Published edition missing content '+e.id);
     check(['cleared','public_domain_assessed'].includes(e.rights.status),'Published edition lacks reviewed rights '+e.id);
     check(e.rights.evidence_urls.length>0,'Published edition missing rights evidence '+e.id);
-    check(Boolean(e.provenance.citation&&e.provenance.text_url&&e.provenance.retrieved_at),'Published edition lacks source witness '+e.id);
+    check(Boolean(e.provenance.citation&&e.provenance.retrieved_at && (e.kind==='source' ? e.provenance.text_url : true)),'Published edition lacks source witness '+e.id);
     if(e.kind==='source') check(e.review.status==='source_checked'&&e.review.evidence_urls.length>0,'Published source lacks source checking '+e.id);
     if(e.kind==='translation') {
       check(e.rights.status==='cleared'&&Boolean(e.rights.license),'Translation publication lacks explicit license '+e.id);
@@ -152,6 +154,59 @@ for(const e of editions) {
   }
   check(new Set(targetIds).size===targetIds.length,'Duplicate target alignment '+e.id);
   if(e.status==='published')check(targetIds.length===Object.keys(target).length,'Published translation has unaligned passages '+e.id);
+}
+
+
+/**
+ * Scores are read from immutable, content-hash-bound, external human reviews.
+ * CI can check the evidence shape; repository governance must still confirm
+ * reviewer identities and approval history.
+ */
+const rubric = read('corpus/reviews/rubric-literary-v1.json');
+checkRubric(rubric).forEach(fail);
+const sha = filename => createHash('sha256').update(fs.readFileSync(filename)).digest('hex');
+const reviewsByEdition = new Map();
+function reviewFiles(directory) {
+  if(!exists(directory))return [];
+  return fs.readdirSync(directory,{withFileTypes:true}).flatMap(entry=>{
+    const candidate=path.join(directory,entry.name);
+    return entry.isDirectory()?reviewFiles(candidate):entry.isFile()&&entry.name.endsWith('.json')?[candidate]:[];
+  });
+}
+for(const file of reviewFiles('corpus/reviews')) {
+  if(file==='corpus/reviews/rubric-literary-v1.json')continue;
+  const review=read(file);
+  schemaCheck(review,schemas.review,'review('+file+')');
+  const edition=editionById.get(review.edition_id);
+  if(!edition){fail('Review targets unknown edition '+file);continue;}
+  check(file.startsWith('corpus/reviews/'+edition.work_id+'/'+edition.id+'/'),'Review in wrong directory '+file);
+  check(review.kind==='ai_preflight'||review.kind==='independent_human','Unknown review kind '+file);
+  const known=structureMap.get(edition.work_id)?.segment_ids??[];
+  const source=editionById.get(edition.source_edition_id);
+  if(!edition.content_path||!exists(edition.content_path)||!source?.content_path||!exists(source.content_path)) {
+    fail('Review has missing edition content or source '+file); continue;
+  }
+  const assessment=assessReview(review,{
+    rubric,edition,sourceSha:sha(source.content_path),targetSha:sha(edition.content_path),
+    segmentIds:known
+  });
+  if(assessment.errors.length) assessment.errors.forEach(error=>fail(file+': '+error));
+  const records=reviewsByEdition.get(edition.id)??[];
+  records.push(review);reviewsByEdition.set(edition.id,records);
+}
+
+for(const edition of editions.filter(e=>e.status==='published'&&e.kind==='translation')) {
+  const source=editionById.get(edition.source_edition_id);
+  if(!source?.content_path||!edition.content_path||!exists(source.content_path)||!exists(edition.content_path)) {
+    fail('Published translation has missing source or target '+edition.id);continue;
+  }
+  const decision=assessPublication({
+    rubric,edition,source,
+    sourceSha:sha(source.content_path),targetSha:sha(edition.content_path),
+    segmentIds:structureMap.get(edition.work_id)?.segment_ids??[],
+    reviews:reviewsByEdition.get(edition.id)??[]
+  });
+  if(!decision.eligible) decision.problems.forEach(problem=>fail('Quality gate '+edition.id+': '+problem));
 }
 
 if(errors.length){

@@ -1,6 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import {supported,strings,catalog,type Locale,languageNames,editionsForWork,readableEditions} from '../../../lib/corpus';
+import {supported,strings,catalog,type Locale,languageNames,editionsForWork,readableEditions,aiPreflight} from '../../../lib/corpus';
 import {pagePath} from '../../../lib/urls';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.map(work=>({params:{lang,work:work.id}})));}
 const lang=Astro.params.lang as Locale;
@@ -33,6 +33,8 @@ const isDemo=w.visibility==='demo' || !reading.some(e=>e.status==='published');
         <h3>{languageNames[e.language]??e.language}</h3>
         <p class="muted">{e.label}</p>
         <p class="muted">Not yet available for public reading.</p>
+        {aiPreflight(e.id) && <p class="muted">AI preflight: <strong>{aiPreflight(e.id)?.score.toFixed(1)}/10</strong> (advisory only; not human-certified).</p>}
+        <a href={pagePath(lang,'quality')}>Rubric: ≥9.0 + two independent human reviewers →</a>
       </div>
     )}
   </div>

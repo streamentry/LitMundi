@@ -28,6 +28,18 @@ export interface Edition {
   credits: { author: string; translator: string | null; editors: string[]; ai_assisted: boolean };
   review: { status: string; reviewers: string[]; evidence_urls: string[]; notes: string };
 }
+// Advisory model self-assessments are informational; they are never publication approvals.
+import qualityRubric from '../../corpus/reviews/rubric-literary-v1.json';
+const qualityRecords = import.meta.glob('../../corpus/reviews/*/*/*.json', {eager: true, import: 'default'}) as Record<string, {
+  edition_id:string; kind:string; scores:Record<string,number>; summary:string
+}>;
+export function aiPreflight(editionId:string): {score:number,summary:string}|null {
+  const records=Object.values(qualityRecords).filter(r=>r.edition_id===editionId && r.kind==='ai_preflight');
+  if(!records.length)return null;
+  const r=records[records.length-1];
+  const score=qualityRubric.criteria.reduce((sum,c)=>sum+c.weight*(r.scores[c.id]??0),0)/100;
+  return {score:Math.round(score*100)/100,summary:r.summary};
+}
 export const catalog = works as Work[];
 export const editions = editionRecords as Edition[];
 export const languageNames = languages as Record<string,string>;

@@ -6,3 +6,4 @@
 - [ADR-0004: preservation and rights boundaries](0004-preservation-rights.md)
 
 - [ADR-0005: translation publication gates](0005-translation-publication-gate.md)
+- [ADR-0006: literary review rubric and release gates](0006-literary-review-gates.md)

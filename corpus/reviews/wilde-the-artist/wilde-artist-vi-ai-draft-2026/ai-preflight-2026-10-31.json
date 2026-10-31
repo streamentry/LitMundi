@@ -1,0 +1,54 @@
+{
+  "rubric_id": "litmundi-literary-v1",
+  "edition_id": "wilde-artist-vi-ai-draft-2026",
+  "source_edition_id": "wilde-artist-en-methuen-1913",
+  "reviewed_at": "2026-10-31",
+  "kind": "ai_preflight",
+  "reviewer": {
+    "identifier": "gpt-6-assisted-preflight",
+    "display_name": "GPT-6 preliminary literary assessment",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "source_sha256": null,
+  "target_sha256": null,
+  "segments_reviewed": [
+    "wilde-the-artist:1.1",
+    "wilde-the-artist:1.2",
+    "wilde-the-artist:1.3",
+    "wilde-the-artist:1.4",
+    "wilde-the-artist:1.5"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 8,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 8.5,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "wilde-the-artist:1.1",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "'Lạc Thú Chỉ Tồn Tại Một Khoảnh Khắc' preserves the capitalized allegorical concept but reads abstractly; a human bilingual editor should test cadence and archaic register against Wilde's 'abideth'."
+    },
+    {
+      "segment": "wilde-the-artist:1.1",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "'For he could think only in bronze' is intentionally unusual. 'suy tưởng bằng đồng' is defensible but may need a more evocative Vietnamese rendering after comparison."
+    },
+    {
+      "segment": "wilde-the-artist:1.3",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The mirrored repetition of tomb, undying love and enduring sorrow remains, but the Vietnamese rhythm and emphatic dashes need independent literary judgement."
+    }
+  ],
+  "summary": "Preliminary model-assisted editorial judgement only; subjective score is not an authenticated human evaluation and does not authorize release. Revision corrects 'One evening' (previously translated as afternoon), removes some awkward compounds, and preserves the repeated abstract figures. Human review and explicit open publication license still missing."
+}

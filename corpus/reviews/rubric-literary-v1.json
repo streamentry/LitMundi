@@ -1,0 +1,95 @@
+{
+  "id": "litmundi-literary-v1",
+  "version": "1.0.0",
+  "effective_date": "2026-10-31",
+  "title": "LitMundi Literary Translation Review Rubric",
+  "attribution": "LitMundi adaptation informed by the MQM error typology; this is NOT an official MQM score.",
+  "framework_links": [
+    "https://www.themqm.org/mqm-pillars/typology/",
+    "https://www.themqm.org/mqm-pillars/the-mqm-scoring-models/"
+  ],
+  "score_range": [
+    0,
+    10
+  ],
+  "criteria": [
+    {
+      "id": "semantic_fidelity",
+      "weight": 35,
+      "title": "Semantic fidelity and completeness",
+      "description": "Represent all propositions and purposeful ambiguity in the exact source edition. No invented, omitted, inverted or flattened meaning."
+    },
+    {
+      "id": "literary_voice",
+      "weight": 25,
+      "title": "Voice, rhythm and register",
+      "description": "Preserve the author's tone, cadence, rhetorical repetition, sentence structure where meaningful, and historical/literary register."
+    },
+    {
+      "id": "target_naturalness",
+      "weight": 15,
+      "title": "Literary naturalness in the target language",
+      "description": "Idiomatic, legible literary prose rather than mechanical calques. Evaluate aloud and without viewing the source."
+    },
+    {
+      "id": "imagery_consistency",
+      "weight": 15,
+      "title": "Imagery, terminology and consistency",
+      "description": "Retain metaphors, symbolic contrasts, names, recurring formulas, intentional capitalization and culturally situated images."
+    },
+    {
+      "id": "editorial_mechanics",
+      "weight": 10,
+      "title": "Grammar, orthography and typographic care",
+      "description": "Correct target-language grammar, accents, punctuation, coherent typography and stable formatting."
+    }
+  ],
+  "anchors": [
+    {
+      "min": 9,
+      "max": 10,
+      "label": "Publication-grade",
+      "description": "No substantive meaning loss; consistently excellent literary choices; at most minor issues with negligible impact."
+    },
+    {
+      "min": 8,
+      "max": 8.99,
+      "label": "Strong draft",
+      "description": "Generally accurate and readable; identifiable local style or nuance issues require editorial revision."
+    },
+    {
+      "min": 7,
+      "max": 7.99,
+      "label": "Needs substantive revision",
+      "description": "Several accuracy, voice or idiomatic weaknesses, though core narrative remains understandable."
+    },
+    {
+      "min": 0,
+      "max": 6.99,
+      "label": "Not acceptable",
+      "description": "Significant inadequacy, mistranslation or poor literary execution."
+    }
+  ],
+  "release_gate": {
+    "min_score_each_reviewer": 9,
+    "min_semantic_fidelity_each": 9,
+    "min_other_dimension_each": 8,
+    "min_independent_human_reviewers": 2,
+    "coverage_percent": 100,
+    "block_on_open_severities": [
+      "major",
+      "critical"
+    ],
+    "require_source_target_digest_match": true,
+    "require_legal_clearance": true,
+    "require_written_open_license": true,
+    "require_review_evidence": true,
+    "require_editorial_approval": true
+  },
+  "issue_severity": {
+    "minor": "Limited local harm to accuracy, style, fluency or consistency.",
+    "major": "Material distortion, omission, misleading literary image, repeated unnatural phrasing or loss of a key formal effect.",
+    "critical": "Unusable/incomplete work, fabricated content, unlicensed material, falsified review, or pervasive meaning change."
+  },
+  "reviewer_instructions": "Review the complete work against its cited source witness. Annotate issues by stable segment ID, provide reasoning, verify all segments, score independently before reading other reviewers, and cite a GitHub PR review or equivalent immutable evidence. A self-rated or AI rating never qualifies as independent human review."
+}

@@ -20,3 +20,6 @@ Preserve ambiguity, register, names, punctuation and structure unless there is a
 
 ## Scope
 Avoid bulk-generated low-value pages; add a work when genuine demand, rights and verification capacity are demonstrated.
+
+## Translation review and publication
+Read [the literary rubric](docs/QUALITY.md) before submitting a translation. Scores are versioned artifacts under `corpus/reviews/<work-id>/<edition-id>/`. **Two independent human evaluations, each ≥9.0/10**, plus full coverage, legal permission and no unresolved major/critical issue are required before changing edition status to `published`. AI-only preflight scores do not confer publication authority. Reviewers must attest independence and link their GitHub PR reviews; maintainers must verify these claims, which CI cannot authenticate.

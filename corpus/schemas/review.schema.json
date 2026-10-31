@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LitMundi Literary Quality Review Record",
+  "type": "object",
+  "required": [
+    "rubric_id",
+    "edition_id",
+    "source_edition_id",
+    "reviewed_at",
+    "kind",
+    "reviewer",
+    "source_sha256",
+    "target_sha256",
+    "segments_reviewed",
+    "scores",
+    "findings",
+    "summary"
+  ],
+  "properties": {
+    "rubric_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "edition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_edition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewed_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "kind": {
+      "enum": [
+        "ai_preflight",
+        "independent_human"
+      ]
+    },
+    "reviewer": {
+      "type": "object",
+      "required": [
+        "identifier",
+        "display_name",
+        "github_handle",
+        "independent",
+        "evidence_url"
+      ],
+      "properties": {
+        "identifier": {
+          "type": "string",
+          "minLength": 1
+        },
+        "display_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "github_handle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "independent": {
+          "type": "boolean"
+        },
+        "evidence_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "source_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "target_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "segments_reviewed": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "scores": {
+      "type": "object",
+      "required": [
+        "semantic_fidelity",
+        "literary_voice",
+        "target_naturalness",
+        "imagery_consistency",
+        "editorial_mechanics"
+      ],
+      "properties": {
+        "semantic_fidelity": {
+          "type": "number"
+        },
+        "literary_voice": {
+          "type": "number"
+        },
+        "target_naturalness": {
+          "type": "number"
+        },
+        "imagery_consistency": {
+          "type": "number"
+        },
+        "editorial_mechanics": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "segment",
+          "category",
+          "severity",
+          "status",
+          "explanation"
+        ],
+        "properties": {
+          "segment": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "minor",
+              "major",
+              "critical"
+            ]
+          },
+          "status": {
+            "enum": [
+              "open",
+              "resolved"
+            ]
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 15
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 80
+    }
+  },
+  "additionalProperties": false
+}

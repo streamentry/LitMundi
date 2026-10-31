@@ -22,7 +22,7 @@ Wilde died in 1900 and the work appeared in 1894; the selected printing is from 
 
 ## Release decisions
 - English **original source edition**: published; manually checked against the cited digitization, not peer reviewed as a scholarly critical edition.
-- Vietnamese AI-assisted draft: stored in Git **for review only**, **not published or indexed on the reader**.
+- Vietnamese AI-assisted draft: revised for source fidelity (notably correcting “One evening” from afternoon to evening), stored in Git **for review only**, **not published or indexed on the reader**. Its preliminary model self-assessment is **8.6/10** using [LitMundi rubric v1](QUALITY.md), with open stylistic issues and **zero qualifying independent human reviews**.
 - Another Vietnamese edition: planned with its own independent edition ID, proving no “one translation per language” assumption.
 - No automatic translation license is inferred. Before publishing require recorded editor attribution, affirmative license grant and two independent qualified bilingual reviewers.
 
@@ -38,3 +38,6 @@ Wilde died in 1900 and the work appeared in 1894; the selected printing is from 
 
 ## Gate for next release
 No bilingual translation is published until the provenance and rights fields are complete and at least two distinct reviewers are recorded with evidence. The CI enforces the hard gates but human expertise remains a human decision.
+
+## Preliminary quality assessment
+The saved review record in `corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-preflight-2026-10-31.json` scores meaning 9.0, authorial voice 8.0, Vietnamese naturalness 8.5, allegory consistency 8.5 and mechanics 9.0, for a **weighted AI preflight of 8.6/10**. This is a subjective AI-assisted editorial judgement, **not an expert assessment or ground truth**. It does not meet the 9.0 threshold and does not count toward the required two human reviewers. Reviewers should challenge all these marks rather than anchoring to them.

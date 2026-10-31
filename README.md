@@ -11,6 +11,7 @@ Requires Node.js 22+.
 ```bash
 npm ci
 npm run validate
+npm run quality:status
 npm test
 npm run dev
 npm run build
@@ -24,7 +25,7 @@ Open http://localhost:4321. Locales: English, Vietnamese, French and Spanish. UI
 - Stable URLs: `/<ui-locale>/works/<work-id>/` and `/<ui-locale>/read/<work-id>/<edition-id>/#<segment-id>`. Legacy Proust `/fr/` route remains a canonicalized alias.
 - GitHub issues are the feedback and moderation workflow; no local account records or fake GitHub OAuth flows.
 - Published text is immutable by ID; corrections are reviewed PRs with Git history.
-- **Published translations** require rights provenance, translator consent, full alignment and two independent bilingual reviews; verified original-language texts have a separate source-check gate. Machine-verifiable gates run on every CI build.
+- **Published translations** require rights provenance, translator consent, full alignment, and **two independent bilingual reviews each scoring ≥9/10 on the [literary rubric](docs/QUALITY.md)**, with hashes tied to current source and target. AI self-scoring can inform editing but never unlock publishing. Machine-verifiable gates run on every CI build.
 - Content and presentation separately licensed: [MIT](LICENSE) code; **corpus files are NOT automatically MIT or CC0**; see [RIGHTS](docs/RIGHTS.md).
 - Archive preservation means open standards, independent mirrors, checksums, governance continuity and periodic migration. No platform can guarantee 1000 years.
 
@@ -50,3 +51,6 @@ LitMundi draws architectural inspiration from SuttaCentral/Bilara's language-ali
 - Current source reading: https://streamentry.github.io/LitMundi/en/read/wilde-the-artist/wilde-artist-en-methuen-1913/
 
 **Important:** The presence of a source edition does not establish that a target-language translation gap exists. The first pilot is deliberately an integrity test, not a claim of market demand.
+
+## Quality scoring and publication
+The first Vietnamese Wilde draft has an **AI-only preliminary score of 8.6/10** after source comparison and revision. This is not an independent quality certificate, so it is withheld from public reading. See [the detailed rubric](docs/QUALITY.md), [pilot dossier](docs/PILOT-WILDE-THE-ARTIST.md) and [open editorial issue](https://github.com/streamentry/LitMundi/issues/2). Once contributors submit two independent evidence-backed human reviews scoring ≥9, and rights/editorial conditions are met, changing the edition state to `published` through a reviewed PR triggers automatic GitHub Pages deployment. No background grading agent runs.

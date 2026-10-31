@@ -1,0 +1,34 @@
+name: Independent literary review
+description: Volunteer or submit evidence to evaluate an existing translation.
+title: "Literary review: "
+body:
+  - type: input
+    id: edition
+    attributes:
+      label: Edition ID and source language
+      placeholder: wilde-artist-vi-ai-draft-2026 (en → vi)
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Relevant language and literary editing experience
+      description: Describe qualifications without sharing sensitive personal information.
+    validations:
+      required: true
+  - type: checkboxes
+    id: independence
+    attributes:
+      label: Independence and conflict of interest
+      options:
+        - label: I did not author the machine draft, and will evaluate independently.
+          required: true
+        - label: I understand my review is public and may be cited by the project.
+          required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: Evidence and review plan
+      description: Read docs/QUALITY.md. Actual approval must be recorded in a signed-off PR review and schema-conforming JSON, not merely in an issue.
+    validations:
+      required: true

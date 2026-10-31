@@ -25,3 +25,10 @@ Stop producing bulk translations if review cost per quality-assured word is not 
 - Oscar Wilde *The Artist* first source witness: 1913 Methuen as digitized by Project Gutenberg #774. Rights assessment and source-check provenance recorded.
 - Vietnamese draft stored for editorial review only, not generated as a reader route; translation-gap status unverified.
 - **Pending human action:** at least two independent bilingual literary reviewers, evidence of market gap, consent to content license, and archival mirror steward.
+
+## Quality gate v1 — October 31, 2026
+- [x] Machine-readable weighted rubric with 9/10 threshold and non-compensatory fidelity/error gates.
+- [x] Human-review records bound to source and target SHA-256 with CI fail-closed checks.
+- [x] Initial Vietnamese AI preflight and source-aware revision; 8.6/10 advisory (below threshold).
+- [ ] Obtain two independent bilingual human reviews ≥9 each; document errors and permissions.
+- [ ] Approve an open license and release a genuinely reviewed Vietnamese translation.
