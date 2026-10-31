@@ -18,7 +18,7 @@ Oscar Wilde, “The Artist”, *Poems in Prose*, in *Essays and Lectures*, 4th e
 - Other reproductions vary in punctuation and capitalization. We follow the Methuen/Project Gutenberg witness, **not** a composite critical edition.
 
 ## Rights assessment — 2026-10-31
-Wilde died in 1900 and the work appeared in 1894; the selected printing is from 1913. The original English text is assessed as public domain in the US (pre-1931 publication) and in jurisdictions using life-plus-70 economic rights including the EU and Vietnam. This is a documented assessment, not legal advice; translators, editors, artwork and modern annotations may have independent rights. Do not reproduce Project Gutenberg's branding or editorial boilerplate as though it were itself public domain.
+Wilde died in 1900 and the work appeared in 1894; the selected printing is from 1913. The original English text is assessed as public domain in the US (publication before 1931), the EU (generally author lifetime plus 70 years) and Vietnam (for ordinary literary works, author lifetime plus **50 years** under Article 27). Vietnam does **not** use life-plus-70 as its general literary term.  Vietnam copyright term reference: [Copyright Office of Vietnam, 6 January 2026](https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html). This is a documented assessment, not legal advice; translators, editors, artwork and modern annotations may have independent rights. Do not reproduce Project Gutenberg's branding or editorial boilerplate as though it were itself public domain.
 
 ## Release decisions
 - English **original source edition**: published; manually checked against the cited digitization, not peer reviewed as a scholarly critical edition.

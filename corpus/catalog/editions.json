@@ -19,7 +19,7 @@
     "rights": {
       "status": "public_domain_assessed",
       "license": "Public Domain (underlying Oscar Wilde text)",
-      "basis": "Oscar Wilde died in 1900; work first published in 1894; source edition published in 1913. Original work assessed as public domain in the US and life-plus-70 jurisdictions. This is not a jurisdiction-wide legal guarantee.",
+      "basis": "Oscar Wilde died in 1900; 'The Artist' appeared in 1894 and the selected print witness is from 1913. Assessed public domain: USA (pre-1931), EU (usually life plus 70) and Vietnam (ordinary literary works, life plus 50 under Article 27). Moral rights and variant editions must still be respected. Not a global legal guarantee.",
       "jurisdictions_assessed": [
         "US",
         "EU",
@@ -27,7 +27,8 @@
       ],
       "evidence_urls": [
         "https://www.gutenberg.org/ebooks/774",
-        "https://www.themorgan.org/collection/oscar-wilde/manuscripts-letters/13"
+        "https://www.themorgan.org/collection/oscar-wilde/manuscripts-letters/13",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html"
       ]
     },
     "credits": {
