@@ -1,7 +1,7 @@
 # Roadmap: evidence before scale
 
 ## Phase 0 — foundation (current)
-Astro static site, four UI locales, demo segment data, GitHub-hosted correction pathway, corpus validation and checksum export, architecture/legal/preservation ADRs. Automated GitHub Pages CI/CD workflow added; publication depends on Pages activation and deployment verification. No OAuth app.
+Astro static site, four UI locales, demo segment data, GitHub-hosted correction pathway, corpus validation and checksum export, architecture/legal/preservation ADRs. Automated GitHub Pages CI/CD deployed successfully to streamentry.github.io/LitMundi on 2026-10-31. Site is a foundation/demo, not yet an editorially reviewed literature publication. No OAuth app.
 
 ## Phase 1 — credible pilot (first 30 days)
 - Build a translation-gap atlas for 20 works x 2 languages; validate at least 10 apparent gaps via libraries and publishers, not web search alone.

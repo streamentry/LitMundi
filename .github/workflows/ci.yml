@@ -24,8 +24,9 @@ jobs:
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version-file: .nvmrc
+          cache: npm
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
       - name: Validate corpus
         run: npm run validate
       - name: Test
@@ -36,14 +37,6 @@ jobs:
         run: npm run verify:build
       - name: Test preservation export
         run: npm run export
-      # Temporary: capture generated lockfile for committing to Git.
-      - name: Preserve generated npm lockfile
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
-        with:
-          name: package-lock-for-commit
-          path: package-lock.json
-          retention-days: 3
       - name: Upload GitHub Pages artifact
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4

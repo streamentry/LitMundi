@@ -9,7 +9,7 @@ Make culturally important literature accessible across languages where verified,
 ## Quick start
 Requires Node.js 22+.
 ```bash
-npm install
+npm ci
 npm run validate
 npm test
 npm run dev
@@ -37,7 +37,7 @@ The site links readers directly to GitHub's new-issue flow. GitHub handles login
 ## Deployment (GitHub Pages)
 Every pull request is validated and built; pushes to `main` deploy via GitHub Actions to **https://streamentry.github.io/LitMundi/**. The Astro build uses a `/LitMundi/` base path, and site URLs use the shared `pagePath()` helper. No custom domain or credential is required.
 
-**Pages activation:** repository Settings → Pages → Build and deployment → Source: **GitHub Actions**. The workflow attempts to configure an uninitialized Pages site automatically; if GitHub rejects that step, an administrator must select the publishing source once. See [Deployment operations](docs/DEPLOYMENT.md).
+**Pages activation:** repository Settings → Pages → Build and deployment → Source: **GitHub Actions**. Pages was initialized successfully through GitHub Actions on 2026-10-31; if recreating or forking the repository, an administrator may need to select the publishing source once. See [Deployment operations](docs/DEPLOYMENT.md).
 
 The generated source does not claim to publish an editorially verified book; demo editions are marked `noindex`. The `litmundi.org` domain is neither verified nor configured.
 

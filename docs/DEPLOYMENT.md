@@ -8,7 +8,7 @@
 
 ## How CI/CD works
 One workflow (`.github/workflows/ci.yml`) runs checks on pull requests and pushes:
-1. Node install, validate JSON corpus and tests.
+1. Reproducible `npm ci` from committed `package-lock.json`, validate JSON corpus and tests.
 2. Compile Astro as a static site, verify all internal paths use `/LitMundi/`, and export preservation archive.
 3. On `main` only, upload the static `dist/` artifact.
 4. Deploy through GitHub Pages using short-lived GitHub Actions OIDC. The workflow never needs a personal access token.
@@ -17,7 +17,7 @@ Deployments are serialized per ref and use the dedicated `github-pages` environm
 
 ## First-time activation
 1. Go to **https://github.com/streamentry/LitMundi/settings/pages**.
-2. Under **Build and deployment**, set **Source** to **GitHub Actions** (not Deploy from a branch).
+2. Under **Build and deployment**, confirm **Source** is **GitHub Actions** (not Deploy from a branch). As of 2026-10-31, LitMundi's source is enabled and its initial deployment has succeeded.
 3. Go to **Actions**, review `CI and Deploy to GitHub Pages`, and rerun if the earlier deployment was blocked by Pages initialization.
 4. Confirm the workflow's `deploy` job is green, then visit https://streamentry.github.io/LitMundi/vi/.
 
