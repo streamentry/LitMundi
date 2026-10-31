@@ -1,43 +1,36 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import {supported,strings,catalog,type Locale,languageNames,editionsForWork,readableEditions,aiPreflight} from '../../../lib/corpus';
+import {strings,supported,type Locale} from '../../../lib/i18n';
+import {catalog,languageNames,editionsForWork,readableEditions,bestEdition} from '../../../lib/corpus';
 import {pagePath} from '../../../lib/urls';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.map(work=>({params:{lang,work:work.id}})));}
-const lang=Astro.params.lang as Locale;
-const t=strings[lang];
+const lang=Astro.params.lang as Locale;const t=strings[lang];
 const w=catalog.find(w=>w.id===Astro.params.work)!;
-const reading=readableEditions(w.id);
-const planned=editionsForWork(w.id).filter(e=>e.status==='planned' || e.status==='draft');
-const isDemo=w.visibility==='demo' || !reading.some(e=>e.status==='published');
+const reading=readableEditions(w.id),preferred=bestEdition(w,lang);
+const drafts=editionsForWork(w.id).filter(e=>e.status==='draft'&&e.content_path);
+const isDemo=w.visibility!=='public'||!reading.some(e=>e.status==='published');
 ---
-<Base lang={lang} title={w.title} noindex={isDemo}>
-<div class="container reader-head">
-  <p class="eyebrow">{w.author} · {w.genre.replaceAll('_',' ')}</p>
-  <h1>{w.title}</h1>
-  <p>{w.description}</p>
-  <p class="muted">{t.original}: {languageNames[w.original_language]??w.original_language} · {w.first_published_year}</p>
-  {isDemo ? <div class="notice">Demonstration only. This work has no complete verified source edition or released translations.</div>
-    : <div class="notice">Original source text available. Translations remain unpublished until independently reviewed. No translation gap has been confirmed for this pilot.</div>}
-  <h2>{t.all}</h2>
-  <div class="grid">
-    {reading.map(e=>
-      <a class="card" href={pagePath(lang,'read',w.id,e.id)}>
-        <span class="pill">{e.status==='published'?'Source text · published':'Unverified sample'}</span>
-        <h3>{languageNames[e.language]??e.language}</h3><p class="muted">{e.label}</p>
-        <span>{t.read} →</span>
-      </a>
-    )}
-    {planned.map(e=>
-      <div class="card" aria-label={'Not available: '+e.label}>
-        <span class="pill">{e.status==='draft'?'Awaiting review':'Planned'}</span>
-        <h3>{languageNames[e.language]??e.language}</h3>
-        <p class="muted">{e.label}</p>
-        <p class="muted">Not yet available for public reading.</p>
-        {aiPreflight(e.id) && <p class="muted">AI preflight: <strong>{aiPreflight(e.id)?.score.toFixed(1)}/10</strong> (advisory only; not human-certified).</p>}
-        <a href={pagePath(lang,'quality')}>Rubric: ≥9.0 + two independent human reviewers →</a>
-      </div>
-    )}
-  </div>
-  <p style="padding:30px 0"><a href={pagePath(lang)}>← {t.works}</a></p>
+<Base lang={lang} title={w.title} description={w.description} noindex={isDemo}>
+<div class="container">
+  <section class="reader-head">
+    <p class="eyebrow"><a href={pagePath(lang)+'?author='+encodeURIComponent(w.author)+'#collection'}>{w.author}</a> · {w.first_published_year}</p>
+    <h1 lang={w.original_language}>{w.title}</h1>
+    <p lang="en">{w.description}</p>
+    <p class="muted">{t.original}: {languageNames[w.original_language]??w.original_language}</p>
+    {isDemo&&<p class="notice">{t.sampleNotice}</p>}
+    {!isDemo&&!reading.some(e=>e.language===lang&&e.status==='published')&&<p class="notice">{t.noTranslation}</p>}
+    {preferred&&<a class="button" href={pagePath(lang,'read',w.id,preferred.id)}>{t.read} · {languageNames[preferred.language]??preferred.language} <span aria-hidden="true">→</span></a>}
+  </section>
+  <section class="section" aria-labelledby="edition-list"><h2 id="edition-list">{t.all}</h2><div class="grid">
+    {reading.map(e=><article class="card">
+      <span class="pill">{e.status==='sample'?t.sample:e.kind==='source'?t.sourcePublished:t.translationPublished}</span>
+      <h3>{languageNames[e.language]??e.language}</h3><p lang={e.kind==='source'?'en':e.language} class="muted">{e.label}</p>
+      <a class="card-link" href={pagePath(lang,'read',w.id,e.id)}>{t.read} <span aria-hidden="true">→</span></a>
+    </article>)}
+  </div></section>
+  {drafts.length>0&&<section class="section" aria-labelledby="draft-list"><h2 id="draft-list">{t.manuscript}</h2><p class="muted">{t.draftNotice}</p><div class="grid">
+    {drafts.map(e=><article class="card draft-card"><span class="pill pending">{t.awaitingReview}</span><h3>{languageNames[e.language]??e.language}</h3><p>{t.notAvailable}</p><a href={pagePath(lang,'quality')}>{t.qualityLink}</a></article>)}
+  </div><p><a href="https://github.com/streamentry/LitMundi/issues/2">{t.reviewVolunteer} <span aria-hidden="true">↗</span></a></p></section>}
+  <section class="section policy-body"><p class="muted">{t.noGap}</p><a href={pagePath(lang)}>← {t.back}</a></section>
 </div>
 </Base>

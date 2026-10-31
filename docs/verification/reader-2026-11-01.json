@@ -1,0 +1,297 @@
+{
+  "status": "passed",
+  "base_url": "http://127.0.0.1:4321/LitMundi/",
+  "scope": "Local production build; no human literary review or reader-demand claim.",
+  "versions": {
+    "node": "v24.22.1",
+    "playwright": "1.56.1",
+    "axePlaywright": "4.10.2",
+    "chromium": "141.0.7390.37"
+  },
+  "accessibility": [
+    {
+      "route": "en/",
+      "violations": []
+    },
+    {
+      "route": "en/quality/",
+      "violations": []
+    },
+    {
+      "route": "en/works/wilde-the-artist/",
+      "violations": []
+    },
+    {
+      "route": "en/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "violations": []
+    },
+    {
+      "route": "en/works/machado-um-apologo/",
+      "violations": []
+    },
+    {
+      "route": "en/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "violations": []
+    },
+    {
+      "route": "en/works/pardo-bazan-el-encaje-roto/",
+      "violations": []
+    },
+    {
+      "route": "en/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "violations": []
+    },
+    {
+      "route": "vi/",
+      "violations": []
+    },
+    {
+      "route": "vi/quality/",
+      "violations": []
+    },
+    {
+      "route": "vi/works/wilde-the-artist/",
+      "violations": []
+    },
+    {
+      "route": "vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "violations": []
+    },
+    {
+      "route": "vi/works/machado-um-apologo/",
+      "violations": []
+    },
+    {
+      "route": "vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "violations": []
+    },
+    {
+      "route": "vi/works/pardo-bazan-el-encaje-roto/",
+      "violations": []
+    },
+    {
+      "route": "vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "violations": []
+    },
+    {
+      "route": "fr/",
+      "violations": []
+    },
+    {
+      "route": "fr/quality/",
+      "violations": []
+    },
+    {
+      "route": "fr/works/wilde-the-artist/",
+      "violations": []
+    },
+    {
+      "route": "fr/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "violations": []
+    },
+    {
+      "route": "fr/works/machado-um-apologo/",
+      "violations": []
+    },
+    {
+      "route": "fr/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "violations": []
+    },
+    {
+      "route": "fr/works/pardo-bazan-el-encaje-roto/",
+      "violations": []
+    },
+    {
+      "route": "fr/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "violations": []
+    },
+    {
+      "route": "es/",
+      "violations": []
+    },
+    {
+      "route": "es/quality/",
+      "violations": []
+    },
+    {
+      "route": "es/works/wilde-the-artist/",
+      "violations": []
+    },
+    {
+      "route": "es/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "violations": []
+    },
+    {
+      "route": "es/works/machado-um-apologo/",
+      "violations": []
+    },
+    {
+      "route": "es/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "violations": []
+    },
+    {
+      "route": "es/works/pardo-bazan-el-encaje-roto/",
+      "violations": []
+    },
+    {
+      "route": "es/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "violations": []
+    }
+  ],
+  "mobile": [
+    {
+      "route": "en/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/quality/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "en/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/quality/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    }
+  ],
+  "interactions": [
+    "Keyboard first-tab skip link targets main content.",
+    "Full-text searches find the intended English, Portuguese and Spanish source works.",
+    "An absent query shows an explicit empty result, not draft text.",
+    "Author/language filters combine and incompatible filters show the empty state.",
+    "Changing UI language preserves edition and passage fragment.",
+    "Reading position storage is opt-in; save, resume and clear work.",
+    "All three complete sources, language navigation and JSON/TXT/EPUB links remain usable without JavaScript."
+  ],
+  "parallel_fixture": {
+    "status": "passed",
+    "scope": "Synthetic many-to-many fixture in a separate temporary copy; never added to the canonical corpus or deployed.",
+    "groups": "2 source → 1 target; 1 source → 2 target",
+    "desktop": "Two columns at 1440px",
+    "mobile": "Original precedes translation at 320px; no overflow",
+    "anchors": "Unique IDs; all three target passage permalinks retained",
+    "axe_violations": 0
+  },
+  "source_hashes": [
+    {
+      "edition_id": "wilde-artist-en-methuen-1913",
+      "sha256": "bd014887242c1b44ed98a4a9e1f8568494173d3fedb0ecf4fd9951c808fcf4ef"
+    },
+    {
+      "edition_id": "machado-apologo-pt-laemmert-1896",
+      "sha256": "17b46a94ca47b08eb7c32af2f91c6d449d8e8dae07883e2b27f118e4ed58f5f6"
+    },
+    {
+      "edition_id": "pardo-encaje-es-administracion-c1898",
+      "sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e"
+    }
+  ],
+  "browser_exceptions": [],
+  "client_javascript": {
+    "external_files": 0,
+    "external_total_bytes": 0,
+    "home_inline": {
+      "blocks": 2,
+      "bytes": 2153,
+      "sum_gzip_bytes": 1126
+    },
+    "reader_inline": {
+      "blocks": 2,
+      "bytes": 1643,
+      "sum_gzip_bytes": 801
+    },
+    "note": "Executable inline script bytes counted separately from external assets; JSON-LD excluded. Search-index JSON is loaded only when search runs. Gzip sums are estimates, not measured network transfer."
+  },
+  "limitations": [
+    "Automated axe checks and keyboard spot checks do not certify complete accessibility conformance.",
+    "These are software checks, not real reader feedback or a literary quality review.",
+    "No real translation has been published. Parallel rendering uses only the isolated synthetic fixture when supplied."
+  ],
+  "post_feedback_footer_check": {
+    "reason": "A localized link to the GitHub reader-feedback issue template was added after the full browser run.",
+    "checks": [
+      {
+        "route": "en/",
+        "width_px": 320,
+        "axe_violations": 0,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/",
+        "width_px": 320,
+        "axe_violations": 0,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "fr/",
+        "width_px": 320,
+        "axe_violations": 0,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "es/",
+        "width_px": 320,
+        "axe_violations": 0,
+        "horizontal_overflow": false
+      }
+    ]
+  }
+}

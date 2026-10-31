@@ -1,10 +1,14 @@
 ---
-// Default entry is language-neutral; users choose their preferred interface language.
+import Base from '../layouts/Base.astro';
 import {pagePath} from '../lib/urls';
+const languages=[['en','English'],['vi','Tiếng Việt'],['fr','Français'],['es','Español']];
 ---
-<html lang="en"><head><meta charset="utf-8"/><meta name="robots" content="noindex"/><title>LitMundi</title><meta http-equiv="refresh" content={`0;url=${pagePath("en")}`}/></head><body><a href={pagePath("en")}>English</a> · <a href={pagePath("vi")}>Tiếng Việt</a> · <a href={pagePath("fr")}>Français</a> · <a href={pagePath("es")}>Español</a><script>
-  import {pagePath} from '../lib/urls';
-  const preferred = (navigator.languages || [navigator.language]).map(l => l.split('-')[0]);
-  const selected = preferred.find(l => ['en','vi','fr','es'].includes(l)) || 'en';
-  location.replace(pagePath(selected));
-</script></body></html>
+<Base lang="en" title="LitMundi" noindex={true} canonicalPath={pagePath('en')}>
+  <div class="container"><section class="hero"><p class="eyebrow">LitMundi</p><h1>Great literature.<br/>Every language.</h1><nav class="tools" aria-label="Choose an interface language">{languages.map(([code,name])=><a class="button" lang={code} href={pagePath(code)}>{name}</a>)}</nav></section></div>
+  <script>
+    import {pagePath} from '../lib/urls';
+    const preferred=(navigator.languages||[navigator.language]).map(language=>language.split('-')[0]);
+    const locale=preferred.find(language=>['en','vi','fr','es'].includes(language))||'en';
+    location.replace(pagePath(locale));
+  </script>
+</Base>

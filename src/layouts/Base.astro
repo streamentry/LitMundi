@@ -1,20 +1,64 @@
 ---
 import '../styles/global.css';
-import {strings,supported,type Locale} from '../lib/corpus';
-import {pagePath,assetPath} from '../lib/urls';
-const {lang='en',title='LitMundi',description,noindex=false,canonicalPath}=Astro.props as {lang?:Locale,title?:string,description?:string,noindex?:boolean,canonicalPath?:string};
+import {strings,supported,type Locale} from '../lib/i18n';
+import {pagePath,assetPath,basePath} from '../lib/urls';
+interface Props {lang?:Locale;title?:string;description?:string;noindex?:boolean;canonicalPath?:string;structuredData?:Record<string,unknown>}
+const {lang='en',title='LitMundi',description,noindex=false,canonicalPath,structuredData}=Astro.props;
 const t=strings[lang];
 const canonical=new URL(canonicalPath??Astro.url.pathname,Astro.site);
+const routeParts=canonical.pathname.slice(basePath.length).split('/').filter(Boolean).slice(1);
+const localePath=(locale:Locale)=>pagePath(locale,...routeParts);
+const names={en:'English',vi:'Tiếng Việt',fr:'Français',es:'Español'};
 ---
-<!doctype html><html lang={lang}><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#24553e"/><meta name="description" content={description??t.intro}/>{noindex && <meta name="robots" content="noindex, nofollow" />}<link rel="canonical" href={canonical}/><title>{title} · LitMundi</title><link rel="icon" type="image/svg+xml" href={assetPath("favicon.svg")}/></head><body><header class="topbar"><div class="container nav"><a class="logo" href={pagePath(lang)}>LitMundi<span style="color:#ac9158">.</span></a><nav class="links" aria-label="Main navigation"><a href={pagePath(lang)}>{t.works}</a><a href={pagePath(lang,'quality')}>{lang==='vi'?'Chất lượng':'Quality standard'}</a><a href="https://github.com/streamentry/LitMundi">{t.github}</a><label class="lang">Language <select id="locale" aria-label="Website language">{supported.map(x=><option value={x} selected={x===lang}>{x.toUpperCase()}</option>)}</select></label></nav></div></header><main><slot/></main><footer class="footer"><div class="container"><div class="logo" style="margin-bottom:14px">LitMundi.</div><p>Literature is humanity's shared inheritance. Texts and translations have individual rights and review statuses.</p><a href="https://github.com/streamentry/LitMundi/blob/main/LICENSE">Code license</a><a href="https://github.com/streamentry/LitMundi/blob/main/docs/PRESERVATION.md">Preservation</a><a href="https://github.com/streamentry/LitMundi/issues">Feedback</a></div></footer><script>
-  import {basePath,pagePath} from '../lib/urls';
-  document.querySelector<HTMLSelectElement>('#locale')?.addEventListener('change',(event)=>{
-    const selected = (event.target as HTMLSelectElement).value;
-    const relative = location.pathname.startsWith(basePath)
-      ? location.pathname.slice(basePath.length)
-      : location.pathname.replace(/^\/+/, '');
-    const parts = relative.split('/').filter(Boolean);
-    parts[0] = selected;
-    location.assign(pagePath(...parts));
-  });
-</script></body></html>
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#24553e" />
+  <meta name="description" content={description??t.intro} />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
+  <link rel="canonical" href={canonical} />
+  {!noindex && supported.map(locale=><link rel="alternate" hreflang={locale} href={new URL(localePath(locale),Astro.site)} />)}
+  {!noindex && <link rel="alternate" hreflang="x-default" href={new URL(localePath('en'),Astro.site)} />}
+  <link rel="sitemap" href={assetPath('sitemap.xml')} />
+  <link rel="icon" type="image/svg+xml" href={assetPath('favicon.svg')} />
+  <meta property="og:title" content={title+' · LitMundi'} />
+  <meta property="og:description" content={description??t.intro} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:type" content="website" />
+  {structuredData && <script type="application/ld+json" is:inline set:html={JSON.stringify(structuredData).replace(/</g,'\u003c')} />}
+  <title>{title} · LitMundi</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">{t.skip}</a>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="logo" href={pagePath(lang)} aria-label="LitMundi">LitMundi<span aria-hidden="true">.</span></a>
+      <nav class="links" aria-label={t.navigation}>
+        <a href={pagePath(lang)}>{t.works}</a>
+        <a href={pagePath(lang,'quality')}>{t.quality}</a>
+        <details class="locale-menu">
+          <summary>{t.websiteLanguage}: <span lang={lang}>{names[lang]}</span></summary>
+          <ul>{supported.map(locale=><li><a data-locale-link href={localePath(locale)} lang={locale} hreflang={locale} aria-current={locale===lang?'true':undefined}>{names[locale]}</a></li>)}</ul>
+        </details>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"><slot /></main>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><a class="logo" href={pagePath(lang)}>LitMundi<span aria-hidden="true">.</span></a><p>{t.footer}</p></div>
+      <nav aria-label={t.preservation}>
+        <a href="https://github.com/streamentry/LitMundi/blob/main/LICENSE">{t.codeLicense}</a>
+        <a href="https://github.com/streamentry/LitMundi/blob/main/docs/PRESERVATION.md">{t.preservation}</a>
+        <a href="https://github.com/streamentry/LitMundi/issues">{t.github}</a>
+        <a href="https://github.com/streamentry/LitMundi/issues/new?template=reader-feedback.yml">{t.readerFeedback}</a>
+      </nav>
+    </div>
+  </footer>
+  <script>
+    if (location.hash) document.querySelectorAll<HTMLAnchorElement>('[data-locale-link]').forEach(link => {link.hash=location.hash;});
+  </script>
+</body>
+</html>

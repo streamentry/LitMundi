@@ -1,15 +1,9 @@
 import works from '../../corpus/catalog/works.json';
 import languages from '../../corpus/catalog/languages.json';
 import editionRecords from '../../corpus/catalog/editions.json';
-export const supported = ['en','vi','fr','es'] as const;
-export type Locale = typeof supported[number];
-export const isLocale = (v: string): v is Locale => supported.includes(v as Locale);
-export const strings: Record<Locale,Record<string,string>> = {
-en:{tag:'A living library of literary heritage',title:'Great literature. Every language.',intro:'Carefully sourced, openly accessible literary texts and translations—with their origins, review status and history in plain sight.',explore:'Explore the library',works:'The collection',why:'Built for generations, not platforms',whytext:'Plain-text JSON, stable passage identifiers, source attribution, independent backups and community review.',about:'About',read:'Read',original:'Original language',feedback:'Suggest a correction',draft:'This text is a demonstration, not a reviewed or authoritative literary translation.',empty:'No translation is published in this language yet.',all:'View all available editions',copyright:'Check the source and license before reuse.',github:'Contribute on GitHub',sample:'Demonstration'},
-vi:{tag:'Thư viện di sản văn chương',title:'Tinh hoa văn học. Mọi ngôn ngữ.',intro:'Tác phẩm và bản dịch được tuyển chọn, minh bạch về nguồn, mức kiểm định và lịch sử chỉnh sửa, mở cho mọi người đọc.',explore:'Khám phá thư viện',works:'Tủ sách',why:'Xây cho nhiều thế hệ, không phụ thuộc nền tảng',whytext:'JSON thuần, ID đoạn bền vững, nguồn rõ ràng, bản sao độc lập và kiểm định cộng đồng.',about:'Giới thiệu',read:'Đọc',original:'Ngôn ngữ gốc',feedback:'Góp ý bản dịch',draft:'Đây chỉ là văn bản minh họa, chưa phải bản dịch văn học đã kiểm định.',empty:'Chưa xuất bản bản dịch trong ngôn ngữ này.',all:'Xem các bản có sẵn',copyright:'Kiểm tra nguồn và giấy phép trước khi tái sử dụng.',github:'Đóng góp qua GitHub',sample:'Bản minh họa'},
-fr:{tag:'Une bibliothèque vivante du patrimoine littéraire',title:'La grande littérature. Toutes les langues.',intro:'Des textes littéraires accessibles, avec leurs sources, leurs licences et leur statut de vérification.',explore:'Explorer',works:'La collection',why:'Conçu pour durer',whytext:'JSON ouvert, identifiants stables, provenance et révision collective.',about:'À propos',read:'Lire',original:'Langue originale',feedback:'Proposer une correction',draft:'Texte de démonstration, non vérifié.',empty:'Aucune traduction publiée dans cette langue.',all:'Voir les éditions disponibles',copyright:'Vérifiez la source et la licence.',github:'Contribuer sur GitHub',sample:'Démonstration'},
-es:{tag:'Una biblioteca viva del patrimonio literario',title:'Gran literatura. Todos los idiomas.',intro:'Textos literarios accesibles con fuentes, licencias y estados de revisión transparentes.',explore:'Explorar',works:'La colección',why:'Diseñado para generaciones',whytext:'JSON abierto, identificadores estables, procedencia y revisión comunitaria.',about:'Acerca de',read:'Leer',original:'Idioma original',feedback:'Sugerir una corrección',draft:'Texto de demostración; no es una traducción revisada.',empty:'No hay traducción publicada en este idioma.',all:'Ver ediciones disponibles',copyright:'Compruebe la fuente y la licencia.',github:'Contribuir en GitHub',sample:'Demostración'}
-};
+export {supported,isLocale,strings} from './i18n';
+export type {Locale} from './i18n';
+import {isPublicEdition,preferredEdition,alignedPassages} from '../../scripts/lib/reader-data.mjs';
 
 /** The corpus, not the website, is the system of record. */
 export interface Work {
@@ -28,23 +22,14 @@ export interface Edition {
   credits: { author: string; translator: string | null; editors: string[]; ai_assisted: boolean };
   review: { status: string; reviewers: string[]; evidence_urls: string[]; notes: string };
 }
-// Advisory model self-assessments are informational; they are never publication approvals.
-import qualityRubric from '../../corpus/reviews/rubric-literary-v1.json';
-const qualityRecords = import.meta.glob('../../corpus/reviews/*/*/*.json', {eager: true, import: 'default'}) as Record<string, {
-  edition_id:string; kind:string; scores:Record<string,number>; summary:string
-}>;
-export function aiPreflight(editionId:string): {score:number,summary:string}|null {
-  const records=Object.values(qualityRecords).filter(r=>r.edition_id===editionId && r.kind==='ai_preflight');
-  if(!records.length)return null;
-  const r=records[records.length-1];
-  const score=qualityRubric.criteria.reduce((sum,c)=>sum+c.weight*(r.scores[c.id]??0),0)/100;
-  return {score:Math.round(score*100)/100,summary:r.summary};
-}
 export const catalog = works as Work[];
 export const editions = editionRecords as Edition[];
 export const languageNames = languages as Record<string,string>;
 export const editionsForWork = (id: string) => editions.filter(e => e.work_id === id);
-export const readableEditions = (id: string) => editionsForWork(id).filter(e => e.status === 'published' || e.status === 'sample');
+export const readableEditions = (id: string) => editionsForWork(id).filter(e => isPublicEdition(e,workById(id)) || (e.status === 'sample' && workById(id)?.visibility === 'demo'));
+export const publishedEditions = (id: string) => editionsForWork(id).filter(e => isPublicEdition(e,workById(id)));
+export const publicWorks = () => catalog.filter(w => w.visibility === 'public' && publishedEditions(w.id).length > 0);
+export const bestEdition = (work:Work,locale:string):Edition|null => preferredEdition(publishedEditions(work.id),locale,work.original_language);
 export const workById = (id: string) => catalog.find(w => w.id === id);
 export const editionById = (id: string) => editions.find(e => e.id === id);
 export const resolveEdition = (workId: string, slug: string) =>
@@ -81,4 +66,13 @@ export function issueUrl(workId: string, editionId: string, segment?: string): s
     'Please do not paste unlicensed modern translations.'
   ].join('\n');
   return 'https://github.com/streamentry/LitMundi/issues/new?' + new URLSearchParams({title,body}).toString();
+}
+
+const alignmentModules = import.meta.glob('../../corpus/alignments/*/*.json', {eager:true,import:'default'}) as Record<string,{links:{source:string[],target:string[]}[]}>;
+export function parallelFor(edition:Edition): {source:Edition,rows:{source:[string,string][],target:[string,string][]}[]}|null {
+  if(edition.kind !== 'translation' || edition.status !== 'published') return null;
+  const source=editionById(edition.source_edition_id??'');
+  if(!source || !isPublicEdition(source,workById(edition.work_id))) throw new Error('Published translation requires a public source');
+  const alignment=alignmentModules['../../corpus/alignments/'+edition.work_id+'/'+edition.id+'.json'];
+  return {source,rows:alignedPassages(passagesFor(source),passagesFor(edition),alignment)};
 }

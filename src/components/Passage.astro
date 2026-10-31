@@ -1,0 +1,14 @@
+---
+import {strings,type Locale} from '../lib/i18n';
+import {issueUrl} from '../lib/corpus';
+interface Props {id:string;text:string;language:string;locale:Locale;workId:string;editionId:string;anchorId?:string;permalink?:string;track?:boolean}
+const {id,text,language,locale,workId,editionId,anchorId=id,permalink='#'+id,track=true}=Astro.props;
+const t=strings[locale];
+---
+<div class="segment" id={anchorId} data-reading-segment={track?id:undefined}>
+  <p class="prose" lang={language}>{text}</p>
+  <div class="passage-tools">
+    <a href={permalink} aria-label={t.passageLink+' '+id}><span aria-hidden="true">§</span> {id.split(':').pop()}</a>
+    <a href={issueUrl(workId,editionId,id)} aria-label={t.passageCorrection+' '+id}>{t.feedback}<span aria-hidden="true"> ↗</span></a>
+  </div>
+</div>

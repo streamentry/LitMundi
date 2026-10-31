@@ -1,0 +1,52 @@
+name: Reading experience
+description: Tell us what you actually read and what helped or got in the way.
+title: "Reader feedback: "
+body:
+  - type: markdown
+    attributes:
+      value: "Share observations from your own reading. A draft is not an approved translation. Please avoid posting private information or copyrighted third-party text."
+  - type: input
+    id: edition
+    attributes:
+      label: Work and edition
+      description: Paste the reading URL or edition ID.
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Reading language
+    validations:
+      required: true
+  - type: dropdown
+    id: completion
+    attributes:
+      label: How far did you read?
+      options:
+        - The complete work
+        - Part of the work
+        - I could not start reading
+    validations:
+      required: true
+  - type: dropdown
+    id: return
+    attributes:
+      label: Have you read on LitMundi before?
+      options:
+        - This is my first visit
+        - I returned voluntarily
+        - I returned after an invitation
+    validations:
+      required: true
+  - type: textarea
+    id: observations
+    attributes:
+      label: What helped or got in the way?
+      description: Include device or accessibility details only if relevant. A passage ID helps with specific text issues.
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Would you recommend this edition? Why?
+      description: If another translation already serves you well, tell us which one. No purchase or account beyond GitHub is required.
