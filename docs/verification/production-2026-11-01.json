@@ -1,0 +1,991 @@
+{
+  "recorded_at_utc": "2026-10-31T23:46:09.264734+00:00",
+  "release_commit": "bc402528baa485107ec1a260d9841ec97a367e4b",
+  "pull_request": "https://github.com/streamentry/LitMundi/pull/12",
+  "deployment_workflow": "https://github.com/streamentry/LitMundi/actions/runs/41253699250",
+  "deployment_conclusion": "success",
+  "http": {
+    "checked_at_utc": "2026-10-31T23:44:22.276399+00:00",
+    "base_url": "https://streamentry.github.io/LitMundi/",
+    "status": "passed",
+    "checks": 78,
+    "published_editions": [
+      "wilde-artist-en-methuen-1913",
+      "machado-apologo-pt-laemmert-1896",
+      "pardo-encaje-es-administracion-c1898"
+    ],
+    "limitations": [
+      "Read-only production HTTP/content verification; no human literary review or real reader-demand measurement.",
+      "The correction links are checked without submitting test issues or impersonating readers."
+    ],
+    "results": [
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 9790,
+        "sha256": "563b1b772def5a6e5c1ee9284ad21c29f7db6aa8d702f7d7adc78d2fc63161c8",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/quality/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5540,
+        "sha256": "2f070be574a22f14f844494689dd1a5fa6428fe293f2dfd137fd12a88af30c76",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/works/wilde-the-artist/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5268,
+        "sha256": "d2015f08c6f0afdc603ea65dc3e4de78874ee2e6743db78fcbc53a99d4fcae1e",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/works/machado-um-apologo/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5462,
+        "sha256": "990b20e5c8072900878c8ffca6e27a626febbc411be847da2692df496b9e6b0d",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/works/pardo-bazan-el-encaje-roto/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5750,
+        "sha256": "12b0a15879844229d8a8af07329604abc3d40345db866f02d38c7fddf23ff03e",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 18718,
+        "sha256": "92bd661f61ecd3371f249c918828860c00a4d9c90e0b83b3c63a9e2ea04eb9f2",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 40910,
+        "sha256": "e36238aec29b2ca733ec26862218dd281e3aacb57d1e04aa5885e3f288568ecf",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 41136,
+        "sha256": "086dafb0f348196bb4c0040a1ad7dbb1e4906d7ee11419c56d3ab991c23abdcf",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/wilde-the-artist/wilde-artist-vi-community-proposed/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/demo-proust/proust-swann-vi-planned/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/demo-proust/proust-swann-en-planned/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/en/read/demo-proust/fr/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 9009,
+        "sha256": "fd8e0cc6e5c8c6f86fc795f638cf1044fedd5b4828afc0483e96d5e1ad67a6ff",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 10435,
+        "sha256": "a0079544e2ceab29ff297aeb2d6635659a4ceb284af089d26073d61b516aa02f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/quality/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 6262,
+        "sha256": "a1fc42e3e51c203024243a58c5c273b3d18317c69ad89d4320ac8e910a34957d",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/works/wilde-the-artist/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5642,
+        "sha256": "ae0c42bbe60272dcb544cfbcf2b10931641e77db440c229d18f2b475d8f38d0f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/works/machado-um-apologo/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5699,
+        "sha256": "ab2ec0c03703d66a21ffc8eaf692d5489f276426297e66c9ff99cec6f25c97c8",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/works/pardo-bazan-el-encaje-roto/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5987,
+        "sha256": "02423010baa4f1f0627a4a828d888707b68e3e24972c391c33762e169c54a7eb",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 19124,
+        "sha256": "49706db0c23ca2cd92c08b675fe921e35aa7cdf460b3bf7c71dc5e789c70636d",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 41581,
+        "sha256": "6e0a5da1b8f4bedd69e32e827928115930cbb9459d0603e90ab6f0b1e7a68d9d",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 41693,
+        "sha256": "f1b21db2793c51efd6d27b8aed42fc94abe0a3a0ab4287c3669a50141eb5a67a",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/wilde-the-artist/wilde-artist-vi-community-proposed/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/demo-proust/proust-swann-vi-planned/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/demo-proust/proust-swann-en-planned/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/vi/read/demo-proust/fr/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 9282,
+        "sha256": "f4fdc57942b6831a98e60562fc085da36851d96ad6827768fa370dee8cc59d44",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 10037,
+        "sha256": "9313e00628c48b997c252eaf12a788b158dffdfd0eeb99ed9d1571b2dec968bd",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/quality/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5766,
+        "sha256": "7de61e89b8755c6cea16a7d4b3391e547868d0128c4c9450e4448d84bfd8399e",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/works/wilde-the-artist/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5521,
+        "sha256": "03f80121743e4459e47bd093ac6d227f674993b5e945fab7cfb668d6b76c8094",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/works/machado-um-apologo/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5578,
+        "sha256": "55065aae8dc97ebeb9a6567a5a10007c8927aa87bfcd8bf3b844ff924ca4f622",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/works/pardo-bazan-el-encaje-roto/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5866,
+        "sha256": "bb0d0bfb316fa442d1d3629139ce212dee92cc9f6de55ac9c934e8a208e211d7",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 18947,
+        "sha256": "8dabbc08edae16f12d1ed8f8fb0e4fcb12ffa3b64a65fdd5babb8b087695266b",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 41327,
+        "sha256": "f2835463dcb95ae3dbbf8ddfd75416525dc574d983c1f6b2e88ce981f8214485",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 41470,
+        "sha256": "dd301e522c84efacba5847d7cb34066cf99cfca2bb44d2d1e13d92b2028959c9",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/wilde-the-artist/wilde-artist-vi-community-proposed/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/demo-proust/proust-swann-vi-planned/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/demo-proust/proust-swann-en-planned/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/fr/read/demo-proust/fr/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 9131,
+        "sha256": "c649d88286137318335d61621faa1060cb0ad228bc905673cbb18d8a44bd94df",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 9882,
+        "sha256": "f6294302da0c0077b08f861e9cdd33968d391e746abac485fd933bb2cb9b91e2",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/quality/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5637,
+        "sha256": "aa14477c6fbe9266733a7d75dc4a152879809d7134c174e76d96b71b56cd488a",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/works/wilde-the-artist/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5494,
+        "sha256": "062ae4dc814eb042be29996ef64ce8012eb72f8e3b0082c99833f0f623b65223",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/works/machado-um-apologo/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5551,
+        "sha256": "3543229bd8f5740193029fe8ca532c83d76d8481e9bc907b9f8bcdcb6e372667",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/works/pardo-bazan-el-encaje-roto/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5702,
+        "sha256": "331e89d6398143269eedd4752638995c2e8ce566196250e2161d5444e461700d",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 18873,
+        "sha256": "2371db54d42acaca7afcc67aea5e2f819a8968ca5a83537304ef4445d20daebd",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 41180,
+        "sha256": "059e68f0417c43835f602f84371a49dd234a2d37123c9c7f452d224cccdcd3ad",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 41352,
+        "sha256": "d23820f84ee6a660d025a47650a3a124809d45875724922de886c03fd8a707a5",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/wilde-the-artist/wilde-artist-vi-community-proposed/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/demo-proust/proust-swann-vi-planned/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/demo-proust/proust-swann-en-planned/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/es/read/demo-proust/fr/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 9109,
+        "sha256": "a3707b5e7ab68d01996ffb1a41131a06fb4a26295d36d4e6a8ba5063da179044",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/wilde-artist-en-methuen-1913.json",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 4990,
+        "sha256": "623559de39cfee1cbeb31971cf0e738ea5c758034698bb0fa18677f5984df325",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/wilde-artist-en-methuen-1913.txt",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 2306,
+        "sha256": "b6d98b847cd2edacfd8a1e712757c1590fa77275cdf7c6c0d97bf0eb37502a8b",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/wilde-artist-en-methuen-1913.epub",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 3725,
+        "sha256": "ace104e3ca496ce642577bda24b7af1f6fa9644eae12f30d10f632fe873e84e0",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/wilde-artist-en-methuen-1913.tsv",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5156,
+        "sha256": "ae7f764caa393da7b9bb51a11880411cc4682605e1a643e50ba89456ddaedfe8",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/machado-apologo-pt-laemmert-1896.json",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 9807,
+        "sha256": "e15ee24927b967c39f4a829e41d9099a1e7f07f695ac7222e871b4105fcf6783",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/machado-apologo-pt-laemmert-1896.txt",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5734,
+        "sha256": "c3543f1022c33b2aabd01ce7f055d86809b0616466a30387bb1ccca36f52ba5a",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/machado-apologo-pt-laemmert-1896.epub",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 5621,
+        "sha256": "651422cd371298f0a619732457b7a7e764340bbba1c9a14075d13b8c8b907c5f",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/machado-apologo-pt-laemmert-1896.tsv",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 29196,
+        "sha256": "e005241c147d353b4f56ba1f914943a8f34a127f4b0d281997a0bc2b8b6ce2cb",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/pardo-encaje-es-administracion-c1898.json",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 15667,
+        "sha256": "e3edc05557ef6631b9f645ba7f5243b2294a11bbf720e23697513a81d7263f63",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/pardo-encaje-es-administracion-c1898.txt",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 11509,
+        "sha256": "3218b481afc1880a58be15f55973ac4b9cfec80d3dff4a81a255b0bcf3341cfd",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/pardo-encaje-es-administracion-c1898.epub",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 8730,
+        "sha256": "a8ec92098fbcc6cb6f2bc21efcfa3f4c4e7d06491ebaa5e5933c8942b7011766",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/pardo-encaje-es-administracion-c1898.tsv",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 29303,
+        "sha256": "60f9f62b5f9315d7743e5289efa72a30c61ff7ae2f3d5a0486fbf04737cd0249",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 3623,
+        "sha256": "f32cf31b6657707885abac495f4bb1b0231ddc54f5d7d345ed80480346c41a86",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/sitemap.xml",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 23721,
+        "sha256": "84b21447e0676f63a0a2f488cfcbaba3c32b7a24562f76bba23cd6966c163209",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/robots.txt",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 83,
+        "sha256": "c21c037156153f09987d149b7cb7324dc99fa0454ce37cc05dd7f03daf4cbca3",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/search-index.json",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 15909,
+        "sha256": "382718974617611879cb348454bffcb4b48ddee30f522d2ebed375ee03be6b9e",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/downloads/manifest.json",
+        "status": 200,
+        "expected_status": 200,
+        "bytes": 2126,
+        "sha256": "faa70f11b78f677c2f6d9e40b01a0b9384f7d10a9be5b92299e47434b375b8f1",
+        "passed": true,
+        "problems": []
+      },
+      {
+        "url": "https://streamentry.github.io/LitMundi/this-route-must-not-exist/",
+        "status": 404,
+        "expected_status": 404,
+        "bytes": 659,
+        "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+        "passed": true,
+        "problems": []
+      }
+    ],
+    "https_verification": "Certificate validation enabled with the environment default trust store."
+  },
+  "browser": {
+    "status": "passed",
+    "base_url": "https://streamentry.github.io/LitMundi/",
+    "scope": "Browser acceptance against the supplied base URL; no human literary review or reader-demand claim.",
+    "versions": {
+      "node": "v24.22.1",
+      "playwright": "1.56.1",
+      "axePlaywright": "4.10.2",
+      "chromium": "141.0.7390.37"
+    },
+    "accessibility": [
+      {
+        "route": "en/",
+        "violations": []
+      },
+      {
+        "route": "en/quality/",
+        "violations": []
+      },
+      {
+        "route": "en/works/wilde-the-artist/",
+        "violations": []
+      },
+      {
+        "route": "en/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "violations": []
+      },
+      {
+        "route": "en/works/machado-um-apologo/",
+        "violations": []
+      },
+      {
+        "route": "en/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "violations": []
+      },
+      {
+        "route": "en/works/pardo-bazan-el-encaje-roto/",
+        "violations": []
+      },
+      {
+        "route": "en/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "violations": []
+      },
+      {
+        "route": "vi/",
+        "violations": []
+      },
+      {
+        "route": "vi/quality/",
+        "violations": []
+      },
+      {
+        "route": "vi/works/wilde-the-artist/",
+        "violations": []
+      },
+      {
+        "route": "vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "violations": []
+      },
+      {
+        "route": "vi/works/machado-um-apologo/",
+        "violations": []
+      },
+      {
+        "route": "vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "violations": []
+      },
+      {
+        "route": "vi/works/pardo-bazan-el-encaje-roto/",
+        "violations": []
+      },
+      {
+        "route": "vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "violations": []
+      },
+      {
+        "route": "fr/",
+        "violations": []
+      },
+      {
+        "route": "fr/quality/",
+        "violations": []
+      },
+      {
+        "route": "fr/works/wilde-the-artist/",
+        "violations": []
+      },
+      {
+        "route": "fr/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "violations": []
+      },
+      {
+        "route": "fr/works/machado-um-apologo/",
+        "violations": []
+      },
+      {
+        "route": "fr/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "violations": []
+      },
+      {
+        "route": "fr/works/pardo-bazan-el-encaje-roto/",
+        "violations": []
+      },
+      {
+        "route": "fr/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "violations": []
+      },
+      {
+        "route": "es/",
+        "violations": []
+      },
+      {
+        "route": "es/quality/",
+        "violations": []
+      },
+      {
+        "route": "es/works/wilde-the-artist/",
+        "violations": []
+      },
+      {
+        "route": "es/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "violations": []
+      },
+      {
+        "route": "es/works/machado-um-apologo/",
+        "violations": []
+      },
+      {
+        "route": "es/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "violations": []
+      },
+      {
+        "route": "es/works/pardo-bazan-el-encaje-roto/",
+        "violations": []
+      },
+      {
+        "route": "es/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "violations": []
+      }
+    ],
+    "mobile": [
+      {
+        "route": "en/",
+        "width_px": 390,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/",
+        "width_px": 390,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/quality/",
+        "width_px": 390,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "width_px": 390,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "width_px": 390,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "width_px": 390,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "en/",
+        "width_px": 320,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/",
+        "width_px": 320,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/quality/",
+        "width_px": 320,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+        "width_px": 320,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+        "width_px": 320,
+        "height_px": 844,
+        "horizontal_overflow": false
+      },
+      {
+        "route": "vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+        "width_px": 320,
+        "height_px": 844,
+        "horizontal_overflow": false
+      }
+    ],
+    "interactions": [
+      "Keyboard first-tab skip link targets main content.",
+      "Full-text searches find the intended English, Portuguese and Spanish source works.",
+      "An absent query shows an explicit empty result, not draft text.",
+      "Author/language filters combine and incompatible filters show the empty state.",
+      "Changing UI language preserves edition and passage fragment.",
+      "Reading position storage is opt-in; save, resume and clear work.",
+      "All three complete sources, language navigation and JSON/TXT/EPUB links remain usable without JavaScript."
+    ],
+    "parallel_fixture": null,
+    "source_hashes": [
+      {
+        "edition_id": "wilde-artist-en-methuen-1913",
+        "sha256": "bd014887242c1b44ed98a4a9e1f8568494173d3fedb0ecf4fd9951c808fcf4ef"
+      },
+      {
+        "edition_id": "machado-apologo-pt-laemmert-1896",
+        "sha256": "17b46a94ca47b08eb7c32af2f91c6d449d8e8dae07883e2b27f118e4ed58f5f6"
+      },
+      {
+        "edition_id": "pardo-encaje-es-administracion-c1898",
+        "sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e"
+      }
+    ],
+    "browser_exceptions": [],
+    "browser_https_errors_ignored": true,
+    "client_javascript": {
+      "external_files": 0,
+      "external_total_bytes": 0,
+      "home_inline": {
+        "blocks": 2,
+        "bytes": 2153,
+        "sum_gzip_bytes": 1126
+      },
+      "reader_inline": {
+        "blocks": 2,
+        "bytes": 1643,
+        "sum_gzip_bytes": 801
+      },
+      "note": "Script bytes are counted from the local dist build, not measured network transfer. Inline scripts are separate from external assets; JSON-LD is excluded. Search-index JSON is loaded only when search runs. Gzip sums are estimates."
+    },
+    "limitations": [
+      "Automated axe checks and keyboard spot checks do not certify complete accessibility conformance.",
+      "These are software checks, not real reader feedback or a literary quality review.",
+      "No real translation has been published. Parallel rendering uses only the isolated synthetic fixture when supplied.",
+      "Browser certificate errors were explicitly ignored for this run; this record is not evidence of TLS certificate validity."
+    ],
+    "environment_note": "The initial Chromium run stopped with ERR_CERT_AUTHORITY_INVALID because it did not trust the environment TLS-inspecting proxy. The successful rerun explicitly enabled LITMUNDI_BROWSER_IGNORE_HTTPS_ERRORS=1. The separate Python HTTPS/content check retained certificate validation with the configured environment CA. Browser results do not certify TLS."
+  },
+  "overall_scope": "Observed production behavior for the deployed release. No human literary certification, measured reader demand or external archival custody is claimed."
+}

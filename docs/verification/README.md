@@ -1,5 +1,7 @@
 # Reader verification
 
+[The release report](../RELEASE-2026-11-01.md) summarizes the deployed first cycle. `build-2026-11-01.json` records local acceptance. `production-2026-11-01.json` records the actual release commit, successful deployment workflow, 78 production HTTP/content checks and browser acceptance on the live site. It retains the explicit Chromium certificate exception needed for the test environment's proxy; the separate Python HTTPS check kept certificate validation enabled.
+
 `reader-2026-11-01.json` records actual checks against the locally built three-work release. It includes tool versions, source-text hashes, tested routes, mobile viewport sizes and limitations. This evidence does not claim production deployment, complete accessibility certification, human literary review or actual reader demand.
 
 The normal dependency-free route/content checks run with:
@@ -30,6 +32,8 @@ PLAYWRIGHT_BROWSERS_PATH=/tmp/litmundi-browser node docs/verification/check-read
 ```
 
 If the environment prevents Astro from writing its telemetry configuration, set `ASTRO_TELEMETRY_DISABLED=1` for the build and preview commands. If tools were installed elsewhere, set `LITMUNDI_BROWSER_TOOLS` to that installation's `node_modules` path. Browser/system dependencies may need installation on another operating system.
+
+The same browser command accepts the production base URL after deployment. Certificate verification stays enabled by default. In a controlled environment where Chromium does not trust a known TLS-inspecting proxy, `LITMUNDI_BROWSER_IGNORE_HTTPS_ERRORS=1` permits interaction checks and visibly records the exception and limitation. Such a run does not verify TLS; retain a separate normal HTTPS check and do not conceal certificate failures.
 
 The script checks 32 routes across all four UI languages with axe's WCAG 2/2.1 A/AA rules; 12 mobile route/viewport combinations at 320 and 390 pixels; keyboard skip navigation; full-text search in the three original languages; combined author/language filters; preservation of passage links when switching UI language; optional browser-local bookmarks; and reading/navigation/download links without JavaScript. The browser check is pinned to this three-work acceptance case and should be adapted when content grows.
 
