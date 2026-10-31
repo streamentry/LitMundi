@@ -14,7 +14,7 @@
     "verify:build": "node scripts/verify-build.mjs"
   },
   "dependencies": {
-    "astro": "^5.15.0"
+    "astro": "^7.4.2"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.4",
