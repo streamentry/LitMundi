@@ -1,0 +1,104 @@
+{
+  "edition_id": "pardo-encaje-es-administracion-c1898",
+  "work_id": "pardo-bazan-el-encaje-roto",
+  "checked_at": "2026-11-01",
+  "checker_kind": "ai_assisted",
+  "source_sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e",
+  "segments_checked": [
+    "pardo-bazan-el-encaje-roto:1.1",
+    "pardo-bazan-el-encaje-roto:1.2",
+    "pardo-bazan-el-encaje-roto:1.3",
+    "pardo-bazan-el-encaje-roto:1.4",
+    "pardo-bazan-el-encaje-roto:1.5",
+    "pardo-bazan-el-encaje-roto:1.6",
+    "pardo-bazan-el-encaje-roto:1.7",
+    "pardo-bazan-el-encaje-roto:1.8",
+    "pardo-bazan-el-encaje-roto:1.9",
+    "pardo-bazan-el-encaje-roto:1.10",
+    "pardo-bazan-el-encaje-roto:1.11",
+    "pardo-bazan-el-encaje-roto:1.12",
+    "pardo-bazan-el-encaje-roto:1.13",
+    "pardo-bazan-el-encaje-roto:1.14",
+    "pardo-bazan-el-encaje-roto:1.15"
+  ],
+  "witness_url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/index.htm",
+  "witness_pages": [
+    "233",
+    "234",
+    "235",
+    "236",
+    "237",
+    "238",
+    "239"
+  ],
+  "notes": "Every listed page was visually read against the canonical transcription. This records an AI-assisted technical comparison, not a human qualification or certification. No unexamined source pages lie inside the selected complete story. Normalizations are limited to paragraph transcription, joining print line/page breaks, joining discretionary line-end hyphens, Unicode NFC, and ordinary punctuation spacing; historical lexical spelling and long paragraph boundaries are retained. The title is catalog metadata; running heads, page numbers, ornaments and scan artifacts are excluded. Canonical plain text cannot encode italic type; known emphasis is recorded separately below.",
+  "normalization_decisions": [
+    "Retained á, ó, fué, fuí, dió, obscurecer, girón and the historical Alenzón spelling. The glossary identifies modern Alençon without silently modernizing the Spanish source.",
+    "Retained the unmatched opening dash in A los tres años,— and the long printed paragraphs; do not import the 1963 edition’s reorganized paragraphs or altered wording.",
+    "The selected facsimile ends after serias...; the El Liberal publication-date note in the 1963 transcription is bibliographic evidence only and is not added to the historical story text."
+  ],
+  "witness_images": [
+    {
+      "printed_page": "233",
+      "url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/img_0231_s.jpg",
+      "sha256": "3c12ca76fa7a989f3d2a85e7b04aa5e63895cc7dd6d9b2ec961674ae1e157a00"
+    },
+    {
+      "printed_page": "234",
+      "url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/img_0232_s.jpg",
+      "sha256": "5b7efd5d301d755a2e8acbdc907e2495deceba2260bc840bc8c8ec83b916ba83"
+    },
+    {
+      "printed_page": "235",
+      "url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/img_0233_s.jpg",
+      "sha256": "a8871b4dd9bd0ae737b6560c10264c2b972ea78315b6c6faa1f47b49f152d6c8"
+    },
+    {
+      "printed_page": "236",
+      "url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/img_0234_s.jpg",
+      "sha256": "6f4ff7e0897314a1fd119b0e1cdd792c5a44b17bcbcabaf385c3d30d3660fccd"
+    },
+    {
+      "printed_page": "237",
+      "url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/img_0235_s.jpg",
+      "sha256": "48b64316b8515324105c27eea30eec690a26cc05157992173a27c7620855aca9"
+    },
+    {
+      "printed_page": "238",
+      "url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/img_0236_s.jpg",
+      "sha256": "32e117f93d97aa50a5714092561ce11b3b815ae2d39b26643d59f2b9db321447"
+    },
+    {
+      "printed_page": "239",
+      "url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/img_0237_s.jpg",
+      "sha256": "8fefdc66bacfabc5289a7733550d999c9e7e9f082f12ce10d57a273601e8fc70"
+    }
+  ],
+  "typographic_emphasis": [
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.1",
+      "text": "un no claro",
+      "style": "italic on no"
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.4",
+      "text": "un no seco; dice no",
+      "style": "italic on no"
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.6",
+      "text": "el sí no partiese",
+      "style": "italic on sí"
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.8",
+      "text": "pequeñeces",
+      "style": "italic"
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.13",
+      "text": "Aquel no",
+      "style": "italic on no"
+    }
+  ]
+}

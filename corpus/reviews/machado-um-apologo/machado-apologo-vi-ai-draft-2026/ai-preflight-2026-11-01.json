@@ -1,0 +1,78 @@
+{
+  "rubric_id": "litmundi-literary-v1",
+  "edition_id": "machado-apologo-vi-ai-draft-2026",
+  "source_edition_id": "machado-apologo-pt-laemmert-1896",
+  "reviewed_at": "2026-11-01",
+  "kind": "ai_preflight",
+  "reviewer": {
+    "identifier": "litmundi-ai-editorial-preflight",
+    "display_name": "AI-assisted translation and adversarial preflight (not a human reviewer)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "source_sha256": "17b46a94ca47b08eb7c32af2f91c6d449d8e8dae07883e2b27f118e4ed58f5f6",
+  "target_sha256": "95cba2c25828c70eb2bbbba794d93c696258894b68e11eed20281fe6370baf2e",
+  "segments_reviewed": [
+    "machado-um-apologo:1.1",
+    "machado-um-apologo:1.2",
+    "machado-um-apologo:1.3",
+    "machado-um-apologo:1.4",
+    "machado-um-apologo:1.5",
+    "machado-um-apologo:1.6",
+    "machado-um-apologo:1.7",
+    "machado-um-apologo:1.8",
+    "machado-um-apologo:1.9",
+    "machado-um-apologo:1.10",
+    "machado-um-apologo:1.11",
+    "machado-um-apologo:1.12",
+    "machado-um-apologo:1.13",
+    "machado-um-apologo:1.14",
+    "machado-um-apologo:1.15",
+    "machado-um-apologo:1.16",
+    "machado-um-apologo:1.17",
+    "machado-um-apologo:1.18",
+    "machado-um-apologo:1.19",
+    "machado-um-apologo:1.20",
+    "machado-um-apologo:1.21",
+    "machado-um-apologo:1.22"
+  ],
+  "scores": {
+    "semantic_fidelity": 8.5,
+    "literary_voice": 8.5,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 8.5,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "machado-um-apologo:1.20",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Hầu gái weakens the Brazilian historical specificity of mucamas. Dictionary evidence and the competing renderings nữ tỳ / hầu gái need a qualified literary historian’s choice or annotation."
+    },
+    {
+      "segment": "machado-um-apologo:1.22",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Ông giáo dạy môn u sầu preserves the joke but may over-literalize professor de melancolia as a curriculum. Test against bậc thầy về nỗi u sầu without losing the mock-academic voice."
+    },
+    {
+      "segment": "machado-um-apologo:1.18",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The four plic beats are retained exactly; a Vietnamese read-aloud test is still needed to decide if a local sound-word is preferable."
+    },
+    {
+      "segment": "machado-um-apologo:1.12",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The dangling Vietnamese subject could make the needle obey itself; the source explicitly makes the following thread the obedient subject. The recorded draft rendering was revised after an additional AI-assisted adversarial reading."
+    }
+  ],
+  "summary": "AI-assisted direct Portuguese-to-Vietnamese draft and adversarial preflight only. All 22 canonical paragraph/dialogue units are covered. The review checked the needle/pin head pun, status reversal, repeated sewing actions, narrator’s Diana interruption, four-day chronology and final thread insult. Historical mucamas, the mock title professor de melancolia, and the sound-word need bilingual human judgment. The 8.55 advisory score is a subjective preflight, not an independent calibration or publication approval; no human reviewers or permissions are claimed. An additional AI-assisted read corrected 1 documented local fidelity issues without changing the advisory score."
+}

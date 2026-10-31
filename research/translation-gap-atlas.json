@@ -1,0 +1,3440 @@
+{
+  "schema_version": 1,
+  "researched_on": "2026-11-01",
+  "title": "LitMundi Translation Gap Atlas — bounded evidence survey",
+  "purpose": "Separate documented competing editions from unverified absence, access, quality and demand hypotheses. This research does not authorize publication.",
+  "target_languages": [
+    {
+      "code": "vi",
+      "name": "Vietnamese",
+      "role": "priority",
+      "reviewers_committed": 0
+    },
+    {
+      "code": "id",
+      "name": "Indonesian",
+      "role": "research_comparator_only",
+      "reviewers_committed": 0
+    }
+  ],
+  "second_language_decision": {
+    "status": "not_approved_for_translation_production",
+    "rationale": "Indonesian offers inspectable national/public-library records and active literary publishers, enabling a meaningful comparator. No qualified reviewer capacity or superior unmet demand was verified.",
+    "approval_conditions": [
+      "A bounded bibliography review establishes a specific access, completeness or reuse need.",
+      "Two independent bilingual literary reviewers explicitly agree to the selected source-language pair.",
+      "Observe reader demand before committing production."
+    ]
+  },
+  "methodology": {
+    "researcher_kind": "ai_assisted",
+    "coverage": "20 named works and 40 work-language assessments; web-indexed catalogs, national bibliographies, publishers, translator publications and original-source witnesses.",
+    "limitations": [
+      "This is a reproducible first-pass survey, not a comprehensive bibliographic census. Most negative searches used public web indexes, not complete internal national-library catalogs.",
+      "Search results may be stale; access methods and failures are recorded in source records. Dynamic inventory or search counters are not demand measurements.",
+      "No claim of nonexistent translation, unavailable translation, independently proven inadequate translation or globally cleared rights is made.",
+      "No reader study, human reviewer recruitment or human literary certification was completed by this survey."
+    ],
+    "confidence_definition": {
+      "high": "Positive item-level metadata or credited translation; confidence applies to existence only.",
+      "medium": "Named edition, research or collection evidence with unresolved attribution or coverage.",
+      "low": "Bounded search did not establish an edition; no confidence in absence."
+    },
+    "verified_gap_requirement": "At least two named bibliographic sources, documented scope and search variants, plus attributable human specialist verification. Empty search results alone cannot receive verified_gap.",
+    "quality_requirement": "An inadequate_translation claim requires a version-specific independent bilingual assessment, errors and review evidence; none is asserted here."
+  },
+  "legal_evidence_ids": [
+    "us-rights",
+    "vn-rights",
+    "id-rights",
+    "spain-rights"
+  ],
+  "sources": [
+    {
+      "id": "wilde-ucc",
+      "title": "University College Cork CELT: The Artist",
+      "url": "https://celt.ucc.ie/document/E850003-016/",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Identifies the 1913 Methuen Essays and Lectures witness, pp.229–230, and composition/publication context 1894."
+    },
+    {
+      "id": "wilde-pg",
+      "title": "Project Gutenberg: Essays and Lectures",
+      "url": "https://www.gutenberg.org/files/774/774-h/774-h.htm",
+      "kind": "original_text",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "English transcription includes all five paragraphs of The Artist."
+    },
+    {
+      "id": "wilde-tienve",
+      "title": "Tiền Vệ: Người nghệ sĩ, Hoàng Ngọc-Tuấn translation",
+      "url": "https://tienve.org/home/literature/viewLiterature.do?action=viewArtwork&artworkId=5215",
+      "kind": "translation_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Search-indexed literary publication identifies Wilde, The Artist in Vietnamese, and translator Hoàng Ngọc-Tuấn.",
+      "limitation": "Normalized canonical query URL; full-page retrieval returned HTTP 429. Indexed result used a session-bearing URL. Current accessibility and complete text must be rechecked; the index is positive evidence of a translation, not a license grant."
+    },
+    {
+      "id": "machado-usp",
+      "title": "Biblioteca Brasiliana Guita e José Mindlin: Várias histórias",
+      "url": "https://digital.bbm.usp.br/handle/bbm/5307",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "University of São Paulo catalog identifies the 1896 Laemmert first edition; A cartomante pp.9–29 and Um apólogo pp.253–257; facsimile is linked."
+    },
+    {
+      "id": "machado-mec",
+      "title": "Brazil Ministry of Education Domínio Público: Um Apólogo",
+      "url": "https://dominiopublico.mec.gov.br/pesquisa/DetalheObraForm.do?co_obra=1980&select_action=",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists the Portuguese work and USP-linked text. Its access counter is not evidence of Vietnamese or Indonesian demand."
+    },
+    {
+      "id": "machado-mec-text",
+      "title": "Domínio Público: Um Apólogo text",
+      "url": "https://dominiopublico.mec.gov.br/download/texto/ua000231.pdf",
+      "kind": "original_text",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Government-hosted Portuguese transcription; must be collated with the chosen 1896 witness before import."
+    },
+    {
+      "id": "machado-byu",
+      "title": "Brigham Young University: Várias histórias corpus",
+      "url": "https://machado.byu.edu/corpus/varias-historias/",
+      "kind": "institutional_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists Um apólogo (1885) and A cartomante (1884) among the collection contents."
+    },
+    {
+      "id": "machado-vn-catalog",
+      "title": "Ho Chi Minh City General Sciences Library: Brazilian literature catalog",
+      "url": "https://phucvu.thuvientphcm.gov.vn/Item/SearchAdvanced?DDC=869",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists Nhà điên by Machado de Assis, translated by Đăng Thư, Đà Nẵng, 2021. This is author-level translation evidence; it does not establish that either Atlas story is included."
+    },
+    {
+      "id": "machado-hanu-report",
+      "title": "Thời Đại report: Machado de Assis introduction in Vietnam",
+      "url": "https://tdnexver.mastercms.org/gioi-thieu-nha-van-vi-dai-cua-van-hoc-brazil-machado-de-assis-den-cong-chung-viet-nam-155254.html",
+      "kind": "reported_translation_project",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "2021 event report names a HANU student translation project for A Cartomante and identifies the three other stories in Nhà điên. Completion/publication of that student translation was not verified.",
+      "limitation": "Secondary event report; no student manuscript or current project status inspected."
+    },
+    {
+      "id": "machado-senate",
+      "title": "Brazilian Senate: diplomatic activity report for Hanoi",
+      "url": "https://legis.senado.leg.br/sdleg-getter/documento/download/be5e9644-a9e4-4789-81e5-32a3fdc1d2cb",
+      "kind": "official_report",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Reports a 2021 Machado webinar with Hanoi University’s Portuguese department and the first Vietnamese book translation. Supports an institutional recruitment lead, not anyone’s availability or endorsement."
+    },
+    {
+      "id": "pardo-cervantes-old",
+      "title": "Cervantes/Alicante catalog: Cuentos de amor, [1898?]",
+      "url": "https://cervantesvirtual.com/obra/cuentos-de-amor/",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "opened_full_page",
+      "finding": "Identifies Madrid, Administración, [1898?], Obras completas vol.16; explicitly includes El encaje roto and links the Alicante facsimile."
+    },
+    {
+      "id": "pardo-alicante",
+      "title": "University of Alicante: Cuentos de amor facsimile index",
+      "url": "https://sirio.ua.es/libros/BEducacion/cuentos_amor/index.htm",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "opened_full_page",
+      "finding": "Facsimile index places El encaje roto on pp.233–239."
+    },
+    {
+      "id": "pardo-cervantes-modern",
+      "title": "Cervantes catalog: Cuentos de amor, modern electronic text",
+      "url": "https://cervantesvirtual.com/obra/cuentos-de-amor--0/",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "opened_full_page",
+      "finding": "The electronic text derives from Aguilar’s 1963 fourth edition, not the 1898 witness. Used for bibliography only; no assumption that modern interventions are freely reusable."
+    },
+    {
+      "id": "pardo-instituto",
+      "title": "Instituto Cervantes: Emilia Pardo Bazán biography",
+      "url": "https://www.cervantes.es/bibliotecas_documentacion_espanol/creadores/pardo_bazan_emilia.htm",
+      "kind": "institutional_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Identifies Pardo Bazán (1851–1921), her literary and feminist work, and death date 12 May 1921."
+    },
+    {
+      "id": "pardo-galicia",
+      "title": "Consello da Cultura Galega: El encaje roto",
+      "url": "https://consellodacultura.gal/fondos_documentais/tematica.php?f=6437",
+      "kind": "institutional_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Cites first newspaper publication in El Liberal, Madrid, 19 September 1897, p.1; points to the BNE hemeroteca."
+    },
+    {
+      "id": "soseki-aozora",
+      "title": "Aozora Bunko card 799: 夢十夜",
+      "url": "https://www.aozora.gr.jp/cards/000148/card799.html",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Japanese text and contributor metadata available; base edition is Chikuma 1988, fifth printing 1996; modern orthography. Natsume Sōseki died in 1916. Exact old-witness collation remains necessary."
+    },
+    {
+      "id": "soseki-vi-partial",
+      "title": "Việt Nam Thư Quán: Mười đêm mộng mị",
+      "url": "https://vietnamthuquan.eu/TacPham/muoi-dem-mong-mi-4221/",
+      "kind": "translation_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Vietnamese text explicitly introduces a translation of the five odd-numbered dreams. This evidence is partial coverage, not proof that a full Vietnamese translation is unavailable.",
+      "limitation": "Hosting, attribution and permission chain not independently verified."
+    },
+    {
+      "id": "soseki-vi-alternative",
+      "title": "Vietnamese reader publication: Mười đêm mộng",
+      "url": "https://congioxinh.wordpress.com/2017/09/07/muoi-dem-mong-mi/",
+      "kind": "secondary_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Names translator An Nhiên and reproduces dreams. This is a competing-translation lead; complete edition metadata and permission remain unchecked."
+    },
+    {
+      "id": "soseki-id-retailer",
+      "title": "Retail catalog: Mimpi-Mimpi Sepuluh Malam dan Kubur Kucing",
+      "url": "https://www.blibli.com/p/buku-mimpi-mimpi-sepuluh-malam-dan-kubur-kucing-soseki-natsume/is--ANS-70955-97084-00001",
+      "kind": "retailer_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists Indonesian book, Merahhitam, 2022, and describes the ten dreams. Publisher confirmation, translator and completeness still need verification."
+    },
+    {
+      "id": "chopin-society",
+      "title": "Kate Chopin International Society: The Story of an Hour text",
+      "url": "https://www.katechopin.org/story-hour/",
+      "kind": "scholarly_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Identifies 1894 Vogue publication and 1895 St. Louis Life changes; source-version choice matters."
+    },
+    {
+      "id": "chopin-vi",
+      "title": "Người Hà Nội: Câu chuyện một giờ",
+      "url": "https://nguoihanoi.vn/cau-chuyen-mot-gio-82185.html",
+      "kind": "translation_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "opened_full_page",
+      "finding": "Vietnamese translation credited to Hoàng Nguyệt Anh, dated 5 March 2024. No independent completeness or quality certification performed."
+    },
+    {
+      "id": "chopin-id",
+      "title": "Literation: Kisah Satu Jam",
+      "url": "https://www.literation.id/kisah-satu-jam/",
+      "kind": "translation_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "opened_full_page",
+      "finding": "Indonesian translation credited to Nurin Aqmarina, 15 April 2026, in a named English–Indonesian anthology."
+    },
+    {
+      "id": "chopin-id-catalog",
+      "title": "Yogyakarta public library: Ciuman sang buronan",
+      "url": "https://balaiyanpus.jogjaprov.go.id/opac/pencarian-sederhana?action=pencarianSederhana&bahan=1&fAuthor=&fBahasa=&fPublishLoc=&fPublishYear=&fPublisher=&fSubject=Cerita+pendek--+Kumpulan&katakunci=Siti&ruas=Pengarang",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists a 2019 Gading anthology including Kate Chopin; not sufficient by itself to identify this exact story."
+    },
+    {
+      "id": "bierce-pg-index",
+      "title": "Project Gutenberg collected works of Ambrose Bierce",
+      "url": "https://www.gutenberg.org/files/58807/58807-h/58807-h.htm",
+      "kind": "institutional_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Indexes the 1909 collected volume with An Occurrence at Owl Creek Bridge, pp.27–45."
+    },
+    {
+      "id": "bierce-vi",
+      "title": "Việt Nam Thư Quán: Sự kiện ở cầu Owl Creek",
+      "url": "https://vietnamthuquan.eu/TacPham/su-kien-o-cau-owl-creek-37057/",
+      "kind": "translation_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "A Vietnamese rendering of the exact story is indexed in three sections. Translator, permission and full fidelity remain unverified."
+    },
+    {
+      "id": "bierce-vi-writers",
+      "title": "Vietnam Writers Association: Ambrose Bierce introduction",
+      "url": "https://vanvn.vn/ky-si-tren-bau-troi-truyen-ngan-cua-ambrose-bierce/",
+      "kind": "literary_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Names Owl Creek as a known story and credits Nguyễn Văn Chiến for a different story. Useful author-interest context, not proof of an Owl Creek translation by that translator."
+    },
+    {
+      "id": "bierce-id",
+      "title": "Gramedia: Kematian Halpin Frasyser",
+      "url": "https://www.gramedia.com/products/kematian-halpin-frasyser",
+      "kind": "retailer_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Indonesian collection listing reproduces the recognizable opening of Owl Creek Bridge; table of contents, translator and full coverage need confirmation."
+    },
+    {
+      "id": "akutagawa-aozora",
+      "title": "Aozora Bunko card 92: 蜘蛛の糸",
+      "url": "https://www.aozora.gr.jp/cards/000879/card92.html",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Japanese text, first publication Akai Tori July 1918, author death 1927; base witness is a 1986 Chikuma edition with modern orthography."
+    },
+    {
+      "id": "akutagawa-vi",
+      "title": "Nguyễn Nam Trân: Tuyển tập Akutagawa introduction",
+      "url": "https://www.erct.com/2-ThoVan/NNT/Tuyen-tap-Akutagawa.htm",
+      "kind": "translator_statement",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Contributor introduction lists Sợi tơ nhện in volume II, Tao Đàn/Hội Nhà Văn, November 2021, and describes direct Japanese translation by a nine-person collective."
+    },
+    {
+      "id": "akutagawa-id",
+      "title": "Kakatua: Kehidupan Si Bebal",
+      "url": "https://penerbitkakatua.com/product/ryunosuke-akutagawa-kehidupan-si-bebal/",
+      "kind": "publisher_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Publisher explicitly includes Sulur Laba-Laba, translator Nurul Hanafi, ISBN 978-623-8476-25-1.",
+      "limitation": "Search-index excerpt available; subsequent full-page retrieval timed out."
+    },
+    {
+      "id": "akutagawa-id-study",
+      "title": "Indonesian government Garuda research index: Jaring Laba-laba",
+      "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1477053",
+      "kind": "institutional_scholarship",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Indexes 2020 research comparing Japanese Kumo no Ito and an Indonesian translation. This proves a studied translation exists, not its literary inadequacy."
+    },
+    {
+      "id": "chekhov-original",
+      "title": "iLibrary: Дама с собачкой",
+      "url": "https://ilibrary.ru/text/976/index.html",
+      "kind": "original_text",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Russian text dated 1899; electronic witness cites Nauka complete works, vol.10, 1986. Identify an earlier witness and separate editorial apparatus before ingestion."
+    },
+    {
+      "id": "chekhov-vi-publisher",
+      "title": "NXB Tổng hợp TP.HCM: Chekhov short stories",
+      "url": "https://www.nxbhcm.com.vn/85/anton-pavlovich-chekhov-truyen-ngan-chon-loc-6340",
+      "kind": "publisher_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Bùi Ngọc Diệp translation collection, 2023, 296 pages; blurb names The Lady with the Dog but does not establish table-of-contents inclusion."
+    },
+    {
+      "id": "chekhov-vi-text",
+      "title": "Việt Nam Thư Quán: Người đàn bà có con chó nhỏ",
+      "url": "https://vietnamthuquan.eu/truyen/truyen.aspx?tid=2qtqv3m3237nvnnnnnqnqn31n343tq83a3q3m3237nvn",
+      "kind": "translation_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Exact Vietnamese story is indexed; source attribution and reuse rights need verification."
+    },
+    {
+      "id": "chekhov-id",
+      "title": "Gramedia: Pria yang Hidup dalam Cangkang",
+      "url": "https://www.gramedia.com/products/pria-yang-hidup-dalam-cangkang",
+      "kind": "retailer_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Collection description explicitly lists Sang Wanita dan Anjingnya and other Chekhov stories. No literary quality comparison performed."
+    },
+    {
+      "id": "maupassant-bnf",
+      "title": "Bibliothèque nationale de France authority: La parure",
+      "url": "https://catalogue.bnf.fr/ark%3A/12148/cb11941465m.public",
+      "kind": "national_library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "French original first published Le Gaulois 17 February 1884, then Contes du jour et de la nuit; includes Vietnamese variant title Món trang sức."
+    },
+    {
+      "id": "maupassant-vnu",
+      "title": "Vietnam National University research on literary translation history",
+      "url": "https://js.vnu.edu.vn/SSH/article/view/210/203",
+      "kind": "institutional_scholarship",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Identifies Vũ Văn Định’s 1922 Vietnamese translation of La parure as Chuỗi hạt kim cương. Current availability and exact witness not checked."
+    },
+    {
+      "id": "maupassant-id",
+      "title": "Jakarta public library: Kalung",
+      "url": "https://perpustakaan.jakarta.go.id/book/detail?cn=INLIS000000000813230",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Indonesian Kalung by Guy de Maupassant, Irwan Kurniawan contributor, Jembar 2008, ISBN 979-24-5677-5."
+    },
+    {
+      "id": "maupassant-id-modern",
+      "title": "Jakarta public library: The Diamond Necklace and Other Stories",
+      "url": "https://kios-perpustakaan.jakarta.go.id/catalogue/detail/326490",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Indonesian edition from Noura Books, 2024, translated by Nurlita Maharani, Indra Pramesti and Yuli Pritania."
+    },
+    {
+      "id": "luxun-pku",
+      "title": "Peking University archives: New Youth publications",
+      "url": "https://news.pku.edu.cn/wsbnztwz/tsws/9.htm",
+      "kind": "institutional_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Identifies Kong Yiji in New Youth vol.6 no.4, April 1919; original issue needs collation before corpus import."
+    },
+    {
+      "id": "luxun-text",
+      "title": "Wikisource: 孔乙己",
+      "url": "https://zh.wikisource.org/wiki/孔乙己",
+      "kind": "original_text",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Chinese transcription exists, names Lu Xun collected works as witness; exact collected-edition details must be resolved."
+    },
+    {
+      "id": "luxun-vi-catalog",
+      "title": "Ho Chi Minh City General Sciences Library: Truyện ngắn Lỗ Tấn",
+      "url": "https://phucvu.thuvientphcm.gov.vn/Item/ItemDetail/841092",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "MARC record for Kim Đồng 2024 third reprint, Trương Chính translation, ISBN 9786042354431; 505 field explicitly includes Khổng Ất Kỷ."
+    },
+    {
+      "id": "luxun-vi-national",
+      "title": "National Library of Vietnam: January 2025 bibliography",
+      "url": "https://nlv.gov.vn/dmdocuments/tmqg-01-2025.pdf",
+      "kind": "national_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Entry 1575 lists the 2024 Kim Đồng Lu Xun collection; exact story inclusion is corroborated by the HCMC MARC record."
+    },
+    {
+      "id": "luxun-id-study",
+      "title": "Universitas Gadjah Mada Poetika: Kong Yiji",
+      "url": "https://journal.ugm.ac.id/poetika/article/view/44389",
+      "kind": "institutional_scholarship",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "2019 Indonesian-language scholarly analysis of the story; does not establish publication of a complete Indonesian translation."
+    },
+    {
+      "id": "luxun-id-thesis",
+      "title": "University of Indonesia: three Lu Xun stories thesis",
+      "url": "https://lib.ui.ac.id/file?file=pdf%2Fabstrak-98607.pdf",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Indonesian thesis discusses Kong Yiji, Diary of a Madman and Medicine. Study language must not be mistaken for translation language."
+    },
+    {
+      "id": "tagore-bichitra",
+      "title": "Jadavpur University Bichitra: Bengali fiction contents",
+      "url": "https://bichitra.jdvu.ac.in/bibliography/bengali_fiction_content.php",
+      "kind": "institutional_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Original-language bibliography lists Postmaster and Kabuliwala in Galpaguchchha vol.1, Visva-Bharati 1333 Bengali era; source pages still require collation."
+    },
+    {
+      "id": "tagore-pg",
+      "title": "Project Gutenberg: Stories from Tagore",
+      "url": "https://www.gutenberg.org/ebooks/33525",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "English translations, including both stories, are available. These are not original Bengali source texts and are not selected as relay sources."
+    },
+    {
+      "id": "tagore-id-catalog",
+      "title": "Jakarta public library: review of Yang Hidup dan Mati",
+      "url": "https://perpustakaan.jakarta.go.id/digital-book/detail?cn=INLIS000000000056121",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Catalogued 2006 Bali Post review identifies Jendela 2002 Selected Short Stories translation by Sovia Veronica Purba, contents including Kepala Kantor Pos and Kabuliwallah."
+    },
+    {
+      "id": "tagore-id-translation",
+      "title": "Rum: Pedagang Buah dari Kabul",
+      "url": "https://rum.web.id/2021/08/pedagang-buah-dari-kabul",
+      "kind": "translation_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Credits Hari Niskala and explicitly identifies an English intermediary. Not a directly translated Bengali edition."
+    },
+    {
+      "id": "tagore-vi-scholarship",
+      "title": "University of Social Sciences and Humanities: Indian literature overview",
+      "url": "https://khoavanhoc-ngonngu.edu.vn/nghien-cuu/van-hoc-nuoc-ngoai-va-van-hoc-so-sanh/1325-lang-du-trong-vn-hc-n.html",
+      "kind": "institutional_scholarship",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Establishes Vietnamese scholarly engagement with Tagore, but the cited Phòng bưu điện is a play, not the Postmaster short story."
+    },
+    {
+      "id": "tagore-vi-tv",
+      "title": "Tuổi Trẻ: Tagore television adaptations",
+      "url": "https://tuoitre.vn/the-ky-21-nhin-ve-nhung-nguoi-phu-nu-cua-tagore-20230603092255647.htm",
+      "kind": "secondary_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Discusses Kabuliwala as Người Kabul in a screen adaptation. Not evidence of a complete Vietnamese prose edition."
+    },
+    {
+      "id": "kafka-pg",
+      "title": "Project Gutenberg: Ein Landarzt, ebook 21989",
+      "url": "https://www.gutenberg.org/ebooks/21989",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "German collection contains Vor dem Gesetz; author dates 1883–1924 and US public-domain status stated. Exact print-witness collation remains necessary."
+    },
+    {
+      "id": "kafka-vi-history",
+      "title": "Znews: Hành trình Kafka ở Việt Nam",
+      "url": "https://znews.vn/hanh-trinh-kafka-o-viet-nam-post830598.html",
+      "kind": "secondary_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "2018 reception history explicitly names Trước cửa pháp luật among Kafka stories read in Vietnam; exact edition remains to be identified."
+    },
+    {
+      "id": "kafka-vi-open",
+      "title": "Yegle: Trước pháp luật",
+      "url": "https://yegle.app/vi/books/vor-dem-gesetz",
+      "kind": "translation_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "A Vietnamese edition page claims CC BY-SA for its translation/editorial data. Full text, authorship and exact license version were not independently audited; open-reuse gap is not established."
+    },
+    {
+      "id": "kafka-id",
+      "title": "DIVA Press: Dokter Desa",
+      "url": "https://divapress-online.com/book/dokter-desa-kumpulan-cerita-terlengkap",
+      "kind": "publisher_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "2025 collection, 502 pages, expressly includes Di Depan Hukum."
+    },
+    {
+      "id": "tolstoy-original",
+      "title": "Tolstoy estate portal: Много ли человеку земли нужно?",
+      "url": "https://tolstoy.ru/creativity/fiction/1149/",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Russian work with portable downloads; cites anniversary complete works vol.25 p.67. Separate source text from modern apparatus before import."
+    },
+    {
+      "id": "tolstoy-vi",
+      "title": "Văn Nghệ: Tolstoy discussion",
+      "url": "https://baovannghe.vn/dam-me-den-tan-cung-4912.html",
+      "kind": "literary_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Names Con người cần bao nhiêu đất? in a Vietnamese literary essay; not a complete translation witness."
+    },
+    {
+      "id": "tolstoy-id",
+      "title": "JBS book catalog: September 2025",
+      "url": "https://jualbukusastra.blogspot.com/2025/09/katalog-jbs-september-2025.html",
+      "kind": "retailer_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists Berapa Luas Tanah yang Dibutuhkan Seorang Manusia, Kakatua, October 2021, xvi+126 pages. Publisher confirmation and translator still needed."
+    },
+    {
+      "id": "andersen-original",
+      "title": "University of Southern Denmark: Little Match Girl bibliography",
+      "url": "https://andersen.sdu.dk/forskning/bib/bibsoeg.html?fritekst=den+lille+pige+med+svovlstikkerne&oph=1&ord=0",
+      "kind": "institutional_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Provides Danish edition bibliography, including 1848 collection. A specific original witness must be chosen before translation."
+    },
+    {
+      "id": "andersen-vi-national",
+      "title": "National Library of Vietnam: September 2024 bibliography",
+      "url": "https://nlv.gov.vn/dmdocuments/tmqg-09-2024.pdf",
+      "kind": "national_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists Cô bé bán diêm, Tuệ Vân translation/adaptation, Văn học 2024 ninth reprint, 20 pages; explicitly an illustrated adaptation."
+    },
+    {
+      "id": "andersen-id-national",
+      "title": "National Library of Indonesia BintangPusnas: Gadis Penjual Korek Api",
+      "url": "https://bintangpusnas.perpusnas.go.id/konten/BK20337/gadis-penjual-korek-api",
+      "kind": "national_library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists children’s book by Astria Ratna, Cabe Rawit. This is adaptation evidence; unabridged literary translation not established."
+    },
+    {
+      "id": "andersen-id-publisher",
+      "title": "Dian Rakyat: Gadis Penjual Korek Api",
+      "url": "https://dianrakyat.com/detail_product/62",
+      "kind": "publisher_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Children’s edition credited to Dewi Sulistya Wati; fidelity to full Danish text and translation route need checking."
+    },
+    {
+      "id": "ibsen-oslo",
+      "title": "University of Oslo: Et dukkehjem witnesses",
+      "url": "https://ibsen.uio.no/VERK_Du.html",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists first edition 1879 and later witnesses. Modern scholarly edition is separate and cannot be assumed unrestricted."
+    },
+    {
+      "id": "ibsen-modern-license",
+      "title": "University of Oslo: 2008 scholarly Et dukkehjem",
+      "url": "https://ibsen.uio.no/DRVIT_Du%7CDuht.html",
+      "kind": "scholarly_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Modern edited text has CC BY-NC 4.0 notice. It is not automatically a source for unrestricted LitMundi redistribution."
+    },
+    {
+      "id": "ibsen-vi",
+      "title": "Tuổi Trẻ: Ibsen Festival Vietnam 2006",
+      "url": "https://tuoitre.vn/le-hoi-ibsen-tai-viet-nam-169163.htm",
+      "kind": "secondary_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Documents Vietnamese Nhà búp bê performance and translations since the 1970s; a specific complete textual edition is still needed."
+    },
+    {
+      "id": "ibsen-id-publisher",
+      "title": "Yayasan Obor Indonesia 2016 book catalog",
+      "url": "https://obor.or.id/download124/katalog_yayasan_obor_2016.pdf",
+      "kind": "publisher_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Lists Rumah Boneka, Henrik Ibsen, second printing 2007, ISBN 978-979-461-132-6."
+    },
+    {
+      "id": "ibsen-id-library",
+      "title": "Bantul public library: Rumah Boneka",
+      "url": "https://perpusda.bantulkab.go.id/pc/18458",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Indonesian first edition 1993, Yayasan Obor Indonesia, Mochtar Lubis contributor, ISBN 979-461-132-8."
+    },
+    {
+      "id": "marti-original",
+      "title": "Cervantes: La Edad de Oro",
+      "url": "https://www.cervantesvirtual.com/obra-visor-din/la-edad-de-oro-publicacion-mensual-dedicada-a-los-ninos--0/html/fef7a29c-82b1-11df-acc7-002185ce6064_2.html",
+      "kind": "original_text",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Spanish text includes Bebé y el señor don Pomposo. Underlying print witness and digital-use terms need examination before import."
+    },
+    {
+      "id": "marti-government-text",
+      "title": "Coahuila education department: La Edad de Oro",
+      "url": "https://web.seducoahuila.gob.mx/biblioweb/upload/Jose%20Marti%20-%20La%20Edad%20de%20Oro.pdf",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Government educational copy includes the Spanish story; identify exact print edition and separate modern material before use."
+    },
+    {
+      "id": "marti-vi-context",
+      "title": "Vietnam News Agency: José Martí commemoration",
+      "url": "https://baotintuc.vn/thoi-su/tuong-nho-anh-hung-dan-toc-cuba-jose-marti-tai-ha-noi-20150519121607651.htm",
+      "kind": "official_report",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Documents Vietnamese cultural engagement with Martí and a different essay about Vietnam. This is no proof that Bebé has been translated or that readers want a new version."
+    },
+    {
+      "id": "quiroga-pg",
+      "title": "Project Gutenberg: Cuentos de Amor de Locura y de Muerte",
+      "url": "https://www.gutenberg.org/ebooks/13507",
+      "kind": "institutional_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Spanish collection includes El almohadón de pluma; US public-domain status stated. Exact publication witness and singular/plural title variant require checking."
+    },
+    {
+      "id": "quiroga-upenn",
+      "title": "University of Pennsylvania: Horacio Quiroga books",
+      "url": "https://onlinebooks.library.upenn.edu/webbin/who/Quiroga%2C%20Horacio%2C%201878-1937",
+      "kind": "library_catalog",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Records author 1878–1937 and Spanish collection dated 1917; Gutenberg’s automated summary dates it 1918, so do not treat the generated summary as bibliographic authority."
+    },
+    {
+      "id": "quiroga-vi",
+      "title": "Thân tri: Chiếc gối nhồi bông",
+      "url": "https://thantrinhomhue.com/2022/12/12/chiec-goi-nhoi-bong-horacio-quiroga/",
+      "kind": "translation_publication",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Vietnamese translation credited to Trần C. Trí, explicitly from Spanish, dated 12 December 2022. Reuse permission not established."
+    },
+    {
+      "id": "quiroga-id-lead",
+      "title": "Scribd: Indonesian rendering of The Feather Pillow",
+      "url": "https://id.scribd.com/document/913668489/Bantal-Bulu-oleh-Horacio-Quiroga-Teks-Lengkap",
+      "kind": "unverified_user_upload",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Indexed Indonesian rendering exists, with unclear translator, completeness and permission. It is not accepted as a reliable published edition or quality judgment."
+    },
+    {
+      "id": "premchand-jamia",
+      "title": "Jamia Millia Islamia journal: Premchand’s Kafan",
+      "url": "https://jmi.ac.in/upload/publication/jauhar_vol2_issue2_december2011_february2012.pdf",
+      "kind": "institutional_scholarship",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Discusses Urdu first publication in Risala Jamia, December 1935, and material Urdu/Hindi textual differences. Article’s biographical month must not be treated as authoritative."
+    },
+    {
+      "id": "premchand-pritchett",
+      "title": "Frances W. Pritchett: Kafan textual resources",
+      "url": "https://franpritchett.com/00urdu/kafan/index.html",
+      "kind": "scholarly_edition",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Distinguishes original Urdu December 1935 text, Devanagari versions and a 2004 harmonized English translation. Modern translation is not a freely reusable intermediary."
+    },
+    {
+      "id": "premchand-vi-lead",
+      "title": "Phân tích kinh tế: literary examples",
+      "url": "https://www.phantichkinhte123.com/2019/01/nhung-cuon-sach-quan-trong-nhat-danh.html",
+      "kind": "secondary_bibliography",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Mentions Kafan as Tấm vải liệm in a translated essay; no complete Vietnamese story identified."
+    },
+    {
+      "id": "vn-rights",
+      "title": "WIPO judicial benchbook: Viet Nam intellectual property",
+      "url": "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1081-3-en-intellectual-property-adjudication-in-viet-nam.pdf",
+      "kind": "official_legal",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Chapter 4.6 summarizes ordinary literary term as life plus fifty years, with indefinite moral rights. Special cases, later amendments, editions and jurisdiction must still be checked."
+    },
+    {
+      "id": "id-rights",
+      "title": "WIPO Lex: Indonesia Copyright Law 28/2014",
+      "url": "https://wipolex-res.wipo.int/edocs/lexdocs/laws/en/id/id064en.pdf",
+      "kind": "official_legal",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Article 58 provides ordinary literary life plus seventy years; Article 59 addresses separate classes including translations. This is a term-screening reference, not edition clearance."
+    },
+    {
+      "id": "us-rights",
+      "title": "US Copyright Office: What is copyright?",
+      "url": "https://www.copyright.gov/what-is-copyright/",
+      "kind": "official_legal",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "In 2026 the Office states works published in the United States before 1 January 1931 are public domain. Foreign works require the applicable publication/restoration analysis; sound recordings and new editorial material differ."
+    },
+    {
+      "id": "spain-rights",
+      "title": "Biblioteca Nacional de España: public-domain terms",
+      "url": "https://www.bne.es/es/preguntas-frecuentes/obras-considera-encuentran-dominio-publico",
+      "kind": "official_legal",
+      "accessed_on": "2026-11-01",
+      "access_method": "search_index_excerpt",
+      "finding": "Describes life plus eighty years for authors who died before 7 December 1987, otherwise ordinary life plus seventy; supports screening Pardo Bazán’s original."
+    }
+  ],
+  "works": [
+    {
+      "id": "wilde-the-artist",
+      "title": "The Artist",
+      "author": "Oscar Wilde",
+      "original_language": "en",
+      "first_publication_year": 1894,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Concentrated prose poem about art, grief and transience; tests deliberate ambiguity and repeated symbolic language."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "wilde-ucc",
+          "wilde-pg"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "\"Oscar Wilde\" \"Nghệ sĩ\" truyện",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Positive indexed evidence of an existing Vietnamese translation; no missing-translation claim."
+            }
+          ],
+          "evidence_ids": [
+            "wilde-tienve"
+          ],
+          "existing_editions": [
+            {
+              "title": "Người nghệ sĩ",
+              "translator": "Hoàng Ngọc-Tuấn",
+              "publisher": "Tiền Vệ",
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "wilde-tienve"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Positive indexed evidence of an existing Vietnamese translation; no missing-translation claim.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "no_translation_found_in_bounded_search",
+          "confidence": "low",
+          "searches": [
+            {
+              "query": "\"Oscar Wilde\" \"Seniman\" \"puisi\" prosa",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "No exact, reliably attributed target-language edition identified in this bounded search."
+            }
+          ],
+          "evidence_ids": [],
+          "existing_editions": [],
+          "finding": "No exact edition identified; existence, accessibility and open-reuse status remain unknown.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "source_assessment_recorded_in_corpus",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          5,
+          10
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "wilde-tienve"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "pilot_continuation",
+        "reason": "Complete the existing short pilot to test editorial and preservation workflows. A new Vietnamese translation is not a demonstrated language gap.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "machado-a-cartomante",
+      "title": "A Cartomante",
+      "author": "Machado de Assis",
+      "original_language": "pt",
+      "first_publication_year": 1884,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Irony, self-deception and narrative uncertainty make a valuable test of preserving authorial distance."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "machado-usp",
+          "machado-byu"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_project_reported",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Machado de Assis\" \"Việt Nam\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "A HANU student translation project was reported in 2021. Its completion is unknown; Nhà điên is an author-level competing book, not this story."
+            },
+            {
+              "query": "site.nlv.gov.vn \"Pardo Bazán\" OR \"Machado de Assis\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Indexed pages on nlv.gov.vn; not an internal catalog query",
+              "result": "No relevant exact-title record returned; inadequate to establish absence."
+            }
+          ],
+          "evidence_ids": [
+            "machado-hanu-report",
+            "machado-vn-catalog",
+            "machado-senate"
+          ],
+          "existing_editions": [],
+          "finding": "A HANU student translation project was reported in 2021. Its completion is unknown; Nhà điên is an author-level competing book, not this story.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "unverified_rendering_found",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Machado de Assis\" \"Peramal\" penerbit",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Search returned summaries and unattributed user uploads. No reliable complete Indonesian edition was established; this is not a claim of no translation."
+            },
+            {
+              "query": "site.perpusnas.go.id \"Pardo Bazán\" OR \"Um Apólogo\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Indexed pages on perpusnas.go.id; not an internal catalog query",
+              "result": "No relevant exact-title record returned; inadequate to establish absence."
+            }
+          ],
+          "evidence_ids": [],
+          "existing_editions": [],
+          "finding": "Search returned summaries and unattributed user uploads. No reliable complete Indonesian edition was established; this is not a claim of no translation.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          22,
+          40
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "machado-hanu-report",
+          "machado-senate"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "machado-um-apologo",
+      "title": "Um Apólogo",
+      "author": "Machado de Assis",
+      "original_language": "pt",
+      "first_publication_year": 1885,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Brief Brazilian fable about labor, status and who receives credit; offers a Portuguese source tradition at manageable editorial scale."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "machado-usp",
+          "machado-mec",
+          "machado-mec-text",
+          "machado-byu"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "no_translation_found_in_bounded_search",
+          "confidence": "low",
+          "searches": [
+            {
+              "query": "\"Um Apólogo\" \"tiếng Việt\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "No exact story located in the bounded search. A Vietnamese Machado collection exists, and collection contents/alternate titles require librarian checking."
+            },
+            {
+              "query": "site.nlv.gov.vn \"Pardo Bazán\" OR \"Machado de Assis\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Indexed pages on nlv.gov.vn; not an internal catalog query",
+              "result": "No relevant exact-title record returned; inadequate to establish absence."
+            }
+          ],
+          "evidence_ids": [
+            "machado-vn-catalog"
+          ],
+          "existing_editions": [],
+          "finding": "No exact story located in the bounded search. A Vietnamese Machado collection exists, and collection contents/alternate titles require librarian checking.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "no_translation_found_in_bounded_search",
+          "confidence": "low",
+          "searches": [
+            {
+              "query": "\"Um Apólogo\" \"Fabel\" \"Indonesia\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "No exact, reliably attributed target-language edition identified in this bounded search."
+            },
+            {
+              "query": "site.perpusnas.go.id \"Pardo Bazán\" OR \"Um Apólogo\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Indexed pages on perpusnas.go.id; not an internal catalog query",
+              "result": "No relevant exact-title record returned; inadequate to establish absence."
+            }
+          ],
+          "evidence_ids": [],
+          "existing_editions": [],
+          "finding": "No exact edition identified; existence, accessibility and open-reuse status remain unknown.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "source_assessment_recorded_in_corpus",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          8,
+          16
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "machado-mec",
+          "machado-senate"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "selected_for_draft",
+        "reason": "Short complete source has a dated university facsimile and government text; prepare a limited Vietnamese feasibility draft while title/collection searches and recruitment continue. Gap and reader demand are unproven.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "soseki-ten-nights",
+      "title": "夢十夜 / Ten Nights of Dreams",
+      "author": "Natsume Sōseki",
+      "original_language": "ja",
+      "first_publication_year": 1908,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Dream sequence poses strong challenges in cadence, cultural references and unforced ambiguity."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "soseki-aozora"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "partial_translation_found",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "site.opac.nlv.gov.vn \"Mười đêm\" Soseki",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "A five-dream translation and another named translation lead exist; complete Vietnamese coverage remains unresolved."
+            }
+          ],
+          "evidence_ids": [
+            "soseki-vi-partial",
+            "soseki-vi-alternative"
+          ],
+          "existing_editions": [
+            {
+              "title": "Mười đêm mộng mị",
+              "translator": null,
+              "publisher": null,
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "soseki-vi-partial"
+              ],
+              "extent": "five_odd_numbered_dreams"
+            },
+            {
+              "title": "Mười đêm mộng",
+              "translator": "An Nhiên",
+              "publisher": null,
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "soseki-vi-alternative"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "A five-dream translation and another named translation lead exist; complete Vietnamese coverage remains unresolved.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_reported",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Mimpi-mimpi Sepuluh Malam\" \"Merahhitam\" penerbit",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Retail listing reports an Indonesian ten-dream edition; confirm publisher, translator and unabridged contents."
+            }
+          ],
+          "evidence_ids": [
+            "soseki-id-retailer"
+          ],
+          "existing_editions": [
+            {
+              "title": "Mimpi-Mimpi Sepuluh Malam dan Kubur Kucing",
+              "translator": null,
+              "publisher": "Merahhitam",
+              "publication_year": 2022,
+              "isbn": null,
+              "evidence_ids": [
+                "soseki-id-retailer"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Retail listing reports an Indonesian ten-dream edition; confirm publisher, translator and unabridged contents.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "very_high",
+        "estimated_human_hours": [
+          45,
+          85
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "soseki-id-retailer",
+          "soseki-vi-partial"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "chopin-story-of-an-hour",
+      "title": "The Story of an Hour",
+      "author": "Kate Chopin",
+      "original_language": "en",
+      "first_publication_year": 1894,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Compressed perspective, social constraint and a difficult ironic ending reward careful source-version selection."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "chopin-society"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "\"Chuyện một giờ\" \"Kate Chopin\" dịch",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "A credited Vietnamese translation is publicly available. No independent comparative quality assessment has been conducted."
+            }
+          ],
+          "evidence_ids": [
+            "chopin-vi"
+          ],
+          "existing_editions": [
+            {
+              "title": "Câu chuyện một giờ",
+              "translator": "Hoàng Nguyệt Anh",
+              "publisher": "Người Hà Nội",
+              "publication_year": 2024,
+              "isbn": null,
+              "evidence_ids": [
+                "chopin-vi"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "A credited Vietnamese translation is publicly available. No independent comparative quality assessment has been conducted.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "\"The Story of an Hour\" \"Indonesia\" \"penerjemah\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "A credited Indonesian translation and named anthology exist."
+            }
+          ],
+          "evidence_ids": [
+            "chopin-id",
+            "chopin-id-catalog"
+          ],
+          "existing_editions": [
+            {
+              "title": "Kisah Satu Jam",
+              "translator": "Nurin Aqmarina",
+              "publisher": "Literation",
+              "publication_year": 2026,
+              "isbn": null,
+              "evidence_ids": [
+                "chopin-id"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "A credited Indonesian translation and named anthology exist.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          8,
+          16
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "chopin-vi",
+          "chopin-id"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "bierce-owl-creek",
+      "title": "An Occurrence at Owl Creek Bridge",
+      "author": "Ambrose Bierce",
+      "original_language": "en",
+      "first_publication_year": 1890,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Narrative time, perception and war are inseparable from sentence rhythm and withheld information."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "bierce-pg-index"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_found",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Ambrose Bierce\" \"cầu\" \"Owl\" \"dịch\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Vietnamese rendering is indexed; authorship, completeness and lawful reuse remain unverified."
+            }
+          ],
+          "evidence_ids": [
+            "bierce-vi"
+          ],
+          "existing_editions": [
+            {
+              "title": "Sự kiện ở cầu Owl Creek",
+              "translator": null,
+              "publisher": "Việt Nam Thư Quán",
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "bierce-vi"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Vietnamese rendering is indexed; authorship, completeness and lawful reuse remain unverified.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_reported",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Bierce\" \"Jembatan\" Indonesia penerbit",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Collection excerpt is identifiable as Owl Creek; confirm exact contents and translation credits."
+            }
+          ],
+          "evidence_ids": [
+            "bierce-id"
+          ],
+          "existing_editions": [
+            {
+              "title": "Kematian Halpin Frasyser (collection)",
+              "translator": null,
+              "publisher": null,
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "bierce-id"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Collection excerpt is identifiable as Owl Creek; confirm exact contents and translation credits.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          20,
+          38
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "bierce-vi-writers",
+          "bierce-id"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "akutagawa-spiders-thread",
+      "title": "蜘蛛の糸 / The Spider’s Thread",
+      "author": "Ryūnosuke Akutagawa",
+      "original_language": "ja",
+      "first_publication_year": 1918,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Buddhist imagery and the narrator’s moral distance require restraint; not a license to replace fiction with doctrinal explanation."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "akutagawa-aozora"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "site.nhanam.vn \"Sợi\" \"Akutagawa\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Contributor-published contents identify an existing direct Japanese–Vietnamese edition."
+            }
+          ],
+          "evidence_ids": [
+            "akutagawa-vi"
+          ],
+          "existing_editions": [
+            {
+              "title": "Sợi tơ nhện, Tuyển tập Akutagawa II",
+              "translator": null,
+              "publisher": "Tao Đàn / Hội Nhà Văn",
+              "publication_year": 2021,
+              "isbn": null,
+              "evidence_ids": [
+                "akutagawa-vi"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Contributor-published contents identify an existing direct Japanese–Vietnamese edition.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "site.gramedia.com \"Akutagawa\" \"Laba\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Publisher names story and translator; a separate academic study also confirms an Indonesian rendering."
+            }
+          ],
+          "evidence_ids": [
+            "akutagawa-id",
+            "akutagawa-id-study"
+          ],
+          "existing_editions": [
+            {
+              "title": "Sulur Laba-Laba, Kehidupan Si Bebal",
+              "translator": "Nurul Hanafi",
+              "publisher": "Kakatua",
+              "publication_year": null,
+              "isbn": "9786238476251",
+              "evidence_ids": [
+                "akutagawa-id"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Publisher names story and translator; a separate academic study also confirms an Indonesian rendering.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          10,
+          20
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "akutagawa-vi",
+          "akutagawa-id-study"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "chekhov-lady-with-dog",
+      "title": "Дама с собачкой / The Lady with the Dog",
+      "author": "Anton Chekhov",
+      "original_language": "ru",
+      "first_publication_year": 1899,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Subtle characterization and open ending impose more editorial effort than plot familiarity suggests."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "chekhov-original"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_found",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Người đàn bà có con chó nhỏ\" nhà xuất bản",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Exact Vietnamese story located; a contemporary Chekhov collection is also identified but its contents cannot be inferred from the blurb."
+            }
+          ],
+          "evidence_ids": [
+            "chekhov-vi-text",
+            "chekhov-vi-publisher"
+          ],
+          "existing_editions": [
+            {
+              "title": "Người đàn bà có con chó nhỏ",
+              "translator": null,
+              "publisher": null,
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "chekhov-vi-text"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Exact Vietnamese story located; a contemporary Chekhov collection is also identified but its contents cannot be inferred from the blurb.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_reported",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Chekhov\" \"Wanita\" \"anjing\" penerbit",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Indonesian retail contents identify the story; exact translator and source language need verification."
+            }
+          ],
+          "evidence_ids": [
+            "chekhov-id"
+          ],
+          "existing_editions": [
+            {
+              "title": "Sang Wanita dan Anjingnya, Pria yang Hidup dalam Cangkang",
+              "translator": null,
+              "publisher": null,
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "chekhov-id"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Indonesian retail contents identify the story; exact translator and source language need verification.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "very_high",
+        "estimated_human_hours": [
+          35,
+          65
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "chekhov-vi-publisher",
+          "chekhov-id"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "maupassant-la-parure",
+      "title": "La Parure / The Necklace",
+      "author": "Guy de Maupassant",
+      "original_language": "fr",
+      "first_publication_year": 1884,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Social aspiration, class and compressed causality make it useful for comparison, but existing translation supply is substantial."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "maupassant-bnf"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_reported",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Maupassant\" \"Chuỗi hạt\" \"dịch\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "A named 1922 translation is documented in university research; this is not a current availability assessment."
+            }
+          ],
+          "evidence_ids": [
+            "maupassant-vnu",
+            "maupassant-bnf"
+          ],
+          "existing_editions": [
+            {
+              "title": "Chuỗi hạt kim cương",
+              "translator": "Vũ Văn Định",
+              "publisher": null,
+              "publication_year": 1922,
+              "isbn": null,
+              "evidence_ids": [
+                "maupassant-vnu"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "A named 1922 translation is documented in university research; this is not a current availability assessment.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "\"Maupassant\" \"Kalung\" penerbit",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Two catalogued Indonesian editions exist."
+            }
+          ],
+          "evidence_ids": [
+            "maupassant-id",
+            "maupassant-id-modern"
+          ],
+          "existing_editions": [
+            {
+              "title": "Kalung",
+              "translator": "Irwan Kurniawan",
+              "publisher": "Jembar",
+              "publication_year": 2008,
+              "isbn": "9792456775",
+              "evidence_ids": [
+                "maupassant-id"
+              ],
+              "extent": "not_collated"
+            },
+            {
+              "title": "The Diamond Necklace and Other Stories",
+              "translator": "Nurlita Maharani; Indra Pramesti; Yuli Pritania",
+              "publisher": "Noura Books",
+              "publication_year": 2024,
+              "isbn": null,
+              "evidence_ids": [
+                "maupassant-id-modern"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Two catalogued Indonesian editions exist.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          16,
+          30
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "maupassant-id-modern",
+          "maupassant-vnu"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "pardo-bazan-el-encaje-roto",
+      "title": "El encaje roto / Torn Lace",
+      "author": "Emilia Pardo Bazán",
+      "original_language": "es",
+      "first_publication_year": 1897,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "A woman’s refusal of marriage turns on a small gesture; preserves agency, social convention and an observer’s limitations."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "pardo-cervantes-old",
+          "pardo-alicante",
+          "pardo-galicia",
+          "pardo-instituto"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "no_translation_found_in_bounded_search",
+          "confidence": "low",
+          "searches": [
+            {
+              "query": "\"Emilia Pardo Bazán\" \"Việt\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "No exact, reliably attributed target-language edition identified in this bounded search."
+            },
+            {
+              "query": "site.nlv.gov.vn \"Pardo Bazán\" OR \"Machado de Assis\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Indexed pages on nlv.gov.vn; not an internal catalog query",
+              "result": "No relevant exact-title record returned; inadequate to establish absence."
+            }
+          ],
+          "evidence_ids": [],
+          "existing_editions": [],
+          "finding": "No exact edition identified; existence, accessibility and open-reuse status remain unknown.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "no_translation_found_in_bounded_search",
+          "confidence": "low",
+          "searches": [
+            {
+              "query": "\"Emilia Pardo Bazán\" Indonesia",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "No exact, reliably attributed target-language edition identified in this bounded search."
+            },
+            {
+              "query": "site.perpusnas.go.id \"Pardo Bazán\" OR \"Um Apólogo\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Indexed pages on perpusnas.go.id; not an internal catalog query",
+              "result": "No relevant exact-title record returned; inadequate to establish absence."
+            }
+          ],
+          "evidence_ids": [],
+          "existing_editions": [],
+          "finding": "No exact edition identified; existence, accessibility and open-reuse status remain unknown.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "source_assessment_recorded_in_corpus",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights",
+          "spain-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          12,
+          24
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [],
+        "evidence_type": "no_target_reader_evidence",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "selected_for_draft",
+        "reason": "Exact old Spanish facsimile and short length make a bounded feasibility draft defensible; no verified Vietnamese/Indonesian absence or demand has been established.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "luxun-kong-yiji",
+      "title": "孔乙己 / Kong Yiji",
+      "author": "Lu Xun",
+      "original_language": "zh",
+      "first_publication_year": 1919,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "A narrator implicated in public cruelty offers a demanding test of social irony and historical register."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "luxun-pku",
+          "luxun-text"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "\"Khổng Ất Kỷ\" \"nxb\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Library MARC contents explicitly identify this story in a current Vietnamese collection."
+            }
+          ],
+          "evidence_ids": [
+            "luxun-vi-catalog",
+            "luxun-vi-national"
+          ],
+          "existing_editions": [
+            {
+              "title": "Khổng Ất Kỷ, Truyện ngắn Lỗ Tấn",
+              "translator": "Trương Chính",
+              "publisher": "Kim Đồng",
+              "publication_year": 2024,
+              "isbn": "9786042354431",
+              "evidence_ids": [
+                "luxun-vi-catalog"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Library MARC contents explicitly identify this story in a current Vietnamese collection.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "scholarship_found_translation_unverified",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Kong Yiji\" \"Indonesia\" buku",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Indonesian-language research exists; a complete Indonesian translation edition has not been identified in the retrieved records."
+            }
+          ],
+          "evidence_ids": [
+            "luxun-id-study",
+            "luxun-id-thesis"
+          ],
+          "existing_editions": [],
+          "finding": "Indonesian-language research exists; a complete Indonesian translation edition has not been identified in the retrieved records.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          16,
+          30
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "luxun-vi-national",
+          "luxun-id-study"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "tagore-postmaster",
+      "title": "পোস্টমাস্টার / The Postmaster",
+      "author": "Rabindranath Tagore",
+      "original_language": "bn",
+      "first_publication_year": 1891,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Attachment and unequal social power depend on tonal shifts; indirect English versions may omit or change material."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "tagore-bichitra"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "no_translation_found_in_bounded_search",
+          "confidence": "low",
+          "searches": [
+            {
+              "query": "\"Tagore\" \"bưu điện\" \"dịch\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Search results identify the separate play Dakghar/Phòng bưu điện. Do not conflate it with the short story; complete Vietnamese prose edition remains unresolved."
+            }
+          ],
+          "evidence_ids": [
+            "tagore-vi-scholarship"
+          ],
+          "existing_editions": [],
+          "finding": "Search results identify the separate play Dakghar/Phòng bưu điện. Do not conflate it with the short story; complete Vietnamese prose edition remains unresolved.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_reported",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Tagore\" \"Kepala Kantor Pos\" cerpen",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Public-library record names the exact story in a translated anthology; direct Bengali translation is not established."
+            }
+          ],
+          "evidence_ids": [
+            "tagore-id-catalog"
+          ],
+          "existing_editions": [
+            {
+              "title": "Kepala Kantor Pos, Yang Hidup dan Mati",
+              "translator": "Sovia Veronica Purba",
+              "publisher": "Jendela",
+              "publication_year": 2002,
+              "isbn": null,
+              "evidence_ids": [
+                "tagore-id-catalog"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Public-library record names the exact story in a translated anthology; direct Bengali translation is not established.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "very_high",
+        "estimated_human_hours": [
+          20,
+          40
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "tagore-id-catalog"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "kafka-before-the-law",
+      "title": "Vor dem Gesetz / Before the Law",
+      "author": "Franz Kafka",
+      "original_language": "de",
+      "first_publication_year": 1915,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "A concise parable whose unresolved legal and theological readings should remain unresolved in translation."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "kafka-pg"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_found",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Kafka\" \"Trước cửa pháp luật\" nhà xuất bản",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Existing Vietnamese edition page claims an open license, weakening any assumed open-access gap. The license and authorship still need independent checking."
+            }
+          ],
+          "evidence_ids": [
+            "kafka-vi-history",
+            "kafka-vi-open"
+          ],
+          "existing_editions": [
+            {
+              "title": "Trước pháp luật",
+              "translator": null,
+              "publisher": "Yegle",
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "kafka-vi-open"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Existing Vietnamese edition page claims an open license, weakening any assumed open-access gap. The license and authorship still need independent checking.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "publisher_claim_not_audited",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "site.divapress-online.com \"Dokter Desa\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Publisher explicitly lists this story."
+            }
+          ],
+          "evidence_ids": [
+            "kafka-id"
+          ],
+          "existing_editions": [
+            {
+              "title": "Di Depan Hukum, Dokter Desa",
+              "translator": null,
+              "publisher": "DIVA Press",
+              "publication_year": 2025,
+              "isbn": null,
+              "evidence_ids": [
+                "kafka-id"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Publisher explicitly lists this story.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          6,
+          12
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "kafka-id",
+          "kafka-vi-history"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "tolstoy-how-much-land",
+      "title": "Много ли человеку земли нужно? / How Much Land Does a Man Need?",
+      "author": "Leo Tolstoy",
+      "original_language": "ru",
+      "first_publication_year": 1886,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "A moral tale about land and desire whose directness must not become explanatory commentary."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "tolstoy-original"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "scholarship_found_translation_unverified",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Tolstoy\" \"Con người cần bao nhiêu đất\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Vietnamese literary references and retellings exist. This search did not establish a particular complete translation edition."
+            }
+          ],
+          "evidence_ids": [
+            "tolstoy-vi"
+          ],
+          "existing_editions": [],
+          "finding": "Vietnamese literary references and retellings exist. This search did not establish a particular complete translation edition.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_reported",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Tolstoy\" \"Seberapa Luas Tanah\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Named Indonesian collection reported by bookseller; publisher and source-language verification remain."
+            }
+          ],
+          "evidence_ids": [
+            "tolstoy-id"
+          ],
+          "existing_editions": [
+            {
+              "title": "Berapa Luas Tanah yang Dibutuhkan Seorang Manusia",
+              "translator": null,
+              "publisher": "Kakatua",
+              "publication_year": 2021,
+              "isbn": null,
+              "evidence_ids": [
+                "tolstoy-id"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Named Indonesian collection reported by bookseller; publisher and source-language verification remain.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          24,
+          45
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "tolstoy-vi",
+          "tolstoy-id"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "andersen-little-match-girl",
+      "title": "Den lille Pige med Svovlstikkerne / The Little Match Girl",
+      "author": "Hans Christian Andersen",
+      "original_language": "da",
+      "first_publication_year": 1845,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Familiarity can conceal abridgments; religious and social meanings need source-aware comparison."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "andersen-original"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "adaptation_found",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "site.nxbkimdong.com.vn \"Cô bé bán diêm\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "National bibliography documents an adaptation; this must not be mistaken for unabridged Danish-source coverage."
+            }
+          ],
+          "evidence_ids": [
+            "andersen-vi-national"
+          ],
+          "existing_editions": [
+            {
+              "title": "Cô bé bán diêm",
+              "translator": "Tuệ Vân",
+              "publisher": "Văn học",
+              "publication_year": 2024,
+              "isbn": null,
+              "evidence_ids": [
+                "andersen-vi-national"
+              ],
+              "extent": "illustrated_adaptation"
+            }
+          ],
+          "finding": "National bibliography documents an adaptation; this must not be mistaken for unabridged Danish-source coverage.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "adaptation_found",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "site.gramedia.com \"Gadis Penjual Korek\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Multiple children’s editions exist. Exact full-text fidelity and translation route remain unknown."
+            }
+          ],
+          "evidence_ids": [
+            "andersen-id-national",
+            "andersen-id-publisher"
+          ],
+          "existing_editions": [
+            {
+              "title": "Gadis Penjual Korek Api",
+              "translator": "Astria Ratna",
+              "publisher": "Cabe Rawit",
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "andersen-id-national"
+              ],
+              "extent": "children_edition_not_collated"
+            },
+            {
+              "title": "Gadis Penjual Korek Api",
+              "translator": "Dewi Sulistya Wati",
+              "publisher": "Dian Rakyat",
+              "publication_year": null,
+              "isbn": null,
+              "evidence_ids": [
+                "andersen-id-publisher"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Multiple children’s editions exist. Exact full-text fidelity and translation route remain unknown.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          8,
+          16
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "andersen-vi-national",
+          "andersen-id-national"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "ibsen-a-dolls-house",
+      "title": "Et dukkehjem / A Doll’s House",
+      "author": "Henrik Ibsen",
+      "original_language": "nb",
+      "first_publication_year": 1879,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Major dramatic work about autonomy and social obligation; a full play is too costly for the first three short-work cycle."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "ibsen-oslo",
+          "ibsen-modern-license"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_reported",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "site.nxbtre.com.vn \"Ibsen\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Vietnamese performance and translation history exists; no exact unabridged textual witness was inspected."
+            }
+          ],
+          "evidence_ids": [
+            "ibsen-vi"
+          ],
+          "existing_editions": [],
+          "finding": "Vietnamese performance and translation history exists; no exact unabridged textual witness was inspected.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "site.perpusnas.go.id \"Ibsen\" \"Rumah\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Publisher and public-library records identify existing editions."
+            }
+          ],
+          "evidence_ids": [
+            "ibsen-id-publisher",
+            "ibsen-id-library"
+          ],
+          "existing_editions": [
+            {
+              "title": "Rumah Boneka",
+              "translator": "Mochtar Lubis",
+              "publisher": "Yayasan Obor Indonesia",
+              "publication_year": 1993,
+              "isbn": "9794611328",
+              "evidence_ids": [
+                "ibsen-id-library"
+              ],
+              "extent": "not_collated"
+            },
+            {
+              "title": "Rumah Boneka (second printing)",
+              "translator": null,
+              "publisher": "Yayasan Obor Indonesia",
+              "publication_year": 2007,
+              "isbn": "9789794611326",
+              "evidence_ids": [
+                "ibsen-id-publisher"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Publisher and public-library records identify existing editions.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "very_high",
+        "estimated_human_hours": [
+          100,
+          180
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "ibsen-id-publisher",
+          "ibsen-vi"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer: established translation history, full-play scope, performance register, modern scholarly source license and reviewer costs make it a poor first-cycle choice.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "marti-bebe-pomposo",
+      "title": "Bebé y el señor don Pomposo",
+      "author": "José Martí",
+      "original_language": "es",
+      "first_publication_year": 1889,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Children’s story links class, generosity and dignity; useful Cuban tradition beyond the most translated European canon."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "marti-original",
+          "marti-government-text"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "no_translation_found_in_bounded_search",
+          "confidence": "low",
+          "searches": [
+            {
+              "query": "\"José Martí\" \"Bebé\" \"Việt\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Author-level cultural familiarity and a different Martí essay do not establish a translation of this story."
+            },
+            {
+              "query": "site.nlv.gov.vn \"José Martí\" \"tuổi\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Indexed pages on nlv.gov.vn",
+              "result": "No exact story edition established."
+            }
+          ],
+          "evidence_ids": [
+            "marti-vi-context"
+          ],
+          "existing_editions": [],
+          "finding": "Author-level cultural familiarity and a different Martí essay do not establish a translation of this story.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "no_translation_found_in_bounded_search",
+          "confidence": "low",
+          "searches": [
+            {
+              "query": "\"José Martí\" \"Bebé\" Indonesia",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "No exact, reliably attributed target-language edition identified in this bounded search."
+            }
+          ],
+          "evidence_ids": [],
+          "existing_editions": [],
+          "finding": "No exact edition identified; existence, accessibility and open-reuse status remain unknown.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          10,
+          20
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "marti-vi-context"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "quiroga-feather-pillow",
+      "title": "El almohadón de plumas / The Feather Pillow",
+      "author": "Horacio Quiroga",
+      "original_language": "es",
+      "first_publication_year": 1907,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "A short Uruguayan horror tale requires tight atmosphere and careful distinction between fictional physiology and real claims."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "quiroga-pg",
+          "quiroga-upenn"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "\"Horacio Quiroga\" \"gối\" dịch",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "A credited translation explicitly from Spanish exists; open reuse and literary quality not independently assessed."
+            }
+          ],
+          "evidence_ids": [
+            "quiroga-vi"
+          ],
+          "existing_editions": [
+            {
+              "title": "Chiếc gối nhồi bông",
+              "translator": "Trần C. Trí",
+              "publisher": "Thân tri",
+              "publication_year": 2022,
+              "isbn": null,
+              "evidence_ids": [
+                "quiroga-vi"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "A credited translation explicitly from Spanish exists; open reuse and literary quality not independently assessed.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "unverified_rendering_found",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Horacio Quiroga\" \"Bantal\" penerbit",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "An indexed user-uploaded Indonesian rendering is a lead, not a verified bibliographic edition. No deficiency claim is made."
+            }
+          ],
+          "evidence_ids": [
+            "quiroga-id-lead"
+          ],
+          "existing_editions": [],
+          "finding": "An indexed user-uploaded Indonesian rendering is a lead, not a verified bibliographic edition. No deficiency claim is made.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "high",
+        "estimated_human_hours": [
+          10,
+          20
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "quiroga-vi"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "premchand-kafan",
+      "title": "کفن / Kafan",
+      "author": "Premchand",
+      "original_language": "ur",
+      "first_publication_year": 1935,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Poverty, caste and compromised moral agency are inseparable from contested Urdu/Hindi textual choices."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "premchand-jamia",
+          "premchand-pritchett"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "scholarship_found_translation_unverified",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Premchand\" \"Kafan\" \"Việt\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "A Vietnamese translated essay mentions the story; no complete Vietnamese edition identified."
+            }
+          ],
+          "evidence_ids": [
+            "premchand-vi-lead"
+          ],
+          "existing_editions": [],
+          "finding": "A Vietnamese translated essay mentions the story; no complete Vietnamese edition identified.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "no_translation_found_in_bounded_search",
+          "confidence": "low",
+          "searches": [
+            {
+              "query": "\"Premchand\" \"Kafan\" \"Indonesia\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "No exact, reliably attributed target-language edition identified in this bounded search."
+            },
+            {
+              "query": "site.perpusnas.go.id \"Premchand\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Indexed pages on perpusnas.go.id",
+              "result": "No reliable Indonesian exact-edition record returned."
+            }
+          ],
+          "evidence_ids": [],
+          "existing_editions": [],
+          "finding": "No exact edition identified; existence, accessibility and open-reuse status remain unknown.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "blocked_pending_us_term_and_source_version_check",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "very_high",
+        "estimated_human_hours": [
+          25,
+          50
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [],
+        "evidence_type": "no_target_reader_evidence",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Do not ingest: distinguish Urdu 1935 and Hindi 1936 witnesses, verify US publication/restoration term and source identity, and obtain language specialists first.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    },
+    {
+      "id": "tagore-kabuliwala",
+      "title": "কাবুলিওয়ালা / Kabuliwala",
+      "author": "Rabindranath Tagore",
+      "original_language": "bn",
+      "first_publication_year": 1892,
+      "literary_significance": {
+        "basis": "editorial_judgment",
+        "rationale": "Parenthood across cultural and social distance offers strong human interest, but title and relay-translation variants need care."
+      },
+      "original_source": {
+        "evidence_ids": [
+          "tagore-bichitra"
+        ],
+        "status": "candidate_witness_identified",
+        "caveat": "Catalog or transcription identified; the exact source witness, completeness and lawful import must be checked separately in corpus edition metadata."
+      },
+      "target_assessments": [
+        {
+          "language": "vi",
+          "classification": "adaptation_found",
+          "confidence": "medium",
+          "searches": [
+            {
+              "query": "\"Tagore\" \"Kabuliwala\" \"Việt\"",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "A Vietnamese account of a television adaptation exists; prose translation coverage remains unverified."
+            }
+          ],
+          "evidence_ids": [
+            "tagore-vi-tv"
+          ],
+          "existing_editions": [],
+          "finding": "A Vietnamese account of a television adaptation exists; prose translation coverage remains unverified.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        },
+        {
+          "language": "id",
+          "classification": "translation_found",
+          "confidence": "high",
+          "searches": [
+            {
+              "query": "\"Tagore\" \"Kabuliwala\" \"Indonesia\" penerbit",
+              "method": "web_index_search",
+              "searched_on": "2026-11-01",
+              "scope": "Publicly indexed pages; not a complete catalog or bibliography search",
+              "result": "Both a catalogued anthology and a credited online translation exist. The online version declares an English intermediary."
+            }
+          ],
+          "evidence_ids": [
+            "tagore-id-catalog",
+            "tagore-id-translation"
+          ],
+          "existing_editions": [
+            {
+              "title": "Kabuliwallah, Yang Hidup dan Mati",
+              "translator": "Sovia Veronica Purba",
+              "publisher": "Jendela",
+              "publication_year": 2002,
+              "isbn": null,
+              "evidence_ids": [
+                "tagore-id-catalog"
+              ],
+              "extent": "not_collated"
+            },
+            {
+              "title": "Pedagang Buah dari Kabul",
+              "translator": "Hari Niskala",
+              "publisher": "Rum",
+              "publication_year": 2021,
+              "isbn": null,
+              "evidence_ids": [
+                "tagore-id-translation"
+              ],
+              "extent": "not_collated"
+            }
+          ],
+          "finding": "Both a catalogued anthology and a credited online translation exist. The online version declares an English intermediary.",
+          "quality_assessment": "not_independently_assessed",
+          "open_reuse_status": "not_verified",
+          "uncertainties": [
+            "Completeness, fidelity, current availability and reuse permissions have not been independently audited.",
+            "Search engines omit print-only, differently titled and poorly indexed editions. Absence from these results is not absence of a translation."
+          ]
+        }
+      ],
+      "rights_screen": {
+        "status": "assessment_required",
+        "jurisdictions": [
+          "US",
+          "VN",
+          "ID"
+        ],
+        "evidence_ids": [
+          "us-rights",
+          "vn-rights",
+          "id-rights"
+        ],
+        "boundary": "This Atlas is not a publication clearance. Original text, scan, transcription, modern editorial changes and each translation can have different rights."
+      },
+      "editorial_cost": {
+        "difficulty": "very_high",
+        "estimated_human_hours": [
+          22,
+          42
+        ],
+        "basis": "Planning judgment for source collation, literary revision and two independent reviews; not a quote or observed cost. Excludes recruitment delays.",
+        "reviewer_capacity": {
+          "confirmed_reviewers": 0,
+          "status": "unverified",
+          "note": "No person has agreed to review this edition; public institutions and published translators are leads, not recruited reviewers."
+        }
+      },
+      "reader_interest": {
+        "status": "unvalidated_for_litmundi",
+        "evidence_ids": [
+          "tagore-id-catalog",
+          "tagore-vi-tv"
+        ],
+        "evidence_type": "publication_or_scholarly_interest_proxy",
+        "actual_reader_feedback_collected": false,
+        "limitation": "Publication, scholarship, adaptations and source downloads do not establish demand for a new LitMundi translation."
+      },
+      "selection": {
+        "decision": "defer",
+        "reason": "Defer until the exact edition, comparative need and reviewer capacity are verified.",
+        "publication_authorized": false
+      },
+      "next_test": "Ask a bilingual librarian or literary editor to identify competing editions; observe 5–10 target readers completing the work and obtain two real reviewer commitments before adding production volume."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:litmundi:schema:translation-gap-atlas:v1",
+  "title": "Translation Gap Atlas v1",
+  "type": "object",
+  "required": ["schema_version", "researched_on", "title", "purpose", "target_languages", "second_language_decision", "methodology", "legal_evidence_ids", "sources", "works"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": 1},
+    "researched_on": {"$ref": "#/$defs/date"},
+    "title": {"$ref": "#/$defs/text"},
+    "purpose": {"$ref": "#/$defs/text"},
+    "target_languages": {
+      "type": "array", "minItems": 2,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["code", "name", "role", "reviewers_committed"],
+        "properties": {
+          "code": {"type": "string", "pattern": "^[a-z]{2,3}$"},
+          "name": {"$ref": "#/$defs/text"},
+          "role": {"enum": ["priority", "research_comparator_only", "production_approved"]},
+          "reviewers_committed": {"type": "integer", "minimum": 0}
+        }
+      }
+    },
+    "second_language_decision": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "rationale", "approval_conditions"],
+      "properties": {
+        "status": {"enum": ["not_approved_for_translation_production", "approved_with_evidence"]},
+        "rationale": {"$ref": "#/$defs/text"},
+        "approval_conditions": {"$ref": "#/$defs/texts"}
+      }
+    },
+    "methodology": {
+      "type": "object", "additionalProperties": false,
+      "required": ["researcher_kind", "coverage", "limitations", "confidence_definition", "verified_gap_requirement", "quality_requirement"],
+      "properties": {
+        "researcher_kind": {"enum": ["ai_assisted", "human", "mixed"]},
+        "coverage": {"$ref": "#/$defs/text"},
+        "limitations": {"$ref": "#/$defs/texts"},
+        "confidence_definition": {
+          "type": "object", "additionalProperties": false, "required": ["high", "medium", "low"],
+          "properties": {"high": {"$ref": "#/$defs/text"}, "medium": {"$ref": "#/$defs/text"}, "low": {"$ref": "#/$defs/text"}}
+        },
+        "verified_gap_requirement": {"$ref": "#/$defs/text"},
+        "quality_requirement": {"$ref": "#/$defs/text"}
+      }
+    },
+    "legal_evidence_ids": {"$ref": "#/$defs/references"},
+    "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/source"}},
+    "works": {"type": "array", "minItems": 20, "items": {"$ref": "#/$defs/work"}}
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1},
+    "texts": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/text"}},
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "url": {"type": "string", "pattern": "^https?://[^\\s]+$"},
+    "references": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "title", "url", "kind", "accessed_on", "access_method", "finding"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "title": {"$ref": "#/$defs/text"}, "url": {"$ref": "#/$defs/url"},
+        "kind": {"enum": ["institutional_edition", "original_text", "translation_publication", "library_catalog", "institutional_bibliography", "reported_translation_project", "official_report", "secondary_bibliography", "retailer_catalog", "scholarly_edition", "literary_publication", "translator_statement", "institutional_scholarship", "national_library_catalog", "national_bibliography", "publisher_catalog", "unverified_user_upload", "official_legal"]},
+        "accessed_on": {"$ref": "#/$defs/date"},
+        "access_method": {"enum": ["search_index_excerpt", "opened_full_page", "direct_catalog_query", "facsimile_inspected"]},
+        "finding": {"$ref": "#/$defs/text"}, "limitation": {"$ref": "#/$defs/text"}
+      }
+    },
+    "edition": {
+      "type": "object", "additionalProperties": false,
+      "required": ["title", "translator", "publisher", "publication_year", "isbn", "evidence_ids", "extent"],
+      "properties": {
+        "title": {"$ref": "#/$defs/text"}, "translator": {"type": ["string", "null"]}, "publisher": {"type": ["string", "null"]},
+        "publication_year": {"type": ["integer", "null"], "minimum": 1}, "isbn": {"type": ["string", "null"]},
+        "evidence_ids": {"$ref": "#/$defs/references"}, "extent": {"$ref": "#/$defs/text"}
+      }
+    },
+    "search": {
+      "type": "object", "additionalProperties": false,
+      "required": ["query", "method", "searched_on", "scope", "result"],
+      "properties": {
+        "query": {"$ref": "#/$defs/text"}, "method": {"enum": ["web_index_search", "direct_catalog_query", "bibliography_review", "specialist_consultation"]},
+        "searched_on": {"$ref": "#/$defs/date"}, "scope": {"$ref": "#/$defs/text"}, "result": {"$ref": "#/$defs/text"}
+      }
+    },
+    "target": {
+      "type": "object", "additionalProperties": false,
+      "required": ["language", "classification", "confidence", "searches", "evidence_ids", "existing_editions", "finding", "quality_assessment", "open_reuse_status", "uncertainties"],
+      "properties": {
+        "language": {"type": "string", "pattern": "^[a-z]{2,3}$"},
+        "classification": {"enum": ["translation_found", "translation_reported", "translation_project_reported", "partial_translation_found", "adaptation_found", "scholarship_found_translation_unverified", "unverified_rendering_found", "no_translation_found_in_bounded_search", "translation_apparently_unavailable", "verified_gap", "existing_translation_independently_assessed_inadequate"]},
+        "confidence": {"enum": ["high", "medium", "low"]},
+        "searches": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/search"}},
+        "evidence_ids": {"$ref": "#/$defs/references"},
+        "existing_editions": {"type": "array", "items": {"$ref": "#/$defs/edition"}},
+        "finding": {"$ref": "#/$defs/text"},
+        "quality_assessment": {"enum": ["not_independently_assessed", "independently_assessed"]},
+        "open_reuse_status": {"enum": ["not_verified", "publisher_claim_not_audited", "verified_with_evidence"]},
+        "uncertainties": {"$ref": "#/$defs/texts"},
+        "gap_verification": {
+          "type": "object", "additionalProperties": false,
+          "required": ["scope", "bibliographic_source_ids", "specialist_name", "evidence_url"],
+          "properties": {
+            "scope": {"$ref": "#/$defs/text"}, "bibliographic_source_ids": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+            "specialist_name": {"$ref": "#/$defs/text"}, "evidence_url": {"$ref": "#/$defs/url"}
+          }
+        },
+        "independent_assessment": {
+          "type": "object", "additionalProperties": false,
+          "required": ["reviewer_name", "edition", "evidence_url"],
+          "properties": {"reviewer_name": {"$ref": "#/$defs/text"}, "edition": {"$ref": "#/$defs/text"}, "evidence_url": {"$ref": "#/$defs/url"}}
+        }
+      },
+      "allOf": [
+        {"if": {"properties": {"classification": {"const": "verified_gap"}}}, "then": {"required": ["gap_verification"]}},
+        {"if": {"properties": {"classification": {"const": "existing_translation_independently_assessed_inadequate"}}}, "then": {"required": ["independent_assessment"], "properties": {"quality_assessment": {"const": "independently_assessed"}}}},
+        {"if": {"properties": {"classification": {"const": "no_translation_found_in_bounded_search"}}}, "then": {"properties": {"confidence": {"const": "low"}}}},
+        {"if": {"properties": {"classification": {"const": "translation_apparently_unavailable"}}}, "then": {"properties": {"existing_editions": {"type": "array", "minItems": 1}, "evidence_ids": {"type": "array", "minItems": 1}}}}
+      ]
+    },
+    "work": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "title", "author", "original_language", "first_publication_year", "literary_significance", "original_source", "target_assessments", "rights_screen", "editorial_cost", "reader_interest", "selection", "next_test"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "title": {"$ref": "#/$defs/text"}, "author": {"$ref": "#/$defs/text"},
+        "original_language": {"type": "string", "pattern": "^[a-z]{2,3}$"}, "first_publication_year": {"type": "integer", "minimum": 1},
+        "literary_significance": {
+          "type": "object", "additionalProperties": false, "required": ["basis", "rationale"],
+          "properties": {"basis": {"const": "editorial_judgment"}, "rationale": {"$ref": "#/$defs/text"}}
+        },
+        "original_source": {
+          "type": "object", "additionalProperties": false, "required": ["evidence_ids", "status", "caveat"],
+          "properties": {"evidence_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}}, "status": {"enum": ["candidate_witness_identified", "verified_in_corpus"]}, "caveat": {"$ref": "#/$defs/text"}}
+        },
+        "target_assessments": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/target"}},
+        "rights_screen": {
+          "type": "object", "additionalProperties": false, "required": ["status", "jurisdictions", "evidence_ids", "boundary"],
+          "properties": {"status": {"enum": ["assessment_required", "source_assessment_recorded_in_corpus", "blocked_pending_us_term_and_source_version_check"]}, "jurisdictions": {"$ref": "#/$defs/texts"}, "evidence_ids": {"$ref": "#/$defs/references"}, "boundary": {"$ref": "#/$defs/text"}}
+        },
+        "editorial_cost": {
+          "type": "object", "additionalProperties": false,
+          "required": ["difficulty", "estimated_human_hours", "basis", "reviewer_capacity"],
+          "properties": {
+            "difficulty": {"enum": ["low", "medium", "high", "very_high"]},
+            "estimated_human_hours": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "number", "minimum": 0}},
+            "basis": {"$ref": "#/$defs/text"},
+            "reviewer_capacity": {
+              "type": "object", "additionalProperties": false, "required": ["confirmed_reviewers", "status", "note"],
+              "properties": {"confirmed_reviewers": {"type": "integer", "minimum": 0}, "status": {"enum": ["unverified", "confirmed_with_evidence"]}, "note": {"$ref": "#/$defs/text"}}
+            }
+          }
+        },
+        "reader_interest": {
+          "type": "object", "additionalProperties": false,
+          "required": ["status", "evidence_ids", "evidence_type", "actual_reader_feedback_collected", "limitation"],
+          "properties": {
+            "status": {"enum": ["unvalidated_for_litmundi", "observed_with_evidence"]}, "evidence_ids": {"$ref": "#/$defs/references"},
+            "evidence_type": {"enum": ["publication_or_scholarly_interest_proxy", "no_target_reader_evidence", "observed_reader_feedback"]},
+            "actual_reader_feedback_collected": {"type": "boolean"}, "limitation": {"$ref": "#/$defs/text"}
+          }
+        },
+        "selection": {
+          "type": "object", "additionalProperties": false, "required": ["decision", "reason", "publication_authorized"],
+          "properties": {"decision": {"enum": ["pilot_continuation", "selected_for_draft", "defer"]}, "reason": {"$ref": "#/$defs/text"}, "publication_authorized": {"const": false}}
+        },
+        "next_test": {"$ref": "#/$defs/text"}
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "work_id": "wilde-the-artist",
+  "edition_id": "wilde-artist-vi-ai-draft-2026",
+  "source_edition_id": "wilde-artist-en-methuen-1913",
+  "title_vi": "Người nghệ sĩ",
+  "updated_at": "2026-11-01",
+  "stage": "awaiting_independent_human_review",
+  "translation_direction": "en → vi; direct from the named 1913 English witness",
+  "source_sha256": "bd014887242c1b44ed98a4a9e1f8568494173d3fedb0ecf4fd9951c808fcf4ef",
+  "target_sha256": "602d1533021aaf0fe2c3241a088a97b94a9e6147eefbf72dbe0c7d98b0da75fc",
+  "coverage": {
+    "canonical_passages": 5,
+    "translated_passages": 5,
+    "aligned_passages": 5
+  },
+  "ai_disclosure": "The draft, these notes and preliminary scores were prepared by AI-assisted agents. Multiple AI reads are not independent human certification. No named human translator/editor, reviewer qualification, review approval, open-license permission or reader response is invented.",
+  "glossary": [
+    {
+      "source_term": "bronze",
+      "draft_rendering": "đồng",
+      "alternatives": [
+        "đồng thiếc",
+        "đồng đúc"
+      ],
+      "rationale": "Vietnamese literary usage permits đồng for cast bronze; đồng thau would identify brass and is rejected. The English’s repeated material is not varied for elegance. A human editor should decide whether precision warrants a note rather than an altered repeated noun.",
+      "passages": [
+        "wilde-the-artist:1.1",
+        "wilde-the-artist:1.2",
+        "wilde-the-artist:1.3",
+        "wilde-the-artist:1.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "The Pleasure that abideth for a Moment",
+      "draft_rendering": "Lạc Thú Chỉ Lưu Lại Một Khoảnh Khắc",
+      "alternatives": [
+        "Lạc Thú Chỉ Tồn Tại Một Khoảnh Khắc",
+        "Niềm Vui Chỉ Lưu Lại Một Khoảnh Khắc"
+      ],
+      "rationale": "Keep the capitalized allegorical name and temporal contrast. Lạc thú preserves sensuous pleasure better than mere vui; lưu lại attempts the elevated dwelling/lasting verb without inventing a residue. The resulting cadence is not settled.",
+      "passages": [
+        "wilde-the-artist:1.1",
+        "wilde-the-artist:1.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "The Sorrow that endureth for Ever",
+      "draft_rendering": "Nỗi Sầu Còn Mãi Muôn Đời",
+      "alternatives": [
+        "Nỗi Đau Buồn Còn Mãi"
+      ],
+      "rationale": "Repeats the same named figure at both appearances; the expanded phrase retains the solemn temporal antithesis.",
+      "passages": [
+        "wilde-the-artist:1.2",
+        "wilde-the-artist:1.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "For he could think only in bronze",
+      "draft_rendering": "Bởi ông chỉ có thể nghĩ bằng đồng",
+      "alternatives": [
+        "Bởi ông chỉ có thể suy tưởng bằng đồng"
+      ],
+      "rationale": "Preserve the unusual thinking-in-a-material image; do not explain it away as skilled metalwork or a preference for bronze.",
+      "passages": [
+        "wilde-the-artist:1.1"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the one thing / the dead thing",
+      "draft_rendering": "điều duy nhất / điều đã chết",
+      "alternatives": [
+        "thứ duy nhất / thứ đã chết"
+      ],
+      "rationale": "Do not identify the beloved as a woman, person, wife or lost ideal. Điều avoids specifying a physical object but is strained with đã chết. This unresolved literary difficulty requires human judgment, not an explanatory invention.",
+      "passages": [
+        "wilde-the-artist:1.3"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "image / fashioned",
+      "draft_rendering": "pho tượng / tạo nên",
+      "alternatives": [
+        "hình tượng / tạo hình",
+        "pho tượng / đúc nên"
+      ],
+      "rationale": "The material object remains a statue throughout. A neutral craft verb avoids claiming carving, molding or casting at points where the English says only fashion.",
+      "passages": [
+        "wilde-the-artist:1.1",
+        "wilde-the-artist:1.3",
+        "wilde-the-artist:1.4",
+        "wilde-the-artist:1.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "gave it to the fire",
+      "draft_rendering": "trao nó cho lửa",
+      "alternatives": [
+        "phó nó cho ngọn lửa"
+      ],
+      "rationale": "Keep the ritual transfer to personified fire; do not replace it with a purely technical statement that he melted it.",
+      "passages": [
+        "wilde-the-artist:1.4"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "decisions": [
+    {
+      "id": "wilde-2026-11-01-01",
+      "passages": [
+        "wilde-the-artist:1.1",
+        "wilde-the-artist:1.5"
+      ],
+      "proposal": "Replace the mechanical allegorical wording with Chỉ Còn Trong Chốc Lát.",
+      "outcome": "Rejected after adversarial AI reading; changed to Chỉ Lưu Lại Một Khoảnh Khắc.",
+      "rationale": "Chỉ còn suggests a remainder or dwindling remaining time; the last sentence creates new pleasure. Retain the alternative for a human cadence comparison.",
+      "status": "rejected_then_revised"
+    },
+    {
+      "id": "wilde-2026-11-01-02",
+      "passages": [
+        "wilde-the-artist:1.2",
+        "wilde-the-artist:1.3"
+      ],
+      "proposal": "Reduce repetitions of world, bronze and the self-made image.",
+      "outcome": "Rejected; restored the repeated lexical chain and the And transition in paragraph 3.",
+      "rationale": "The incantatory repetition carries the allegory’s movement and must not be polished away.",
+      "status": "rejected"
+    },
+    {
+      "id": "wilde-2026-11-01-03",
+      "passages": [
+        "wilde-the-artist:1.3"
+      ],
+      "proposal": "Keep explanatory em-dash clauses around undying love and enduring sorrow.",
+      "outcome": "Removed; parallel Vietnamese syntax now carries the two predicates.",
+      "rationale": "The earlier punctuation editorialized the author’s flowing parallelism.",
+      "status": "adopted"
+    },
+    {
+      "id": "wilde-2026-11-01-04",
+      "passages": [
+        "wilde-the-artist:1.3"
+      ],
+      "proposal": "Resolve the beloved as người yêu or người phụ nữ.",
+      "outcome": "Rejected; preserve the source’s unnamed thing, while flagging target-language strain.",
+      "rationale": "A smoother sentence is not permission to remove deliberate ambiguity.",
+      "status": "rejected"
+    }
+  ],
+  "preflight_record": "corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-preflight-2026-11-01.json",
+  "review_process": {
+    "entry_conditions": [
+      "Complete named-source text and aligned translation; exact content hashes attached.",
+      "Read the source and target before opening model score records to avoid anchoring."
+    ],
+    "required_reviewers": 2,
+    "qualified_human_reviewers_obtained": 0,
+    "human_editorial_contributor_obtained": false,
+    "open_license_permission_obtained": false,
+    "exit_conditions": [
+      "Each independent qualified bilingual human reviewer >=9.0 weighted, fidelity >=9.0, other dimensions >=8.0.",
+      "All passages reviewed; no unresolved major/critical errors; review digests match the final texts.",
+      "Maintainer authenticates qualifications, independence, review evidence, named editorial contribution and affirmative open-license permission."
+    ]
+  },
+  "unresolved_questions": [
+    {
+      "segment": "wilde-the-artist:1.1",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The elevated phrase Lạc Thú Chỉ Lưu Lại Một Khoảnh Khắc remains long and slightly unusual; compare aloud with the conservative earlier version before approval."
+    },
+    {
+      "segment": "wilde-the-artist:1.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Điều đã chết preserves the unnamed referent but strains ordinary Vietnamese collocation. Compare thứ đã chết without turning the referent into a named person or gender."
+    }
+  ],
+  "selection_limit": "This is a limited editorial feasibility pilot, not evidence of an absent Vietnamese translation or verified reader demand. The Translation Gap Atlas records evidence and search limitations; no expansion is justified before real reader feedback and reviewer capacity."
+}
