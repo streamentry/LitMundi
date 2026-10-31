@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "work_id": "wilde-the-artist",
+  "edition_id": "wilde-artist-vi-ai-draft-2026",
+  "source_edition_id": "wilde-artist-en-methuen-1913",
+  "links": [
+    {
+      "source": [
+        "wilde-the-artist:1.1"
+      ],
+      "target": [
+        "wilde-the-artist:1.1"
+      ]
+    },
+    {
+      "source": [
+        "wilde-the-artist:1.2"
+      ],
+      "target": [
+        "wilde-the-artist:1.2"
+      ]
+    },
+    {
+      "source": [
+        "wilde-the-artist:1.3"
+      ],
+      "target": [
+        "wilde-the-artist:1.3"
+      ]
+    },
+    {
+      "source": [
+        "wilde-the-artist:1.4"
+      ],
+      "target": [
+        "wilde-the-artist:1.4"
+      ]
+    },
+    {
+      "source": [
+        "wilde-the-artist:1.5"
+      ],
+      "target": [
+        "wilde-the-artist:1.5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LitMundi Many-to-Many Alignment",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "work_id",
+    "edition_id",
+    "source_edition_id",
+    "links"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "work_id": {
+      "type": "string"
+    },
+    "edition_id": {
+      "type": "string"
+    },
+    "source_edition_id": {
+      "type": "string"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source",
+          "target"
+        ],
+        "properties": {
+          "source": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "target": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

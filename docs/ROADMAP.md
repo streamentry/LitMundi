@@ -19,3 +19,9 @@ Negotiate mirror stewards, diversified funding, costs per reviewed word, non-int
 
 ## Stop/pivot criteria
 Stop producing bulk translations if review cost per quality-assured word is not sustainable or reader demand remains absent after two measured pilots. Shift toward preservation, source discovery or partnerships rather than misleading quantity metrics.
+
+## Pilot recorded 2026-10-31
+- Corpus v2 designed: work vs edition identity, independent multiple translations, stable anchors, explicit alignments, schemas and publication-gate validation.
+- Oscar Wilde *The Artist* first source witness: 1913 Methuen as digitized by Project Gutenberg #774. Rights assessment and source-check provenance recorded.
+- Vietnamese draft stored for editorial review only, not generated as a reader route; translation-gap status unverified.
+- **Pending human action:** at least two independent bilingual literary reviewers, evidence of market gap, consent to content license, and archival mirror steward.

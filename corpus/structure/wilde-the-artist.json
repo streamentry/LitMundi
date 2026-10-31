@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "work_id": "wilde-the-artist",
+  "segment_ids": [
+    "wilde-the-artist:1.1",
+    "wilde-the-artist:1.2",
+    "wilde-the-artist:1.3",
+    "wilde-the-artist:1.4",
+    "wilde-the-artist:1.5"
+  ],
+  "deprecated_ids": {},
+  "notes": "Paragraph-level canonical segments based on the 1913 Methuen source witness. IDs shall never be reused; later resegmentation requires explicit aliases."
+}

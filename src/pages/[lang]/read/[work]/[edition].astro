@@ -1,10 +1,53 @@
 ---
 import Base from '../../../../layouts/Base.astro';
-import {supported,strings,catalog,languageNames,issueUrl,type Locale} from '../../../../lib/corpus';
+import {supported,strings,catalog,languageNames,issueUrl,passagesFor,readableEditions,resolveEdition,type Locale} from '../../../../lib/corpus';
 import {pagePath} from '../../../../lib/urls';
-import sample from '../../../../../corpus/segments/demo-proust/fr.json';
-export function getStaticPaths(){return supported.flatMap(lang=>catalog.flatMap(w=>w.editions.map(e=>({params:{lang,work:w.id,edition:e.language}}))));}
-const lang=Astro.params.lang as Locale;const t=strings[lang];const w=catalog.find(w=>w.id===Astro.params.work)!;const edition=w.editions.find(e=>e.language===Astro.params.edition)!;
-const passages=edition.language==='fr'?Object.entries(sample):[];
+
+/** Only published sources/translations and the retained Proust sample have public read pages. */
+export function getStaticPaths(){
+  return supported.flatMap(lang=>catalog.flatMap(w=>readableEditions(w.id).flatMap(e=>
+    [e.id,...e.legacy_slugs].map(slug=>({params:{lang,work:w.id,edition:slug}}))
+  )));
+}
+const lang=Astro.params.lang as Locale;const t=strings[lang];
+const w=catalog.find(w=>w.id===Astro.params.work)!;
+const e=resolveEdition(w.id,Astro.params.edition!)!;
+const legacy=e.id!==Astro.params.edition;
+const current=pagePath(lang,'read',w.id,e.id);
+const passages=passagesFor(e);
+const noindex=e.status!=='published' || legacy;
 ---
-<Base lang={lang} title={w.title+' — '+languageNames[edition.language]} noindex={edition.status !== "published"}><div class="container reader-head"><p class="eyebrow">{w.author} · {languageNames[edition.language]}</p><h1>{w.title}</h1><div class="tools"><a href={pagePath(lang,'works',w.id)}>← {t.all}</a><a href={issueUrl(w.id,edition.language)} target="_blank" rel="noopener noreferrer">{t.feedback} ↗</a><a href="https://github.com/streamentry/LitMundi/tree/main/corpus" target="_blank" rel="noopener noreferrer">View source data ↗</a></div><p class="muted">{edition.label} · Status: {edition.status} · Source: {w.source.url}</p></div><article class="reader"><aside class="notice">{t.draft} {t.copyright}</aside>{passages.length?passages.map(([id,value])=><p class="segment" id={id}><a class="segment-link" aria-label={'Link to passage '+id} href={'#'+id}>§</a><span lang={edition.language}>{value}</span> <a class="segment-link" href={issueUrl(w.id,edition.language,id)} target="_blank" rel="noopener noreferrer" aria-label={'Report issue in '+id}>✎</a></p>):<div class="notice"><p>{t.empty}</p><a href={issueUrl(w.id,edition.language)}>{t.feedback} ↗</a></div>}</article></Base>
+<Base lang={lang} title={w.title+' — '+(languageNames[e.language]??e.language)} noindex={noindex} canonicalPath={current}>
+<div class="container reader-head">
+  <p class="eyebrow">{w.author} · {languageNames[e.language]??e.language}</p>
+  <h1>{w.title}</h1>
+  <p class="muted">{e.label}</p>
+  <div class="tools">
+    <a href={pagePath(lang,'works',w.id)}>← {t.all}</a>
+    <a href={issueUrl(w.id,e.id)} target="_blank" rel="noopener noreferrer">{t.feedback} ↗</a>
+    <a href={'https://github.com/streamentry/LitMundi/blob/main/'+e.content_path} target="_blank" rel="noopener noreferrer">Corpus JSON ↗</a>
+  </div>
+  {legacy&&<div class="notice">Legacy permalink. <a href={current}>Use the permanent edition-ID address.</a></div>}
+  <div class="notice">
+    {e.status==='published' && e.kind==='source'?
+      <span><strong>Original text, source checked.</strong> This is not an independently certified critical edition. </span>:
+      <span><strong>Unverified sample only.</strong> Not a complete, reviewed edition. </span>}
+    <span>Rights: {e.rights.status}. </span>
+    {e.provenance.text_url && <a href={e.provenance.text_url} target="_blank" rel="noopener noreferrer">View source witness ↗</a>}
+  </div>
+  <details><summary>Bibliographic provenance and editorial status</summary>
+    <p>{e.provenance.citation}</p><p>Edition ID: <code>{e.id}</code></p>
+    <p>Review: {e.review.status}. {e.review.notes}</p>
+    <p>Rights: {e.rights.basis}</p>
+  </details>
+</div>
+<article class="reader">
+  {passages.map(([id,value])=>
+    <p class="segment" id={id}>
+      <a class="segment-link" aria-label={'Link to passage '+id} href={'#'+id}>§</a>
+      <span lang={e.language}>{value}</span>
+      <a class="segment-link" href={issueUrl(w.id,e.id,id)} target="_blank" rel="noopener noreferrer" aria-label={'Report issue in '+id}>✎</a>
+    </p>
+  )}
+</article>
+</Base>

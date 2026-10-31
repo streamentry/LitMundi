@@ -1,8 +1,28 @@
 ---
 import Base from '../../layouts/Base.astro';
-import {supported,strings,catalog,type Locale} from '../../lib/corpus';
+import {supported,strings,catalog,readableEditions,type Locale} from '../../lib/corpus';
 import {pagePath} from '../../lib/urls';
 export function getStaticPaths(){return supported.map(lang=>({params:{lang}}));}
 const lang=Astro.params.lang as Locale;const t=strings[lang];
+const publishedWorks=catalog.filter(w=>w.visibility==='public' && readableEditions(w.id).some(e=>e.status==='published'));
 ---
-<Base lang={lang} title={t.title}><div class="container"><section class="hero"><p class="eyebrow">{t.tag}</p><h1>{t.title}</h1><p>{t.intro}</p><a class="button" href="#collection">{t.explore} ↗</a></section><section id="collection" class="section"><p class="eyebrow">{t.works}</p><h2>{t.works}</h2><div class="grid">{catalog.map(work=><a class="card" href={pagePath(lang,'works',work.id)}><span class="pill">{t.sample}</span><h3>{work.title}</h3><p class="muted">{work.author} · {work.original_language.toUpperCase()}</p><p>{work.description}</p><span style="color:#24553e">{t.read} →</span></a>)}</div></section><section class="section"><p class="eyebrow">Our approach</p><h2>{t.why}</h2><p style="max-width:690px;line-height:1.8">{t.whytext}</p></section></div></Base>
+<Base lang={lang} title={t.title}>
+<div class="container">
+  <section class="hero"><p class="eyebrow">{t.tag}</p><h1>{t.title}</h1><p>{t.intro}</p><a class="button" href="#collection">{t.explore} ↗</a></section>
+  <section id="collection" class="section">
+    <p class="eyebrow">{t.works}</p><h2>{t.works}</h2>
+    <div class="grid">{publishedWorks.map(work=>
+      <a class="card" href={pagePath(lang,'works',work.id)}>
+        <span class="pill">Original text · sourced</span>
+        <h3>{work.title}</h3>
+        <p class="muted">{work.author} · {work.original_language.toUpperCase()} · {work.first_published_year}</p>
+        <p>{work.description}</p>
+        <span style="color:#24553e">{t.read} →</span>
+      </a>
+    )}</div>
+  </section>
+  <section class="section"><p class="eyebrow">Our approach</p><h2>{t.why}</h2><p style="max-width:690px;line-height:1.8">{t.whytext}</p>
+    <p class="muted">Translations are released only after independent literary review and documented licensing.</p>
+  </section>
+</div>
+</Base>

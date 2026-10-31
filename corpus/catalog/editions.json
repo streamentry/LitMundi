@@ -1,0 +1,235 @@
+[
+  {
+    "id": "wilde-artist-en-methuen-1913",
+    "work_id": "wilde-the-artist",
+    "language": "en",
+    "kind": "source",
+    "status": "published",
+    "label": "Original English · 1913 Methuen edition (Project Gutenberg #774)",
+    "content_path": "corpus/segments/wilde-the-artist/wilde-artist-en-methuen-1913.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Oscar Wilde, “The Artist,” Poems in Prose (Fortnightly Review, July 1894); in Essays and Lectures, 4th ed., Methuen & Co. Ltd., 1913, pp. 227–228. Digital transcription: David Price, Project Gutenberg #774.",
+      "catalog_url": "https://www.gutenberg.org/ebooks/774",
+      "text_url": "https://www.gutenberg.org/cache/epub/774/pg774-images.html",
+      "retrieved_at": "2026-10-31",
+      "source_witness": "1913 Methuen fourth edition; electronic transcription, not a facsimile of the 1894 printing."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Oscar Wilde text)",
+      "basis": "Oscar Wilde died in 1900; work first published in 1894; source edition published in 1913. Original work assessed as public domain in the US and life-plus-70 jurisdictions. This is not a jurisdiction-wide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "EU",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://www.gutenberg.org/ebooks/774",
+        "https://www.themorgan.org/collection/oscar-wilde/manuscripts-letters/13"
+      ]
+    },
+    "credits": {
+      "author": "Oscar Wilde",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": false
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://www.gutenberg.org/cache/epub/774/pg774-images.html"
+      ],
+      "notes": "Five complete paragraphs manually transcribed against the identified Gutenberg reproduction; not an independently certified critical edition."
+    }
+  },
+  {
+    "id": "wilde-artist-vi-ai-draft-2026",
+    "work_id": "wilde-the-artist",
+    "language": "vi",
+    "kind": "translation",
+    "status": "draft",
+    "label": "Tiếng Việt · bản thảo do AI hỗ trợ, chờ biên tập độc lập",
+    "content_path": "corpus/segments/wilde-the-artist/wilde-artist-vi-ai-draft-2026.json",
+    "source_edition_id": "wilde-artist-en-methuen-1913",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Direct working draft translated from the LitMundi English source edition; not based on a modern third-party translation.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-10-31",
+      "source_witness": "wilde-artist-en-methuen-1913"
+    },
+    "rights": {
+      "status": "unreviewed",
+      "license": null,
+      "basis": "AI-generated draft; authorship and publication license to be determined after human editorial contributions.",
+      "jurisdictions_assessed": [],
+      "evidence_urls": []
+    },
+    "credits": {
+      "author": "Oscar Wilde",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "unreviewed",
+      "reviewers": [],
+      "evidence_urls": [],
+      "notes": "DRAFT ONLY. Needs independent bilingual literary review, correction of register, source comparison, rights and contributor licensing decisions. Never indexed or presented as published."
+    }
+  },
+  {
+    "id": "wilde-artist-vi-community-proposed",
+    "work_id": "wilde-the-artist",
+    "language": "vi",
+    "kind": "translation",
+    "status": "planned",
+    "label": "Tiếng Việt · bản dịch cộng đồng độc lập (chưa có nội dung)",
+    "content_path": null,
+    "source_edition_id": "wilde-artist-en-methuen-1913",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "No edition submitted.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": null,
+      "source_witness": null
+    },
+    "rights": {
+      "status": "unreviewed",
+      "license": null,
+      "basis": "Future edition; rights and contributor consent required.",
+      "jurisdictions_assessed": [],
+      "evidence_urls": []
+    },
+    "credits": {
+      "author": "Oscar Wilde",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": false
+    },
+    "review": {
+      "status": "unreviewed",
+      "reviewers": [],
+      "evidence_urls": [],
+      "notes": "Second same-language edition demonstrates independent edition identifiers; contains no content."
+    }
+  },
+  {
+    "id": "proust-swann-fr-sample",
+    "work_id": "demo-proust",
+    "language": "fr",
+    "kind": "source",
+    "status": "sample",
+    "label": "Unverified formatting excerpt (not a complete book)",
+    "content_path": "corpus/segments/demo-proust/fr.json",
+    "source_edition_id": null,
+    "legacy_slugs": [
+      "fr"
+    ],
+    "provenance": {
+      "citation": "No source edition has been selected for this demonstration.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": null,
+      "source_witness": null
+    },
+    "rights": {
+      "status": "unreviewed",
+      "license": null,
+      "basis": "Not a publishable edition.",
+      "jurisdictions_assessed": [],
+      "evidence_urls": []
+    },
+    "credits": {
+      "author": "Marcel Proust",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": false
+    },
+    "review": {
+      "status": "unreviewed",
+      "reviewers": [],
+      "evidence_urls": [],
+      "notes": "Demo only; no assertion of textual completeness."
+    }
+  },
+  {
+    "id": "proust-swann-vi-planned",
+    "work_id": "demo-proust",
+    "language": "vi",
+    "kind": "translation",
+    "status": "planned",
+    "label": "Tiếng Việt · chưa có bản dịch",
+    "content_path": null,
+    "source_edition_id": "proust-swann-fr-sample",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "No source edition selected.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": null,
+      "source_witness": null
+    },
+    "rights": {
+      "status": "unreviewed",
+      "license": null,
+      "basis": "Future edition",
+      "jurisdictions_assessed": [],
+      "evidence_urls": []
+    },
+    "credits": {
+      "author": "Marcel Proust",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": false
+    },
+    "review": {
+      "status": "unreviewed",
+      "reviewers": [],
+      "evidence_urls": [],
+      "notes": "Not published."
+    }
+  },
+  {
+    "id": "proust-swann-en-planned",
+    "work_id": "demo-proust",
+    "language": "en",
+    "kind": "translation",
+    "status": "planned",
+    "label": "English · no translation available",
+    "content_path": null,
+    "source_edition_id": "proust-swann-fr-sample",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "No source edition selected.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": null,
+      "source_witness": null
+    },
+    "rights": {
+      "status": "unreviewed",
+      "license": null,
+      "basis": "Future edition",
+      "jurisdictions_assessed": [],
+      "evidence_urls": []
+    },
+    "credits": {
+      "author": "Marcel Proust",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": false
+    },
+    "review": {
+      "status": "unreviewed",
+      "reviewers": [],
+      "evidence_urls": [],
+      "notes": "Not published."
+    }
+  }
+]

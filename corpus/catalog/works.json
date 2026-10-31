@@ -1,32 +1,32 @@
 [
   {
+    "id": "wilde-the-artist",
+    "title": "The Artist",
+    "author": "Oscar Wilde",
+    "author_death_year": 1900,
+    "first_published_year": 1894,
+    "original_language": "en",
+    "genre": "prose_poem",
+    "description": "A short allegory about transforming enduring sorrow into fleeting pleasure, first published in Poems in Prose (1894).",
+    "visibility": "public",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Pilot selected for provenance and editorial workflow; no claim that translations are missing or inadequate."
+    }
+  },
+  {
     "id": "demo-proust",
     "title": "Du côté de chez Swann",
     "author": "Marcel Proust",
-    "year": 1913,
+    "author_death_year": 1922,
+    "first_published_year": 1913,
     "original_language": "fr",
-    "description": "A demonstration catalog record for a major work in world literature. Not a certified translation or complete edition.",
-    "source": {
-      "url": "https://gallica.bnf.fr/",
-      "citation": "Source edition not yet selected; Gallica is a discovery reference, not a provenance claim.",
-      "verified": false
-    },
-    "editions": [
-      {
-        "language": "fr",
-        "status": "sample",
-        "label": "Illustrative passage only — not a verified source edition"
-      },
-      {
-        "language": "vi",
-        "status": "planned",
-        "label": "Translation not yet available"
-      },
-      {
-        "language": "en",
-        "status": "planned",
-        "label": "Translation not yet available"
-      }
-    ]
+    "genre": "novel",
+    "description": "An intentionally incomplete, unverified demonstration retained to preserve existing reference URLs.",
+    "visibility": "demo",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Demonstration only."
+    }
   }
 ]

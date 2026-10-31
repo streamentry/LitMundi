@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/streamentry/LitMundi/blob/main/corpus/schemas/edition.schema.json",
+  "title": "LitMundi Edition",
+  "type": "object",
+  "required": [
+    "id",
+    "work_id",
+    "language",
+    "kind",
+    "status",
+    "label",
+    "content_path",
+    "source_edition_id",
+    "legacy_slugs",
+    "provenance",
+    "rights",
+    "credits",
+    "review"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]+$"
+    },
+    "work_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]+$"
+    },
+    "language": {
+      "type": "string",
+      "minLength": 2
+    },
+    "kind": {
+      "enum": [
+        "source",
+        "translation"
+      ]
+    },
+    "status": {
+      "enum": [
+        "planned",
+        "draft",
+        "sample",
+        "published",
+        "withdrawn"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "content_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_edition_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "legacy_slugs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]+$"
+      },
+      "uniqueItems": true
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "citation",
+        "catalog_url",
+        "text_url",
+        "retrieved_at",
+        "source_witness"
+      ],
+      "properties": {
+        "citation": {
+          "type": "string"
+        },
+        "catalog_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "text_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "retrieved_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_witness": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "rights": {
+      "type": "object",
+      "required": [
+        "status",
+        "license",
+        "basis",
+        "jurisdictions_assessed",
+        "evidence_urls"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "unreviewed",
+            "public_domain_assessed",
+            "cleared",
+            "disputed"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "basis": {
+          "type": "string"
+        },
+        "jurisdictions_assessed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_urls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "credits": {
+      "type": "object",
+      "required": [
+        "author",
+        "translator",
+        "editors",
+        "ai_assisted"
+      ],
+      "properties": {
+        "author": {
+          "type": "string"
+        },
+        "translator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "editors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ai_assisted": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status",
+        "reviewers",
+        "evidence_urls",
+        "notes"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "unreviewed",
+            "source_checked",
+            "bilingual_reviewed",
+            "literary_edited",
+            "expert_reviewed"
+          ]
+        },
+        "reviewers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence_urls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,8 +1,41 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import {supported,strings,catalog,type Locale,languageNames} from '../../../lib/corpus';
+import {supported,strings,catalog,type Locale,languageNames,editionsForWork,readableEditions} from '../../../lib/corpus';
 import {pagePath} from '../../../lib/urls';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.map(work=>({params:{lang,work:work.id}})));}
-const lang=Astro.params.lang as Locale;const t=strings[lang];const w=catalog.find(w=>w.id===Astro.params.work)!;
+const lang=Astro.params.lang as Locale;
+const t=strings[lang];
+const w=catalog.find(w=>w.id===Astro.params.work)!;
+const reading=readableEditions(w.id);
+const planned=editionsForWork(w.id).filter(e=>e.status==='planned' || e.status==='draft');
+const isDemo=w.visibility==='demo' || !reading.some(e=>e.status==='published');
 ---
-<Base lang={lang} title={w.title} noindex={w.editions.every(e=>e.status !== "published")}><div class="container reader-head"><p class="eyebrow">{w.author}</p><h1>{w.title}</h1><p>{w.description}</p><p class="muted">{t.original}: {languageNames[w.original_language]} · {w.year}</p><div class="notice">This work is currently a catalog and formatting demonstration. A verified public-domain source edition and complete translations must be added before publication.</div><h2>{t.all}</h2><div class="grid">{w.editions.map(e=><a class="card" href={pagePath(lang,'read',w.id,e.language)}><span class="pill">{e.status}</span><h3>{languageNames[e.language]}</h3><p class="muted">{e.label}</p><span>{t.read} →</span></a>)}</div><p><a href={pagePath(lang)}>← {t.works}</a></p></div></Base>
+<Base lang={lang} title={w.title} noindex={isDemo}>
+<div class="container reader-head">
+  <p class="eyebrow">{w.author} · {w.genre.replaceAll('_',' ')}</p>
+  <h1>{w.title}</h1>
+  <p>{w.description}</p>
+  <p class="muted">{t.original}: {languageNames[w.original_language]??w.original_language} · {w.first_published_year}</p>
+  {isDemo ? <div class="notice">Demonstration only. This work has no complete verified source edition or released translations.</div>
+    : <div class="notice">Original source text available. Translations remain unpublished until independently reviewed. No translation gap has been confirmed for this pilot.</div>}
+  <h2>{t.all}</h2>
+  <div class="grid">
+    {reading.map(e=>
+      <a class="card" href={pagePath(lang,'read',w.id,e.id)}>
+        <span class="pill">{e.status==='published'?'Source text · published':'Unverified sample'}</span>
+        <h3>{languageNames[e.language]??e.language}</h3><p class="muted">{e.label}</p>
+        <span>{t.read} →</span>
+      </a>
+    )}
+    {planned.map(e=>
+      <div class="card" aria-label={'Not available: '+e.label}>
+        <span class="pill">{e.status==='draft'?'Awaiting review':'Planned'}</span>
+        <h3>{languageNames[e.language]??e.language}</h3>
+        <p class="muted">{e.label}</p>
+        <p class="muted">Not yet available for public reading.</p>
+      </div>
+    )}
+  </div>
+  <p style="padding:30px 0"><a href={pagePath(lang)}>← {t.works}</a></p>
+</div>
+</Base>

@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "work_id": "demo-proust",
+  "segment_ids": [
+    "demo-proust:1.1",
+    "demo-proust:1.2"
+  ],
+  "deprecated_ids": {},
+  "notes": "Demonstration IDs retained for permalink compatibility."
+}

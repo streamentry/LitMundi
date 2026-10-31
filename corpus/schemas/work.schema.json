@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/streamentry/LitMundi/blob/main/corpus/schemas/work.schema.json",
+  "title": "LitMundi Work",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "author",
+    "author_death_year",
+    "first_published_year",
+    "original_language",
+    "genre",
+    "description",
+    "visibility",
+    "translation_gap"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1
+    },
+    "author_death_year": {
+      "type": "integer"
+    },
+    "first_published_year": {
+      "type": "integer"
+    },
+    "original_language": {
+      "type": "string",
+      "minLength": 2
+    },
+    "genre": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "visibility": {
+      "enum": [
+        "public",
+        "demo",
+        "archived"
+      ]
+    },
+    "translation_gap": {
+      "type": "object",
+      "required": [
+        "status",
+        "notes"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "unverified",
+            "suspected",
+            "verified",
+            "not_applicable"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
