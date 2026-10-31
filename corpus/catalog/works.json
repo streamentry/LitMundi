@@ -1,0 +1,32 @@
+[
+  {
+    "id": "demo-proust",
+    "title": "Du côté de chez Swann",
+    "author": "Marcel Proust",
+    "year": 1913,
+    "original_language": "fr",
+    "description": "A demonstration catalog record for a major work in world literature. Not a certified translation or complete edition.",
+    "source": {
+      "url": "https://gallica.bnf.fr/",
+      "citation": "Source edition not yet selected; Gallica is a discovery reference, not a provenance claim.",
+      "verified": false
+    },
+    "editions": [
+      {
+        "language": "fr",
+        "status": "sample",
+        "label": "Illustrative passage only — not a verified source edition"
+      },
+      {
+        "language": "vi",
+        "status": "planned",
+        "label": "Translation not yet available"
+      },
+      {
+        "language": "en",
+        "status": "planned",
+        "label": "Translation not yet available"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+# Security
+Do not report vulnerabilities in public issues. Contact the repository owner privately through GitHub profile contact methods until a dedicated security reporting channel is set up. Do not submit secrets or personal data in translation feedback. Static deployment intentionally has no password store, database, server-side session or GitHub token. GitHub authenticates issue authors on github.com. If OAuth or embedded comments are introduced, document threat model, consent, moderation, token handling and data retention in a new ADR first.

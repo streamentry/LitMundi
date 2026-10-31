@@ -1,0 +1,35 @@
+name: Translation proposal
+description: Propose a cultural and legally verified translation gap.
+title: "Translation proposal: "
+body:
+  - type: input
+    id: work
+    attributes:
+      label: Work and author
+    validations:
+      required: true
+  - type: input
+    id: lang
+    attributes:
+      label: Original language to target language
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: Evidence of missing or inaccessible translations
+      description: Name catalogs, publishers, libraries and search dates.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: Exact source edition and rights assessment
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Reader demand and human review capacity
+    validations:
+      required: true

@@ -1,0 +1,2 @@
+# Code of Conduct
+Be civil, inclusive and constructive. Critique translations and evidence, not people. Harassment, threats, discrimination, doxxing, spam and deliberate copyright infringement are not tolerated. Maintainers may moderate contributions and block accounts. Report problems privately to the repository owner via GitHub where possible.

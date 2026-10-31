@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discussion and collaboration
+    url: https://github.com/streamentry/LitMundi/issues
+    about: GitHub Issues are the initial public feedback channel.

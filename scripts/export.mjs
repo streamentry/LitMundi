@@ -1,0 +1,5 @@
+import {mkdir,readFile,readdir,writeFile} from 'node:fs/promises';import {createHash} from 'node:crypto';import {join,relative} from 'node:path';
+const base='corpus';const out='dist-archive';await mkdir(out,{recursive:true});
+async function files(dir){const entries=await readdir(dir,{withFileTypes:true});const r=[];for(const e of entries){const p=join(dir,e.name);if(e.isDirectory())r.push(...await files(p));else if(e.isFile())r.push(p);}return r;}
+const inventory=[];for(const p of (await files(base)).sort()){const data=await readFile(p);const dest=join(out,p);await mkdir(dest.slice(0,dest.lastIndexOf('/')),{recursive:true});await writeFile(dest,data);inventory.push({path:relative(base,p),sha256:createHash('sha256').update(data).digest('hex'),bytes:data.length});}
+await writeFile(join(out,'manifest.json'),JSON.stringify({format:'LitMundi corpus archive v1',files:inventory},null,2)+'\n');console.log('Exported '+inventory.length+' corpus files to '+out);

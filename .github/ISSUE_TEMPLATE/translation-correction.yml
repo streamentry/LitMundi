@@ -1,0 +1,40 @@
+name: Translation correction
+description: Propose an evidence-backed change to a specific segment.
+title: "Translation correction: "
+labels: []
+body:
+  - type: input
+    id: work
+    attributes:
+      label: Work ID
+      placeholder: demo-proust
+    validations:
+      required: true
+  - type: input
+    id: edition
+    attributes:
+      label: Edition language / ID
+      placeholder: vi
+    validations:
+      required: true
+  - type: input
+    id: segment
+    attributes:
+      label: Passage ID
+      placeholder: demo-proust:1.1
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Current text and proposed correction
+      description: Include both versions; no unlicensed third-party translations.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reasoning and source citations
+      description: Explain nuance, original passage and edition references.
+    validations:
+      required: true
