@@ -15,6 +15,7 @@
     "quality:status": "node scripts/quality-status.mjs",
     "downloads": "node scripts/downloads.mjs",
     "social:images": "node scripts/social-images.mjs",
+    "indexnow": "python3 scripts/indexnow.py",
     "verify:archive": "node scripts/verify-archive.mjs",
     "review:packet": "npm run validate && node scripts/review-packet.mjs",
     "verify:ids": "node scripts/verify-identifiers.mjs",

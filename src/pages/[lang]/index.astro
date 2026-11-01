@@ -5,6 +5,7 @@ import {strings,supported,type Locale} from '../../lib/i18n';
 import {publicWorks,publishedEditions,languageNames,bestEdition,reviewCategory,editionTitle} from '../../lib/corpus';
 import {pagePath,assetPath,basePath} from '../../lib/urls';
 import {labels,workSummary,authorSlug} from '../../lib/discovery';
+import searchLabels from '../../lib/search-ui.json';
 export function getStaticPaths(){return supported.map(lang=>({params:{lang}}));}
 const lang=Astro.params.lang as Locale;const t=strings[lang],d=labels(lang);
 const works=publicWorks();
@@ -29,7 +30,7 @@ const structuredData={
   </section>
   <section id="collection" class="section collection-section" aria-labelledby="collection-title">
     <div class="section-head"><h2 id="collection-title">{t.works}</h2><p>{works.length} · {t.collectionCount}</p></div>
-    <form id="collection-search" class="search-form" role="search" hidden data-index={assetPath('search-index.json')} data-base={basePath} data-locale={lang} data-none={t.noResults} data-unavailable={t.searchUnavailable} data-loading={t.searchLoading} data-results={t.results} data-review-labels={JSON.stringify({source:t.sourcePublished,ai:t.aiReviewed,human:t.humanReviewed,translation:t.translationPublished})}>
+    <form id="collection-search" class="search-form" role="search" hidden data-index={assetPath('search-index.json')} data-base={basePath} data-locale={lang} data-none={t.noResults} data-unavailable={t.searchUnavailable} data-loading={t.searchLoading} data-results={t.results} data-search-labels={JSON.stringify(searchLabels[lang])} data-review-labels={JSON.stringify({source:t.sourcePublished,ai:t.aiReviewed,human:t.humanReviewed,translation:t.translationPublished})}>
       <label class="query-label" for="query">{t.search}<input id="query" name="query" type="search" autocomplete="off" placeholder={t.searchHint} /></label>
       <label for="text-language">{t.language}<select name="language" id="text-language"><option value="">{t.allLanguages}</option>{languages.map(code=><option value={code}>{languageNames[code]??code}</option>)}</select></label>
       <label for="author">{t.author}<select name="author" id="author"><option value="">{t.allAuthors}</option>{authors.map(author=><option value={author}>{author}</option>)}</select></label>
@@ -37,7 +38,7 @@ const structuredData={
     </form>
     <noscript><p class="notice">{t.noScriptSearch}</p></noscript>
     <p class="search-status muted" id="search-status" role="status" aria-live="polite"></p>
-    <section id="passage-results" class="search-results" aria-labelledby="results-title" hidden><h3 id="results-title">{t.results}</h3><ol></ol></section>
+    <section id="edition-results" class="search-results" aria-labelledby="edition-results-title" hidden><h3 id="edition-results-title">{searchLabels[lang].editions}</h3><ol></ol></section>
     <div class="grid" id="collection-cards">{works.map(work=>{
       const editions=publishedEditions(work.id);const first=bestEdition(work,lang)!;const category=reviewCategory(first),title=editionTitle(work,first);
       const summary=workSummary(work,lang);
@@ -51,12 +52,13 @@ const structuredData={
         <a class="card-link" href={pagePath(lang,'read',work.id,first.id)}>{t.read} <span aria-hidden="true">→</span></a>
       </article>;
     })}</div>
+    <section id="passage-results" class="search-results" aria-labelledby="results-title" hidden><h3 id="results-title">{t.results}</h3><ol></ol></section>
   </section>
   <section class="section policy-body"><p class="eyebrow">{t.approach}</p><h2>{t.why}</h2><p>{t.whytext}</p><p class="muted">{t.translationPolicy}</p></section>
 </div>
 <script>
-  import {normalizeQuery,searchableText} from '../../../scripts/lib/reader-data.mjs';
-  type SearchRecord={workId:string;editionId:string;title:string;originalTitle:string;titleLanguage:string;author:string;language:string;languageName:string;reviewCategory:string;passages:[string,string][]};
+  import {normalizeQuery} from '../../../scripts/lib/reader-data.mjs';
+  import {createSearchController,type SearchEdition} from '../../../scripts/lib/search.mjs';
   const form=document.querySelector<HTMLFormElement>('#collection-search');
   if(form){
     form.hidden=false;
@@ -67,43 +69,58 @@ const structuredData={
     const status=document.querySelector<HTMLElement>('#search-status')!;
     const results=document.querySelector<HTMLElement>('#passage-results')!;
     const list=results.querySelector('ol')!;
+    const editionResults=document.querySelector<HTMLElement>('#edition-results')!;
+    const editionList=editionResults.querySelector('ol')!;
     const reviewLabels:Record<string,string>=JSON.parse(form.dataset.reviewLabels!);
-    let index:SearchRecord[]|null=null,request=0;
+    const labels:{editions:string;works:string}=JSON.parse(form.dataset.searchLabels!);
+    const controller=createSearchController(async()=>{
+      const response=await fetch(form.dataset.index!);
+      if(!response.ok)throw new Error('Search unavailable');
+      return response.json();
+    });
     const filter=(workIds?:Set<string>)=>cards.forEach(card=>{
       card.hidden=Boolean((author.value&&card.dataset.author!==author.value)||(language.value&&!card.dataset.languages?.split(' ').includes(language.value))||(workIds&&!workIds.has(card.dataset.workId!)));
     });
-    const changeFilter=()=>{request++;query.value='';results.hidden=true;filter();status.textContent=cards.some(card=>!card.hidden)?'':form.dataset.none!;};
-    language.addEventListener('change',changeFilter);author.addEventListener('change',changeFilter);
+    const clearResults=()=>{results.hidden=true;editionResults.hidden=true;list.replaceChildren();editionList.replaceChildren();};
+    const editionLink=(edition:SearchEdition,id?:string)=>{
+      const link=document.createElement('a'),title=document.createElement('span');
+      link.href=form.dataset.base!+form.dataset.locale!+'/read/'+edition.workId+'/'+edition.editionId+'/'+(id?'#'+encodeURIComponent(id):'');
+      link.dataset.searchResult=id?'passage':'edition';link.dataset.editionId=edition.editionId;
+      title.lang=edition.titleLanguage;title.textContent=edition.title;
+      link.append(title,document.createTextNode(' · '+edition.author+' · '+edition.languageName+' · '+(reviewLabels[edition.reviewCategory]??'')+(id?' · '+id.split(':').pop():'')));
+      return link;
+    };
     const initial=new URLSearchParams(location.search).get('author');
     if(initial&&[...author.options].some(option=>option.value===initial)){author.value=initial;filter();}
-    form.addEventListener('submit',async event=>{
-      event.preventDefault();const version=++request;
-      const terms:string[]=normalizeQuery(query.value).split(/\s+/).filter(Boolean);
-      results.hidden=true;list.replaceChildren();
-      if(!terms.length){filter();status.textContent=cards.some(card=>!card.hidden)?'':form.dataset.none!;return;}
+    const runSearch=async()=>{
+      const parameters={query:query.value,locale:form.dataset.locale!,language:language.value,author:author.value};
+      clearResults();filter();
+      if(!normalizeQuery(parameters.query)){controller.cancel();status.textContent=cards.some(card=>!card.hidden)?'':form.dataset.none!;return;}
       status.textContent=form.dataset.loading!;
       try{
-        if(!index){const response=await fetch(form.dataset.index!);if(!response.ok)throw new Error('Search unavailable');index=await response.json();}
-        if(version!==request)return;
-        const found=new Set<string>();let count=0;
-        for(const edition of index!){
-          if(author.value&&edition.author!==author.value||language.value&&edition.language!==language.value)continue;
-          for(const [id,text] of edition.passages){
-            const searchable=searchableText(edition,text);
-            if(!terms.every(term=>searchable.includes(term)))continue;
-            found.add(edition.workId);
-            if(count++>=50)continue;
-            const item=document.createElement('li'),link=document.createElement('a'),excerpt=document.createElement('p');
-            link.href=form.dataset.base!+form.dataset.locale!+'/read/'+edition.workId+'/'+edition.editionId+'/#'+encodeURIComponent(id);
-            const title=document.createElement('span');title.lang=edition.titleLanguage;title.textContent=edition.title;
-            link.append(title,document.createTextNode(' · '+edition.languageName+' · '+(reviewLabels[edition.reviewCategory]??'')+' · '+id.split(':').pop()));
-            excerpt.lang=edition.language;excerpt.textContent=text.length>280?text.slice(0,280)+'…':text;
-            item.append(link,excerpt);list.append(item);
-          }
+        const found=await controller.search(parameters);
+        if(!found)return;
+        const editionsFragment=document.createDocumentFragment(),passagesFragment=document.createDocumentFragment();
+        for(const edition of found.editions){
+          const item=document.createElement('li');item.append(editionLink(edition));editionsFragment.append(item);
         }
-        filter(found);results.hidden=count===0;status.textContent=count?Math.min(count,50)+(count>50?' / '+count:'')+' · '+form.dataset.results:form.dataset.none!;
-      }catch{if(version===request){status.textContent=form.dataset.unavailable!;filter();}}
-    });
+        for(const {edition,id,text} of found.passages){
+          const item=document.createElement('li'),excerpt=document.createElement('p');
+          excerpt.lang=edition.language;excerpt.textContent=text.length>280?text.slice(0,280)+'…':text;
+          item.append(editionLink(edition,id),excerpt);passagesFragment.append(item);
+        }
+        editionList.append(editionsFragment);list.append(passagesFragment);
+        filter(found.workIds);editionResults.hidden=found.editions.length===0;results.hidden=found.passageCount===0;
+        status.textContent=found.workIds.size?[
+          found.workIds.size+' · '+labels.works,
+          ...(found.editions.length?[found.editions.length+' · '+labels.editions]:[]),
+          ...(found.passageCount?[found.passages.length+(found.passageCount>found.passages.length?' / '+found.passageCount:'')+' · '+form.dataset.results]:[]),
+        ].join('; '):form.dataset.none!;
+      }catch{status.textContent=form.dataset.unavailable!;filter();}
+    };
+    language.addEventListener('change',()=>{void runSearch();});author.addEventListener('change',()=>{void runSearch();});
+    query.addEventListener('input',()=>{controller.cancel();clearResults();filter();status.textContent=cards.some(card=>!card.hidden)?'':form.dataset.none!;});
+    form.addEventListener('submit',event=>{event.preventDefault();void runSearch();});
   }
 </script>
 </Base>

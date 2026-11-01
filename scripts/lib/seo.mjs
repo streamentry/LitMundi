@@ -53,12 +53,13 @@ function sourceFiles(kind, edition, source) {
   else if (kind==='about') inputs.push('src/pages/[lang]/about.astro','src/lib/about-content.json');
   else {
     inputs.push(...catalogInputs);
-    if (kind==='home') inputs.push('src/pages/[lang]/index.astro');
+    if (kind==='home') inputs.push('src/pages/[lang]/index.astro','scripts/lib/search.mjs','src/lib/search-ui.json');
     if (kind==='authors') inputs.push('src/pages/[lang]/authors.astro');
     if (kind==='work') inputs.push('src/pages/[lang]/works/[work].astro');
     if (kind==='reader') {
       inputs.push('src/pages/[lang]/read/[work]/[edition].astro','src/components/Passage.astro',
         'src/components/Citation.astro',
+        'src/lib/reader-ui.json','src/scripts/reader-actions.ts',
         'src/scripts/reading-progress.ts',edition.content_path,'corpus/structure/'+edition.work_id+'.json');
       if (source) inputs.push(source.content_path,'corpus/alignments/'+edition.work_id+'/'+edition.id+'.json');
     }
