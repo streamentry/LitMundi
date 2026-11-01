@@ -3,7 +3,7 @@
   "work_id": "machado-um-apologo",
   "edition_id": "machado-apologo-vi-ai-draft-2026",
   "source_edition_id": "machado-apologo-pt-laemmert-1896",
-  "title_vi": "Một ngụ ngôn",
+  "title_vi": "Một truyện ngụ ngôn",
   "updated_at": "2026-11-01",
   "stage": "ai_quality_gate_passed",
   "translation_direction": "pt → vi; direct from 1896 Portuguese facsimile transcription",
@@ -16,6 +16,23 @@
   },
   "ai_disclosure": "AI-produced translation and AI literary assessment by GPT-6 Astra Pro. The assessor also revised the text and had access to earlier AI records. No independent assessor, model consensus, human review, native-reader trial or reader demand is claimed. V2 uses the current assessment for its AI quality gate; this does not itself clear rights.",
   "glossary": [
+    {
+      "source_term": "Um Apólogo (work title)",
+      "draft_rendering": "Một truyện ngụ ngôn",
+      "alternatives": [
+        "Một ngụ ngôn",
+        "Ngụ ngôn"
+      ],
+      "rationale": "Một preserves the Portuguese indefinite article Um; truyện ngụ ngôn naturally names the narrative genre in Vietnamese. Priberam defines apólogo through moral teaching in fable form, which fits the speaking needle, thread and pin and the final social application. The title does not replace the genre with an apology or invent a specific moral.",
+      "passages": [
+        "machado-um-apologo:1.1",
+        "machado-um-apologo:1.21",
+        "machado-um-apologo:1.22"
+      ],
+      "evidence_urls": [
+        "https://dicionario.priberam.org/ap%C3%B3logo"
+      ]
+    },
     {
       "source_term": "agulha / alfinete / linha / novello",
       "draft_rendering": "kim khâu / kim ghim / chỉ / cuộn chỉ",
@@ -248,6 +265,19 @@
       "rationale": "Keep the mock title and expertise in melancholy without adding a literal classroom subject. This accepts the master sense of professor; the teacher/master tradeoff remains disclosed.",
       "status": "adopted",
       "policy_context": "current_v2"
+    },
+    {
+      "id": "machado-um-apologo-titles-2026-11-01",
+      "passages": [
+        "machado-um-apologo:1.1",
+        "machado-um-apologo:1.21",
+        "machado-um-apologo:1.22"
+      ],
+      "proposal": "Một ngụ ngôn existed only in editorial notes; edition metadata had no translated title.",
+      "outcome": "Add edition.title = Một truyện ngụ ngôn and select the new full-coverage title-aware AI review.",
+      "rationale": "Một preserves the Portuguese indefinite article Um; truyện ngụ ngôn naturally names the narrative genre in Vietnamese. Priberam defines apólogo through moral teaching in fable form, which fits the speaking needle, thread and pin and the final social application. The title does not replace the genre with an apology or invent a specific moral.",
+      "status": "adopted",
+      "policy_context": "current_v2"
     }
   ],
   "preflight_record": "corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-preflight-2026-11-01.json",
@@ -258,12 +288,14 @@
     "required_human_reviewers": 0,
     "entry_conditions": [
       "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
-      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments."
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
     ],
     "exit_conditions": [
       "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
       "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
-      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license."
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
     ],
     "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
   },
@@ -314,7 +346,7 @@
       "Maintainer authenticates qualifications, independence, review evidence, named editorial contribution and affirmative open-license permission."
     ]
   },
-  "ai_review_record": "corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-2026-11-01.json",
+  "ai_review_record": "corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json",
   "preflight_record_status": "Historical v1 record, preserved with its original hashes; not the current v2 decision.",
   "current_quality_assessment": {
     "rubric_id": "litmundi-literary-v2",
@@ -357,6 +389,27 @@
         }
       ],
       "historical_records": "Earlier v1 preflights and the separate adversarial record retain their original bytes and hashes."
+    }
+  ],
+  "title_review": {
+    "source_title": "Um Apólogo",
+    "target_title": "Một truyện ngụ ngôn",
+    "rationale": "Một preserves the Portuguese indefinite article Um; truyện ngụ ngôn naturally names the narrative genre in Vietnamese. Priberam defines apólogo through moral teaching in fable form, which fits the speaking needle, thread and pin and the final social application. The title does not replace the genre with an apology or invent a specific moral."
+  },
+  "title_revision_history": [
+    {
+      "date": "2026-11-01",
+      "scope": "Edition-title metadata and fresh complete title-aware AI review",
+      "previous_edition_title": null,
+      "previous_dossier_title": "Một ngụ ngôn",
+      "source_title": "Um Apólogo",
+      "target_title": "Một truyện ngụ ngôn",
+      "body_changed": false,
+      "source_sha256": "17b46a94ca47b08eb7c32af2f91c6d449d8e8dae07883e2b27f118e4ed58f5f6",
+      "target_sha256": "c95028622ab56661daf9c9f845816008ad051c3aadd7523078025aabd3fa9de3",
+      "previous_review_record": "corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-2026-11-01.json",
+      "current_review_record": "corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json",
+      "rationale": "Một preserves the Portuguese indefinite article Um; truyện ngụ ngôn naturally names the narrative genre in Vietnamese. Priberam defines apólogo through moral teaching in fable form, which fits the speaking needle, thread and pin and the final social application. The title does not replace the genre with an apology or invent a specific moral."
     }
   ]
 }

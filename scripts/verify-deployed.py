@@ -31,6 +31,33 @@ def attributes(markup):
     return {key: html.unescape(value) for key, value in re.findall(r'([\w:-]+)="([^"]*)"', markup)}
 
 
+def edition_title(work, edition):
+    return edition["title"] if edition and edition.get("title") is not None else work["title"]
+
+
+def elements(markup, tag):
+    return [(raw, attributes(raw), html.unescape(re.sub(r"<[^>]*>", "", body))) for raw, body in re.findall(r"<" + tag + r"\b([^>]*)>([\s\S]*?)</" + tag + r">", markup)]
+
+
+def title_problems(markup, work, edition, tag="h1", page_title=None):
+    problems = []
+    title = edition_title(work, edition)
+    language = edition["language"] if edition.get("title") else work["original_language"]
+    headings = [(attrs, text) for _, attrs, text in elements(markup, tag) if attrs.get("data-edition-title") == edition["id"]]
+    if len(headings) != 1 or headings[0][1] != title or headings[0][0].get("lang") != language:
+        problems.append("Incorrect edition title or title language: " + edition["id"])
+    originals = [(attrs, text) for raw, attrs, text in elements(markup, "span") if "data-original-title" in raw]
+    show_original = edition["kind"] == "translation" and title != work["title"]
+    if len(originals) != (1 if show_original else 0) or (show_original and (originals[0][1] != work["title"] or originals[0][0].get("lang") != work["original_language"])):
+        problems.append("Incorrect original-title subtitle: " + edition["id"])
+    if page_title is not None:
+        titles = [text for _, _, text in elements(markup, "title")]
+        og_titles = [attrs.get("content") for raw in re.findall(r"<meta\b([^>]*)>", markup) if (attrs := attributes(raw)).get("property") == "og:title"]
+        if titles != [page_title + " · LitMundi"] or og_titles != titles:
+            problems.append("Browser/Open Graph title does not use the selected edition title")
+    return problems
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--base", default="https://streamentry.github.io/LitMundi/")
@@ -44,6 +71,7 @@ def main():
     works = read("corpus/catalog/works.json")
     editions = read("corpus/catalog/editions.json")
     languages = list(read("src/lib/locales.json"))
+    language_names = read("corpus/catalog/languages.json")
     works_by_id = {work["id"]: work for work in works}
     published = [edition for edition in editions if edition["status"] == "published" and edition["content_path"] and works_by_id[edition["work_id"]]["visibility"] == "public"]
     published_by_id = {edition["id"]: edition for edition in published}
@@ -52,10 +80,19 @@ def main():
     excluded = [edition for edition in editions if edition not in published and edition not in samples]
     texts = {edition["id"]: read(edition["content_path"]) for edition in published}
     structures = {work_id: read("corpus/structure/" + work_id + ".json")["segment_ids"] for work_id in public_work_ids}
+
+    def preferred_edition(work_id, locale):
+        available = [edition for edition in published if edition["work_id"] == work_id]
+        return next((edition for edition in available if edition["language"] == locale), None) or next((edition for edition in available if edition["kind"] == "source" and edition["language"] == works_by_id[work_id]["original_language"]), None) or available[0]
+
     jobs, canonical_routes = {}, set()
     for lang in languages:
-        for route in [lang + "/", lang + "/quality/", *[lang + "/works/" + work_id + "/" for work_id in sorted(public_work_ids)]]:
+        for route in [lang + "/", lang + "/quality/"]:
             jobs[route] = (200, "page", None)
+            canonical_routes.add(urljoin(canonical_base, route))
+        for work_id in sorted(public_work_ids):
+            route = lang + "/works/" + work_id + "/"
+            jobs[route] = (200, "work", preferred_edition(work_id, lang))
             canonical_routes.add(urljoin(canonical_base, route))
         for edition in published:
             route = lang + "/read/" + edition["work_id"] + "/" + edition["id"] + "/"
@@ -98,7 +135,7 @@ def main():
                 else:
                     text = data.decode("utf-8")
                     decoded = html.unescape(text)
-                    if kind in ("page", "reader"):
+                    if kind in ("page", "work", "reader"):
                         links = [attributes(tag) for tag in re.findall(r"<link\b([^>]*)>", text)]
                         canonicals = [link.get("href") for link in links if link.get("rel") == "canonical"]
                         if canonicals != [urljoin(canonical_base, route)]:
@@ -108,6 +145,27 @@ def main():
                             problems.append("Language alternatives or skip navigation missing")
                         if "reader-feedback.yml" not in text:
                             problems.append("Reader feedback template missing")
+                    if kind == "page" and route in [language + "/" for language in languages]:
+                        locale = route.split("/")[0]
+                        cards = {attributes(raw).get("data-work-id"): body for raw, body in re.findall(r"<article\b([^>]*)>([\s\S]*?)</article>", text) if "data-work-id" in raw}
+                        if set(cards) != public_work_ids:
+                            problems.append("Catalog must contain one card per public work")
+                        for work_id in public_work_ids:
+                            problems.extend(title_problems(cards.get(work_id, ""), works_by_id[work_id], preferred_edition(work_id, locale), tag="h3"))
+                    if kind in ("reader", "work"):
+                        work = works_by_id[edition["work_id"]]
+                        title = edition_title(work, edition)
+                        page_title = title + " — " + language_names.get(edition["language"], edition["language"]) if kind == "reader" else title
+                        problems.extend(title_problems(text, work, edition, page_title=page_title))
+                    if kind == "work":
+                        listed = [(attrs, heading) for _, attrs, heading in elements(text, "h3") if "data-edition-title" in attrs]
+                        expected_editions = [item for item in published if item["work_id"] == edition["work_id"]]
+                        if sorted(attrs["data-edition-title"] for attrs, _ in listed) != sorted(item["id"] for item in expected_editions):
+                            problems.append("Edition title list must contain exactly published editions")
+                        for attrs, heading in listed:
+                            target = published_by_id.get(attrs["data-edition-title"])
+                            if not target or heading != edition_title(work, target):
+                                problems.append("Incorrect title in edition list")
                     if kind == "reader":
                         segments = {}
                         for outer, inner, passage in re.findall(r'<div\b([^>]*\bclass="segment"[^>]*)>\s*<p\b([^>]*)>([\s\S]*?)</p>', text):
@@ -145,6 +203,14 @@ def main():
                         metadata = json.loads(metadata_match.group(1)) if metadata_match else {}
                         if metadata.get("identifier") != edition["id"] or metadata.get("inLanguage") != edition["language"]:
                             problems.append("Incorrect structured edition identity")
+                        if metadata.get("name") != title or metadata.get("alternateName") != (work["title"] if edition["kind"] == "translation" and title != work["title"] else None):
+                            problems.append("Structured metadata has incorrect edition/original titles")
+                        for _, attrs, heading in elements(text, "span"):
+                            if "data-navigation-title" not in attrs:
+                                continue
+                            target = published_by_id.get(attrs["data-navigation-title"])
+                            if not target or heading != edition_title(works_by_id[target["work_id"]], target):
+                                problems.append("Incorrect selected edition title in work navigation")
                         if category == "ai" and (metadata.get("creativeWorkStatus") != "AI-reviewed publication" or "translator" in metadata or "aggregateRating" in metadata):
                             problems.append("AI structured metadata implies an incorrect review or person/rating claim")
                         correction_bodies = [parse_qs(urlparse(link).query).get("body", [""])[0] for link in re.findall(r'href="(https://github\.com/streamentry/LitMundi/issues/new\?[^"]+)"', decoded)]
@@ -167,6 +233,9 @@ def main():
                             expected_passages = [[identifier, texts[target["id"]][identifier]] for identifier in structures[target["work_id"]]]
                             if record["passages"] != expected_passages or record.get("reviewCategory") != review_category(target) or record.get("language") != target["language"]:
                                 problems.append("Search differs from canonical text/review metadata: " + target["id"])
+                            work = works_by_id[target["work_id"]]
+                            if record.get("title") != edition_title(work, target) or record.get("originalTitle") != work["title"] or record.get("titleLanguage") != (target["language"] if target.get("title") else work["original_language"]):
+                                problems.append("Search must preserve both edition and original titles: " + target["id"])
                     if kind == "sitemap":
                         entries = [node.text for node in ET.fromstring(text).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
                         if set(entries) != canonical_routes or len(entries) != len(canonical_routes):

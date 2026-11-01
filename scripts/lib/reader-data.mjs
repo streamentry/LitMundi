@@ -3,6 +3,11 @@ export function isPublicEdition(edition, work) {
   return Boolean(work?.visibility === 'public' && edition?.status === 'published' && edition.content_path);
 }
 
+/** The title belongs to its edition; legacy records retain the original title. */
+export function editionTitle(work, edition) {
+  return edition?.title ?? work.title;
+}
+
 /**
  * Describe the recorded publication policy, never infer human approval from an
  * AI score, AI assistance flag or the mere presence of reviewer names.
@@ -24,6 +29,11 @@ export function preferredEdition(editions, locale, originalLanguage) {
 
 export function normalizeQuery(value) {
   return value.normalize('NFD').replace(/\p{M}/gu, '').replace(/[đĐ]/g, 'd').toLocaleLowerCase().trim();
+}
+
+/** Both titles remain discoverable without changing the displayed edition title. */
+export function searchableText(record, passage='') {
+  return normalizeQuery([record.title,record.originalTitle,record.author,passage].filter(Boolean).join(' '));
 }
 
 /** JSON-LD is raw script content: HTML must never see a closing tag in data. */

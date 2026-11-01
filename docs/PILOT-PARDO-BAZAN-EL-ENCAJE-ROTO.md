@@ -2,6 +2,14 @@
 
 Status, 2026-11-01: **complete historical Spanish source edition available; the revised Vietnamese draft scores 8.55/10 under v2, below the 8.6 publication threshold**. It remains a draft because of that score, not because a human review is required. No human endorsement is claimed.
 
+## Reviewed Vietnamese title
+
+**Dải ren rách** translates the source title *El encaje roto*.
+
+[RAE’s *encaje* entry](https://dle.rae.es/encaje) identifies the lace material. In passages `1.10–1.11`, the ornament is a wide lace flounce on the wedding dress, which catches and tears; this context supports *dải ren* and *rách*. The title keeps the physical object and its symbolic resonance without explaining the bride’s decision. *Mảnh ren* would foreground a fragment, while a generic ribbon would lose the material. The same Vietnamese wording already appeared in the dossier; the correction adds it to the actual edition metadata and reviews it explicitly.
+
+The [fresh title-aware v2 review](../corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json) reread all **15 source/target passages** and explicitly records the exact source and target edition titles with its rationale. No body text or category score changed; the weighted result remains **8.55**. The same AI system performed this assessment with previous scores visible, so it is not a blind, independent or human review. The [earlier v2 body assessment](../corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-2026-11-01.json) and all older preflights remain unchanged as history. The title correction alone cannot promote a below-threshold draft.
+
 ## Why this work and what is not established
 
 This small pilot adds direct Spanish-to-Vietnamese work and a woman author's account of a bride's refusal. Its central demands are concrete: distinguish imagined spectacle from eyewitness testimony, preserve social irony, keep the narrator's long accumulating sentences, and avoid softening or diagnosing the fiancé's displayed hostility.
@@ -33,7 +41,7 @@ Only the historical literary text is reproduced. The source's public-domain stat
 
 ## Literary revision and remaining questions
 
-The [editorial dossier](../corpus/editorial/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026.json) preserves a ten-entry glossary, alternatives, rejected proposals and source/target hashes. It records corrections from separate AI-assisted readings:
+The [editorial dossier](../corpus/editorial/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026.json) preserves an eleven-entry glossary including the reviewed title, alternatives, rejected proposals and source/target hashes. It records corrections from separate AI-assisted readings:
 
 - The unmarked phrase *tiếng không rõ ràng* could invert the meaning by reading as “an unclear sound.” Spoken **“không”** and **“có”** are now quoted, reflecting the source's typographic emphasis.
 - *Violento* was initially softened to *nóng nảy*. It is now *tính khí hung bạo*, without inventing a witnessed physical assault or using a clinical label.
@@ -70,7 +78,7 @@ One bounded revision pass changed seven Vietnamese passages. The Spanish source,
 | Grammar and editorial mechanics | 9.0 |
 | **Weighted score** | **8.55** |
 
-The [new v2 AI review](../corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-2026-11-01.json) covers all 15 original and target paragraphs against their final hashes. The clearer ceremony, crowd's exclamation, textile/theatrical imagery and spoken refusal improve the voice category from the earlier 8.0 to 8.5. They do not settle the historical jewelry precision, the explanatory *Jesús* idiom or the entire long-period cadence. No unresolved major or critical finding was identified, but the remaining issues do not warrant raising another category simply to cross 8.6.
+The [new v2 AI review](../corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json) covers all 15 original and target paragraphs against their final hashes. The clearer ceremony, crowd's exclamation, textile/theatrical imagery and spoken refusal improve the voice category from the earlier 8.0 to 8.5. They do not settle the historical jewelry precision, the explanatory *Jesús* idiom or the entire long-period cadence. No unresolved major or critical finding was identified, but the remaining issues do not warrant raising another category simply to cross 8.6.
 
 The [historical v1 preflight](../corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-preflight-2026-11-01.json) remains untouched at an exact **8.425**, displayed as **8.43**, with its earlier target hash. The prior adversarial record likewise remains history. The current editorial dossier records every adopted wording change and both revision hashes.
 

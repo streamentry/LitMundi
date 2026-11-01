@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 import {pathToFileURL} from 'node:url';
 import {join} from 'node:path';
 import {gzipSync} from 'node:zlib';
-import {alignedPassages,isPublicEdition,normalizeQuery,reviewCategory} from '../../scripts/lib/reader-data.mjs';
+import {alignedPassages,isPublicEdition,normalizeQuery,reviewCategory,editionTitle,preferredEdition,searchableText} from '../../scripts/lib/reader-data.mjs';
 const modules=process.env.LITMUNDI_BROWSER_TOOLS??'/tmp/litmundi-browsercheck/node_modules';
 const {chromium}=await import(pathToFileURL(join(modules,'playwright/index.mjs')));
 const {default:AxeBuilder}=await import(pathToFileURL(join(modules,'@axe-core/playwright/dist/index.mjs')));
@@ -15,12 +15,14 @@ const fixture=process.env.LITMUNDI_PARALLEL_FIXTURE_URL;
 const ignoreHTTPSErrors=process.env.LITMUNDI_BROWSER_IGNORE_HTTPS_ERRORS==='1';
 const read=path=>JSON.parse(readFileSync(path,'utf8'));
 const localeNames=read('src/lib/locales.json'),locales=Object.keys(localeNames);
+const languageNames=read('corpus/catalog/languages.json');
 const works=read('corpus/catalog/works.json'),editions=read('corpus/catalog/editions.json');
 const published=editions.filter(edition=>isPublicEdition(edition,works.find(work=>work.id===edition.work_id)));
 const publicWorks=works.filter(work=>published.some(edition=>edition.work_id===work.id));
 const translations=published.filter(edition=>edition.kind==='translation');
 const passagesFor=edition=>{const text=read(edition.content_path);return read('corpus/structure/'+edition.work_id+'.json').segment_ids.map(id=>[id,text[id]]);};
 const readerRoute=edition=>'read/'+edition.work_id+'/'+edition.id+'/';
+const preferredFor=(work,locale)=>preferredEdition(published.filter(edition=>edition.work_id===work.id),locale,work.original_language);
 const primaryLocale=locales[0],otherLocale=locales.find(locale=>locale!==primaryLocale)??primaryLocale;
 const primary=published.find(edition=>edition.kind==='source'&&passagesFor(edition).length>1)??published[0];
 assert.ok(primary,'Browser acceptance needs at least one published edition');
@@ -28,8 +30,15 @@ const primaryPassages=passagesFor(primary),fragment=primaryPassages[Math.min(2,p
 const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
 const context=await browser.newContext({viewport:{width:1440,height:1000},ignoreHTTPSErrors}),page=await context.newPage();
 const exceptions=[];page.on('pageerror',error=>exceptions.push(error.message));
-const report={status:'running',checked_at_utc:new Date().toISOString(),base_url:base,scope:'Browser acceptance against the supplied base URL; no human literary review or reader-demand claim.',versions:{node:process.version,playwright:read(join(modules,'playwright/package.json')).version,axePlaywright:read(join(modules,'@axe-core/playwright/package.json')).version,chromium:browser.version()},interface_locales:locales,public_works:publicWorks.map(work=>work.id),accessibility:[],mobile:[],interactions:[],search_cases:[],parallel_editions:[],parallel_fixture:null,content_hashes:published.map(edition=>({edition_id:edition.id,review_category:reviewCategory(edition),sha256:createHash('sha256').update(readFileSync(edition.content_path)).digest('hex')})),browser_exceptions:exceptions,browser_https_errors_ignored:ignoreHTTPSErrors};
+const report={status:'running',checked_at_utc:new Date().toISOString(),base_url:base,scope:'Browser acceptance against the supplied base URL; no human literary review or reader-demand claim.',versions:{node:process.version,playwright:read(join(modules,'playwright/package.json')).version,axePlaywright:read(join(modules,'@axe-core/playwright/package.json')).version,chromium:browser.version()},interface_locales:locales,public_works:publicWorks.map(work=>work.id),accessibility:[],mobile:[],interactions:[],search_cases:[],excluded_title_cases:[],parallel_editions:[],parallel_fixture:null,content_hashes:published.map(edition=>({edition_id:edition.id,title:editionTitle(works.find(work=>work.id===edition.work_id),edition),review_category:reviewCategory(edition),sha256:createHash('sha256').update(readFileSync(edition.content_path)).digest('hex')})),browser_exceptions:exceptions,browser_https_errors_ignored:ignoreHTTPSErrors};
 const overflow=()=>page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+async function checkTitle(root,work,edition,tag='h1'){
+  const title=editionTitle(work,edition),heading=root.locator(tag+'[data-edition-title="'+edition.id+'"]');
+  assert.equal(await heading.textContent(),title);assert.equal(await heading.getAttribute('lang'),edition.title?edition.language:work.original_language);
+  const original=root.locator('[data-original-title]'),showOriginal=edition.kind==='translation'&&title!==work.title;
+  assert.equal(await original.count(),showOriginal?1:0);
+  if(showOriginal){assert.equal(await original.textContent(),work.title);assert.equal(await original.getAttribute('lang'),work.original_language);}
+}
 try{
   const routes=['','quality/',...publicWorks.map(work=>'works/'+work.id+'/'),...published.map(readerRoute)];
   for(const locale of locales)for(const route of routes){
@@ -39,25 +48,52 @@ try{
     assert.equal(result.violations.length,0,'Automated accessibility violation: '+locale+'/'+route);
     const edition=published.find(item=>readerRoute(item)===route);
     if(edition){
+      const work=works.find(item=>item.id===edition.work_id),title=editionTitle(work,edition);
+      await checkTitle(page.locator('.reader-head'),work,edition);
+      assert.equal(await page.title(),title+' — '+(languageNames[edition.language]??edition.language)+' · LitMundi');
+      const metadata=JSON.parse(await page.locator('script[type="application/ld+json"]').textContent());assert.equal(metadata.name,title);
       assert.equal(await page.locator('.notice[data-review-category]').getAttribute('data-review-category'),reviewCategory(edition));
       if(reviewCategory(edition)==='ai'&&typeof edition.review.score==='number')assert.equal(Number(await page.locator('[data-ai-score]').getAttribute('data-ai-score')),edition.review.score);
+      for(const navigation of await page.locator('[data-navigation-title]').evaluateAll(nodes=>nodes.map(node=>({editionId:node.dataset.navigationTitle,title:node.textContent,language:node.lang})))){
+        const target=published.find(item=>item.id===navigation.editionId);assert.ok(target);const targetWork=works.find(item=>item.id===target.work_id);
+        assert.equal(navigation.title,editionTitle(targetWork,target));assert.equal(navigation.language,target.title?target.language:targetWork.original_language);
+      }
+    }
+    const work=publicWorks.find(item=>'works/'+item.id+'/'===route);
+    if(work){
+      const preferred=preferredFor(work,locale);await checkTitle(page.locator('.reader-head'),work,preferred);assert.equal(await page.title(),editionTitle(work,preferred)+' · LitMundi');
+      for(const item of published.filter(item=>item.work_id===work.id))assert.equal(await page.locator('h3[data-edition-title="'+item.id+'"]').textContent(),editionTitle(work,item));
+    }
+    if(route===''){
+      for(const work of publicWorks)await checkTitle(page.locator('[data-work-id="'+work.id+'"]'),work,preferredFor(work,locale),'h3');
     }
   }
   await page.goto(base+primaryLocale+'/');await page.keyboard.press('Tab');assert.equal(await page.locator(':focus').getAttribute('href'),'#main');report.interactions.push('Keyboard first-tab skip link targets main content.');
   assert.equal(await page.locator('#collection-cards article').count(),publicWorks.length);
   for(const edition of published){
     const work=works.find(item=>item.id===edition.work_id);
-    const query=(passagesFor(edition)[0][1].match(/[\p{L}\p{N}]+/gu)??[]).slice(0,6).join(' ');
-    assert.ok(normalizeQuery(query).length>0,'Missing searchable passage: '+edition.id);
-    await page.selectOption('#text-language',edition.language);await page.selectOption('#author',work.author);
-    await page.locator('#query').fill(query);await page.locator('#collection-search button[type="submit"]').click();
-    await page.waitForFunction(()=>!document.querySelector('#passage-results').hidden);
-    const hrefs=await page.locator('#passage-results a').evaluateAll(links=>links.map(link=>link.getAttribute('href')));
-    assert.ok(hrefs.some(href=>href.includes('/'+readerRoute(edition)+'#')),'Full-text result missing: '+edition.id);
-    assert.ok(hrefs.every(href=>published.some(item=>item.language===edition.language&&works.find(work=>work.id===item.work_id).author===work.author&&href.includes('/'+readerRoute(item)+'#'))),'Search leaked an edition outside the language/author/public filters');
-    report.search_cases.push({edition_id:edition.id,language:edition.language,query,result_links:hrefs.length,review_category:reviewCategory(edition)});
+    const title=editionTitle(work,edition),queries=[{kind:'passage',query:(passagesFor(edition)[0][1].match(/[\p{L}\p{N}]+/gu)??[]).slice(0,6).join(' ')},{kind:'edition-title-without-diacritics',query:normalizeQuery(title)},...(title!==work.title?[{kind:'original-title-without-diacritics',query:normalizeQuery(work.title)}]:[])];
+    for(const {kind,query} of queries){
+      assert.ok(normalizeQuery(query).length>0,'Missing searchable text: '+edition.id);
+      await page.selectOption('#text-language',edition.language);await page.selectOption('#author',work.author);
+      await page.locator('#query').fill(query);await page.locator('#collection-search button[type="submit"]').click();
+      await page.waitForFunction(()=>!document.querySelector('#passage-results').hidden);
+      const links=await page.locator('#passage-results a').evaluateAll(links=>links.map(link=>({href:link.getAttribute('href'),title:link.querySelector('span')?.textContent,language:link.querySelector('span')?.lang})));
+      const matching=links.filter(link=>link.href.includes('/'+readerRoute(edition)+'#'));assert.ok(matching.length>0,'Search result missing: '+edition.id+' / '+query);
+      for(const link of matching){assert.equal(link.title,title,'Search must display the edition title');assert.equal(link.language,edition.title?edition.language:work.original_language);}
+      assert.ok(links.every(link=>published.some(item=>item.language===edition.language&&works.find(work=>work.id===item.work_id).author===work.author&&link.href.includes('/'+readerRoute(item)+'#'))),'Search leaked an edition outside the language/author/public filters');
+      report.search_cases.push({edition_id:edition.id,language:edition.language,kind,query,displayed_title:title,result_links:links.length,review_category:reviewCategory(edition)});
+    }
   }
-  report.interactions.push('Full-text search reaches every published edition, including available AI-reviewed translations, with language and author filters.');
+  report.interactions.push('Full-text and accentless edition/original-title searches reach every published edition and display its own title, with language and author filters.');
+  await page.selectOption('#text-language','');await page.selectOption('#author','');
+  for(const edition of editions.filter(item=>item.title&&!published.includes(item))){
+    const query=normalizeQuery(edition.title),terms=query.split(/\s+/).filter(Boolean);
+    const overlapsPublished=published.some(item=>{const work=works.find(work=>work.id===item.work_id);return passagesFor(item).some(([,passage])=>terms.every(term=>searchableText({title:editionTitle(work,item),originalTitle:work.title,author:work.author},passage).includes(term)));});
+    if(overlapsPublished)continue;
+    await page.locator('#query').fill(query);await page.locator('#collection-search button[type="submit"]').click();await page.waitForFunction(()=>document.querySelector('#search-status').textContent===document.querySelector('#collection-search').dataset.none);
+    assert.equal(await page.locator('#collection-cards article:visible').count(),0);report.excluded_title_cases.push({edition_id:edition.id,query,results:0});
+  }
   await page.selectOption('#text-language','');await page.selectOption('#author','');await page.locator('#query').fill('unfindable-random-785632');await page.locator('#collection-search button[type="submit"]').click();
   await page.waitForFunction(()=>document.querySelector('#search-status').textContent===document.querySelector('#collection-search').dataset.none);
   assert.equal(await page.locator('#collection-cards article:visible').count(),0);report.interactions.push('An absent query shows the explicit empty state.');

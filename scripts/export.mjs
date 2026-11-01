@@ -3,6 +3,7 @@ import path from 'node:path';
 import {zipSync} from 'fflate';
 import {loadCorpus,portableFiles,sha256,json,zipOptions} from './lib/portable.mjs';
 import {reviewPackets} from './lib/review-packets.mjs';
+import {editionTitle} from './lib/reader-data.mjs';
 
 const out=path.resolve('dist-archive');
 await fs.rm(out,{recursive:true,force:true});
@@ -51,7 +52,7 @@ files['rights-manifest.json']=Buffer.from(json({
   scope:'Editorial snapshot; possession of a draft does not grant publication or reuse permission.',
   code_and_documentation:'MIT; corpus content is governed separately by the following edition records.',
   editions:corpus.editions.map(e=>({
-    edition_id:e.id,work_id:e.work_id,status:e.status,language:e.language,kind:e.kind,
+    edition_id:e.id,work_id:e.work_id,title:editionTitle(corpus.works.find(w=>w.id===e.work_id),e),original_title:corpus.works.find(w=>w.id===e.work_id).title,status:e.status,language:e.language,kind:e.kind,
     content_path:e.content_path,source_edition_id:e.source_edition_id,
     rights:e.rights,credits:e.credits,provenance:e.provenance,review:e.review,
     publication_policy:e.publication_policy??null,generation:e.generation??null,

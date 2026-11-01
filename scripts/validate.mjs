@@ -64,6 +64,7 @@ for(const e of editions) {
   editionIds.add(e.id); editionById.set(e.id,e);
   check(workIds.has(e.work_id),'Orphan edition '+e.id);
   check(Object.hasOwn(languages,e.language),'Unknown edition language '+e.id);
+  if(e.title!==undefined)check(typeof e.title==='string'&&e.title.trim().length>0&&e.title===e.title.trim()&&e.title===e.title.normalize('NFC'),'Edition title must be nonempty, trimmed NFC text '+e.id);
   for(const url of [...e.rights.evidence_urls,...e.review.evidence_urls,e.provenance.catalog_url,e.provenance.text_url].filter(v=>v!==null))
     check(webUrl(url),'Invalid or unsafe evidence URL in '+e.id);
   for(const slug of [e.id,...e.legacy_slugs]){
@@ -193,7 +194,7 @@ for(const file of reviewFiles('corpus/reviews')) {
     fail('Review has missing edition content or source '+file); continue;
   }
   const assessment=assessReview(review,{
-    rubric:reviewRubric,edition,sourceSha:sha(source.content_path),targetSha:sha(edition.content_path),sourceLanguage:source.language,
+    rubric:reviewRubric,edition,sourceSha:sha(source.content_path),targetSha:sha(edition.content_path),sourceLanguage:source.language,sourceTitle:source.title,
     segmentIds:known
   });
   if(assessment.errors.length) assessment.errors.forEach(error=>fail(file+': '+error));

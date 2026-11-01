@@ -1,0 +1,6 @@
+---
+import {strings,type Locale} from '../lib/i18n';
+interface Props {title:string;language:string;locale:Locale}
+const {title,language,locale}=Astro.props;
+---
+<p class="original-title"><span class="title-label">{strings[locale].originalTitle}: </span><span lang={language} data-original-title>{title}</span></p>

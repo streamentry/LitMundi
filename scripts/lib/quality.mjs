@@ -7,6 +7,10 @@ const digest = v => typeof v === 'string' && /^[a-f0-9]{64}$/.test(v);
 const handle = v => typeof v === 'string' && /^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$/.test(v);
 const reviewEvidence = v => typeof v === 'string' && /^https:\/\/github\.com\/streamentry\/LitMundi\/pull\/\d+#pullrequestreview-\d+$/.test(v);
 const prEvidence = v => typeof v === 'string' && /^https:\/\/github\.com\/streamentry\/LitMundi\/pull\/\d+(?:#[A-Za-z0-9-]+)?$/.test(v);
+const validTitle = value => typeof value === 'string' && value.trim().length > 0 && value === value.trim() && value === value.normalize('NFC');
+const seriousCurrentFinding = (record, result) => record.findings?.some(f =>
+  f.status === 'open' && ['major','critical'].includes(f.severity) &&
+  (f.segment === '@title' ? result.title_current : result.content_current));
 
 export function rawWeightedScore(scores, rubric) {
   if (!scores || !rubric?.criteria) return null;
@@ -47,11 +51,11 @@ export function checkRubric(rubric) {
  * errors are malformed evidence; blockers are honest negative/stale assessments.
  * Negative findings must remain recordable without breaking draft CI.
  */
-export function assessReview(record, {rubric,edition,sourceSha,targetSha,segmentIds,sourceLanguage}) {
+export function assessReview(record, {rubric,edition,sourceSha,targetSha,segmentIds,sourceLanguage,sourceTitle}) {
   const errors=[],blockers=[];
   const score=weightedScore(record?.scores,rubric);
   const rawScore=rawWeightedScore(record?.scores,rubric);
-  if (!record || !edition) return {score,errors:['Review or edition missing.'],blockers,qualifies:false,current:false,advisory_only:true};
+  if (!record || !edition) return {score,errors:['Review or edition missing.'],blockers,qualifies:false,current:false,content_current:false,title_current:false,advisory_only:true};
   if (!['ai_preflight','ai_review','independent_human'].includes(record.kind)) errors.push('Unrecognized reviewer kind.');
   if (record.rubric_id!==rubric.id) errors.push('Review references wrong rubric.');
   if (record.edition_id!==edition.id || record.source_edition_id!==edition.source_edition_id) errors.push('Review references wrong edition or source.');
@@ -60,7 +64,7 @@ export function assessReview(record, {rubric,edition,sourceSha,targetSha,segment
       new Set(record.segments_reviewed).size!==segmentIds.length || !segmentIds.every(id=>record.segments_reviewed.includes(id))) errors.push('Review must cover every canonical segment exactly once.');
   if (!Array.isArray(record.findings)) errors.push('Findings must be a list.');
   else for (const f of record.findings) {
-    if (!segmentIds.includes(f.segment)) errors.push('Issue refers to absent segment.');
+    if (!segmentIds.includes(f.segment) && !(f.segment === '@title' && record.title_review)) errors.push('Issue refers to absent segment or unreviewed title.');
     if (!rubric.criteria.some(c=>c.id===f.category)) errors.push('Issue category is not in rubric.');
     if (!['minor','major','critical'].includes(f.severity)) errors.push('Unknown issue severity.');
     if (!['open','resolved'].includes(f.status)) errors.push('Unknown issue disposition.');
@@ -69,8 +73,14 @@ export function assessReview(record, {rubric,edition,sourceSha,targetSha,segment
   }
   if (typeof record.summary!=='string'||record.summary.trim().length<80) errors.push('Review needs detailed rationale.');
   for (const key of ['source_sha256','target_sha256']) if (record[key]!==null && !digest(record[key])) errors.push('Invalid '+key+'.');
-  const current=digest(record.source_sha256)&&digest(record.target_sha256)&&record.source_sha256===sourceSha&&record.target_sha256===targetSha;
-  if (!current) blockers.push('Source or translation differs from review, or historical record has no content hashes.');
+  const content_current=digest(record.source_sha256)&&digest(record.target_sha256)&&record.source_sha256===sourceSha&&record.target_sha256===targetSha;
+  if (!content_current) blockers.push('Source or translation differs from review, or historical record has no content hashes.');
+  // Titles live in edition metadata, outside the passage JSON. Bind both literal
+  // titles separately so an unchanged body hash cannot approve a changed title.
+  const titleReview=record.title_review;
+  if(titleReview!==undefined && (!validTitle(titleReview?.source_title)||!validTitle(titleReview?.target_title)||typeof titleReview?.rationale!=='string'||titleReview.rationale.trim().length<20))errors.push('Title assessment requires original and translated titles with a rationale.');
+  const title_current=Boolean(titleReview&&validTitle(sourceTitle)&&validTitle(edition.title)&&titleReview.source_title===sourceTitle&&titleReview.target_title===edition.title);
+  const current=content_current&&(record.kind!=='ai_review'||title_current);
   const aiPolicy=rubric.id===ACTIVE_RUBRIC_ID;
   const advisory_only=aiPolicy?record.kind!=='ai_review':record.kind!=='independent_human';
   if (record.kind==='ai_review') {
@@ -79,6 +89,7 @@ export function assessReview(record, {rubric,edition,sourceSha,targetSha,segment
     if(typeof record.reviewer?.identifier!=='string'||!record.reviewer.identifier.trim())errors.push('AI assessment identifier is missing.');
     for(const key of ['model','method','limitations'])if(typeof record.ai_assessment?.[key]!=='string'||record.ai_assessment[key].trim().length<(key==='model'?1:20))errors.push('AI assessment must disclose '+key+'.');
     if(!digest(record.source_sha256)||!digest(record.target_sha256))errors.push('AI publication assessments require exact source and target SHA-256 hashes.');
+    if(!title_current)blockers.push('AI assessment must cover the exact current original and translated titles; body-only or changed-title evidence is insufficient.');
     if(rawScore!==null&&rawScore<rubric.release_gate.min_score_each_reviewer)blockers.push('AI weighted score is below '+rubric.release_gate.min_score_each_reviewer+'/10.');
   }
   if (record.kind==='independent_human') {
@@ -97,7 +108,7 @@ export function assessReview(record, {rubric,edition,sourceSha,targetSha,segment
       if (typeof record.scores?.[c.id]==='number' && record.scores[c.id]<min) blockers.push('Category '+c.id+' below minimum '+min+'.');
     }
   }
-  return {score,raw_score:rawScore,errors,blockers,current,qualifies:!advisory_only&&errors.length===0&&blockers.length===0,advisory_only};
+  return {score,raw_score:rawScore,errors,blockers,current,content_current,title_current,qualifies:!advisory_only&&errors.length===0&&blockers.length===0,advisory_only};
 }
 
 /** Only explicitly selected, current review evidence can approve publication. */
@@ -113,8 +124,8 @@ export function assessPublication({rubric,edition,source,sourceSha,targetSha,seg
   if (!edition.credits?.translator?.trim()||!edition.credits?.editors?.some(n=>n.trim())) problems.push('Named human translator/editor is missing.');
   if (!['bilingual_reviewed','literary_edited','expert_reviewed'].includes(edition.review?.status)) problems.push('Editorial status is not approved.');
   const evidence=edition.review?.evidence_urls??[];
-  const results=(reviews??[]).map(record=>({record,result:assessReview(record,{rubric,edition,sourceSha,targetSha,segmentIds,sourceLanguage:source?.language})}));
-  for (const {record,result} of results) if (result.current && record.findings?.some(f=>f.status==='open'&&['major','critical'].includes(f.severity))) problems.push('Current review '+record.reviewer?.identifier+' has unresolved major/critical findings.');
+  const results=(reviews??[]).map(record=>({record,result:assessReview(record,{rubric,edition,sourceSha,targetSha,segmentIds,sourceLanguage:source?.language,sourceTitle:source?.title})}));
+  for (const {record,result} of results) if (seriousCurrentFinding(record,result)) problems.push('Current review '+record.reviewer?.identifier+' has unresolved major/critical findings.');
   const selected=results.filter(x=>x.record.kind==='independent_human'&&evidence.includes(x.record.reviewer?.evidence_url));
   for (const {record,result} of selected) if (result.errors.length||result.blockers.length) problems.push('Selected review '+record.reviewer?.identifier+': '+[...result.errors,...result.blockers].join(' '));
   const passed=selected.filter(x=>x.result.qualifies);
@@ -148,6 +159,7 @@ function assessAiPublication({rubric,edition,source,sourceSha,targetSha,segmentI
   if(!source||source.status!=='published'||source.kind!=='source'||source.id!==edition.source_edition_id||source.work_id!==edition.work_id)problems.push('The exact original source must be published.');
   if(!['cleared','public_domain_assessed'].includes(source?.rights?.status)||!source?.rights?.evidence_urls?.length)problems.push('Original source rights evidence is missing.');
   if(!edition.content_path)problems.push('Translation has no complete text.');
+  if(!validTitle(source?.title)||!validTitle(edition.title))problems.push('Complete editions require explicit original and translated titles.');
   if(edition.rights?.status!=='cleared')problems.push('Rights clearance is missing.');
   if(!['CC-BY-4.0','CC0-1.0'].includes(edition.rights?.license))problems.push('An explicit open reuse license or dedication is missing.');
   if(!edition.rights?.evidence_urls?.length)problems.push('Content rights and reuse evidence is missing.');
@@ -163,8 +175,8 @@ function assessAiPublication({rubric,edition,source,sourceSha,targetSha,segmentI
   const prefix='corpus/reviews/'+edition.work_id+'/'+edition.id+'/';
   if(!paths.length||new Set(paths).size!==paths.length||paths.some(file=>!file.startsWith(prefix)||!/^[-a-zA-Z0-9]+\.json$/.test(file.slice(prefix.length))))problems.push('Select distinct canonical AI assessment record paths.');
   if(!paths.every(file=>evidence.includes(reviewRecordUrl(file))))problems.push('AI review links must identify every selected canonical record.');
-  const results=(reviews??[]).map(record=>({record,result:assessReview(record,{rubric,edition,sourceSha,targetSha,segmentIds,sourceLanguage:source?.language})}));
-  for(const {record,result} of results)if(result.current&&record.findings?.some(f=>f.status==='open'&&['major','critical'].includes(f.severity)))problems.push('Current assessment '+record.reviewer?.identifier+' has unresolved major/critical findings.');
+  const results=(reviews??[]).map(record=>({record,result:assessReview(record,{rubric,edition,sourceSha,targetSha,segmentIds,sourceLanguage:source?.language,sourceTitle:source?.title})}));
+  for(const {record,result} of results)if(seriousCurrentFinding(record,result))problems.push('Current assessment '+record.reviewer?.identifier+' has unresolved major/critical findings.');
   const selected=results.filter(x=>paths.includes(x.record._path));
   if(selected.length!==paths.length)problems.push('A selected AI assessment record is absent or duplicated.');
   for(const {record,result} of selected){

@@ -17,6 +17,24 @@
   "ai_disclosure": "AI-produced translation and AI literary assessment by GPT-6 Astra Pro. The assessor also revised the text and had access to earlier AI records. No independent assessor, model consensus, human review, native-reader trial or reader demand is claimed. V2 uses the current assessment for its AI quality gate; this does not itself clear rights.",
   "glossary": [
     {
+      "source_term": "El encaje roto (work title)",
+      "draft_rendering": "Dải ren rách",
+      "alternatives": [
+        "Tấm ren rách",
+        "Mảnh ren rách (not adopted: foregrounds a fragment)"
+      ],
+      "rationale": "Encaje is lace, and passages 1.10–1.11 identify a wide lace flounce decorating the wedding dress before it catches and tears. Dải ren is therefore a contextual Vietnamese rendering of that ornament, while rách keeps the physical tear and its symbolic resonance without explaining the bride’s decision in the title. Mảnh would foreground a detached fragment, and a generic ribbon would lose the lace material.",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.10",
+        "pardo-bazan-el-encaje-roto:1.11",
+        "pardo-bazan-el-encaje-roto:1.12"
+      ],
+      "evidence_urls": [
+        "https://dle.rae.es/encaje",
+        "https://dle.rae.es/roto"
+      ]
+    },
+    {
       "source_term": "encaje / volante de encaje",
       "draft_rendering": "ren / dải ren xếp nếp",
       "alternatives": [
@@ -341,6 +359,19 @@
       "rationale": "Preserve the counterfactual answer to why she did not explain the incident, rather than sounding like a simple prediction about the future.",
       "status": "adopted",
       "policy_context": "current_v2"
+    },
+    {
+      "id": "pardo-bazan-el-encaje-roto-titles-2026-11-01",
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.10",
+        "pardo-bazan-el-encaje-roto:1.11",
+        "pardo-bazan-el-encaje-roto:1.12"
+      ],
+      "proposal": "Dải ren rách existed only in editorial notes; edition metadata had no translated title.",
+      "outcome": "Add edition.title = Dải ren rách and select the new full-coverage title-aware AI review.",
+      "rationale": "Encaje is lace, and passages 1.10–1.11 identify a wide lace flounce decorating the wedding dress before it catches and tears. Dải ren is therefore a contextual Vietnamese rendering of that ornament, while rách keeps the physical tear and its symbolic resonance without explaining the bride’s decision in the title. Mảnh would foreground a detached fragment, and a generic ribbon would lose the lace material.",
+      "status": "adopted",
+      "policy_context": "current_v2"
     }
   ],
   "preflight_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-preflight-2026-11-01.json",
@@ -351,12 +382,14 @@
     "required_human_reviewers": 0,
     "entry_conditions": [
       "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
-      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments."
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
     ],
     "exit_conditions": [
       "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
       "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
-      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license."
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
     ],
     "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
   },
@@ -414,7 +447,7 @@
       "Maintainer authenticates qualifications, independence, review evidence, named editorial contribution and affirmative open-license permission."
     ]
   },
-  "ai_review_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-2026-11-01.json",
+  "ai_review_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json",
   "preflight_record_status": "Historical v1 record, preserved with its original hashes; not the current v2 decision.",
   "current_quality_assessment": {
     "rubric_id": "litmundi-literary-v2",
@@ -487,6 +520,27 @@
         }
       ],
       "historical_records": "Earlier v1 preflights and the separate adversarial record retain their original bytes and hashes."
+    }
+  ],
+  "title_review": {
+    "source_title": "El encaje roto",
+    "target_title": "Dải ren rách",
+    "rationale": "Encaje is lace, and passages 1.10–1.11 identify a wide lace flounce decorating the wedding dress before it catches and tears. Dải ren is therefore a contextual Vietnamese rendering of that ornament, while rách keeps the physical tear and its symbolic resonance without explaining the bride’s decision in the title. Mảnh would foreground a detached fragment, and a generic ribbon would lose the lace material."
+  },
+  "title_revision_history": [
+    {
+      "date": "2026-11-01",
+      "scope": "Edition-title metadata and fresh complete title-aware AI review",
+      "previous_edition_title": null,
+      "previous_dossier_title": "Dải ren rách",
+      "source_title": "El encaje roto",
+      "target_title": "Dải ren rách",
+      "body_changed": false,
+      "source_sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e",
+      "target_sha256": "ec7de7c45c293cb21c38a9054993f8fd072b5263046c3fcce14c7ee610c08f29",
+      "previous_review_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-2026-11-01.json",
+      "current_review_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json",
+      "rationale": "Encaje is lace, and passages 1.10–1.11 identify a wide lace flounce decorating the wedding dress before it catches and tears. Dải ren is therefore a contextual Vietnamese rendering of that ornament, while rách keeps the physical tear and its symbolic resonance without explaining the bride’s decision in the title. Mảnh would foreground a detached fragment, and a generic ribbon would lose the lace material."
     }
   ]
 }

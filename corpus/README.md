@@ -28,6 +28,8 @@ Work, edition and passage IDs are never recycled. A new source witness or indepe
 
 Complete drafts and published translations require full passage coverage and alignment in both directions. Planned editions may have no text. JSON strings contain prose, not executable HTML; the reader escapes them. Historical spelling and unusual authorial style are retained unless a documented editorial policy says otherwise. Source-check records disclose typographic losses and normalizations that plain text cannot preserve.
 
+Every edition with actual text has an `edition.title` in that edition's language. `work.title` remains the canonical original title; `edition.label` describes the witness or publication status. Titles do not consume passage IDs or change stable URLs. Readers and exports use the selected edition's title and retain the original title for attribution and discovery. Empty planned editions need no invented translated title.
+
 Ajv validates the complete JSON Schema 2020-12 rules at build time, with domain checks for relationships, completeness, source-check hashes, review evidence and publication gates. Ajv is not a public-reader runtime dependency.
 
 ## Status is a publication boundary
@@ -37,6 +39,8 @@ Published originals require a specific witness, documented source-rights assessm
 Published translations require one complete `ai_review` under `litmundi-literary-v2`, with current source/target digests, all canonical passages assessed, an unrounded weighted score **≥8.6**, and no unresolved current major or critical issue. The weights are 35/25/15/15/10 and category scores use half-point increments. There are no additional category floors or mandatory human reviewer, editor or attestation. Source-rights clearance, lawful reuse, AI attribution, complete alignment and publication metadata remain required.
 
 Edition metadata selects canonical review files through `review.record_paths`. AI assessors are listed in `review.ai_reviewers`; `review.reviewers` is reserved for actual human reviewers. A historical v1 preflight does not qualify as a new v2 assessment. A score of 8.55 fails even if displayed as 8.6.
+
+Current AI assessments also bind the original and translated titles using `title_review: {source_title, target_title, rationale}`. The literal title snapshots supplement the passage JSON digests: changing a title makes its assessment stale without renumbering a passage. Historical body-only records remain inspectable but cannot approve the complete current edition. A finding at `@title` concerns the reviewed title; other finding locations remain canonical passage IDs.
 
 Negative and stale reviews remain historical records. Only evidence matching the final text can support its publication. Material corrections require re-evaluation and republication; any changed content requires fresh matching assessment evidence. See [Quality](../docs/QUALITY.md).
 

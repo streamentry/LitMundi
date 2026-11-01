@@ -33,16 +33,18 @@ The rubric is project-specific and informed by [MQM's typology](https://www.them
 
 A translated edition is eligible only when all of these conditions hold:
 
-1. **Complete text and alignment.** The exact source edition is identified; the full source and target are present; every canonical passage is covered and the alignment is complete.
+1. **Complete text and alignment.** The exact source edition is identified; the full source and target, including their titles, are present; every canonical passage is covered and the alignment is complete. Each edition with actual text records its title in the edition's language; the work record retains the original title.
 2. **One current AI assessment.** At least one structured review explicitly uses `kind: ai_review` and `litmundi-literary-v2`, assesses the entire source and target, includes every canonical passage ID, and records all five category scores with reasons.
-3. **Exact evidence and threshold.** The selected review's SHA-256 digests match the current source and target JSON, and its unrounded weighted score is at least 8.6. Edition metadata selects the canonical evidence using `review.record_paths` and identifies AI assessors separately in `review.ai_reviewers`.
+3. **Exact evidence and threshold.** The selected review's SHA-256 digests match the current source and target passage JSON, and its unrounded weighted score is at least 8.6. Because titles live in edition metadata, the review also records `title_review.source_title`, `title_review.target_title` and an actual title-assessment `rationale`. Those title snapshots must exactly match the current source and translated edition titles. Edition metadata selects the canonical evidence using `review.record_paths` and identifies AI assessors separately in `review.ai_reviewers`.
 4. **No unresolved serious issue.** Any current unresolved major or critical finding blocks publication, including a finding in another current AI or optional human review. A favourable selected score cannot cancel such a finding.
 5. **Source rights and lawful reuse.** The source witness and jurisdictional rights rationale are recorded, rights are cleared, and the edition has a documented lawful reuse basis. AI-only output defaults to CC BY 4.0 (`CC-BY-4.0`) only to the extent the publisher controls applicable rights, as explained in [AI content policy](AI-CONTENT-POLICY.md). This does not create copyright, imply human authorship or restrict public-domain material. Source provenance, separate source-rights terms and AI attribution remain visible.
 6. **Publication metadata and validation.** The edition explicitly becomes `published` only after its evidence and all publication checks pass. The public reader, search and publication downloads include eligible published editions.
 
 There is **no mandatory human reviewer, named human editor or human editorial attestation** under v2. Keep `review.reviewers` for actual human reviewers; never populate it with an AI identity or invent qualifications, consent, PR reviews or contributors. If human creative material is actually incorporated, document its attribution and lawful reuse according to the AI content policy and the edition's rights record.
 
-CI validates the structured evidence, arithmetic, passage coverage, references and hashes. It does not prove that a model's literary judgment is correct, authenticate a person or settle a legal question.
+CI validates the structured evidence, arithmetic, title assessment, passage coverage, references and hashes. A title change requires fresh assessment evidence even when the body hashes are unchanged. Earlier body-only AI assessments remain valid historical records of their original scope but cannot approve a complete current edition. Use `@title` as a finding location for a reviewed title; it is not a new passage ID. A title correction does not erase a serious finding in the unchanged body, and an obsolete title finding does not block its corrected title.
+
+These checks do not prove that a model's literary judgment is correct, authenticate a person or settle a legal question.
 
 ## Assessment and revision process
 

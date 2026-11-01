@@ -2,6 +2,14 @@
 
 Status, 2026-11-01: **complete Portuguese source edition available; the revised Vietnamese text scores 8.725/10 (displayed 8.73) under v2 and meets the AI quality threshold**. The edition catalog controls actual publication and rights status. No human review is required before publication, and no human endorsement is claimed.
 
+## Reviewed Vietnamese title
+
+**Một truyện ngụ ngôn** translates the source title *Um Apólogo*.
+
+*Một* retains the indefinite article *Um*; *truyện ngụ ngôn* names the narrative genre naturally. [Priberam](https://dicionario.priberam.org/ap%C3%B3logo) defines *apólogo* through moral teaching in fable form. The speaking needle, thread and pin, followed by the narrator’s final social application, support that reading. The earlier dossier’s *Một ngụ ngôn* is retained in title history; the new form makes the narrative sense clearer without inventing a specific moral.
+
+The [fresh title-aware v2 review](../corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json) reread all **22 source/target passages** and explicitly records the exact source and target edition titles with its rationale. No body text or category score changed; the weighted result remains **8.725 (displayed 8.73)**. The same AI system performed this assessment with previous scores visible, so it is not a blind, independent or human review. The [earlier v2 body assessment](../corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-2026-11-01.json) and all older preflights remain unchanged as history. The title correction alone cannot promote a below-threshold draft.
+
 ## Why this small pilot
 
 The fable tests an economical but difficult kind of writing: dialogue, a material pun, a narrator who interrupts his own ornament, and a final social insult. It adds direct Portuguese-to-Vietnamese work to an English pilot without requiring a novel-length editorial commitment.
@@ -17,7 +25,7 @@ All five printed pages were visually compared with the new transcription by AI-a
 Historical forms such as *novello*, *panno*, *baroneza*, *E' boa!*, *Cahindo*, *Veiu* and *Canças-te* remain. Print line breaks and discretionary end-of-line hyphens are joined; running heads, ornaments and page numbers are excluded. The italic four-beat *plic-plic-plic-plic* is documented separately because canonical values are plain text. This is a technical source comparison, **not an independently certified critical edition or a human proofread**.
 
 - [Original Portuguese JSON](../corpus/segments/machado-um-apologo/machado-apologo-pt-laemmert-1896.json)
-- [Vietnamese draft: Một ngụ ngôn](../corpus/segments/machado-um-apologo/machado-apologo-vi-ai-draft-2026.json)
+- [Vietnamese text: Một truyện ngụ ngôn](../corpus/segments/machado-um-apologo/machado-apologo-vi-ai-draft-2026.json)
 - [Stable structure](../corpus/structure/machado-um-apologo.json) and [one-to-one alignment](../corpus/alignments/machado-um-apologo/machado-apologo-vi-ai-draft-2026.json)
 - [Source check with PDF hash, pages and coverage](../corpus/editorial/source-checks/machado-apologo-pt-laemmert-1896.json)
 
@@ -31,7 +39,7 @@ The corpus contains the underlying literary text, not the scan images, instituti
 
 ## Translation decisions and adversarial revision
 
-The [machine-readable editorial dossier](../corpus/editorial/machado-um-apologo/machado-apologo-vi-ai-draft-2026.json) contains a ten-entry glossary, alternatives, rejected proposals and exact source/target SHA-256 hashes.
+The [machine-readable editorial dossier](../corpus/editorial/machado-um-apologo/machado-apologo-vi-ai-draft-2026.json) contains an eleven-entry glossary including the reviewed title, alternatives, rejected proposals and exact source/target SHA-256 hashes.
 
 The draft preserves the needle/pin distinction so the “head” joke still works; it keeps the repeated *pegou* sequence, the named Diana allusion and the narrator's deflation of his own poetic flourish. A separate AI read identified a dangling Vietnamese subject that could make the needle obey itself. Passage `1.12` now explicitly makes the thread follow and obey the needle. The rejected phrasing and the pre-revision target hash are retained.
 
@@ -59,7 +67,7 @@ One bounded pass changed four of the 22 Vietnamese passages; the Portuguese sour
 | Grammar and editorial mechanics | 9.0 |
 | **Weighted score** | **8.725 → 8.73** |
 
-The [new v2 review](../corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-2026-11-01.json) covers every source and target passage and records exact final hashes. The fidelity increase reflects the corrected *insupportavel* ambiguity and removal of unsupported classroom specificity. The remaining dialogue stiffness, foreign sound-word, historical *mucamas* associations and mock-title tradeoff keep the other literary categories at 8.5. No unresolved major or critical finding was identified in this AI read; undetected errors may remain.
+The [new v2 review](../corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json) covers every source and target passage and records exact final hashes. The fidelity increase reflects the corrected *insupportavel* ambiguity and removal of unsupported classroom specificity. The remaining dialogue stiffness, foreign sound-word, historical *mucamas* associations and mock-title tradeoff keep the other literary categories at 8.5. No unresolved major or critical finding was identified in this AI read; undetected errors may remain.
 
 The [historical v1 preflight](../corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-preflight-2026-11-01.json) remains unchanged at **8.55**, bound to the earlier target hash. The separate adversarial record also keeps its old hashes. Exact before/after wording and revision digests are in the editorial dossier.
 

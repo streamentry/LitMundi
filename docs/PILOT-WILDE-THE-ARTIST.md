@@ -2,6 +2,14 @@
 
 Status, 2026-11-01: **source text published; the Vietnamese text scores 8.60/10 in a fresh v2 AI assessment and meets the AI quality threshold**. The edition catalog controls actual publication and rights status. No human publication review is required by v2, and no human endorsement is claimed.
 
+## Reviewed Vietnamese title
+
+**Nghệ sĩ** translates the source title *The Artist*.
+
+The concise Vietnamese title preserves the generic artistic identity in the original. A Vietnamese title does not need an explicit equivalent of the English definite article. *Người nghệ sĩ* is a reasonable fuller alternative, but *Nhà điêu khắc* would narrow the title to a particular medium that Wilde leaves broader.
+
+The [fresh title-aware v2 review](../corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json) reread all **5 source/target passages** and explicitly records the exact source and target edition titles with its rationale. No body text or category score changed; the weighted result remains **8.60**. The same AI system performed this assessment with previous scores visible, so it is not a blind, independent or human review. The [earlier v2 body assessment](../corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-review-v2-2026-11-01.json) and all older preflights remain unchanged as history. The title correction alone cannot promote a below-threshold draft.
+
 ## Why this work
 - Complete, short prose poem (five paragraphs).
 - First published in `The Fortnightly Review` in July 1894 as part of *Poems in Prose*.
@@ -47,7 +55,7 @@ V2 requires one complete AI assessment with a weighted score at least **8.6**, h
 
 The originally unbound `ai-preflight-2026-10-31.json` record scores fidelity 9.0, voice 8.0, naturalness 8.5, imagery 8.5 and mechanics 9.0, for **8.6/10**. The later [v1 preflight](../corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-preflight-2026-11-01.json) records the revised text's exact hashes and the same weighted score. Both remain unchanged as history. Neither is relabelled as a v2 review or human approval.
 
-The [new v2 AI review](../corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-review-v2-2026-11-01.json) records a fresh full-text comparison by the same AI system, with access to earlier scores and notes. The assessor is **not independent**. Its category scores remain 9.0 / 8.0 / 8.5 / 8.5 / 9.0, for **8.60**. The policy changes eligibility; it does not make the unchanged prose score better.
+The [new v2 AI review](../corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json) records a fresh full-text comparison by the same AI system, with access to earlier scores and notes. The assessor is **not independent**. Its category scores remain 9.0 / 8.0 / 8.5 / 8.5 / 9.0, for **8.60**. The policy changes eligibility; it does not make the unchanged prose score better.
 
 ## Textual revision history and v2 assessment — 2026-11-01
 
@@ -68,7 +76,7 @@ The [source-check record](../corpus/editorial/source-checks/wilde-artist-en-meth
 - [Explicit passage alignment](../corpus/alignments/wilde-the-artist/wilde-artist-vi-ai-draft-2026.json)
 - [Source-check evidence](../corpus/editorial/source-checks/wilde-artist-en-methuen-1913.json)
 - [Decisions and glossary](../corpus/editorial/wilde-the-artist/wilde-artist-vi-ai-draft-2026.json)
-- [Current v2 AI assessment](../corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-review-v2-2026-11-01.json)
+- [Current v2 AI assessment](../corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json)
 - [Historical v1 preflight](../corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-preflight-2026-11-01.json)
 
 The [Translation Gap Atlas](../research/translation-gap-atlas.json) records an existing Vietnamese rendering of this work, so continuing this pilot cannot be justified by claiming that no Vietnamese translation exists. The value proposition still to test is an openly inspectable, aligned, transparently AI-assessed and lawfully reusable edition with optional reader corrections. Nothing in this dossier demonstrates reader demand.

@@ -3,7 +3,8 @@ import os from 'node:os';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import {spawnSync} from 'node:child_process';
-import {sha256} from './lib/portable.mjs';
+import {sha256,xml} from './lib/portable.mjs';
+import {editionTitle} from './lib/reader-data.mjs';
 
 const initial=await fs.readFile('dist-archive.zip');
 const repeat=spawnSync(process.execPath,['scripts/export.mjs'],{encoding:'utf8'});
@@ -23,12 +24,20 @@ try {
   const editions=JSON.parse(await fs.readFile(path.join(archive,'corpus/catalog/editions.json'),'utf8'));
   const works=JSON.parse(await fs.readFile(path.join(archive,'corpus/catalog/works.json'),'utf8'));
   const expected=editions.filter(e=>e.status==='published'&&works.find(w=>w.id===e.work_id)?.visibility==='public');
+  const index=await fs.readFile(path.join(output,'index.html'),'utf8');
+  const htmlEsc=value=>xml(value).replaceAll('&apos;','&#x27;');
   for(const e of expected){
+    const work=works.find(w=>w.id===e.work_id),title=editionTitle(work,e);
     const txt=await fs.readFile(path.join(output,'editions',e.id+'.txt'),'utf8');
+    const html=await fs.readFile(path.join(output,'editions',e.id+'.html'),'utf8');
+    assert.equal(txt.split('\n')[0],title,'Offline TXT must use the edition title.');
+    assert.ok(txt.includes('Original title: '+work.title),'Offline TXT must retain the original title.');
+    assert.ok(html.includes('<title>'+htmlEsc(title)+'</title>')&&html.includes('<h1>'+htmlEsc(title)+'</h1>'),'Offline HTML must use the edition title.');
+    assert.ok(html.includes('Original title: '+htmlEsc(work.title)),'Offline HTML must retain the original title.');
+    assert.ok(index.includes('href="editions/'+e.id+'.html">'+htmlEsc(title+' — '+e.language)+'</a>'),'Offline index must use the edition title.');
     const prose=JSON.parse(await fs.readFile(path.join(archive,e.content_path),'utf8'));
     for(const [id,text] of Object.entries(prose)){assert.ok(txt.includes('['+id+']'));assert.ok(txt.includes(text));}
     if(e.review.status==='ai_reviewed'){
-      const html=await fs.readFile(path.join(output,'editions',e.id+'.html'),'utf8');
       for(const content of [txt,html]){assert.ok(content.includes('AI-reviewed translation'));assert.ok(content.includes(String(e.review.score)+'/10'));assert.ok(content.includes('No independent human literary review is claimed'));}
     }
   }
@@ -44,5 +53,5 @@ try {
   await fs.writeFile(path.join(archive,'unexpected.txt'),'Unlisted file');
   verify=spawnSync('python3',['-I',path.join(archive,'restore.py'),'--archive',archive,'--verify-only'],{cwd:temp,encoding:'utf8'});
   assert.notEqual(verify.status,0,'Unlisted files must fail archive validation.');
-  console.log('Archive verified: byte-identical ZIP export, checked extraction, isolated offline reconstruction of '+expected.length+' editions, draft exclusion, corruption and inventory rejection.');
+  console.log('Archive verified: byte-identical ZIP export, checked extraction, isolated offline reconstruction of '+expected.length+' editions with edition/original titles, draft exclusion, corruption and inventory rejection.');
 } finally {await fs.rm(temp,{recursive:true,force:true});}
