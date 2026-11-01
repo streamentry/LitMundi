@@ -3,11 +3,34 @@ import '../styles/global.css';
 import {strings,supported,localeNames,type Locale} from '../lib/i18n';
 import {pagePath,assetPath,basePath} from '../lib/urls';
 import {seoForPath} from '../lib/seo';
+import {labels} from '../lib/discovery';
 import {serializeStructuredData} from '../../scripts/lib/reader-data.mjs';
-interface Props {lang?:Locale;title?:string;description?:string;noindex?:boolean;canonicalPath?:string;structuredData?:Record<string,unknown>}
-const {lang='en',title='LitMundi',description,noindex=false,canonicalPath,structuredData}=Astro.props;
+interface Props {
+  lang?:Locale;title?:string;description?:string;noindex?:boolean;canonicalPath?:string;
+  structuredData?:Record<string,unknown>;breadcrumbs?:{name:string;href:string}[];
+  socialImage?:string;socialImageAlt?:string;
+}
+const {lang='en',title='LitMundi',description,noindex=false,canonicalPath,structuredData,breadcrumbs=[],socialImage,socialImageAlt='LitMundi — world literature, original texts and translations'}=Astro.props;
 const t=strings[lang];
+const d=labels(lang);
 const canonical=new URL(canonicalPath??Astro.url.pathname,Astro.site);
+const projectUrl=new URL(pagePath(),Astro.site).href;
+const pageTitle=title+' · LitMundi';
+const pageDescription=description??t.intro;
+const imageUrl=new URL(socialImage??assetPath('social/site.png'),Astro.site).href;
+const publisherId=projectUrl+'#publisher';
+const websiteId=projectUrl+'#website';
+const siteGraph={
+  '@context':'https://schema.org',
+  '@graph':[
+    {'@type':'Organization','@id':publisherId,name:'LitMundi',url:projectUrl,
+      sameAs:['https://github.com/streamentry/LitMundi'],
+      logo:{'@type':'ImageObject',url:new URL(assetPath('social/logo.png'),Astro.site).href,width:512,height:512}},
+    {'@type':'WebSite','@id':websiteId,name:'LitMundi',url:projectUrl,inLanguage:[...supported],publisher:{'@id':publisherId}},
+    ...(breadcrumbs.length>1?[{'@type':'BreadcrumbList','@id':canonical.href+'#breadcrumbs',
+      itemListElement:breadcrumbs.map((crumb,index)=>({'@type':'ListItem',position:index+1,name:crumb.name,item:new URL(crumb.href,Astro.site).href}))}]:[]),
+  ],
+};
 const alternates=noindex?[]:(seoForPath(Astro.url.pathname,Astro.site!)?.alternates??[]);
 const routeParts=canonical.pathname.slice(basePath.length).split('/').filter(Boolean).slice(1);
 const localePath=(locale:Locale)=>pagePath(locale,...routeParts);
@@ -28,18 +51,30 @@ const names=localeNames;
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#24553e" />
-  <meta name="description" content={description??t.intro} />
+  <meta name="description" content={pageDescription} />
   {noindex && <meta name="robots" content="noindex, follow" />}
   <link rel="canonical" href={canonical} />
   {alternates.map(({hreflang,href})=><link rel="alternate" hreflang={hreflang} href={href} />)}
   <link rel="sitemap" type="application/xml" href={new URL(assetPath('sitemap-index.xml'),Astro.site)} />
   <link rel="icon" type="image/svg+xml" href={assetPath('favicon.svg')} />
-  <meta property="og:title" content={title+' · LitMundi'} />
-  <meta property="og:description" content={description??t.intro} />
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={pageDescription} />
   <meta property="og:url" content={canonical} />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="LitMundi" />
+  <meta property="og:image" content={imageUrl} />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content={socialImageAlt} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={pageTitle} />
+  <meta name="twitter:description" content={pageDescription} />
+  <meta name="twitter:image" content={imageUrl} />
+  <meta name="twitter:image:alt" content={socialImageAlt} />
   {structuredData && <script type="application/ld+json" is:inline set:html={serializeStructuredData(structuredData)} />}
-  <title>{title} · LitMundi</title>
+  <script type="application/ld+json" is:inline set:html={serializeStructuredData(siteGraph)} />
+  <title>{pageTitle}</title>
 </head>
 <body>
   <a class="skip-link" href="#main">{t.skip}</a>
@@ -48,6 +83,7 @@ const names=localeNames;
       <a class="logo" href={pagePath(lang)} aria-label="LitMundi">LitMundi<span aria-hidden="true">.</span></a>
       <nav class="links" aria-label={t.navigation}>
         <a href={pagePath(lang)}>{t.works}</a>
+        <a href={pagePath(lang,'authors')}>{d.authors}</a>
         <a href={pagePath(lang,'quality')}>{t.quality}</a>
         <details class="locale-menu">
           <summary>{t.websiteLanguage}: <span lang={lang}>{names[lang]}</span></summary>
@@ -56,11 +92,17 @@ const names=localeNames;
       </nav>
     </div>
   </header>
-  <main id="main" tabindex="-1"><slot /></main>
+  <main id="main" tabindex="-1">
+    {breadcrumbs.length>1 && <nav class="container breadcrumbs" aria-label={lang==='vi'?'Đường dẫn':lang==='fr'?'Fil d’Ariane':lang==='es'?'Ruta de navegación':'Breadcrumb'}>
+      <ol>{breadcrumbs.map((crumb,index)=><li>{index===breadcrumbs.length-1?<span aria-current="page">{crumb.name}</span>:<a href={crumb.href}>{crumb.name}</a>}</li>)}</ol>
+    </nav>}
+    <slot />
+  </main>
   <footer class="footer">
     <div class="container footer-inner">
       <div><a class="logo" href={pagePath(lang)}>LitMundi<span aria-hidden="true">.</span></a><p>{t.footer}</p></div>
       <nav aria-label={t.preservation}>
+        <a href={pagePath(lang,'about')}>{d.about}</a>
         <a href="https://github.com/streamentry/LitMundi/blob/main/LICENSE">{t.codeLicense}</a>
         <a href="https://github.com/streamentry/LitMundi/blob/main/docs/PRESERVATION.md">{t.preservation}</a>
         <a href={assetPath('sitemap-index.xml')}>{t.sitemap}</a>
@@ -74,3 +116,12 @@ const names=localeNames;
   </script>
 </body>
 </html>
+<style>
+  .breadcrumbs{padding-top:22px;font-size:.76rem;color:var(--muted)}
+  .breadcrumbs ol{display:flex;flex-wrap:wrap;gap:6px 10px;list-style:none;margin:0;padding:0}
+  .breadcrumbs li{display:flex;gap:10px;align-items:baseline;overflow-wrap:anywhere}
+  .breadcrumbs li+li::before{content:'/';color:#718073}
+  .breadcrumbs a{display:inline-block;padding:4px 0}
+  .breadcrumbs [aria-current]{padding:4px 0}
+  @media print{.breadcrumbs{display:none}}
+</style>

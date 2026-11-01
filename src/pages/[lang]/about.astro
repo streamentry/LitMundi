@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import content from '../../lib/about-content.json';
+import {strings,supported,type Locale} from '../../lib/i18n';
+import {labels} from '../../lib/discovery';
+import {pagePath} from '../../lib/urls';
+export function getStaticPaths(){return supported.map(lang=>({params:{lang}}));}
+const lang=Astro.params.lang as Locale,t=strings[lang],d=labels(lang),c=content[lang];
+const canonical=new URL(pagePath(lang,'about'),Astro.site).href;
+const projectUrl=new URL(pagePath(),Astro.site).href;
+const structuredData={
+  '@context':'https://schema.org','@type':'AboutPage','@id':canonical+'#page',url:canonical,
+  name:d.aboutTitle,description:d.aboutDescription,inLanguage:lang,
+  about:{'@id':projectUrl+'#publisher'},isPartOf:{'@id':projectUrl+'#website'},
+};
+---
+<Base lang={lang} title={d.aboutTitle} description={d.aboutDescription} structuredData={structuredData}
+  breadcrumbs={[{name:d.collection,href:pagePath(lang)},{name:d.about,href:pagePath(lang,'about')}] }>
+  <div class="container">
+    <section class="hero"><p class="eyebrow">LitMundi</p><h1>{d.about}</h1><p>{c.intro}</p></section>
+    <div class="about-body">
+      <section><h2>{c.scopeTitle}</h2><p>{c.scope}</p><a href={pagePath(lang)}>{c.reading} →</a></section>
+      <section><h2>{c.sourcesTitle}</h2><p>{c.sources}</p><a href={pagePath(lang,'authors')}>{d.authors} →</a></section>
+      <section><h2>{c.reviewTitle}</h2><p>{c.review}</p><a href={pagePath(lang,'quality')}>{t.quality} →</a></section>
+      <section><h2>{c.rightsTitle}</h2><p>{c.rights}</p></section>
+      <section><h2>{c.stewardshipTitle}</h2><p>{c.stewardship}</p>
+        <ul>
+          <li><a href="https://github.com/streamentry/LitMundi">{c.repository}</a></li>
+          <li><a href="https://github.com/streamentry/LitMundi/issues/new?template=reader-feedback.yml">{c.feedback}</a></li>
+          <li><a href="https://github.com/streamentry/LitMundi/blob/main/docs/PRESERVATION.md">{t.preservation}</a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</Base>
+<style>
+  .about-body{max-width:780px;padding-bottom:60px}
+  .about-body section{border-top:1px solid var(--line);padding:30px 0}
+  .about-body h2{font:normal 30px/1.3 var(--serif);color:var(--ink);margin:0 0 18px}
+  .about-body p{margin:0 0 20px;line-height:1.85}
+  .about-body li{margin:12px 0}
+</style>

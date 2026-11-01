@@ -1,0 +1,24 @@
+---
+import {type Work,type Edition,editionTitle,reviewCategory} from '../lib/corpus';
+import {type Locale,strings} from '../lib/i18n';
+import {labels} from '../lib/discovery';
+import {canonicalEditionPath} from '../lib/seo';
+interface Props {work:Work;edition:Edition;source?:Edition;locale:Locale}
+const {work,edition,source,locale}=Astro.props;
+const d=labels(locale),t=strings[locale],title=editionTitle(work,edition),category=reviewCategory(edition);
+const url=new URL(canonicalEditionPath(edition),Astro.site).href;
+const original=source??edition,sourceUrl=new URL(canonicalEditionPath(original),Astro.site).href;
+const reviewLabel=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewed:category==='source'?t.sourcePublished:t.translationPublished;
+---
+<details class="metadata citation" data-citation-edition={edition.id} data-citation-category={category}>
+  <summary>{d.citeEdition}</summary>
+  <p class="citation-text">{work.author}. <cite lang={edition.title?edition.language:work.original_language}>{title}</cite>. <span lang={edition.kind==='source'?'en':edition.language}>{edition.label}</span>. LitMundi.</p>
+  <p class="muted">{reviewLabel}</p>
+  <p>{d.permanentEdition}: <a data-citation-url href={url}>{url}</a></p>
+  <p><strong>{d.citedSource}</strong></p>
+  <p lang="en" data-citation-source={original.id}>{original.provenance.citation}</p>
+  <div class="tools">
+    {source&&<a href={sourceUrl}>{d.originalEdition}</a>}
+    {original.provenance.text_url&&<a href={original.provenance.text_url}>{d.sourceWitness} <span aria-hidden="true">↗</span></a>}
+  </div>
+</details>

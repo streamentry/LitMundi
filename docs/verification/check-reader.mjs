@@ -85,7 +85,7 @@ async function keyboardComparison(targetPage){
 }
 
 try{
-  const routes=['','quality/',...publicWorks.map(work=>'works/'+work.id+'/'),...published.map(readerRoute)];
+  const routes=['','quality/','authors/','about/',...publicWorks.map(work=>'works/'+work.id+'/'),...published.map(readerRoute)];
   for(const locale of locales)for(const route of routes){
     const response=await page.goto(base+locale+'/'+route);assert.equal(response.status(),200);
     const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
@@ -95,8 +95,8 @@ try{
     if(edition){
       const work=works.find(item=>item.id===edition.work_id),title=editionTitle(work,edition);
       await checkTitle(page.locator('.reader-head'),work,edition);
-      assert.equal(await page.title(),title+' — '+(languageNames[edition.language]??edition.language)+' · LitMundi');
-      const metadata=JSON.parse(await page.locator('script[type="application/ld+json"]').textContent());assert.equal(metadata.name,title);
+      assert.equal(await page.title(),title+' — '+work.author+' · '+(languageNames[edition.language]??edition.language)+' · LitMundi');
+      const metadata=JSON.parse(await page.locator('script[type="application/ld+json"]').first().textContent());assert.equal(metadata.name,title);
       assert.equal(await page.locator('.notice[data-review-category]').getAttribute('data-review-category'),reviewCategory(edition));
       if(reviewCategory(edition)==='ai'&&typeof edition.review.score==='number')assert.equal(Number(await page.locator('[data-ai-score]').getAttribute('data-ai-score')),edition.review.score);
       if(edition.kind==='translation'){
@@ -115,7 +115,7 @@ try{
     }
     const work=publicWorks.find(item=>'works/'+item.id+'/'===route);
     if(work){
-      const preferred=preferredFor(work,locale);await checkTitle(page.locator('.reader-head'),work,preferred);assert.equal(await page.title(),editionTitle(work,preferred)+' · LitMundi');
+      const preferred=preferredFor(work,locale);await checkTitle(page.locator('.reader-head'),work,preferred);assert.equal(await page.title(),editionTitle(work,preferred)+' — '+work.author+' · LitMundi');
       for(const item of published.filter(item=>item.work_id===work.id))assert.equal(await page.locator('h3[data-edition-title="'+item.id+'"]').textContent(),editionTitle(work,item));
     }
     if(route===''){
@@ -210,7 +210,7 @@ try{
     report.parallel_editions.push({edition_id:edition.id,source_edition_id:source.id,review_category:reviewCategory(edition),alignment_rows:rows.length,source_passages:passagesFor(source).length,target_passages:targetPassages.length,default:'Source hidden; one centered target column at 1440px',enabled:'Recorded source/target pairs in two columns',toggle:'Native keyboard Space preserves passage nodes, selected target text, exact text, IDs, links and fragment',progress:'Only canonical target segments counted; opt-in target bookmark works in both modes; no mode storage',reset:'Reload, another translation and history return start with original off',anchors:'Unique IDs; source and target correction links identify their own editions'});
   }
   if(translations.length)report.interactions.push('Translation-only default and native Space comparison toggle preserve passage identity, selection, corrections, fragments and target-only opt-in progress; reload/navigation reset comparison without mode storage.');
-  const mobileRoutes=[...locales.flatMap(locale=>[locale+'/',locale+'/quality/']),...published.map(edition=>otherLocale+'/'+readerRoute(edition))];
+  const mobileRoutes=[...locales.flatMap(locale=>[locale+'/',...['quality','authors','about'].map(route=>locale+'/'+route+'/')]),...published.map(edition=>otherLocale+'/'+readerRoute(edition))];
   for(const width of [390,320]){
     await page.setViewportSize({width,height:844});
     for(const route of mobileRoutes){
@@ -268,7 +268,7 @@ try{
   const scripts=readdirSync('dist/_astro').filter(file=>file.endsWith('.js')).map(file=>readFileSync('dist/_astro/'+file));
   const inlineFor=path=>[...readFileSync(path,'utf8').matchAll(/<script(?![^>]*application\/ld\+json)[^>]*>([\s\S]*?)<\/script>/g)].map(match=>Buffer.from(match[1]));
   const inlineSummary=path=>{const blocks=inlineFor(path);return {blocks:blocks.length,bytes:blocks.reduce((sum,block)=>sum+block.length,0),sum_gzip_bytes:blocks.reduce((sum,block)=>sum+gzipSync(block).length,0)};};
-  report.client_javascript={external_files:scripts.length,external_total_bytes:scripts.reduce((sum,block)=>sum+block.length,0),home_inline:inlineSummary('dist/'+primaryLocale+'/index.html'),reader_inline:inlineSummary('dist/'+primaryLocale+'/'+readerRoute(primary)+'index.html'),note:'Script bytes come from local dist, not measured network transfer. Inline scripts are separate from external assets; JSON-LD is excluded. Search-index JSON loads only for a search. Gzip sums are estimates.'};
+  report.client_javascript={external_files:scripts.length,external_total_bytes:scripts.reduce((sum,block)=>sum+block.length,0),home_inline:inlineSummary('dist/'+primaryLocale+'/index.html'),reader_inline:inlineSummary('dist/'+primaryLocale+'/'+readerRoute(primary)+'index.html'),note:'Script bytes come from local dist, not measured network transfer. External files here means packaged local assets; remote Google Analytics script bytes and subsequent requests are excluded. Inline scripts are counted separately; JSON-LD is excluded. Search-index JSON loads only for a search. Gzip sums are estimates.'};
   report.status='passed';
   report.limitations=['Automated axe checks and keyboard spot checks do not certify complete accessibility conformance.','These are software checks, not real reader feedback or a literary quality review.','Published parallel routes are checked against recorded alignment and exact corpus text; semantic translation fidelity requires a separate literary assessment.'];
   if(!translations.length)report.limitations.push('No translation is currently published; real parallel routes were not available for this run.');

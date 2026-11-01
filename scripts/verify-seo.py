@@ -15,7 +15,7 @@ def main():
     if args.json:
         print(json.dumps(result))
     else:
-        print("SEO verification passed:", len(result["urls"]), "canonical URLs in", len(result["child_sitemaps"]), "locale sitemaps;", result["checked_html_pages"], "public HTML pages checked.")
+        print("SEO verification passed:", len(result["urls"]), "canonical URLs in", len(result["child_sitemaps"]), "locale sitemaps;", result["checked_html_pages"], "public HTML pages,", len(result["social_images"]), "social PNGs and localized descriptions/structured metadata checked.")
     return 0
 
 

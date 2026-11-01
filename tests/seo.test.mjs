@@ -43,10 +43,10 @@ function assertReciprocalAlternates(entries){
   }
 }
 
-test('explicit publication states yield 25 canonical pages without duplicate reader interfaces',()=>{
+test('explicit publication states yield 33 canonical pages without duplicate reader interfaces',()=>{
   const config=fixture(),entries=createSeoManifest(config).entries;
-  assert.equal(entries.length,25);
-  assert.deepEqual(Object.fromEntries(config.locales.map(locale=>[locale,entries.filter(entry=>entry.locale===locale).length])),{en:7,vi:7,fr:5,es:6});
+  assert.equal(entries.length,33);
+  assert.deepEqual(Object.fromEntries(config.locales.map(locale=>[locale,entries.filter(entry=>entry.locale===locale).length])),{en:9,vi:9,fr:7,es:8});
   const readers=entries.filter(entry=>entry.kind==='reader');
   assert.deepEqual(readers.map(entry=>entry.editionId).sort(),['english-source','english-translation','portuguese-source','portuguese-translation','spanish-source']);
   for(const entry of readers){
@@ -63,6 +63,7 @@ test('the current corpus has exactly the published pages and one canonical reade
   // Build expected routes directly from catalog state, independently of the SEO helpers.
   const expectedPaths=options.locales.flatMap(locale=>[
     options.base+locale+'/',options.base+locale+'/quality/',
+    options.base+locale+'/authors/',options.base+locale+'/about/',
     ...visibleWorkIds.map(id=>options.base+locale+'/works/'+id+'/'),
   ]);
   for(const edition of published){
@@ -105,7 +106,7 @@ test('draft publication changes update discovery automatically and invalid sourc
   assert.ok(before.every(entry=>entry.editionId!==draft.id));
   const promoted=config.editions.map(edition=>edition===draft?{...edition,status:'published'}:edition);
   const entries=createSeoManifest({...config,editions:promoted}).entries;
-  assert.equal(entries.length,26);
+  assert.equal(entries.length,34);
   assert.deepEqual(entries.filter(entry=>!before.some(previous=>previous.url===entry.url)).map(entry=>entry.path),['/LitMundi/vi/read/spanish-story/spanish-translation/']);
   assert.deepEqual(entries.find(entry=>entry.editionId===draft.source_edition_id).alternates.map(item=>item.hreflang),['es','vi','x-default']);
   assertReciprocalAlternates(entries);

@@ -2,7 +2,9 @@
 import datetime
 import json
 import re
+import struct
 import xml.etree.ElementTree as ET
+import zlib
 from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
@@ -12,6 +14,9 @@ SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 XHTML_NS = "http://www.w3.org/1999/xhtml"
 MAX_ENTRIES = 50_000
 MAX_BYTES = 52_428_800
+GOOGLE_SITE_VERIFICATION = "fqsbgZCRj4E4_HtMh3iAsSBMFqS8AbUtMqOvRveOYOQ"
+GOOGLE_ANALYTICS_ID = "G-W96CDG1RZV"
+GOOGLE_ANALYTICS_SCRIPT = "https://www.googletagmanager.com/gtag/js?id=" + GOOGLE_ANALYTICS_ID
 
 
 def require(condition, message):
@@ -36,12 +41,15 @@ def expected_inventory(root, canonical_base):
         locale = edition["language"] if edition["language"] in locales else fallback
         return urljoin(canonical_base, "/".join([locale, "read", edition["work_id"], edition["id"], ""]))
 
-    for suffix in ["", "quality/", *("works/" + work + "/" for work in visible)]:
+    for suffix in ["", "quality/", "authors/", "about/", *("works/" + work + "/" for work in visible)]:
         alternates = {locale: urljoin(canonical_base, locale + "/" + suffix) for locale in locales}
         alternates["x-default"] = alternates[fallback]
         for locale in locales:
             url = alternates[locale]
-            routes[url] = {"locale": locale, "alternates": alternates, "kind": "page"}
+            routes[url] = {"locale": locale, "alternates": alternates,
+                           "kind": "work" if suffix.startswith("works/") else suffix.rstrip("/") or "home"}
+            if suffix.startswith("works/"):
+                routes[url]["work_id"] = suffix.split("/")[1]
 
     for edition in published:
         source = edition if edition["kind"] == "source" else editions.get(edition.get("source_edition_id"))
@@ -58,11 +66,14 @@ def expected_inventory(root, canonical_base):
             alternates = {member["language"]: reader_url(member) for member in family}
             alternates["x-default"] = reader_url(source)
         locale = edition["language"] if edition["language"] in locales else fallback
-        routes[canonical] = {"locale": locale, "alternates": alternates, "kind": "reader", "edition": edition}
+        routes[canonical] = {"locale": locale, "alternates": alternates, "kind": "reader", "edition": edition, "work_id": edition["work_id"]}
         for interface in locales:
             wrapper = urljoin(canonical_base, "/".join([interface, "read", edition["work_id"], edition["id"], ""]))
             wrappers[wrapper] = canonical
-    return {"locales": locales, "routes": routes, "wrappers": wrappers, "editions": editions}
+    discovery_path = Path(root) / "src/lib/discovery.json"
+    return {"locales": locales, "routes": routes, "wrappers": wrappers, "editions": editions,
+            "works": {identifier: works[identifier] for identifier in visible},
+            "discovery": json.loads(discovery_path.read_text(encoding="utf-8")) if discovery_path.exists() else {}}
 
 
 def validate_url(value, canonical_base, *, page=False):
@@ -158,10 +169,17 @@ class PageHead(HTMLParser):
         self.links, self.metas, self.structured = [], [], []
         self.document_language = None
         self.capture_json = None
+        self.capture_summary = None
+        self.summaries, self.ids = [], set()
+        self.capture_citation_source = None
+        self.citations, self.citation_sources, self.citation_links = [], [], []
+        self.scripts, self.capture_script = [], None
         self.feed(markup)
 
     def handle_starttag(self, tag, attrs):
         values = dict(attrs)
+        if values.get("id"):
+            self.ids.add(values["id"])
         if tag == "html":
             self.document_language = values.get("lang")
         if tag == "head":
@@ -172,15 +190,41 @@ class PageHead(HTMLParser):
             self.metas.append(values)
         if self.in_head and tag == "script" and values.get("type") == "application/ld+json":
             self.capture_json = ""
+        elif self.in_head and tag == "script":
+            self.capture_script = {"attributes": values, "text": ""}
+        if not self.in_head and tag == "p" and "data-work-summary" in values:
+            self.capture_summary = {"work_id": values["data-work-summary"], "language": values.get("lang"), "text": ""}
+        if tag == "details" and "data-citation-edition" in values:
+            self.citations.append(values)
+        if tag == "a" and "data-citation-url" in values:
+            self.citation_links.append(values.get("href"))
+        if tag == "p" and "data-citation-source" in values:
+            self.capture_citation_source = {"edition_id": values["data-citation-source"], "text": ""}
 
     def handle_data(self, data):
         if self.capture_json is not None:
             self.capture_json += data
+        if self.capture_summary is not None:
+            self.capture_summary["text"] += data
+        if self.capture_citation_source is not None:
+            self.capture_citation_source["text"] += data
+        if self.capture_script is not None:
+            self.capture_script["text"] += data
 
     def handle_endtag(self, tag):
         if tag == "script" and self.capture_json is not None:
+            require("<" not in self.capture_json, "Structured data must escape HTML-significant characters")
             self.structured.append(json.loads(self.capture_json))
             self.capture_json = None
+        if tag == "script" and self.capture_script is not None:
+            self.scripts.append(self.capture_script)
+            self.capture_script = None
+        if tag == "p" and self.capture_summary is not None:
+            self.summaries.append(self.capture_summary)
+            self.capture_summary = None
+        if tag == "p" and self.capture_citation_source is not None:
+            self.citation_sources.append(self.capture_citation_source)
+            self.capture_citation_source = None
         if tag == "head":
             self.in_head = False
 
@@ -199,6 +243,152 @@ class PageHead(HTMLParser):
         result = {link["hreflang"]: link.get("href") for link in links}
         require(len(result) == len(links), "Duplicate HTML hreflang language")
         return result
+
+
+def meta_value(head, name, *, property=False):
+    values = [meta.get("content") for meta in head.metas if meta.get("property" if property else "name") == name]
+    require(len(values) == 1 and isinstance(values[0], str) and bool(values[0].strip()), "Missing, empty or duplicate metadata: " + name)
+    return values[0]
+
+
+def validate_analytics(head, url):
+    """Preserve the async Google tag explicitly added upstream in b17dddd."""
+    loaders = [script["attributes"] for script in head.scripts if script["attributes"].get("src", "").startswith("https://www.googletagmanager.com/gtag/js")]
+    require(len(loaders) == 1 and loaders[0].get("src") == GOOGLE_ANALYTICS_SCRIPT and "async" in loaders[0], "Upstream async Analytics tag is missing or changed: " + url)
+    configurations = [identifier for script in head.scripts if not script["attributes"].get("src")
+                      for identifier in re.findall(r"\bgtag\(\s*['\"]config['\"]\s*,\s*['\"]([^'\"]+)['\"]", script["text"])]
+    require(configurations == [GOOGLE_ANALYTICS_ID], "Upstream Analytics configuration ID is missing, duplicated or changed: " + url)
+
+
+def json_objects(value):
+    if isinstance(value, dict):
+        yield value
+        for child in value.values():
+            yield from json_objects(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from json_objects(child)
+
+
+def png_dimensions(data, label):
+    """Read PNG dimensions and verify chunk integrity without a browser/library."""
+    require(data[:8] == b"\x89PNG\r\n\x1a\n", "Social image is not a PNG: " + label)
+    offset, dimensions, seen_data, ended = 8, None, False, False
+    while offset < len(data):
+        require(offset + 12 <= len(data), "Truncated PNG chunk: " + label)
+        length = struct.unpack(">I", data[offset:offset + 4])[0]
+        kind = data[offset + 4:offset + 8]
+        end = offset + 12 + length
+        require(end <= len(data), "Truncated PNG payload: " + label)
+        payload = data[offset + 8:end - 4]
+        require(zlib.crc32(kind + payload) & 0xffffffff == struct.unpack(">I", data[end - 4:end])[0], "PNG chunk checksum mismatch: " + label)
+        if offset == 8:
+            require(kind == b"IHDR" and length == 13, "PNG lacks its first IHDR chunk: " + label)
+            dimensions = struct.unpack(">II", payload[:8])
+            require(all(dimensions), "PNG dimensions must be positive: " + label)
+        elif kind == b"IHDR":
+            raise ValueError("Duplicate PNG header: " + label)
+        if kind == b"IDAT":
+            seen_data = True
+        offset = end
+        if kind == b"IEND":
+            require(length == 0 and offset == len(data), "Invalid PNG end/trailing data: " + label)
+            ended = True
+            break
+    require(ended and seen_data, "PNG lacks image data or its end marker: " + label)
+    return dimensions
+
+
+def validate_discovery(head, url, canonical, record, inventory, canonical_base):
+    description = meta_value(head, "description")
+    validate_analytics(head, url)
+    require(meta_value(head, "google-site-verification") == GOOGLE_SITE_VERIFICATION, "Google verification token changed: " + url)
+    require(meta_value(head, "og:description", property=True) == description and meta_value(head, "twitter:description") == description,
+            "Social descriptions differ from the localized page description: " + url)
+    require(meta_value(head, "twitter:title") == meta_value(head, "og:title", property=True), "Social titles differ: " + url)
+    require(meta_value(head, "og:site_name", property=True) == "LitMundi" and meta_value(head, "twitter:card") == "summary_large_image", "Incorrect social site/card metadata: " + url)
+    image = urljoin(canonical_base, "social/" + record.get("work_id", "site") + ".png")
+    require(meta_value(head, "og:image", property=True) == image and meta_value(head, "twitter:image") == image, "Incorrect canonical social image: " + url)
+    require(meta_value(head, "og:image:type", property=True) == "image/png" and
+            meta_value(head, "og:image:width", property=True) == "1200" and meta_value(head, "og:image:height", property=True) == "630",
+            "Social-image type/dimensions are incorrect: " + url)
+    require(meta_value(head, "og:image:alt", property=True) == meta_value(head, "twitter:image:alt"), "Social-image alternatives differ: " + url)
+    authors = {work["author"] for work in inventory["works"].values() if work.get("author")}
+    contributors = set(authors)
+    for edition in inventory["editions"].values():
+        credits = edition.get("credits", {})
+        if edition.get("review", {}).get("status") in ("bilingual_reviewed", "literary_edited", "expert_reviewed"):
+            contributors.update(credits.get("editors", []))
+            if credits.get("translator"):
+                contributors.add(credits["translator"])
+    for node in json_objects(head.structured):
+        types = node.get("@type", [])
+        types = types if isinstance(types, list) else [types]
+        require(not {"aggregateRating", "ratingValue", "reviewRating"}.intersection(node), "Editorial AI scores must not become public ratings: " + url)
+        require(not {"Review", "Rating", "AggregateRating"}.intersection(types), "Editorial assessments must not become reader reviews: " + url)
+        if "Person" in types:
+            require(node.get("name") in contributors, "Structured data invents a person or unpublished author: " + url)
+    graphs = [item["@graph"] for item in head.structured if isinstance(item, dict) and "@graph" in item]
+    require(len(graphs) == 1 and isinstance(graphs[0], list), "Expected one site-identity graph: " + url)
+    graph = graphs[0]
+    organizations = [item for item in graph if item.get("@type") == "Organization"]
+    websites = [item for item in graph if item.get("@type") == "WebSite"]
+    require(len(organizations) == 1 and len(websites) == 1, "Missing or duplicate site/publisher identities: " + url)
+    organization, website = organizations[0], websites[0]
+    require(organization.get("@id") == canonical_base + "#publisher" and organization.get("name") == "LitMundi" and organization.get("url") == canonical_base,
+            "Publisher identity differs from LitMundi: " + url)
+    require(website.get("@id") == canonical_base + "#website" and website.get("url") == canonical_base and website.get("publisher", {}).get("@id") == organization["@id"],
+            "WebSite/publisher relationship differs: " + url)
+    logo = organization.get("logo", {})
+    require(logo.get("@type") == "ImageObject" and logo.get("url") == urljoin(canonical_base, "social/logo.png") and logo.get("width") == 512 and logo.get("height") == 512,
+            "Publisher logo metadata differs: " + url)
+    breadcrumbs = [item for item in graph if item.get("@type") == "BreadcrumbList"]
+    require(len(breadcrumbs) == (0 if record["kind"] == "home" else 1), "Incorrect breadcrumb presence: " + url)
+    if breadcrumbs:
+        items = breadcrumbs[0].get("itemListElement", [])
+        require(len(items) >= 2, "Breadcrumb trail is incomplete: " + url)
+        targets = []
+        for position, item in enumerate(items, 1):
+            target = item.get("item")
+            if isinstance(target, dict):
+                target = target.get("@id") or target.get("url")
+            require(item.get("position") == position and bool(item.get("name")) and target in inventory["routes"], "Breadcrumb references a noncanonical/missing page: " + url)
+            targets.append(target)
+        require(targets[-1] == canonical and len(targets) == len(set(targets)), "Breadcrumbs must end at the canonical page without repeated ancestors: " + url)
+    if record["kind"] in ("work", "reader", "home", "authors"):
+        expected_ids = [record["work_id"]] if "work_id" in record else sorted(inventory["works"])
+        require(sorted(summary["work_id"] for summary in head.summaries) == sorted(expected_ids), "Visible work summaries differ from the public inventory: " + url)
+        for summary in head.summaries:
+            work = inventory["works"][summary["work_id"]]
+            translated = inventory["discovery"].get("summaries", {}).get(summary["work_id"], {})
+            language = head.document_language if head.document_language in translated else "en"
+            text = translated.get(head.document_language, work.get("description"))
+            require(summary["text"].strip() == text and summary["language"] == language, "Summary wording/language differs from the declared localized content: " + url)
+    if record["kind"] in ("home", "work", "authors"):
+        collections = [item for item in head.structured if item.get("@type") == "CollectionPage"]
+        require(len(collections) == 1, "Public collection needs one CollectionPage: " + url)
+        collection = collections[0]
+        require(collection.get("url") == canonical and collection.get("description") == description, "Collection metadata differs from its canonical page: " + url)
+        listing = collection.get("mainEntity", {})
+        items = listing.get("itemListElement", [])
+        require(listing.get("@type") == "ItemList" and listing.get("numberOfItems") == len(items), "Collection list count differs: " + url)
+        require([item.get("position") for item in items] == list(range(1, len(items) + 1)), "Collection positions are incomplete: " + url)
+        if record["kind"] == "authors":
+            require(sorted(item.get("item", {}).get("name", "") for item in items) == sorted(authors), "Author directory includes unpublished or duplicate authors: " + url)
+        else:
+            expected_ids = set(inventory["works"]) if record["kind"] == "home" else {edition["id"] for edition in inventory["editions"].values() if edition["work_id"] == record["work_id"]}
+            require(sorted(item.get("item", {}).get("identifier", "") for item in items) == sorted(expected_ids), "Collection includes missing/unpublished/duplicate works or editions: " + url)
+            for item in items:
+                require(item.get("item", {}).get("url") in inventory["routes"], "Collection item points to a noncanonical page: " + url)
+    if record["kind"] == "reader":
+        edition = record["edition"]
+        source = inventory["editions"].get(edition.get("source_edition_id")) if edition["kind"] == "translation" else edition
+        require(len(head.citations) == 1 and head.citations[0].get("data-citation-edition") == edition["id"] and head.citation_links == [canonical],
+                "Edition citation must identify its exact canonical publication: " + url)
+        require(head.citation_sources == [{"edition_id": source["id"], "text": source["provenance"]["citation"]}], "Edition citation differs from its actual source witness: " + url)
+        primary = next(item for item in head.structured if item.get("@type") == "CreativeWork")
+        require(primary.get("description") == head.summaries[0]["text"], "CreativeWork summary differs from visible content: " + url)
+    return description
 
 
 def validate_page(markup, url, inventory, canonical_base):
@@ -221,6 +411,7 @@ def validate_page(markup, url, inventory, canonical_base):
         require(len(data) == 1, "Reader must expose one CreativeWork: " + url)
         require(data[0].get("url") == canonical and data[0].get("@id") == canonical + "#edition", "Structured edition URLs differ from canonical: " + url)
         require(data[0].get("inLanguage") == edition["language"] and data[0].get("identifier") == edition["id"], "Structured text language/edition differs: " + url)
+    validate_discovery(head, url, canonical, record, inventory, canonical_base)
     return head
 
 
@@ -246,21 +437,35 @@ def verify_build(root, canonical_base):
         require(alternates == inventory["routes"][url]["alternates"], "XML hreflang differs from published language family: " + url)
         for href in alternates.values():
             require(href in actual and actual[href] == alternates, "Hreflang cluster is not canonical and reciprocal: " + url)
-    checked = set()
+    checked, descriptions = set(), {}
     for path in dist.rglob("*.html"):
         relative = path.relative_to(dist).as_posix().removesuffix("index.html")
         url = urljoin(canonical_base, relative)
         text = path.read_text(encoding="utf-8")
         head = PageHead(text)
         if url in inventory["routes"] or url in inventory["wrappers"]:
-            validate_page(text, url, inventory, canonical_base)
+            head = validate_page(text, url, inventory, canonical_base)
+            descriptions[url] = meta_value(head, "description")
             checked.add(url)
         else:
             require(head.noindex, "Unexpected indexable HTML page outside public inventory: " + url)
             require(not head.alternates, "Noindex pages must not emit hreflang: " + url)
+            if path.name != "404.html":
+                require(meta_value(head, "google-site-verification") == GOOGLE_SITE_VERIFICATION, "Google verification token changed on a nonindexable page: " + url)
+                validate_analytics(head, url)
     require(set(inventory["routes"]) <= checked and set(inventory["wrappers"]) <= checked, "Canonical or interface reader route missing from build")
+    for locale in inventory["locales"]:
+        values = [descriptions[url] for url, record in inventory["routes"].items() if record["locale"] == locale]
+        require(len(values) == len(set(values)), "Canonical descriptions must be unique within interface locale: " + locale)
+    for suffix in ["", "quality/", "about/", "authors/", *("works/" + identifier + "/" for identifier in inventory["works"])]:
+        values = [descriptions[urljoin(canonical_base, locale + "/" + suffix)] for locale in inventory["locales"]]
+        require(len(values) == len(set(values)), "Localized pages reuse an untranslated description: " + suffix)
+    social_images = {"site.png": (1200, 630), "logo.png": (512, 512), **{identifier + ".png": (1200, 630) for identifier in inventory["works"]}}
+    for name, dimensions in social_images.items():
+        require(png_dimensions((dist / "social" / name).read_bytes(), name) == dimensions, "Wrong social PNG dimensions: " + name)
     robots = (dist / "robots.txt").read_text(encoding="utf-8")
     require("Sitemap: " + urljoin(canonical_base, "sitemap-index.xml") in robots, "Project robots template must advertise the index")
     return {"urls": sorted(actual), "child_sitemaps": [info["name"] for info in children.values()],
             "locale_counts": {locale: sum(record["locale"] == locale for record in inventory["routes"].values()) for locale in inventory["locales"]},
-            "checked_html_pages": len(checked)}
+            "checked_html_pages": len(checked), "social_images": {"social/" + name: list(dimensions) for name, dimensions in social_images.items()},
+            "unique_descriptions": len(set(descriptions.values()))}

@@ -1,7 +1,7 @@
 import {isPublicEdition} from './reader-data.mjs';
 
 /** @typedef {{hreflang:string, href:string}} Alternate */
-/** @typedef {{url:string,path:string,locale:string,kind:'home'|'quality'|'work'|'reader',workId?:string,editionId?:string,alternates:Alternate[],sourceFiles:string[],lastmod?:string}} SeoEntry */
+/** @typedef {{url:string,path:string,locale:string,kind:'home'|'quality'|'authors'|'about'|'work'|'reader',workId?:string,editionId?:string,alternates:Alternate[],sourceFiles:string[],lastmod?:string}} SeoEntry */
 
 // Match the corpus schema instead of introducing a second identifier policy.
 const idPattern = /^[a-z][a-z0-9-]+$/;
@@ -42,18 +42,23 @@ const sharedInputs = [
   'astro.config.mjs', 'src/layouts/Base.astro', 'src/styles/global.css',
   'src/lib/locales.json', 'src/lib/i18n.ts', 'src/lib/urls.ts', 'src/lib/seo.ts',
   'scripts/lib/seo.mjs', 'scripts/lib/reader-data.mjs', 'corpus/reviews/rubric-literary-v2.json',
+  'src/lib/discovery.json','src/lib/discovery.ts','scripts/lib/discovery.mjs',
+  'scripts/social-images.mjs','scripts/fonts/DejaVuSerif.ttf','public/favicon.svg','package.json','package-lock.json',
 ];
 const catalogInputs = ['corpus/catalog/works.json','corpus/catalog/editions.json','corpus/catalog/languages.json','src/lib/corpus.ts','src/components/OriginalTitle.astro'];
 
 function sourceFiles(kind, edition, source) {
   const inputs = [...sharedInputs];
   if (kind==='quality') inputs.push('src/pages/[lang]/quality.astro');
+  else if (kind==='about') inputs.push('src/pages/[lang]/about.astro','src/lib/about-content.json');
   else {
     inputs.push(...catalogInputs);
     if (kind==='home') inputs.push('src/pages/[lang]/index.astro');
+    if (kind==='authors') inputs.push('src/pages/[lang]/authors.astro');
     if (kind==='work') inputs.push('src/pages/[lang]/works/[work].astro');
     if (kind==='reader') {
       inputs.push('src/pages/[lang]/read/[work]/[edition].astro','src/components/Passage.astro',
+        'src/components/Citation.astro',
         'src/scripts/reading-progress.ts',edition.content_path,'corpus/structure/'+edition.work_id+'.json');
       if (source) inputs.push(source.content_path,'corpus/alignments/'+edition.work_id+'/'+edition.id+'.json');
     }
@@ -92,6 +97,7 @@ export function createSeoManifest({works,editions,locales,site,base='/'}) {
   for (const locale of languages) {
     for (const [kind,suffix,workId] of [
       ['home','',undefined],['quality','quality/',undefined],
+      ['authors','authors/',undefined],['about','about/',undefined],
       ...visible.map(work=>['work','works/'+work.id+'/',work.id]),
     ]) {
       const path=pagePath(locale,suffix);

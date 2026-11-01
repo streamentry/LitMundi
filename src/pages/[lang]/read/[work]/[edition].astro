@@ -2,12 +2,14 @@
 import Base from '../../../../layouts/Base.astro';
 import Passage from '../../../../components/Passage.astro';
 import OriginalTitle from '../../../../components/OriginalTitle.astro';
+import Citation from '../../../../components/Citation.astro';
 import {strings,supported,type Locale} from '../../../../lib/i18n';
 import {catalog,languageNames,issueUrl,passagesFor,readableEditions,publishedEditions,resolveEdition,parallelFor,publicWorks,bestEdition,reviewCategory,editionTitle} from '../../../../lib/corpus';
 import {pagePath,assetPath} from '../../../../lib/urls';
 import {canonicalEditionPath} from '../../../../lib/seo';
+import {labels,workSummary,authorSlug,readerPageTitle,readerPageDescription} from '../../../../lib/discovery';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.flatMap(w=>readableEditions(w.id).flatMap(e=>[e.id,...e.legacy_slugs].map(slug=>({params:{lang,work:w.id,edition:slug}})))));}
-const lang=Astro.params.lang as Locale,t=strings[lang];
+const lang=Astro.params.lang as Locale,t=strings[lang],d=labels(lang);
 const w=catalog.find(w=>w.id===Astro.params.work)!;
 const e=resolveEdition(w.id,Astro.params.edition!)!;
 const title=editionTitle(w,e),titleLanguage=e.title?e.language:w.original_language;
@@ -17,6 +19,9 @@ const passages=passagesFor(e),parallel=parallelFor(e),reading=readableEditions(w
 const published=e.status==='published'&&w.visibility==='public',noindex=!published||legacy;
 const canonical=published?canonicalEditionPath(e):current;
 const canonicalUrl=new URL(canonical,Astro.site).href;
+const summary=workSummary(w,lang);
+const authorUrl=new URL(pagePath('en','authors'),Astro.site).href+'#'+authorSlug(w.author);
+const breadcrumbs=[{name:d.collection,href:pagePath(lang)},{name:editionTitle(w,bestEdition(w,lang)),href:pagePath(lang,'works',w.id)},{name:title,href:canonical}];
 const category=reviewCategory(e);
 const notice=category==='ai'?t.aiNotice:category==='human'?t.humanNotice:category==='source'?t.sourceNotice:t.translationNotice;
 const badge=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewed:category==='source'?t.sourcePublished:t.translationPublished;
@@ -32,9 +37,10 @@ const translations=publishedEditions(w.id).filter(edition=>edition.kind==='trans
 const structuredData=published?{
   '@context':'https://schema.org','@type':'CreativeWork','@id':canonicalUrl+'#edition',
   name:title,alternateName:showOriginal?w.title:undefined,
-  author:{'@type':'Person',name:w.author},inLanguage:e.language,
+  author:{'@type':'Person','@id':authorUrl,url:authorUrl,name:w.author},inLanguage:e.language,
+  publisher:{'@id':new URL(pagePath(),Astro.site).href+'#publisher'},
   url:canonicalUrl,mainEntityOfPage:canonicalUrl,identifier:e.id,isAccessibleForFree:true,
-  description:w.description,version:e.label,citation:e.provenance.citation,
+  description:summary.text,version:e.label,citation:parallel?.source.provenance.citation??e.provenance.citation,
   isBasedOn:e.provenance.text_url??undefined,
   translationOfWork:parallel?editionReference(parallel.source):undefined,
   workTranslation:translations.length?translations.map(editionReference):undefined,
@@ -45,11 +51,12 @@ const structuredData=published?{
   ...(e.rights.license==='CC-BY-4.0'?{license:'https://creativecommons.org/licenses/by/4.0/'}:e.rights.license==='CC0-1.0'?{license:'https://creativecommons.org/publicdomain/zero/1.0/'}:{})
 }:undefined;
 ---
-<Base lang={lang} title={title+' — '+(languageNames[e.language]??e.language)} description={w.description} noindex={noindex} canonicalPath={canonical} structuredData={structuredData}>
+<Base lang={lang} title={readerPageTitle(w,e,languageNames)} description={readerPageDescription(w,e,lang,languageNames)} noindex={noindex} canonicalPath={canonical} structuredData={structuredData} breadcrumbs={breadcrumbs} socialImage={published?assetPath('social/'+w.id+'.png'):undefined} socialImageAlt={published?w.title+' — '+w.author:undefined}>
 <div class="container"><section class="reader-head">
-  <p class="eyebrow"><a href={pagePath(lang)+'?author='+encodeURIComponent(w.author)+'#collection'}>{w.author}</a> · {languageNames[e.language]??e.language}</p>
+  <p class="eyebrow">{published?<a href={pagePath(lang,'authors')+'#'+authorSlug(w.author)}>{w.author}</a>:w.author} · {languageNames[e.language]??e.language}</p>
   <h1 lang={titleLanguage} data-edition-title={e.id}>{title}</h1>
   {showOriginal&&<OriginalTitle title={w.title} language={w.original_language} locale={lang}/>}
+  <p lang={summary.language} data-work-summary={w.id}>{summary.text}</p>
   <p class="muted" lang={e.kind==='source'?'en':e.language}>{e.label}</p>
   <div class="tools"><a href={pagePath(lang,'works',w.id)}>← {t.all}</a><a href={issueUrl(w.id,e.id)}>{t.feedback} <span aria-hidden="true">↗</span></a></div>
   <details class="edition-picker"><summary>{t.edition}: {languageNames[e.language]??e.language}</summary><ul>{reading.map(other=><li><a href={pagePath(lang,'read',w.id,other.id)} aria-current={other.id===e.id?'page':undefined}><span lang={other.title?other.language:w.original_language}>{editionTitle(w,other)}</span> · {languageNames[other.language]??other.language} · {other.label}</a></li>)}</ul></details>
@@ -69,6 +76,7 @@ const structuredData=published?{
     <dt>{t.rights}</dt><dd><p lang="en">{e.rights.basis}</p><ul>{e.rights.evidence_urls.map(url=><li><a href={url}>{url}</a></li>)}</ul></dd>
   </dl></details>
   {published&&<details class="metadata"><summary>{t.download}</summary><p>{t.downloadHint}</p><div class="download-links">{['json','txt','epub'].map(format=><a href={assetPath('downloads/'+e.id+'.'+format)} download>{format.toUpperCase()}</a>)}</div></details>}
+  {published&&<Citation work={w} edition={e} source={parallel?.source} locale={lang}/>}
 </section></div>
 <div class="reader-shell" data-edition={e.id}>
   <div class="reading-tools">
