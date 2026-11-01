@@ -17,6 +17,9 @@ try {
   const extractCode='import pathlib,sys,zipfile\nwith zipfile.ZipFile(sys.argv[1]) as z:\n assert z.testzip() is None, "Corrupt ZIP member"\n for name in z.namelist():\n  p=pathlib.PurePosixPath(name)\n  assert not p.is_absolute() and ".." not in p.parts and "\\\\" not in name, "Unsafe ZIP path"\n z.extractall(sys.argv[2])';
   const extract=spawnSync('python3',['-I','-c',extractCode,path.resolve('dist-archive.zip'),archive],{cwd:temp,encoding:'utf8'});
   assert.equal(extract.status,0,extract.stderr);
+  for(const file of ['TODO.md','research/vietnamese-translation-backlog.json']){
+    assert.equal(sha256(await fs.readFile(path.join(archive,file))),sha256(await fs.readFile(file)),'Archive must retain the complete translation queue: '+file);
+  }
   // Only the exported Python script is available; network use is explicitly disabled.
   const wrapper='import socket,runpy,sys\ndef blocked(*a,**k): raise RuntimeError("Network forbidden in restoration drill")\nsocket.socket=blocked\nsocket.create_connection=blocked\nroot,output=sys.argv[1:]\nsys.argv=["restore.py","--archive",root,"--output",output]\nrunpy.run_path(root+"/restore.py",run_name="__main__")';
   const restore=spawnSync('python3',['-I','-c',wrapper,archive,output],{cwd:temp,encoding:'utf8'});

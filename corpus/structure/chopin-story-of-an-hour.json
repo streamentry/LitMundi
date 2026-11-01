@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "work_id": "chopin-story-of-an-hour",
+  "segment_ids": [
+    "chopin-story-of-an-hour:1.1",
+    "chopin-story-of-an-hour:1.2",
+    "chopin-story-of-an-hour:1.3",
+    "chopin-story-of-an-hour:1.4",
+    "chopin-story-of-an-hour:1.5",
+    "chopin-story-of-an-hour:1.6",
+    "chopin-story-of-an-hour:1.7",
+    "chopin-story-of-an-hour:1.8",
+    "chopin-story-of-an-hour:1.9",
+    "chopin-story-of-an-hour:1.10",
+    "chopin-story-of-an-hour:1.11",
+    "chopin-story-of-an-hour:1.12",
+    "chopin-story-of-an-hour:1.13",
+    "chopin-story-of-an-hour:1.14",
+    "chopin-story-of-an-hour:1.15",
+    "chopin-story-of-an-hour:1.16",
+    "chopin-story-of-an-hour:1.17",
+    "chopin-story-of-an-hour:1.18",
+    "chopin-story-of-an-hour:1.19",
+    "chopin-story-of-an-hour:1.20",
+    "chopin-story-of-an-hour:1.21",
+    "chopin-story-of-an-hour:1.22",
+    "chopin-story-of-an-hour:1.23"
+  ],
+  "deprecated_ids": {},
+  "notes": "Canonical units follow every prose paragraph in the selected complete electronic witness. The title is edition metadata; surrounding editorial notes, headings and navigation are excluded. Passage IDs are immutable and may not be reassigned."
+}

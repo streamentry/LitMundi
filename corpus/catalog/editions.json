@@ -456,8 +456,8 @@
     "language": "vi",
     "title": "Dải ren rách",
     "kind": "translation",
-    "status": "draft",
-    "label": "Bản thảo tiếng Việt bằng AI · chưa đạt ngưỡng xuất bản 8.6",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
     "content_path": "corpus/segments/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026.json",
     "source_edition_id": "pardo-encaje-es-administracion-c1898",
     "legacy_slugs": [],
@@ -503,14 +503,264 @@
         "litmundi-ai-literary-assessment"
       ],
       "rubric_id": "litmundi-literary-v2",
-      "score": 8.55,
+      "score": 8.63,
       "record_paths": [
-        "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json"
+        "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-batch-001-2026-11-01.json"
       ],
       "evidence_urls": [
-        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json"
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-batch-001-2026-11-01.json"
       ],
-      "notes": "AI literary assessment under v2: weighted score 8.55/10 (unrounded 8.55); publication threshold 8.6. All canonical passages were compared with the exact source and target hashes. This is an AI evaluation, not an independent human endorsement or calibrated quality measurement. Readers may submit corrections after publication. Same-model author/assessor correlation and prior-score exposure are disclosed in the record. Fresh title-aware review rechecked every body passage and records the exact source and Vietnamese edition titles. Body text and scores are unchanged; the previous review remains history."
+      "notes": "Fresh complete AI literary assessment: unrounded weighted score 8.625/10, threshold8.6. All 15 source/target paragraphs and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment and correlated AI peer feedback are disclosed; no independent human certification or model diversity is claimed. Earlier records remain history. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "ChatGPT (AI translation and literary revision)"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
+  },
+  {
+    "id": "chopin-hour-en-1895",
+    "work_id": "chopin-story-of-an-hour",
+    "language": "en",
+    "title": "The Story of an Hour",
+    "kind": "source",
+    "status": "published",
+    "label": "The Story of an Hour · English, 1895 readings",
+    "content_path": "corpus/segments/chopin-story-of-an-hour/chopin-hour-en-1895.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Kate Chopin, first published as “The Dream of an Hour”, Vogue, 6 December 1894; revised readings published in St. Louis Life, 5 January 1895. Selected electronic text: Kate Chopin International Society, “The Story of an Hour”, explicitly including the 1895 readings. The site identifies Per Seyersted’s Complete Works text as its transcription basis; no modern annotations are reproduced.",
+      "catalog_url": "https://www.katechopin.org/the-story-of-an-hour/",
+      "text_url": "https://www.katechopin.org/story-hour/",
+      "retrieved_at": "2026-11-01",
+      "source_witness": "Complete 23-paragraph Society electronic transcription containing the 1895 her reading and the separate But Richards was too late paragraph. Not a claim of newly collated 1894/1895 print pages; authorship of the historical handwritten changes is disputed in the Society’s notes."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Kate Chopin text)",
+      "basis": "Term-based assessment on 2026-11-01: the underlying story and selected historical readings were published in 1894/1895, beyond the US 95-year maximum publication term. Kate Chopin died in 1904, so Vietnam’s ordinary literary life-plus-50 term has also expired. The Society explicitly identifies the story as public domain and available for reprinting. Only historical story wording is reused; modern introductions, notes, website design and scanned images are excluded. The 2026 COV account of Law 131/2025/QH15 does not list Article 27 among amended copyright provisions. Respect attribution and integrity; no worldwide clearance or independent legal opinion is asserted.",
+      "jurisdictions_assessed": [
+        "US",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://www.katechopin.org/story-hour/",
+        "https://www.katechopin.org/the-story-of-an-hour/",
+        "https://www.katechopin.org/faq/",
+        "https://www.katechopin.org/biography/",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Kate Chopin",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://www.katechopin.org/story-hour/",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/chopin-hour-en-1895.json"
+      ],
+      "notes": "Technical extraction and complete AI-assisted paragraph comparison cover all 23 canonical units. Source-check metadata records exact hashes, witness boundaries, normalization and access limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "chopin-hour-vi-ai-2026",
+    "work_id": "chopin-story-of-an-hour",
+    "language": "vi",
+    "title": "Chuyện trong một giờ",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/chopin-story-of-an-hour/chopin-hour-vi-ai-2026.json",
+    "source_edition_id": "chopin-hour-en-1895",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified English source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-01",
+      "source_witness": "chopin-hour-en-1895"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://openai.com/policies/services-agreement/",
+        "https://www.katechopin.org/story-hour/",
+        "https://www.katechopin.org/the-story-of-an-hour/",
+        "https://www.katechopin.org/faq/",
+        "https://www.katechopin.org/biography/",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Kate Chopin",
+      "translator": "LitMundi AI translation (ChatGPT)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.8,
+      "record_paths": [
+        "corpus/reviews/chopin-story-of-an-hour/chopin-hour-vi-ai-2026/ai-review-v2-batch-001-2026-11-01.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/chopin-story-of-an-hour/chopin-hour-vi-ai-2026/ai-review-v2-batch-001-2026-11-01.json"
+      ],
+      "notes": "Fresh complete AI literary assessment: unrounded weighted score 8.800/10, threshold8.6. All 23 source/target paragraphs and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment and correlated AI peer feedback are disclosed; no independent human certification or model diversity is claimed. Earlier records remain history. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "ChatGPT (AI translation and literary revision)"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
+  },
+  {
+    "id": "saki-open-window-en-john-lane-1914",
+    "work_id": "saki-the-open-window",
+    "language": "en",
+    "title": "The Open Window",
+    "kind": "source",
+    "status": "published",
+    "label": "The Open Window · English, John Lane 1914",
+    "content_path": "corpus/segments/saki-the-open-window/saki-open-window-en-john-lane-1914.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "H. H. Munro (Saki), “The Open Window”, Beasts and Super-Beasts (London: John Lane, The Bodley Head; New York: John Lane Company; Toronto: Bell & Cockburn, 1914). David Price’s electronic transcription, Project Gutenberg #269. The author’s note credits prior publication in the Westminster Gazette; the Annotated Saki bibliography dates it to 18 November 1911.",
+      "catalog_url": "https://www.gutenberg.org/ebooks/269",
+      "text_url": "https://www.gutenberg.org/files/269/269-h/269-h.htm",
+      "retrieved_at": "2026-11-01",
+      "source_witness": "The complete THE OPEN WINDOW section, 29 HTML paragraphs before THE TREASURE-SHIP, in Project Gutenberg #269’s transcription of the 1914 John Lane edition. No claim of a newly inspected physical facsimile."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Saki (H. H. Munro) text)",
+      "basis": "Term-based assessment on 2026-11-01: the selected story is in the 1914 John Lane witness, beyond the US 95-year maximum publication term; Project Gutenberg also labels this edition public domain in the USA. Saki (Hector Hugh Munro) died in 1916, so the UK ordinary literary life-plus-70 term and Vietnam’s life-plus-50 term have expired. Only the underlying story is reused, without Gutenberg packaging, modern annotations or scans. The 2026 COV account of Law 131/2025/QH15 does not list Article 27 among amended copyright provisions. Attribution and integrity remain relevant. This is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "UK",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://www.gutenberg.org/ebooks/269",
+        "https://www.gutenberg.org/files/269/269-h/269-h.htm",
+        "https://www.annotated-saki.info/first-publication/",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://www.legislation.gov.uk/ukpga/1988/48/section/12?view=plain",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Saki (H. H. Munro)",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://www.gutenberg.org/files/269/269-h/269-h.htm",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/saki-open-window-en-john-lane-1914.json"
+      ],
+      "notes": "Technical extraction and complete AI-assisted paragraph comparison cover all 29 canonical units. Source-check metadata records exact hashes, witness boundaries, normalization and access limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "saki-open-window-vi-ai-2026",
+    "work_id": "saki-the-open-window",
+    "language": "vi",
+    "title": "Cửa sổ để ngỏ",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/saki-the-open-window/saki-open-window-vi-ai-2026.json",
+    "source_edition_id": "saki-open-window-en-john-lane-1914",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified English source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-01",
+      "source_witness": "saki-open-window-en-john-lane-1914"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "UK",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://openai.com/policies/services-agreement/",
+        "https://www.gutenberg.org/ebooks/269",
+        "https://www.gutenberg.org/files/269/269-h/269-h.htm",
+        "https://www.annotated-saki.info/first-publication/",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://www.legislation.gov.uk/ukpga/1988/48/section/12?view=plain",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Saki (H. H. Munro)",
+      "translator": "LitMundi AI translation (ChatGPT)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.88,
+      "record_paths": [
+        "corpus/reviews/saki-the-open-window/saki-open-window-vi-ai-2026/ai-review-v2-batch-001-2026-11-01.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/saki-the-open-window/saki-open-window-vi-ai-2026/ai-review-v2-batch-001-2026-11-01.json"
+      ],
+      "notes": "Fresh complete AI literary assessment: unrounded weighted score 8.875/10, threshold8.6. All 29 source/target paragraphs and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment and correlated AI peer feedback are disclosed; no independent human certification or model diversity is claimed. Earlier records remain history. Readers may submit corrections after publication."
     },
     "publication_policy": "litmundi-literary-v2",
     "generation": {

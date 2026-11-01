@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LitMundi 500-work Vietnamese translation backlog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "created_on", "updated_on", "target_language", "scope", "methodology", "sources", "works"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "created_on": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "updated_on": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "target_language": {"const": "vi"},
+    "scope": {"type": "string", "minLength": 80},
+    "methodology": {"type": "array", "minItems": 4, "items": {"type": "string", "minLength": 30}},
+    "sources": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "url", "title", "access", "scope", "checked_on"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+          "url": {"type": "string", "minLength": 10},
+          "title": {"type": "string", "minLength": 3},
+          "access": {"enum": ["opened", "search_result", "catalog_metadata"]},
+          "scope": {"type": "string", "minLength": 20},
+          "checked_on": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+        }
+      }
+    },
+    "works": {
+      "type": "array", "minItems": 500, "maxItems": 500,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "queue_order", "title", "author", "original_language", "publication_year", "form", "tradition", "priority_band", "rationale", "source_ids", "rights_screen", "rights_note", "status", "vietnamese_supply", "publication_edition_id"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+          "queue_order": {"type": "integer", "minimum": 1, "maximum": 500},
+          "title": {"type": "string", "minLength": 1},
+          "author": {"type": "string", "minLength": 2},
+          "original_language": {"type": "string", "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$"},
+          "publication_year": {"type": ["integer", "null"], "minimum": -3000},
+          "form": {"enum": ["novel", "novella", "short_story", "play", "poetry_collection", "poem", "epic", "essay", "memoir", "collection"]},
+          "tradition": {"type": "string", "minLength": 2},
+          "priority_band": {"type": "integer", "minimum": 1, "maximum": 5},
+          "rationale": {"type": "string", "minLength": 25},
+          "source_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+          "rights_screen": {"enum": ["likely_public_domain", "permission_required", "unassessed", "cleared_in_corpus"]},
+          "rights_note": {"type": "string", "minLength": 20},
+          "status": {"enum": ["todo", "translating", "in_review", "blocked_rights", "blocked_source", "published"]},
+          "vietnamese_supply": {
+            "type": "object", "additionalProperties": false,
+            "required": ["status", "atlas_work_id", "note"],
+            "properties": {
+              "status": {"enum": ["not_audited", "atlas_evidence_available"]},
+              "atlas_work_id": {"type": ["string", "null"]},
+              "note": {"type": "string", "minLength": 30}
+            }
+          },
+          "publication_edition_id": {"type": ["string", "null"]}
+        }
+      }
+    }
+  }
+}

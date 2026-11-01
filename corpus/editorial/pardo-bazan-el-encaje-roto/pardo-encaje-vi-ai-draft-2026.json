@@ -5,10 +5,10 @@
   "source_edition_id": "pardo-encaje-es-administracion-c1898",
   "title_vi": "Dải ren rách",
   "updated_at": "2026-11-01",
-  "stage": "ai_review_below_threshold",
+  "stage": "published_ai_reviewed",
   "translation_direction": "es → vi; direct from Spanish Administración [1898?] facsimile transcription",
   "source_sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e",
-  "target_sha256": "ec7de7c45c293cb21c38a9054993f8fd072b5263046c3fcce14c7ee610c08f29",
+  "target_sha256": "14eb7a2cd4c10a4b434a8cff70e05582572e07f92d3923f291481dc033cf8789",
   "coverage": {
     "canonical_passages": 15,
     "translated_passages": 15,
@@ -49,11 +49,11 @@
     },
     {
       "source_term": "Alenzón / una tercia",
-      "draft_rendering": "Alençon / một tercia",
+      "draft_rendering": "Alençon / một phần ba thước Tây Ban Nha",
       "alternatives": [
         "ren Alençon / rộng một phần ba vara"
       ],
-      "rationale": "The original’s historical Alenzón spelling is retained in Spanish; the Vietnamese uses the established French place name. RAE defines tercia as one third of a vara. Retain the unit and explain in notes, rather than silently convert a locally variable historical measure into an exact centimeter value.",
+      "rationale": "Tercia is one third of a vara. The Vietnamese now explains the fraction within the prose and identifies the Spanish measure; it does not equate the historical vara with a modern Vietnamese meter or assert a precise centimeter conversion.",
       "passages": [
         "pardo-bazan-el-encaje-roto:1.10"
       ],
@@ -77,11 +77,11 @@
     },
     {
       "source_term": "roca antigua del aderezo nupcial",
-      "draft_rendering": "những viên đá quý cổ trong bộ trang sức cưới",
+      "draft_rendering": "ánh đá quý cổ của bộ nữ trang cưới",
       "alternatives": [
         "đá quý cổ của bộ trang sức cưới"
       ],
-      "rationale": "Provisional contextual reading of the bridal jewels. The singular/collective roca is not securely resolved as a specific mineral or cut by the modern RAE entry; do not confidently claim diamond or rock crystal. A historical costume/jewelry source is still needed.",
+      "rationale": "Keep the antique-jewelry image and dew-like light while avoiding an unsupported count, mineral or cut. Exact historical terminology remains a minor open question.",
       "passages": [
         "pardo-bazan-el-encaje-roto:1.4"
       ],
@@ -116,11 +116,11 @@
     },
     {
       "source_term": "un decir Jesús",
-      "draft_rendering": "trong chớp mắt, vừa đủ thốt tiếng Giêsu",
+      "draft_rendering": "trong chớp mắt",
       "alternatives": [
         "trong chớp mắt"
       ],
-      "rationale": "The idiom means an instant; retain its religious utterance as well as the temporal meaning, but evaluate whether the explanatory doubling is too obtrusive.",
+      "rationale": "Use the conventional Vietnamese equivalent for an instant in spontaneous speech. The source’s literal religious utterance is acknowledged here; repeating it alongside an explanatory time gloss had made the dialogue heavier.",
       "passages": [
         "pardo-bazan-el-encaje-roto:1.8"
       ],
@@ -128,11 +128,11 @@
     },
     {
       "source_term": "violento / fiera y avinagrada condición",
-      "draft_rendering": "tính khí hung bạo / tính nết hung hãn, chua cay",
+      "draft_rendering": "hung bạo / hung hãn, cay nghiệt",
       "alternatives": [
         "dữ dằn / hung tợn, cay nghiệt"
       ],
-      "rationale": "The first draft’s nóng nảy underweighted the warning. Corrected after adversarial AI feedback. Do not go beyond the text to assert a documented act of physical abuse or translate it as vũ phu.",
+      "rationale": "Retain the distinction between reported violent disposition and behavior she actually sees. No documented physical assault or diagnosis is invented.",
       "passages": [
         "pardo-bazan-el-encaje-roto:1.9"
       ],
@@ -395,35 +395,28 @@
   },
   "unresolved_questions": [
     {
+      "segment": "pardo-bazan-el-encaje-roto:1.3",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The original’s exceptionally long accumulating sentence is redistributed within the same canonical paragraph. The social display and ironic distance survive, but some breathless syntactic pressure is reduced; this is a disclosed readability/period-cadence tradeoff."
+    },
+    {
       "segment": "pardo-bazan-el-encaje-roto:1.4",
       "category": "imagery_consistency",
       "severity": "minor",
       "status": "open",
-      "explanation": "Roca antigua is still rendered generally as antique precious stones. The precise historical jewelry material/cut and singular or collective force have not been established; a diamond or rock-crystal identification would be unsupported."
-    },
-    {
-      "segment": "pardo-bazan-el-encaje-roto:1.8",
-      "category": "literary_voice",
-      "severity": "minor",
-      "status": "open",
-      "explanation": "The rendering of un decir Jesús retains both an instant and the religious utterance. That explains the idiom but slightly overweights Micaelita’s conversational phrase. No more economical alternative was adopted without losing either aspect."
-    },
-    {
-      "segment": "pardo-bazan-el-encaje-roto:1.3",
-      "category": "target_naturalness",
-      "severity": "minor",
-      "status": "open",
-      "explanation": "The accumulating ceremony paragraph preserves the social display and imagined frame, but its Vietnamese breath groups and register remain uneven. The local repairs do not resolve the entire long-period cadence."
+      "explanation": "Roca antigua remains a deliberately general reference to antique jewelry/precious stone, now without an invented count of individual gems. The exact historical material or cut is not established; no diamond or rock-crystal identification is asserted."
     },
     {
       "segment": "pardo-bazan-el-encaje-roto:1.10",
       "category": "imagery_consistency",
       "severity": "minor",
       "status": "open",
-      "explanation": "The historical unit tercia remains in the text with an editorial glossary definition. This avoids an unsupported precise conversion but may interrupt an unannotated Vietnamese reading."
+      "explanation": "The phrase thước Tây Ban Nha identifies the historical vara context but does not give a modern numerical conversion. Readers may still need the glossary for an exact sense of scale; no false precision is supplied."
     }
   ],
-  "selection_limit": "This is a limited editorial feasibility pilot, not evidence of an absent Vietnamese translation or verified reader demand. The Translation Gap Atlas retains its bounded evidence; an AI quality score does not establish a reason to scale production.",
+  "selection_limit": "The owner selected this already-complete draft as the first item in the Vietnamese500-work program. Its release does not establish an absent Vietnamese translation, superiority over existing editions or measured reader demand. Earlier pilot-selection judgments remain historical research.",
   "additional_adversarial_read": {
     "review_kind": "ai_assisted_not_human",
     "date": "2026-11-01",
@@ -447,13 +440,13 @@
       "Maintainer authenticates qualifications, independence, review evidence, named editorial contribution and affirmative open-license permission."
     ]
   },
-  "ai_review_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json",
+  "ai_review_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-batch-001-2026-11-01.json",
   "preflight_record_status": "Historical v1 record, preserved with its original hashes; not the current v2 decision.",
   "current_quality_assessment": {
     "rubric_id": "litmundi-literary-v2",
-    "weighted_score": 8.55,
+    "weighted_score": 8.625,
     "threshold": 8.6,
-    "passes_ai_quality_gate": false,
+    "passes_ai_quality_gate": true,
     "publication_status_authority": "corpus/catalog/editions.json"
   },
   "revision_history": [
@@ -520,12 +513,71 @@
         }
       ],
       "historical_records": "Earlier v1 preflights and the separate adversarial record retain their original bytes and hashes."
+    },
+    {
+      "date": "2026-11-01",
+      "cycle": "vietnamese-500-batch-001",
+      "reviewer_kind": "ai",
+      "target_before_sha256": "ec7de7c45c293cb21c38a9054993f8fd072b5263046c3fcce14c7ee610c08f29",
+      "target_after_sha256": "14eb7a2cd4c10a4b434a8cff70e05582572e07f92d3923f291481dc033cf8789",
+      "previous_quality_assessment": {
+        "rubric_id": "litmundi-literary-v2",
+        "weighted_score": 8.55,
+        "threshold": 8.6,
+        "passes_ai_quality_gate": false,
+        "publication_status_authority": "corpus/catalog/editions.json"
+      },
+      "changes": [
+        {
+          "segment": "pardo-bazan-el-encaje-roto:1.3",
+          "before": "Điều khác thường trong cảnh tượng Micaelita gây nên chính là khung cảnh xã hội nơi chuyện xảy ra. Tôi tưởng như thấy cả bức tranh trước mắt, cứ tiếc mãi vì không được tận mắt xem. Tôi hình dung gian khách chật ních, cử tọa toàn bậc cao sang, những quý bà trong lụa, nhung, đeo chuỗi đá quý, vắt chiếc khăn mantilla trắng trên cánh tay để đến giờ hành lễ trùm lên đầu; những quý ông với huân chương lấp lánh, hay huy hiệu các dòng hiệp sĩ đính trên ngực áo đuôi tôm; mẹ cô dâu trang sức lộng lẫy, bận rộn, ân cần, từ nhóm này sang nhóm khác nhận lời chúc mừng; hai cô em gái xúc động, xinh xắn, chị mặc hồng, em mặc xanh, khoe những chiếc vòng ngọc lam, quà của ông anh rể tương lai; vị giám mục sẽ ban phép lành cho đôi lứa, vừa trang nghiêm vừa hòa nhã tiếp chuyện, mỉm cười, hạ cố buông vài câu đùa nhã nhặn hay lời khen ý nhị, trong khi ở cuối phòng thấp thoáng vẻ huyền nhiệm của gian nguyện phủ đầy hoa, hoa hồng trắng ngập từ sàn lên vòm nhỏ, nơi từng dải hồng và tử đinh hương trắng như tuyết quy tụ trên nền cành lá xanh được sắp đặt khéo léo; và trên bàn thờ, tượng Đức Mẹ che chở cho tòa dinh thự quý tộc, nửa khuất sau một bức màn hoa cam, cả một khoang hoa cam do ông chủ đất giàu sụ Aránguiz gửi từ Valencia, người bác kiêm người đỡ đầu của cô dâu, không đích thân đến vì tuổi già, đau yếu — những chi tiết được chuyền miệng, kèm những tính toán về gia tài lớn lao Micaelita sẽ thừa hưởng, thêm một hy vọng hạnh phúc cho đôi vợ chồng sắp về Valencia hưởng tuần trăng mật. — Giữa một nhóm đàn ông, tôi hình dung chú rể hơi bồn chồn, mặt tái đi một chút, vô tình cắn ria mép, nghiêng đầu đáp lại những câu trêu ý nhị, những lời tâng bốc người ta nói với mình...",
+          "after": "Điều khác thường trong cảnh tượng Micaelita gây nên là chính cái giới mà chuyện ấy xảy ra. Tôi tưởng như thấy cả bức tranh trước mắt, cứ tiếc mãi vì không được tận mắt chứng kiến. Tôi hình dung gian khách chật ních, cử tọa toàn bậc cao sang: những quý bà mặc lụa, mặc nhung, cổ đeo chuỗi đá quý, cánh tay vắt chiếc khăn mantilla trắng để trùm đầu khi hành lễ; những quý ông đeo huân chương lấp lánh, hoặc huy hiệu các dòng hiệp sĩ trên ngực áo đuôi tôm; mẹ cô dâu trang sức lộng lẫy, bận rộn, ân cần đi từ nhóm này sang nhóm khác nhận lời chúc mừng; hai cô em gái xúc động, xinh xắn, chị mặc hồng, em mặc xanh, khoe những chiếc vòng ngọc lam do người anh rể tương lai tặng. Vị giám mục sẽ ban phép lành cho đôi lứa đang tiếp chuyện, vừa trang nghiêm vừa hòa nhã, mỉm cười, hạ cố buông một câu đùa nhã nhặn hay lời khen ý nhị. Xa trong cùng thấp thoáng vẻ huyền nhiệm của gian nguyện phủ đầy hoa: hoa hồng trắng ngập từ sàn lên đến vòm nhỏ, nơi những dải hồng cùng tử đinh hương trắng như tuyết tụ lại trên nền cành lá xanh bày biện khéo léo. Trên bàn thờ, tượng Đức Mẹ che chở cho tòa dinh thự quý tộc nửa khuất sau màn hoa cam — cả một khoang chật hoa cam do ông chủ đất giàu sụ Aránguiz gửi từ Valencia. Ông là bác và cũng là người đỡ đầu của cô dâu, không đích thân đến vì tuổi già, đau yếu. Những chi tiết ấy được chuyền miệng, kèm theo những tính toán về gia tài lớn lao Micaelita sẽ thừa hưởng: thêm một viễn cảnh tốt đẹp cho đôi vợ chồng sắp về Valencia hưởng tuần trăng mật. Giữa một nhóm đàn ông, tôi hình dung chú rể hơi bồn chồn, mặt tái đi một chút, vô tình cắn ria mép, nghiêng đầu đáp lại những câu trêu ý nhị, những lời tâng bốc người ta dành cho mình...",
+          "reason": "Substantive Vietnamese cadence, idiom, measure or image refinement after renewed full source comparison; see current findings and glossary."
+        },
+        {
+          "segment": "pardo-bazan-el-encaje-roto:1.4",
+          "before": "Rồi sau hết, tôi thấy ở khung cửa thông vào các phòng bên trong hiện ra như một bóng hình: cô dâu, gương mặt khó trông rõ dưới làn mây vải tuyn mỏng, bước qua với tiếng lụa váy xào xạc, trên tóc ánh lên như đẫm sương những viên đá quý cổ trong bộ trang sức cưới... Nghi lễ đã được sắp đặt, đôi uyên ương tiến lên theo những người đỡ đầu, dáng cô trong trắng quỳ bên vóc chú rể thanh mảnh, đường hoàng... Gia đình chen lên phía trước, bạn bè và khách hiếu kỳ cũng tìm chỗ dễ nhìn; giữa sự im lặng và chăm chú kính cẩn của mọi người... vị giám mục đặt câu hỏi, và lời đáp là một tiếng “không” gọn sắc như phát súng, chắc nịch như viên đạn. Rồi — vẫn chỉ trong trí tưởng tượng — tôi thấy chú rể giật mình, quằn lên như bị thương; mẹ cô dâu lao tới che chở, bênh vực con; vị giám mục cứ hỏi lại, một cách bày tỏ kinh ngạc; cả đám đông rúng động; câu hỏi nóng ruột truyền đi trong một giây: “Chuyện gì thế? Có chuyện gì? Cô dâu đổ bệnh à? Cô ấy nói ‘không’ sao? Không thể nào... Nhưng có thật không? Thật là một màn!...”",
+          "after": "Rồi sau hết, ở khung cửa thông vào các phòng bên trong, tôi thấy cô dâu hiện ra như một bóng hình: gương mặt khó trông rõ dưới làn mây tuyn mỏng, bước chân làm lụa váy xào xạc, trên tóc lấp lánh như đọng sương ánh đá quý cổ của bộ nữ trang cưới... Nghi lễ bắt đầu được sắp đặt, đôi uyên ương tiến lên theo những người đỡ đầu; dáng cô trong trắng quỳ bên vóc chú rể thanh mảnh, đường hoàng... Gia đình chen lên phía trước, bạn bè và khách hiếu kỳ cũng tìm chỗ dễ nhìn. Giữa sự im lặng và chăm chú kính cẩn của mọi người... vị giám mục đặt câu hỏi, và lời đáp là một tiếng “không” gọn sắc như phát súng, chắc nịch như viên đạn. Rồi — vẫn chỉ trong trí tưởng tượng — tôi thấy chú rể giật mình, quằn lên như bị thương; mẹ cô dâu lao tới che chở, bênh vực con; vị giám mục cứ hỏi lại, như một cách bày tỏ kinh ngạc; cả đám đông rúng động. Trong chớp mắt, những câu hỏi nôn nóng truyền đi: “Chuyện gì thế? Có chuyện gì? Cô dâu đổ bệnh à? Cô ấy nói ‘không’ sao? Không thể nào... Nhưng có thật không? Thật là một màn!...”",
+          "reason": "Substantive Vietnamese cadence, idiom, measure or image refinement after renewed full source comparison; see current findings and glossary."
+        },
+        {
+          "segment": "pardo-bazan-el-encaje-roto:1.8",
+          "before": "— Chuyện ngớ ngẩn nhất đời... Chính vì ngớ ngẩn quá nên tôi không muốn nói; người ta luôn quy mọi việc về những nguyên do sâu xa, hệ trọng, mà không để ý đôi khi số phận chúng ta lại do những chuyện trẻ con, những chuyện nhỏ nhặt nhất trong mọi chuyện nhỏ nhặt định đoạt... Nhưng đó là những điều nhỏ nhặt có ý nghĩa, với một số người thì có ý nghĩa quá nhiều. Bà nghe xem chuyện đã xảy ra thế nào; tôi không hiểu nổi sao chẳng ai biết, vì nó xảy ra ngay ở đó, trước mặt tất cả mọi người; chỉ là họ không để ý, vì thật ra chỉ trong chớp mắt, vừa đủ thốt tiếng Giêsu.",
+          "after": "— Chuyện ngớ ngẩn nhất đời... Chính vì quá ngớ ngẩn nên tôi không muốn nói. Người ta bao giờ cũng quy mọi việc về những nguyên do sâu xa, hệ trọng, chẳng nghĩ đôi khi số phận mình lại do những chuyện trẻ con, những chuyện nhỏ nhặt nhất định đoạt... Nhưng có những điều nhỏ nhặt mà lại mang ý nghĩa, với một số người thì có ý nghĩa lớn lắm. Bà nghe xem chuyện đã xảy ra thế nào. Tôi không hiểu nổi sao chẳng ai biết: nó xảy ra ngay ở đó, trước mắt tất cả mọi người; chỉ là họ không để ý, vì tất cả thực sự chỉ diễn ra trong chớp mắt.",
+          "reason": "Substantive Vietnamese cadence, idiom, measure or image refinement after renewed full source comparison; see current findings and glossary."
+        },
+        {
+          "segment": "pardo-bazan-el-encaje-roto:1.9",
+          "before": "Bà biết đấy, đám cưới của tôi với Bernardo de Meneses tưởng như hội đủ mọi điều kiện, mọi bảo đảm cho hạnh phúc. Hơn nữa, tôi thú thật tôi rất thích chồng sắp cưới, thích hơn bất cứ người đàn ông nào tôi từng biết và hiện biết; tôi nghĩ mình đã yêu anh ấy. Điều duy nhất khiến tôi tiếc là không sao dò cho tường tính nết anh: có người cho rằng anh có tính khí hung bạo; nhưng trước mặt tôi, anh lúc nào cũng lịch thiệp, nhún nhường, mềm như chiếc găng tay, và tôi ngờ anh khoác lấy cái vẻ ấy để lừa tôi, để che một tính nết hung hãn, chua cay. Tôi đã nghìn lần nguyền rủa cảnh trói buộc của người phụ nữ chưa chồng: không thể lần theo bước chân vị hôn phu, tìm sâu vào sự thật, kiếm những lời kể ngay thẳng, thành thực đến trần trụi — chỉ những lời ấy mới làm tôi yên lòng. Tôi đã thử Bernardo mấy phen, anh đều vượt qua; cách cư xử của anh đúng mực đến nỗi tôi đi đến chỗ tin có thể gửi gắm cả tương lai, hạnh phúc của mình mà chẳng phải sợ gì.",
+          "after": "Bà biết đấy, đám cưới của tôi với Bernardo de Meneses tưởng như hội đủ mọi điều kiện, mọi bảo đảm cho hạnh phúc. Hơn nữa, tôi thú thật, tôi rất thích chồng sắp cưới, thích hơn bất cứ người đàn ông nào tôi từng biết hay hiện biết; tôi nghĩ mình đã yêu anh. Chỉ một điều khiến tôi buồn: không sao dò cho tường tính nết anh. Có người bảo anh hung bạo; nhưng trước mặt tôi, anh lúc nào cũng lịch thiệp, nhún nhường, mềm như chiếc găng tay. Tôi ngờ anh khoác lấy cái vẻ ấy để lừa tôi, che giấu một tính nết hung hãn, cay nghiệt. Tôi đã nghìn lần nguyền rủa những ràng buộc của người phụ nữ chưa chồng: không thể lần theo bước chân vị hôn phu, tìm đến tận sự thật, nghe những lời nhận xét ngay thẳng, thành thực đến phũ phàng — chỉ những lời ấy mới làm tôi yên lòng. Tôi đã thử Bernardo mấy phen, anh đều vượt qua. Cách cư xử của anh đúng mực đến nỗi tôi đi đến chỗ tin có thể gửi gắm tương lai và hạnh phúc của mình cho anh mà chẳng phải sợ gì.",
+          "reason": "Substantive Vietnamese cadence, idiom, measure or image refinement after renewed full source comparison; see current findings and glossary."
+        },
+        {
+          "segment": "pardo-bazan-el-encaje-roto:1.10",
+          "before": "Ngày cưới đã đến. Trong lúc mặc chiếc váy trắng, dù lòng xúc động là lẽ thường, tôi lại một lần nữa ngắm dải ren xếp nếp tuyệt đẹp trang trí trên váy, quà của chồng sắp cưới. Dải ren Alençon cổ chính hiệu ấy vốn thuộc về gia đình anh, rộng một tercia — thật tuyệt mỹ — hoa văn tinh xảo, còn nguyên vẹn, xứng đáng bày trong tủ kính viện bảo tàng. Khi tặng tôi, Bernardo cứ nhấn mạnh giá trị của nó, đến nỗi làm tôi sốt ruột: dẫu ren có quý mấy, người sắp làm chồng tôi cũng phải hiểu rằng với tôi, chừng ấy vẫn còn là ít.",
+          "after": "Ngày cưới đến. Khi mặc chiếc váy trắng, dù lòng không khỏi xúc động, tôi vẫn một lần nữa chú ý đến dải ren xếp nếp tuyệt đẹp trang trí trên váy, món quà của chồng sắp cưới. Dải ren Alençon cổ chính hiệu ấy vốn thuộc về gia đình anh, rộng một phần ba thước Tây Ban Nha — thật tuyệt mỹ — hoa văn tinh xảo, còn nguyên vẹn, xứng đáng bày trong tủ kính viện bảo tàng. Khi tặng tôi, Bernardo cứ nói mãi về giá trị của nó, đến nỗi tôi phát sốt ruột: dẫu ren có quý mấy, người sắp làm chồng tôi cũng phải hiểu rằng với tôi, chừng ấy vẫn còn là ít.",
+          "reason": "Substantive Vietnamese cadence, idiom, measure or image refinement after renewed full source comparison; see current findings and glossary."
+        },
+        {
+          "segment": "pardo-bazan-el-encaje-roto:1.11",
+          "before": "Trong khoảnh khắc trang nghiêm ấy, thấy nền sa tanh dày của chiếc váy làm nổi bật nét ren, tôi tưởng công trình tinh tế vô ngần kia là một lời hứa hạnh phúc, tấm ren mỏng manh mà bền chắc đang giữ hai trái tim trong những mắt lưới mảnh mai. Giấc mộng ấy làm tôi mê mải khi cất bước ra gian khách, nơi chồng sắp cưới đang chờ ở cửa. Tôi vui mừng vội đến chào anh, lần cuối trước khi thuộc về anh cả hồn lẫn xác; dải ren mắc vào một miếng sắt ở cửa, rủi thay, lúc cố gỡ ra, tôi nghe cái tiếng rách toạc không lẫn vào đâu được, và thấy một mảnh của dải ren lộng lẫy buông thõng trên váy. Nhưng tôi còn thấy một điều khác: mặt Bernardo co rúm, biến dạng vì giận dữ tột độ; mắt anh tóe lửa, miệng hé ra, đã sắp bật lời quở trách, nhục mạ... Anh không buông ra những lời ấy, vì thấy quanh mình đông người; nhưng trong cái chớp nhoáng ấy, một bức màn được kéo lên, để lộ phía sau một tâm hồn trần trụi.",
+          "after": "Trong giờ phút trang nghiêm ấy, nhìn nét ren nổi bật trên nền sa tanh dày của chiếc váy, tôi tưởng đường kim tinh tế kia là một lời hứa hạnh phúc; tấm ren mỏng manh mà bền chắc đang giữ hai trái tim trong những mắt lưới mảnh mai. Giấc mộng ấy làm tôi mê mải khi cất bước ra gian khách, nơi chồng sắp cưới đang chờ ở cửa. Tôi vui mừng vội đến chào anh, lần cuối trước khi thuộc về anh cả hồn lẫn xác. Dải ren mắc vào một miếng sắt ở cửa; rủi thay, lúc cố gỡ ra, tôi nghe cái tiếng rách toạc không lẫn vào đâu được, và thấy một mảnh của dải ren lộng lẫy buông thõng trên váy. Nhưng tôi còn thấy một điều khác: mặt Bernardo co rúm, biến dạng vì giận dữ tột độ; mắt anh tóe lửa, miệng hé ra, sắp bật lời quở trách, nhục mạ... Anh không buông ra những lời ấy, vì thấy quanh mình đông người. Nhưng trong khoảnh khắc thoáng qua đó, một bức màn được kéo lên, để lộ phía sau một tâm hồn trần trụi.",
+          "reason": "Substantive Vietnamese cadence, idiom, measure or image refinement after renewed full source comparison; see current findings and glossary."
+        },
+        {
+          "segment": "pardo-bazan-el-encaje-roto:1.12",
+          "before": "Hẳn sắc mặt tôi đã biến đổi; may sao, lớp tuyn của khăn voan che kín mặt. Trong tôi có thứ gì răng rắc, vỡ tan, và niềm hân hoan lúc bước qua ngưỡng cửa gian khách bỗng hóa nỗi kinh hãi sâu xa. Bernardo cứ hiện lên với cái vẻ giận dữ, khắc nghiệt, khinh miệt tôi vừa bắt gặp trên mặt anh; niềm xác tín ấy chiếm lấy tôi, kéo theo một niềm xác tín khác: tôi không thể, tôi không muốn trao mình cho người đàn ông như thế, cả lúc ấy lẫn bất cứ lúc nào... Vậy mà tôi vẫn đi dần đến bàn thờ, quỳ xuống, nghe lời khuyên răn của vị giám mục... Nhưng khi được hỏi, sự thật đã bật lên môi tôi, mãnh liệt, đáng sợ...",
+          "after": "Hẳn sắc mặt tôi đã biến đổi; may sao, lớp tuyn của khăn voan che kín mặt. Trong tôi, có thứ gì rạn vỡ, xé toạc, và niềm hân hoan lúc bước qua ngưỡng cửa gian khách hóa thành nỗi kinh hãi sâu xa. Trước mắt tôi, Bernardo cứ mang mãi cái vẻ giận dữ, khắc nghiệt, khinh miệt mà tôi vừa bắt gặp. Điều ấy đã thành một niềm tin chắc, kéo theo một điều khác: tôi không thể, tôi không muốn trao mình cho người đàn ông như thế, lúc ấy cũng không, chẳng bao giờ... Vậy mà tôi vẫn đi dần đến bàn thờ, quỳ xuống, nghe lời khuyên răn của vị giám mục... Nhưng khi được hỏi, sự thật đã bật lên môi tôi, mãnh liệt, đáng sợ...",
+          "reason": "Substantive Vietnamese cadence, idiom, measure or image refinement after renewed full source comparison; see current findings and glossary."
+        }
+      ],
+      "historical_records": "Earlier v1/v2 preflights and title-aware review files are retained byte-for-byte with their original hashes and scores."
     }
   ],
   "title_review": {
     "source_title": "El encaje roto",
     "target_title": "Dải ren rách",
-    "rationale": "Encaje is lace, and passages 1.10–1.11 identify a wide lace flounce decorating the wedding dress before it catches and tears. Dải ren is therefore a contextual Vietnamese rendering of that ornament, while rách keeps the physical tear and its symbolic resonance without explaining the bride’s decision in the title. Mảnh would foreground a detached fragment, and a generic ribbon would lose the lace material."
+    "rationale": "Dải ren identifies the wide lace ornament on the bridal dress; rách preserves the actual tear and its resonance with the broken engagement. The title remains concrete and does not pre-explain the bride’s decision. The existing approved title is unchanged."
   },
   "title_revision_history": [
     {
@@ -541,6 +593,38 @@
       "previous_review_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-2026-11-01.json",
       "current_review_record": "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-titles-2026-11-01.json",
       "rationale": "Encaje is lace, and passages 1.10–1.11 identify a wide lace flounce decorating the wedding dress before it catches and tears. Dải ren is therefore a contextual Vietnamese rendering of that ornament, while rách keeps the physical tear and its symbolic resonance without explaining the bride’s decision in the title. Mảnh would foreground a detached fragment, and a generic ribbon would lose the lace material."
+    }
+  ],
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.1",
+        "pardo-bazan-el-encaje-roto:1.2",
+        "pardo-bazan-el-encaje-roto:1.3",
+        "pardo-bazan-el-encaje-roto:1.4",
+        "pardo-bazan-el-encaje-roto:1.5",
+        "pardo-bazan-el-encaje-roto:1.6"
+      ],
+      "assessment": "Read all six passages against Spanish: invitation/time, emphatic refusal, imagined society scene, firearm similes, mystery and gossip preserved. No imagined wedding observation is recast as eyewitness fact."
+    },
+    {
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.7",
+        "pardo-bazan-el-encaje-roto:1.8",
+        "pardo-bazan-el-encaje-roto:1.9",
+        "pardo-bazan-el-encaje-roto:1.10"
+      ],
+      "assessment": "Read the three-year transition and the bride’s disclosure against Spanish: the public/private viewpoint changes, her doubts and investigations, family lace and resentment at its price are retained."
+    },
+    {
+      "passages": [
+        "pardo-bazan-el-encaje-roto:1.11",
+        "pardo-bazan-el-encaje-roto:1.12",
+        "pardo-bazan-el-encaje-roto:1.13",
+        "pardo-bazan-el-encaje-roto:1.14",
+        "pardo-bazan-el-encaje-roto:1.15"
+      ],
+      "assessment": "Read the caught/torn lace, facial anger, theatrical unveiling, internal rupture, involuntary spoken refusal and final social explanation; no sentence or closing line is omitted."
     }
   ]
 }

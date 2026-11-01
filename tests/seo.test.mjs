@@ -9,33 +9,82 @@ import {createGitLastmod} from '../scripts/lib/sitemap-lastmod.mjs';
 
 const read=path=>JSON.parse(readFileSync(path,'utf8'));
 const options={works:read('corpus/catalog/works.json'),editions:read('corpus/catalog/editions.json'),locales:Object.keys(read('src/lib/locales.json')),site:'https://streamentry.github.io',base:'/LitMundi/'};
-const manifest=()=>createSeoManifest(options).entries;
-
-test('the public corpus yields 25 canonical pages without duplicate reader interfaces',()=>{
-  const entries=manifest();
-  assert.equal(entries.length,25);
-  assert.deepEqual(Object.fromEntries(options.locales.map(locale=>[locale,entries.filter(entry=>entry.locale===locale).length])),{en:7,vi:7,fr:5,es:6});
-  const readers=entries.filter(entry=>entry.kind==='reader');
-  assert.equal(readers.length,5);
-  for(const entry of readers){
-    const edition=options.editions.find(edition=>edition.id===entry.editionId);
-    assert.equal(entry.path,canonicalReaderPath(edition,options.locales,options.base));
-  }
-  assert.ok(entries.every(entry=>!entry.url.includes('demo-proust')&&!entry.url.includes('community-proposed')&&!entry.url.includes('pardo-encaje-vi')&&!entry.url.includes('?')&&!entry.url.includes('#')));
+// Publication transitions must remain testable after every real draft ships.
+const fixture=()=>({
+  works:[
+    {id:'english-story',visibility:'public'},
+    {id:'portuguese-story',visibility:'public'},
+    {id:'spanish-story',visibility:'public'},
+    {id:'demo-story',visibility:'demo'},
+    {id:'draft-story',visibility:'public'},
+  ],
+  editions:[
+    {id:'english-source',work_id:'english-story',language:'en',kind:'source',status:'published',content_path:'en.json'},
+    {id:'english-translation',work_id:'english-story',language:'vi',kind:'translation',status:'published',content_path:'en-vi.json',source_edition_id:'english-source'},
+    {id:'portuguese-source',work_id:'portuguese-story',language:'pt',kind:'source',status:'published',content_path:'pt.json'},
+    {id:'portuguese-translation',work_id:'portuguese-story',language:'vi',kind:'translation',status:'published',content_path:'pt-vi.json',source_edition_id:'portuguese-source'},
+    {id:'spanish-source',work_id:'spanish-story',language:'es',kind:'source',status:'published',content_path:'es.json'},
+    {id:'spanish-translation',work_id:'spanish-story',language:'vi',kind:'translation',status:'draft',content_path:'es-vi.json',source_edition_id:'spanish-source'},
+    {id:'planned-translation',work_id:'english-story',language:'fr',kind:'translation',status:'planned',content_path:'planned.json',source_edition_id:'english-source'},
+    {id:'withdrawn-translation',work_id:'english-story',language:'es',kind:'translation',status:'withdrawn',content_path:'withdrawn.json',source_edition_id:'english-source'},
+    {id:'demo-source',work_id:'demo-story',language:'fr',kind:'source',status:'sample',content_path:'demo.json'},
+    {id:'draft-source',work_id:'draft-story',language:'en',kind:'source',status:'draft',content_path:'draft.json'},
+    {id:'missing-content',work_id:'draft-story',language:'vi',kind:'source',status:'published',content_path:null},
+  ],
+  locales:['en','vi','fr','es'],site:'https://example.test',base:'/LitMundi/',
 });
 
-test('reader hreflang describes actual translation languages and is reciprocal',()=>{
-  const entries=manifest(),byUrl=new Map(entries.map(entry=>[entry.url,entry]));
-  const portuguese=entries.find(entry=>entry.editionId==='machado-apologo-pt-laemmert-1896');
-  assert.equal(portuguese.locale,'en');
-  assert.deepEqual(portuguese.alternates.map(alternate=>alternate.hreflang),['pt','vi','x-default']);
-  assert.equal(portuguese.alternates.find(alternate=>alternate.hreflang==='vi').href,'https://streamentry.github.io/LitMundi/vi/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/');
+function assertReciprocalAlternates(entries){
+  const byUrl=new Map(entries.map(entry=>[entry.url,entry]));
   for(const entry of entries)for(const alternate of entry.alternates){
     const target=byUrl.get(alternate.href);
     assert.ok(target,'Every alternate must be canonical and published');
     assert.deepEqual(target.alternates,entry.alternates,'Clusters must be identical in both directions');
   }
-  assert.deepEqual(entries.find(entry=>entry.editionId==='pardo-encaje-es-administracion-c1898').alternates.map(item=>item.hreflang),['es','x-default']);
+}
+
+test('explicit publication states yield 25 canonical pages without duplicate reader interfaces',()=>{
+  const config=fixture(),entries=createSeoManifest(config).entries;
+  assert.equal(entries.length,25);
+  assert.deepEqual(Object.fromEntries(config.locales.map(locale=>[locale,entries.filter(entry=>entry.locale===locale).length])),{en:7,vi:7,fr:5,es:6});
+  const readers=entries.filter(entry=>entry.kind==='reader');
+  assert.deepEqual(readers.map(entry=>entry.editionId).sort(),['english-source','english-translation','portuguese-source','portuguese-translation','spanish-source']);
+  for(const entry of readers){
+    const edition=config.editions.find(edition=>edition.id===entry.editionId);
+    assert.equal(entry.path,canonicalReaderPath(edition,config.locales,config.base));
+  }
+  assert.ok(entries.every(entry=>!entry.url.includes('demo-story')&&!entry.url.includes('draft-story')&&!entry.url.includes('?')&&!entry.url.includes('#')));
+});
+
+test('the current corpus has exactly the published pages and one canonical reader per edition',()=>{
+  const publicWorkIds=new Set(options.works.filter(work=>work.visibility==='public').map(work=>work.id));
+  const published=options.editions.filter(edition=>publicWorkIds.has(edition.work_id)&&edition.status==='published'&&edition.content_path);
+  const visibleWorkIds=[...new Set(published.map(edition=>edition.work_id))];
+  // Build expected routes directly from catalog state, independently of the SEO helpers.
+  const expectedPaths=options.locales.flatMap(locale=>[
+    options.base+locale+'/',options.base+locale+'/quality/',
+    ...visibleWorkIds.map(id=>options.base+locale+'/works/'+id+'/'),
+  ]);
+  for(const edition of published){
+    const locale=options.locales.includes(edition.language)?edition.language:options.locales.includes('en')?'en':[...options.locales].sort()[0];
+    expectedPaths.push(options.base+locale+'/read/'+edition.work_id+'/'+edition.id+'/');
+  }
+  const entries=createSeoManifest(options).entries;
+  assert.deepEqual(entries.map(entry=>entry.path).sort(),expectedPaths.sort());
+  assert.equal(new Set(entries.map(entry=>entry.url)).size,entries.length);
+  assert.deepEqual(entries.filter(entry=>entry.kind==='reader').map(entry=>entry.editionId).sort(),published.map(edition=>edition.id).sort());
+  assert.ok(entries.every(entry=>entry.url===options.site+entry.path&&!entry.url.includes('?')&&!entry.url.includes('#')));
+  assertReciprocalAlternates(entries);
+});
+
+test('reader hreflang describes actual translation languages and is reciprocal',()=>{
+  const entries=createSeoManifest(fixture()).entries;
+  const portuguese=entries.find(entry=>entry.editionId==='portuguese-source');
+  assert.equal(portuguese.locale,'en');
+  assert.deepEqual(portuguese.alternates.map(alternate=>alternate.hreflang),['pt','vi','x-default']);
+  assert.equal(portuguese.alternates.find(alternate=>alternate.hreflang==='vi').href,'https://example.test/LitMundi/vi/read/portuguese-story/portuguese-translation/');
+  assertReciprocalAlternates(entries);
+  assert.deepEqual(entries.find(entry=>entry.editionId==='spanish-source').alternates.map(item=>item.hreflang),['es','x-default']);
 });
 
 test('separate source witnesses and same-language editions never create false alternatives',()=>{
@@ -50,12 +99,18 @@ test('separate source witnesses and same-language editions never create false al
 });
 
 test('draft publication changes update discovery automatically and invalid sources fail closed',()=>{
-  const draft=options.editions.find(edition=>edition.id==='pardo-encaje-vi-ai-draft-2026');
-  const promoted=options.editions.map(edition=>edition===draft?{...edition,status:'published'}:edition);
-  const entries=createSeoManifest({...options,editions:promoted}).entries;
+  const config=fixture(),draft=config.editions.find(edition=>edition.id==='spanish-translation');
+  const before=createSeoManifest(config).entries;
+  assert.equal(draft.status,'draft');
+  assert.ok(before.every(entry=>entry.editionId!==draft.id));
+  const promoted=config.editions.map(edition=>edition===draft?{...edition,status:'published'}:edition);
+  const entries=createSeoManifest({...config,editions:promoted}).entries;
   assert.equal(entries.length,26);
+  assert.deepEqual(entries.filter(entry=>!before.some(previous=>previous.url===entry.url)).map(entry=>entry.path),['/LitMundi/vi/read/spanish-story/spanish-translation/']);
   assert.deepEqual(entries.find(entry=>entry.editionId===draft.source_edition_id).alternates.map(item=>item.hreflang),['es','vi','x-default']);
-  assert.throws(()=>createSeoManifest({...options,editions:promoted.filter(edition=>edition.id!==draft.source_edition_id)}),/exact public source/);
+  assertReciprocalAlternates(entries);
+  assert.throws(()=>createSeoManifest({...config,editions:promoted.filter(edition=>edition.id!==draft.source_edition_id)}),/exact public source/);
+  assert.throws(()=>createSeoManifest({...config,editions:promoted.map(edition=>edition.id===draft.source_edition_id?{...edition,status:'draft'}:edition)}),/exact public source/);
 });
 
 test('origin and base can migrate without accepting unsafe route components',()=>{

@@ -12,6 +12,12 @@ The reader supports four interface locales, accessible passage navigation, editi
 
 Actual deployment evidence belongs in the successful CI/deployment run and [verification records](verification/README.md). A local check does not establish that production has updated.
 
+## Work through the 500-work Vietnamese queue
+
+The owner authorized a [500-work translation program](VIETNAMESE-500.md) on 1 November 2026. [TODO.md](../TODO.md) records its ordered tasks; [the canonical JSON](../research/vietnamese-translation-backlog.json) retains selection rationales, bibliographic evidence, rights screens and existing-supply uncertainty. The two Vietnamese editions already published before this program are outside the 500-task count.
+
+Finish active work, then use `npm run todo:next -- 10` to select the next feasible task. The first batch improves Pardo Bazán's *El encaje roto* and translates Chopin's *The Story of an Hour* and Saki's *The Open Window*. Only complete, qualifying published editions count as completed TODOs. Rights-blocked titles remain visible but do not enter the active translation queue. Long works can be drafted by chapter; excerpts do not close a whole-work task.
+
 ## Release eligible AI translations
 
 For each complete translation:
