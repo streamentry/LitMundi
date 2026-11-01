@@ -24,10 +24,11 @@ automatically before exceeding either protocol limit: 50,000 URLs or 52,428,800
 uncompressed bytes per child file. The index references the resulting files;
 consumers should follow it instead of constructing shard names.
 
-The current five-edition corpus has **25 canonical pages**: 7 English-interface,
-7 Vietnamese-interface, 5 French-interface and 6 Spanish-interface URLs. These
-counts describe this corpus, not fixed quotas. They change as eligible editions
-and public pages are added or removed.
+After the first Vietnamese 500 program batch on 1 November 2026, the ten-edition
+corpus has **38 canonical pages**: 11 English-interface, 12 Vietnamese-interface,
+7 French-interface and 8 Spanish-interface URLs. These counts describe that
+release, not fixed quotas. They change as eligible editions and public pages are
+added or removed.
 
 ## Interface language and text language
 

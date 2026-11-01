@@ -31,7 +31,7 @@ async function collect(dir) {
 await collect('corpus');
 await collect('docs');
 try {await fs.access('research');await collect('research');} catch(error) {if(error.code!=='ENOENT') throw error;}
-for(const p of ['LICENSE','GOVERNANCE.md','CONTRIBUTING.md']) files[p]=await regularFile(p);
+for(const p of ['LICENSE','GOVERNANCE.md','CONTRIBUTING.md','TODO.md']) files[p]=await regularFile(p);
 files['restore.py']=await regularFile('scripts/restore.py');
 files['README.txt']=Buffer.from(
   'LitMundi editorial archive v2\n\n'+

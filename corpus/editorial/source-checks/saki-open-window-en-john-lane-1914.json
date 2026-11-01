@@ -1,0 +1,51 @@
+{
+  "edition_id": "saki-open-window-en-john-lane-1914",
+  "work_id": "saki-the-open-window",
+  "checked_at": "2026-11-01",
+  "checker_kind": "ai_assisted",
+  "source_sha256": "93e1fa4e2a7c12c58376977ab729e3774ea4b5e69d7bcc830ddb68ad28e576ee",
+  "segments_checked": [
+    "saki-the-open-window:1.1",
+    "saki-the-open-window:1.2",
+    "saki-the-open-window:1.3",
+    "saki-the-open-window:1.4",
+    "saki-the-open-window:1.5",
+    "saki-the-open-window:1.6",
+    "saki-the-open-window:1.7",
+    "saki-the-open-window:1.8",
+    "saki-the-open-window:1.9",
+    "saki-the-open-window:1.10",
+    "saki-the-open-window:1.11",
+    "saki-the-open-window:1.12",
+    "saki-the-open-window:1.13",
+    "saki-the-open-window:1.14",
+    "saki-the-open-window:1.15",
+    "saki-the-open-window:1.16",
+    "saki-the-open-window:1.17",
+    "saki-the-open-window:1.18",
+    "saki-the-open-window:1.19",
+    "saki-the-open-window:1.20",
+    "saki-the-open-window:1.21",
+    "saki-the-open-window:1.22",
+    "saki-the-open-window:1.23",
+    "saki-the-open-window:1.24",
+    "saki-the-open-window:1.25",
+    "saki-the-open-window:1.26",
+    "saki-the-open-window:1.27",
+    "saki-the-open-window:1.28",
+    "saki-the-open-window:1.29"
+  ],
+  "witness_url": "https://www.gutenberg.org/files/269/269-h/269-h.htm",
+  "witness_pages": [
+    "THE OPEN WINDOW, complete 29-paragraph section"
+  ],
+  "notes": "Complete paragraph extraction and exact canonical comparison passed for 29/29 units after the stated normalization. Each source paragraph was also read for continuity, beginning/end boundaries and the translation assessment. This is an AI-assisted technical check of the identified electronic witness, not independent human review or a new physical-facsimile collation. Downloaded the complete Project Gutenberg #269 HTML over HTTPS; extracted only THE OPEN WINDOW, ending before THE TREASURE-SHIP.",
+  "normalization_decisions": [
+    "HTML tags and entity encoding removed; line breaks, repeated spaces and nonbreaking spaces normalized inside paragraphs.",
+    "All 29 source paragraph boundaries and wording are retained, including the repeated Bertie refrain and the final sentence about romance. Plain text does not preserve the HTML’s typographic emphasis."
+  ],
+  "witness_extract_path": "corpus/editorial/source-witnesses/saki-open-window-en-john-lane-1914-extract-2026-11-01.json",
+  "witness_extract_sha256": "37a7bf47dfb90909361d65ab4c54267ff95fdec25fcad2971a302342a3f99f35",
+  "access_method": "direct_https_html",
+  "html_witness_sha256": "7b9b8e48b82838f1aeb388e69c74270f1258009338592b171b45a8919a1923e3"
+}

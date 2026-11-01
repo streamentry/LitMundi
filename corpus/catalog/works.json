@@ -58,5 +58,35 @@
       "status": "unverified",
       "notes": "Selected as a bounded direct-translation and editorial feasibility pilot after Translation Gap Atlas research. No exact Vietnamese or Indonesian version was located in the recorded bounded searches; that is not proof of absence, inaccessibility or inadequate quality. Reader demand and qualified reviewer capacity remain unverified."
     }
+  },
+  {
+    "id": "chopin-story-of-an-hour",
+    "title": "The Story of an Hour",
+    "author": "Kate Chopin",
+    "author_death_year": 1904,
+    "first_published_year": 1894,
+    "original_language": "en",
+    "genre": "short_story",
+    "description": "A woman receives news of her husband’s death; her private thoughts and the public explanation of what follows diverge.",
+    "visibility": "public",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "The Translation Gap Atlas already records an existing credited Vietnamese translation. This is a new direct, openly reusable and aligned edition, not a claim of first translation, a missing Vietnamese version or a demonstrated quality deficiency."
+    }
+  },
+  {
+    "id": "saki-the-open-window",
+    "title": "The Open Window",
+    "author": "Saki (H. H. Munro)",
+    "author_death_year": 1916,
+    "first_published_year": 1911,
+    "original_language": "en",
+    "genre": "short_story",
+    "description": "A nervous visitor hears a young hostess’s account of an open window in a short satire of social manners, credulity and invention.",
+    "visibility": "public",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    }
   }
 ]

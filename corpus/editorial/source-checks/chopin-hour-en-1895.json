@@ -1,0 +1,46 @@
+{
+  "edition_id": "chopin-hour-en-1895",
+  "work_id": "chopin-story-of-an-hour",
+  "checked_at": "2026-11-01",
+  "checker_kind": "ai_assisted",
+  "source_sha256": "e634b46a3934931cd404b9fd27f1ba4edeabdc07f0c81b73a772b129cf20933b",
+  "segments_checked": [
+    "chopin-story-of-an-hour:1.1",
+    "chopin-story-of-an-hour:1.2",
+    "chopin-story-of-an-hour:1.3",
+    "chopin-story-of-an-hour:1.4",
+    "chopin-story-of-an-hour:1.5",
+    "chopin-story-of-an-hour:1.6",
+    "chopin-story-of-an-hour:1.7",
+    "chopin-story-of-an-hour:1.8",
+    "chopin-story-of-an-hour:1.9",
+    "chopin-story-of-an-hour:1.10",
+    "chopin-story-of-an-hour:1.11",
+    "chopin-story-of-an-hour:1.12",
+    "chopin-story-of-an-hour:1.13",
+    "chopin-story-of-an-hour:1.14",
+    "chopin-story-of-an-hour:1.15",
+    "chopin-story-of-an-hour:1.16",
+    "chopin-story-of-an-hour:1.17",
+    "chopin-story-of-an-hour:1.18",
+    "chopin-story-of-an-hour:1.19",
+    "chopin-story-of-an-hour:1.20",
+    "chopin-story-of-an-hour:1.21",
+    "chopin-story-of-an-hour:1.22",
+    "chopin-story-of-an-hour:1.23"
+  ],
+  "witness_url": "https://www.katechopin.org/story-hour/",
+  "witness_pages": [
+    "Complete Society electronic text, paragraphs 1–23"
+  ],
+  "notes": "Complete paragraph extraction and exact canonical comparison passed for 23/23 units after the stated normalization. Each source paragraph was also read for continuity, beginning/end boundaries and the translation assessment. This is an AI-assisted technical check of the identified electronic witness, not independent human review or a new physical-facsimile collation. Complete official-page text returned by the web retrieval tool; direct urllib access returned an anti-bot interstitial, and UVA’s alternative transcription returned HTTP 403. Neither failed response was used as literary text.",
+  "normalization_decisions": [
+    "Paragraph boundaries follow the 23 nonempty prose paragraphs between Knowing that Mrs. Mallard and of joy that kills. Surrounding headings, modern notes and site navigation are excluded.",
+    "The electronic line-wrap artifact fellow- creature is joined to fellow-creature. No other lexical modernization or mixture with the 1894 reading is introduced.",
+    "Preserve the source’s her in paragraph 14 and separate But Richards was too late in paragraph 22; do not conflate the 1894 and 1895 versions."
+  ],
+  "witness_extract_path": "corpus/editorial/source-witnesses/chopin-hour-en-1895-extract-2026-11-01.json",
+  "witness_extract_sha256": "dfc139d447e15cd495cc4388e99c65af9b184a5f2c80a7aeb8251647f3bf76d7",
+  "access_method": "web_page_text_extraction",
+  "extraction_note": "Complete official-page text returned by the web retrieval tool; direct urllib access returned an anti-bot interstitial, and UVA’s alternative transcription returned HTTP 403. Neither failed response was used as literary text."
+}

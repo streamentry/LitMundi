@@ -1,0 +1,110 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "chopin-hour-vi-ai-2026",
+  "source_edition_id": "chopin-hour-en-1895",
+  "reviewed_at": "2026-11-01",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (GPT-6 Astra Pro)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "GPT-6 Astra Pro",
+    "method": "Full direct source-to-Vietnamese comparison of every canonical paragraph and both titles, with semantic, voice, naturalness, image and mechanics assessment; concrete findings were revised before these final byte hashes were recorded. Another task using the same AI system also read every pair and supplied specific corrections.",
+    "limitations": "The same AI system drafted, revised and assessed the work; correlated same-model peer feedback is not independent review or model diversity. Earlier Pardo scores were visible. No human literary reviewer, native-reader trial or measured reader demand is claimed. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "e634b46a3934931cd404b9fd27f1ba4edeabdc07f0c81b73a772b129cf20933b",
+  "target_sha256": "f717118886b0f037c4dde933d1a51a53d9c148544297983d5325c32bef6181a9",
+  "segments_reviewed": [
+    "chopin-story-of-an-hour:1.1",
+    "chopin-story-of-an-hour:1.2",
+    "chopin-story-of-an-hour:1.3",
+    "chopin-story-of-an-hour:1.4",
+    "chopin-story-of-an-hour:1.5",
+    "chopin-story-of-an-hour:1.6",
+    "chopin-story-of-an-hour:1.7",
+    "chopin-story-of-an-hour:1.8",
+    "chopin-story-of-an-hour:1.9",
+    "chopin-story-of-an-hour:1.10",
+    "chopin-story-of-an-hour:1.11",
+    "chopin-story-of-an-hour:1.12",
+    "chopin-story-of-an-hour:1.13",
+    "chopin-story-of-an-hour:1.14",
+    "chopin-story-of-an-hour:1.15",
+    "chopin-story-of-an-hour:1.16",
+    "chopin-story-of-an-hour:1.17",
+    "chopin-story-of-an-hour:1.18",
+    "chopin-story-of-an-hour:1.19",
+    "chopin-story-of-an-hour:1.20",
+    "chopin-story-of-an-hour:1.21",
+    "chopin-story-of-an-hour:1.22",
+    "chopin-story-of-an-hour:1.23"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 8.5,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "chopin-story-of-an-hour:1.3",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Restored the explicit storm image as cơn bão đau buồn đã lắng xuống after full comparison; the earlier working wording conveyed grief but weakened the weather metaphor."
+    },
+    {
+      "segment": "chopin-story-of-an-hour:1.12",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Replaced the stiff cao vợi with a natural expression joining clear perception and elation, without adding spiritual doctrine or moral approval from the narrator."
+    },
+    {
+      "segment": "chopin-story-of-an-hour:1.14",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The selected 1895 her reading is rendered sống thay nàng, preserving another will’s control of her life. It is not silently replaced by the meaning of the 1894 version without her."
+    },
+    {
+      "segment": "chopin-story-of-an-hour:1.17",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Rendered the pleading For heaven’s sake as Trời ơi rather than the stiff standalone Vì Chúa; the urgent spoken register and closed-door scene remain."
+    },
+    {
+      "segment": "chopin-story-of-an-hour:1.2",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Vietnamese uses chị/em for the sisters and bà Mallard followed by nàng for the young married protagonist. English sister does not establish relative age; this is a pragmatic address choice, not new biographical evidence. A more neutral kinship formulation would be less idiomatic."
+    },
+    {
+      "segment": "chopin-story-of-an-hour:1.15",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Khát vọng tự quyết gives Vietnamese readers an intelligible force for possession of self-assertion, but the source’s compressed abstract phrasing has no exact register match. The translation does not add a political program or erase her contradictory love."
+    },
+    {
+      "segment": "chopin-story-of-an-hour:1.23",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The final medical explanation stays attributed to the doctors, with niềm vui chết người left as an ironic phrase; the translation does not state the story’s hidden emotional cause as an objective diagnosis."
+    }
+  ],
+  "summary": "All 23 paragraphs were compared with the selected complete English electronic witness, including the story’s title, heart trouble, sensory spring scene, involuntary recognition, anticipatory mourning, qualified love, return downstairs and abrupt final report. The 1895 her variant and separate Richards sentence remain visible in source and target; no paragraph from the 1894 wording is substituted. Three concrete image/idiom refinements followed a complete correlated AI peer pass. Fidelity and imagery are 9.0: the central control-of-life distinction, storm, open-window elixir, Victory simile and ending’s attributed irony survive. Voice and naturalness are 8.5 because the historical abstract psychological register and Vietnamese kinship choices remain interpretive. Mechanics are 9.0, yielding 8.8. No unresolved major or critical issue was identified. This is a direct AI-produced translation and subjective same-system assessment, without independent human review or measured reader response.",
+  "title_review": {
+    "source_title": "The Story of an Hour",
+    "target_title": "Chuyện trong một giờ",
+    "rationale": "Chuyện trong một giờ preserves the story’s restricted span and neutral narrative framing. It avoids an interpretive title such as Một giờ tự do, which would supply a thematic conclusion before the reader encounters the ending. The source title is the selected electronic edition’s The Story of an Hour; the historical Dream title is disclosed in provenance."
+  }
+}

@@ -6,21 +6,29 @@ LitMundi uses **AI-first publication**: one full source/target AI assessment mus
 
 Current edition states and qualifying evidence are recorded in [the catalog](corpus/catalog/editions.json); `npm run quality:status` reports eligibility. Dated pilot and release records retain the policy and scores that applied when they were written.
 
-## The first three works
+## Published Vietnamese editions
 
 | Work and editorial dossier | Original witness | Canonical passages | Vietnamese AI assessment | Publication |
 | --- | --- | ---: | ---: | --- |
 | [Oscar Wilde — The Artist](docs/PILOT-WILDE-THE-ARTIST.md) | English; Methuen 1913, Gutenberg #774 | 5 | 8.60 | AI-reviewed translation published |
 | [Machado de Assis — Um Apólogo](docs/PILOT-MACHADO-UM-APOLOGO.md) | Portuguese; Laemmert 1896, pp. 253–257 | 22 | 8.725 (displayed 8.73) | AI-reviewed translation published |
-| [Emilia Pardo Bazán — El encaje roto](docs/PILOT-PARDO-BAZAN-EL-ENCAJE-ROTO.md) | Spanish; Administración [1898?], pp. 233–239 | 15 | 8.55 | Translation remains a draft |
+| [Emilia Pardo Bazán — El encaje roto](docs/BATCH-001-VIETNAMESE-500.md) | Spanish; Administración [1898?], pp. 233–239 | 15 | 8.625 (displayed 8.63) | Revised AI-reviewed translation published |
+| [Kate Chopin — The Story of an Hour](docs/BATCH-001-VIETNAMESE-500.md) | English; Society electronic text with the 1895 readings | 23 | 8.80 | AI-reviewed translation published |
+| [Saki — The Open Window](docs/BATCH-001-VIETNAMESE-500.md) | English; John Lane 1914, Gutenberg #269 | 29 | 8.875 (displayed 8.88) | AI-reviewed translation published |
 
-All three originals are published, giving five public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation.
+All five originals are published, giving ten public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 
 Source checks disclose AI-assisted passage comparison and exact witnesses; they are not human-certified critical editions. Original and Vietnamese edition states remain distinct. Draft, planned and withdrawn editions are excluded from public reading, search and publication downloads. The earlier Proust sample remains a non-indexed legacy demonstration.
 
 The [Translation Gap Atlas](docs/TRANSLATION-GAP-ATLAS.md) surveys **20 works across Vietnamese and Indonesian: 40 assessments, 12 original languages and 81 evidence records**. It records existing translations, bounded searches and uncertainty. It establishes no verified absence or independently assessed inadequacy, and no measured reader demand. Indonesian is a research comparator, not a production commitment.
+
+## 500-work Vietnamese translation program
+
+The [500-work TODO](TODO.md) is the ordered production queue, with source leads, selection rationales, rights holds and publication status in [structured data](research/vietnamese-translation-backlog.json). It covers 500 new or unfinished translation tasks; the previously published Wilde and Machado editions are outside this count. A checked task must correspond to a complete published Vietnamese edition. Literary priority, source clearance and the AI quality score remain separate judgments.
+
+See [selection and execution](docs/VIETNAMESE-500.md). Run `npm run todo:next -- 10` to resume unfinished feasible work, `npm run todo:render` after changing the queue, and `npm run todo:check` to validate the checklist. The existing publication threshold remains an unrounded AI score of at least **8.6/10**, with human feedback optional after release.
 
 ## Read and contribute
 
