@@ -2,11 +2,13 @@
 import '../styles/global.css';
 import {strings,supported,localeNames,type Locale} from '../lib/i18n';
 import {pagePath,assetPath,basePath} from '../lib/urls';
+import {seoForPath} from '../lib/seo';
 import {serializeStructuredData} from '../../scripts/lib/reader-data.mjs';
 interface Props {lang?:Locale;title?:string;description?:string;noindex?:boolean;canonicalPath?:string;structuredData?:Record<string,unknown>}
 const {lang='en',title='LitMundi',description,noindex=false,canonicalPath,structuredData}=Astro.props;
 const t=strings[lang];
 const canonical=new URL(canonicalPath??Astro.url.pathname,Astro.site);
+const alternates=noindex?[]:(seoForPath(Astro.url.pathname,Astro.site!)?.alternates??[]);
 const routeParts=canonical.pathname.slice(basePath.length).split('/').filter(Boolean).slice(1);
 const localePath=(locale:Locale)=>pagePath(locale,...routeParts);
 const names=localeNames;
@@ -18,11 +20,10 @@ const names=localeNames;
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#24553e" />
   <meta name="description" content={description??t.intro} />
-  {noindex && <meta name="robots" content="noindex, nofollow" />}
+  {noindex && <meta name="robots" content="noindex, follow" />}
   <link rel="canonical" href={canonical} />
-  {!noindex && supported.map(locale=><link rel="alternate" hreflang={locale} href={new URL(localePath(locale),Astro.site)} />)}
-  {!noindex && <link rel="alternate" hreflang="x-default" href={new URL(localePath('en'),Astro.site)} />}
-  <link rel="sitemap" href={assetPath('sitemap.xml')} />
+  {alternates.map(({hreflang,href})=><link rel="alternate" hreflang={hreflang} href={href} />)}
+  <link rel="sitemap" type="application/xml" href={new URL(assetPath('sitemap-index.xml'),Astro.site)} />
   <link rel="icon" type="image/svg+xml" href={assetPath('favicon.svg')} />
   <meta property="og:title" content={title+' · LitMundi'} />
   <meta property="og:description" content={description??t.intro} />
@@ -53,6 +54,7 @@ const names=localeNames;
       <nav aria-label={t.preservation}>
         <a href="https://github.com/streamentry/LitMundi/blob/main/LICENSE">{t.codeLicense}</a>
         <a href="https://github.com/streamentry/LitMundi/blob/main/docs/PRESERVATION.md">{t.preservation}</a>
+        <a href={assetPath('sitemap-index.xml')}>{t.sitemap}</a>
         <a href="https://github.com/streamentry/LitMundi/issues">{t.github}</a>
         <a href="https://github.com/streamentry/LitMundi/issues/new?template=reader-feedback.yml">{t.readerFeedback}</a>
       </nav>

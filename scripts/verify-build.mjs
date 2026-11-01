@@ -1,5 +1,6 @@
 import {existsSync,readFileSync,readdirSync,statSync} from 'node:fs';
 import {join,relative,resolve} from 'node:path';
+import {execFileSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 import {alignedPassages,isPublicEdition,reviewCategory,editionTitle,preferredEdition} from './lib/reader-data.mjs';
 
@@ -15,7 +16,7 @@ const passagesFor=edition=>{const text=read(edition.content_path);return read('c
 const files=[];
 function visit(directory){for(const entry of readdirSync(directory,{withFileTypes:true})){const path=join(directory,entry.name);if(entry.isDirectory())visit(path);else files.push(path);}}
 visit('dist');
-const required=['dist/index.html','dist/404.html','dist/favicon.svg','dist/sitemap.xml','dist/robots.txt','dist/search-index.json',...locales.flatMap(locale=>['dist/'+locale+'/index.html','dist/'+locale+'/quality/index.html'])];
+const required=['dist/index.html','dist/404.html','dist/favicon.svg','dist/sitemap-index.xml','dist/sitemap.xml','dist/robots.txt','dist/search-index.json',...locales.flatMap(locale=>['dist/'+locale+'/index.html','dist/'+locale+'/quality/index.html'])];
 for(const path of required)assert.ok(existsSync(path),'Missing build output: '+path);
 const decode=text=>text.replace(/&(#x[\da-f]+|#\d+|amp|quot|apos|lt|gt);/gi,(match,entity)=>{
   if(entity.startsWith('#x'))return String.fromCodePoint(parseInt(entity.slice(2),16));
@@ -75,21 +76,11 @@ for(const file of htmlFiles){
     assert.ok(html.includes('href="#main"'),'Skip navigation missing: '+file);
   }
 }
-const sitemap=readFileSync('dist/sitemap.xml','utf8');
-const indexed=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match=>decode(match[1]));
-assert.equal(indexed.length,new Set(indexed).size,'Duplicate sitemap entries');
-const expected=new Set(locales.flatMap(locale=>[
-  origin+base+locale+'/',origin+base+locale+'/quality/',
-  ...visible.map(work=>origin+base+locale+'/works/'+work.id+'/'),
-  ...published.map(edition=>origin+base+locale+'/read/'+edition.work_id+'/'+edition.id+'/')
-]));
-assert.deepEqual(new Set(indexed),expected,'Sitemap must contain exactly canonical public routes');
-for(const url of indexed){
-  const path=pathFor(new URL(url)),html=readFileSync(path,'utf8');
-  assert.ok(!/name="robots"[^>]*content="[^"]*noindex/.test(html),'Sitemap contains noindex page: '+url);
-  for(const locale of [...locales,'x-default'])assert.ok(html.includes('hreflang="'+locale+'"'),'Missing language alternative: '+url);
-}
-assert.ok(readFileSync('dist/robots.txt','utf8').includes(origin+base+'sitemap.xml'),'Robots must advertise the sitemap');
+// Parse namespaces and XML entities with a real parser. Its inventory is derived
+// independently from the corpus, then checked against every built HTML canonical.
+const seoReport=JSON.parse(execFileSync('python3',['scripts/verify-seo.py','--json'],{encoding:'utf8',maxBuffer:64*1024*1024}));
+const indexed=seoReport.urls;
+const sitemap=seoReport.child_sitemaps.map(name=>readFileSync('dist/'+name,'utf8')).join('\n');
 const search=read('dist/search-index.json');
 assert.deepEqual(search.map(item=>item.editionId).sort(),published.map(edition=>edition.id).sort(),'Search must contain all and only public editions');
 const downloadNames=published.flatMap(edition=>['json','txt','epub','tsv'].map(format=>edition.id+'.'+format));

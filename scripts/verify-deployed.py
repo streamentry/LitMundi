@@ -9,9 +9,9 @@ import json
 import re
 import urllib.error
 import urllib.request
-import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import parse_qs, urljoin, urlparse
+from lib.seo_validation import expected_inventory, parse_index, parse_sitemap, validate_page, verify_build
 
 
 def review_category(edition):
@@ -67,6 +67,13 @@ def main():
     base = args.base.rstrip("/") + "/"
     canonical_base = (args.canonical_base or args.base).rstrip("/") + "/"
     root = Path(__file__).resolve().parent.parent
+    # Validate the local release first; compare the deployed hierarchy against
+    # these parsed bytes, not a guessed list of child sitemap filenames.
+    seo_report = verify_build(root, canonical_base)
+    seo_inventory = expected_inventory(root, canonical_base)
+    sitemap_index_bytes = (root / "dist/sitemap-index.xml").read_bytes()
+    sitemap_children = parse_index(sitemap_index_bytes, canonical_base, seo_inventory["locales"])
+    child_by_name = {info["name"]: info for info in sitemap_children.values()}
     read = lambda name: json.loads((root / name).read_text(encoding="utf-8"))
     works = read("corpus/catalog/works.json")
     editions = read("corpus/catalog/editions.json")
@@ -85,19 +92,16 @@ def main():
         available = [edition for edition in published if edition["work_id"] == work_id]
         return next((edition for edition in available if edition["language"] == locale), None) or next((edition for edition in available if edition["kind"] == "source" and edition["language"] == works_by_id[work_id]["original_language"]), None) or available[0]
 
-    jobs, canonical_routes = {}, set()
+    jobs = {}
     for lang in languages:
         for route in [lang + "/", lang + "/quality/"]:
             jobs[route] = (200, "page", None)
-            canonical_routes.add(urljoin(canonical_base, route))
         for work_id in sorted(public_work_ids):
             route = lang + "/works/" + work_id + "/"
             jobs[route] = (200, "work", preferred_edition(work_id, lang))
-            canonical_routes.add(urljoin(canonical_base, route))
         for edition in published:
             route = lang + "/read/" + edition["work_id"] + "/" + edition["id"] + "/"
             jobs[route] = (200, "reader", edition)
-            canonical_routes.add(urljoin(canonical_base, route))
             for slug in edition["legacy_slugs"]:
                 jobs[lang + "/read/" + edition["work_id"] + "/" + slug + "/"] = (200, "legacy", edition)
         for edition in excluded:
@@ -109,7 +113,9 @@ def main():
     for edition in [*published, *excluded]:
         for extension in ("json", "txt", "epub", "tsv"):
             jobs["downloads/" + edition["id"] + "." + extension] = (200, "download", edition) if edition in published else (404, "excluded", None)
-    for route, kind in [("", "root"), ("sitemap.xml", "sitemap"), ("robots.txt", "robots"), ("search-index.json", "search"), ("downloads/manifest.json", "download-manifest")]:
+    for route, kind in [("", "root"), ("sitemap-index.xml", "sitemap-index"), ("sitemap.xml", "sitemap-index"),
+                        *((name, "sitemap-child") for name in child_by_name),
+                        ("robots.txt", "robots"), ("search-index.json", "search"), ("downloads/manifest.json", "download-manifest")]:
         jobs[route] = (200, kind, None)
     jobs["this-route-must-not-exist/"] = (404, "excluded", None)
 
@@ -120,13 +126,18 @@ def main():
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 status, data = response.status, response.read()
+                content_type = response.headers.get_content_type()
+                final_url = response.geturl()
         except urllib.error.HTTPError as error:
             status, data = error.code, error.read()
+            content_type, final_url = error.headers.get_content_type(), error.geturl()
         except Exception as error:
             return {"url": url, "expected_status": expected, "error": str(error), "passed": False}
         problems = []
         if status != expected:
             problems.append("Expected HTTP " + str(expected) + ", received " + str(status))
+        if status == 200 and final_url != url:
+            problems.append("Public route unexpectedly redirects to " + final_url)
         try:
             if status == 200:
                 if kind == "download":
@@ -136,13 +147,9 @@ def main():
                     text = data.decode("utf-8")
                     decoded = html.unescape(text)
                     if kind in ("page", "work", "reader"):
-                        links = [attributes(tag) for tag in re.findall(r"<link\b([^>]*)>", text)]
-                        canonicals = [link.get("href") for link in links if link.get("rel") == "canonical"]
-                        if canonicals != [urljoin(canonical_base, route)]:
-                            problems.append("Incorrect canonical URL")
-                        alternatives = {link.get("hreflang") for link in links if link.get("rel") == "alternate"}
-                        if not {*languages, "x-default"}.issubset(alternatives) or 'href="#main"' not in text:
-                            problems.append("Language alternatives or skip navigation missing")
+                        validate_page(text, urljoin(canonical_base, route), seo_inventory, canonical_base)
+                        if 'href="#main"' not in text:
+                            problems.append("Skip navigation missing")
                         if "reader-feedback.yml" not in text:
                             problems.append("Reader feedback template missing")
                     if kind == "page" and route in [language + "/" for language in languages]:
@@ -236,13 +243,23 @@ def main():
                             work = works_by_id[target["work_id"]]
                             if record.get("title") != edition_title(work, target) or record.get("originalTitle") != work["title"] or record.get("titleLanguage") != (target["language"] if target.get("title") else work["original_language"]):
                                 problems.append("Search must preserve both edition and original titles: " + target["id"])
-                    if kind == "sitemap":
-                        entries = [node.text for node in ET.fromstring(text).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
-                        if set(entries) != canonical_routes or len(entries) != len(canonical_routes):
-                            problems.append("Sitemap does not contain exactly canonical public routes")
+                    if kind in ("sitemap-index", "sitemap-child"):
+                        if content_type not in ("application/xml", "text/xml"):
+                            problems.append("Sitemap must be served as XML")
+                        if data != (root / "dist" / route).read_bytes():
+                            problems.append("Deployed sitemap differs from validated local bytes")
+                        if kind == "sitemap-index":
+                            if parse_index(data, canonical_base, languages) != sitemap_children:
+                                problems.append("Deployed sitemap index references a different inventory")
+                        else:
+                            info = child_by_name[route]
+                            found = parse_sitemap(data, canonical_base, info["locale"], route)
+                            expected_entries = parse_sitemap((root / "dist" / route).read_bytes(), canonical_base, info["locale"], route)
+                            if found != expected_entries:
+                                problems.append("Deployed child sitemap differs from canonical routes/hreflang")
                     if kind == "download-manifest" and data != (root / "public/downloads/manifest.json").read_bytes():
                         problems.append("Download manifest differs from tested build")
-                    if kind == "robots" and urljoin(canonical_base, "sitemap.xml") not in text:
+                    if kind == "robots" and urljoin(canonical_base, "sitemap-index.xml") not in text:
                         problems.append("Sitemap declaration missing")
         except Exception as error:
             problems.append("Content verification failed: " + str(error))
@@ -260,7 +277,11 @@ def main():
         "public_works": sorted(public_work_ids),
         "published_editions": [edition["id"] for edition in published],
         "ai_reviewed_editions": [edition["id"] for edition in published if review_category(edition) == "ai"],
-        "limitations": ["Read-only HTTP/content verification; no human literary review or real reader-demand measurement.", "Correction links are checked without submitting issues or impersonating readers."],
+        "seo": {"canonical_urls": len(seo_report["urls"]), "locale_counts": seo_report["locale_counts"],
+                "sitemap_index": urljoin(canonical_base, "sitemap-index.xml"), "child_sitemaps": list(sitemap_children)},
+        "limitations": ["Read-only HTTP/content verification; no human literary review or real reader-demand measurement.",
+                        "Correction links are checked without submitting issues or impersonating readers.",
+                        "The project-level robots.txt is a deployment template; the effective crawler policy is the origin-root /robots.txt. Publishing sitemaps does not prove search-engine submission, indexing or AI citation."],
         "results": results
     }
     rendered = json.dumps(report, ensure_ascii=False, indent=2) + "\n"
