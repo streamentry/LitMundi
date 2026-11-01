@@ -58,6 +58,8 @@ Use `npm run dev` for the local reader at `http://localhost:4321/LitMundi/`. On 
 
 Pull requests are validated and built. A successful push to `main` deploys through the pinned [GitHub Actions workflow](.github/workflows/ci.yml) to `https://streamentry.github.io/LitMundi/`. Follow [Deployment](docs/DEPLOYMENT.md) to verify the actual production run and routes; a local build is not proof of deployment. No custom domain is configured.
 
+The [sitemap index](https://streamentry.github.io/LitMundi/sitemap-index.xml) references separate English, Vietnamese, French and Spanish XML sitemaps. Only canonical public pages are listed: each literary edition has one canonical reader, with actual translation languages distinguished from interface languages. The previous `sitemap.xml` address remains a compatibility index. [Search discovery](docs/SEO.md) explains canonical URLs, accurate modification dates, verification and Google/Bing submission. On this GitHub Pages project URL, crawler policy belongs at `https://streamentry.github.io/robots.txt`; a project-level robots file cannot configure that host-root policy.
+
 Ongoing work includes releasing eligible AI-assessed editions, responding to optional human feedback, improving the texts and obtaining independent archive custody. Reader reports and actual custodians must be recorded when they exist. GitHub's 30-day workflow artifact retention is not an independent mirror.
 
 [Editorial workflow](docs/EDITORIAL-WORKFLOW.md) · [Contributing](CONTRIBUTING.md) · [Architecture](docs/ARCHITECTURE.md) · [Roadmap](docs/ROADMAP.md) · [Governance](GOVERNANCE.md) · [Rights](docs/RIGHTS.md) · [AI content policy](docs/AI-CONTENT-POLICY.md) · [ADRs](docs/adr/README.md)

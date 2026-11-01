@@ -3,8 +3,9 @@ import Base from '../../../../layouts/Base.astro';
 import Passage from '../../../../components/Passage.astro';
 import OriginalTitle from '../../../../components/OriginalTitle.astro';
 import {strings,supported,type Locale} from '../../../../lib/i18n';
-import {catalog,languageNames,issueUrl,passagesFor,readableEditions,resolveEdition,parallelFor,publicWorks,bestEdition,reviewCategory,editionTitle} from '../../../../lib/corpus';
+import {catalog,languageNames,issueUrl,passagesFor,readableEditions,publishedEditions,resolveEdition,parallelFor,publicWorks,bestEdition,reviewCategory,editionTitle} from '../../../../lib/corpus';
 import {pagePath,assetPath} from '../../../../lib/urls';
+import {canonicalEditionPath} from '../../../../lib/seo';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.flatMap(w=>readableEditions(w.id).flatMap(e=>[e.id,...e.legacy_slugs].map(slug=>({params:{lang,work:w.id,edition:slug}})))));}
 const lang=Astro.params.lang as Locale,t=strings[lang];
 const w=catalog.find(w=>w.id===Astro.params.work)!;
@@ -14,6 +15,8 @@ const showOriginal=e.kind==='translation'&&title!==w.title;
 const legacy=e.id!==Astro.params.edition,current=pagePath(lang,'read',w.id,e.id);
 const passages=passagesFor(e),parallel=parallelFor(e),reading=readableEditions(w.id);
 const published=e.status==='published'&&w.visibility==='public',noindex=!published||legacy;
+const canonical=published?canonicalEditionPath(e):current;
+const canonicalUrl=new URL(canonical,Astro.site).href;
 const category=reviewCategory(e);
 const notice=category==='ai'?t.aiNotice:category==='human'?t.humanNotice:category==='source'?t.sourceNotice:t.translationNotice;
 const badge=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewed:category==='source'?t.sourcePublished:t.translationPublished;
@@ -21,9 +24,28 @@ const publicCatalog=publicWorks(),position=publicCatalog.findIndex(work=>work.id
 const previous=position>0?publicCatalog[position-1]:null,next=position>=0?publicCatalog[position+1]:null;
 const previousEdition=previous?bestEdition(previous,lang):null,nextEdition=next?bestEdition(next,lang):null;
 const feedback='https://github.com/streamentry/LitMundi/issues/new?'+new URLSearchParams({title:'Reading feedback: '+w.id,body:'## What I read\nWork: '+w.id+'\nEdition: '+e.id+'\n\n## Did you finish the work? Where did you stop?\n\n## What made reading easier or harder?\n\n## Would you return or recommend it? Why?\n\n## A specific improvement\n\nPlease do not include personal or sensitive information. This is a public GitHub issue.'}).toString();
-const structuredData=published?{'@context':'https://schema.org','@type':'CreativeWork',name:title,alternateName:showOriginal?w.title:undefined,author:{'@type':'Person',name:w.author},inLanguage:e.language,url:new URL(current,Astro.site).href,identifier:e.id,isAccessibleForFree:true,description:w.description,version:e.label,isBasedOn:e.provenance.text_url??undefined,copyrightNotice:e.rights.basis,creativeWorkStatus:category==='ai'?'AI-reviewed publication':category==='human'?'Human-reviewed publication':category==='source'?'Published source':'Published translation',...(e.credits.translator&&category==='human'?{translator:{'@type':'Person',name:e.credits.translator}}:{}),...(e.credits.translator?{creditText:'Translation: '+e.credits.translator}:{}),...(e.rights.license==='CC-BY-4.0'?{license:'https://creativecommons.org/licenses/by/4.0/'}:e.rights.license==='CC0-1.0'?{license:'https://creativecommons.org/publicdomain/zero/1.0/'}:{})}:undefined;
+const editionReference=(edition:typeof e)=>{
+  const url=new URL(canonicalEditionPath(edition),Astro.site).href;
+  return {'@type':'CreativeWork','@id':url+'#edition',url,identifier:edition.id,name:editionTitle(w,edition),inLanguage:edition.language};
+};
+const translations=publishedEditions(w.id).filter(edition=>edition.kind==='translation'&&edition.source_edition_id===e.id);
+const structuredData=published?{
+  '@context':'https://schema.org','@type':'CreativeWork','@id':canonicalUrl+'#edition',
+  name:title,alternateName:showOriginal?w.title:undefined,
+  author:{'@type':'Person',name:w.author},inLanguage:e.language,
+  url:canonicalUrl,mainEntityOfPage:canonicalUrl,identifier:e.id,isAccessibleForFree:true,
+  description:w.description,version:e.label,citation:e.provenance.citation,
+  isBasedOn:e.provenance.text_url??undefined,
+  translationOfWork:parallel?editionReference(parallel.source):undefined,
+  workTranslation:translations.length?translations.map(editionReference):undefined,
+  copyrightNotice:e.rights.basis,
+  creativeWorkStatus:category==='ai'?'AI-reviewed publication':category==='human'?'Human-reviewed publication':category==='source'?'Published source':'Published translation',
+  ...(e.credits.translator&&category==='human'?{translator:{'@type':'Person',name:e.credits.translator}}:{}),
+  ...(e.credits.translator?{creditText:'Translation: '+e.credits.translator}:{}),
+  ...(e.rights.license==='CC-BY-4.0'?{license:'https://creativecommons.org/licenses/by/4.0/'}:e.rights.license==='CC0-1.0'?{license:'https://creativecommons.org/publicdomain/zero/1.0/'}:{})
+}:undefined;
 ---
-<Base lang={lang} title={title+' — '+(languageNames[e.language]??e.language)} description={w.description} noindex={noindex} canonicalPath={current} structuredData={structuredData}>
+<Base lang={lang} title={title+' — '+(languageNames[e.language]??e.language)} description={w.description} noindex={noindex} canonicalPath={canonical} structuredData={structuredData}>
 <div class="container"><section class="reader-head">
   <p class="eyebrow"><a href={pagePath(lang)+'?author='+encodeURIComponent(w.author)+'#collection'}>{w.author}</a> · {languageNames[e.language]??e.language}</p>
   <h1 lang={titleLanguage} data-edition-title={e.id}>{title}</h1>
@@ -61,13 +83,13 @@ const structuredData=published?{'@context':'https://schema.org','@type':'Creativ
       <p class="muted comparison-hint">{t.compareHint}</p>
     </>}
   </div>
-  {parallel?<article id="parallel-text" class="parallel-reader" aria-label={title}>
+  {parallel?<article id="parallel-text" class="parallel-reader" lang={e.language} aria-label={title}>
     <div class="parallel-heading"><h2>{languageNames[parallel.source.language]??parallel.source.language} · {t.original}</h2><h2>{languageNames[e.language]??e.language} · {badge}</h2></div>
     {parallel.rows.map(row=><div class="parallel-row">
       <section class="parallel-cell" data-source-cell={parallel.source.id} aria-label={languageNames[parallel.source.language]??parallel.source.language}><p class="language-label">{languageNames[parallel.source.language]??parallel.source.language}</p>{row.source.map(([id,text])=><Passage id={id} anchorId={'source-'+id} permalink={pagePath(lang,'read',w.id,parallel.source.id)+'#'+id} text={text} language={parallel.source.language} locale={lang} workId={w.id} editionId={parallel.source.id} track={false}/>)}</section>
       <section class="parallel-cell" data-target-cell={e.id} aria-label={languageNames[e.language]??e.language}><p class="language-label">{languageNames[e.language]??e.language}</p>{row.target.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</section>
     </div>)}
-  </article>:<article class="reader" aria-label={title}>{passages.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</article>}
+  </article>:<article class="reader" lang={e.language} aria-label={title}>{passages.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</article>}
   {published&&<div class="reader-feedback"><a href={feedback}>{t.readerFeedback} <span aria-hidden="true">↗</span></a></div>}
   {published&&<nav class="next-works" aria-label={t.works}>{previous&&previousEdition?<a href={pagePath(lang,'read',previous.id,previousEdition.id)}><span>{t.previous}</span><span class="navigation-title" data-navigation-title={previousEdition.id} lang={previousEdition.title?previousEdition.language:previous.original_language}>{editionTitle(previous,previousEdition)}</span></a>:<a href={pagePath(lang)}>{t.back}</a>}{next&&nextEdition&&<a href={pagePath(lang,'read',next.id,nextEdition.id)}><span>{t.next}</span><span class="navigation-title" data-navigation-title={nextEdition.id} lang={nextEdition.title?nextEdition.language:next.original_language}>{editionTitle(next,nextEdition)}</span></a>}</nav>}
 </div>

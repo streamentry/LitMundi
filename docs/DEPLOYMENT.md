@@ -49,7 +49,7 @@ npm run verify:deployed -- --output /tmp/litmundi-production-check.json
 
 This read-only check compares production routes, complete passage text, provenance, publication downloads and their hashes against the validated local checkout. It also checks that draft/planned/withdrawn reader routes return 404. Keep the deployment run and commit SHA alongside the resulting report; do not run it against a checkout different from the intended release.
 
-- All four interface roots, each public work and source-edition route, the sitemap and 404 page.
+- All four interface roots, each public work and source-edition route, `sitemap-index.xml`, every referenced language sitemap, the `sitemap.xml` compatibility index and the 404 page.
 - Language switching keeps the work/edition and passage context; text-language fallback is explicit.
 - Published text search, author/language filters, JSON/TXT/EPUB downloads, provenance and copyright notices.
 - Passage permalinks and GitHub correction links contain the correct work, edition and segment. Inspect the issue form without submitting a fabricated reader report.
@@ -57,6 +57,34 @@ This read-only check compares production routes, complete passage text, provenan
 - Mobile layout and keyboard reading/edition navigation. Optional saved position stays local and can be cleared.
 
 Retain observed checks and failures in [verification records](verification/README.md). Browser automation confirms behavior, not real-reader demand or human literary approval.
+
+## Sitemap discovery and search submission
+
+The primary index is <https://streamentry.github.io/LitMundi/sitemap-index.xml>.
+It references separate English, Vietnamese, French and Spanish sitemap files,
+with automatic splitting when a language exceeds a protocol limit. The previous
+`sitemap.xml` URL serves a compatibility copy of the index. See [Search discovery](SEO.md)
+for canonical readers, real text-language alternatives, modification dates and
+the difference between interface and edition language.
+
+Submit the primary index once through the verified site in Google Search Console
+and Bing Webmaster Tools. Record the actual submission and processing results;
+neither a successful deployment nor a public HTTP response establishes indexing.
+Authenticated webmaster credentials were not available for this implementation,
+so the build does not submit the site or claim observed search outcomes.
+
+The effective robots URL is **<https://streamentry.github.io/robots.txt>**.
+`/LitMundi/robots.txt` is a project-level file and does not govern crawlers. If the
+origin-root site is controlled, preserve its existing policy and add:
+
+```text
+Sitemap: https://streamentry.github.io/LitMundi/sitemap-index.xml
+```
+
+This requires the origin-root deployment; it cannot be achieved by writing a file
+inside this project's `dist/`. Inspect the live root response separately and do
+not report host-root discovery as configured until verified. A domain migration
+must recheck this boundary together with all absolute sitemap and canonical URLs.
 
 ## Initial activation and troubleshooting
 

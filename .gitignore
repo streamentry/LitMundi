@@ -9,3 +9,4 @@ dist-archive/
 dist-archive.zip
 public/downloads/
 review-packets/
+__pycache__/
