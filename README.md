@@ -26,7 +26,7 @@ The [Translation Gap Atlas](docs/TRANSLATION-GAP-ATLAS.md) surveys **20 works ac
 
 The [GitHub Pages library](https://streamentry.github.io/LitMundi/) has English, Vietnamese, French and Spanish interfaces. Interface languages do not promise translated editions. Readers can browse by author or text language, search published text, follow stable passage links, submit corrections through GitHub and download JSON, TXT or EPUB. TSV is also generated as a portable export.
 
-The reader supports keyboard navigation, mobile layouts, edition selection and optional reading-position storage on the reader's own device. Published translations can display their source alongside the documented passage alignment. Reading and browsing require no account. Submitting an issue uses GitHub's own sign-in.
+The reader opens translated editions with only the translation visible. The **Show original** checkbox enables the documented source/translation comparison and works without JavaScript. Each new visit starts with the translation; the view mode creates no saved preference. Keyboard navigation, mobile layouts, edition selection and optional reading-position storage remain available. Reading and browsing require no account. Submitting an issue uses GitHub's own sign-in.
 
 Report specific errors or reading experiences after publication. Material corrections receive a fresh evaluation before republication; serious current issues block the affected edition until resolved.
 

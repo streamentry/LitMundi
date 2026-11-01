@@ -31,12 +31,67 @@ def attributes(markup):
     return {key: html.unescape(value) for key, value in re.findall(r'([\w:-]+)="([^"]*)"', markup)}
 
 
+def has_attribute(markup, name):
+    return bool(re.search(r"(?:^|\s)" + re.escape(name) + r"(?:\s|=|/|$)", markup, re.IGNORECASE))
+
+
 def edition_title(work, edition):
     return edition["title"] if edition and edition.get("title") is not None else work["title"]
 
 
 def elements(markup, tag):
     return [(raw, attributes(raw), html.unescape(re.sub(r"<[^>]*>", "", body))) for raw, body in re.findall(r"<" + tag + r"\b([^>]*)>([\s\S]*?)</" + tag + r">", markup)]
+
+
+def comparison_problems(markup, edition, source, rows):
+    """Check the native control and markup contract, never computed CSS visibility."""
+    problems = []
+    controls = [(raw, attributes(raw)) for raw in re.findall(r"<input\b([^>]*)>", markup) if attributes(raw).get("id") == "show-original"]
+    labels = [(raw, attrs, text) for raw, attrs, text in elements(markup, "label") if attrs.get("for") == "show-original"]
+    articles = [(raw, body) for raw, body in re.findall(r"<article\b([^>]*)>([\s\S]*?)</article>", markup) if attributes(raw).get("id") == "parallel-text"]
+
+    def marked_cells(body):
+        return [(raw, attributes(raw), content) for raw, content in re.findall(r"<section\b([^>]*)>([\s\S]*?)</section>", body) if has_attribute(raw, "data-source-cell") or has_attribute(raw, "data-target-cell")]
+
+    all_cells = marked_cells(markup)
+    if not source:
+        if controls or labels or articles or all_cells:
+            problems.append("Original-comparison controls/cells must appear only on translated readers")
+        return problems
+    if len(controls) != 1:
+        problems.append("Translation requires one native original-comparison checkbox")
+    else:
+        raw, attrs = controls[0]
+        if attrs.get("type") != "checkbox" or has_attribute(raw, "checked"):
+            problems.append("Original-comparison checkbox must be unchecked in the initial HTML")
+        if has_attribute(raw, "hidden") or has_attribute(raw, "disabled") or attrs.get("aria-hidden") == "true":
+            problems.append("Original-comparison control is explicitly hidden or disabled")
+        if attrs.get("autocomplete") != "off" or attrs.get("aria-controls") != "parallel-text":
+            problems.append("Original-comparison checkbox needs autocomplete=off and aria-controls=parallel-text")
+    if len(labels) != 1:
+        problems.append("Original-comparison checkbox needs one associated label")
+    elif not labels[0][2].strip() or has_attribute(labels[0][0], "hidden") or labels[0][1].get("aria-hidden") == "true":
+        problems.append("Original-comparison label is empty or explicitly hidden")
+    if len(articles) != 1:
+        problems.append("Translation requires one controlled parallel-text article")
+        return problems
+    cells = marked_cells(articles[0][1])
+    if len(all_cells) != len(cells):
+        problems.append("Comparison cells must belong to the controlled article")
+    if len(cells) != len(rows) * 2:
+        problems.append("Each alignment row needs exactly one source and one target cell")
+    for original, target, row in zip(cells[::2], cells[1::2], rows):
+        original_raw, original_attrs, original_body = original
+        target_raw, target_attrs, target_body = target
+        if original_attrs.get("data-source-cell") != source["id"] or has_attribute(original_raw, "data-target-cell"):
+            problems.append("Original comparison cell has the wrong edition identity or marker")
+        if target_attrs.get("data-target-cell") != edition["id"] or has_attribute(target_raw, "data-source-cell"):
+            problems.append("Target comparison cell has the wrong edition identity or marker")
+        original_ids = [attributes(raw).get("id") for raw in re.findall(r'<div\b([^>]*\bclass="segment"[^>]*)>', original_body)]
+        target_ids = [attributes(raw).get("id") for raw in re.findall(r'<div\b([^>]*\bclass="segment"[^>]*)>', target_body)]
+        if original_ids != ["source-" + identifier for identifier in row["source"]] or target_ids != row["target"]:
+            problems.append("Marked original/target cells differ from the recorded passage alignment")
+    return problems
 
 
 def title_problems(markup, work, edition, tag="h1", page_title=None):
@@ -146,6 +201,8 @@ def main():
                 else:
                     text = data.decode("utf-8")
                     decoded = html.unescape(text)
+                    if kind in ("root", "page", "work"):
+                        problems.extend(comparison_problems(text, edition, None, []))
                     if kind in ("page", "work", "reader"):
                         validate_page(text, urljoin(canonical_base, route), seo_inventory, canonical_base)
                         if 'href="#main"' not in text:
@@ -185,6 +242,7 @@ def main():
                             if segments.get(identifier) != (texts[edition["id"]][identifier], edition["language"], identifier):
                                 problems.append("Missing or incorrect canonical passage " + identifier)
                         source = published_by_id.get(edition.get("source_edition_id")) if edition["kind"] == "translation" else None
+                        rows = []
                         if edition["kind"] == "translation" and not source:
                             problems.append("Published translation lacks a public original")
                         if source:
@@ -192,8 +250,19 @@ def main():
                                 if segments.get("source-" + identifier) != (passage, source["language"], None):
                                     problems.append("Missing or incorrect parallel original " + identifier)
                             alignment = read("corpus/alignments/" + edition["work_id"] + "/" + edition["id"] + ".json")
+                            positions = {identifier: index for index, identifier in enumerate(structures[edition["work_id"]])}
+                            rows = sorted(alignment["links"], key=lambda row: min(positions[identifier] for identifier in row["target"]))
                             if len(re.findall(r'class="parallel-row"', text)) != len(alignment["links"]):
                                 problems.append("Parallel alignment row count differs")
+                        problems.extend(comparison_problems(text, edition, source, rows))
+                        expected_order = []
+                        for row in rows:
+                            expected_order.extend("source-" + identifier for identifier in row["source"])
+                            expected_order.extend(row["target"])
+                        if not source:
+                            expected_order = structures[edition["work_id"]]
+                        if list(segments) != expected_order:
+                            problems.append("Rendered passage order differs from the recorded alignment")
                         expected_segments = len(texts[edition["id"]]) + (len(texts[source["id"]]) if source else 0)
                         if len(segments) != expected_segments:
                             problems.append("Unexpected total passage count")
@@ -227,8 +296,16 @@ def main():
                                     problems.append("Missing source/target correction identity " + record["id"] + " / " + identifier)
                         if edition["provenance"]["citation"] not in decoded or edition["rights"]["basis"] not in decoded:
                             problems.append("Source attribution or rights assessment missing")
-                    if kind == "legacy" and not re.search(r'name="robots"[^>]*noindex', text):
-                        problems.append("Legacy/sample page is indexable")
+                    if kind == "legacy":
+                        if not re.search(r'name="robots"[^>]*noindex', text):
+                            problems.append("Legacy/sample page is indexable")
+                        source = published_by_id.get(edition.get("source_edition_id")) if edition["kind"] == "translation" else None
+                        rows = []
+                        if source:
+                            alignment = read("corpus/alignments/" + edition["work_id"] + "/" + edition["id"] + ".json")
+                            positions = {identifier: index for index, identifier in enumerate(structures[edition["work_id"]])}
+                            rows = sorted(alignment["links"], key=lambda row: min(positions[identifier] for identifier in row["target"]))
+                        problems.extend(comparison_problems(text, edition, source, rows))
                     if kind == "search":
                         found = json.loads(text)
                         if sorted(record["editionId"] for record in found) != sorted(published_by_id):
@@ -281,7 +358,8 @@ def main():
                 "sitemap_index": urljoin(canonical_base, "sitemap-index.xml"), "child_sitemaps": list(sitemap_children)},
         "limitations": ["Read-only HTTP/content verification; no human literary review or real reader-demand measurement.",
                         "Correction links are checked without submitting issues or impersonating readers.",
-                        "The project-level robots.txt is a deployment template; the effective crawler policy is the origin-root /robots.txt. Publishing sitemaps does not prove search-engine submission, indexing or AI citation."],
+                        "The project-level robots.txt is a deployment template; the effective crawler policy is the origin-root /robots.txt. Publishing sitemaps does not prove search-engine submission, indexing or AI citation.",
+                        "Unchecked native checkbox, label association, controls and source/target markup are checked. HTTP does not establish computed CSS visibility, layout, keyboard behavior or toggle interaction; those require browser acceptance."],
         "results": results
     }
     rendered = json.dumps(report, ensure_ascii=False, indent=2) + "\n"

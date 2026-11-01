@@ -78,13 +78,16 @@ const structuredData=published?{
       <p class="muted" id="progress-message">{t.progressHint}</p>
     </div>}
     <details><summary>{t.contents} · {passages.length}</summary><nav aria-label={t.contents}><ol>{passages.map(([id])=><li><a href={'#'+id} aria-label={t.passage+' '+id.split(':').pop()}>{id.split(':').pop()}</a></li>)}</ol></nav></details>
-    {parallel&&<p class="muted">{t.compareHint}</p>}
+    {parallel&&<>
+      <div class="comparison-control"><label for="show-original"><input id="show-original" type="checkbox" autocomplete="off" aria-controls="parallel-text" />{t.showOriginal}</label><span class="muted" lang={parallel.source.language}>{languageNames[parallel.source.language]??parallel.source.language}</span></div>
+      <p class="muted comparison-hint">{t.compareHint}</p>
+    </>}
   </div>
-  {parallel?<article class="parallel-reader" lang={e.language} aria-label={t.compare}>
+  {parallel?<article id="parallel-text" class="parallel-reader" lang={e.language} aria-label={title}>
     <div class="parallel-heading"><h2>{languageNames[parallel.source.language]??parallel.source.language} · {t.original}</h2><h2>{languageNames[e.language]??e.language} · {badge}</h2></div>
     {parallel.rows.map(row=><div class="parallel-row">
-      <section class="parallel-cell" aria-label={languageNames[parallel.source.language]??parallel.source.language}><p class="language-label">{languageNames[parallel.source.language]??parallel.source.language}</p>{row.source.map(([id,text])=><Passage id={id} anchorId={'source-'+id} permalink={pagePath(lang,'read',w.id,parallel.source.id)+'#'+id} text={text} language={parallel.source.language} locale={lang} workId={w.id} editionId={parallel.source.id} track={false}/>)}</section>
-      <section class="parallel-cell" aria-label={languageNames[e.language]??e.language}><p class="language-label">{languageNames[e.language]??e.language}</p>{row.target.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</section>
+      <section class="parallel-cell" data-source-cell={parallel.source.id} aria-label={languageNames[parallel.source.language]??parallel.source.language}><p class="language-label">{languageNames[parallel.source.language]??parallel.source.language}</p>{row.source.map(([id,text])=><Passage id={id} anchorId={'source-'+id} permalink={pagePath(lang,'read',w.id,parallel.source.id)+'#'+id} text={text} language={parallel.source.language} locale={lang} workId={w.id} editionId={parallel.source.id} track={false}/>)}</section>
+      <section class="parallel-cell" data-target-cell={e.id} aria-label={languageNames[e.language]??e.language}><p class="language-label">{languageNames[e.language]??e.language}</p>{row.target.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</section>
     </div>)}
   </article>:<article class="reader" lang={e.language} aria-label={title}>{passages.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</article>}
   {published&&<div class="reader-feedback"><a href={feedback}>{t.readerFeedback} <span aria-hidden="true">↗</span></a></div>}

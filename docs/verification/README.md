@@ -15,7 +15,9 @@ node tests/reader-data.test.mjs
 npm run check
 ```
 
-`verify:build` checks every generated HTML link and fragment; canonical public sitemap membership and hreflang; complete passage text, metadata and correction context; and absence of drafts from reading routes, search, scripts and public downloads. Reader-rule tests cover publication filtering, language fallback, accent-insensitive search, explicit many-to-many alignment, AI/human label separation and safe JSON-LD serialization. The checks derive the edition and locale sets from the canonical data.
+`verify:build` checks every generated HTML link and fragment; canonical public sitemap membership and hreflang; complete passage text, metadata and correction context; and absence of drafts from reading routes, search, scripts and public downloads. It also checks the unchecked original-comparison checkbox, label/control association and exact source/target cell identities on translated readers, with no comparison controls on source-only pages. Reader-rule tests cover publication filtering, language fallback, accent-insensitive search, explicit many-to-many alignment, AI/human label separation and safe JSON-LD serialization. The checks derive the edition and locale sets from the canonical data.
+
+Static build and HTTP checks establish that the comparison markup is present and the checkbox is initially unchecked. They cannot establish computed CSS visibility or interaction. Fresh browser acceptance must verify translation-only initial display, normal reading width, enabled source comparison, keyboard operation and the same behavior without JavaScript. Earlier dated reports remain evidence of the behavior tested at that time.
 
 ## Optional real-browser acceptance check
 
