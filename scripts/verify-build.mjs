@@ -1,11 +1,12 @@
 import {existsSync,readFileSync,readdirSync,statSync} from 'node:fs';
 import {join,relative,resolve} from 'node:path';
 import assert from 'node:assert/strict';
-import {alignedPassages,isPublicEdition,reviewCategory} from './lib/reader-data.mjs';
+import {alignedPassages,isPublicEdition,reviewCategory,editionTitle,preferredEdition} from './lib/reader-data.mjs';
 
 const base='/LitMundi/',origin='https://streamentry.github.io';
 const read=path=>JSON.parse(readFileSync(path,'utf8'));
 const locales=Object.keys(read('src/lib/locales.json'));
+const languageNames=read('corpus/catalog/languages.json');
 const works=read('corpus/catalog/works.json'),editions=read('corpus/catalog/editions.json');
 const published=editions.filter(edition=>isPublicEdition(edition,works.find(work=>work.id===edition.work_id)));
 const visible=works.filter(work=>published.some(edition=>edition.work_id===work.id));
@@ -21,6 +22,25 @@ const decode=text=>text.replace(/&(#x[\da-f]+|#\d+|amp|quot|apos|lt|gt);/gi,(mat
   if(entity.startsWith('#'))return String.fromCodePoint(Number(entity.slice(1)));
   return ({amp:'&',quot:'"',apos:"'",lt:'<',gt:'>'})[entity]??match;
 });
+const attrs=value=>Object.fromEntries([...value.matchAll(/([\w:-]+)="([^"]*)"/g)].map(match=>[match[1],decode(match[2])]));
+const textContent=value=>decode(value.replace(/<[^>]*>/g,''));
+const elements=(html,tag)=>[...html.matchAll(new RegExp('<'+tag+'\\b([^>]*)>([\\s\\S]*?)<\\/'+tag+'>','g'))].map(match=>({rawAttributes:match[1],attributes:attrs(match[1]),text:textContent(match[2])}));
+function verifyTitle(html,work,edition,tag='h1',pageTitle){
+  const title=editionTitle(work,edition),language=edition.title?edition.language:work.original_language;
+  const heading=elements(html,tag).find(element=>element.attributes['data-edition-title']===edition.id);
+  assert.ok(heading,'Missing edition title heading: '+edition.id);
+  assert.equal(heading.text,title,'Heading must use the selected edition title: '+edition.id);
+  assert.equal(heading.attributes.lang,language,'Wrong title language: '+edition.id);
+  const originals=elements(html,'span').filter(element=>element.rawAttributes.includes('data-original-title'));
+  const showOriginal=edition.kind==='translation'&&title!==work.title;
+  assert.equal(originals.length,showOriginal?1:0,'Original title subtitle must accompany a translated title');
+  if(showOriginal){assert.equal(originals[0].text,work.title);assert.equal(originals[0].attributes.lang,work.original_language);}
+  if(pageTitle!==undefined){
+    assert.equal(elements(html,'title')[0]?.text,pageTitle+' · LitMundi','Browser title must use the selected edition title');
+    const og=[...html.matchAll(/<meta\b([^>]*)>/g)].map(match=>attrs(match[1])).find(meta=>meta.property==='og:title');
+    assert.equal(og?.content,pageTitle+' · LitMundi','Open Graph title must use the selected edition title');
+  }
+}
 const pathFor=url=>{
   assert.ok(url.pathname.startsWith(base),'Internal link escapes Pages base: '+url.href);
   const path=join('dist',decodeURIComponent(url.pathname.slice(base.length)));
@@ -76,6 +96,7 @@ const downloadNames=published.flatMap(edition=>['json','txt','epub','tsv'].map(f
 assert.deepEqual(read('dist/downloads/manifest.json').files.map(file=>file.path).sort(),[...downloadNames].sort(),'Download manifest must contain exactly public editions');
 assert.deepEqual(readdirSync('dist/downloads').sort(),[...downloadNames,'manifest.json'].sort(),'Unexpected public download output');
 for(const edition of published){
+  const work=works.find(item=>item.id===edition.work_id),title=editionTitle(work,edition);
   const passages=passagesFor(edition),ids=passages.map(([id])=>id),category=reviewCategory(edition);
   const source=edition.kind==='translation'?published.find(e=>e.id===edition.source_edition_id):null;
   assert.ok(edition.kind!=='translation'||source,'Published translation must have a public source: '+edition.id);
@@ -83,12 +104,14 @@ for(const edition of published){
   const rows=source?alignedPassages(sourcePassages,passages,read('corpus/alignments/'+edition.work_id+'/'+edition.id+'.json')):[];
   const entry=search.find(item=>item.editionId===edition.id);
   assert.equal(entry.workId,edition.work_id);assert.equal(entry.language,edition.language);assert.equal(entry.reviewCategory,category);
+  assert.equal(entry.title,title,'Search must display the edition title');assert.equal(entry.originalTitle,work.title,'Original title must remain searchable');
+  assert.equal(entry.titleLanguage,edition.title?edition.language:work.original_language);
   assert.deepEqual(entry.passages,passages,'Search must preserve canonical passage order and text');
   for(const locale of locales){
     const file='dist/'+locale+'/read/'+edition.work_id+'/'+edition.id+'/index.html';
     assert.ok(existsSync(file),'Published edition missing: '+file);
     const raw=readFileSync(file,'utf8'),html=decode(raw);
-    const attrs=value=>Object.fromEntries([...value.matchAll(/([\w:-]+)="([^"]*)"/g)].map(match=>[match[1],decode(match[2])]));
+    verifyTitle(raw,work,edition,'h1',title+' — '+(languageNames[edition.language]??edition.language));
     const segments=[...raw.matchAll(/<div\b([^>]*\bclass="segment"[^>]*)>\s*<p\b([^>]*)>([\s\S]*?)<\/p>/g)].map(match=>({attributes:attrs(match[1]),language:attrs(match[2]).lang,text:decode(match[3])}));
     assert.equal(segments.length,passages.length+sourcePassages.length,'Unexpected passage count: '+file);
     for(const [id,text] of passages){
@@ -112,6 +135,14 @@ for(const edition of published){
     const jsonLD=raw.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
     assert.ok(jsonLD,'Missing structured data script');
     const metadata=JSON.parse(jsonLD[1]);assert.equal(metadata.identifier,edition.id);assert.equal(metadata.inLanguage,edition.language);
+    assert.equal(metadata.name,title,'Structured metadata must use the edition title');
+    assert.equal(metadata.alternateName,edition.kind==='translation'&&title!==work.title?work.title:undefined,'Structured metadata must retain the original title when translated');
+    for(const navigation of elements(raw,'span').filter(element=>element.attributes['data-navigation-title'])){
+      const target=published.find(item=>item.id===navigation.attributes['data-navigation-title']);assert.ok(target,'Navigation must select a published edition');
+      const targetWork=works.find(item=>item.id===target.work_id);
+      assert.equal(navigation.text,editionTitle(targetWork,target),'Work navigation must use its selected edition title');
+      assert.equal(navigation.attributes.lang,target.title?target.language:targetWork.original_language);
+    }
     if(category==='ai'){
       assert.equal(metadata.creativeWorkStatus,'AI-reviewed publication');
       assert.equal(metadata.translator,undefined,'AI must not be represented as a human translator in structured metadata');
@@ -144,5 +175,16 @@ for(const sample of samples)for(const locale of locales)for(const slug of [sampl
 for(const locale of locales){
   const home=readFileSync('dist/'+locale+'/index.html','utf8');
   assert.equal([...home.matchAll(/data-work-id="/g)].length,visible.length,'One catalog card per work, even with multiple editions');
+  const cards=[...home.matchAll(/<article\b([^>]*)>([\s\S]*?)<\/article>/g)].map(match=>({attributes:attrs(match[1]),html:match[2]}));
+  for(const work of visible){
+    const available=published.filter(edition=>edition.work_id===work.id),preferred=preferredEdition(available,locale,work.original_language);
+    const card=cards.find(item=>item.attributes['data-work-id']===work.id);assert.ok(card,'Catalog card missing: '+work.id);
+    verifyTitle(card.html,work,preferred,'h3');
+    const details=readFileSync('dist/'+locale+'/works/'+work.id+'/index.html','utf8');
+    verifyTitle(details,work,preferred,'h1',editionTitle(work,preferred));
+    const listed=elements(details,'h3').filter(element=>element.attributes['data-edition-title']);
+    assert.deepEqual(listed.map(element=>element.attributes['data-edition-title']).sort(),available.map(edition=>edition.id).sort(),'Edition title list must contain only published editions');
+    for(const edition of available){const heading=listed.find(element=>element.attributes['data-edition-title']===edition.id);assert.equal(heading.text,editionTitle(work,edition));assert.equal(heading.attributes.lang,edition.title?edition.language:work.original_language);}
+  }
 }
 console.log('Verified '+htmlFiles.length+' HTML pages, '+checkedLinks+' local links/anchors, '+indexed.length+' sitemap routes, '+published.length+' complete public editions and '+published.filter(e=>e.kind==='translation').length+' aligned translations. Unpublished routes, unique draft text, search entries and downloads remain excluded.');

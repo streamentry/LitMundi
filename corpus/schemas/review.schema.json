@@ -223,6 +223,32 @@
         }
       },
       "additionalProperties": false
+    },
+    "title_review": {
+      "type": "object",
+      "required": [
+        "source_title",
+        "target_title",
+        "rationale"
+      ],
+      "properties": {
+        "source_title": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "target_title": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 20
+        }
+      },
+      "additionalProperties": false,
+      "description": "Exact title snapshots and actual title assessment. Historical records may omit this object but cannot approve a current AI publication without it."
     }
   },
   "additionalProperties": false,

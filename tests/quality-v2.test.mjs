@@ -9,10 +9,10 @@ const rubric=read('corpus/reviews/rubric-literary-v2.json');
 const editions=read('corpus/catalog/editions.json');
 const original=editions.find(e=>e.id==='wilde-artist-en-methuen-1913');
 const target=editions.find(e=>e.id==='wilde-artist-vi-ai-draft-2026');
-const path='corpus/reviews/'+target.work_id+'/'+target.id+'/ai-review-v2-2026-11-01.json';
+const path=target.review.record_paths[0];
 const ids=read('corpus/structure/'+target.work_id+'.json').segment_ids;
 const hash=file=>createHash('sha256').update(readFileSync(file)).digest('hex');
-const context={source:original,sourceSha:hash(original.content_path),targetSha:hash(target.content_path),segmentIds:ids};
+const context={source:original,sourceTitle:original.title,sourceSha:hash(original.content_path),targetSha:hash(target.content_path),segmentIds:ids};
 function fixture(){
   const edition=structuredClone(target),record={...read(path),_path:path};
   record.reviewer={identifier:'synthetic-ai-test',display_name:'Synthetic AI test fixture',github_handle:null,independent:false,evidence_url:null};
@@ -82,7 +82,7 @@ test('v2 requires explicit current evidence selection and matching public record
   }
 });
 test('v2 cannot relabel an old advisory preflight as a current AI publication assessment',()=>{
-  const f=fixture(),oldPath=path.replace('ai-review-v2-2026-11-01','ai-preflight-2026-11-01');
+  const f=fixture(),oldPath='corpus/reviews/'+target.work_id+'/'+target.id+'/ai-preflight-2026-11-01.json';
   const old={...read(oldPath),_path:oldPath};f.edition.review.record_paths=[oldPath];f.edition.review.evidence_urls=[reviewRecordUrl(oldPath)];
   assert.equal(decision(f,{reviews:[old]}).eligible,false);
 });
@@ -119,4 +119,32 @@ test('v2 source identity and disclosed generation provenance remain necessary',(
   for(const mutation of [f=>f.edition.credits.ai_assisted=false,f=>delete f.edition.generation,f=>delete f.edition.publication_policy]){
     const changed=fixture();mutation(changed);assert.equal(decision(changed).eligible,false);
   }
+});
+
+test('v2 requires an assessed translated title even when all body hashes and scores pass',()=>{
+  for(const mutation of [f=>delete f.edition.title,f=>f.edition.title=' ',f=>delete f.record.title_review,f=>f.record.title_review.rationale='']){
+    const f=fixture();mutation(f);assert.equal(decision(f).eligible,false);
+  }
+  const f=fixture();assert.equal(decision(f,{source:{...original,title:''}}).eligible,false);
+  delete f.record.title_review;
+  const historical=assessReview(f.record,{rubric,edition:f.edition,...context});
+  assert.deepEqual(historical.errors,[],'Body-only historical reviews remain valid evidence of their original scope');
+  assert.equal(historical.content_current,true);assert.equal(historical.current,false);assert.equal(historical.qualifies,false);
+});
+test('v2 binds original and translated titles separately from unchanged body hashes',()=>{
+  const f=fixture();assert.equal(decision(f).eligible,true);
+  f.edition.title+=' — changed';assert.equal(decision(f).eligible,false);
+  const g=fixture();assert.equal(decision(g,{source:{...original,title:original.title+' — changed'}}).eligible,false);
+});
+test('v2 title findings follow the reviewed title while unchanged-body defects remain blocking',()=>{
+  const f=fixture();f.record.findings=[{segment:'@title',category:'semantic_fidelity',severity:'major',status:'open',explanation:'Synthetic major distortion of the title must block a high-scoring translation.'}];
+  assert.equal(decision(f).eligible,false);
+  f.record.findings[0].severity='minor';assert.equal(decision(f).eligible,true);
+  const old=structuredClone(f.record);old._path=path.replace('.json','-historical.json');old.title_review.target_title='Superseded synthetic title';old.findings[0].severity='major';
+  f.record.findings=[];
+  assert.equal(decision(f,{reviews:[old,f.record]}).eligible,true,'A defect in a superseded title must not block its corrected version');
+  old.findings[0].segment=ids[0];
+  assert.equal(decision(f,{reviews:[old,f.record]}).eligible,false,'Changing a title must not hide a serious issue in the unchanged body');
+  delete old.title_review;
+  assert.equal(decision(f,{reviews:[old,f.record]}).eligible,false,'Historical body-only evidence must still retain current serious body findings');
 });

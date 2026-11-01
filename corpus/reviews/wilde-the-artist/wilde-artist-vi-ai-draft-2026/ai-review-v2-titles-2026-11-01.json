@@ -1,0 +1,57 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "wilde-artist-vi-ai-draft-2026",
+  "source_edition_id": "wilde-artist-en-methuen-1913",
+  "reviewed_at": "2026-11-01",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (GPT-6 Astra Pro)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "GPT-6 Astra Pro",
+    "method": "Fresh full original-to-Vietnamese passage comparison, followed by title fidelity, literary and editorial assessment. The exact source and target edition titles are recorded in title_review.",
+    "limitations": "Same AI system that produced or revised the translations; prior scores and notes were visible, so this is not blind or independent review and no model diversity or consensus is claimed. This cycle corrects omitted edition-title metadata and title-review coverage after rereading every body passage; it makes no body-text revisions. No human verification, native-reader trial, recorded oral performance or new historical facsimile collation was conducted. Scores remain subjective and undetected errors may remain; this review supplies no new legal clearance."
+  },
+  "source_sha256": "bd014887242c1b44ed98a4a9e1f8568494173d3fedb0ecf4fd9951c808fcf4ef",
+  "target_sha256": "602d1533021aaf0fe2c3241a088a97b94a9e6147eefbf72dbe0c7d98b0da75fc",
+  "segments_reviewed": [
+    "wilde-the-artist:1.1",
+    "wilde-the-artist:1.2",
+    "wilde-the-artist:1.3",
+    "wilde-the-artist:1.4",
+    "wilde-the-artist:1.5"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 8,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 8.5,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "wilde-the-artist:1.1",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The elevated allegorical title Lạc Thú Chỉ Lưu Lại Một Khoảnh Khắc retains the fleeting-duration contrast, but its length slows the cadence. Retain the current reading rather than introduce the unsupported residual-time implication of Chỉ Còn."
+    },
+    {
+      "segment": "wilde-the-artist:1.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Điều đã chết preserves the deliberately unnamed referent, but it strains ordinary Vietnamese collocation. Thứ đã chết remains a possible alternative; identifying a woman, spouse or person would add information absent from the source."
+    }
+  ],
+  "summary": "Fresh title-aware v2 AI assessment after rereading all five original and Vietnamese passages. The reviewed title Nghệ sĩ preserves the generic artistic identity and adds no medium or named referent. The body is unchanged and the previous category judgments still hold: semantic fidelity 9.0 for complete propositions and preserved ambiguity; literary voice 8.0 for the heavy allegorical cadence; naturalness 8.5 because điều đã chết remains strained; imagery 8.5 for the consistent material and allegorical chain with broad đồng; mechanics 9.0. Weighted score remains exactly 8.60, meeting the 8.6 AI threshold. The source/target body hashes and all earlier review files are unchanged. Two minor body questions remain open; no unresolved major or critical finding was identified. This correction supplies the previously missing edition title and explicit title-review evidence, not human approval, an independent assessment or a calibrated quality measure.",
+  "title_review": {
+    "source_title": "The Artist",
+    "target_title": "Nghệ sĩ",
+    "rationale": "Nghệ sĩ is a natural concise Vietnamese title for the unnamed artist in this allegory. Vietnamese does not require an equivalent of the English definite article here. It preserves the broad artistic identity without narrowing the title to a sculptor, naming the figure, or adding an interpretation of the sorrow/pleasure transformation."
+  }
+}

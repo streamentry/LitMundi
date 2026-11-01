@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {zipSync,strToU8} from 'fflate';
+import {editionTitle} from './reader-data.mjs';
 
 export const sha256 = data => createHash('sha256').update(data).digest('hex');
 export const json = value => JSON.stringify(value,null,2)+'\n';
@@ -26,7 +27,7 @@ export function editionBundle(corpus,edition) {
   const segments=JSON.parse(bytes.toString('utf8'));
   const source=edition.kind==='source'?edition:corpus.editions.find(e=>e.id===edition.source_edition_id);
   return {
-    format:'LitMundi portable edition v1',work,edition,structure,
+    format:'LitMundi portable edition v1',title:editionTitle(work,edition),original_title:work.title,work,edition,structure,
     content_sha256:sha256(bytes),
     original_source_sha256:source?.content_path?sha256(fs.readFileSync(path.join(corpus.root,source.content_path))):null,
     // Retain the v1 alias for clients; this is the edition's canonical JSON digest.
@@ -37,7 +38,7 @@ export function editionBundle(corpus,edition) {
 export function plainText(bundle) {
   const {work,edition,segments}=bundle;
   const head=[
-    work.title,work.author,edition.label,'Edition: '+edition.id,
+    editionTitle(work,edition),work.author,'Original title: '+work.title,edition.label,'Edition: '+edition.id,
     ...(aiDisclosure(edition)?[aiDisclosure(edition)]:[]),
     'Publication: '+edition.status+'; '+edition.review.status,
     'Translator: '+(edition.credits.translator??'not applicable'),
@@ -57,20 +58,20 @@ export function plainText(bundle) {
 export function tabSeparated(bundle) {
   const cell = value => String(value).replace(/\\/g,'\\\\').replace(/\t/g,'\\t').replace(/\r/g,'\\r').replace(/\n/g,'\\n');
   const {work,edition}=bundle;
-  const fields=['work_id','edition_id','language','author','translator','editors','reviewers','ai_reviewers','review_status','publication_policy','ai_score','review_evidence','license','rights_basis','source_citation','source_url','content_sha256','passage_id','text'];
-  const metadata=[work.id,edition.id,edition.language,work.author,edition.credits.translator??'',edition.credits.editors.join('; '),edition.review.reviewers.join('; '),(edition.review.ai_reviewers??[]).join('; '),edition.review.status,edition.publication_policy??'',edition.review.score??'',edition.review.evidence_urls.join('; '),edition.rights.license??'No reuse permission granted',edition.rights.basis,edition.provenance.citation,edition.provenance.text_url??edition.provenance.source_witness??'',bundle.source_content_sha256];
+  const fields=['work_id','edition_id','title','original_title','language','author','translator','editors','reviewers','ai_reviewers','review_status','publication_policy','ai_score','review_evidence','license','rights_basis','source_citation','source_url','content_sha256','passage_id','text'];
+  const metadata=[work.id,edition.id,editionTitle(work,edition),work.title,edition.language,work.author,edition.credits.translator??'',edition.credits.editors.join('; '),edition.review.reviewers.join('; '),(edition.review.ai_reviewers??[]).join('; '),edition.review.status,edition.publication_policy??'',edition.review.score??'',edition.review.evidence_urls.join('; '),edition.rights.license??'No reuse permission granted',edition.rights.basis,edition.provenance.citation,edition.provenance.text_url??edition.provenance.source_witness??'',bundle.source_content_sha256];
   return fields.join('\t')+'\n'+Object.entries(bundle.segments).map(([id,text])=>[...metadata,id,text].map(cell).join('\t')).join('\n')+'\n';
 }
 export function epub(bundle) {
   const {work,edition,segments}=bundle;
   const date=/^\d{4}-\d{2}-\d{2}$/.test(edition.provenance.retrieved_at??'')?edition.provenance.retrieved_at:'1980-01-01';
-  const title=work.title,language=edition.language;
+  const title=editionTitle(work,edition),language=edition.language;
   const heading='<?xml version="1.0" encoding="UTF-8"?>\n';
   const start=heading+'<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="'+xml(language)+'" xml:lang="'+xml(language)+'"><head><title>'+xml(title)+'</title><link rel="stylesheet" type="text/css" href="style.css"/></head><body>';
   const text=start+'<main><h1>'+xml(title)+'</h1><p>'+xml(work.author)+'</p>'+
     (aiDisclosure(edition)?'<p lang="en" xml:lang="en">'+xml(aiDisclosure(edition))+'</p>':'')+
     Object.entries(segments).map(([id,value])=>'<p id="'+xml(id)+'">'+xml(value)+'</p>').join('\n')+
-    '<section id="provenance"><h2>Edition and rights</h2><p>'+xml(edition.label)+'</p><p>'+xml(edition.provenance.citation)+'</p>'+
+    '<section id="provenance"><h2>Edition and rights</h2><p>Original title: <span lang="'+xml(work.original_language)+'" xml:lang="'+xml(work.original_language)+'">'+xml(work.title)+'</span></p><p>'+xml(edition.label)+'</p><p>'+xml(edition.provenance.citation)+'</p>'+
     '<p>Translator: '+xml(edition.credits.translator??'not applicable')+'</p><p>Editors: '+xml(edition.credits.editors.join(', ')||'none recorded')+'</p>'+
     '<p>Review: '+xml(edition.review.status)+'. '+xml(edition.review.notes)+'</p><p>Reviewers: '+xml(edition.review.reviewers.join(', ')||'No independent literary certification')+'</p>'+
     '<p>AI assessment systems: '+xml((edition.review.ai_reviewers??[]).join(', ')||'none recorded')+'</p>'+
@@ -81,7 +82,7 @@ export function epub(bundle) {
   const opf=heading+'<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="edition-id" xml:lang="'+xml(language)+'">'+
     '<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="edition-id">urn:litmundi:'+xml(edition.id)+':sha256:'+bundle.source_content_sha256+'</dc:identifier>'+
     '<dc:title>'+xml(title)+'</dc:title><dc:creator>'+xml(work.author)+'</dc:creator><dc:language>'+xml(language)+'</dc:language>'+
-    '<dc:publisher>LitMundi</dc:publisher><dc:rights>'+xml(edition.rights.license)+'. '+xml(edition.rights.basis)+'</dc:rights><dc:source>'+xml(edition.provenance.citation)+'</dc:source>'+
+    '<dc:publisher>LitMundi</dc:publisher><dc:rights>'+xml(edition.rights.license)+'. '+xml(edition.rights.basis)+'</dc:rights><dc:source>'+xml('Original title: '+work.title+'; '+edition.provenance.citation)+'</dc:source>'+
     '<meta property="dcterms:modified">'+date+'T00:00:00Z</meta></metadata>'+
     '<manifest><item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/><item id="text" href="text.xhtml" media-type="application/xhtml+xml"/><item id="style" href="style.css" media-type="text/css"/></manifest>'+
     '<spine><itemref idref="text"/></spine></package>';

@@ -1,0 +1,81 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "pardo-encaje-vi-ai-draft-2026",
+  "source_edition_id": "pardo-encaje-es-administracion-c1898",
+  "reviewed_at": "2026-11-01",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (GPT-6 Astra Pro)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "GPT-6 Astra Pro",
+    "method": "Fresh full original-to-Vietnamese passage comparison, followed by title fidelity, literary and editorial assessment. The exact source and target edition titles are recorded in title_review.",
+    "limitations": "Same AI system that produced or revised the translations; prior scores and notes were visible, so this is not blind or independent review and no model diversity or consensus is claimed. This cycle corrects omitted edition-title metadata and title-review coverage after rereading every body passage; it makes no body-text revisions. No human verification, native-reader trial, recorded oral performance or new historical facsimile collation was conducted. Scores remain subjective and undetected errors may remain; this review supplies no new legal clearance."
+  },
+  "source_sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e",
+  "target_sha256": "ec7de7c45c293cb21c38a9054993f8fd072b5263046c3fcce14c7ee610c08f29",
+  "segments_reviewed": [
+    "pardo-bazan-el-encaje-roto:1.1",
+    "pardo-bazan-el-encaje-roto:1.2",
+    "pardo-bazan-el-encaje-roto:1.3",
+    "pardo-bazan-el-encaje-roto:1.4",
+    "pardo-bazan-el-encaje-roto:1.5",
+    "pardo-bazan-el-encaje-roto:1.6",
+    "pardo-bazan-el-encaje-roto:1.7",
+    "pardo-bazan-el-encaje-roto:1.8",
+    "pardo-bazan-el-encaje-roto:1.9",
+    "pardo-bazan-el-encaje-roto:1.10",
+    "pardo-bazan-el-encaje-roto:1.11",
+    "pardo-bazan-el-encaje-roto:1.12",
+    "pardo-bazan-el-encaje-roto:1.13",
+    "pardo-bazan-el-encaje-roto:1.14",
+    "pardo-bazan-el-encaje-roto:1.15"
+  ],
+  "scores": {
+    "semantic_fidelity": 8.5,
+    "literary_voice": 8.5,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 8.5,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.4",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Roca antigua is still rendered generally as antique precious stones. The precise historical jewelry material/cut and singular or collective force have not been established; a diamond or rock-crystal identification would be unsupported."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.8",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The rendering of un decir Jesús retains both an instant and the religious utterance. That explains the idiom but slightly overweights Micaelita’s conversational phrase. No more economical alternative was adopted without losing either aspect."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The accumulating ceremony paragraph preserves the social display and imagined frame, but its Vietnamese breath groups and register remain uneven. The local repairs do not resolve the entire long-period cadence."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.10",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The historical unit tercia remains in the text with an editorial glossary definition. This avoids an unsupported precise conversion but may interrupt an unannotated Vietnamese reading."
+    }
+  ],
+  "summary": "Fresh title-aware v2 AI assessment after rereading all 15 Spanish and Vietnamese paragraphs. Dải ren rách identifies the actual lace ornament and physical tear in 1.10–1.11, retaining the image through which the interrupted marriage is understood without adding a diagnostic or explanatory title. No body wording changed. The full reread preserves the earlier judgments: fidelity, voice, naturalness and imagery 8.5 each, mechanics 9.0, weighted score 8.55. The imagined ceremony versus later confession, refusal and agency remain clear; historical jewelry precision, the doubled Jesús idiom, dense Vietnamese cadence and unannotated tercia remain minor open issues. No unresolved major or critical finding was identified, but adding the title is not a reason to raise a body category. This remains below the 8.6 AI threshold and the edition must remain a draft. Old records are unchanged; the assessment is by the same AI with prior-score visibility, not human endorsement or model consensus.",
+  "title_review": {
+    "source_title": "El encaje roto",
+    "target_title": "Dải ren rách",
+    "rationale": "Encaje is lace, and passages 1.10–1.11 identify a wide lace flounce decorating the wedding dress before it catches and tears. Dải ren is therefore a contextual Vietnamese rendering of that ornament, while rách keeps the physical tear and its symbolic resonance without explaining the bride’s decision in the title. Mảnh would foreground a detached fragment, and a generic ribbon would lose the lace material."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "machado-apologo-vi-ai-draft-2026",
+  "source_edition_id": "machado-apologo-pt-laemmert-1896",
+  "reviewed_at": "2026-11-01",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (GPT-6 Astra Pro)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "GPT-6 Astra Pro",
+    "method": "Fresh full original-to-Vietnamese passage comparison, followed by title fidelity, literary and editorial assessment. The exact source and target edition titles are recorded in title_review.",
+    "limitations": "Same AI system that produced or revised the translations; prior scores and notes were visible, so this is not blind or independent review and no model diversity or consensus is claimed. This cycle corrects omitted edition-title metadata and title-review coverage after rereading every body passage; it makes no body-text revisions. No human verification, native-reader trial, recorded oral performance or new historical facsimile collation was conducted. Scores remain subjective and undetected errors may remain; this review supplies no new legal clearance."
+  },
+  "source_sha256": "17b46a94ca47b08eb7c32af2f91c6d449d8e8dae07883e2b27f118e4ed58f5f6",
+  "target_sha256": "c95028622ab56661daf9c9f845816008ad051c3aadd7523078025aabd3fa9de3",
+  "segments_reviewed": [
+    "machado-um-apologo:1.1",
+    "machado-um-apologo:1.2",
+    "machado-um-apologo:1.3",
+    "machado-um-apologo:1.4",
+    "machado-um-apologo:1.5",
+    "machado-um-apologo:1.6",
+    "machado-um-apologo:1.7",
+    "machado-um-apologo:1.8",
+    "machado-um-apologo:1.9",
+    "machado-um-apologo:1.10",
+    "machado-um-apologo:1.11",
+    "machado-um-apologo:1.12",
+    "machado-um-apologo:1.13",
+    "machado-um-apologo:1.14",
+    "machado-um-apologo:1.15",
+    "machado-um-apologo:1.16",
+    "machado-um-apologo:1.17",
+    "machado-um-apologo:1.18",
+    "machado-um-apologo:1.19",
+    "machado-um-apologo:1.20",
+    "machado-um-apologo:1.21",
+    "machado-um-apologo:1.22"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 8.5,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 8.5,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "machado-um-apologo:1.20",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Hầu gái conveys domestic service but not the full historical Brazilian associations of mucamas, which can include enslaved Black domestic women. The glossary records that context. Do not add a specific legal status or race for these unnamed characters without evidence."
+    },
+    {
+      "segment": "machado-um-apologo:1.18",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The four plic beats are preserved rather than naturalized. They retain the sewing rhythm but remain foreign-looking in Vietnamese; reader feedback may identify a better sound-word without losing the four-beat pattern."
+    },
+    {
+      "segment": "machado-um-apologo:1.22",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Bậc thầy gives the mock title a clear Vietnamese cadence while favoring master/expert over literal teacher. The alternative comic effect is documented; it has not been tested with native literary readers."
+    }
+  ],
+  "summary": "Fresh title-aware v2 AI assessment after rereading all 22 Portuguese and Vietnamese passages. Một truyện ngụ ngôn retains Um and makes the narrative genre natural in Vietnamese; it fits the anthropomorphic sewing objects without adding a moral not supplied by the story. Body wording is unchanged. Fidelity remains 9.0 for the needle/pin head distinction, speakers, obedient follower, four-day chronology and social reversal. Voice, naturalness and imagery remain 8.5 each because the teacher/master tradeoff, foreign plic sound and historical breadth of mucamas remain minor open choices; mechanics remains 9.0. The weighted score stays 8.725 (displayed 8.73), above the 8.6 AI threshold. All earlier body-review and adversarial records keep their original hashes. No unresolved major or critical finding was identified in this complete reread. The title correction does not justify a score increase or imply human verification or independent-model consensus.",
+  "title_review": {
+    "source_title": "Um Apólogo",
+    "target_title": "Một truyện ngụ ngôn",
+    "rationale": "Một preserves the Portuguese indefinite article Um; truyện ngụ ngôn naturally names the narrative genre in Vietnamese. Priberam defines apólogo through moral teaching in fable form, which fits the speaking needle, thread and pin and the final social application. The title does not replace the genre with an apology or invent a specific moral."
+  }
+}

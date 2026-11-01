@@ -28,6 +28,10 @@ The export creates `dist-archive/` and a deterministic `dist-archive.zip`. For i
 
 This is an **editorial snapshot**. It includes unpublished drafts and historical assessments for preservation and review. Inclusion does not imply a blanket license or satisfaction of the literary release gate; each edition's rights metadata controls lawful reuse. Portable publication exports and the restored reading site exclude drafts, withdrawn editions and demonstrations. AI-reviewed publications retain their policy, score, model/evidence references and AI disclosure in exported and restored formats. Read `rights-manifest.json` before reuse.
 
+Titles travel with each edition. Portable JSON and the rights manifest record `title` and `original_title`; TSV repeats those explicit metadata columns for each passage, so importers should read columns by their headers. TXT starts with the edition title, and EPUB uses it in its title metadata, headings and navigation while preserving the original title in source attribution. The canonical `work.title`, work/edition IDs and URLs are unchanged.
+
+The standalone restorer uses the edition title in HTML, TXT and the library index. For older archives without `edition.title`, it falls back to the original work title in its recorded language. Draft review packets display source and target titles and include their literal snapshots in the unfilled title-review template; a blank rationale is not evidence that a title has been assessed.
+
 The archive carries bibliographic witness information and source capture hashes; it does not bundle the large historical facsimile PDFs or page images. Independent stewards should obtain lawful witness copies separately and record their own access and reuse conditions.
 
 ## Restore on an offline machine
@@ -48,7 +52,7 @@ The restorer checks the manifest digest, every listed file's byte count and SHA-
 
 ## What the automated drill tests
 
-`npm run verify:archive` repeats the export and checks byte-identical ZIP output. It checks and extracts the actual exported ZIP into an isolated temporary directory, disables Python network calls, and reconstructs the published corpus with the exported restorer. It verifies every passage and identifier in the restored text, checks draft exclusion, and confirms that content corruption and an unlisted file are rejected. The final command result, rather than this procedure document, is the evidence that a particular snapshot passed.
+`npm run verify:archive` repeats the export and checks byte-identical ZIP output. It checks and extracts the actual exported ZIP into an isolated temporary directory, disables Python network calls, and reconstructs the published corpus with the exported restorer. It verifies every passage and identifier in the restored text, edition titles and original-title attribution, checks draft exclusion, and confirms that content corruption and an unlisted file are rejected. The final command result, rather than this procedure document, is the evidence that a particular snapshot passed.
 
 CI runs this drill and uploads the ZIP plus manifest digest. GitHub Actions retains that artifact for **30 days**. An expiring artifact in the same hosting ecosystem is neither permanent preservation nor an independent mirror.
 

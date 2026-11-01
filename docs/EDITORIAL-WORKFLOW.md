@@ -11,8 +11,8 @@ A successful build establishes mechanical integrity. The accompanying AI score r
 | Discovery | A named work and target language | Dated Atlas searches, competing editions, bounded uncertainty and a reader benefit to test |
 | Rights assessment | Exact original witness identified | Edition-specific jurisdictional rationale and source evidence; lawful use of any included translation, notes or other material |
 | Source ingestion | Lawful source text | Complete canonical passages, stable identifiers, source-check record bound to SHA-256, disclosed normalization and checking method |
-| Translation | Complete source and explicit edition identity | Direct translation, complete alignment, AI attribution, glossary and interpretive decisions |
-| AI assessment | Complete source and target | One full v2 AI assessment, all passage IDs, exact source/target digests, all five scores and passage-grounded reasons |
+| Translation | Complete source and explicit edition identity | Translated title in edition metadata, direct body translation, complete alignment, AI attribution, glossary and interpretive decisions |
+| AI assessment | Complete source and target, including titles | One full v2 AI assessment, original/translated title snapshots and rationale, all passage IDs, exact body digests, all five scores and passage-grounded reasons |
 | Revision | Findings from assessment or corrections | Recorded decisions, resolved serious issues, re-evaluation of changed text and fresh evidence for final hashes |
 | Publication | Complete current evidence | Unrounded weighted score ≥8.6, no unresolved major/critical issue, cleared source rights and documented lawful reuse |
 | Optional human feedback | Published edition and passage links | Actual reader reports or human reviews, recorded honestly and handled according to severity |
@@ -33,7 +33,7 @@ npm run review:packet
 
 Open `review-packets/<edition-id>.html` locally for the complete source and target, stable passage identities and exact digests. The packets omit scores to support a fresh reading. They belong to the editorial archive. Unfilled review templates, especially historical templates designed for a different rubric, are not completed assessments and must not be submitted as evidence.
 
-The AI assessor reads the full source and target, covers every canonical passage, assigns the five half-point scores and explains its reasoning. Record uncertainty, source ambiguities, omissions, voice and cadence concerns. Disclose the assessment as AI work and any involvement in generating or revising the text. A second assessment can help but is optional.
+The AI assessor reads the full source and target, including both titles, covers every canonical passage, assigns the five half-point scores and explains its reasoning. Record the exact edition titles and a title rationale in `title_review`; title findings use `@title`, while body findings use stable passage IDs. Record uncertainty, source ambiguities, omissions, voice and cadence concerns. Disclose the assessment as AI work and any involvement in generating or revising the text. A second assessment can help but is optional.
 
 Save the explicit `ai_review` record under `corpus/reviews/<work-id>/<edition-id>/` using `litmundi-literary-v2`. Edition metadata selects exact canonical review files through `review.record_paths`; AI assessor identities belong in `review.ai_reviewers`. Actual human reviewers, when present, remain separately identified in `review.reviewers`.
 
@@ -68,7 +68,7 @@ On a restricted workstation, set `ASTRO_TELEMETRY_DISABLED=1` if Astro cannot wr
 
 After release, assess reader corrections on their merits. Minor suggestions can be handled through the normal correction process. A serious current issue blocks the affected edition until resolved; do not keep a known major error online solely because its earlier score passed. A credible rights dispute also requires investigation under [Governance](../GOVERNANCE.md).
 
-Preserve stable passage identities through corrections. Any changed text makes its previous review hashes stale. Re-evaluate material corrections and refresh the full-text assessment for the final version before republication, retaining the previous record and explaining the scope of the new check.
+Preserve stable passage identities through corrections. Any changed body text makes its previous review hashes stale. Title changes make the separately recorded title snapshots stale, even when body hashes still match. Re-evaluate material corrections and refresh the complete assessment for the final version before republication, retaining the previous record and explaining the scope of the new check.
 
 The archive workflow artifact expires after 30 days and is not an independent preservation mirror.
 

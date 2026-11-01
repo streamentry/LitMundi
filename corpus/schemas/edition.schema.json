@@ -387,7 +387,32 @@
         }
       },
       "additionalProperties": false
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S",
+      "description": "The title of this edition in its text language. Required when actual text is present; work.title preserves the canonical original title."
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "content_path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "content_path"
+        ]
+      },
+      "then": {
+        "required": [
+          "title"
+        ]
+      }
+    }
+  ]
 }

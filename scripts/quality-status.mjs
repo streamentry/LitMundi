@@ -21,7 +21,7 @@ console.log('Current publication policy: '+rubric.id+'; weighted AI score >= '+r
 for(const edition of editions.filter(e=>e.kind==='translation'&&e.content_path)){
   const reviews=records.filter(r=>r.edition_id===edition.id),source=editions.find(e=>e.id===edition.source_edition_id);
   const structure=load('corpus/structure/'+edition.work_id+'.json');
-  const context={edition,source,sourceSha:hash(source.content_path),targetSha:hash(edition.content_path),segmentIds:structure.segment_ids,sourceLanguage:source.language};
+  const context={edition,source,sourceSha:hash(source.content_path),targetSha:hash(edition.content_path),segmentIds:structure.segment_ids,sourceLanguage:source.language,sourceTitle:source.title};
   const decision=assessPublication({...context,rubric,reviews});
   console.log('\n'+edition.id);
   console.log('  Publication: '+(decision.eligible?(edition.status==='published'?'PUBLISHED — AI-reviewed':'ELIGIBLE — not yet published'):'BLOCKED'));
@@ -30,7 +30,7 @@ for(const edition of editions.filter(e=>e.kind==='translation'&&e.content_path))
     if(!ownRubric)throw new Error('Unknown rubric '+review.rubric_id);
     const result=assessReview(review,{...context,rubric:ownRubric});
     const selected=edition.review.record_paths?.includes(review._path);
-    const state=!result.current?'historical/stale/unbound':selected?'current, selected':review.kind==='ai_preflight'?'current historical-policy preflight, advisory':'current, not selected';
+    const state=!result.current?(result.content_current?'current body, title unreviewed/stale':'historical/stale/unbound'):selected?'current, selected':review.kind==='ai_preflight'?'current historical-policy preflight, advisory':'current, not selected';
     console.log('  '+review.kind+' ['+review.rubric_id+'] ('+state+'): '+weightedScore(review.scores,ownRubric)+'/10');
   }
   console.log('  Selected qualifying AI assessments: '+(decision.ai_reviewers??[]).length+'; human review files: '+reviews.filter(r=>r.kind==='independent_human').length+' (optional)');
