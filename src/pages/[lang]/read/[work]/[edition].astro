@@ -8,6 +8,7 @@ import {catalog,languageNames,issueUrl,passagesFor,readableEditions,publishedEdi
 import {pagePath,assetPath} from '../../../../lib/urls';
 import {canonicalEditionPath} from '../../../../lib/seo';
 import {labels,workSummary,authorSlug,readerPageTitle,readerPageDescription} from '../../../../lib/discovery';
+import readerUi from '../../../../lib/reader-ui.json';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.flatMap(w=>readableEditions(w.id).flatMap(e=>[e.id,...e.legacy_slugs].map(slug=>({params:{lang,work:w.id,edition:slug}})))));}
 const lang=Astro.params.lang as Locale,t=strings[lang],d=labels(lang);
 const w=catalog.find(w=>w.id===Astro.params.work)!;
@@ -16,6 +17,7 @@ const title=editionTitle(w,e),titleLanguage=e.title?e.language:w.original_langua
 const showOriginal=e.kind==='translation'&&title!==w.title;
 const legacy=e.id!==Astro.params.edition,current=pagePath(lang,'read',w.id,e.id);
 const passages=passagesFor(e),parallel=parallelFor(e),reading=readableEditions(w.id);
+const firstPassage=passages[0]?.[0],ui=readerUi[lang];
 const published=e.status==='published'&&w.visibility==='public',noindex=!published||legacy;
 const canonical=published?canonicalEditionPath(e):current;
 const canonicalUrl=new URL(canonical,Astro.site).href;
@@ -56,6 +58,13 @@ const structuredData=published?{
   <p class="eyebrow">{published?<a href={pagePath(lang,'authors')+'#'+authorSlug(w.author)}>{w.author}</a>:w.author} · {languageNames[e.language]??e.language}</p>
   <h1 lang={titleLanguage} data-edition-title={e.id}>{title}</h1>
   {showOriginal&&<OriginalTitle title={w.title} language={w.original_language} locale={lang}/>}
+  <div class="reader-actions">
+    {firstPassage&&<a class="button" data-start-reading href={'#'+firstPassage}>{ui.startReading} <span aria-hidden="true">↓</span></a>}
+    {published&&<>
+      <a data-reader-download="epub" href={assetPath('downloads/'+e.id+'.epub')} download>{ui.downloadEpub}</a>
+      <a data-reader-download="txt" href={assetPath('downloads/'+e.id+'.txt')} download>{ui.downloadTxt}</a>
+    </>}
+  </div>
   <p lang={summary.language} data-work-summary={w.id}>{summary.text}</p>
   <p class="muted" lang={e.kind==='source'?'en':e.language}>{e.label}</p>
   <div class="tools"><a href={pagePath(lang,'works',w.id)}>← {t.all}</a><a href={issueUrl(w.id,e.id)}>{t.feedback} <span aria-hidden="true">↗</span></a></div>
@@ -103,3 +112,9 @@ const structuredData=published?{
 </div>
 <script>import '../../../../scripts/reading-progress';</script>
 </Base>
+<style>
+  .reader-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;margin:14px 0 24px}
+  .reader-actions .button{margin-top:0;font-size:.9rem}
+  .reader-actions [download]{display:inline-flex;align-items:center;min-height:44px;font-size:.85rem}
+  @media print{.reader-actions{display:none}}
+</style>

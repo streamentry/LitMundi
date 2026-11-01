@@ -1,0 +1,34 @@
+{
+  "en": {
+    "startReading": "Start reading",
+    "downloadEpub": "Download EPUB",
+    "downloadTxt": "Download TXT",
+    "copyCitation": "Copy citation",
+    "citationCopied": "Citation copied.",
+    "citationCopyFailed": "Copying is unavailable. Select and copy the citation above."
+  },
+  "vi": {
+    "startReading": "Bắt đầu đọc",
+    "downloadEpub": "Tải EPUB",
+    "downloadTxt": "Tải TXT",
+    "copyCitation": "Sao chép trích dẫn",
+    "citationCopied": "Đã sao chép trích dẫn.",
+    "citationCopyFailed": "Không thể sao chép tự động. Bạn có thể chọn và sao chép phần trích dẫn phía trên."
+  },
+  "fr": {
+    "startReading": "Commencer la lecture",
+    "downloadEpub": "Télécharger l’EPUB",
+    "downloadTxt": "Télécharger le TXT",
+    "copyCitation": "Copier la référence",
+    "citationCopied": "Référence copiée.",
+    "citationCopyFailed": "Copie impossible. Sélectionnez et copiez la référence ci-dessus."
+  },
+  "es": {
+    "startReading": "Empezar a leer",
+    "downloadEpub": "Descargar EPUB",
+    "downloadTxt": "Descargar TXT",
+    "copyCitation": "Copiar la referencia",
+    "citationCopied": "Referencia copiada.",
+    "citationCopyFailed": "No se pudo copiar. Selecciona y copia la referencia de arriba."
+  }
+}

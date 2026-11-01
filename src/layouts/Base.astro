@@ -112,7 +112,10 @@ const names=localeNames;
     </div>
   </footer>
   <script>
-    if (location.hash) document.querySelectorAll<HTMLAnchorElement>('[data-locale-link]').forEach(link => {link.hash=location.hash;});
+    const syncLocaleHash=()=>document.querySelectorAll<HTMLAnchorElement>('[data-locale-link]').forEach(link=>{link.hash=location.hash;});
+    syncLocaleHash();
+    addEventListener('hashchange',syncLocaleHash);
+    addEventListener('pageshow',syncLocaleHash);
   </script>
 </body>
 </html>

@@ -3,18 +3,27 @@ import {type Work,type Edition,editionTitle,reviewCategory} from '../lib/corpus'
 import {type Locale,strings} from '../lib/i18n';
 import {labels} from '../lib/discovery';
 import {canonicalEditionPath} from '../lib/seo';
+import readerUi from '../lib/reader-ui.json';
 interface Props {work:Work;edition:Edition;source?:Edition;locale:Locale}
 const {work,edition,source,locale}=Astro.props;
 const d=labels(locale),t=strings[locale],title=editionTitle(work,edition),category=reviewCategory(edition);
 const url=new URL(canonicalEditionPath(edition),Astro.site).href;
 const original=source??edition,sourceUrl=new URL(canonicalEditionPath(original),Astro.site).href;
 const reviewLabel=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewed:category==='source'?t.sourcePublished:t.translationPublished;
+const ui=readerUi[locale];
+const citationText=[`${work.author}. ${title}. ${edition.label}. LitMundi.`,reviewLabel+'.',url].join('\n');
 ---
-<details class="metadata citation" data-citation-edition={edition.id} data-citation-category={category}>
+<details class="metadata citation" data-citation-edition={edition.id} data-citation-category={category} data-citation-copy-text={citationText}>
   <summary>{d.citeEdition}</summary>
-  <p class="citation-text">{work.author}. <cite lang={edition.title?edition.language:work.original_language}>{title}</cite>. <span lang={edition.kind==='source'?'en':edition.language}>{edition.label}</span>. LitMundi.</p>
-  <p class="muted">{reviewLabel}</p>
-  <p>{d.permanentEdition}: <a data-citation-url href={url}>{url}</a></p>
+  <div data-citation-selection>
+    <p class="citation-text">{work.author}. <cite lang={edition.title?edition.language:work.original_language}>{title}</cite>. <span lang={edition.kind==='source'?'en':edition.language}>{edition.label}</span>. LitMundi.</p>
+    <p class="muted">{reviewLabel}</p>
+    <p>{d.permanentEdition}: <a data-citation-url href={url}>{url}</a></p>
+  </div>
+  <div class="citation-copy-controls">
+    <button type="button" data-citation-copy hidden data-copied={ui.citationCopied} data-copy-failed={ui.citationCopyFailed}>{ui.copyCitation}</button>
+    <p data-citation-copy-status role="status" aria-live="polite" aria-atomic="true"></p>
+  </div>
   <p><strong>{d.citedSource}</strong></p>
   <p lang="en" data-citation-source={original.id}>{original.provenance.citation}</p>
   <div class="tools">
@@ -22,3 +31,11 @@ const reviewLabel=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewe
     {original.provenance.text_url&&<a href={original.provenance.text_url}>{d.sourceWitness} <span aria-hidden="true">↗</span></a>}
   </div>
 </details>
+<script>import '../scripts/reader-actions';</script>
+<style>
+  .citation-copy-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}
+  .citation-copy-controls button{min-height:44px;font-size:.85rem}
+  [data-citation-copy-status]{margin:0;color:var(--muted)}
+  [data-citation-copy-status]:empty{display:none}
+  @media print{.citation-copy-controls{display:none}}
+</style>

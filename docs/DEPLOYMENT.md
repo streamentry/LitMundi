@@ -73,6 +73,26 @@ neither a successful deployment nor a public HTTP response establishes indexing.
 Authenticated webmaster credentials were not available for this implementation,
 so the build does not submit the site or claim observed search outcomes.
 
+### Notify participating engines of actual changes
+
+The optional [IndexNow utility](INDEXNOW.md) compares live canonical pages
+before and after a release. Capture the first snapshot **before deploying**;
+capturing both snapshots afterward loses the changes you intended to report.
+
+```sh
+npm run indexnow -- snapshot --base https://streamentry.github.io/LitMundi/ --output /tmp/litmundi-before.json
+# Deploy and verify the intended release before continuing.
+npm run indexnow -- snapshot --base https://streamentry.github.io/LitMundi/ --output /tmp/litmundi-after.json
+npm run indexnow -- plan --before /tmp/litmundi-before.json --after /tmp/litmundi-after.json --output /tmp/litmundi-indexnow-plan.json
+```
+
+Inspect the plan, then use the explicit `submit` command documented in
+[INDEXNOW.md](INDEXNOW.md). The public ownership key is scoped to this project
+path. Submission rechecks the production pages and key before sending. Keep
+the immutable plan and response report so a failed batch can be retried without
+guessing the previous deployment. This manual release step is separate from
+Google Search Console submission and from the GitHub Pages deployment result.
+
 The effective robots URL is **<https://streamentry.github.io/robots.txt>**.
 `/LitMundi/robots.txt` is a project-level file and does not govern crawlers. If the
 origin-root site is controlled, preserve its existing policy and add:

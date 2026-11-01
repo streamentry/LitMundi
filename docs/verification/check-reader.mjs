@@ -131,15 +131,17 @@ try{
       assert.ok(normalizeQuery(query).length>0,'Missing searchable text: '+edition.id);
       await page.selectOption('#text-language',edition.language);await page.selectOption('#author',work.author);
       await page.locator('#query').fill(query);await page.locator('#collection-search button[type="submit"]').click();
-      await page.waitForFunction(()=>!document.querySelector('#passage-results').hidden);
-      const links=await page.locator('#passage-results a').evaluateAll(links=>links.map(link=>({href:link.getAttribute('href'),title:link.querySelector('span')?.textContent,language:link.querySelector('span')?.lang})));
-      const matching=links.filter(link=>link.href.includes('/'+readerRoute(edition)+'#'));assert.ok(matching.length>0,'Search result missing: '+edition.id+' / '+query);
+      const resultSelector=kind==='passage'?'#passage-results':'#edition-results';
+      await page.waitForFunction(selector=>!document.querySelector(selector).hidden,resultSelector);
+      const links=await page.locator(resultSelector+' a').evaluateAll(links=>links.map(link=>({href:link.getAttribute('href'),title:link.querySelector('span')?.textContent,language:link.querySelector('span')?.lang})));
+      const matchesEdition=(href,item)=>href.includes('/'+readerRoute(item))&&(kind==='passage'?href.includes('#'):!href.includes('#'));
+      const matching=links.filter(link=>matchesEdition(link.href,edition));assert.ok(matching.length>0,'Search result missing: '+edition.id+' / '+query);
       for(const link of matching){assert.equal(link.title,title,'Search must display the edition title');assert.equal(link.language,edition.title?edition.language:work.original_language);}
-      assert.ok(links.every(link=>published.some(item=>item.language===edition.language&&works.find(work=>work.id===item.work_id).author===work.author&&link.href.includes('/'+readerRoute(item)+'#'))),'Search leaked an edition outside the language/author/public filters');
+      assert.ok(links.every(link=>published.some(item=>item.language===edition.language&&works.find(work=>work.id===item.work_id).author===work.author&&matchesEdition(link.href,item))),'Search leaked an edition outside the language/author/public filters');
       report.search_cases.push({edition_id:edition.id,language:edition.language,kind,query,displayed_title:title,result_links:links.length,review_category:reviewCategory(edition)});
     }
   }
-  report.interactions.push('Full-text and accentless edition/original-title searches reach every published edition and display its own title, with language and author filters.');
+  report.interactions.push('Full-text searches link to passages; accentless edition/original-title searches offer matching editions without repeated paragraph hits, with language and author filters.');
   await page.selectOption('#text-language','');await page.selectOption('#author','');
   for(const edition of editions.filter(item=>item.title&&!published.includes(item))){
     const query=normalizeQuery(edition.title),terms=query.split(/\s+/).filter(Boolean);
@@ -151,6 +153,7 @@ try{
   await page.selectOption('#text-language','');await page.selectOption('#author','');await page.locator('#query').fill('unfindable-random-785632');await page.locator('#collection-search button[type="submit"]').click();
   await page.waitForFunction(()=>document.querySelector('#search-status').textContent===document.querySelector('#collection-search').dataset.none);
   assert.equal(await page.locator('#collection-cards article:visible').count(),0);report.interactions.push('An absent query shows the explicit empty state.');
+  await page.locator('#query').fill('');await page.locator('#collection-search button[type="submit"]').click();
   for(const language of new Set(published.map(edition=>edition.language))){
     await page.selectOption('#text-language',language);
     const visible=await page.locator('#collection-cards article:visible').evaluateAll(cards=>cards.map(card=>card.dataset.workId));
@@ -159,7 +162,10 @@ try{
   const incompatible=published.flatMap(edition=>publicWorks.filter(work=>!published.some(item=>item.work_id===work.id&&item.language===edition.language)).map(work=>({language:edition.language,author:work.author}))).find(pair=>!published.some(edition=>edition.language===pair.language&&works.find(work=>work.id===edition.work_id).author===pair.author));
   if(incompatible){await page.selectOption('#text-language',incompatible.language);await page.selectOption('#author',incompatible.author);assert.equal(await page.locator('#collection-cards article:visible').count(),0);assert.equal(await page.locator('#search-status').textContent(),await page.locator('#collection-search').getAttribute('data-none'));}
   report.interactions.push('Language filters count works rather than editions; incompatible author/language combinations show the empty state when present.');
-  await page.goto(base+primaryLocale+'/'+readerRoute(primary)+'#'+fragment);await page.locator('.locale-menu summary').click();await page.getByRole('link',{name:localeNames[otherLocale],exact:true}).click();await page.waitForURL(base+otherLocale+'/'+readerRoute(primary)+'#'+fragment);report.interactions.push('Changing UI language preserves edition and passage fragment.');
+  await page.goto(base+primaryLocale+'/'+readerRoute(primary));
+  await page.locator('[id="'+fragment+'"] a[href="#'+fragment+'"]').click();
+  await page.locator('.locale-menu summary').click();await page.getByRole('link',{name:localeNames[otherLocale],exact:true}).click();await page.waitForURL(base+otherLocale+'/'+readerRoute(primary)+'#'+fragment);
+  report.interactions.push('Changing UI language preserves edition and a passage fragment selected after page load.');
   await page.goto(base+primaryLocale+'/'+readerRoute(primary));assert.equal(await page.locator('#remember-place').isChecked(),false);await page.locator('[id="'+fragment+'"]').scrollIntoViewIfNeeded();assert.equal(await page.evaluate(()=>localStorage.length),0);
   await page.locator('#remember-place').check();await page.locator('[id="'+primaryPassages[Math.min(3,primaryPassages.length-1)][0]+'"]').scrollIntoViewIfNeeded();await page.waitForFunction(key=>Boolean(localStorage.getItem(key)),'litmundi:reading:v1:'+primary.id);await page.reload();assert.equal(await page.locator('#remember-place').isChecked(),true);assert.equal(await page.locator('#resume-reading').isVisible(),true);await page.locator('#clear-progress').click();assert.equal(await page.evaluate(()=>localStorage.length),0);report.interactions.push('Reading position storage is opt-in; save, resume and clear work.');
   for(const [translationIndex,edition] of translations.entries()){

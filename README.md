@@ -36,6 +36,16 @@ The [GitHub Pages library](https://streamentry.github.io/LitMundi/) has English,
 
 The reader opens translated editions with only the translation visible. The **Show original** checkbox enables the documented source/translation comparison and works without JavaScript. Each new visit starts with the translation; the view mode creates no saved preference. Keyboard navigation, mobile layouts, edition selection and optional reading-position storage remain available. Reading and browsing require no account. Submitting an issue uses GitHub's own sign-in.
 
+**Start reading** jumps directly from the title to the first literary passage,
+including without JavaScript. EPUB and TXT downloads are available beside it.
+Citation details provide a copy action when JavaScript is available and retain
+selectable text as a fallback. Switching interface language preserves a passage
+selected during the current visit.
+
+Title and author searches offer matching editions, with the interface's text
+language first when available. Passage searches link to the matching text.
+Language and author filters refine the current query without clearing it.
+
 Report specific errors or reading experiences after publication. Material corrections receive a fresh evaluation before republication; serious current issues block the affected edition until resolved.
 
 ## Develop and verify
@@ -67,6 +77,12 @@ Use `npm run dev` for the local reader at `http://localhost:4321/LitMundi/`. On 
 Pull requests are validated and built. A successful push to `main` deploys through the pinned [GitHub Actions workflow](.github/workflows/ci.yml) to `https://streamentry.github.io/LitMundi/`. Follow [Deployment](docs/DEPLOYMENT.md) to verify the actual production run and routes; a local build is not proof of deployment. No custom domain is configured.
 
 The [sitemap index](https://streamentry.github.io/LitMundi/sitemap-index.xml) references separate English, Vietnamese, French and Spanish XML sitemaps. Only canonical public pages are listed: each literary edition has one canonical reader, with actual translation languages distinguished from interface languages. The previous `sitemap.xml` address remains a compatibility index. [Search discovery](docs/SEO.md) explains canonical URLs, accurate modification dates, verification and Google/Bing submission. On this GitHub Pages project URL, crawler policy belongs at `https://streamentry.github.io/robots.txt`; a project-level robots file cannot configure that host-root policy.
+
+[IndexNow release notifications](docs/INDEXNOW.md) can notify participating
+engines of verified changes between two live snapshots. Snapshot and plan
+commands are read-only; submission is an explicit post-deployment action with
+a retained plan/report. A receipt is not proof of indexing. The normal build
+and deployment workflow do not send notifications automatically.
 
 Ongoing work includes releasing eligible AI-assessed editions, responding to optional human feedback, improving the texts and obtaining independent archive custody. Reader reports and actual custodians must be recorded when they exist. GitHub's 30-day workflow artifact retention is not an independent mirror.
 
