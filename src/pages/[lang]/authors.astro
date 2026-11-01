@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import OriginalTitle from '../../components/OriginalTitle.astro';
+import {publicWorks,publishedEditions,bestEdition,editionTitle,languageNames,type Work} from '../../lib/corpus';
+import {strings,supported,type Locale} from '../../lib/i18n';
+import {labels,authorSlug,workSummary,languageName} from '../../lib/discovery';
+import {pagePath} from '../../lib/urls';
+
+export function getStaticPaths(){return supported.map(lang=>({params:{lang}}));}
+const lang=Astro.params.lang as Locale,t=strings[lang],d=labels(lang);
+const grouped=new Map<string,Work[]>();
+for(const work of publicWorks())grouped.set(work.author,[...(grouped.get(work.author)??[]),work]);
+const authors=[...grouped].sort(([a],[b])=>a.localeCompare(b,lang));
+const canonical=new URL(pagePath(lang,'authors'),Astro.site).href;
+const personUrl=(name:string)=>new URL(pagePath('en','authors'),Astro.site).href+'#'+authorSlug(name);
+const structuredData={
+  '@context':'https://schema.org','@type':'CollectionPage','@id':canonical+'#page',url:canonical,
+  name:d.authorsTitle,description:d.authorsDescription,inLanguage:lang,
+  isPartOf:{'@id':new URL(pagePath(),Astro.site).href+'#website'},
+  mainEntity:{'@type':'ItemList',numberOfItems:authors.length,
+    itemListElement:authors.map(([name],index)=>({'@type':'ListItem',position:index+1,
+      item:{'@type':'Person','@id':personUrl(name),name,url:personUrl(name)}}))},
+};
+---
+<Base lang={lang} title={d.authorsTitle} description={d.authorsDescription} structuredData={structuredData}
+  breadcrumbs={[{name:d.collection,href:pagePath(lang)},{name:d.authors,href:pagePath(lang,'authors')}] }>
+  <div class="container">
+    <section class="hero"><p class="eyebrow">LitMundi</p><h1>{d.authors}</h1><p>{d.authorsIntro}</p></section>
+    <nav class="author-index" aria-label={d.authors}>
+      {authors.map(([name])=><a href={'#'+authorSlug(name)}>{name}</a>)}
+    </nav>
+    {authors.map(([name,works])=><section class="section author-section" id={authorSlug(name)} aria-labelledby={authorSlug(name)+'-heading'}>
+      <h2 id={authorSlug(name)+'-heading'}>{name}</h2>
+      <div class="grid">{works.map(work=>{
+        const selected=bestEdition(work,lang),summary=workSummary(work,lang);
+        const available=publishedEditions(work.id);
+        return <article class="card">
+          <h3><a href={pagePath(lang,'works',work.id)} lang={selected?.language??work.original_language}>{editionTitle(work,selected)}</a></h3>
+          {selected?.kind==='translation'&&editionTitle(work,selected)!==work.title&&<OriginalTitle title={work.title} language={work.original_language} locale={lang} />}
+          <p lang={summary.language} data-work-summary={work.id}>{summary.text}</p>
+          <p class="muted">{d.firstPublished}: {work.first_published_year}</p>
+          <ul class="edition-links" aria-label={d.availableLanguages}>{available.map(edition=><li>
+            <a href={pagePath(lang,'read',work.id,edition.id)}>{t.read} · {languageName(edition.language,lang,languageNames)}</a>
+          </li>)}</ul>
+          <a class="card-link" href={pagePath(lang,'works',work.id)}>{t.all} →</a>
+        </article>;
+      })}</div>
+    </section>)}
+  </div>
+</Base>
+<style>
+  .author-index{display:flex;flex-wrap:wrap;gap:12px 24px;padding:0 0 32px;font-size:.9rem}
+  .author-index a{padding:6px 0}
+  .author-section{border-top:1px solid var(--line)}
+  .author-section .card{max-width:780px}
+  .author-section .card h3{margin-top:0}
+  .edition-links{padding-left:20px;margin:0 0 12px;font-size:.88rem}
+  .edition-links li{margin:8px 0}
+</style>

@@ -8,5 +8,6 @@ coverage/
 dist-archive/
 dist-archive.zip
 public/downloads/
+public/social/
 review-packets/
 __pycache__/

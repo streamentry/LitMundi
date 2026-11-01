@@ -17,7 +17,7 @@ const passagesFor=edition=>{const text=read(edition.content_path);return read('c
 const files=[];
 function visit(directory){for(const entry of readdirSync(directory,{withFileTypes:true})){const path=join(directory,entry.name);if(entry.isDirectory())visit(path);else files.push(path);}}
 visit('dist');
-const required=['dist/index.html','dist/404.html','dist/favicon.svg','dist/sitemap-index.xml','dist/sitemap.xml','dist/robots.txt','dist/search-index.json',...locales.flatMap(locale=>['dist/'+locale+'/index.html','dist/'+locale+'/quality/index.html'])];
+const required=['dist/index.html','dist/404.html','dist/favicon.svg','dist/sitemap-index.xml','dist/sitemap.xml','dist/robots.txt','dist/search-index.json',...locales.flatMap(locale=>['dist/'+locale+'/index.html',...['quality','authors','about'].map(page=>'dist/'+locale+'/'+page+'/index.html')])];
 for(const path of required)assert.ok(existsSync(path),'Missing build output: '+path);
 const decode=text=>text.replace(/&(#x[\da-f]+|#\d+|amp|quot|apos|lt|gt);/gi,(match,entity)=>{
   if(entity.startsWith('#x'))return String.fromCodePoint(parseInt(entity.slice(2),16));
@@ -138,7 +138,7 @@ for(const edition of published){
     const file='dist/'+locale+'/read/'+edition.work_id+'/'+edition.id+'/index.html';
     assert.ok(existsSync(file),'Published edition missing: '+file);
     const raw=readFileSync(file,'utf8'),html=decode(raw);
-    verifyTitle(raw,work,edition,'h1',title+' — '+(languageNames[edition.language]??edition.language));
+    verifyTitle(raw,work,edition,'h1',title+' — '+work.author+' · '+(languageNames[edition.language]??edition.language));
     verifyComparison(raw,edition,source,rows);
     const segments=[...raw.matchAll(/<div\b([^>]*\bclass="segment"[^>]*)>\s*<p\b([^>]*)>([\s\S]*?)<\/p>/g)].map(match=>({attributes:attrs(match[1]),language:attrs(match[2]).lang,text:decode(match[3])}));
     assert.equal(segments.length,passages.length+sourcePassages.length,'Unexpected passage count: '+file);
@@ -209,7 +209,7 @@ for(const locale of locales){
     const card=cards.find(item=>item.attributes['data-work-id']===work.id);assert.ok(card,'Catalog card missing: '+work.id);
     verifyTitle(card.html,work,preferred,'h3');
     const details=readFileSync('dist/'+locale+'/works/'+work.id+'/index.html','utf8');
-    verifyTitle(details,work,preferred,'h1',editionTitle(work,preferred));
+    verifyTitle(details,work,preferred,'h1',editionTitle(work,preferred)+' — '+work.author);
     const listed=elements(details,'h3').filter(element=>element.attributes['data-edition-title']);
     assert.deepEqual(listed.map(element=>element.attributes['data-edition-title']).sort(),available.map(edition=>edition.id).sort(),'Edition title list must contain only published editions');
     for(const edition of available){const heading=listed.find(element=>element.attributes['data-edition-title']===edition.id);assert.equal(heading.text,editionTitle(work,edition));assert.equal(heading.attributes.lang,edition.title?edition.language:work.original_language);}

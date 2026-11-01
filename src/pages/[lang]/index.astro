@@ -4,16 +4,27 @@ import OriginalTitle from '../../components/OriginalTitle.astro';
 import {strings,supported,type Locale} from '../../lib/i18n';
 import {publicWorks,publishedEditions,languageNames,bestEdition,reviewCategory,editionTitle} from '../../lib/corpus';
 import {pagePath,assetPath,basePath} from '../../lib/urls';
+import {labels,workSummary,authorSlug} from '../../lib/discovery';
 export function getStaticPaths(){return supported.map(lang=>({params:{lang}}));}
-const lang=Astro.params.lang as Locale;const t=strings[lang];
+const lang=Astro.params.lang as Locale;const t=strings[lang],d=labels(lang);
 const works=publicWorks();
 const authors=[...new Set(works.map(w=>w.author))].sort();
 const languages=[...new Set(works.flatMap(w=>publishedEditions(w.id).map(e=>e.language)))].sort();
+const homeUrl=new URL(pagePath(lang),Astro.site).href;
+const structuredData={
+  '@context':'https://schema.org','@type':'CollectionPage','@id':homeUrl,
+  url:homeUrl,name:d.homeTitle,description:d.homeDescription,inLanguage:lang,
+  mainEntity:{'@type':'ItemList','@id':homeUrl+'#collection',numberOfItems:works.length,itemListElement:works.map((work,index)=>({
+    '@type':'ListItem',position:index+1,item:{'@type':'CreativeWork',identifier:work.id,name:editionTitle(work,bestEdition(work,lang)),
+      url:new URL(pagePath(lang,'works',work.id),Astro.site).href,
+      author:{'@type':'Person','@id':new URL(pagePath('en','authors'),Astro.site).href+'#'+authorSlug(work.author),name:work.author}},
+  }))},
+};
 ---
-<Base lang={lang} title={t.title}>
+<Base lang={lang} title={d.homeTitle} description={d.homeDescription} structuredData={structuredData}>
 <div class="container">
   <section class="hero">
-    <p class="eyebrow">{t.tag}</p><h1>{t.title}</h1><p>{t.intro}</p>
+    <p class="eyebrow">{t.tag}</p><h1>{t.title}</h1><p>{d.homeDescription}</p>
     <a class="button" href="#collection">{t.explore} <span aria-hidden="true">→</span></a>
   </section>
   <section id="collection" class="section collection-section" aria-labelledby="collection-title">
@@ -29,13 +40,14 @@ const languages=[...new Set(works.flatMap(w=>publishedEditions(w.id).map(e=>e.la
     <section id="passage-results" class="search-results" aria-labelledby="results-title" hidden><h3 id="results-title">{t.results}</h3><ol></ol></section>
     <div class="grid" id="collection-cards">{works.map(work=>{
       const editions=publishedEditions(work.id);const first=bestEdition(work,lang)!;const category=reviewCategory(first),title=editionTitle(work,first);
+      const summary=workSummary(work,lang);
       const badge=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewed:category==='source'?t.sourcePublished:t.translationPublished;
       return <article class="card" data-work-id={work.id} data-author={work.author} data-languages={editions.map(e=>e.language).join(' ')}>
         <span class="pill" data-review-category={category}>{badge}</span>
         <h3 lang={first.title?first.language:work.original_language} data-edition-title={first.id}><a href={pagePath(lang,'works',work.id)}>{title}</a></h3>
         {first.kind==='translation'&&title!==work.title&&<OriginalTitle title={work.title} language={work.original_language} locale={lang}/>}
-        <p class="muted">{work.author} · {work.first_published_year}<br/>{editions.map(e=>languageNames[e.language]??e.language).filter((v,i,a)=>a.indexOf(v)===i).join(' · ')}</p>
-        <p lang="en">{work.description}</p>
+        <p class="muted"><a href={pagePath(lang,'authors')+'#'+authorSlug(work.author)}>{work.author}</a> · {work.first_published_year}<br/>{editions.map(e=>languageNames[e.language]??e.language).filter((v,i,a)=>a.indexOf(v)===i).join(' · ')}</p>
+        <p lang={summary.language} data-work-summary={work.id}>{summary.text}</p>
         <a class="card-link" href={pagePath(lang,'read',work.id,first.id)}>{t.read} <span aria-hidden="true">→</span></a>
       </article>;
     })}</div>

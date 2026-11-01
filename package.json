@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run validate && npm run downloads && astro build",
+    "build": "npm run validate && npm run downloads && npm run social:images && astro build",
     "preview": "astro preview",
     "check": "astro check",
     "validate": "node scripts/validate.mjs && node scripts/validate-atlas.mjs && node scripts/translation-todo.mjs check",
@@ -14,6 +14,7 @@
     "verify:build": "node scripts/verify-build.mjs",
     "quality:status": "node scripts/quality-status.mjs",
     "downloads": "node scripts/downloads.mjs",
+    "social:images": "node scripts/social-images.mjs",
     "verify:archive": "node scripts/verify-archive.mjs",
     "review:packet": "npm run validate && node scripts/review-packet.mjs",
     "verify:ids": "node scripts/verify-identifiers.mjs",
@@ -29,6 +30,7 @@
     "@astrojs/check": "^0.9.4",
     "ajv": "^8.20.0",
     "fflate": "^0.8.3",
+    "sharp": "0.34.5",
     "typescript": "^5.9.3"
   }
 }

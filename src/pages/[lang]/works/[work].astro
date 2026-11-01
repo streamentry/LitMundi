@@ -2,24 +2,46 @@
 import Base from '../../../layouts/Base.astro';
 import OriginalTitle from '../../../components/OriginalTitle.astro';
 import {strings,supported,type Locale} from '../../../lib/i18n';
-import {catalog,languageNames,editionsForWork,readableEditions,bestEdition,reviewCategory,editionTitle} from '../../../lib/corpus';
-import {pagePath} from '../../../lib/urls';
+import {catalog,languageNames,editionsForWork,readableEditions,publishedEditions,bestEdition,reviewCategory,editionTitle} from '../../../lib/corpus';
+import {pagePath,assetPath} from '../../../lib/urls';
+import {labels,workSummary,languageName,genreName,authorSlug,workPageTitle,workPageDescription} from '../../../lib/discovery';
+import {canonicalEditionPath} from '../../../lib/seo';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.map(work=>({params:{lang,work:work.id}})));}
-const lang=Astro.params.lang as Locale;const t=strings[lang];
+const lang=Astro.params.lang as Locale;const t=strings[lang],d=labels(lang);
 const w=catalog.find(w=>w.id===Astro.params.work)!;
 const reading=readableEditions(w.id),preferred=bestEdition(w,lang);
 const title=editionTitle(w,preferred),titleLanguage=preferred?.title?preferred.language:w.original_language;
 const drafts=editionsForWork(w.id).filter(e=>e.status==='draft'&&e.content_path);
 const isDemo=w.visibility!=='public'||!reading.some(e=>e.status==='published');
+const summary=workSummary(w,lang),published=publishedEditions(w.id);
+const textLanguages=[...new Set(published.map(edition=>edition.language))];
+const workUrl=new URL(pagePath(lang,'works',w.id),Astro.site).href;
+const description=workPageDescription(w,published,lang,languageNames);
+const authorUrl=new URL(pagePath('en','authors'),Astro.site).href+'#'+authorSlug(w.author);
+const structuredData=isDemo?undefined:{
+  '@context':'https://schema.org','@type':'CollectionPage','@id':workUrl,
+  url:workUrl,name:workPageTitle(w,preferred),description,inLanguage:lang,
+  about:{'@type':'CreativeWork',name:w.title,author:{'@type':'Person','@id':authorUrl,name:w.author},inLanguage:w.original_language},
+  mainEntity:{'@type':'ItemList',numberOfItems:published.length,itemListElement:published.map((edition,index)=>{
+    const url=new URL(canonicalEditionPath(edition),Astro.site).href;
+    return {'@type':'ListItem',position:index+1,item:{'@type':'CreativeWork','@id':url+'#edition',url,identifier:edition.id,name:editionTitle(w,edition),inLanguage:edition.language}};
+  })},
+};
+const breadcrumbs=[{name:d.collection,href:pagePath(lang)},{name:title,href:pagePath(lang,'works',w.id)}];
 ---
-<Base lang={lang} title={title} description={w.description} noindex={isDemo}>
+<Base lang={lang} title={workPageTitle(w,preferred)} description={description} noindex={isDemo} structuredData={structuredData} breadcrumbs={breadcrumbs} socialImage={!isDemo?assetPath('social/'+w.id+'.png'):undefined} socialImageAlt={!isDemo?w.title+' — '+w.author:undefined}>
 <div class="container">
   <section class="reader-head">
-    <p class="eyebrow"><a href={pagePath(lang)+'?author='+encodeURIComponent(w.author)+'#collection'}>{w.author}</a> · {w.first_published_year}</p>
+    <p class="eyebrow">{!isDemo?<a href={pagePath(lang,'authors')+'#'+authorSlug(w.author)}>{w.author}</a>:w.author} · {w.first_published_year}</p>
     <h1 lang={titleLanguage} data-edition-title={preferred?.id}>{title}</h1>
     {preferred?.kind==='translation'&&title!==w.title&&<OriginalTitle title={w.title} language={w.original_language} locale={lang}/>}
-    <p lang="en">{w.description}</p>
-    <p class="muted">{t.original}: {languageNames[w.original_language]??w.original_language}</p>
+    <p lang={summary.language} data-work-summary={w.id}>{summary.text}</p>
+    <dl class="work-facts">
+      <dt>{d.firstPublished}</dt><dd>{w.first_published_year}</dd>
+      <dt>{d.genre}</dt><dd>{genreName(w.genre,lang)}</dd>
+      <dt>{d.originalLanguage}</dt><dd>{languageName(w.original_language,lang,languageNames)}</dd>
+      {published.length>0&&<><dt>{d.availableLanguages}</dt><dd>{textLanguages.map(code=>languageName(code,lang,languageNames)).join(' · ')}</dd></>}
+    </dl>
     {isDemo&&<p class="notice">{t.sampleNotice}</p>}
     {!isDemo&&!reading.some(e=>e.language===lang&&e.status==='published')&&<p class="notice">{t.noTranslation}</p>}
     {preferred&&<a class="button" href={pagePath(lang,'read',w.id,preferred.id)}>{t.read} · {languageNames[preferred.language]??preferred.language} <span aria-hidden="true">→</span></a>}

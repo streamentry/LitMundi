@@ -24,9 +24,9 @@ automatically before exceeding either protocol limit: 50,000 URLs or 52,428,800
 uncompressed bytes per child file. The index references the resulting files;
 consumers should follow it instead of constructing shard names.
 
-After the first Vietnamese 500 program batch on 1 November 2026, the ten-edition
-corpus has **38 canonical pages**: 11 English-interface, 12 Vietnamese-interface,
-7 French-interface and 8 Spanish-interface URLs. These counts describe that
+After the discovery update on 1 November 2026, the ten-edition
+corpus has **46 canonical pages**: 13 English-interface, 14 Vietnamese-interface,
+9 French-interface and 10 Spanish-interface URLs. These counts describe that
 release, not fixed quotas. They change as eligible editions and public pages are
 added or removed.
 
@@ -36,7 +36,7 @@ An interface language describes navigation and controls. An edition language
 describes the literary text. They are separate: a Portuguese original remains
 Portuguese when its reader controls are English or French.
 
-Homes, quality pages and work pages have one self-canonical URL for each interface
+Homes, quality pages, author directories, about pages and work pages have one self-canonical URL for each interface
 language. Their reciprocal `hreflang` links describe the corresponding localized
 pages, including an English-interface `x-default` fallback.
 
@@ -67,7 +67,7 @@ An AI rubric score is not a reader rating or independent human certification.
 
 ## What belongs in the inventory
 
-Include canonical, indexable public home, quality, work and reader pages. Exclude
+Include canonical, indexable public home, quality, authors, about, work and reader pages. Exclude
 draft, planned and withdrawn editions; legacy demonstrations; redirects; the 404
 page; duplicate reader wrappers; search/filter state; passage fragments; and
 download files. Download links and stable passage anchors remain available on
@@ -143,6 +143,20 @@ do not treat permission for training as a prerequisite for search visibility.
 Any applicable crawler rules belong in the effective host-root robots.txt.
 
 ## Verification and operation
+
+The [1 November 2026 SEO/GEO review](SEO-GEO-2026-11-01.md) records the current
+research, content decisions, measurement plan and release verification. Localized
+summaries are kept outside the reviewed literary corpus. Reader titles include
+the author and actual text language, while edition titles, text and review
+evidence keep their existing identities. The author directory lists only authors
+with published works; planned translations do not create public discovery pages.
+
+`npm run social:images` generates a 1200 × 630 PNG card for each public work plus
+a site card and a 512 × 512 logo from the existing branding. The build runs this
+step automatically. The build font is bundled with its license and is not sent
+to readers. Open Graph and Twitter image metadata use absolute project URLs.
+These assets improve sharing presentation; they are not an indexing or ranking
+guarantee.
 
 Run the normal checks in [Deployment](DEPLOYMENT.md). Build verification compares
 the complete sitemap inventory with generated canonical HTML and checks XML,

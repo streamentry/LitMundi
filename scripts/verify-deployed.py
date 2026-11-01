@@ -11,7 +11,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 from urllib.parse import parse_qs, urljoin, urlparse
-from lib.seo_validation import expected_inventory, parse_index, parse_sitemap, validate_page, verify_build
+from lib.seo_validation import expected_inventory, parse_index, parse_sitemap, png_dimensions, validate_page, verify_build
 
 
 def review_category(edition):
@@ -149,7 +149,7 @@ def main():
 
     jobs = {}
     for lang in languages:
-        for route in [lang + "/", lang + "/quality/"]:
+        for route in [lang + "/", *(lang + "/" + page + "/" for page in ("quality", "authors", "about"))]:
             jobs[route] = (200, "page", None)
         for work_id in sorted(public_work_ids):
             route = lang + "/works/" + work_id + "/"
@@ -168,6 +168,8 @@ def main():
     for edition in [*published, *excluded]:
         for extension in ("json", "txt", "epub", "tsv"):
             jobs["downloads/" + edition["id"] + "." + extension] = (200, "download", edition) if edition in published else (404, "excluded", None)
+    for route, dimensions in seo_report["social_images"].items():
+        jobs[route] = (200, "social-image", dimensions)
     for route, kind in [("", "root"), ("sitemap-index.xml", "sitemap-index"), ("sitemap.xml", "sitemap-index"),
                         *((name, "sitemap-child") for name in child_by_name),
                         ("robots.txt", "robots"), ("search-index.json", "search"), ("downloads/manifest.json", "download-manifest")]:
@@ -195,7 +197,12 @@ def main():
             problems.append("Public route unexpectedly redirects to " + final_url)
         try:
             if status == 200:
-                if kind == "download":
+                if kind == "social-image":
+                    if content_type != "image/png" or png_dimensions(data, url) != tuple(edition):
+                        problems.append("Social image has incorrect content type or dimensions")
+                    if data != (root / "dist" / route).read_bytes():
+                        problems.append("Deployed social image differs from validated local bytes")
+                elif kind == "download":
                     if data != (root / "public" / route).read_bytes():
                         problems.append("Deployed download differs from validated local bytes")
                 else:
@@ -219,7 +226,7 @@ def main():
                     if kind in ("reader", "work"):
                         work = works_by_id[edition["work_id"]]
                         title = edition_title(work, edition)
-                        page_title = title + " — " + language_names.get(edition["language"], edition["language"]) if kind == "reader" else title
+                        page_title = title + " — " + work["author"] + (" · " + language_names.get(edition["language"], edition["language"]) if kind == "reader" else "")
                         problems.extend(title_problems(text, work, edition, page_title=page_title))
                     if kind == "work":
                         listed = [(attrs, heading) for _, attrs, heading in elements(text, "h3") if "data-edition-title" in attrs]
@@ -355,7 +362,8 @@ def main():
         "published_editions": [edition["id"] for edition in published],
         "ai_reviewed_editions": [edition["id"] for edition in published if review_category(edition) == "ai"],
         "seo": {"canonical_urls": len(seo_report["urls"]), "locale_counts": seo_report["locale_counts"],
-                "sitemap_index": urljoin(canonical_base, "sitemap-index.xml"), "child_sitemaps": list(sitemap_children)},
+                "sitemap_index": urljoin(canonical_base, "sitemap-index.xml"), "child_sitemaps": list(sitemap_children),
+                "social_images": seo_report["social_images"], "unique_descriptions": seo_report["unique_descriptions"]},
         "limitations": ["Read-only HTTP/content verification; no human literary review or real reader-demand measurement.",
                         "Correction links are checked without submitting issues or impersonating readers.",
                         "The project-level robots.txt is a deployment template; the effective crawler policy is the origin-root /robots.txt. Publishing sitemaps does not prove search-engine submission, indexing or AI citation.",
