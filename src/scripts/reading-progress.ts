@@ -8,6 +8,7 @@ if(controls&&shell){
   const resume=controls.querySelector<HTMLAnchorElement>('#resume-reading')!;
   const clear=controls.querySelector<HTMLButtonElement>('#clear-progress')!;
   const message=controls.querySelector<HTMLElement>('#progress-message')!;
+  const comparison=shell.querySelector<HTMLInputElement>('#show-original');
   const key='litmundi:reading:v1:'+shell.dataset.edition;
   let index=-1,lastSaved='',pending=false;
   controls.hidden=false;
@@ -35,6 +36,13 @@ if(controls&&shell){
     else{try{localStorage.removeItem(key);lastSaved='';clear.hidden=true;resume.hidden=true;}catch{unavailable();}}
   });
   clear.addEventListener('click',()=>{try{localStorage.removeItem(key);lastSaved='';remember.checked=false;clear.hidden=true;resume.hidden=true;}catch{unavailable();}});
+  if(comparison){
+    // CSS owns the view mode. JavaScript only refreshes progress and prevents
+    // browser form/BFCache restoration from overriding the translation default.
+    comparison.checked=false;
+    comparison.addEventListener('change',update);
+    addEventListener('pageshow',()=>{comparison.checked=false;update();});
+  }
   addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(update);}},{passive:true});
   addEventListener('resize',update);update();
 }

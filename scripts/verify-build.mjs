@@ -9,6 +9,7 @@ const locales=Object.keys(read('src/lib/locales.json'));
 const languageNames=read('corpus/catalog/languages.json');
 const works=read('corpus/catalog/works.json'),editions=read('corpus/catalog/editions.json');
 const published=editions.filter(edition=>isPublicEdition(edition,works.find(work=>work.id===edition.work_id)));
+const comparisonPages=new Set(published.filter(edition=>edition.kind==='translation').flatMap(edition=>locales.flatMap(locale=>[edition.id,...edition.legacy_slugs].map(slug=>join('dist',locale,'read',edition.work_id,slug,'index.html')))));
 const visible=works.filter(work=>published.some(edition=>edition.work_id===work.id));
 const samples=editions.filter(edition=>edition.status==='sample'&&works.some(work=>work.id===edition.work_id&&work.visibility==='demo'));
 const passagesFor=edition=>{const text=read(edition.content_path);return read('corpus/structure/'+edition.work_id+'.json').segment_ids.map(id=>[id,text[id]]);};
@@ -23,8 +24,42 @@ const decode=text=>text.replace(/&(#x[\da-f]+|#\d+|amp|quot|apos|lt|gt);/gi,(mat
   return ({amp:'&',quot:'"',apos:"'",lt:'<',gt:'>'})[entity]??match;
 });
 const attrs=value=>Object.fromEntries([...value.matchAll(/([\w:-]+)="([^"]*)"/g)].map(match=>[match[1],decode(match[2])]));
+const hasAttribute=(value,name)=>new RegExp('(?:^|\\s)'+name+'(?:\\s|=|/|$)','i').test(value);
 const textContent=value=>decode(value.replace(/<[^>]*>/g,''));
-const elements=(html,tag)=>[...html.matchAll(new RegExp('<'+tag+'\\b([^>]*)>([\\s\\S]*?)<\\/'+tag+'>','g'))].map(match=>({rawAttributes:match[1],attributes:attrs(match[1]),text:textContent(match[2])}));
+const elements=(html,tag)=>[...html.matchAll(new RegExp('<'+tag+'\\b([^>]*)>([\\s\\S]*?)<\\/'+tag+'>','g'))].map(match=>({rawAttributes:match[1],attributes:attrs(match[1]),body:match[2],text:textContent(match[2])}));
+function verifyComparison(html,edition,source,rows){
+  const controls=[...html.matchAll(/<input\b([^>]*)>/g)].map(match=>({rawAttributes:match[1],attributes:attrs(match[1])})).filter(input=>input.attributes.id==='show-original');
+  const labels=elements(html,'label').filter(label=>label.attributes.for==='show-original');
+  const articles=elements(html,'article').filter(article=>article.attributes.id==='parallel-text');
+  const markedCells=elements(html,'section').filter(cell=>hasAttribute(cell.rawAttributes,'data-source-cell')||hasAttribute(cell.rawAttributes,'data-target-cell'));
+  if(!source){
+    assert.equal(controls.length+labels.length+articles.length+markedCells.length,0,'Source-only readers must not contain an original-comparison toggle or cells: '+edition.id);
+    return;
+  }
+  assert.equal(controls.length,1,'Translation requires one native original-comparison checkbox: '+edition.id);
+  const control=controls[0];
+  assert.equal(control.attributes.type,'checkbox','Original comparison must use a native checkbox');
+  assert.ok(!hasAttribute(control.rawAttributes,'checked'),'Original comparison must be unchecked in the initial HTML');
+  assert.ok(!hasAttribute(control.rawAttributes,'hidden')&&!hasAttribute(control.rawAttributes,'disabled')&&control.attributes['aria-hidden']!=='true','Original-comparison control must not be explicitly hidden or disabled');
+  assert.equal(control.attributes.autocomplete,'off','Comparison choice must not restore a saved checkbox state');
+  assert.equal(control.attributes['aria-controls'],'parallel-text','Comparison checkbox must identify its reader article');
+  assert.equal(labels.length,1,'Original-comparison checkbox needs one associated label');
+  assert.ok(labels[0].text.trim().length>0&&!hasAttribute(labels[0].rawAttributes,'hidden')&&labels[0].attributes['aria-hidden']!=='true','Comparison label must contain text and must not be explicitly hidden');
+  assert.equal(articles.length,1,'Translation requires one controlled parallel-text article');
+  const cells=elements(articles[0].body,'section').filter(cell=>hasAttribute(cell.rawAttributes,'data-source-cell')||hasAttribute(cell.rawAttributes,'data-target-cell'));
+  assert.equal(markedCells.length,cells.length,'Comparison cells must belong to the controlled article');
+  assert.equal(cells.length,rows.length*2,'Each alignment row needs exactly one source and one target cell');
+  const idsIn=cell=>[...cell.body.matchAll(/<div\b([^>]*\bclass="segment"[^>]*)>/g)].map(match=>attrs(match[1]).id);
+  for(const [index,row] of rows.entries()){
+    const original=cells[index*2],target=cells[index*2+1];
+    assert.equal(original.attributes['data-source-cell'],source.id,'Original cell must retain its source edition identity');
+    assert.ok(!hasAttribute(original.rawAttributes,'data-target-cell'),'An original cell cannot also be marked as a target');
+    assert.equal(target.attributes['data-target-cell'],edition.id,'Target cell must retain its selected edition identity');
+    assert.ok(!hasAttribute(target.rawAttributes,'data-source-cell'),'A target cell cannot also be marked as an original');
+    assert.deepEqual(idsIn(original),row.source.map(([id])=>'source-'+id),'Original comparison cell differs from the recorded alignment');
+    assert.deepEqual(idsIn(target),row.target.map(([id])=>id),'Target comparison cell differs from the recorded alignment');
+  }
+}
 function verifyTitle(html,work,edition,tag='h1',pageTitle){
   const title=editionTitle(work,edition),language=edition.title?edition.language:work.original_language;
   const heading=elements(html,tag).find(element=>element.attributes['data-edition-title']===edition.id);
@@ -50,6 +85,7 @@ const htmlFiles=files.filter(file=>file.endsWith('.html'));
 let checkedLinks=0;
 for(const file of htmlFiles){
   const html=readFileSync(file,'utf8');
+  if(!comparisonPages.has(file))verifyComparison(html,{id:relative('dist',file)},null,[]);
   const pageURL=new URL(base+relative('dist',file).replace(/index\.html$/,''),origin);
   const ids=[...html.matchAll(/\bid="([^"]*)"/g)].map(match=>decode(match[1]));
   assert.equal(ids.length,new Set(ids).size,'Duplicate HTML IDs: '+file);
@@ -112,6 +148,7 @@ for(const edition of published){
     assert.ok(existsSync(file),'Published edition missing: '+file);
     const raw=readFileSync(file,'utf8'),html=decode(raw);
     verifyTitle(raw,work,edition,'h1',title+' — '+(languageNames[edition.language]??edition.language));
+    verifyComparison(raw,edition,source,rows);
     const segments=[...raw.matchAll(/<div\b([^>]*\bclass="segment"[^>]*)>\s*<p\b([^>]*)>([\s\S]*?)<\/p>/g)].map(match=>({attributes:attrs(match[1]),language:attrs(match[2]).lang,text:decode(match[3])}));
     assert.equal(segments.length,passages.length+sourcePassages.length,'Unexpected passage count: '+file);
     for(const [id,text] of passages){
@@ -187,4 +224,4 @@ for(const locale of locales){
     for(const edition of available){const heading=listed.find(element=>element.attributes['data-edition-title']===edition.id);assert.equal(heading.text,editionTitle(work,edition));assert.equal(heading.attributes.lang,edition.title?edition.language:work.original_language);}
   }
 }
-console.log('Verified '+htmlFiles.length+' HTML pages, '+checkedLinks+' local links/anchors, '+indexed.length+' sitemap routes, '+published.length+' complete public editions and '+published.filter(e=>e.kind==='translation').length+' aligned translations. Unpublished routes, unique draft text, search entries and downloads remain excluded.');
+console.log('Verified '+htmlFiles.length+' HTML pages, '+checkedLinks+' local links/anchors, '+indexed.length+' sitemap routes, '+published.length+' complete public editions and '+published.filter(e=>e.kind==='translation').length+' aligned translations with unchecked original-comparison controls. Unpublished routes, unique draft text, search entries and downloads remain excluded. Static HTML checks do not establish computed CSS visibility or toggle interaction.');
