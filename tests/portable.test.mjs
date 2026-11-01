@@ -5,8 +5,9 @@ import os from 'node:os';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {unzipSync,strFromU8} from 'fflate';
-import {loadCorpus,publicEditions,editionBundle,plainText,tabSeparated,epub,portableFiles,xml} from '../scripts/lib/portable.mjs';
+import {loadCorpus,publicEditions,editionBundle,plainText,tabSeparated,epub,portableFiles,sha256,xml} from '../scripts/lib/portable.mjs';
 import {reviewPackets} from '../scripts/lib/review-packets.mjs';
+import siteConfig from '../src/lib/site.json' with {type:'json'};
 
 const corpus=loadCorpus();
 test('portable publications exclude drafts, planned editions, withdrawn texts and demonstrations',()=>{
@@ -84,12 +85,12 @@ test('portable formats use the edition title and retain the original work title'
   assert.equal(row[header.indexOf('title')],title);
   assert.equal(row[header.indexOf('original_title')],work.title);
   const files=unzipSync(epub(bundle)),opf=strFromU8(files['EPUB/package.opf']),page=strFromU8(files['EPUB/text.xhtml']),nav=strFromU8(files['EPUB/nav.xhtml']);
-  assert.ok(opf.includes('<dc:title>'+xml(title)+'</dc:title>'));
+  assert.ok(opf.includes('<dc:title xml:lang="'+edition.language+'">'+xml(title)+'</dc:title>'));
   assert.ok(opf.includes('Original title: '+xml(work.title)));
-  for(const content of [page,nav])assert.ok(content.includes('<title>'+xml(title)+'</title>'));
-  assert.ok(page.includes('<h1>'+xml(title)+'</h1>'));
+  for(const content of [page,nav])assert.ok(content.includes('<title lang="'+edition.language+'" xml:lang="'+edition.language+'">'+xml(title)+'</title>'));
+  assert.ok(page.includes('<h1 lang="'+edition.language+'" xml:lang="'+edition.language+'">'+xml(title)+'</h1>'));
   assert.ok(page.includes('>'+xml(work.title)+'</span>'),'The EPUB must preserve the original title as attribution.');
-  assert.ok(nav.includes('href="text.xhtml">'+xml(title)+'</a>'));
+  assert.ok(nav.includes('href="text.xhtml" lang="'+edition.language+'" xml:lang="'+edition.language+'">'+xml(title)+'</a>'));
   assert.ok(!page.includes('<kim chỉ>'),'Title characters must be escaped in XHTML.');
 });
 
@@ -103,7 +104,124 @@ test('legacy non-English source editions fall back to the original title in expo
   assert.equal(plainText(bundle).split('\n')[0],work.title);
   const [header,row]=tabSeparated(bundle).trimEnd().split('\n').map(line=>line.split('\t'));
   assert.equal(row[header.indexOf('title')],work.title);
-  assert.ok(strFromU8(unzipSync(epub(bundle))['EPUB/package.opf']).includes('<dc:title>'+xml(work.title)+'</dc:title>'));
+  assert.ok(strFromU8(unzipSync(epub(bundle))['EPUB/package.opf']).includes('<dc:title xml:lang="'+work.original_language+'">'+xml(work.title)+'</dc:title>'));
+});
+
+test('portable references identify the exact source and canonical reader without changing corpus fields or hashes',()=>{
+  const decode=value=>value.replace(/\\([\\trn])/g,(_,letter)=>({'\\':'\\',t:'\t',r:'\r',n:'\n'}[letter]));
+  for(const edition of publicEditions(corpus)){
+    const source=edition.kind==='source'?edition:corpus.editions.find(e=>e.id===edition.source_edition_id);
+    const work=corpus.works.find(w=>w.id===edition.work_id),bundle=editionBundle(corpus,edition);
+    const saved=JSON.parse(JSON.stringify(bundle)),url=new URL(saved.canonical_url);
+    assert.deepEqual(saved.work,work);assert.deepEqual(saved.edition,edition);
+    assert.deepEqual(saved.structure,corpus.read('corpus/structure/'+work.id+'.json'));
+    assert.deepEqual(saved.segments,corpus.read(edition.content_path));
+    assert.equal(saved.content_sha256,sha256(fs.readFileSync(edition.content_path)));
+    assert.equal(saved.source_content_sha256,saved.content_sha256);
+    assert.equal(saved.original_source_sha256,sha256(fs.readFileSync(source.content_path)));
+    assert.equal(url.origin,siteConfig.site);assert.equal(url.search,'');assert.equal(url.hash,'');
+    assert.equal(saved.source.edition_id,source.id);assert.equal(saved.source.citation,source.provenance.citation);
+    assert.equal(saved.source.title,source.title??work.title);assert.equal(saved.source.language,source.language);
+    assert.equal(saved.source.text_url,source.provenance.text_url);assert.equal(saved.source.catalog_url,source.provenance.catalog_url);
+    assert.equal(saved.source.source_witness,source.provenance.source_witness);assert.equal(saved.source.retrieved_at,source.provenance.retrieved_at);
+    if(edition.language==='vi')assert.equal(url.pathname,siteConfig.base+'/vi/read/'+work.id+'/'+edition.id+'/');
+    if(source.language==='pt')assert.equal(new URL(saved.source.canonical_url).pathname,siteConfig.base+'/en/read/'+work.id+'/'+source.id+'/');
+    const text=plainText(bundle);
+    assert.ok(text.includes('Canonical URL: '+saved.canonical_url));
+    assert.ok(text.includes('Source: '+source.provenance.citation));
+    assert.ok(text.includes('Source edition URL: '+saved.source.canonical_url));
+    assert.ok(text.includes('Source witness URL: '+source.provenance.text_url));
+    if(edition.kind==='translation')assert.ok(text.includes('Edition provenance: '+edition.provenance.citation));
+    const [header,line]=tabSeparated(bundle).split('\n');
+    const columns=header.split('\t'),row=Object.fromEntries(line.split('\t').map((value,index)=>[columns[index],decode(value)]));
+    assert.equal(columns[19],'passage_id');assert.equal(columns[20],'text','Existing TSV columns must retain their positions.');
+    assert.equal(row.source_citation,source.provenance.citation);assert.equal(row.source_url,source.provenance.text_url);
+    assert.equal(row.canonical_url,saved.canonical_url);assert.equal(row.source_edition_id,source.id);
+    assert.equal(row.source_canonical_url,saved.source.canonical_url);assert.equal(row.source_catalog_url,source.provenance.catalog_url);
+    assert.equal(row.edition_provenance,edition.provenance.citation);
+  }
+});
+
+test('portable translations refuse missing, withdrawn, mismatched or non-source references',()=>{
+  const target=publicEditions(corpus).find(e=>e.kind==='translation');
+  const source=corpus.editions.find(e=>e.id===target.source_edition_id);
+  assert.throws(()=>editionBundle(corpus,{...target,source_edition_id:'missing-source'}),/exact public source/);
+  for(const replacement of [{...source,status:'withdrawn'},{...source,kind:'translation'},{...source,work_id:'different-work'},{...source,rights:{...source.rights,status:'unreviewed'}}]){
+    const broken={...corpus,editions:corpus.editions.map(e=>e.id===source.id?replacement:e)};
+    assert.throws(()=>editionBundle(broken,target),/exact public source/);
+  }
+});
+
+test('source URLs are actual escaped links or empty, never witness identifiers or executable schemes',()=>{
+  const target=publicEditions(corpus).find(e=>e.kind==='translation'),source=corpus.editions.find(e=>e.id===target.source_edition_id);
+  const fixture=provenance=>({...corpus,editions:corpus.editions.map(e=>e.id===source.id?{...e,provenance:{...e.provenance,...provenance}}:e)});
+  const empty=editionBundle(fixture({text_url:null,catalog_url:null,source_witness:'A non-URL witness identifier'}),target);
+  assert.equal(empty.source.text_url,null);assert.equal(empty.source.catalog_url,null);
+  assert.match(plainText(empty),/Source witness URL: \nSource catalog URL: \n/);
+  const [header,row]=tabSeparated(empty).split('\n').map(line=>line.split('\t'));
+  assert.equal(row[header.indexOf('source_url')],'');assert.equal(row[header.indexOf('source_catalog_url')],'');
+  assert.ok(!strFromU8(unzipSync(epub(empty))['EPUB/text.xhtml']).includes('href="A non-URL'));
+  for(const unsafe of ['javascript:alert(1)','file:///etc/passwd','source-edition-id','https://user:password@example.test/']){
+    assert.throws(()=>editionBundle(fixture({text_url:unsafe}),target),/Invalid source text URL/);
+  }
+  const url='https://example.test/witness?edition=one&mode=%22quoted%22';
+  const escaped=editionBundle(fixture({text_url:url,catalog_url:url,citation:'Original source & <catalog note>'}),target);
+  const content=strFromU8(unzipSync(epub(escaped))['EPUB/text.xhtml']);
+  assert.ok(content.includes('href="'+xml(url)+'"'));assert.ok(content.includes('Original source &amp; &lt;catalog note&gt;'));
+  assert.ok(!content.includes('<catalog note>'));
+});
+
+test('EPUB XML keeps literary text intact and labels English furniture, citations and rights accurately',()=>{
+  const records=publicEditions(corpus).map(edition=>{
+    const bundle=editionBundle(corpus,edition),files=unzipSync(epub(bundle));
+    return {edition,work:bundle.work,source:bundle.source,canonical_url:bundle.canonical_url,hash:bundle.source_content_sha256,segments:bundle.segments,
+      text:strFromU8(files['EPUB/text.xhtml']),nav:strFromU8(files['EPUB/nav.xhtml']),opf:strFromU8(files['EPUB/package.opf'])};
+  });
+  const script=String.raw`
+import json,sys,xml.etree.ElementTree as ET
+ns={'x':'http://www.w3.org/1999/xhtml','dc':'http://purl.org/dc/elements/1.1/'}
+xml_lang='{http://www.w3.org/XML/1998/namespace}lang'
+with open(sys.argv[1],encoding='utf-8') as stream: records=json.load(stream)
+for record in records:
+    edition,work=record['edition'],record['work']
+    text,nav,opf=[ET.fromstring(record[key]) for key in ['text','nav','opf']]
+    title=edition.get('title',work['title']); title_language=edition['language'] if edition.get('title') else work['original_language']
+    assert text.get('lang')==text.get(xml_lang)==edition['language']
+    assert nav.get('lang')==nav.get(xml_lang)=='en'
+    for document in [text,nav]:
+        element=document.find('x:head/x:title',ns)
+        assert element.text==title and element.get('lang')==element.get(xml_lang)==title_language
+    heading=text.find('.//x:h1',ns)
+    assert heading.text==title and heading.get('lang')==heading.get(xml_lang)==title_language
+    passages={p.get('id'):p.text for p in text.findall('.//x:p[@id]',ns)}
+    assert passages==record['segments']
+    provenance=text.find('.//x:section[@id="provenance"]',ns)
+    assert provenance.get('lang')==provenance.get(xml_lang)=='en'
+    label=provenance.find('x:p[@class="edition-label"]',ns)
+    assert label.text==edition['label'] and label.get('lang')==label.get(xml_lang)==('en' if edition['kind']=='source' else edition['language'])
+    original=provenance.find('.//x:span',ns)
+    assert original.text==work['title'] and original.get('lang')==original.get(xml_lang)==work['original_language']
+    links={a.get('href'):a.text for a in provenance.findall('.//x:a',ns)}
+    for url in [record['canonical_url'],record['source']['canonical_url'],record['source']['text_url'],record['source']['catalog_url']]:
+        if url: assert links[url]==url
+    assert record['source']['citation'] in ''.join(provenance.itertext())
+    if edition['kind']=='translation': assert edition['provenance']['citation'] in ''.join(provenance.itertext())
+    nav_link=nav.find('.//x:a[@href="text.xhtml"]',ns)
+    assert nav_link.text==title and nav_link.get('lang')==nav_link.get(xml_lang)==title_language
+    assert nav.find('.//x:h1',ns).text=='Contents'
+    identifiers={e.get('id'):e.text for e in opf.findall('.//dc:identifier',ns)}
+    assert identifiers['edition-id']=='urn:litmundi:'+edition['id']+':sha256:'+record['hash']
+    assert identifiers['canonical-url']==record['canonical_url']
+    assert opf.find('.//dc:title',ns).get(xml_lang)==title_language
+    for field in ['rights','source']: assert opf.find('.//dc:'+field,ns).get(xml_lang)=='en'
+    assert record['source']['citation'] in opf.find('.//dc:source',ns).text
+`;
+  const temp=fs.mkdtempSync(path.join(os.tmpdir(),'litmundi-epub-metadata-'));
+  try{
+    const input=path.join(temp,'metadata.json');fs.writeFileSync(input,JSON.stringify(records));
+    const result=spawnSync('python3',['-I','-c',script,input],{encoding:'utf8',timeout:15000});
+    assert.equal(result.status,0,result.stderr||result.error?.message);
+  }finally{fs.rmSync(temp,{recursive:true,force:true});}
 });
 
 test('draft review packets show both titles without inventing a title assessment',()=>{

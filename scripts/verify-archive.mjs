@@ -38,6 +38,16 @@ try {
     assert.ok(html.includes('<title>'+htmlEsc(title)+'</title>')&&html.includes('<h1>'+htmlEsc(title)+'</h1>'),'Offline HTML must use the edition title.');
     assert.ok(html.includes('Original title: '+htmlEsc(work.title)),'Offline HTML must retain the original title.');
     assert.ok(index.includes('href="editions/'+e.id+'.html">'+htmlEsc(title+' — '+e.language)+'</a>'),'Offline index must use the edition title.');
+    const source=e.kind==='source'?e:editions.find(item=>item.id===e.source_edition_id);
+    const portable=JSON.parse(await fs.readFile(path.join(archive,'exports',e.id+'.json'),'utf8'));
+    assert.ok(source,'Restored translation must have its exact source.');
+    for(const [content,escape] of [[txt,value=>value],[html,htmlEsc]]){
+      assert.ok(content.includes('Source: '+escape(source.provenance.citation)),'Restored source citation must identify the original witness.');
+      assert.ok(content.includes('Canonical URL: '+escape(portable.canonical_url)),'Restoration must retain its recorded canonical reader URL.');
+      assert.ok(content.includes('Source edition URL: '+escape(portable.source.canonical_url)),'Restoration must retain the source reader URL.');
+      if(source.provenance.text_url)assert.ok(content.includes('Source witness URL: '+escape(source.provenance.text_url)));
+      if(e.kind==='translation')assert.ok(content.includes('Edition provenance: '+escape(e.provenance.citation)),'Creation notes remain separately attributed.');
+    }
     const prose=JSON.parse(await fs.readFile(path.join(archive,e.content_path),'utf8'));
     for(const [id,text] of Object.entries(prose)){assert.ok(txt.includes('['+id+']'));assert.ok(txt.includes(text));}
     if(e.review.status==='ai_reviewed'){

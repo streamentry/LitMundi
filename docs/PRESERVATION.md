@@ -30,7 +30,29 @@ This is an **editorial snapshot**. It includes unpublished drafts and historical
 
 Titles travel with each edition. Portable JSON and the rights manifest record `title` and `original_title`; TSV repeats those explicit metadata columns for each passage, so importers should read columns by their headers. TXT starts with the edition title, and EPUB uses it in its title metadata, headings and navigation while preserving the original title in source attribution. The canonical `work.title`, work/edition IDs and URLs are unchanged.
 
+Portable JSON additionally records `canonical_url` and a `source` object with the
+exact source edition identity, bibliography, canonical reader URL, witness URL and
+catalog URL. Existing fields and content hashes remain available. TXT and EPUB
+carry the same citation chain and retain translation-process notes under a separate
+edition-provenance label. EPUB navigation and rights/provenance text are marked as
+English; literary text, titles and translation labels retain their actual language.
+
+The existing EPUB `dcterms:modified` value derives from the recorded provenance
+retrieval date. It is not a reliable timestamp for later package-metadata edits;
+use the release revision and download manifest for identifying the exact export.
+
+TSV keeps its existing columns and appends `canonical_url`, `source_edition_id`,
+`source_canonical_url`, `source_catalog_url` and `edition_provenance`. The existing
+`source_citation` now identifies the actual original bibliography, and `source_url`
+is a witness URL (or empty), never a bare edition identifier. Read columns by name.
+
 The standalone restorer uses the edition title in HTML, TXT and the library index. For older archives without `edition.title`, it falls back to the original work title in its recorded language. Draft review packets display source and target titles and include their literal snapshots in the unfilled title-review template; a blank rationale is not evidence that a title has been assessed.
+
+Restoration resolves the original source from the archived corpus and keeps its
+bibliography separate from translation-process notes. If a portable JSON export
+records canonical reader URLs, the restored HTML/TXT retains those recorded URLs.
+Older archives without those fields remain restorable; no current domain or
+network lookup is needed to invent missing links.
 
 The archive carries bibliographic witness information and source capture hashes; it does not bundle the large historical facsimile PDFs or page images. Independent stewards should obtain lawful witness copies separately and record their own access and reuse conditions.
 

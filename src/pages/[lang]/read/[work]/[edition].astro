@@ -17,6 +17,7 @@ const title=editionTitle(w,e),titleLanguage=e.title?e.language:w.original_langua
 const showOriginal=e.kind==='translation'&&title!==w.title;
 const legacy=e.id!==Astro.params.edition,current=pagePath(lang,'read',w.id,e.id);
 const passages=passagesFor(e),parallel=parallelFor(e),reading=readableEditions(w.id);
+const provenanceSource=parallel?.source??e;
 const firstPassage=passages[0]?.[0],ui=readerUi[lang];
 const published=e.status==='published'&&w.visibility==='public',noindex=!published||legacy;
 const canonical=published?canonicalEditionPath(e):current;
@@ -29,7 +30,7 @@ const notice=category==='ai'?t.aiNotice:category==='human'?t.humanNotice:categor
 const badge=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewed:category==='source'?t.sourcePublished:t.translationPublished;
 const publicCatalog=publicWorks(),position=publicCatalog.findIndex(work=>work.id===w.id);
 const previous=position>0?publicCatalog[position-1]:null,next=position>=0?publicCatalog[position+1]:null;
-const previousEdition=previous?bestEdition(previous,lang):null,nextEdition=next?bestEdition(next,lang):null;
+const previousEdition=previous?bestEdition(previous,e.language):null,nextEdition=next?bestEdition(next,e.language):null;
 const feedback='https://github.com/streamentry/LitMundi/issues/new?'+new URLSearchParams({title:'Reading feedback: '+w.id,body:'## What I read\nWork: '+w.id+'\nEdition: '+e.id+'\n\n## Did you finish the work? Where did you stop?\n\n## What made reading easier or harder?\n\n## Would you return or recommend it? Why?\n\n## A specific improvement\n\nPlease do not include personal or sensitive information. This is a public GitHub issue.'}).toString();
 const editionReference=(edition:typeof e)=>{
   const url=new URL(canonicalEditionPath(edition),Astro.site).href;
@@ -72,7 +73,12 @@ const structuredData=published?{
   {legacy&&<p class="notice"><a href={current}>{t.legacy}</a></p>}
   <div class="notice" data-review-category={category} data-publication-policy={e.publication_policy}><p><strong>{published?notice:t.sampleNotice}</strong></p>{published&&category==='ai'&&typeof e.review.score==='number'&&<p data-ai-score={e.review.score}>{t.aiScore}: <strong>{e.review.score.toLocaleString(lang,{minimumFractionDigits:1,maximumFractionDigits:2})}/10</strong>. {t.scoreContext}</p>}{e.provenance.text_url&&<p><a href={e.provenance.text_url}>{t.sourceWitness} <span aria-hidden="true">↗</span></a></p>}</div>
   <details class="metadata"><summary>{t.provenance}</summary><dl>
-    <dt>{t.sourceWitness}</dt><dd lang="en">{e.provenance.citation}{e.provenance.catalog_url&&<p><a href={e.provenance.catalog_url}>{e.provenance.catalog_url}</a></p>}</dd>
+    <dt>{t.sourceWitness}</dt><dd data-provenance-source={provenanceSource.id}>
+      <span lang="en" data-provenance-source-citation={provenanceSource.id}>{provenanceSource.provenance.citation}</span>
+      {provenanceSource.provenance.catalog_url&&<p><a data-provenance-source-catalog={provenanceSource.id} href={provenanceSource.provenance.catalog_url}>{provenanceSource.provenance.catalog_url}</a></p>}
+      {provenanceSource.provenance.text_url&&<p><a data-provenance-source-witness={provenanceSource.id} href={provenanceSource.provenance.text_url}>{t.sourceWitness} <span aria-hidden="true">↗</span></a></p>}
+    </dd>
+    {e.kind==='translation'&&<><dt>{ui.editionCreationRecord}</dt><dd data-edition-creation-record={e.id}><p lang="en">{e.provenance.citation}</p><p class="muted">{ui.editionCreationHint}</p></dd></>}
     <dt>{t.editionId}</dt><dd><code>{e.id}</code></dd>
     <dt>{t.author}</dt><dd>{e.credits.author}</dd>
     {e.credits.translator&&<><dt>{category==='ai'?t.translationCredit:t.translator}</dt><dd>{e.credits.translator}</dd></>}
@@ -103,12 +109,21 @@ const structuredData=published?{
   {parallel?<article id="parallel-text" class="parallel-reader" lang={e.language} aria-label={title}>
     <div class="parallel-heading"><h2>{languageNames[parallel.source.language]??parallel.source.language} · {t.original}</h2><h2>{languageNames[e.language]??e.language} · {badge}</h2></div>
     {parallel.rows.map(row=><div class="parallel-row">
-      <section class="parallel-cell" data-source-cell={parallel.source.id} aria-label={languageNames[parallel.source.language]??parallel.source.language}><p class="language-label">{languageNames[parallel.source.language]??parallel.source.language}</p>{row.source.map(([id,text])=><Passage id={id} anchorId={'source-'+id} permalink={pagePath(lang,'read',w.id,parallel.source.id)+'#'+id} text={text} language={parallel.source.language} locale={lang} workId={w.id} editionId={parallel.source.id} track={false}/>)}</section>
-      <section class="parallel-cell" data-target-cell={e.id} aria-label={languageNames[e.language]??e.language}><p class="language-label">{languageNames[e.language]??e.language}</p>{row.target.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</section>
+      <section class="parallel-cell" data-source-cell={parallel.source.id}><p class="language-label">{languageNames[parallel.source.language]??parallel.source.language}</p>{row.source.map(([id,text])=><Passage id={id} anchorId={'source-'+id} permalink={pagePath(lang,'read',w.id,parallel.source.id)+'#'+id} text={text} language={parallel.source.language} locale={lang} workId={w.id} editionId={parallel.source.id} track={false}/>)}</section>
+      <section class="parallel-cell" data-target-cell={e.id}><p class="language-label">{languageNames[e.language]??e.language}</p>{row.target.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</section>
     </div>)}
   </article>:<article class="reader" lang={e.language} aria-label={title}>{passages.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</article>}
   {published&&<div class="reader-feedback"><a href={feedback}>{t.readerFeedback} <span aria-hidden="true">↗</span></a></div>}
-  {published&&<nav class="next-works" aria-label={t.works}>{previous&&previousEdition?<a href={pagePath(lang,'read',previous.id,previousEdition.id)}><span>{t.previous}</span><span class="navigation-title" data-navigation-title={previousEdition.id} lang={previousEdition.title?previousEdition.language:previous.original_language}>{editionTitle(previous,previousEdition)}</span></a>:<a href={pagePath(lang)}>{t.back}</a>}{next&&nextEdition&&<a href={pagePath(lang,'read',next.id,nextEdition.id)}><span>{t.next}</span><span class="navigation-title" data-navigation-title={nextEdition.id} lang={nextEdition.title?nextEdition.language:next.original_language}>{editionTitle(next,nextEdition)}</span></a>}</nav>}
+  {published&&<nav class="next-works" aria-label={t.works} data-reading-language={e.language}>
+    {previous&&previousEdition?<a href={pagePath(lang,'read',previous.id,previousEdition.id)} data-navigation-direction="previous" data-navigation-edition={previousEdition.id} data-navigation-language={previousEdition.language}>
+      <span>{t.previous}</span>
+      <div class="navigation-destination"><span class="navigation-title" data-navigation-title={previousEdition.id} lang={previousEdition.title?previousEdition.language:previous.original_language}>{editionTitle(previous,previousEdition)}</span>{' · '}<span class="navigation-language" data-navigation-language-label={previousEdition.language} lang={previousEdition.language}>{languageNames[previousEdition.language]??previousEdition.language}</span></div>
+    </a>:<a href={pagePath(lang)}>{t.back}</a>}
+    {next&&nextEdition&&<a href={pagePath(lang,'read',next.id,nextEdition.id)} data-navigation-direction="next" data-navigation-edition={nextEdition.id} data-navigation-language={nextEdition.language}>
+      <span>{t.next}</span>
+      <div class="navigation-destination"><span class="navigation-title" data-navigation-title={nextEdition.id} lang={nextEdition.title?nextEdition.language:next.original_language}>{editionTitle(next,nextEdition)}</span>{' · '}<span class="navigation-language" data-navigation-language-label={nextEdition.language} lang={nextEdition.language}>{languageNames[nextEdition.language]??nextEdition.language}</span></div>
+    </a>}
+  </nav>}
 </div>
 <script>import '../../../../scripts/reading-progress';</script>
 </Base>
@@ -116,5 +131,7 @@ const structuredData=published?{
   .reader-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;margin:14px 0 24px}
   .reader-actions .button{margin-top:0;font-size:.9rem}
   .reader-actions [download]{display:inline-flex;align-items:center;min-height:44px;font-size:.85rem}
+  .next-works .navigation-destination{font:inherit;color:inherit}
+  .next-works .navigation-destination>span{display:inline}
   @media print{.reader-actions{display:none}}
 </style>

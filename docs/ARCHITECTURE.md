@@ -40,6 +40,12 @@ CI checks metadata and declarations; it cannot establish literary truth, copyrig
 
 ## Publication exports and preservation
 
+`src/lib/site.json` supplies the publication origin and base path to Astro and the
+portable generator. Portable URLs use the existing canonical reader-path policy,
+including the fallback interface for text languages without a matching interface.
+Reading-next/previous selection instead follows the current text language and
+shows the actual destination language when an original-source fallback is needed.
+
 Build-time exports generate JSON, TXT, TSV and EPUB only for eligible published editions and clear the generated directory first. The separate editorial archive retains labelled drafts, review packets, evidence, schemas, rights and governance. SHA-256 inventories and deterministic ZIP output support fixity; Python 3 restores published HTML/TXT without the original application or network.
 
 [ADR-0008](adr/0008-portable-publications-and-offline-restoration.md) and [Preservation](PRESERVATION.md) describe the executable drill. Independent custody remains a governance task. The current 30-day GitHub artifact is not a mirror. Scale the corpus according to demonstrated reader value and the capacity to detect, correct and reassess errors; mandatory human review capacity is no longer a release prerequisite.

@@ -7,6 +7,7 @@ import json
 import re
 import sys
 from pathlib import Path, PurePosixPath
+from urllib.parse import urlsplit
 
 def fail(message):
     raise ValueError(message)
@@ -34,6 +35,31 @@ def edition_title(work, edition):
     """Older archives may predate per-edition titles; retain their original title."""
     title = edition.get("title")
     return work["title"] if title is None else title
+
+def archived_reader_links(root, edition, source):
+    """Reuse recorded publication URLs; older archives can restore without them."""
+    name = "exports/" + edition["id"] + ".json"
+    if not safe_path(root, name).exists():
+        return "", ""
+    bundle = load(root, name)
+    if bundle.get("edition", {}).get("id") != edition["id"]:
+        fail("Portable edition identity differs from the canonical corpus")
+    source_record = bundle.get("source", {})
+    if source_record and source_record.get("edition_id") != source["id"]:
+        fail("Portable source identity differs from the canonical corpus")
+
+    def checked(value):
+        if not value:
+            return ""
+        if not isinstance(value, str):
+            fail("Invalid archived reader URL")
+        parsed = urlsplit(value)
+        if (parsed.scheme != "https" or not parsed.netloc or parsed.username or parsed.password
+                or parsed.query or parsed.fragment or any(ord(char) < 33 for char in value)):
+            fail("Invalid archived reader URL")
+        return value
+
+    return checked(bundle.get("canonical_url")), checked(source_record.get("canonical_url"))
 
 def verify(root):
     manifest_path = safe_path(root, "manifest.json")
@@ -78,6 +104,7 @@ def restore(root, output):
     edition_output.mkdir()
     works = {w["id"]: w for w in load(root, "corpus/catalog/works.json")}
     editions = load(root, "corpus/catalog/editions.json")
+    by_id = {edition["id"]: edition for edition in editions}
     links = []
     count = 0
     for edition in editions:
@@ -90,6 +117,12 @@ def restore(root, output):
         for identifier in (edition["id"], work["id"]):
             if not re.fullmatch(r"[a-z][a-z0-9-]+", identifier):
                 fail("Unsafe canonical identifier")
+        source = edition if edition["kind"] == "source" else by_id.get(edition.get("source_edition_id"))
+        if (not source or source["kind"] != "source" or source["work_id"] != work["id"]
+                or source["status"] != "published"):
+            fail("Published edition lacks its exact published source: " + edition["id"])
+        canonical_url, source_url = archived_reader_links(root, edition, source)
+        source_provenance = source["provenance"]
         structure = load(root, "corpus/structure/" + work["id"] + ".json")
         segments = load(root, edition["content_path"])
         ids = structure["segment_ids"]
@@ -103,7 +136,13 @@ def restore(root, output):
         paragraphs = "\n".join('<p id="' + esc(k, quote=True) + '"><a href="#' + esc(k, quote=True) + '">§</a> ' + esc(segments[k]) + "</p>" for k in ids)
         notice = (
             "Original title: " + work["title"] + "\n" + edition["label"] + "\nPublication: " + edition["status"] + "; " + edition["review"]["status"] +
-            "\nSource: " + edition["provenance"]["citation"] +
+            ("\nCanonical URL: " + canonical_url if canonical_url else "") +
+            "\nSource edition: " + source["id"] +
+            ("\nSource edition URL: " + source_url if source_url else "") +
+            "\nSource: " + source_provenance["citation"] +
+            "\nSource witness URL: " + (source_provenance.get("text_url") or "") +
+            "\nSource catalog URL: " + (source_provenance.get("catalog_url") or "") +
+            ("\nEdition provenance: " + edition["provenance"]["citation"] if edition["kind"] == "translation" else "") +
             "\nTranslator: " + (edition["credits"]["translator"] or "not applicable") +
             "\nEditors: " + ", ".join(edition["credits"]["editors"]) +
             "\nReviewers: " + ", ".join(edition["review"]["reviewers"]) +
@@ -114,13 +153,17 @@ def restore(root, output):
             "\nRights assessment: " + edition["rights"]["basis"] +
             "\nChecksums establish consistency with this archive, not authenticity or legal authority."
         )
+        title_line = "Original title: " + work["title"] + "\n"
+        label_language = edition["language"] if edition["kind"] == "translation" else "en"
+        notice_html = (esc(title_line) + '<span lang="' + esc(label_language, quote=True) + '">' +
+                       esc(edition["label"]) + '</span>' + esc(notice[len(title_line + edition["label"]):]))
         page = (
             '<!doctype html><html lang="' + esc(edition["language"], quote=True) + '"><head><meta charset="utf-8">' +
             '<meta name="viewport" content="width=device-width, initial-scale=1"><title>' + esc(title) +
             '</title><style>body{max-width:44em;margin:2em auto;padding:0 1em;font:1.25em/1.8 Georgia,serif;color:#222;background:#fff}' +
             'pre{white-space:pre-wrap;overflow-wrap:anywhere;font:0.8em/1.6 system-ui}a{color:#174d38}p:target{background:#fff3cd}</style></head>' +
-            '<body><nav><a href="../index.html">Library</a></nav><main><h1>' + esc(title) + '</h1><p>' + esc(work["author"]) +
-            '</p>' + ('<p lang="en">' + esc(ai_notice) + '</p>' if ai_notice else '') + paragraphs + '<h2>Edition and rights</h2><pre>' + esc(notice) + '</pre></main></body></html>\n'
+            '<body><nav lang="en"><a href="../index.html">Library</a></nav><main><h1>' + esc(title) + '</h1><p>' + esc(work["author"]) +
+            '</p>' + ('<p lang="en">' + esc(ai_notice) + '</p>' if ai_notice else '') + paragraphs + '<h2 lang="en">Edition and rights</h2><pre lang="en">' + notice_html + '</pre></main></body></html>\n'
         )
         (edition_output / (edition["id"] + ".html")).write_text(page, encoding="utf-8")
         text = title + "\n" + work["author"] + "\n" + notice + "\n\n" + "\n\n".join("[" + k + "]\n" + segments[k] for k in ids) + "\n"

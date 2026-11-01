@@ -165,6 +165,36 @@ for(const edition of published){
     const metadata=JSON.parse(jsonLD[1]);assert.equal(metadata.identifier,edition.id);assert.equal(metadata.inLanguage,edition.language);
     assert.equal(metadata.name,title,'Structured metadata must use the edition title');
     assert.equal(metadata.alternateName,edition.kind==='translation'&&title!==work.title?work.title:undefined,'Structured metadata must retain the original title when translated');
+    const citedSource=source??edition;
+    const sourceCitations=elements(raw,'span').filter(element=>element.attributes['data-provenance-source-citation']);
+    assert.equal(sourceCitations.length,1,'Provenance must identify one source bibliography');
+    assert.equal(sourceCitations[0].attributes['data-provenance-source-citation'],citedSource.id);
+    assert.equal(sourceCitations[0].text,citedSource.provenance.citation,'Source witness must not be replaced by a translation-process note');
+    for(const [marker,expected] of [['data-provenance-source-catalog',citedSource.provenance.catalog_url],['data-provenance-source-witness',citedSource.provenance.text_url]]){
+      const links=elements(raw,'a').filter(element=>element.attributes[marker]);
+      assert.deepEqual(links.map(link=>[link.attributes[marker],link.attributes.href]),expected?[[citedSource.id,expected]]:[]);
+    }
+    const creationRecords=elements(raw,'dd').filter(element=>element.attributes['data-edition-creation-record']);
+    assert.equal(creationRecords.length,edition.kind==='translation'?1:0);
+    if(creationRecords.length)assert.ok(creationRecords[0].text.includes(edition.provenance.citation),'Retain the edition creation record separately');
+    const position=visible.findIndex(item=>item.id===work.id);
+    const neighbors=[['previous',visible[position-1]],['next',visible[position+1]]].filter(([,item])=>item);
+    const navigationLinks=elements(raw,'a').filter(element=>element.attributes['data-navigation-direction']);
+    assert.equal(navigationLinks.length,neighbors.length);
+    for(const [direction,targetWork] of neighbors){
+      const target=preferredEdition(published.filter(item=>item.work_id===targetWork.id),edition.language,targetWork.original_language);
+      const link=navigationLinks.find(item=>item.attributes['data-navigation-direction']===direction);
+      assert.ok(link,'Missing neighboring work link');
+      assert.equal(link.attributes['data-navigation-edition'],target.id,'Reading-language selection must be independent of the interface language');
+      assert.equal(link.attributes['data-navigation-language'],target.language);
+      assert.equal(link.attributes.href,base+locale+'/read/'+targetWork.id+'/'+target.id+'/');
+      const label=elements(link.body,'span').find(item=>hasAttribute(item.rawAttributes,'data-navigation-language-label'));
+      assert.equal(label?.text,languageNames[target.language]??target.language,'Fallback text language must be visible');
+      assert.equal(label?.attributes.lang,target.language);
+    }
+    for(const cell of [...raw.matchAll(/<section\b([^>]*)>/g)].map(match=>attrs(match[1])).filter(item=>item['data-source-cell']||item['data-target-cell'])){
+      assert.equal(cell['aria-label'],undefined,'Paragraph cells must not create repeated language-named landmarks');
+    }
     for(const navigation of elements(raw,'span').filter(element=>element.attributes['data-navigation-title'])){
       const target=published.find(item=>item.id===navigation.attributes['data-navigation-title']);assert.ok(target,'Navigation must select a published edition');
       const targetWork=works.find(item=>item.id===target.work_id);
