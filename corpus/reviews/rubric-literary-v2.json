@@ -1,0 +1,95 @@
+{
+  "id": "litmundi-literary-v2",
+  "version": "2.0.0",
+  "effective_date": "2026-11-01",
+  "title": "LitMundi AI-First Literary Publication Rubric",
+  "attribution": "LitMundi project rubric informed by MQM terminology; AI scores are evaluative judgments, not official MQM scores, human reviews or calibrated measurements.",
+  "framework_links": [
+    "https://www.themqm.org/mqm-pillars/typology/",
+    "https://www.themqm.org/mqm-pillars/the-mqm-scoring-models/"
+  ],
+  "score_range": [
+    0,
+    10
+  ],
+  "criteria": [
+    {
+      "id": "semantic_fidelity",
+      "weight": 35,
+      "title": "Semantic fidelity and completeness",
+      "description": "Represent all propositions and purposeful ambiguity in the exact source edition. No invented, omitted, inverted or flattened meaning."
+    },
+    {
+      "id": "literary_voice",
+      "weight": 25,
+      "title": "Voice, rhythm and register",
+      "description": "Preserve the author's tone, cadence, rhetorical repetition, sentence structure where meaningful, and historical/literary register."
+    },
+    {
+      "id": "target_naturalness",
+      "weight": 15,
+      "title": "Literary naturalness in the target language",
+      "description": "Idiomatic, legible literary prose rather than mechanical calques. Evaluate aloud and without viewing the source."
+    },
+    {
+      "id": "imagery_consistency",
+      "weight": 15,
+      "title": "Imagery, terminology and consistency",
+      "description": "Retain metaphors, symbolic contrasts, names, recurring formulas, intentional capitalization and culturally situated images."
+    },
+    {
+      "id": "editorial_mechanics",
+      "weight": 10,
+      "title": "Grammar, orthography and typographic care",
+      "description": "Correct target-language grammar, accents, punctuation, coherent typography and stable formatting."
+    }
+  ],
+  "anchors": [
+    {
+      "min": 8.6,
+      "max": 10,
+      "label": "Eligible for AI-reviewed release",
+      "description": "Meets the project numerical threshold; requires complete current evidence, lawful reuse and no unresolved major/critical findings. Reader feedback may reveal further defects."
+    },
+    {
+      "min": 8,
+      "max": 8.59,
+      "label": "Draft below release threshold",
+      "description": "Further substantive revision and honest reassessment are needed. Do not round a below-threshold score up to 8.6."
+    },
+    {
+      "min": 7,
+      "max": 7.99,
+      "label": "Needs substantive revision",
+      "description": "Material accuracy, voice or target-language weaknesses remain."
+    },
+    {
+      "min": 0,
+      "max": 6.99,
+      "label": "Not acceptable for publication",
+      "description": "Significant inadequacy, incompleteness or misleading rendering."
+    }
+  ],
+  "release_gate": {
+    "min_score_each_reviewer": 8.6,
+    "min_ai_reviews": 1,
+    "min_independent_human_reviewers": 0,
+    "require_human_review": false,
+    "coverage_percent": 100,
+    "block_on_open_severities": [
+      "major",
+      "critical"
+    ],
+    "require_source_target_digest_match": true,
+    "require_legal_clearance": true,
+    "require_written_open_license": true,
+    "require_review_evidence": true,
+    "require_editorial_approval": false
+  },
+  "issue_severity": {
+    "minor": "Limited local harm to accuracy, style, fluency or consistency.",
+    "major": "Material distortion, omission, misleading literary image, repeated unnatural phrasing or loss of a key formal effect.",
+    "critical": "Unusable/incomplete work, fabricated content, unlicensed material, falsified review, or pervasive meaning change."
+  },
+  "reviewer_instructions": "Assess every canonical passage against the exact original source. Identify material errors and reasonable alternatives before assigning the five scores. Disclose AI model, method and limitations. Use half-point category judgments and the original weights; the weighted score must be >=8.6 without upward threshold rounding. Bind the review to the final source/target hashes. Do not increase scores to obtain publication. A current unresolved major or critical finding blocks release. Human review is optional after publication; never label an AI assessment as a human endorsement."
+}

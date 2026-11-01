@@ -30,6 +30,7 @@ body:
   - type: textarea
     id: audience
     attributes:
-      label: Reader demand and human review capacity
+      label: Reader need and a practical first test
+      description: Identify intended readers, existing alternatives and a small way to test interest. Human reviewers may volunteer later; they are not a publication prerequisite.
     validations:
       required: true

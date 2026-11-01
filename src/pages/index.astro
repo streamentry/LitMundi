@@ -1,14 +1,16 @@
 ---
 import Base from '../layouts/Base.astro';
 import {pagePath} from '../lib/urls';
-const languages=[['en','English'],['vi','Tiếng Việt'],['fr','Français'],['es','Español']];
+import {localeNames} from '../lib/i18n';
+const languages=Object.entries(localeNames);
 ---
 <Base lang="en" title="LitMundi" noindex={true} canonicalPath={pagePath('en')}>
   <div class="container"><section class="hero"><p class="eyebrow">LitMundi</p><h1>Great literature.<br/>Every language.</h1><nav class="tools" aria-label="Choose an interface language">{languages.map(([code,name])=><a class="button" lang={code} href={pagePath(code)}>{name}</a>)}</nav></section></div>
   <script>
     import {pagePath} from '../lib/urls';
+    import localeNames from '../lib/locales.json';
     const preferred=(navigator.languages||[navigator.language]).map(language=>language.split('-')[0]);
-    const locale=preferred.find(language=>['en','vi','fr','es'].includes(language))||'en';
+    const locale=preferred.find(language=>Object.hasOwn(localeNames,language))||'en';
     location.replace(pagePath(locale));
   </script>
 </Base>

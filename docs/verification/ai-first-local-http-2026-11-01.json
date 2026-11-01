@@ -1,0 +1,989 @@
+{
+  "checked_at_utc": "2026-11-01T03:08:43.398845+00:00",
+  "base_url": "http://127.0.0.1:4321/LitMundi/",
+  "canonical_base_url": "https://streamentry.github.io/LitMundi/",
+  "status": "passed",
+  "checks": 106,
+  "interface_locales": [
+    "en",
+    "vi",
+    "fr",
+    "es"
+  ],
+  "public_works": [
+    "machado-um-apologo",
+    "pardo-bazan-el-encaje-roto",
+    "wilde-the-artist"
+  ],
+  "published_editions": [
+    "wilde-artist-en-methuen-1913",
+    "wilde-artist-vi-ai-draft-2026",
+    "machado-apologo-pt-laemmert-1896",
+    "machado-apologo-vi-ai-draft-2026",
+    "pardo-encaje-es-administracion-c1898"
+  ],
+  "ai_reviewed_editions": [
+    "wilde-artist-vi-ai-draft-2026",
+    "machado-apologo-vi-ai-draft-2026"
+  ],
+  "limitations": [
+    "Read-only HTTP/content verification; no human literary review or real reader-demand measurement.",
+    "Correction links are checked without submitting issues or impersonating readers."
+  ],
+  "results": [
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 10352,
+      "sha256": "a2be3a0bdfe8cf19c65ff9d485476755ce5b205b85feaf62094418c344cfe4b5",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/quality/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 6287,
+      "sha256": "00d52e356a5cf15810efb246d19228a4a68978c797d2a1e0604fcccbc017560d",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/works/machado-um-apologo/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5233,
+      "sha256": "acb2c85c3bb5d04294f1fa3ac324bbbd629f0fb3bb907b76af514973b1a454bb",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/works/pardo-bazan-el-encaje-roto/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5767,
+      "sha256": "e3f4f6d016b415499ea97663f9b389b0e9ceee718d5d4cb4114a8c69c6468e9e",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/works/wilde-the-artist/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5034,
+      "sha256": "4161c1e8344d88df6704420d9689ebec16336d6f767991ad55f5182eb5de1bf0",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 18955,
+      "sha256": "b3a3d42b7da7bd20939739cd8b36aaf469deba2bf4c99f5742aa9ebbf750e435",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 27847,
+      "sha256": "05900f15e8d26b0e396a9054c280155706da5630b2c98b84a208052e5454394e",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 41152,
+      "sha256": "3b457c84a2fe51acea03f834f7ef580b7b81d85c75a3708d63838b2ab8a8ccf7",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 74101,
+      "sha256": "36d583395cbcfc2f2bff7b158970a1e2521725159e9aa5fff7eaf7dfd527a2d0",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 41208,
+      "sha256": "f4fb603515b80c64714bb53845c19fe86d26f3affce847b44bcc9056588977b3",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/wilde-the-artist/wilde-artist-vi-community-proposed/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/demo-proust/proust-swann-vi-planned/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/demo-proust/proust-swann-en-planned/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/demo-proust/proust-swann-fr-sample/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 8893,
+      "sha256": "80cdbc714de4965cfe272029a35e4501d76a2ed6976456f498b06030cb06dfa3",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/en/read/demo-proust/fr/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 9045,
+      "sha256": "7178d2f45149df593927b29d5b62f6a99f9384a045777d01e76a5a41dfa667b4",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 11052,
+      "sha256": "4cef5e82b4200929097f828a5435f2517829d83e42a180ba6d34298fb7771ea8",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/quality/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 7145,
+      "sha256": "b9a359a0a15c8352d812e6182e2cd9bc05e28d1ea0c98b24627e2105bbbad376",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/works/machado-um-apologo/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5257,
+      "sha256": "5906be808d20e4fe6d43b1adec910291edfcbeda5866be61efa71c56f4062844",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/works/pardo-bazan-el-encaje-roto/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 6012,
+      "sha256": "f2ea0422a0d0676eed0aae213b6a02e0195aedd6ca58f870939ff1437b513202",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/works/wilde-the-artist/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5199,
+      "sha256": "08e22c9ed6cf7e0f3858de9682a1661e4914958fd4cb31ee9491b88a704ff5ca",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 19361,
+      "sha256": "f1817a92d487fd616ad79a5a7a58959b507a188b1f11faf57402b1bb2344a35f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 28464,
+      "sha256": "2413c40cbd7ef433c922d262e3f9d068d2b0e7abd9f7c293bb81b5c224bece42",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 41824,
+      "sha256": "10547b467b6752bde51ba3bb0b07ab144493ee5b4ac25cacaad84279c6ec4b64",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 75239,
+      "sha256": "e168c1dd12cc1a147143a32aab14a59bd43be8a5b681d35726511c0ea9aefebf",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 41765,
+      "sha256": "6a1f9a7dd5d3bc1c42ce4efdfb7d90ae9ffbfdd3cb726dbac422423c9dd46d04",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/wilde-the-artist/wilde-artist-vi-community-proposed/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/demo-proust/proust-swann-vi-planned/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/demo-proust/proust-swann-en-planned/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/demo-proust/proust-swann-fr-sample/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 9152,
+      "sha256": "3a11cd7d0618b1ec7b62bb232187b7a6a4d0cbdcb1c15ef18db170e3f61b7bbb",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/vi/read/demo-proust/fr/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 9318,
+      "sha256": "6a3f97c6639d2f06a10e7c82ce91b0dd03b333dacab5b3b7c8cc69a63153cef2",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 10650,
+      "sha256": "bcd2ed677bc96b1333456d9d47e3460d2596da0a3e85ef78d530d03aed85ccdb",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/quality/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 6676,
+      "sha256": "5c53646423a11afa0c62f4e6a9a14ef7ce3afccea72f7e05e9272714f8be5d21",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/works/machado-um-apologo/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5322,
+      "sha256": "bffb8aa120cf1e763f3ad38b16f1abf01a83b08cfc62845df6f73feecb461d17",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/works/pardo-bazan-el-encaje-roto/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5884,
+      "sha256": "69679c6bb50b3b88ec7f594611e851b5143c7564971a8d472157f804f6c00f72",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/works/wilde-the-artist/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5260,
+      "sha256": "e91f3b2d651c936f9ddc132eee584a0b1111b586465ded56298f42df6bd6b093",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 19184,
+      "sha256": "d7bacbd663136487b3d932cf7760e5130ded7b97754e81968167f0b9eefa9453",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 28207,
+      "sha256": "caff27cdec266a972c9707331bcc36afcbc63351bd562489949b6a073bcabc0a",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 41569,
+      "sha256": "d8fead7da9a7a673a6c39d46b6d0fb45a0b1ef14afef9887aee2b867004daf6b",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 74836,
+      "sha256": "3838804587c6a48fd252ad4985ca76767d31acf3d1aee050de0dbcd309ffbd7b",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 41542,
+      "sha256": "ad4ef646cc70c31d2ca65d6d7b4bda8b1f6d8161597d8b205faf39d7e93716cd",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/wilde-the-artist/wilde-artist-vi-community-proposed/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/demo-proust/proust-swann-vi-planned/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/demo-proust/proust-swann-en-planned/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/demo-proust/proust-swann-fr-sample/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 9001,
+      "sha256": "24b3557bac32964bf1aea6629bd480cb5de60fcb0a8316744f6a072e1c2b9ad9",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/fr/read/demo-proust/fr/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 9167,
+      "sha256": "6247a108467a18ef366a02eca293ebf88e7598203e71f3a7006a55a8c8d523ea",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 10466,
+      "sha256": "18d41b0752870be64cfaa6be0cef4cefaeca916a58409064880126012cecdb95",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/quality/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 6527,
+      "sha256": "aa003458d1cc991fd6a481f2626cd96ead1b144e8a5966af75b1e2c01e898b5b",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/works/machado-um-apologo/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5295,
+      "sha256": "57a613ed7e4bdd5fab7f683003a1050387d0f33d71806eca9da76e01a0efd544",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/works/pardo-bazan-el-encaje-roto/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5710,
+      "sha256": "b481147aecd81108949c075b087a765b0fb9b5f307e0dbb9f2dc9dfa1b2bd5b1",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/works/wilde-the-artist/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5233,
+      "sha256": "3ce28141aec2c43457233f7855c7bcb7e29a2125ad3f40565d6ada4e7307d944",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 19110,
+      "sha256": "39ee48e4feb550c7d01b1bf2040c995efdc34207c7ad2a5da3a2eb57bb0d7909",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 28120,
+      "sha256": "59f17b99b447d274b6373e99df2f1c0b350397ba277d763521b54b20fa462165",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 41422,
+      "sha256": "8879c7526d0705494a6085bb1367f397d35698d70e7eee140ec33c9413d4b01f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 74625,
+      "sha256": "41d023a9a4608c0ae84149d9a07f34773d3bcaba345f11ed30d5fd4cf723b951",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 41424,
+      "sha256": "05864b3bd47a5dd1eee2413702a75701d7a825abc5405de22601d13e72c91948",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/wilde-the-artist/wilde-artist-vi-community-proposed/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/demo-proust/proust-swann-vi-planned/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/demo-proust/proust-swann-en-planned/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/demo-proust/proust-swann-fr-sample/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 8983,
+      "sha256": "7adf06c48f426a0276d511817ef1ce67ed2324baaf4c10e5543841fe9c4672b1",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/es/read/demo-proust/fr/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 9145,
+      "sha256": "508e76dfddece361ffac41b5584b3a09df59450b8e1173ffbf5d54819c0fda12",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-en-methuen-1913.json",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5174,
+      "sha256": "66d1ef88a1b27e7c83bbee8370e870165b2c3cde8dfb3da0de6daf4d0f4ee0e0",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-en-methuen-1913.txt",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 2419,
+      "sha256": "3c912ec2f306833c19a8bbf0fd8c213c9fa7a32ba6f46df383b376aecc6c1e16",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-en-methuen-1913.epub",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 3739,
+      "sha256": "57ba6e8fdae9d7ab6f3d16978b48f42a922898d6e63cb29c2d1e41041e7a7178",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-en-methuen-1913.tsv",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5612,
+      "sha256": "c3ae59d766ccc444e11898b5696282e192dba180d82861719092d2bf07d858d0",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-vi-ai-draft-2026.json",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 6499,
+      "sha256": "62475c30004a59146fb07cb45584bdc29625132c2161e1f656ac4133ffc62898",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-vi-ai-draft-2026.txt",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 2893,
+      "sha256": "6d4948222973a651b144861fabfa21d1e676ace2575630c3c3bb736a9f6becc3",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-vi-ai-draft-2026.epub",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 4123,
+      "sha256": "185e6be01fc972802b3f8c91a13db4b62de4e3748f53ba02aa1c3b137b91e4d8",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-vi-ai-draft-2026.tsv",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 6640,
+      "sha256": "2c733520cc7b5559039d56dfeb99f52cc682129e8a22ae63e68327e88dfd93bb",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/machado-apologo-pt-laemmert-1896.json",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 9991,
+      "sha256": "d19b36c709fa19abe4f0d7d9ce6c9c6ebbc37c76dfe085ff2f63034e86c961e1",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/machado-apologo-pt-laemmert-1896.txt",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5982,
+      "sha256": "0b740dab65fc17b909f35ef63544e017187346e95efc65d3fd47014b4e6d6b99",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/machado-apologo-pt-laemmert-1896.epub",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5634,
+      "sha256": "b3eee83dffaca919af3480477f6b13a61ecaf020096795f09ca07b8b40c86f81",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/machado-apologo-pt-laemmert-1896.tsv",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 33909,
+      "sha256": "e2a2c879ae0ffce15c00ac361731ed79628aed740469fd399029bb9263005f60",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/machado-apologo-vi-ai-draft-2026.json",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 11408,
+      "sha256": "e595e6823a41ffef0377e4c7ba2e65f45bc280da2d69b2bca9eac7513c28ac20",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/machado-apologo-vi-ai-draft-2026.txt",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 6673,
+      "sha256": "711d5e0ab6b531d782e58659fcb14a874c440db2990237a3d6c1f1e1edb1fa53",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/machado-apologo-vi-ai-draft-2026.epub",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 5771,
+      "sha256": "40e6f385bf1ed9ec93e054e21b92d233a7f86ae2b793823e079419de6b2fe156",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/machado-apologo-vi-ai-draft-2026.tsv",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 28672,
+      "sha256": "a161af849ea5c4517f135b03d02b54835f88e3e87ff516653c03f4fabe99a343",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/pardo-encaje-es-administracion-c1898.json",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 15851,
+      "sha256": "990e96cb2c1408581f3bb7cedddd7e75ac68dfcb0f61380a8aaa9d6b7a712c83",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/pardo-encaje-es-administracion-c1898.txt",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 11749,
+      "sha256": "3a702ae01debe4b46dfa75c3f478831d7613ee64ee53f5e5bea6ccfffda30780",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/pardo-encaje-es-administracion-c1898.epub",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 8742,
+      "sha256": "c5d36fa28423f51d4b609608ffc1dad3f4428d3c1055a9e0ac0192601ced3fd5",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/pardo-encaje-es-administracion-c1898.tsv",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 32419,
+      "sha256": "28fbace74866e1aea65f8e691bf80645a09f95d5b3e8727de79439a5716a6d86",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-vi-community-proposed.json",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-vi-community-proposed.txt",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-vi-community-proposed.epub",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/wilde-artist-vi-community-proposed.tsv",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/proust-swann-vi-planned.json",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/proust-swann-vi-planned.txt",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/proust-swann-vi-planned.epub",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/proust-swann-vi-planned.tsv",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/proust-swann-en-planned.json",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/proust-swann-en-planned.txt",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/proust-swann-en-planned.epub",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/proust-swann-en-planned.tsv",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/pardo-encaje-vi-ai-draft-2026.json",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/pardo-encaje-vi-ai-draft-2026.txt",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/pardo-encaje-vi-ai-draft-2026.epub",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/pardo-encaje-vi-ai-draft-2026.tsv",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 3690,
+      "sha256": "b9bfa9d48e82b661ddf06a1874f76a8deb1c58a5c19fbbb521f12c98b41ec572",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/sitemap.xml",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 30633,
+      "sha256": "cbb480beeb10e1c8832689b72e82f855b39992c1190ed33fc9605fc5301b437b",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/robots.txt",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 83,
+      "sha256": "c21c037156153f09987d149b7cb7324dc99fa0454ce37cc05dd7f03daf4cbca3",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/search-index.json",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 23015,
+      "sha256": "a86e5e92b6f53c974aa98e3d134f82af06b7f74bbfc77e7bcce5959d30118859",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/downloads/manifest.json",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 3488,
+      "sha256": "b512144bd2735e945e52ccd23a146b879fd0ffef53b609842e632d5f2f44e7e5",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/LitMundi/this-route-must-not-exist/",
+      "status": 404,
+      "expected_status": 404,
+      "bytes": 659,
+      "sha256": "169cfa5cd8bdb98fda7963195b8697e024a92014ef24e739c361b7b10139a61f",
+      "passed": true,
+      "problems": []
+    }
+  ]
+}

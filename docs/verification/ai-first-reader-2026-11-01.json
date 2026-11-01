@@ -1,0 +1,461 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-01T03:08:42.009Z",
+  "base_url": "http://127.0.0.1:4321/LitMundi/",
+  "scope": "Browser acceptance against the supplied base URL; no human literary review or reader-demand claim.",
+  "versions": {
+    "node": "v24.22.1",
+    "playwright": "1.56.1",
+    "axePlaywright": "4.10.2",
+    "chromium": "141.0.7390.37"
+  },
+  "interface_locales": [
+    "en",
+    "vi",
+    "fr",
+    "es"
+  ],
+  "public_works": [
+    "wilde-the-artist",
+    "machado-um-apologo",
+    "pardo-bazan-el-encaje-roto"
+  ],
+  "accessibility": [
+    {
+      "route": "en/",
+      "violations": []
+    },
+    {
+      "route": "en/quality/",
+      "violations": []
+    },
+    {
+      "route": "en/works/wilde-the-artist/",
+      "violations": []
+    },
+    {
+      "route": "en/works/machado-um-apologo/",
+      "violations": []
+    },
+    {
+      "route": "en/works/pardo-bazan-el-encaje-roto/",
+      "violations": []
+    },
+    {
+      "route": "en/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "violations": []
+    },
+    {
+      "route": "en/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "violations": []
+    },
+    {
+      "route": "en/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "violations": []
+    },
+    {
+      "route": "en/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "violations": []
+    },
+    {
+      "route": "en/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "violations": []
+    },
+    {
+      "route": "vi/",
+      "violations": []
+    },
+    {
+      "route": "vi/quality/",
+      "violations": []
+    },
+    {
+      "route": "vi/works/wilde-the-artist/",
+      "violations": []
+    },
+    {
+      "route": "vi/works/machado-um-apologo/",
+      "violations": []
+    },
+    {
+      "route": "vi/works/pardo-bazan-el-encaje-roto/",
+      "violations": []
+    },
+    {
+      "route": "vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "violations": []
+    },
+    {
+      "route": "vi/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "violations": []
+    },
+    {
+      "route": "vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "violations": []
+    },
+    {
+      "route": "vi/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "violations": []
+    },
+    {
+      "route": "vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "violations": []
+    },
+    {
+      "route": "fr/",
+      "violations": []
+    },
+    {
+      "route": "fr/quality/",
+      "violations": []
+    },
+    {
+      "route": "fr/works/wilde-the-artist/",
+      "violations": []
+    },
+    {
+      "route": "fr/works/machado-um-apologo/",
+      "violations": []
+    },
+    {
+      "route": "fr/works/pardo-bazan-el-encaje-roto/",
+      "violations": []
+    },
+    {
+      "route": "fr/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "violations": []
+    },
+    {
+      "route": "fr/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "violations": []
+    },
+    {
+      "route": "fr/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "violations": []
+    },
+    {
+      "route": "fr/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "violations": []
+    },
+    {
+      "route": "fr/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "violations": []
+    },
+    {
+      "route": "es/",
+      "violations": []
+    },
+    {
+      "route": "es/quality/",
+      "violations": []
+    },
+    {
+      "route": "es/works/wilde-the-artist/",
+      "violations": []
+    },
+    {
+      "route": "es/works/machado-um-apologo/",
+      "violations": []
+    },
+    {
+      "route": "es/works/pardo-bazan-el-encaje-roto/",
+      "violations": []
+    },
+    {
+      "route": "es/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "violations": []
+    },
+    {
+      "route": "es/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "violations": []
+    },
+    {
+      "route": "es/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "violations": []
+    },
+    {
+      "route": "es/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "violations": []
+    },
+    {
+      "route": "es/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "violations": []
+    }
+  ],
+  "mobile": [
+    {
+      "route": "en/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "en/quality/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/quality/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "fr/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "fr/quality/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "es/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "es/quality/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "width_px": 390,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "en/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "en/quality/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/quality/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "fr/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "fr/quality/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "es/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "es/quality/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/wilde-the-artist/wilde-artist-en-methuen-1913/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/wilde-the-artist/wilde-artist-vi-ai-draft-2026/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/machado-um-apologo/machado-apologo-pt-laemmert-1896/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/machado-um-apologo/machado-apologo-vi-ai-draft-2026/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    },
+    {
+      "route": "vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-es-administracion-c1898/",
+      "width_px": 320,
+      "height_px": 844,
+      "horizontal_overflow": false
+    }
+  ],
+  "interactions": [
+    "Keyboard first-tab skip link targets main content.",
+    "Full-text search reaches every published edition, including available AI-reviewed translations, with language and author filters.",
+    "An absent query shows the explicit empty state.",
+    "Language filters count works rather than editions; incompatible author/language combinations show the empty state when present.",
+    "Changing UI language preserves edition and passage fragment.",
+    "Reading position storage is opt-in; save, resume and clear work.",
+    "Every published edition, real parallel reading, locale/edition navigation and JSON/TXT/EPUB links remain usable without JavaScript."
+  ],
+  "search_cases": [
+    {
+      "edition_id": "wilde-artist-en-methuen-1913",
+      "language": "en",
+      "query": "One evening there came into his",
+      "result_links": 1,
+      "review_category": "source"
+    },
+    {
+      "edition_id": "wilde-artist-vi-ai-draft-2026",
+      "language": "vi",
+      "query": "Một buổi tối trong tâm hồn",
+      "result_links": 1,
+      "review_category": "ai"
+    },
+    {
+      "edition_id": "machado-apologo-pt-laemmert-1896",
+      "language": "pt",
+      "query": "Era uma vez uma agulha que",
+      "result_links": 1,
+      "review_category": "source"
+    },
+    {
+      "edition_id": "machado-apologo-vi-ai-draft-2026",
+      "language": "vi",
+      "query": "Ngày xưa có một chiếc kim",
+      "result_links": 1,
+      "review_category": "ai"
+    },
+    {
+      "edition_id": "pardo-encaje-es-administracion-c1898",
+      "language": "es",
+      "query": "Convidada á la boda de Micaelita",
+      "result_links": 1,
+      "review_category": "source"
+    }
+  ],
+  "parallel_editions": [
+    {
+      "edition_id": "wilde-artist-vi-ai-draft-2026",
+      "source_edition_id": "wilde-artist-en-methuen-1913",
+      "review_category": "ai",
+      "alignment_rows": 5,
+      "source_passages": 5,
+      "target_passages": 5,
+      "desktop": "Recorded source/target pairs in two columns at 1440px",
+      "anchors": "Unique IDs; source and target correction links identify their own editions"
+    },
+    {
+      "edition_id": "machado-apologo-vi-ai-draft-2026",
+      "source_edition_id": "machado-apologo-pt-laemmert-1896",
+      "review_category": "ai",
+      "alignment_rows": 22,
+      "source_passages": 22,
+      "target_passages": 22,
+      "desktop": "Recorded source/target pairs in two columns at 1440px",
+      "anchors": "Unique IDs; source and target correction links identify their own editions"
+    }
+  ],
+  "parallel_fixture": null,
+  "content_hashes": [
+    {
+      "edition_id": "wilde-artist-en-methuen-1913",
+      "review_category": "source",
+      "sha256": "bd014887242c1b44ed98a4a9e1f8568494173d3fedb0ecf4fd9951c808fcf4ef"
+    },
+    {
+      "edition_id": "wilde-artist-vi-ai-draft-2026",
+      "review_category": "ai",
+      "sha256": "602d1533021aaf0fe2c3241a088a97b94a9e6147eefbf72dbe0c7d98b0da75fc"
+    },
+    {
+      "edition_id": "machado-apologo-pt-laemmert-1896",
+      "review_category": "source",
+      "sha256": "17b46a94ca47b08eb7c32af2f91c6d449d8e8dae07883e2b27f118e4ed58f5f6"
+    },
+    {
+      "edition_id": "machado-apologo-vi-ai-draft-2026",
+      "review_category": "ai",
+      "sha256": "c95028622ab56661daf9c9f845816008ad051c3aadd7523078025aabd3fa9de3"
+    },
+    {
+      "edition_id": "pardo-encaje-es-administracion-c1898",
+      "review_category": "source",
+      "sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e"
+    }
+  ],
+  "browser_exceptions": [],
+  "browser_https_errors_ignored": false,
+  "client_javascript": {
+    "external_files": 0,
+    "external_total_bytes": 0,
+    "home_inline": {
+      "blocks": 2,
+      "bytes": 2229,
+      "sum_gzip_bytes": 1169
+    },
+    "reader_inline": {
+      "blocks": 2,
+      "bytes": 1643,
+      "sum_gzip_bytes": 801
+    },
+    "note": "Script bytes come from local dist, not measured network transfer. Inline scripts are separate from external assets; JSON-LD is excluded. Search-index JSON loads only for a search. Gzip sums are estimates."
+  },
+  "limitations": [
+    "Automated axe checks and keyboard spot checks do not certify complete accessibility conformance.",
+    "These are software checks, not real reader feedback or a literary quality review.",
+    "Published parallel routes are checked against recorded alignment and exact corpus text; semantic translation fidelity requires a separate literary assessment."
+  ]
+}

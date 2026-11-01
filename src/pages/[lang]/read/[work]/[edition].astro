@@ -2,7 +2,7 @@
 import Base from '../../../../layouts/Base.astro';
 import Passage from '../../../../components/Passage.astro';
 import {strings,supported,type Locale} from '../../../../lib/i18n';
-import {catalog,languageNames,issueUrl,passagesFor,readableEditions,resolveEdition,parallelFor,publicWorks,bestEdition} from '../../../../lib/corpus';
+import {catalog,languageNames,issueUrl,passagesFor,readableEditions,resolveEdition,parallelFor,publicWorks,bestEdition,reviewCategory} from '../../../../lib/corpus';
 import {pagePath,assetPath} from '../../../../lib/urls';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.flatMap(w=>readableEditions(w.id).flatMap(e=>[e.id,...e.legacy_slugs].map(slug=>({params:{lang,work:w.id,edition:slug}})))));}
 const lang=Astro.params.lang as Locale,t=strings[lang];
@@ -11,10 +11,13 @@ const e=resolveEdition(w.id,Astro.params.edition!)!;
 const legacy=e.id!==Astro.params.edition,current=pagePath(lang,'read',w.id,e.id);
 const passages=passagesFor(e),parallel=parallelFor(e),reading=readableEditions(w.id);
 const published=e.status==='published'&&w.visibility==='public',noindex=!published||legacy;
+const category=reviewCategory(e);
+const notice=category==='ai'?t.aiNotice:category==='human'?t.humanNotice:category==='source'?t.sourceNotice:t.translationNotice;
+const badge=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewed:category==='source'?t.sourcePublished:t.translationPublished;
 const publicCatalog=publicWorks(),position=publicCatalog.findIndex(work=>work.id===w.id);
 const previous=position>0?publicCatalog[position-1]:null,next=position>=0?publicCatalog[position+1]:null;
 const feedback='https://github.com/streamentry/LitMundi/issues/new?'+new URLSearchParams({title:'Reading feedback: '+w.id,body:'## What I read\nWork: '+w.id+'\nEdition: '+e.id+'\n\n## Did you finish the work? Where did you stop?\n\n## What made reading easier or harder?\n\n## Would you return or recommend it? Why?\n\n## A specific improvement\n\nPlease do not include personal or sensitive information. This is a public GitHub issue.'}).toString();
-const structuredData=published?{'@context':'https://schema.org','@type':'CreativeWork',name:w.title,author:{'@type':'Person',name:w.author},inLanguage:e.language,url:new URL(current,Astro.site).href,identifier:e.id,isAccessibleForFree:true,description:w.description,version:e.label,isBasedOn:e.provenance.text_url??undefined,copyrightNotice:e.rights.basis,...(e.credits.translator?{translator:{'@type':'Person',name:e.credits.translator}}:{}),...(e.rights.license==='CC-BY-4.0'?{license:'https://creativecommons.org/licenses/by/4.0/'}:e.rights.license==='CC0-1.0'?{license:'https://creativecommons.org/publicdomain/zero/1.0/'}:{})}:undefined;
+const structuredData=published?{'@context':'https://schema.org','@type':'CreativeWork',name:w.title,author:{'@type':'Person',name:w.author},inLanguage:e.language,url:new URL(current,Astro.site).href,identifier:e.id,isAccessibleForFree:true,description:w.description,version:e.label,isBasedOn:e.provenance.text_url??undefined,copyrightNotice:e.rights.basis,creativeWorkStatus:category==='ai'?'AI-reviewed publication':category==='human'?'Human-reviewed publication':category==='source'?'Published source':'Published translation',...(e.credits.translator&&category==='human'?{translator:{'@type':'Person',name:e.credits.translator}}:{}),...(e.credits.translator?{creditText:'Translation: '+e.credits.translator}:{}),...(e.rights.license==='CC-BY-4.0'?{license:'https://creativecommons.org/licenses/by/4.0/'}:e.rights.license==='CC0-1.0'?{license:'https://creativecommons.org/publicdomain/zero/1.0/'}:{})}:undefined;
 ---
 <Base lang={lang} title={w.title+' — '+(languageNames[e.language]??e.language)} description={w.description} noindex={noindex} canonicalPath={current} structuredData={structuredData}>
 <div class="container"><section class="reader-head">
@@ -23,14 +26,16 @@ const structuredData=published?{'@context':'https://schema.org','@type':'Creativ
   <div class="tools"><a href={pagePath(lang,'works',w.id)}>← {t.all}</a><a href={issueUrl(w.id,e.id)}>{t.feedback} <span aria-hidden="true">↗</span></a></div>
   <details class="edition-picker"><summary>{t.edition}: {languageNames[e.language]??e.language}</summary><ul>{reading.map(other=><li><a href={pagePath(lang,'read',w.id,other.id)} aria-current={other.id===e.id?'page':undefined}>{languageNames[other.language]??other.language} · {other.label}</a></li>)}</ul></details>
   {legacy&&<p class="notice"><a href={current}>{t.legacy}</a></p>}
-  <div class="notice"><p><strong>{published?(e.kind==='source'?t.sourceNotice:t.translationNotice):t.sampleNotice}</strong></p>{e.provenance.text_url&&<p><a href={e.provenance.text_url}>{t.sourceWitness} <span aria-hidden="true">↗</span></a></p>}</div>
+  <div class="notice" data-review-category={category} data-publication-policy={e.publication_policy}><p><strong>{published?notice:t.sampleNotice}</strong></p>{published&&category==='ai'&&typeof e.review.score==='number'&&<p data-ai-score={e.review.score}>{t.aiScore}: <strong>{e.review.score.toLocaleString(lang,{minimumFractionDigits:1,maximumFractionDigits:2})}/10</strong>. {t.scoreContext}</p>}{e.provenance.text_url&&<p><a href={e.provenance.text_url}>{t.sourceWitness} <span aria-hidden="true">↗</span></a></p>}</div>
   <details class="metadata"><summary>{t.provenance}</summary><dl>
     <dt>{t.sourceWitness}</dt><dd lang="en">{e.provenance.citation}{e.provenance.catalog_url&&<p><a href={e.provenance.catalog_url}>{e.provenance.catalog_url}</a></p>}</dd>
     <dt>{t.editionId}</dt><dd><code>{e.id}</code></dd>
     <dt>{t.author}</dt><dd>{e.credits.author}</dd>
-    {e.credits.translator&&<><dt>{t.translator}</dt><dd>{e.credits.translator}</dd></>}
+    {e.credits.translator&&<><dt>{category==='ai'?t.translationCredit:t.translator}</dt><dd>{e.credits.translator}</dd></>}
     {e.credits.editors.length>0&&<><dt>{t.editors}</dt><dd>{e.credits.editors.join(', ')}</dd></>}
     {e.review.reviewers.length>0&&<><dt>{t.reviewers}</dt><dd>{e.review.reviewers.join(', ')}</dd></>}
+    {(e.review.ai_reviewers?.length??0)>0&&<><dt>{t.aiReviewers}</dt><dd>{e.review.ai_reviewers!.join(', ')}</dd></>}
+    {e.publication_policy&&<><dt>{t.publicationPolicy}</dt><dd><a href={pagePath(lang,'quality')}>{e.publication_policy}</a></dd></>}
     <dt>{t.review}</dt><dd><p lang="en">{e.review.notes}</p><ul>{e.review.evidence_urls.map(url=><li><a href={url}>{url}</a></li>)}</ul>{e.credits.ai_assisted&&<p>{t.aiAssisted}</p>}</dd>
     <dt>{t.license}</dt><dd lang="en">{e.rights.license??'No publication license granted.'}</dd>
     <dt>{t.rights}</dt><dd><p lang="en">{e.rights.basis}</p><ul>{e.rights.evidence_urls.map(url=><li><a href={url}>{url}</a></li>)}</ul></dd>
@@ -48,7 +53,7 @@ const structuredData=published?{'@context':'https://schema.org','@type':'Creativ
     {parallel&&<p class="muted">{t.compareHint}</p>}
   </div>
   {parallel?<article class="parallel-reader" aria-label={t.compare}>
-    <div class="parallel-heading"><h2>{languageNames[parallel.source.language]??parallel.source.language} · {t.original}</h2><h2>{languageNames[e.language]??e.language} · {t.translationPublished}</h2></div>
+    <div class="parallel-heading"><h2>{languageNames[parallel.source.language]??parallel.source.language} · {t.original}</h2><h2>{languageNames[e.language]??e.language} · {badge}</h2></div>
     {parallel.rows.map(row=><div class="parallel-row">
       <section class="parallel-cell" aria-label={languageNames[parallel.source.language]??parallel.source.language}><p class="language-label">{languageNames[parallel.source.language]??parallel.source.language}</p>{row.source.map(([id,text])=><Passage id={id} anchorId={'source-'+id} permalink={pagePath(lang,'read',w.id,parallel.source.id)+'#'+id} text={text} language={parallel.source.language} locale={lang} workId={w.id} editionId={parallel.source.id} track={false}/>)}</section>
       <section class="parallel-cell" aria-label={languageNames[e.language]??e.language}><p class="language-label">{languageNames[e.language]??e.language}</p>{row.target.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</section>

@@ -1,0 +1,76 @@
+{
+  "checked_at_utc": "2026-11-01T03:14:58.264687+00:00",
+  "tool": "EPUBCheck v5.4.0",
+  "java": "OpenJDK 17.0.20",
+  "source": {
+    "release_url": "https://github.com/w3c/epubcheck/releases/tag/v5.4.0",
+    "asset_url": "https://github.com/w3c/epubcheck/releases/download/v5.4.0/epubcheck-5.4.0.zip",
+    "bytes": 33093170,
+    "official_digest": "sha256:33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c",
+    "downloaded_sha256": "33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c"
+  },
+  "options": [
+    "--failonwarnings",
+    "--json"
+  ],
+  "execution_note": "-XX:-UsePerfData avoids sandbox JVM performance-counter memory conflicts; EPUB checks and severities are unchanged.",
+  "status": "passed",
+  "results": [
+    {
+      "edition_id": "wilde-artist-en-methuen-1913",
+      "path": "public/downloads/wilde-artist-en-methuen-1913.epub",
+      "sha256": "57ba6e8fdae9d7ab6f3d16978b48f42a922898d6e63cb29c2d1e41041e7a7178",
+      "bytes": 3739,
+      "exit_code": 0,
+      "stdout": "No errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed",
+      "stderr": "",
+      "report_path": "/tmp/litmundi-epubcheck/wilde-artist-en-methuen-1913.json",
+      "messages": []
+    },
+    {
+      "edition_id": "wilde-artist-vi-ai-draft-2026",
+      "path": "public/downloads/wilde-artist-vi-ai-draft-2026.epub",
+      "sha256": "185e6be01fc972802b3f8c91a13db4b62de4e3748f53ba02aa1c3b137b91e4d8",
+      "bytes": 4123,
+      "exit_code": 0,
+      "stdout": "No errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed",
+      "stderr": "",
+      "report_path": "/tmp/litmundi-epubcheck/wilde-artist-vi-ai-draft-2026.json",
+      "messages": []
+    },
+    {
+      "edition_id": "machado-apologo-pt-laemmert-1896",
+      "path": "public/downloads/machado-apologo-pt-laemmert-1896.epub",
+      "sha256": "b3eee83dffaca919af3480477f6b13a61ecaf020096795f09ca07b8b40c86f81",
+      "bytes": 5634,
+      "exit_code": 0,
+      "stdout": "No errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed",
+      "stderr": "",
+      "report_path": "/tmp/litmundi-epubcheck/machado-apologo-pt-laemmert-1896.json",
+      "messages": []
+    },
+    {
+      "edition_id": "machado-apologo-vi-ai-draft-2026",
+      "path": "public/downloads/machado-apologo-vi-ai-draft-2026.epub",
+      "sha256": "40e6f385bf1ed9ec93e054e21b92d233a7f86ae2b793823e079419de6b2fe156",
+      "bytes": 5771,
+      "exit_code": 0,
+      "stdout": "No errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed",
+      "stderr": "",
+      "report_path": "/tmp/litmundi-epubcheck/machado-apologo-vi-ai-draft-2026.json",
+      "messages": []
+    },
+    {
+      "edition_id": "pardo-encaje-es-administracion-c1898",
+      "path": "public/downloads/pardo-encaje-es-administracion-c1898.epub",
+      "sha256": "c5d36fa28423f51d4b609608ffc1dad3f4428d3c1055a9e0ac0192601ced3fd5",
+      "bytes": 8742,
+      "exit_code": 0,
+      "stdout": "No errors or warnings detected.\nMessages: 0 fatals / 0 errors / 0 warnings / 0 infos\n\nEPUBCheck completed",
+      "stderr": "",
+      "report_path": "/tmp/litmundi-epubcheck/pardo-encaje-es-administracion-c1898.json",
+      "messages": []
+    }
+  ],
+  "scope": "Format validation of the five current public EPUB files. It does not establish literary fidelity, copyright ownership or accessibility conformance."
+}

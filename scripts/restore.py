@@ -92,6 +92,8 @@ def restore(root, output):
         if not all(isinstance(segments[k], str) and segments[k].strip() for k in ids):
             fail("Invalid prose in " + edition["id"])
         esc = html.escape
+        ai_reviewed = edition.get("publication_policy") == "litmundi-literary-v2" or edition["review"]["status"] == "ai_reviewed"
+        ai_notice = ("AI-reviewed translation. Weighted AI assessment: " + str(edition["review"].get("score", "unrecorded")) + "/10. No independent human literary review is claimed. Reader corrections may lead to revision.") if ai_reviewed else ""
         paragraphs = "\n".join('<p id="' + esc(k, quote=True) + '"><a href="#' + esc(k, quote=True) + '">§</a> ' + esc(segments[k]) + "</p>" for k in ids)
         notice = (
             edition["label"] + "\nPublication: " + edition["status"] + "; " + edition["review"]["status"] +
@@ -99,6 +101,9 @@ def restore(root, output):
             "\nTranslator: " + (edition["credits"]["translator"] or "not applicable") +
             "\nEditors: " + ", ".join(edition["credits"]["editors"]) +
             "\nReviewers: " + ", ".join(edition["review"]["reviewers"]) +
+            "\nAI assessment systems: " + ", ".join(edition["review"].get("ai_reviewers", [])) +
+            "\nReview evidence: " + "; ".join(edition["review"].get("evidence_urls", [])) +
+            ("\n" + ai_notice if ai_notice else "") +
             "\nLicense: " + (edition["rights"]["license"] or "No reuse permission granted") +
             "\nRights assessment: " + edition["rights"]["basis"] +
             "\nChecksums establish consistency with this archive, not authenticity or legal authority."
@@ -109,7 +114,7 @@ def restore(root, output):
             '</title><style>body{max-width:44em;margin:2em auto;padding:0 1em;font:1.25em/1.8 Georgia,serif;color:#222;background:#fff}' +
             'pre{white-space:pre-wrap;overflow-wrap:anywhere;font:0.8em/1.6 system-ui}a{color:#174d38}p:target{background:#fff3cd}</style></head>' +
             '<body><nav><a href="../index.html">Library</a></nav><main><h1>' + esc(work["title"]) + '</h1><p>' + esc(work["author"]) +
-            '</p>' + paragraphs + '<h2>Edition and rights</h2><pre>' + esc(notice) + '</pre></main></body></html>\n'
+            '</p>' + ('<p lang="en">' + esc(ai_notice) + '</p>' if ai_notice else '') + paragraphs + '<h2>Edition and rights</h2><pre>' + esc(notice) + '</pre></main></body></html>\n'
         )
         (edition_output / (edition["id"] + ".html")).write_text(page, encoding="utf-8")
         text = work["title"] + "\n" + work["author"] + "\n" + notice + "\n\n" + "\n\n".join("[" + k + "]\n" + segments[k] for k in ids) + "\n"

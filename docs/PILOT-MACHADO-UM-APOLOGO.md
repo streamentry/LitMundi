@@ -1,12 +1,12 @@
 # Pilot 002 — Machado de Assis, “Um Apólogo”
 
-Status, 2026-11-01: **complete Portuguese source edition available; complete Vietnamese draft withheld from public reading and downloads**. There are no qualified human reviews and no affirmative contributor license grant.
+Status, 2026-11-01: **complete Portuguese source edition available; the revised Vietnamese text scores 8.725/10 (displayed 8.73) under v2 and meets the AI quality threshold**. The edition catalog controls actual publication and rights status. No human review is required before publication, and no human endorsement is claimed.
 
 ## Why this small pilot
 
 The fable tests an economical but difficult kind of writing: dialogue, a material pun, a narrator who interrupts his own ornament, and a final social insult. It adds direct Portuguese-to-Vietnamese work to an English pilot without requiring a novel-length editorial commitment.
 
-The [Translation Gap Atlas](../research/translation-gap-atlas.json) is the discovery record. The recorded searches did not establish the absence of an existing Vietnamese or Indonesian translation. This is an editorial feasibility selection, **not a verified unmet-demand claim**. A related Machado story, *A Cartomante*, already has Vietnamese translation activity; obscurity cannot be inferred from the author's nationality. Reviewer capacity and reader demand remain unproven. Do not expand the production queue on the strength of this draft alone.
+The [Translation Gap Atlas](../research/translation-gap-atlas.json) is the discovery record. The recorded searches did not establish the absence of an existing Vietnamese or Indonesian translation. This is an editorial feasibility selection, **not a verified unmet-demand claim**. A related Machado story, *A Cartomante*, already has Vietnamese translation activity; obscurity cannot be inferred from the author's nationality. Reader demand remains unproven. Do not expand the production queue on the strength of this draft alone.
 
 ## Exact original witness and completeness
 
@@ -27,7 +27,7 @@ The source metadata records a term-based assessment for the US, Vietnam and Braz
 
 For the US, the old publication dates exceed the applicable 95-year ceiling; [Copyright Office Circular 38B](https://www.copyright.gov/circs/circ38b.pdf) explains that restoration of an eligible foreign work supplies only the remaining term, not a fresh 95 years. This assessment does not rely on a blanket statement about works first published in the US. The [duration provisions](https://www.copyright.gov/title17/92chap3.html) and catalog evidence are retained in edition metadata.
 
-The corpus contains the underlying literary text, not the scan images, institutional design, branding or modern editorial matter. Attribution and integrity obligations still matter. This is a documented assessment, not a worldwide guarantee. The Vietnamese translation has a separate, **uncleared** rights record: the public-domain original does not provide a human contributor's license permission.
+The corpus contains the underlying literary text, not the scan images, institutional design, branding or modern editorial matter. Attribution and integrity obligations still matter. This is a documented assessment, not a worldwide guarantee. The Vietnamese translation has a separate rights record in the edition catalog. The AI assessment does not itself decide those rights, create a human contributor, or supply another person's license permission.
 
 ## Translation decisions and adversarial revision
 
@@ -35,23 +35,32 @@ The [machine-readable editorial dossier](../corpus/editorial/machado-um-apologo/
 
 The draft preserves the needle/pin distinction so the “head” joke still works; it keeps the repeated *pegou* sequence, the named Diana allusion and the narrator's deflation of his own poetic flourish. A separate AI read identified a dangling Vietnamese subject that could make the needle obey itself. Passage `1.12` now explicitly makes the thread follow and obey the needle. The rejected phrasing and the pre-revision target hash are retained.
 
-Three questions remain for a qualified Portuguese–Vietnamese literary reviewer:
+The v2 recheck retains three minor questions for optional reader or literary feedback:
 
-1. **Mucamas.** The current *hầu gái* is legible but does not carry all the Brazilian historical weight. [Michaelis](https://michaelis.uol.com.br/palavra/yVnWw/mucama/) identifies the obsolete enslaved Black domestic-worker sense; [Priberam](https://dicionario.priberam.org/mucama) includes servant or enslaved attendant. A reviewer should choose between a more historical rendering such as *nữ tỳ* and an explanatory note, without inventing biographical details about these unnamed women.
-2. **Professor de melancolia.** *Ông giáo dạy môn u sầu* retains the comic title but may overcommit to a literal school subject. *Bậc thầy về nỗi u sầu* is a defensible alternative with a different joke.
+1. **Mucamas.** The current *hầu gái* is legible but does not carry all the Brazilian historical weight. [Michaelis](https://michaelis.uol.com.br/palavra/yVnWw/mucama/) identifies the obsolete enslaved Black domestic-worker sense; [Priberam](https://dicionario.priberam.org/mucama) includes servant or enslaved attendant. A more historical rendering such as *nữ tỳ* or a reader note remains worth comparing, without inventing biographical details about these unnamed women.
+2. **Professor de melancolia.** V2 adopts *bậc thầy về nỗi u sầu* in place of *ông giáo dạy môn u sầu*. This keeps the mock title without inventing a literal school subject. It favors master/expert over teacher; that tradeoff remains disclosed rather than presented as the only possible reading.
 3. **Sound and register.** Read the four *plic* beats and the shift to the pin's patronizing *mày/tao* aloud. Do not award fluency by erasing the object's voice or the narrator's irony.
 
-## Quality status and review packet
+## V2 revision and quality status
 
-| Rubric dimension | AI advisory score |
-|---|---:|
-| Semantic fidelity and completeness | 8.5 |
+One bounded pass changed four of the 22 Vietnamese passages; the Portuguese source is unchanged:
+
+- `1.4`: *làm bộ khó chịu* became *có cái vẻ thật không chịu nổi*. The old wording could mean feigning irritation; *insupportavel* describes the appearance as unbearable. The following head idiom and needle/pin joke remain intact.
+- `1.12`: *vâng những điều tôi sai bảo* became *vâng lời tôi sai bảo*, preserving the thread as the obedient follower while repairing the Vietnamese complement.
+- `1.21`: *ghé lời* became *thì thầm*, matching *murmurou* without an awkward collocation.
+- `1.22`: the mock title now uses *bậc thầy về nỗi u sầu*, with the stated teacher/master tradeoff.
+
+| Rubric dimension | Current v2 AI score |
+| --- | ---: |
+| Semantic fidelity and completeness | 9.0 |
 | Voice, rhythm and register | 8.5 |
 | Target-language naturalness | 8.5 |
 | Imagery, terminology and consistency | 8.5 |
 | Grammar and editorial mechanics | 9.0 |
-| **Weighted advisory score** | **8.55** |
+| **Weighted score** | **8.725 → 8.73** |
 
-The [hash-bound preflight](../corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-preflight-2026-11-01.json) covers all 22 passages. It is a subjective AI editorial assessment, not independent human certification. Additional AI agreement does not increase approval authority. No currently identified major error remains open; that statement is limited to the AI preflight, not a claim of error-free translation.
+The [new v2 review](../corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-2026-11-01.json) covers every source and target passage and records exact final hashes. The fidelity increase reflects the corrected *insupportavel* ambiguity and removal of unsupported classroom specificity. The remaining dialogue stiffness, foreign sound-word, historical *mucamas* associations and mock-title tradeoff keep the other literary categories at 8.5. No unresolved major or critical finding was identified in this AI read; undetected errors may remain.
 
-Human reviewers should first read the complete original and translation **without reading the model score**. Then address the glossary questions, annotate passage IDs and submit independent evidence under [QUALITY.md](QUALITY.md). Publication requires two qualified, independent human reviews, each at least 9.0 overall and 9.0 in fidelity, all other dimensions at least 8.0, exact final hashes, named editorial contribution, written open-license permission and maintainer verification. Until then this remains a complete review draft.
+The [historical v1 preflight](../corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-preflight-2026-11-01.json) remains unchanged at **8.55**, bound to the earlier target hash. The separate adversarial record also keeps its old hashes. Exact before/after wording and revision digests are in the editorial dossier.
+
+Under [v2](QUALITY.md), one full AI assessment scoring at least **8.6** passes the numerical quality gate; there are no separate dimension floors or prior human-review requirements. Current hashes, full coverage, no unresolved major/critical findings, source integrity and edition-specific rights still matter. This score qualifies, but is not independent human certification or legal clearance. The same AI system edited and assessed the text and had access to previous assessments; no model diversity, consensus or native-reader trial is claimed. Human readers may supply corrections after publication.

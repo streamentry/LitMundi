@@ -54,6 +54,7 @@ files['rights-manifest.json']=Buffer.from(json({
     edition_id:e.id,work_id:e.work_id,status:e.status,language:e.language,kind:e.kind,
     content_path:e.content_path,source_edition_id:e.source_edition_id,
     rights:e.rights,credits:e.credits,provenance:e.provenance,review:e.review,
+    publication_policy:e.publication_policy??null,generation:e.generation??null,
     publication_note:e.status==='published'?'Published under the stated assessed rights; jurisdiction and edition remain material.':'Not publication-approved; no license is inferred.'
   }))
 }));

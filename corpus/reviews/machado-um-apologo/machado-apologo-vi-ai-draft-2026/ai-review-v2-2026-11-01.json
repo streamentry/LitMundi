@@ -1,0 +1,104 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "machado-apologo-vi-ai-draft-2026",
+  "source_edition_id": "machado-apologo-pt-laemmert-1896",
+  "reviewed_at": "2026-11-01",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (GPT-6 Astra Pro)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "GPT-6 Astra Pro",
+    "method": "Full original-to-Vietnamese passage comparison followed by literary and editorial critique.",
+    "limitations": "Single-model AI assessment, not independent human verification, model diversity or consensus. The assessor also edited the text and had access to prior AI scores and notes; this is not a blind review. All canonical source/target passages were compared, but no new historical-witness collation, native-reader trial or recorded oral performance was conducted for this v2 assessment. Scores are subjective judgments, and undetected errors may remain. This record supplies no legal clearance or human endorsement."
+  },
+  "source_sha256": "17b46a94ca47b08eb7c32af2f91c6d449d8e8dae07883e2b27f118e4ed58f5f6",
+  "target_sha256": "c95028622ab56661daf9c9f845816008ad051c3aadd7523078025aabd3fa9de3",
+  "segments_reviewed": [
+    "machado-um-apologo:1.1",
+    "machado-um-apologo:1.2",
+    "machado-um-apologo:1.3",
+    "machado-um-apologo:1.4",
+    "machado-um-apologo:1.5",
+    "machado-um-apologo:1.6",
+    "machado-um-apologo:1.7",
+    "machado-um-apologo:1.8",
+    "machado-um-apologo:1.9",
+    "machado-um-apologo:1.10",
+    "machado-um-apologo:1.11",
+    "machado-um-apologo:1.12",
+    "machado-um-apologo:1.13",
+    "machado-um-apologo:1.14",
+    "machado-um-apologo:1.15",
+    "machado-um-apologo:1.16",
+    "machado-um-apologo:1.17",
+    "machado-um-apologo:1.18",
+    "machado-um-apologo:1.19",
+    "machado-um-apologo:1.20",
+    "machado-um-apologo:1.21",
+    "machado-um-apologo:1.22"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 8.5,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 8.5,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "machado-um-apologo:1.4",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Replaced làm bộ khó chịu with có cái vẻ thật không chịu nổi: insupportavel describes an unbearable air, not feigned irritation. The response still names đầu so the next needle/pin joke works."
+    },
+    {
+      "segment": "machado-um-apologo:1.12",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Changed vâng những điều tôi sai bảo to vâng lời tôi sai bảo. The thread remains explicitly the follower and the obedient subject; no action has been reassigned to the needle."
+    },
+    {
+      "segment": "machado-um-apologo:1.21",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Replaced ghé lời with thì thầm for murmurou, preserving the pin’s low-voiced, patronizing advice and the mày/tao register shift."
+    },
+    {
+      "segment": "machado-um-apologo:1.22",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Changed ông giáo dạy môn u sầu to bậc thầy về nỗi u sầu. This keeps the mock title and expertise without specifying a literal school curriculum; the teacher/master ambiguity remains a disclosed tradeoff, not a newly established biography."
+    },
+    {
+      "segment": "machado-um-apologo:1.20",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Hầu gái conveys domestic service but not the full historical Brazilian associations of mucamas, which can include enslaved Black domestic women. The glossary records that context. Do not add a specific legal status or race for these unnamed characters without evidence."
+    },
+    {
+      "segment": "machado-um-apologo:1.18",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The four plic beats are preserved rather than naturalized. They retain the sewing rhythm but remain foreign-looking in Vietnamese; reader feedback may identify a better sound-word without losing the four-beat pattern."
+    },
+    {
+      "segment": "machado-um-apologo:1.22",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Bậc thầy gives the mock title a clear Vietnamese cadence while favoring master/expert over literal teacher. The alternative comic effect is documented; it has not been tested with native literary readers."
+    }
+  ],
+  "summary": "Fresh v2 AI assessment of all 22 Portuguese/Vietnamese passages after one bounded revision of four passages. The weighted result is 8.725/10 (displayed 8.73): fidelity 9.0 after correcting the insupportavel ambiguity and removing the invented classroom-subject specificity, with complete action, speakers, chronology and final social reversal retained; voice 8.5 for the quarrel, mock-poetic aside and pin’s patronizing advice, with a remaining teacher/master tradeoff; naturalness 8.5 because several dialogue constructions improve but the foreign sound-word and occasional stiffness remain; imagery 8.5 because the needle/pin head pun, Diana and material actions are preserved but mucamas loses some historical specificity; mechanics 9.0. The previous 8.55 v1 assessment remains unchanged with its earlier target hash. No unresolved major or critical finding was identified. The qualifying v2 result is an AI policy decision, not independent or human literary certification and not legal permission."
+}

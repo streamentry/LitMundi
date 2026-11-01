@@ -1,6 +1,6 @@
 # Pilot 003 — Emilia Pardo Bazán, “El encaje roto”
 
-Status, 2026-11-01: **complete historical Spanish source edition available; complete Vietnamese draft withheld from public reading and downloads**. Human literary review, contributor attribution and open-license permission have not been obtained.
+Status, 2026-11-01: **complete historical Spanish source edition available; the revised Vietnamese draft scores 8.55/10 under v2, below the 8.6 publication threshold**. It remains a draft because of that score, not because a human review is required. No human endorsement is claimed.
 
 ## Why this work and what is not established
 
@@ -29,7 +29,7 @@ The author died in 1921, as the named catalog record confirms. Spain's older rul
 
 Vietnam's [ordinary literary life-plus-50 term](https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html) has also expired. In the US, even a restored foreign copyright would receive only the [remainder of the ordinary pre-1978 term](https://www.copyright.gov/circs/circ38b.pdf); these nineteenth-century publication dates exceed that term. Sources and jurisdictions are recorded per edition.
 
-Only the historical literary text is reproduced. The source's public-domain status does not grant rights in a modern translation, an editor's new material, a library's page design or scan images. Those materials are not redistributed. Moral rights, attribution and textual integrity remain relevant. The Vietnamese draft has **no cleared publication license** and no named human editorial contributor; those cannot be supplied by a source-term calculation.
+Only the historical literary text is reproduced. The source's public-domain status does not grant rights in a modern translation, an editor's new material, a library's page design or scan images. Those materials are not redistributed. Moral rights, attribution and textual integrity remain relevant. The Vietnamese draft has a separate rights record in the edition catalog. A source-term calculation and an AI score do not create a contributor, grant another person’s permission or decide all reuse conditions.
 
 ## Literary revision and remaining questions
 
@@ -43,23 +43,35 @@ The [editorial dossier](../corpus/editorial/pardo-bazan-el-encaje-roto/pardo-enc
 
 The narrator did not attend the wedding; the ceremony remains her imagined scene, and Micaelita's explanation arrives three years later. This distinction must survive every future edit. Her right to refuse is not turned into a fabricated diagnosis or an omniscient report of Bernardo's future conduct.
 
-Qualified Spanish–Vietnamese reviewers still need to resolve these choices:
+The v2 recheck retains these minor open choices for further editorial work or optional human feedback:
 
 1. **Jewelry.** *Roca antigua* is provisionally rendered as antique precious stones. Its exact historical material/cut and singular or collective force need a better historical witness; the [modern RAE entry](https://dle.rae.es/roca) does not establish a specific jewelry sense. Do not confidently relabel it as diamonds or rock crystal without evidence.
 2. **Historical measure.** The draft retains *tercia*. [RAE defines it as one third of a vara](https://dle.rae.es/tercio); a precise centimeter conversion requires a specific regional standard. Decide whether to add a reader note, rather than silently insert a modern measurement.
-3. **Idiom and cadence.** *Un decir Jesús* currently retains both the momentary sense and the religious utterance. A human editor should judge whether this explanatory doubling harms Micaelita's conversational voice. The long social tableau needs a Vietnamese read-aloud edit without erasing its deliberately accumulating structure.
+3. **Idiom and cadence.** *Un decir Jesús* currently retains both the momentary sense and the religious utterance. The explanatory doubling still slows Micaelita's conversational voice. The long social tableau retains uneven Vietnamese breath groups; later cadence work should preserve its deliberately accumulating structure. No native-reader or recorded oral test has been conducted.
 
-## Quality status
+## V2 revision and quality status
 
-| Rubric dimension | AI advisory score |
-|---|---:|
+One bounded revision pass changed seven Vietnamese passages. The Spanish source, paragraph boundaries and stable identifiers are unchanged:
+
+- `1.1`: *cuộc kết duyên* replaces *hôn lễ* at the close, preserving the collapse of the projected union as well as the dispersal of the gathering.
+- `1.3`: *anh rể tương lai* repairs the future-kinship expression.
+- `1.4`: the ceremony is now *được sắp đặt*, instead of literally *vào hàng*; the sponsors remain plural. *Đổ bệnh* removes an unintended relapse implication. Nested quotation marks are distinct, and the crowd's last reaction is an exclamation rather than another question.
+- `1.7`: paired Vietnamese dashes clarify the three-year transition; the historical source punctuation is untouched.
+- `1.11`: a distinctive tearing sound replaces an unclear backward reference, and the theatrical curtain is *kéo lên* rather than *vén lên*.
+- `1.13`: *tự bật ra* expresses the unplanned refusal more naturally while retaining the paradox of speaking to oneself for everyone to hear.
+- `1.15`: *Nói ra, họ cũng chẳng bao giờ tin* preserves the counterfactual explanation rather than a simple future prediction.
+
+| Rubric dimension | Current v2 AI score |
+| --- | ---: |
 | Semantic fidelity and completeness | 8.5 |
-| Voice, rhythm and register | 8.0 |
+| Voice, rhythm and register | 8.5 |
 | Target-language naturalness | 8.5 |
 | Imagery, terminology and consistency | 8.5 |
 | Grammar and editorial mechanics | 9.0 |
-| **Weighted advisory score** | **8.43** |
+| **Weighted score** | **8.55** |
 
-The [preflight record](../corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-preflight-2026-11-01.json) covers all 15 passages and binds to the final source and target hashes. The exact weighted result is 8.425, displayed as 8.43. Corrections did not automatically raise the provisional score. This is AI editorial assistance, with **zero qualifying human reviews**, not an independent literary verdict.
+The [new v2 AI review](../corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-2026-11-01.json) covers all 15 original and target paragraphs against their final hashes. The clearer ceremony, crowd's exclamation, textile/theatrical imagery and spoken refusal improve the voice category from the earlier 8.0 to 8.5. They do not settle the historical jewelry precision, the explanatory *Jesús* idiom or the entire long-period cadence. No unresolved major or critical finding was identified, but the remaining issues do not warrant raising another category simply to cross 8.6.
 
-Before publication, two qualified, independent human reviewers must each meet every [QUALITY.md](QUALITY.md) threshold, and a maintainer must verify the evidence, independence, qualifications, final hashes, editorial attribution and affirmative open-license permission. Reviewers should examine the text before reading the model's scores. The complete draft is ready for that review; it is not approved for publication.
+The [historical v1 preflight](../corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-preflight-2026-11-01.json) remains untouched at an exact **8.425**, displayed as **8.43**, with its earlier target hash. The prior adversarial record likewise remains history. The current editorial dossier records every adopted wording change and both revision hashes.
+
+Under [v2](QUALITY.md), the only numerical threshold is a weighted score of at least **8.6**; there are no separate category floors or mandatory prior human reviews. This draft's **8.55 does not qualify**. It should remain outside public translation routes, search and publication downloads. The assessment is by the same AI system that made the revisions and saw the earlier records, not an independent human verdict or model consensus. Readers may later contribute corrections or literary feedback; a new qualifying assessment must describe substantive grounds for any higher score.

@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import {strings,supported,type Locale} from '../../lib/i18n';
-import {publicWorks,publishedEditions,languageNames,bestEdition} from '../../lib/corpus';
+import {publicWorks,publishedEditions,languageNames,bestEdition,reviewCategory} from '../../lib/corpus';
 import {pagePath,assetPath,basePath} from '../../lib/urls';
 export function getStaticPaths(){return supported.map(lang=>({params:{lang}}));}
 const lang=Astro.params.lang as Locale;const t=strings[lang];
@@ -17,7 +17,7 @@ const languages=[...new Set(works.flatMap(w=>publishedEditions(w.id).map(e=>e.la
   </section>
   <section id="collection" class="section collection-section" aria-labelledby="collection-title">
     <div class="section-head"><h2 id="collection-title">{t.works}</h2><p>{works.length} · {t.collectionCount}</p></div>
-    <form id="collection-search" class="search-form" role="search" hidden data-index={assetPath('search-index.json')} data-base={basePath} data-locale={lang} data-none={t.noResults} data-unavailable={t.searchUnavailable} data-loading={t.searchLoading} data-results={t.results}>
+    <form id="collection-search" class="search-form" role="search" hidden data-index={assetPath('search-index.json')} data-base={basePath} data-locale={lang} data-none={t.noResults} data-unavailable={t.searchUnavailable} data-loading={t.searchLoading} data-results={t.results} data-review-labels={JSON.stringify({source:t.sourcePublished,ai:t.aiReviewed,human:t.humanReviewed,translation:t.translationPublished})}>
       <label class="query-label" for="query">{t.search}<input id="query" name="query" type="search" autocomplete="off" placeholder={t.searchHint} /></label>
       <label for="text-language">{t.language}<select name="language" id="text-language"><option value="">{t.allLanguages}</option>{languages.map(code=><option value={code}>{languageNames[code]??code}</option>)}</select></label>
       <label for="author">{t.author}<select name="author" id="author"><option value="">{t.allAuthors}</option>{authors.map(author=><option value={author}>{author}</option>)}</select></label>
@@ -27,9 +27,10 @@ const languages=[...new Set(works.flatMap(w=>publishedEditions(w.id).map(e=>e.la
     <p class="search-status muted" id="search-status" role="status" aria-live="polite"></p>
     <section id="passage-results" class="search-results" aria-labelledby="results-title" hidden><h3 id="results-title">{t.results}</h3><ol></ol></section>
     <div class="grid" id="collection-cards">{works.map(work=>{
-      const editions=publishedEditions(work.id);const first=bestEdition(work,lang)!;
+      const editions=publishedEditions(work.id);const first=bestEdition(work,lang)!;const category=reviewCategory(first);
+      const badge=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewed:category==='source'?t.sourcePublished:t.translationPublished;
       return <article class="card" data-work-id={work.id} data-author={work.author} data-languages={editions.map(e=>e.language).join(' ')}>
-        <span class="pill">{first.kind==='source'?t.sourcePublished:t.translationPublished}</span>
+        <span class="pill" data-review-category={category}>{badge}</span>
         <h3 lang={work.original_language}><a href={pagePath(lang,'works',work.id)}>{work.title}</a></h3>
         <p class="muted">{work.author} · {work.first_published_year}<br/>{editions.map(e=>languageNames[e.language]??e.language).filter((v,i,a)=>a.indexOf(v)===i).join(' · ')}</p>
         <p lang="en">{work.description}</p>
@@ -41,7 +42,7 @@ const languages=[...new Set(works.flatMap(w=>publishedEditions(w.id).map(e=>e.la
 </div>
 <script>
   import {normalizeQuery} from '../../../scripts/lib/reader-data.mjs';
-  type SearchRecord={workId:string;editionId:string;title:string;author:string;language:string;passages:[string,string][]};
+  type SearchRecord={workId:string;editionId:string;title:string;author:string;language:string;languageName:string;reviewCategory:string;passages:[string,string][]};
   const form=document.querySelector<HTMLFormElement>('#collection-search');
   if(form){
     form.hidden=false;
@@ -52,6 +53,7 @@ const languages=[...new Set(works.flatMap(w=>publishedEditions(w.id).map(e=>e.la
     const status=document.querySelector<HTMLElement>('#search-status')!;
     const results=document.querySelector<HTMLElement>('#passage-results')!;
     const list=results.querySelector('ol')!;
+    const reviewLabels:Record<string,string>=JSON.parse(form.dataset.reviewLabels!);
     let index:SearchRecord[]|null=null,request=0;
     const filter=(workIds?:Set<string>)=>cards.forEach(card=>{
       card.hidden=Boolean((author.value&&card.dataset.author!==author.value)||(language.value&&!card.dataset.languages?.split(' ').includes(language.value))||(workIds&&!workIds.has(card.dataset.workId!)));
@@ -79,7 +81,7 @@ const languages=[...new Set(works.flatMap(w=>publishedEditions(w.id).map(e=>e.la
             if(count++>=50)continue;
             const item=document.createElement('li'),link=document.createElement('a'),excerpt=document.createElement('p');
             link.href=form.dataset.base!+form.dataset.locale!+'/read/'+edition.workId+'/'+edition.editionId+'/#'+encodeURIComponent(id);
-            link.textContent=edition.title+' · '+edition.author+' · '+id.split(':').pop();
+            link.textContent=edition.title+' · '+edition.languageName+' · '+(reviewLabels[edition.reviewCategory]??'')+' · '+id.split(':').pop();
             excerpt.lang=edition.language;excerpt.textContent=text.length>280?text.slice(0,280)+'…':text;
             item.append(link,excerpt);list.append(item);
           }

@@ -54,8 +54,8 @@
     "work_id": "wilde-the-artist",
     "language": "vi",
     "kind": "translation",
-    "status": "draft",
-    "label": "Tiếng Việt · bản thảo do AI hỗ trợ, chờ biên tập độc lập",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
     "content_path": "corpus/segments/wilde-the-artist/wilde-artist-vi-ai-draft-2026.json",
     "source_edition_id": "wilde-artist-en-methuen-1913",
     "legacy_slugs": [],
@@ -67,23 +67,57 @@
       "source_witness": "wilde-artist-en-methuen-1913"
     },
     "rights": {
-      "status": "unreviewed",
-      "license": null,
-      "basis": "AI-generated draft; authorship and publication license to be determined after human editorial contributions.",
-      "jurisdictions_assessed": [],
-      "evidence_urls": []
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "EU",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://openai.com/policies/services-agreement/",
+        "https://www.gutenberg.org/ebooks/774",
+        "https://www.themorgan.org/collection/oscar-wilde/manuscripts-letters/13",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://www.copyright.gov/circs/circ38b.pdf",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116"
+      ]
     },
     "credits": {
       "author": "Oscar Wilde",
-      "translator": null,
+      "translator": "LitMundi AI translation (ChatGPT)",
       "editors": [],
       "ai_assisted": true
     },
     "review": {
-      "status": "unreviewed",
+      "status": "ai_reviewed",
       "reviewers": [],
-      "evidence_urls": [],
-      "notes": "DRAFT ONLY. Revised on 2026-11-01 with documented AI-assisted adversarial feedback; complete 5/5 alignment. Historical 8.6 advisory record retained. No human literary reviews, named human editorial contribution or written open-license permission. Publication remains blocked."
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.6,
+      "record_paths": [
+        "corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-review-v2-2026-11-01.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/wilde-the-artist/wilde-artist-vi-ai-draft-2026/ai-review-v2-2026-11-01.json"
+      ],
+      "notes": "AI literary assessment under v2: weighted score 8.60/10 (unrounded 8.6); publication threshold 8.6. All canonical passages were compared with the exact source and target hashes. This is an AI evaluation, not an independent human endorsement or calibrated quality measurement. Readers may submit corrections after publication. Same-model author/assessor correlation and prior-score exposure are disclosed in the record."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "ChatGPT (AI translation and literary revision)"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
   },
   {
@@ -292,8 +326,8 @@
     "work_id": "machado-um-apologo",
     "language": "vi",
     "kind": "translation",
-    "status": "draft",
-    "label": "Một ngụ ngôn · bản thảo tiếng Việt do AI hỗ trợ, chờ thẩm định độc lập",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
     "content_path": "corpus/segments/machado-um-apologo/machado-apologo-vi-ai-draft-2026.json",
     "source_edition_id": "machado-apologo-pt-laemmert-1896",
     "legacy_slugs": [],
@@ -305,23 +339,57 @@
       "source_witness": "machado-apologo-pt-laemmert-1896"
     },
     "rights": {
-      "status": "unreviewed",
-      "license": null,
-      "basis": "Draft only. No human translator/editor attribution or affirmative open-license permission has been obtained. The original’s public-domain status does not supply contributor consent or certify authorship of a new translation.",
-      "jurisdictions_assessed": [],
-      "evidence_urls": []
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "VN",
+        "BR"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://openai.com/policies/services-agreement/",
+        "https://digital.bbm.usp.br/handle/bbm/5307",
+        "https://machado.byu.edu/text/um-apologo/?lang=pt",
+        "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9610-19-fevereiro-1998-365399-normaatualizada-pl.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://www.copyright.gov/circs/circ38b.pdf",
+        "https://www.copyright.gov/title17/92chap3.html"
+      ]
     },
     "credits": {
       "author": "Machado de Assis",
-      "translator": null,
+      "translator": "LitMundi AI translation (ChatGPT)",
       "editors": [],
       "ai_assisted": true
     },
     "review": {
-      "status": "unreviewed",
+      "status": "ai_reviewed",
       "reviewers": [],
-      "evidence_urls": [],
-      "notes": "Complete aligned DRAFT, revised with AI-assisted adversarial preflight; no qualifying human reviewers. Needs two independent qualified bilingual literary reviews at >=9, maintainer authentication, named editorial contribution and open-license consent before publication. See the versioned dossier, glossary and editorial decisions."
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.73,
+      "record_paths": [
+        "corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-2026-11-01.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/machado-um-apologo/machado-apologo-vi-ai-draft-2026/ai-review-v2-2026-11-01.json"
+      ],
+      "notes": "AI literary assessment under v2: weighted score 8.73/10 (unrounded 8.725); publication threshold 8.6. All canonical passages were compared with the exact source and target hashes. This is an AI evaluation, not an independent human endorsement or calibrated quality measurement. Readers may submit corrections after publication. Same-model author/assessor correlation and prior-score exposure are disclosed in the record."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "ChatGPT (AI translation and literary revision)"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
   },
   {
@@ -382,7 +450,7 @@
     "language": "vi",
     "kind": "translation",
     "status": "draft",
-    "label": "Dải ren rách · bản thảo tiếng Việt do AI hỗ trợ, chờ thẩm định độc lập",
+    "label": "Bản thảo tiếng Việt bằng AI · chưa đạt ngưỡng xuất bản 8.6",
     "content_path": "corpus/segments/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026.json",
     "source_edition_id": "pardo-encaje-es-administracion-c1898",
     "legacy_slugs": [],
@@ -394,23 +462,58 @@
       "source_witness": "pardo-encaje-es-administracion-c1898"
     },
     "rights": {
-      "status": "unreviewed",
-      "license": null,
-      "basis": "Draft only. No human translator/editor attribution or affirmative open-license permission has been obtained. The original’s public-domain status does not supply contributor consent or certify authorship of a new translation.",
-      "jurisdictions_assessed": [],
-      "evidence_urls": []
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "VN",
+        "ES"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://openai.com/policies/services-agreement/",
+        "https://www.cervantesvirtual.com/obra/cuentos-de-amor/",
+        "https://www.cervantesvirtual.com/obra-visor/cuentos-de-amor--0/html/fee33ed8-82b1-11df-acc7-002185ce6064_3.html",
+        "https://consultas.bne.es/faq/267300",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://www.copyright.gov/circs/circ38b.pdf",
+        "https://www.copyright.gov/title17/92chap3.html"
+      ]
     },
     "credits": {
       "author": "Emilia Pardo Bazán",
-      "translator": null,
+      "translator": "LitMundi AI translation (ChatGPT)",
       "editors": [],
       "ai_assisted": true
     },
     "review": {
-      "status": "unreviewed",
+      "status": "ai_reviewed",
       "reviewers": [],
-      "evidence_urls": [],
-      "notes": "Complete aligned DRAFT, revised with AI-assisted adversarial preflight; no qualifying human reviewers. Needs two independent qualified bilingual literary reviews at >=9, maintainer authentication, named editorial contribution and open-license consent before publication. See the versioned dossier, glossary and editorial decisions."
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.55,
+      "record_paths": [
+        "corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-2026-11-01.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/ai-review-v2-2026-11-01.json"
+      ],
+      "notes": "AI literary assessment under v2: weighted score 8.55/10 (unrounded 8.55); publication threshold 8.6. All canonical passages were compared with the exact source and target hashes. This is an AI evaluation, not an independent human endorsement or calibrated quality measurement. Readers may submit corrections after publication. Same-model author/assessor correlation and prior-score exposure are disclosed in the record."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "ChatGPT (AI translation and literary revision)"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
   }
 ]

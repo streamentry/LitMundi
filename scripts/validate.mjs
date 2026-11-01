@@ -2,7 +2,7 @@ import Ajv2020 from 'ajv/dist/2020.js';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {assessReview,assessPublication,checkRubric} from './lib/quality.mjs';
+import {assessReview,assessPublication,checkRubric,ACTIVE_RUBRIC_ID,SUPPORTED_RUBRIC_IDS} from './lib/quality.mjs';
 
 const errors = [];
 function rejectSymlinks(directory){
@@ -86,8 +86,8 @@ for(const e of editions) {
     if(e.kind==='source') check(e.review.status==='source_checked'&&e.review.evidence_urls.length>0,'Published source lacks source checking '+e.id);
     if(e.kind==='translation') {
       check(e.rights.status==='cleared'&&Boolean(e.rights.license),'Translation publication lacks explicit license '+e.id);
-      check(Boolean(e.credits.translator)&&e.credits.editors.length>0,'Translation publication lacks human translator/editor '+e.id);
-      check(e.review.reviewers.length>=2&&['bilingual_reviewed','literary_edited','expert_reviewed'].includes(e.review.status),'Translation publication lacks two named independent reviewers '+e.id);
+      check(Boolean(e.credits.translator)&&e.credits.ai_assisted===true,'Translation publication lacks disclosed AI translation provenance '+e.id);
+      check(e.publication_policy===ACTIVE_RUBRIC_ID&&e.review.status==='ai_reviewed','Translation publication must identify current AI-first policy '+e.id);
       check(e.review.evidence_urls.length>=1,'Translation publication lacks review evidence '+e.id);
     }
   }
@@ -150,12 +150,12 @@ for(const e of editions) {
 
 
 /**
- * Scores are read from immutable, content-hash-bound, external human reviews.
- * CI can check the evidence shape; repository governance must still confirm
- * reviewer identities and approval history.
+ * Keep historical assessments under their original rubric. Current release
+ * eligibility uses v2 AI evidence; no human review or attestation is required.
  */
-const rubric = read('corpus/reviews/rubric-literary-v1.json');
-checkRubric(rubric).forEach(fail);
+const rubrics=Object.fromEntries(SUPPORTED_RUBRIC_IDS.map(id=>[id,read('corpus/reviews/'+id.replace('litmundi-','rubric-')+'.json')]));
+for(const rubric of Object.values(rubrics))checkRubric(rubric).forEach(fail);
+const rubric=rubrics[ACTIVE_RUBRIC_ID];
 const sha = filename => createHash('sha256').update(fs.readFileSync(filename)).digest('hex');
 for(const edition of editions.filter(e=>e.kind==='source'&&e.status==='published')){
   const file='corpus/editorial/source-checks/'+edition.id+'.json';
@@ -178,25 +178,27 @@ function reviewFiles(directory) {
   });
 }
 for(const file of reviewFiles('corpus/reviews')) {
-  if(file==='corpus/reviews/rubric-literary-v1.json')continue;
+  if(SUPPORTED_RUBRIC_IDS.some(id=>file==='corpus/reviews/'+id.replace('litmundi-','rubric-')+'.json'))continue;
   const review=read(file);
   schemaCheck(review,schemas.review,'review('+file+')');
   const edition=editionById.get(review.edition_id);
   if(!edition){fail('Review targets unknown edition '+file);continue;}
   check(file.startsWith('corpus/reviews/'+edition.work_id+'/'+edition.id+'/'),'Review in wrong directory '+file);
-  check(review.kind==='ai_preflight'||review.kind==='independent_human','Unknown review kind '+file);
+  check(['ai_preflight','ai_review','independent_human'].includes(review.kind),'Unknown review kind '+file);
+  const reviewRubric=rubrics[review.rubric_id];
+  if(!reviewRubric){fail('Unknown review rubric '+file);continue;}
   const known=structureMap.get(edition.work_id)?.segment_ids??[];
   const source=editionById.get(edition.source_edition_id);
   if(!edition.content_path||!exists(edition.content_path)||!source?.content_path||!exists(source.content_path)) {
     fail('Review has missing edition content or source '+file); continue;
   }
   const assessment=assessReview(review,{
-    rubric,edition,sourceSha:sha(source.content_path),targetSha:sha(edition.content_path),sourceLanguage:source.language,
+    rubric:reviewRubric,edition,sourceSha:sha(source.content_path),targetSha:sha(edition.content_path),sourceLanguage:source.language,
     segmentIds:known
   });
   if(assessment.errors.length) assessment.errors.forEach(error=>fail(file+': '+error));
   const records=reviewsByEdition.get(edition.id)??[];
-  records.push(review);reviewsByEdition.set(edition.id,records);
+  records.push({...review,_path:file});reviewsByEdition.set(edition.id,records);
 }
 
 for(const edition of editions.filter(e=>e.status==='published'&&e.kind==='translation')) {
