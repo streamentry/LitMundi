@@ -26,7 +26,7 @@ The export creates `dist-archive/` and a deterministic `dist-archive.zip`. For i
 | `manifest.sha256` | SHA-256 of the manifest itself |
 | `restore.py`, `README.txt` | Independent recovery instructions and executable restorer |
 
-This is an **editorial snapshot**. It includes unpublished drafts and historical assessments for preservation and review. Possession of those files does not grant publication permission or an open content license. Portable publication exports and the restored reading site exclude drafts, withdrawn editions and demonstrations. Read `rights-manifest.json` before reuse.
+This is an **editorial snapshot**. It includes unpublished drafts and historical assessments for preservation and review. Inclusion does not imply a blanket license or satisfaction of the literary release gate; each edition's rights metadata controls lawful reuse. Portable publication exports and the restored reading site exclude drafts, withdrawn editions and demonstrations. AI-reviewed publications retain their policy, score, model/evidence references and AI disclosure in exported and restored formats. Read `rights-manifest.json` before reuse.
 
 The archive carries bibliographic witness information and source capture hashes; it does not bundle the large historical facsimile PDFs or page images. Independent stewards should obtain lawful witness copies separately and record their own access and reuse conditions.
 

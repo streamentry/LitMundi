@@ -3,6 +3,19 @@ export function isPublicEdition(edition, work) {
   return Boolean(work?.visibility === 'public' && edition?.status === 'published' && edition.content_path);
 }
 
+/**
+ * Describe the recorded publication policy, never infer human approval from an
+ * AI score, AI assistance flag or the mere presence of reviewer names.
+ * @returns {'source'|'ai'|'human'|'translation'|'unreviewed'}
+ */
+export function reviewCategory(edition) {
+  if (edition?.status !== 'published') return 'unreviewed';
+  if (edition.kind === 'source') return 'source';
+  if (edition.publication_policy === 'litmundi-literary-v2' || edition.review?.status === 'ai_reviewed') return 'ai';
+  if (['bilingual_reviewed', 'literary_edited', 'expert_reviewed'].includes(edition.review?.status)) return 'human';
+  return 'translation';
+}
+
 export function preferredEdition(editions, locale, originalLanguage) {
   const published = editions.filter(e => e.status === 'published' && e.content_path);
   return published.find(e => e.language === locale) ??
@@ -11,6 +24,11 @@ export function preferredEdition(editions, locale, originalLanguage) {
 
 export function normalizeQuery(value) {
   return value.normalize('NFD').replace(/\p{M}/gu, '').replace(/[đĐ]/g, 'd').toLocaleLowerCase().trim();
+}
+
+/** JSON-LD is raw script content: HTML must never see a closing tag in data. */
+export function serializeStructuredData(value) {
+  return JSON.stringify(value).replace(/</g, '\\u003c');
 }
 
 /**

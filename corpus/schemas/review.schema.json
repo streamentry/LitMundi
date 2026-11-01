@@ -36,7 +36,8 @@
     "kind": {
       "enum": [
         "ai_preflight",
-        "independent_human"
+        "independent_human",
+        "ai_review"
       ]
     },
     "reviewer": {
@@ -199,6 +200,29 @@
     "summary": {
       "type": "string",
       "minLength": 80
+    },
+    "ai_assessment": {
+      "type": "object",
+      "required": [
+        "model",
+        "method",
+        "limitations"
+      ],
+      "properties": {
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "type": "string",
+          "minLength": 20
+        },
+        "limitations": {
+          "type": "string",
+          "minLength": 20
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false,
@@ -220,6 +244,44 @@
               "languages",
               "conflicts_of_interest"
             ]
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "target_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "ai_review"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "ai_assessment"
+        ],
+        "properties": {
+          "rubric_id": {
+            "const": "litmundi-literary-v2"
+          },
+          "reviewer": {
+            "properties": {
+              "independent": {
+                "const": false
+              },
+              "github_handle": {
+                "type": "null"
+              }
+            },
+            "type": "object"
           },
           "source_sha256": {
             "type": "string",

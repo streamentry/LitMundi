@@ -1,14 +1,15 @@
 ---
 import '../styles/global.css';
-import {strings,supported,type Locale} from '../lib/i18n';
+import {strings,supported,localeNames,type Locale} from '../lib/i18n';
 import {pagePath,assetPath,basePath} from '../lib/urls';
+import {serializeStructuredData} from '../../scripts/lib/reader-data.mjs';
 interface Props {lang?:Locale;title?:string;description?:string;noindex?:boolean;canonicalPath?:string;structuredData?:Record<string,unknown>}
 const {lang='en',title='LitMundi',description,noindex=false,canonicalPath,structuredData}=Astro.props;
 const t=strings[lang];
 const canonical=new URL(canonicalPath??Astro.url.pathname,Astro.site);
 const routeParts=canonical.pathname.slice(basePath.length).split('/').filter(Boolean).slice(1);
 const localePath=(locale:Locale)=>pagePath(locale,...routeParts);
-const names={en:'English',vi:'Tiếng Việt',fr:'Français',es:'Español'};
+const names=localeNames;
 ---
 <!doctype html>
 <html lang={lang}>
@@ -27,7 +28,7 @@ const names={en:'English',vi:'Tiếng Việt',fr:'Français',es:'Español'};
   <meta property="og:description" content={description??t.intro} />
   <meta property="og:url" content={canonical} />
   <meta property="og:type" content="website" />
-  {structuredData && <script type="application/ld+json" is:inline set:html={JSON.stringify(structuredData).replace(/</g,'\u003c')} />}
+  {structuredData && <script type="application/ld+json" is:inline set:html={serializeStructuredData(structuredData)} />}
   <title>{title} · LitMundi</title>
 </head>
 <body>

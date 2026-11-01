@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { isPublicEdition, preferredEdition, alignedPassages, normalizeQuery } from '../scripts/lib/reader-data.mjs';
+import { isPublicEdition, preferredEdition, alignedPassages, normalizeQuery, reviewCategory, serializeStructuredData } from '../scripts/lib/reader-data.mjs';
 
 test('public discovery excludes drafts, withdrawn editions, demos and incomplete records', () => {
   const work = {visibility:'public'}, edition = {status:'published',content_path:'text.json'};
@@ -17,6 +17,26 @@ test('edition fallback prefers the interface language then the original, never a
   assert.equal(preferredEdition([english,draft,original],'vi','pt'),original);
   assert.equal(preferredEdition([english,draft,original],'en','pt'),english);
   assert.equal(preferredEdition([draft],'vi','pt'),null);
+  const vietnamese = {...draft,status:'published',review:{status:'ai_reviewed'}};
+  assert.equal(preferredEdition([english,original,vietnamese],'vi','pt'),vietnamese);
+  assert.equal(preferredEdition([english,original,vietnamese],'fr','pt'),original);
+});
+
+test('AI publication labels never imply human approval', () => {
+  const edition = {kind:'translation',status:'published',review:{status:'ai_reviewed',reviewers:[],ai_reviewers:['AI system'],score:8.6}};
+  assert.equal(reviewCategory(edition),'ai');
+  assert.equal(reviewCategory({...edition,publication_policy:'litmundi-literary-v2',review:{status:'bilingual_reviewed',reviewers:['A name']}}),'ai');
+  assert.equal(reviewCategory({...edition,status:'draft'}),'unreviewed');
+  assert.equal(reviewCategory({...edition,status:'withdrawn'}),'unreviewed');
+  assert.equal(reviewCategory({...edition,kind:'source'}),'source');
+});
+
+test('human status is explicit and cannot be inferred from a score or names', () => {
+  const edition = {kind:'translation',status:'published',credits:{ai_assisted:true},review:{status:'draft',score:9.8,reviewers:['Named contributor']}};
+  assert.equal(reviewCategory(edition),'translation');
+  assert.equal(reviewCategory({...edition,review:{status:'bilingual_reviewed'}}),'human');
+  assert.equal(reviewCategory({...edition,publication_policy:'litmundi-literary-v1',review:{status:'expert_reviewed'}}),'human');
+  assert.equal(reviewCategory(undefined),'unreviewed');
 });
 
 test('many-to-many alignment obeys explicit links and target reading order', () => {
@@ -38,4 +58,11 @@ test('broken, duplicated or incomplete alignment fails closed', () => {
 test('Vietnamese and accented catalog search works without diacritics', () => {
   assert.equal(normalizeQuery('  Đường ĐỜI  '),'duong doi');
   assert.equal(normalizeQuery('Sōseki'),'soseki');
+});
+
+test('structured metadata cannot break out of its script element', () => {
+  const metadata = {name:'</script><img src=x onerror="alert(1)">',description:'Văn chương < patrimoine & literatura'};
+  const serialized = serializeStructuredData(metadata);
+  assert.equal(serialized.includes('<'),false);
+  assert.deepEqual(JSON.parse(serialized),metadata);
 });

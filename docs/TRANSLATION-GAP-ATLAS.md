@@ -1,5 +1,14 @@
 # Translation Gap Atlas
 
+> **Current publication policy:** [ADR-0009](adr/0009-ai-first-publication.md) and
+> [Quality v2](QUALITY.md) supersede the human-review release and recruitment
+> prerequisites in this dated survey. Publication now requires one complete,
+> current AI assessment with an unrounded weighted score ≥8.6, source rights,
+> lawful reuse, exact hashes, full coverage and no unresolved major/critical
+> finding. Human review and reader feedback are optional after release. The
+> research findings, effort estimates and reviewer-capacity statements below
+> remain historical evidence, not current publication gates.
+
 Research date: **1 November 2026**. The canonical survey is
 [`research/translation-gap-atlas.json`](../research/translation-gap-atlas.json).
 It covers **20 works, 40 work–language assessments, 12 source languages and 81 evidence records**.

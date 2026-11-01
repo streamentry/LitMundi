@@ -1,0 +1,132 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "pardo-encaje-vi-ai-draft-2026",
+  "source_edition_id": "pardo-encaje-es-administracion-c1898",
+  "reviewed_at": "2026-11-01",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (GPT-6 Astra Pro)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "GPT-6 Astra Pro",
+    "method": "Full original-to-Vietnamese passage comparison followed by literary and editorial critique.",
+    "limitations": "Single-model AI assessment, not independent human verification, model diversity or consensus. The assessor also edited the text and had access to prior AI scores and notes; this is not a blind review. All canonical source/target passages were compared, but no new historical-witness collation, native-reader trial or recorded oral performance was conducted for this v2 assessment. Scores are subjective judgments, and undetected errors may remain. This record supplies no legal clearance or human endorsement."
+  },
+  "source_sha256": "a3caa4cfea7ce7b9183e511a21de4ff81a53b31ac5ac289eaba036e8ce3f053e",
+  "target_sha256": "ec7de7c45c293cb21c38a9054993f8fd072b5263046c3fcce14c7ee610c08f29",
+  "segments_reviewed": [
+    "pardo-bazan-el-encaje-roto:1.1",
+    "pardo-bazan-el-encaje-roto:1.2",
+    "pardo-bazan-el-encaje-roto:1.3",
+    "pardo-bazan-el-encaje-roto:1.4",
+    "pardo-bazan-el-encaje-roto:1.5",
+    "pardo-bazan-el-encaje-roto:1.6",
+    "pardo-bazan-el-encaje-roto:1.7",
+    "pardo-bazan-el-encaje-roto:1.8",
+    "pardo-bazan-el-encaje-roto:1.9",
+    "pardo-bazan-el-encaje-roto:1.10",
+    "pardo-bazan-el-encaje-roto:1.11",
+    "pardo-bazan-el-encaje-roto:1.12",
+    "pardo-bazan-el-encaje-roto:1.13",
+    "pardo-bazan-el-encaje-roto:1.14",
+    "pardo-bazan-el-encaje-roto:1.15"
+  ],
+  "scores": {
+    "semantic_fidelity": 8.5,
+    "literary_voice": 8.5,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 8.5,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.1",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Changed the concluding hôn lễ to cuộc kết duyên, preserving the source’s parallel collapse of the gathering and the proposed union instead of suggesting merely that the ceremony ended."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Changed anh rể sắp cưới to anh rể tương lai, the natural future-kinship expression. No family relationship or giver of the bracelets was changed."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.4",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Replaced the unnatural ceremony wording Lễ cưới đã vào hàng with Nghi lễ đã được sắp đặt; retained plural sponsors and restored the crowd’s final exclamatory reaction. This improves the imagined tableau without turning it into eyewitness narration."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.4",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Used inner single quotation marks for the quoted word không inside the crowd’s double-quoted speech. Changed trở bệnh to đổ bệnh to remove an unintended suggestion of relapse."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.7",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Closed the Vietnamese parenthetical dash around the recollection of the wedding. The source witness’s punctuation and the three-year chronology are unchanged."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.11",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Replaced the backward-pointing đúng cái tiếng vải rách ấy with an identifiable tearing sound, and rendered se alzó un telón as a curtain being pulled up. The torn fabric and exposed soul remain linked without a modern diagnosis."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.13",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Changed trào ra ngoài ý định to tự bật ra. The utterance remains unplanned while the following paradox—speaking to oneself so everyone hears—remains explicit."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.15",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Changed Họ sẽ chẳng bao giờ tin to Nói ra, họ cũng chẳng bao giờ tin, preserving the counterfactual explanation rather than presenting only a future prediction."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.4",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Roca antigua is still rendered generally as antique precious stones. The precise historical jewelry material/cut and singular or collective force have not been established; a diamond or rock-crystal identification would be unsupported."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.8",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The rendering of un decir Jesús retains both an instant and the religious utterance. That explains the idiom but slightly overweights Micaelita’s conversational phrase. No more economical alternative was adopted without losing either aspect."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The accumulating ceremony paragraph preserves the social display and imagined frame, but its Vietnamese breath groups and register remain uneven. The local repairs do not resolve the entire long-period cadence."
+    },
+    {
+      "segment": "pardo-bazan-el-encaje-roto:1.10",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The historical unit tercia remains in the text with an editorial glossary definition. This avoids an unsupported precise conversion but may interrupt an unannotated Vietnamese reading."
+    }
+  ],
+  "summary": "Fresh v2 AI assessment of all 15 Spanish/Vietnamese paragraphs after one bounded revision of seven passages. The weighted result is 8.55/10: fidelity 8.5 for the complete imagined-wedding/later-confession structure and preserved refusal, suspicion and agency, with local precision and historical terminology still imperfect; voice improves from the earlier 8.0 to 8.5 through a clearer ceremony sequence, the crowd’s exclamation, the tearing/curtain images and a more conversational unintended refusal, but the doubled Jesús idiom and extended tableau remain uneven; naturalness 8.5, imagery 8.5 and mechanics 9.0. No unresolved major or critical finding was identified, but the remaining minor issues do not justify raising another category simply to reach 8.6. This result is below the v2 threshold and the Vietnamese edition should remain a draft. The old 8.425 v1 preflight and adversarial hashes are preserved as history. No human endorsement or new license permission is asserted."
+}

@@ -1,7 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import {strings,supported,type Locale} from '../../../lib/i18n';
-import {catalog,languageNames,editionsForWork,readableEditions,bestEdition} from '../../../lib/corpus';
+import {catalog,languageNames,editionsForWork,readableEditions,bestEdition,reviewCategory} from '../../../lib/corpus';
 import {pagePath} from '../../../lib/urls';
 export function getStaticPaths(){return supported.flatMap(lang=>catalog.map(work=>({params:{lang,work:work.id}})));}
 const lang=Astro.params.lang as Locale;const t=strings[lang];
@@ -23,7 +23,7 @@ const isDemo=w.visibility!=='public'||!reading.some(e=>e.status==='published');
   </section>
   <section class="section" aria-labelledby="edition-list"><h2 id="edition-list">{t.all}</h2><div class="grid">
     {reading.map(e=><article class="card">
-      <span class="pill">{e.status==='sample'?t.sample:e.kind==='source'?t.sourcePublished:t.translationPublished}</span>
+      <span class="pill" data-review-category={reviewCategory(e)}>{e.status==='sample'?t.sample:reviewCategory(e)==='ai'?t.aiReviewed:reviewCategory(e)==='human'?t.humanReviewed:e.kind==='source'?t.sourcePublished:t.translationPublished}</span>
       <h3>{languageNames[e.language]??e.language}</h3><p lang={e.kind==='source'?'en':e.language} class="muted">{e.label}</p>
       <a class="card-link" href={pagePath(lang,'read',w.id,e.id)}>{t.read} <span aria-hidden="true">→</span></a>
     </article>)}

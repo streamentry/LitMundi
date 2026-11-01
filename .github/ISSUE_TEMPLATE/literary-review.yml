@@ -1,7 +1,10 @@
-name: Independent literary review
-description: Volunteer or submit evidence to evaluate an existing translation.
-title: "Literary review: "
+name: Literary feedback (optional)
+description: Share passage-level feedback or volunteer an optional literary review.
+title: "Literary feedback: "
 body:
+  - type: markdown
+    attributes:
+      value: "LitMundi can publish AI-reviewed translations at a weighted score of at least 8.6. Human feedback is welcome after release and is not a prerequisite. You may discuss one passage; only claim full-work review if you actually completed it."
   - type: input
     id: edition
     attributes:
@@ -12,23 +15,21 @@ body:
   - type: textarea
     id: background
     attributes:
-      label: Relevant language and literary editing experience
+      label: Relevant language or literary experience (optional)
       description: Describe qualifications without sharing sensitive personal information.
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: independence
     attributes:
-      label: Independence and conflict of interest
+      label: Public feedback
       options:
-        - label: I did not author the machine draft, and will evaluate independently.
-          required: true
         - label: I understand my review is public and may be cited by the project.
           required: true
   - type: textarea
     id: plan
     attributes:
-      label: Evidence and review plan
-      description: Read docs/QUALITY.md. Actual approval must be recorded in a signed-off PR review and schema-conforming JSON, not merely in an issue.
+      label: Passage, observation and proposed improvement
+      description: Give passage IDs and source evidence where relevant. Describe any involvement in the translation. A formal optional human review may be recorded separately under docs/QUALITY.md; an issue does not become an AI score or a human certification automatically.
     validations:
       required: true

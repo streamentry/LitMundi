@@ -27,6 +27,10 @@ try {
     const txt=await fs.readFile(path.join(output,'editions',e.id+'.txt'),'utf8');
     const prose=JSON.parse(await fs.readFile(path.join(archive,e.content_path),'utf8'));
     for(const [id,text] of Object.entries(prose)){assert.ok(txt.includes('['+id+']'));assert.ok(txt.includes(text));}
+    if(e.review.status==='ai_reviewed'){
+      const html=await fs.readFile(path.join(output,'editions',e.id+'.html'),'utf8');
+      for(const content of [txt,html]){assert.ok(content.includes('AI-reviewed translation'));assert.ok(content.includes(String(e.review.score)+'/10'));assert.ok(content.includes('No independent human literary review is claimed'));}
+    }
   }
   const names=await fs.readdir(path.join(output,'editions'));
   for(const e of editions.filter(e=>e.status!=='published')) assert.ok(!names.some(n=>n.startsWith(e.id+'.')),'Draft/sample must not be restored as publication.');

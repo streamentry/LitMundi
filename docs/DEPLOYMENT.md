@@ -37,7 +37,7 @@ npm run export
 npm run verify:archive
 ```
 
-On a restricted workstation, use `ASTRO_TELEMETRY_DISABLED=1` if optional telemetry settings cannot be written. CI already sets it. `quality:status` correctly reports the three Vietnamese drafts as blocked; that is distinct from a failed mechanical build.
+On a restricted workstation, use `ASTRO_TELEMETRY_DISABLED=1` if optional telemetry settings cannot be written. CI already sets it. `quality:status` reports current v2 AI eligibility, selected evidence and retained historical assessments. A below-threshold draft remains blocked without preventing a valid build of other eligible editions; human review is not a release prerequisite.
 
 ## Production verification
 

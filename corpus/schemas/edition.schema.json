@@ -198,7 +198,8 @@
             "source_checked",
             "bilingual_reviewed",
             "literary_edited",
-            "expert_reviewed"
+            "expert_reviewed",
+            "ai_reviewed"
           ]
         },
         "reviewers": {
@@ -216,6 +217,33 @@
         },
         "notes": {
           "type": "string"
+        },
+        "rubric_id": {
+          "enum": [
+            "litmundi-literary-v1",
+            "litmundi-literary-v2"
+          ]
+        },
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "ai_reviewers": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "record_paths": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^corpus/reviews/[a-z][a-z0-9-]+/[a-z][a-z0-9-]+/[A-Za-z0-9-]+\\.json$"
+          }
         }
       },
       "additionalProperties": false
@@ -298,6 +326,64 @@
             }
           },
           "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "publication_policy": {
+      "enum": [
+        "litmundi-literary-v1",
+        "litmundi-literary-v2"
+      ]
+    },
+    "generation": {
+      "type": "object",
+      "required": [
+        "kind",
+        "tools",
+        "direct_from_original",
+        "human_contributors",
+        "notes"
+      ],
+      "properties": {
+        "kind": {
+          "const": "ai_generated"
+        },
+        "tools": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "direct_from_original": {
+          "type": "boolean"
+        },
+        "human_contributors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "consent_url"
+            ],
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1
+              },
+              "consent_url": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 30
         }
       },
       "additionalProperties": false

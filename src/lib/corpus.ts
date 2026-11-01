@@ -3,6 +3,7 @@ import languages from '../../corpus/catalog/languages.json';
 import editionRecords from '../../corpus/catalog/editions.json';
 export {supported,isLocale,strings} from './i18n';
 export type {Locale} from './i18n';
+export {reviewCategory} from '../../scripts/lib/reader-data.mjs';
 import {isPublicEdition,preferredEdition,alignedPassages} from '../../scripts/lib/reader-data.mjs';
 
 /** The corpus, not the website, is the system of record. */
@@ -16,11 +17,11 @@ export interface Edition {
   id: string; work_id: string; language: string; kind: 'source' | 'translation';
   status: 'planned' | 'draft' | 'sample' | 'published' | 'withdrawn';
   label: string; content_path: string | null; source_edition_id: string | null;
-  legacy_slugs: string[];
+  legacy_slugs: string[]; publication_policy?: string;
   provenance: { citation: string; catalog_url: string | null; text_url: string | null; retrieved_at: string | null; source_witness: string | null };
   rights: { status: string; license: string | null; basis: string; jurisdictions_assessed: string[]; evidence_urls: string[] };
   credits: { author: string; translator: string | null; editors: string[]; ai_assisted: boolean };
-  review: { status: string; reviewers: string[]; evidence_urls: string[]; notes: string };
+  review: { status: string; reviewers: string[]; ai_reviewers?:string[]; evidence_urls: string[]; record_paths?:string[]; score?:number; rubric_id?:string; notes: string };
 }
 export const catalog = works as Work[];
 export const editions = editionRecords as Edition[];

@@ -1,42 +1,45 @@
-# Roadmap: evidence before scale
+# Roadmap: publish, learn and preserve
 
-State of the first three-work release cycle, 2026-11-01. This separates implemented repository work from external evidence still required; it does not certify an unverified deployment or translation.
+This roadmap follows the AI-first publication policy adopted on 2026-11-01 in [ADR-0009](adr/0009-ai-first-publication.md). It describes current priorities. Earlier dated release and verification records remain historical and should be read with their original rubric and evidence.
 
-## Implemented
+## Foundation
 
-- Three complete, legally assessed original editions: Wilde's *The Artist* (English), Machado's *Um Apólogo* (Portuguese) and Pardo Bazán's *El encaje roto* (Spanish), with exact witnesses and disclosed technical source checks.
-- Three complete direct Vietnamese drafts: **42 canonical passages**, explicit alignments, glossaries, interpretive alternatives, revision records and hash-bound AI preflights. All remain withheld from public reading.
-- [Translation Gap Atlas](TRANSLATION-GAP-ATLAS.md): 20 works × two target languages, 12 original languages and 81 evidence records. Existing translations and search limitations are explicit; no verified absence, independent inadequacy judgment or measured demand is claimed.
-- Four interface locales; accessible reading and passage navigation; edition/language fallback; published-text search; source/translation alignment support; correction links; optional local reading position; canonicals, locale alternatives, sitemap and structured metadata.
-- Portable JSON, TXT, TSV and EPUB publication exports, plus a separate editorial archive with labelled review packets, per-edition rights and fixity records.
-- Original quality thresholds retained, with current-versus-historical review handling, full schema validation, PR-base identifier checks and explicit maintainer verification.
-- Deterministic archive verification and an executable Python 3 offline restoration drill; GitHub Actions archive retention is 30 days.
+The repository contains complete original and Vietnamese texts for the initial Wilde, Machado and Pardo Bazán works, with stable passage identities, alignments, exact witnesses, source checks, glossaries, interpretive alternatives and revision history. The catalog and `npm run quality:status` report current edition states; this roadmap does not infer publication from an earlier draft score.
 
-Actual release evidence belongs in the completed CI/deployment run and [verification records](verification/README.md). A passing local check does not establish that production has updated.
+The [Translation Gap Atlas](TRANSLATION-GAP-ATLAS.md) covers 20 works across two target languages, 12 original languages and 81 evidence records. Existing translations and search limitations are explicit. It claims no verified absence, independent inadequacy judgment or measured reader demand.
 
-## The next editorial milestone
+The reader supports four interface locales, accessible passage navigation, edition selection, published-text search, source/translation alignment, correction links, local reading position and portable downloads. The separate editorial archive retains review history, rights and fixity data and supports offline restoration.
 
-The shortest path is to finish **one** independently reviewed Vietnamese edition, beginning with Wilde's five passages:
+Actual deployment evidence belongs in the successful CI/deployment run and [verification records](verification/README.md). A local check does not establish that production has updated.
 
-1. Obtain one qualified English–Vietnamese literary review against the exact source and score-free review packet; revise the text and retain disagreements.
-2. Obtain the second independent review of the final text. Each reviewer must meet every [quality threshold](QUALITY.md); all evidence must match the final hashes.
-3. Record named human editorial contributions and affirmative permission for CC BY 4.0 or CC0. A maintainer must authenticate the evidence before a publication PR.
-4. After deployment, verify reading, downloads, metadata, corrections and draft exclusion on the actual public URLs.
+## Release eligible AI translations
 
-No qualified reviewer commitment or contributor grant has yet been verified. Multiple AI evaluations cannot replace those steps. Machado and Pardo Bazán remain complete review packets while this work proceeds.
+For each complete translation:
 
-## Reader evidence before another batch
+1. Confirm its exact source, source-check evidence, rights rationale, lawful reuse and AI attribution under [AI content policy](AI-CONTENT-POLICY.md).
+2. Obtain one full source/target AI assessment under `litmundi-literary-v2`, covering every canonical passage and bound to the final hashes.
+3. Revise weaknesses and resolve current major or critical findings. The exact weighted score must reach **8.6**; 8.55 fails. Keep half-point category scores and the 35/25/15/15/10 weights.
+4. Select the current review record, validate eligibility and publish the edition through the release workflow.
+5. Verify the deployed reader, alignment, metadata, downloads and correction links.
 
-After one translation is approved, invite a small group of relevant readers through an explicitly authorized outreach process. Use the site's feedback form to record completed readings, stopping points, voluntary returns, useful corrections, recommendations and comparisons with existing lawful editions. The current project has no measured reader cohort or retention result.
+No human reviewer, editor, attestation or reader cohort is a prerequisite. An AI score is a disclosed judgment, not a human certification. Prior v1 scores and preflights remain history and cannot be relabelled as qualifying v2 evidence.
 
-The [editorial workflow](EDITORIAL-WORKFLOW.md) proposes 5–10 initial readers and at least five completed readings with specific evidence of added value as a **provisional experiment**, not a validated benchmark. If existing editions meet the need better, link to or partner with them. Indonesian remains a research comparator until a specific reader need and bilingual review capacity are established.
+## Improve published editions through optional feedback
+
+Invite voluntary readings and corrections after release, using explicitly authorized outreach. Record actual completed readings, stopping points, useful corrections, recommendations and comparisons with lawful existing editions. Do not turn automated browsing or AI responses into reader-demand evidence.
+
+A small pilot reading group can help guide improvements and future work selection; no minimum group size or response count is a publication gate. Human literary review is welcome at any stage but remains optional. When feedback identifies a material correction, re-evaluate and republish the corrected text. A serious current issue blocks the affected edition until resolved.
+
+Indonesian remains a research comparator. Before expanding to another language, document the intended reader benefit, source rights and a credible way to assess the source/target pair. Do not invent reviewer availability or treat the Atlas's incomplete searches as proof that a translation is missing.
 
 ## Preservation and succession
 
-Obtain an actual independent archive custodian, a separately retained digest and a documented restore result. Then establish additional custody and a named succession arrangement. No external mirror or successor has accepted responsibility. The [current executable procedure](PRESERVATION.md) and [governance terms](../GOVERNANCE.md) make a handoff possible without pretending it has happened.
+Obtain an actual independent archive custodian, a separately retained digest and a documented restore result. Then establish additional custody and a named succession arrangement. No external mirror or successor is represented as having accepted responsibility.
 
-## Continue, pause or redirect
+The [executable restoration procedure](PRESERVATION.md) and [governance terms](../GOVERNANCE.md) support a handoff. GitHub's 30-day workflow artifact retention does not establish independent custody.
 
-Continue a work when source rights, editorial capacity and a concrete reader benefit are credible. Pause publication when any required human review, permission, source integrity or current hash is missing. Pause new translation production if reviewers cannot be secured or reader feedback shows no added value. Redirect effort toward corrections, source preservation or collaboration rather than increasing the number of unverified drafts.
+## Continue, revise or redirect
 
-Do not add a database, account system, bulk generation pipeline, semantic-search service or speculative preservation network to avoid the present human and reader bottlenecks.
+Continue publication when source rights, lawful reuse, complete current assessment evidence and the v2 quality gate are satisfied. Revise when the score is below threshold or a serious issue is open. Withhold publication when source integrity, rights or matching evidence is missing.
+
+Use the project's actual editorial effort and optional reader feedback to guide additional work. Correcting an existing edition, preserving a source or linking to a better lawful edition can be more valuable than adding another work. Add infrastructure when a concrete need justifies it.

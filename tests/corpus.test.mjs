@@ -24,11 +24,16 @@ test('entire source is present as five canonical passages',()=>{
   assert.match(source['wilde-the-artist:1.1'],/^One evening/);
   assert.match(source['wilde-the-artist:1.5'],/Pleasure that abideth for a Moment\.$/);
 });
-test('translation draft is aligned but not published',()=>{
+test('translation preserves aligned identities across publication-policy changes',()=>{
   assert.deepEqual(Object.keys(draft),structure.segment_ids);
   assert.equal(alignment.links.length,5);
-  assert.equal(editions.find(e=>e.id===alignment.edition_id)?.status,'draft');
-  assert.ok(editions.filter(e=>e.status==='published').every(e=>e.kind==='source'));
+  const edition=editions.find(e=>e.id===alignment.edition_id);
+  assert.ok(['draft','published'].includes(edition.status));
+  for(const published of editions.filter(e=>e.kind==='translation'&&e.status==='published')){
+    assert.equal(published.publication_policy,'litmundi-literary-v2');
+    assert.equal(published.review.status,'ai_reviewed');
+    assert.ok(published.review.score>=8.6);
+  }
 });
 test('legacy demonstration URL is preserved',()=>{
   const p=editions.find(e=>e.id==='proust-swann-fr-sample');

@@ -1,84 +1,87 @@
-# LitMundi Literary Translation Quality Standard — v1
+# LitMundi Literary Translation Quality Standard — v2
 
-**Release threshold: ≥9.0/10 from each of two independent qualified human literary reviewers.** This standard is project-specific, informed by [MQM's typology](https://www.themqm.org/mqm-pillars/typology/) and [scoring guidance](https://www.themqm.org/mqm-pillars/the-mqm-scoring-models/), but it is **not** an official MQM score.
+**Publication threshold: an unrounded weighted score of at least 8.6/10 from one complete AI assessment of the final source and target text.** Human review is optional and may follow publication. Source rights, lawful reuse, complete coverage, current content hashes and resolution of serious issues remain required.
+
+[ADR-0009](adr/0009-ai-first-publication.md) adopts this AI-first policy. The machine-readable rubric is [`litmundi-literary-v2`](../corpus/reviews/rubric-literary-v2.json). The [v1 rubric](../corpus/reviews/rubric-literary-v1.json), earlier reviews and dated reports remain historical records under the policy that applied when they were created.
 
 ## Weighted rubric
 
-| Criterion | Weight | At 9–10 |
-|---|---:|---|
-| Semantic fidelity and completeness | 35% | No substantive added, omitted or inverted meaning; preserves purposeful ambiguity. |
-| Voice, rhythm and register | 25% | Maintains authorial voice, repetition, rhetorical force and historical register. |
-| Naturalness in target language | 15% | Idiomatic literary prose without calques; withstands reading aloud. |
-| Imagery and terminology | 15% | Preserves metaphors, symbols, semantic contrasts, and recurring terms. |
-| Grammar and editorial mechanics | 10% | Reliable punctuation, spelling, morphology, syntax, typography. |
+| Criterion | Weight | What the assessment examines |
+| --- | ---: | --- |
+| Semantic fidelity and completeness | 35% | Added, omitted or inverted meaning; narrative relationships; purposeful ambiguity. |
+| Voice, rhythm and register | 25% | Authorial voice, repetition, rhetorical force, cadence and historical register. |
+| Naturalness in the target language | 15% | Idiomatic literary prose, readable sentences and avoidance of unintended calques. |
+| Imagery and terminology | 15% | Metaphors, symbols, semantic contrasts, names and recurring terms. |
+| Grammar and editorial mechanics | 10% | Punctuation, spelling, morphology, syntax and typography. |
 
-Each dimension is rated 0–10 in 0.5-point increments. Weighted score = Σ (dimension score × weight) / 100. Marks are **evaluative judgments**, not objective measurements; reviewers should include passage-level rationale. No published claim of statistical reliability until the rubric is calibrated against independent human assessments.
+Rate each category from 0 to 10 in **0.5-point increments**. Calculate:
 
-### Anchors
+`weighted score = Σ(category score × category weight) / 100`
 
-- **9.0–10.0** Publication-grade: faithful and stylistically accomplished, only inconsequential minor issues.
-- **8.0–8.99** Strong draft: meaningful local improvements still necessary.
-- **7.0–7.99** Material revision: several weaknesses in voice or nuance.
-- **Below 7.0** Unacceptable for publication.
+The exact weighted result determines eligibility. **8.55 fails; it must not be rounded to 8.6 to pass.** A display can format a score for readers, but formatting must not alter the comparison. V2 has no additional category floors and does not require a second assessment.
 
-## Non-compensatory publication gates
+| Scores in the order above | Exact weighted score | Numeric gate |
+| --- | ---: | --- |
+| 9, 8.5, 8, 8.5, 8 | 8.55 | Fails |
+| 9, 8.5, 8, 8.5, 8.5 | 8.60 | Passes |
 
-1. Two genuinely independent qualified bilingual **human** reviewers must each score **≥9.0** (not just average ≥9).
-2. Semantic fidelity ≥9 for each reviewer; every other dimension ≥8.
-3. 100% of canonical segments assessed; no unresolved **major** or **critical** issues. Critical issues include fabricated content, copyright violations, or intentionally false attestations.
-4. Review records identify edition, source edition, exact SHA-256 of the source and target JSON, reviewer GitHub identity and direct GitHub PR review evidence.
-5. Exact source witness and legal provenance are recorded; rights are explicitly `cleared`; translator/editor consent and open license (`CC-BY-4.0` or `CC0-1.0`) are documented.
-6. The metadata declares `review.status` as a completed independent review, lists both reviewers, and lists their evidence URLs. The edition `status` must be changed to `published` through a reviewed pull request. CI checks the structured declarations, scores, coverage and hashes before deployment; the maintainer verifies their authenticity.
+A passing number is only one release condition. An unresolved major mistranslation still blocks publication even if the weighted score is high.
 
-Publication also requires an `editorial_attestation` in the edition metadata. It records the verifying maintainer, date, reviewable PR evidence, exact final source and target hashes, approving reviewer handles, and contributor license-consent URLs. Reviewers disclose their language pair, qualifications and conflicts. This makes the existing editorial responsibility inspectable without changing the rubric or its thresholds.
+The rubric is project-specific and informed by [MQM's typology](https://www.themqm.org/mqm-pillars/typology/) and [scoring guidance](https://www.themqm.org/mqm-pillars/the-mqm-scoring-models/); it is not an official MQM score. Scores are **evaluative AI judgments**, not objective measurements, human certification or a guarantee of literary merit. Include concrete passage-level reasons and disclose uncertainty. Do not claim statistical calibration or reviewer independence that has not been established.
 
-GitHub evidence URLs and JSON claims are not independently authenticated by local CI. Repository maintainers must personally verify reviewer identities, independence, qualifications, ownership and approval in the PR. Automated checks cannot establish literary quality. A translation with a model-generated 10/10 and no qualified human review is **not published**.
+## Publication requirements
 
-## Review history and source checks
+A translated edition is eligible only when all of these conditions hold:
 
-Keep well-formed negative, advisory and superseded reviews. A low score or an open serious finding is valid editorial evidence for a draft; it is a publication blocker, not a reason to delete the record or disguise the finding. Reviews whose source or target hashes no longer match remain historical and cannot approve the current text. Edition metadata selects the current approving evidence URLs, and any current unresolved major or critical finding blocks publication even if another review gives a high score.
+1. **Complete text and alignment.** The exact source edition is identified; the full source and target are present; every canonical passage is covered and the alignment is complete.
+2. **One current AI assessment.** At least one structured review explicitly uses `kind: ai_review` and `litmundi-literary-v2`, assesses the entire source and target, includes every canonical passage ID, and records all five category scores with reasons.
+3. **Exact evidence and threshold.** The selected review's SHA-256 digests match the current source and target JSON, and its unrounded weighted score is at least 8.6. Edition metadata selects the canonical evidence using `review.record_paths` and identifies AI assessors separately in `review.ai_reviewers`.
+4. **No unresolved serious issue.** Any current unresolved major or critical finding blocks publication, including a finding in another current AI or optional human review. A favourable selected score cannot cancel such a finding.
+5. **Source rights and lawful reuse.** The source witness and jurisdictional rights rationale are recorded, rights are cleared, and the edition has a documented lawful reuse basis. AI-only output defaults to CC BY 4.0 (`CC-BY-4.0`) only to the extent the publisher controls applicable rights, as explained in [AI content policy](AI-CONTENT-POLICY.md). This does not create copyright, imply human authorship or restrict public-domain material. Source provenance, separate source-rights terms and AI attribution remain visible.
+6. **Publication metadata and validation.** The edition explicitly becomes `published` only after its evidence and all publication checks pass. The public reader, search and publication downloads include eligible published editions.
 
-An AI preflight can identify omissions, ambiguity, terminology and cadence questions. It cannot count as either human review, authenticate a contributor, or grant a license. Preserve its exact hashes and passage-level reasoning, including rejected revisions and unresolved questions. A numerical increase is not evidence of human approval.
+There is **no mandatory human reviewer, named human editor or human editorial attestation** under v2. Keep `review.reviewers` for actual human reviewers; never populate it with an AI identity or invent qualifications, consent, PR reviews or contributors. If human creative material is actually incorporated, document its attribution and lawful reuse according to the AI content policy and the edition's rights record.
 
-Published originals have a separate technical source gate: exact witness and legal provenance, complete canonical coverage, and a source-check record bound to the source digest. That record identifies the witness pages, checked segments, method and normalization decisions. This cycle's checks are explicitly **AI-assisted passage comparisons**, including visual facsimile checks where applicable; they are not human proofreading or critical-edition certification. This distinction is documented in [ADR-0007](adr/0007-review-history-and-technical-source-checks.md) and never substitutes for translation review.
+CI validates the structured evidence, arithmetic, passage coverage, references and hashes. It does not prove that a model's literary judgment is correct, authenticate a person or settle a legal question.
 
-## Reviewer process
+## Assessment and revision process
 
-1. Work independently and **do not read the AI preflight score first**, to avoid anchoring.
-2. Read the full original from the exact cited source witness and the full target.
-3. Annotate every questionable passage using immutable segment IDs; classify as `minor`, `major`, `critical`, and `open` or `resolved`.
-4. Reconcile ambiguous choices with concrete philological or literary evidence, not model confidence.
-5. Review all segments and assign all five scores. Submit a distinct JSON record in `corpus/reviews/<work-id>/<edition-id>/`, with an accurate GitHub PR review permalink, qualifications and conflict disclosure. Keep earlier records when submitting a refreshed assessment.
-6. Ensure the record hashes reflect the FINAL reviewed text; after any edit the previous approval becomes stale and requires rechecking.
-7. Obtain two independent approvals, named translator/editor attribution, rights evidence and license consent. Add the maintainer's hash-bound attestation and raise a PR changing edition status to `published`.
-8. CI checks data integrity and scores; a maintainer checks authenticity, ethics and literary judgement. The main-branch workflow deploys eligible published content to GitHub Pages; verify the actual deployed result after the workflow succeeds.
+1. Read the complete canonical source and complete target against the specified edition. Consult the source witness when a transcription or interpretation needs checking.
+2. Examine fidelity, voice, naturalness, imagery and mechanics. Identify questions by stable passage ID and explain the relevant source wording.
+3. Record the assessment honestly as AI work, including material generation or revision involvement. Do not claim an independent human read or copy names from a template.
+4. Classify findings as `minor`, `major` or `critical`, and as `open` or `resolved`. Major findings include material distortion, omission, misleading imagery or loss of an important formal effect. Critical findings include fabricated content, unlicensed material, falsified evidence or pervasive meaning change.
+5. Revise substantive weaknesses and record accepted and rejected proposals. Re-evaluate the final text; do not change scores merely to cross the threshold.
+6. Save the complete v2 assessment in `corpus/reviews/<work-id>/<edition-id>/`, with exact final hashes and complete passage coverage. Select its path in the edition record, then run the publication checks.
+7. Publish the eligible edition with its AI attribution, source provenance, rights and assessment evidence. Invite optional human readings and corrections after release.
 
-Prepare source/draft review packets with `npm run review:packet`. The local HTML packets omit AI scores to support independent assessment. Adjacent JSON templates have unfilled identities and null scores and are intentionally invalid until a real reviewer completes them. They belong to the editorial archive and are excluded from public publication downloads. See the full [editorial workflow](EDITORIAL-WORKFLOW.md).
+Any source or target edit makes a previously bound assessment stale. Refresh the assessment against the final text before republication. A material correction requires literary re-evaluation and a new publication decision, not just a new hash. Describe the work actually rechecked; do not represent a narrow correction check as a new full reading.
 
-### Checking source/translation hashes
+## Review history and optional human feedback
 
-```bash
-shasum -a 256 corpus/segments/wilde-the-artist/wilde-artist-en-methuen-1913.json
-shasum -a 256 corpus/segments/wilde-the-artist/wilde-artist-vi-ai-draft-2026.json
+Keep negative, advisory and superseded reviews. A low score is valid evidence and a reason to revise; it is not a reason to delete the record. A review with obsolete hashes cannot approve the current text. Historical v1 preflights and human assessments remain under their original rubric; changing the policy does not turn them into v2 AI assessments.
+
+Optional human reviewers and readers can report mistakes, compare editions and suggest improvements after release. Human reviewers should identify their actual role, language competence and any conflicts. Reader feedback is useful evidence without being a full rubric review. No minimum number of human readers or approvals is a publication prerequisite.
+
+Investigate serious reports promptly. Record a confirmed current major or critical issue and withhold the affected edition until it is resolved and re-evaluated. For a credible rights dispute, follow [Governance](../GOVERNANCE.md) and the [AI content policy](AI-CONTENT-POLICY.md). Retain the concern and resolution history.
+
+## Original-source checks
+
+Published originals retain their separate technical gate: an exact witness and legal provenance, complete canonical coverage, and a source-check record bound to the source digest. Record witness pages, checked passages, comparison method and normalization decisions.
+
+An AI-assisted passage comparison, including visual facsimile checking when performed, is a technical source check. It is not human proofreading or critical-edition certification. [ADR-0007](adr/0007-review-history-and-technical-source-checks.md) records this distinction; [ADR-0009](adr/0009-ai-first-publication.md) changes the translation publication policy without removing the source gate.
+
+## Check current eligibility
+
+```sh
 npm run validate
 npm run quality:status
 npm test
 ```
 
-## Pilot status (2026-11-01)
+The edition catalog and current hash-bound v2 records determine eligibility. Dated pilot dossiers and earlier release reports explain past decisions; their old thresholds, scores and blocked states do not describe current policy automatically.
 
-The three complete Vietnamese drafts cover all **42 canonical passages**. All remain **BLOCKED**, with **0 of 2 required human reviews** per edition and no cleared contributor publication license.
+`npm run review:packet` prepares local full-text comparison packets. Their unfilled templates are aids, not completed review evidence. See [Editorial workflow](EDITORIAL-WORKFLOW.md) for assessment, release and correction steps.
 
-| Draft | Passages | Current AI preflight | Editorial dossier |
-| --- | ---: | ---: | --- |
-| Wilde, *The Artist* | 5 | 8.60 | [Source, revisions and open questions](PILOT-WILDE-THE-ARTIST.md) |
-| Machado, *Um Apólogo* | 22 | 8.55 | [Source, revisions and open questions](PILOT-MACHADO-UM-APOLOGO.md) |
-| Pardo Bazán, *El encaje roto* | 15 | 8.43 | [Source, revisions and open questions](PILOT-PARDO-BAZAN-EL-ENCAJE-ROTO.md) |
+## Versioning and preservation
 
-These are advisory judgments recorded against the current text, not measured translation quality. The original Wilde 8.6 record dated 2026-10-31 remains untouched as historical evidence without content hashes; the dated current assessment is separate. Independent AI adversarial checks are also disclosed as AI work and confer no human-review eligibility.
-
-## Long-term governance
-
-The rubric itself is versioned. Changing weights or thresholds requires a new ADR, migration plan and a fresh evaluation where appropriate. Preserve reviews, retractions, disagreements, scores, exact digests and reviewer provenance with every archival release. Don't reverse-engineer a score by tuning the text solely to satisfy a model grader.
-
-[Preservation](PRESERVATION.md) and [ADR-0008](adr/0008-portable-publications-and-offline-restoration.md) explain how published exports remain separate from the labelled editorial archive, including its drafts, review history and edition-specific rights.
+Changing rubric weights, thresholds or publication requirements requires a new rubric version and ADR. Preserve old rubrics, scores, disagreements, exact digests and review provenance. [Preservation](PRESERVATION.md) and [ADR-0008](adr/0008-portable-publications-and-offline-restoration.md) describe publication exports and the separate labelled editorial archive.

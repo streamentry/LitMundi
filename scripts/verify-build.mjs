@@ -1,13 +1,16 @@
 import {existsSync,readFileSync,readdirSync,statSync} from 'node:fs';
 import {join,relative,resolve} from 'node:path';
 import assert from 'node:assert/strict';
+import {alignedPassages,isPublicEdition,reviewCategory} from './lib/reader-data.mjs';
 
 const base='/LitMundi/',origin='https://streamentry.github.io';
-const locales=['en','vi','fr','es'];
 const read=path=>JSON.parse(readFileSync(path,'utf8'));
+const locales=Object.keys(read('src/lib/locales.json'));
 const works=read('corpus/catalog/works.json'),editions=read('corpus/catalog/editions.json');
-const visible=works.filter(work=>work.visibility==='public'&&editions.some(edition=>edition.work_id===work.id&&edition.status==='published'));
-const published=editions.filter(edition=>edition.status==='published'&&visible.some(work=>work.id===edition.work_id));
+const published=editions.filter(edition=>isPublicEdition(edition,works.find(work=>work.id===edition.work_id)));
+const visible=works.filter(work=>published.some(edition=>edition.work_id===work.id));
+const samples=editions.filter(edition=>edition.status==='sample'&&works.some(work=>work.id===edition.work_id&&work.visibility==='demo'));
+const passagesFor=edition=>{const text=read(edition.content_path);return read('corpus/structure/'+edition.work_id+'.json').segment_ids.map(id=>[id,text[id]]);};
 const files=[];
 function visit(directory){for(const entry of readdirSync(directory,{withFileTypes:true})){const path=join(directory,entry.name);if(entry.isDirectory())visit(path);else files.push(path);}}
 visit('dist');
@@ -32,7 +35,6 @@ for(const file of htmlFiles){
   assert.equal(ids.length,new Set(ids).size,'Duplicate HTML IDs: '+file);
   assert.match(html,/<html\b[^>]*lang=/,'Missing document language: '+file);
   assert.match(html,/<meta\b[^>]*name="viewport"/,'Missing mobile viewport: '+file);
-  assert.ok(!/(?:href|src)=["']\/(?:en|vi|fr|es|favicon\.svg)(?:\/|["'])/.test(html),'Incorrect root-relative URL: '+file);
   for(const match of html.matchAll(/\b(?:href|src)="([^"]*)"/g)){
     const value=decode(match[1]);
     assert.ok(!/^javascript:/i.test(value),'Executable URL: '+file);
@@ -70,38 +72,77 @@ for(const url of indexed){
 assert.ok(readFileSync('dist/robots.txt','utf8').includes(origin+base+'sitemap.xml'),'Robots must advertise the sitemap');
 const search=read('dist/search-index.json');
 assert.deepEqual(search.map(item=>item.editionId).sort(),published.map(edition=>edition.id).sort(),'Search must contain all and only public editions');
+const downloadNames=published.flatMap(edition=>['json','txt','epub','tsv'].map(format=>edition.id+'.'+format));
+assert.deepEqual(read('dist/downloads/manifest.json').files.map(file=>file.path).sort(),[...downloadNames].sort(),'Download manifest must contain exactly public editions');
+assert.deepEqual(readdirSync('dist/downloads').sort(),[...downloadNames,'manifest.json'].sort(),'Unexpected public download output');
 for(const edition of published){
-  const text=read(edition.content_path),ids=read('corpus/structure/'+edition.work_id+'.json').segment_ids;
+  const passages=passagesFor(edition),ids=passages.map(([id])=>id),category=reviewCategory(edition);
+  const source=edition.kind==='translation'?published.find(e=>e.id===edition.source_edition_id):null;
+  assert.ok(edition.kind!=='translation'||source,'Published translation must have a public source: '+edition.id);
+  const sourcePassages=source?passagesFor(source):[];
+  const rows=source?alignedPassages(sourcePassages,passages,read('corpus/alignments/'+edition.work_id+'/'+edition.id+'.json')):[];
   const entry=search.find(item=>item.editionId===edition.id);
-  assert.deepEqual(entry.passages,ids.map(id=>[id,text[id]]),'Search must preserve canonical passage order and text');
+  assert.equal(entry.workId,edition.work_id);assert.equal(entry.language,edition.language);assert.equal(entry.reviewCategory,category);
+  assert.deepEqual(entry.passages,passages,'Search must preserve canonical passage order and text');
   for(const locale of locales){
     const file='dist/'+locale+'/read/'+edition.work_id+'/'+edition.id+'/index.html';
     assert.ok(existsSync(file),'Published edition missing: '+file);
-    const html=decode(readFileSync(file,'utf8'));
-    for(const id of ids){assert.ok(html.includes('id="'+id+'"'),'Canonical passage missing: '+id);assert.ok(html.includes(text[id]),'Published text incomplete: '+id);}
+    const raw=readFileSync(file,'utf8'),html=decode(raw);
+    const attrs=value=>Object.fromEntries([...value.matchAll(/([\w:-]+)="([^"]*)"/g)].map(match=>[match[1],decode(match[2])]));
+    const segments=[...raw.matchAll(/<div\b([^>]*\bclass="segment"[^>]*)>\s*<p\b([^>]*)>([\s\S]*?)<\/p>/g)].map(match=>({attributes:attrs(match[1]),language:attrs(match[2]).lang,text:decode(match[3])}));
+    assert.equal(segments.length,passages.length+sourcePassages.length,'Unexpected passage count: '+file);
+    for(const [id,text] of passages){
+      const segment=segments.find(item=>item.attributes.id===id);
+      assert.ok(segment,'Canonical passage missing: '+id);assert.equal(segment.text,text,'Published text incomplete: '+id);
+      assert.equal(segment.language,edition.language);assert.equal(segment.attributes['data-reading-segment'],id);
+    }
+    for(const [id,text] of sourcePassages){
+      const segment=segments.find(item=>item.attributes.id==='source-'+id);
+      assert.ok(segment,'Parallel original passage missing: '+id);assert.equal(segment.text,text,'Parallel source differs from canonical text: '+id);
+      assert.equal(segment.language,source.language);assert.equal(segment.attributes['data-reading-segment'],undefined,'Original must not double-count reading progress');
+    }
+    assert.equal([...raw.matchAll(/class="parallel-row"/g)].length,rows.length,'Parallel rows must follow explicit alignment: '+file);
+    const expectedOrder=source?rows.flatMap(row=>[...row.source.map(([id])=>'source-'+id),...row.target.map(([id])=>id)]):ids;
+    assert.deepEqual(segments.map(item=>item.attributes.id),expectedOrder,'Rendered passage groups differ from recorded alignment: '+file);
+    assert.ok(raw.includes('data-review-category="'+category+'"'),'Incorrect review disclosure: '+file);
+    if(edition.publication_policy)assert.ok(raw.includes('data-publication-policy="'+edition.publication_policy+'"'),'Missing publication policy: '+file);
+    if(category==='ai'&&typeof edition.review.score==='number')assert.ok(raw.includes('data-ai-score="'+edition.review.score+'"'),'AI score must match selected current review metadata: '+file);
+    else assert.ok(!raw.includes('data-ai-score='),'A source or human review must not be described as an AI score');
     assert.ok(html.includes('application/ld+json'),'Edition structured metadata missing');
-    const jsonLD=readFileSync(file,'utf8').match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+    const jsonLD=raw.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
     assert.ok(jsonLD,'Missing structured data script');
     const metadata=JSON.parse(jsonLD[1]);assert.equal(metadata.identifier,edition.id);assert.equal(metadata.inLanguage,edition.language);
+    if(category==='ai'){
+      assert.equal(metadata.creativeWorkStatus,'AI-reviewed publication');
+      assert.equal(metadata.translator,undefined,'AI must not be represented as a human translator in structured metadata');
+      assert.equal(metadata.aggregateRating,undefined,'AI assessment is not a reader rating');
+    }
     const correctionLinks=[...html.matchAll(/href="(https:\/\/github\.com\/streamentry\/LitMundi\/issues\/new\?[^"]+)"/g)];
-    for(const id of ids)assert.ok(correctionLinks.some(match=>new URL(match[1]).searchParams.get('body')?.includes('Segment ID: '+id)),'Missing passage correction context: '+id);
+    for(const [record,items] of [[edition,passages],...(source?[[source,sourcePassages]]:[])])for(const [id] of items)assert.ok(correctionLinks.some(match=>{
+      const body=new URL(match[1]).searchParams.get('body')??'';return body.includes('Edition ID: '+record.id+'\n')&&body.includes('Segment ID: '+id+'\n');
+    }),'Missing source/target passage correction context: '+record.id+' / '+id);
   }
   for(const format of ['json','txt','epub','tsv'])assert.ok(existsSync('dist/downloads/'+edition.id+'.'+format),'Published download missing: '+edition.id+'.'+format);
 }
-for(const edition of editions.filter(e=>e.status!=='published'&&e.status!=='sample')){
+const publicText=[...published,...samples].flatMap(edition=>Object.values(read(edition.content_path)));
+for(const edition of editions.filter(e=>!published.includes(e)&&!samples.includes(e))){
   for(const locale of locales)for(const slug of [edition.id,...edition.legacy_slugs])assert.ok(!existsSync('dist/'+locale+'/read/'+edition.work_id+'/'+slug+'/index.html'),'Unpublished edition has a reading route: '+edition.id);
   for(const format of ['json','txt','epub','tsv'])assert.ok(!existsSync('dist/downloads/'+edition.id+'.'+format),'Unpublished edition leaked into downloads: '+edition.id);
   if(!edition.content_path)continue;
-  const paragraphs=Object.values(read(edition.content_path)).filter(text=>text.length>40);
+  const paragraphs=Object.values(read(edition.content_path)).filter(text=>text.length>40&&!publicText.some(publishedText=>publishedText.includes(text)));
   for(const file of files.filter(path=>/\.(?:html|js|json|txt|tsv|xml)$/.test(path))){
     const content=decode(readFileSync(file,'utf8'));
-    for(const paragraph of paragraphs)assert.ok(!content.includes(paragraph),'Draft text leaked into '+file);
+    for(const paragraph of paragraphs)assert.ok(!content.includes(paragraph)&&!content.includes(JSON.stringify(paragraph).slice(1,-1)),'Draft text leaked into '+file);
   }
 }
-for(const sample of editions.filter(e=>e.status==='sample'))for(const locale of locales)for(const slug of [sample.id,...sample.legacy_slugs]){
+for(const sample of samples)for(const locale of locales)for(const slug of [sample.id,...sample.legacy_slugs]){
   const path='dist/'+locale+'/read/'+sample.work_id+'/'+slug+'/index.html';
   assert.ok(existsSync(path),'Legacy/sample route must remain: '+path);
   const html=readFileSync(path,'utf8');assert.match(html,/name="robots"[^>]*noindex/,'Sample must remain noindex');
   assert.ok(!sitemap.includes(sample.id)&&!sitemap.includes('/read/'+sample.work_id+'/'),'Sample in sitemap');
 }
-console.log('Verified '+htmlFiles.length+' HTML pages, '+checkedLinks+' local links/anchors, '+indexed.length+' sitemap routes and '+published.length+' complete public editions. Draft routes, text, search entries and downloads remain excluded.');
+for(const locale of locales){
+  const home=readFileSync('dist/'+locale+'/index.html','utf8');
+  assert.equal([...home.matchAll(/data-work-id="/g)].length,visible.length,'One catalog card per work, even with multiple editions');
+}
+console.log('Verified '+htmlFiles.length+' HTML pages, '+checkedLinks+' local links/anchors, '+indexed.length+' sitemap routes, '+published.length+' complete public editions and '+published.filter(e=>e.kind==='translation').length+' aligned translations. Unpublished routes, unique draft text, search entries and downloads remain excluded.');

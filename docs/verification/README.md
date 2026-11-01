@@ -1,5 +1,7 @@
 # Reader verification
 
+Current AI-first evidence is summarized in [the v2 release report](../RELEASE-AI-FIRST-2026-11-01.md). `ai-first-reader-2026-11-01.json` records five public editions, including two real aligned Vietnamese translations, 40 canonical routes and 26 mobile cases. `ai-first-local-http-2026-11-01.json` records 106 local HTTP/content checks. These are local build/browser results; production acceptance is recorded separately in the release PR. The v2 policy is documented in [QUALITY.md](../QUALITY.md). The records below describe the earlier v1 release and are retained as history.
+
 [The release report](../RELEASE-2026-11-01.md) summarizes the deployed first cycle. `build-2026-11-01.json` records local acceptance. `production-2026-11-01.json` records the actual release commit, successful deployment workflow, 78 production HTTP/content checks and browser acceptance on the live site. It retains the explicit Chromium certificate exception needed for the test environment's proxy; the separate Python HTTPS check kept certificate validation enabled.
 
 `reader-2026-11-01.json` records actual checks against the locally built three-work release. It includes tool versions, source-text hashes, tested routes, mobile viewport sizes and limitations. This evidence does not claim production deployment, complete accessibility certification, human literary review or actual reader demand.
@@ -13,7 +15,7 @@ node tests/reader-data.test.mjs
 npm run check
 ```
 
-`verify:build` checks every generated HTML link and fragment; canonical public sitemap membership and hreflang; complete passage text, metadata and correction context; and absence of drafts from reading routes, search, scripts and public downloads. The five reader-rule tests cover publication filtering, language fallback, accent-insensitive search and explicit many-to-many alignment, including invalid graphs.
+`verify:build` checks every generated HTML link and fragment; canonical public sitemap membership and hreflang; complete passage text, metadata and correction context; and absence of drafts from reading routes, search, scripts and public downloads. Reader-rule tests cover publication filtering, language fallback, accent-insensitive search, explicit many-to-many alignment, AI/human label separation and safe JSON-LD serialization. The checks derive the edition and locale sets from the canonical data.
 
 ## Optional real-browser acceptance check
 
@@ -35,11 +37,11 @@ If the environment prevents Astro from writing its telemetry configuration, set 
 
 The same browser command accepts the production base URL after deployment. Certificate verification stays enabled by default. In a controlled environment where Chromium does not trust a known TLS-inspecting proxy, `LITMUNDI_BROWSER_IGNORE_HTTPS_ERRORS=1` permits interaction checks and visibly records the exception and limitation. Such a run does not verify TLS; retain a separate normal HTTPS check and do not conceal certificate failures.
 
-The script checks 32 routes across all four UI languages with axe's WCAG 2/2.1 A/AA rules; 12 mobile route/viewport combinations at 320 and 390 pixels; keyboard skip navigation; full-text search in the three original languages; combined author/language filters; preservation of passage links when switching UI language; optional browser-local bookmarks; and reading/navigation/download links without JavaScript. The browser check is pinned to this three-work acceptance case and should be adapted when content grows.
+The script derives all current public routes from the catalog and shared locale configuration, then checks axe's WCAG 2/2.1 A/AA rules; mobile layouts at 320 and 390 pixels; keyboard skip navigation; full-text search for every published edition; combined author/language filters; passage preservation when switching language; optional browser-local bookmarks; and reading/navigation/downloads without JavaScript. Real published parallel readers are checked against their exact source/target alignments and correction identities. Route and case counts change with the catalog.
 
 ## Parallel reader without publishing a draft
 
-There are no human-approved translations in the release. Render-test the parallel reader with fictional content in a separate temporary copy:
+AI-reviewed translations can populate the real parallel reader without human approval. To exercise additional many-to-many grouping shapes without publishing a draft, use fictional content in a separate temporary copy:
 
 ```bash
 python docs/verification/make-parallel-fixture.py /tmp/litmundi-parallel-fixture
@@ -58,4 +60,4 @@ LITMUNDI_PARALLEL_FIXTURE_URL=http://127.0.0.1:4322/LitMundi/en/read/fixture-pai
 node docs/verification/check-reader.mjs http://127.0.0.1:4321/LitMundi/ /tmp/litmundi-reader-check.json
 ```
 
-The fixture checks a two-source-to-one-target group and a one-source-to-two-target group, desktop columns, stacked mobile order, unique passage anchors and automated accessibility. It is evidence about rendering mechanics only. Qualified human reviewers still decide whether a real alignment and translation faithfully represent an original.
+The fixture checks a two-source-to-one-target group and a one-source-to-two-target group, desktop columns, stacked mobile order, unique passage anchors and automated accessibility. It is evidence about rendering mechanics only. Literary fidelity remains an evaluative judgment, with optional reader and human-review feedback after release.
