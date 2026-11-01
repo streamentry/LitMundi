@@ -40,7 +40,7 @@ export function canonicalReaderPath(edition, locales, base='/') {
 
 const sharedInputs = [
   'astro.config.mjs', 'src/layouts/Base.astro', 'src/styles/global.css',
-  'src/lib/locales.json', 'src/lib/i18n.ts', 'src/lib/urls.ts', 'src/lib/seo.ts',
+  'src/lib/locales.json', 'src/lib/site.json', 'src/lib/i18n.ts', 'src/lib/urls.ts', 'src/lib/seo.ts',
   'scripts/lib/seo.mjs', 'scripts/lib/reader-data.mjs', 'corpus/reviews/rubric-literary-v2.json',
   'src/lib/discovery.json','src/lib/discovery.ts','scripts/lib/discovery.mjs',
   'scripts/social-images.mjs','scripts/fonts/DejaVuSerif.ttf','public/favicon.svg','package.json','package-lock.json',

@@ -42,6 +42,10 @@ Citation details provide a copy action when JavaScript is available and retain
 selectable text as a fallback. Switching interface language preserves a passage
 selected during the current visit.
 
+Previous and next work links prefer the text language currently being read and
+display each destination's actual language. The source bibliography identifies
+the original witness; translation-creation records are shown separately.
+
 Title and author searches offer matching editions, with the interface's text
 language first when available. Passage searches link to the matching text.
 Language and author filters refine the current query without clearing it.
@@ -71,6 +75,12 @@ Use `npm run dev` for the local reader at `http://localhost:4321/LitMundi/`. On 
 [UTF-8 JSON corpus v2](corpus/README.md) is the system of record. Astro is a replaceable static view; there is no database, site-owned account system or OAuth secret. Work, edition and passage identifiers remain stable while corrections remain in Git history.
 
 `npm run build` creates publication downloads only for eligible published editions. `npm run export` creates a separate **editorial archive** with canonical data, labelled drafts and review packets, rights, provenance, schemas, documentation, deterministic ZIP packaging and SHA-256 fixity records. The archive grants no blanket content license. A standalone Python 3 restorer rebuilds published HTML/TXT without Astro, npm, GitHub, network access or the original domain. See [Preservation](docs/PRESERVATION.md).
+
+JSON, TXT, TSV and EPUB downloads carry their canonical reader URL and the exact
+original source citation, witness link and source edition identity. EPUB language
+annotations distinguish the literary text from English navigation and provenance.
+The configured site origin/base in `src/lib/site.json` supplies both Astro and
+portable publication URLs.
 
 ## Deployment and ongoing work
 

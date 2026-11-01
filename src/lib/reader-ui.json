@@ -5,7 +5,9 @@
     "downloadTxt": "Download TXT",
     "copyCitation": "Copy citation",
     "citationCopied": "Citation copied.",
-    "citationCopyFailed": "Copying is unavailable. Select and copy the citation above."
+    "citationCopyFailed": "Copying is unavailable. Select and copy the citation above.",
+    "editionCreationRecord": "Edition creation record",
+    "editionCreationHint": "Historical note about how this edition was created. Its current publication status is shown above."
   },
   "vi": {
     "startReading": "Bắt đầu đọc",
@@ -13,7 +15,9 @@
     "downloadTxt": "Tải TXT",
     "copyCitation": "Sao chép trích dẫn",
     "citationCopied": "Đã sao chép trích dẫn.",
-    "citationCopyFailed": "Không thể sao chép tự động. Bạn có thể chọn và sao chép phần trích dẫn phía trên."
+    "citationCopyFailed": "Không thể sao chép tự động. Bạn có thể chọn và sao chép phần trích dẫn phía trên.",
+    "editionCreationRecord": "Hồ sơ hình thành ấn bản",
+    "editionCreationHint": "Ghi chép về quá trình hình thành ấn bản. Trạng thái xuất bản hiện tại được ghi ở phía trên."
   },
   "fr": {
     "startReading": "Commencer la lecture",
@@ -21,7 +25,9 @@
     "downloadTxt": "Télécharger le TXT",
     "copyCitation": "Copier la référence",
     "citationCopied": "Référence copiée.",
-    "citationCopyFailed": "Copie impossible. Sélectionnez et copiez la référence ci-dessus."
+    "citationCopyFailed": "Copie impossible. Sélectionnez et copiez la référence ci-dessus.",
+    "editionCreationRecord": "Historique de création de l’édition",
+    "editionCreationHint": "Note historique sur la création de cette édition. Son statut de publication actuel est indiqué ci-dessus."
   },
   "es": {
     "startReading": "Empezar a leer",
@@ -29,6 +35,8 @@
     "downloadTxt": "Descargar TXT",
     "copyCitation": "Copiar la referencia",
     "citationCopied": "Referencia copiada.",
-    "citationCopyFailed": "No se pudo copiar. Selecciona y copia la referencia de arriba."
+    "citationCopyFailed": "No se pudo copiar. Selecciona y copia la referencia de arriba.",
+    "editionCreationRecord": "Registro de creación de la edición",
+    "editionCreationHint": "Nota histórica sobre la creación de esta edición. Su estado de publicación actual se indica arriba."
   }
 }

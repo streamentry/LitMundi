@@ -26,10 +26,14 @@ if(controls&&shell){
     try{localStorage.setItem(key,JSON.stringify({enabled:true,segment}));lastSaved=segment;clear.hidden=false;}catch{unavailable();}
   };
   const update=()=>{
+    const previousIndex=index;
     pending=false;index=-1;
     passages.forEach((passage,i)=>{if(passage.getBoundingClientRect().top<innerHeight*.45)index=i;});
     if(passages.length&&passages[passages.length-1].getBoundingClientRect().bottom<=innerHeight&&index>=0)index=passages.length-1;
-    progress.value=index+1;output.textContent=(index+1)+' / '+passages.length;save();
+    if(index!==previousIndex){
+      progress.value=index+1;output.textContent=(index+1)+' / '+passages.length;
+    }
+    save();
   };
   remember.addEventListener('change',()=>{
     if(remember.checked){lastSaved='';save();}

@@ -121,12 +121,15 @@ test('standalone TSV preserves attribution, rights and every canonical passage',
   for(const edition of publicEditions(corpus)){
     const bundle=editionBundle(corpus,edition),lines=tabSeparated(bundle).split('\n');
     const columns=lines[0].split('\t');
-    for(const required of ['edition_id','author','translator','license','source_citation','source_url','content_sha256','passage_id','text'])assert.ok(columns.includes(required),'TSV loses '+required);
+    for(const required of ['edition_id','author','translator','license','source_citation','source_url','content_sha256','passage_id','text','canonical_url','source_edition_id','source_canonical_url','source_catalog_url','edition_provenance'])assert.ok(columns.includes(required),'TSV loses '+required);
     const rows=lines.slice(1,-1).map(line=>Object.fromEntries(line.split('\t').map((cell,index)=>[columns[index],decode(cell)])));
     assert.deepEqual(rows.map(row=>row.passage_id),bundle.structure.segment_ids);
     for(const row of rows){
       assert.equal(row.edition_id,edition.id);assert.equal(row.author,bundle.work.author);assert.equal(row.translator,edition.credits.translator??'');
-      assert.equal(row.license,edition.rights.license);assert.equal(row.source_citation,edition.provenance.citation);
+      assert.equal(row.license,edition.rights.license);assert.equal(row.source_citation,bundle.source.citation);
+      assert.equal(row.source_url,bundle.source.text_url??'');assert.equal(row.canonical_url,bundle.canonical_url);
+      assert.equal(row.source_edition_id,bundle.source.edition_id);assert.equal(row.source_canonical_url,bundle.source.canonical_url);
+      assert.equal(row.source_catalog_url,bundle.source.catalog_url??'');assert.equal(row.edition_provenance,edition.provenance.citation);
       assert.equal(row.content_sha256,hash(fs.readFileSync(edition.content_path)));
       assert.equal(row.text,bundle.segments[row.passage_id]);
     }
