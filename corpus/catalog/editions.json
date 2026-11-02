@@ -3371,5 +3371,130 @@
       "human_contributors": [],
       "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
+  },
+  {
+    "id": "akutagawa-jigoku-ja-kairaishi-1919",
+    "work_id": "akutagawa-hell-screen",
+    "language": "ja",
+    "title": "地獄變",
+    "kind": "source",
+    "status": "published",
+    "label": "地獄變 · 日本語, 『傀儡師』1919（復刻版、青空文庫）",
+    "content_path": "corpus/segments/akutagawa-hell-screen/akutagawa-jigoku-ja-kairaishi-1919.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "芥川龍之介「地獄變」『傀儡師』（新潮社、1919; 特選名著復刻全集近代文学館、日本近代文学館、1971）. Aozora Bunko electronic text, card 61. First serialised 1918.",
+      "catalog_url": "https://www.aozora.gr.jp/cards/000879/card61.html",
+      "text_url": "https://www.aozora.gr.jp/cards/000879/files/61_15130.html",
+      "retrieved_at": "2026-11-02",
+      "source_witness": "Complete sections 一–二十 of Aozora Bunko file 61_15130. No claim of a newly inspected printed copy."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Ryunosuke Akutagawa text)",
+      "basis": "Term-based assessment on 2026-11-02. Akutagawa died in 1927; under Japan’s life-plus-50 term then in force the work entered the public domain at the end of 1977, and the 2018 extension did not revive it. Publication in 1918/1919 is beyond the US 95-year maximum. Vietnam’s life-plus-50 term has expired. Only the underlying story is reused, without Aozora markup or ruby. This is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "JP",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://www.aozora.gr.jp/cards/000879/card61.html",
+        "https://www.aozora.gr.jp/cards/000879/files/61_15130.html",
+        "https://www.japaneselawtranslation.go.jp/en/laws/view/4207",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Ryunosuke Akutagawa",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://www.aozora.gr.jp/cards/000879/files/61_15130.html",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/akutagawa-jigoku-ja-kairaishi-1919.json"
+      ],
+      "notes": "Technical extraction and complete AI-assisted paragraph comparison cover all 143 canonical units. Source-check metadata records exact hashes, witness boundaries, normalization and access limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "akutagawa-jigoku-vi-ai-2026",
+    "work_id": "akutagawa-hell-screen",
+    "language": "vi",
+    "title": "Địa ngục biến",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/akutagawa-hell-screen/akutagawa-jigoku-vi-ai-2026.json",
+    "source_edition_id": "akutagawa-jigoku-ja-kairaishi-1919",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified Japanese source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-02",
+      "source_witness": "akutagawa-jigoku-ja-kairaishi-1919"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "JP",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/consumer-terms",
+        "https://www.aozora.gr.jp/cards/000879/card61.html",
+        "https://www.aozora.gr.jp/cards/000879/files/61_15130.html",
+        "https://www.japaneselawtranslation.go.jp/en/laws/view/4207",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Ryunosuke Akutagawa",
+      "translator": "LitMundi AI translation (Claude)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.93,
+      "record_paths": [
+        "corpus/reviews/akutagawa-hell-screen/akutagawa-jigoku-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/akutagawa-hell-screen/akutagawa-jigoku-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "notes": "Complete AI literary assessment: unrounded weighted score 8.925/10, threshold 8.6. All 143 source/target passages and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment is disclosed; an independent-context AI pass from the same model family supplied findings, which is not human certification or model diversity. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "Claude Opus 5.5 (Anthropic) — AI translation, literary revision and assessment"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
   }
 ]

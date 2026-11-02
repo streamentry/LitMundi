@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "work_id": "akutagawa-hell-screen",
+  "edition_id": "akutagawa-jigoku-vi-ai-2026",
+  "source_edition_id": "akutagawa-jigoku-ja-kairaishi-1919",
+  "title_vi": "Địa ngục biến",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Narrator",
+      "decision": "The old retainer speaks as tôi with deferential spoken particles (ạ, thì phải, chẳng phải… đó sao) and his evasions about the lord are left unresolved.",
+      "rationale": "The story’s horror depends on what the unreliable narrator will not say."
+    },
+    {
+      "topic": "Yoshihide",
+      "decision": "The narrator calls Yoshihide lão; before the lord Yoshihide calls himself tiểu nhân.",
+      "rationale": "Contempt in narration, servility in address."
+    },
+    {
+      "topic": "Buddhist terms",
+      "decision": "Sino-Vietnamese Buddhist vocabulary: Viêm nhiệt địa ngục, Thập Vương, pháp lạc, khai nhãn, tăng thượng mạn.",
+      "rationale": "Matches the period and religious register of the source."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-akutagawa-hell-screen",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "@title",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Title changed from Bức bình phong địa ngục to Địa ngục biến, matching the source title and the body term."
+        },
+        {
+          "segment": "akutagawa-hell-screen:17.7",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "苦々しい御調子 no longer implies grief: giọng gay gắt."
+        },
+        {
+          "segment": "akutagawa-hell-screen:1.2",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "東三條 is a place name (Higashi Sanjō), not a direction."
+        },
+        {
+          "segment": "akutagawa-hell-screen:1.3",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "ついぞ又となかつた now means ‘never met anything like it’, not ‘never met it again’."
+        },
+        {
+          "segment": "akutagawa-hell-screen:7.2",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Calques 結燈臺, 五六間 and 狐が憑く replaced (cây đèn đế, mươi bước, hồ ly nhập); 御靈 as oan hồn; 傀儡 glossed in text; 姉君 as chị gái; 141 出かし居つた regains its grudging edge; phán reserved for the lord; 117 and 24 smoothed."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "地獄變",
+      "draft_rendering": "Địa ngục biến (tấm bình phong Địa ngục biến)",
+      "alternatives": [
+        "Bức bình phong địa ngục"
+      ],
+      "rationale": "The established Sino-Vietnamese title, used both for the work and for the screen in the body.",
+      "passages": [
+        "akutagawa-hell-screen:1.1",
+        "akutagawa-hell-screen:20.2",
+        "akutagawa-hell-screen:20.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "堀川の大殿樣 / 若殿樣 / 御姫樣 / 御臺樣",
+      "draft_rendering": "Đức Đại điện / Đức Tiểu điện / Công nương / Đức phu nhân",
+      "alternatives": [],
+      "rationale": "Fixed honorifics for the household; Đức Đại điện is never shortened in the narrator’s mouth.",
+      "passages": [
+        "akutagawa-hell-screen:1.1",
+        "akutagawa-hell-screen:2.9",
+        "akutagawa-hell-screen:9.1"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "良秀 (the monkey)",
+      "draft_rendering": "con khỉ Yoshihide; 猿秀 Hide Khỉ",
+      "alternatives": [],
+      "rationale": "Keeps the young lord’s joke of naming the monkey after the painter.",
+      "passages": [
+        "akutagawa-hell-screen:2.8",
+        "akutagawa-hell-screen:2.9",
+        "akutagawa-hell-screen:19.3"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "檳榔毛の車",
+      "draft_rendering": "cỗ xe lợp lá cau",
+      "alternatives": [
+        "xe lợp lá cọ"
+      ],
+      "rationale": "Conventional rendering of the palm-thatched court carriage, fixed through the climax.",
+      "passages": [
+        "akutagawa-hell-screen:14.10",
+        "akutagawa-hell-screen:16.4",
+        "akutagawa-hell-screen:17.9"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Aozora Bunko transcription (card 61, file 61_15130) made from the facsimile reprint of 傀儡師 (新潮社, 1919), the story’s first book publication, in old kanji and kana. First serialised in 大阪毎日新聞 / 東京日日新聞, May 1918; not collated. One Aozora note records 眴 corrected from 眗 in the base text; the corrected reading is used.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "77982d2b8e21248f7cea1d7ff09de408fc17c0a5e623ff99dbba006747386182",
+  "target_sha256": "17746b13d6ee07733e02cec83ce9486ce4211bcfd950500c9005512cce49702b",
+  "coverage": {
+    "canonical_passages": 143,
+    "translated_passages": 143,
+    "aligned_passages": 143
+  },
+  "ai_review_record": "corpus/reviews/akutagawa-hell-screen/akutagawa-jigoku-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "akutagawa-hell-screen:14.10",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Nested quotation uses single quotes inside double quotes; the 姉君/妹君 inconsistency of the source is reproduced, not harmonised."
+    }
+  ],
+  "title_review": {
+    "source_title": "地獄變",
+    "target_title": "Địa ngục biến",
+    "rationale": "Địa ngục biến is the established Sino-Vietnamese title and the term the body uses for the screen; 變 names a picture of the transformations of hell, which a descriptive title would lose."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "akutagawa-hell-screen:1.1",
+        "akutagawa-hell-screen:1.2",
+        "akutagawa-hell-screen:1.3",
+        "akutagawa-hell-screen:1.4"
+      ],
+      "assessment": "Opening portrait of the lord with the narrator’s qualifications intact."
+    },
+    {
+      "passages": [
+        "akutagawa-hell-screen:16.1",
+        "akutagawa-hell-screen:16.2",
+        "akutagawa-hell-screen:16.3",
+        "akutagawa-hell-screen:16.4",
+        "akutagawa-hell-screen:16.5",
+        "akutagawa-hell-screen:17.1"
+      ],
+      "assessment": "Climax in sections 17–19 complete and precise."
+    }
+  ]
+}
