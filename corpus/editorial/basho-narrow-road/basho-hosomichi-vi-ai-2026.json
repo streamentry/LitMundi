@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "work_id": "basho-narrow-road",
+  "edition_id": "basho-hosomichi-vi-ai-2026",
+  "source_edition_id": "basho-hosomichi-ja-shinshaku-1911",
+  "title_vi": "Lối lên miền Oku",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Prose",
+      "decision": "Concise, slightly archaic Vietnamese with added punctuation for the unpunctuated classical text; Bashō’s parallelism and restraint kept.",
+      "rationale": "Haibun’s economy is its voice."
+    },
+    {
+      "topic": "Base text",
+      "decision": "The 1911 base text is followed, including its variants, with the one standard emendation recorded.",
+      "rationale": "Faithful to the selected witness."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-basho-narrow-road",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "basho-narrow-road:1.76",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "夏草や兵どもが夢の跡 de-padded: the cut restored and 跡 rendered as traces (dấu mộng)."
+        },
+        {
+          "segment": "basho-narrow-road:1.91",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "蘆角一声の心をやはらげ reparsed: haikai softens hearts used only to rustic reed-pipe tunes; 爰に至れり no longer ‘the peak’."
+        },
+        {
+          "segment": "basho-narrow-road:1.6",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Padding removed from haiku 6, 3, 36, 46, 50, 88 and 138; the cut marker unified as a dash; 入れたり made transitive (106); あらたふと as praise of the object (12)."
+        },
+        {
+          "segment": "basho-narrow-road:1.98",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "木綿しめ, 宝冠, 一睡, そこそこと教ふ, 憐愍, わりなし, みさぶらひみかさ and several calques corrected; En no Gyōja named (21)."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "haiku form",
+      "draft_rendering": "three short Vietnamese lines; the cut (や/かな/けり) as a dash or pause; the poet’s name on a fourth line",
+      "alternatives": [
+        "single line",
+        "lục bát"
+      ],
+      "rationale": "Keeps image order and the cut without padding; Bashō’s own poems carry no name line.",
+      "passages": [
+        "basho-narrow-road:1.6",
+        "basho-narrow-road:1.76",
+        "basho-narrow-road:1.90",
+        "basho-narrow-road:1.118"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Chinese allusions",
+      "draft_rendering": "Hán-Việt (Đỗ Phủ, Lý Bạch, Tây Thi, Động Đình, Tây Hồ, Đọa Lệ)",
+      "alternatives": [],
+      "rationale": "Bashō quotes Chinese classics as Vietnamese readers know them.",
+      "passages": [
+        "basho-narrow-road:1.1",
+        "basho-narrow-road:1.45",
+        "basho-narrow-road:1.69",
+        "basho-narrow-road:1.75",
+        "basho-narrow-road:1.110"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "place names",
+      "draft_rendering": "Hepburn romaji; puns carried inside the sentence (Kurokami ‘Tóc Đen’, Urami, Gassan ‘Núi Trăng’)",
+      "alternatives": [],
+      "rationale": "The edition has no notes, so the place-name wordplay is folded into the text.",
+      "passages": [
+        "basho-narrow-road:1.13",
+        "basho-narrow-road:1.14",
+        "basho-narrow-road:1.49",
+        "basho-narrow-road:1.101"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Japanese Wikisource page «おくのほそ道» (revision 235001), marked 100% text quality, whose stated base is 三宅邦吉『新釈奥の細道』(籾山書店, 1911; NDL 888916). Only Bashō’s base text is used; the transcription’s 78 variant-reading notes and inline readings are excluded. First printed 1702 (井筒屋本); not collated with the 1702 print or the Soryū manuscript.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "92d4033300c0da1bce0985c3659f0478c013c5b13bb6ea6161bb655c18c4ebd8",
+  "target_sha256": "3774a891f89d1a9d37389136c12ff2eac6cb7ee5fc402536a7a77ec36550993a",
+  "coverage": {
+    "canonical_passages": 167,
+    "translated_passages": 167,
+    "aligned_passages": 167
+  },
+  "ai_review_record": "corpus/reviews/basho-narrow-road/basho-hosomichi-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "basho-narrow-road:1.71",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The base text’s 露 (for the usual 鶴) is followed, which makes Sora’s Matsushima haiku unusual."
+    }
+  ],
+  "title_review": {
+    "source_title": "おくのほそ道",
+    "target_title": "Lối lên miền Oku",
+    "rationale": "Lối lên miền Oku is the established Vietnamese title (Vĩnh Sính’s translation); lên fits a journey north, and the body names the Oku no hosomichi itself."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "basho-narrow-road:1.1"
+      ],
+      "assessment": "Opening allusion to Li Bai’s ‘passing guests of a hundred generations’."
+    },
+    {
+      "passages": [
+        "basho-narrow-road:1.76",
+        "basho-narrow-road:1.90",
+        "basho-narrow-road:1.93",
+        "basho-narrow-road:1.118"
+      ],
+      "assessment": "Best-known haiku kept lean, with their cuts."
+    }
+  ]
+}
