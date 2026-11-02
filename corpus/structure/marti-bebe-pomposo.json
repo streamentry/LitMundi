@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "work_id": "marti-bebe-pomposo",
+  "segment_ids": [
+    "marti-bebe-pomposo:1.1",
+    "marti-bebe-pomposo:1.2",
+    "marti-bebe-pomposo:1.3",
+    "marti-bebe-pomposo:1.4",
+    "marti-bebe-pomposo:1.5",
+    "marti-bebe-pomposo:1.6",
+    "marti-bebe-pomposo:1.7"
+  ],
+  "deprecated_ids": {},
+  "notes": "Canonical units follow every prose paragraph of the selected complete electronic witness. The title is edition metadata; headings and navigation are excluded. Passage IDs are immutable and may not be reassigned."
+}

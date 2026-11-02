@@ -208,5 +208,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Several Vietnamese translations under the title Cô bé bán diêm are widely known; their sources, completeness and reuse status were not audited here. No absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "id": "marti-bebe-pomposo",
+    "title": "Bebé y el señor don Pomposo",
+    "author": "José Martí",
+    "author_death_year": 1895,
+    "first_published_year": 1889,
+    "original_language": "es",
+    "genre": "short_story",
+    "description": "A rich five-year-old lies awake thinking about the gilded sword a pompous great-uncle gave him while ignoring his motherless cousin, in Martí’s story for the children of the Americas.",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

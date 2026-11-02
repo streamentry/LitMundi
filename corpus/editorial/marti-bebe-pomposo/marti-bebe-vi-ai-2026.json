@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "work_id": "marti-bebe-pomposo",
+  "edition_id": "marti-bebe-vi-ai-2026",
+  "source_edition_id": "marti-bebe-es-edad-de-oro-1889",
+  "title_vi": "Bebé và ngài Don Pomposo",
+  "translation_direction": "es → vi; direct from the specifically identified complete Spanish electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-queue-015",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "marti-bebe-pomposo:1.2",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Restored a nursery jingle for the comelón/melón rhyme and echoed it in 1.3."
+        },
+        {
+          "segment": "marti-bebe-pomposo:1.1",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "la tierra is soil (the earthworm confusion), not the planet: làm ra đất; de mi alma no longer calqued; dril and zapatos bajos made precise."
+        },
+        {
+          "segment": "marti-bebe-pomposo:1.4",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "estirado now carries both stiffness and attitude (ngay đơ, kênh kiệu), setting up ‘qué largo’."
+        },
+        {
+          "segment": "marti-bebe-pomposo:1.6",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "¡qué sable! as a real exclamation; malo as a child’s ác; para el niño as cậu chủ nhỏ, sharpening the snub to Raúl."
+        },
+        {
+          "segment": "marti-bebe-pomposo:1.1",
+          "category": "editorial_mechanics",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Removed the Spanish !: stacking and capitalised after ! and ? outside dashed interjections."
+        },
+        {
+          "segment": "marti-bebe-pomposo:1.7",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "pícaro applied to Bebé as ranh mãnh; Gloucester xảo quyệt; small naturalness fixes in 1.2, 1.4, 1.5 and 1.7."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "el tío de mamá / tu tío",
+      "draft_rendering": "ông chú của mẹ / ông",
+      "alternatives": [],
+      "rationale": "Pomposo is the mother’s uncle; he calls himself ông and Bebé cháu.",
+      "passages": [
+        "marti-bebe-pomposo:1.4",
+        "marti-bebe-pomposo:1.5",
+        "marti-bebe-pomposo:1.6"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Bebé está pensando",
+      "draft_rendering": "Bebé đang suy nghĩ",
+      "alternatives": [],
+      "rationale": "Identical refrain at each recurrence.",
+      "passages": [
+        "marti-bebe-pomposo:1.2",
+        "marti-bebe-pomposo:1.4",
+        "marti-bebe-pomposo:1.6"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "el gran comelón… se comió un melón",
+      "draft_rendering": "lão háu ăn một mình chén cả quả dưa, rồi chết một mình chẳng ai đưa",
+      "alternatives": [],
+      "rationale": "A rhyming jingle replaces Martí’s comelón/melón rhyme; 1.3 echoes it as lão háu ăn.",
+      "passages": [
+        "marti-bebe-pomposo:1.2",
+        "marti-bebe-pomposo:1.3"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete story as transcribed in Project Gutenberg #19898 (La Edad de Oro, New York, 1889). Witness typos (las pierna, medías, lo sucedió, te dice) are retained in the source and read as intended in translation.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "67f1658553e1589426ea28f69ff96505ff9ea28f6514d3b7b61295259150a0a2",
+  "target_sha256": "4ebffa86acbee6735535ff0e0e0ce27fe5a0666fb506c59eba58e02521505548",
+  "coverage": {
+    "canonical_passages": 7,
+    "translated_passages": 7,
+    "aligned_passages": 7
+  },
+  "ai_review_record": "corpus/reviews/marti-bebe-pomposo/marti-bebe-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "@title",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The name Pomposo (‘pompous’) is kept untranslated, so the joke in the name is not visible to Vietnamese readers; no in-text gloss is added."
+    }
+  ],
+  "title_review": {
+    "source_title": "Bebé y el señor don Pomposo",
+    "target_title": "Bebé và ngài Don Pomposo",
+    "rationale": "Bebé và ngài Don Pomposo keeps both names and renders el señor with the ironically formal ngài; the satirical meaning of Pomposo is not translated."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "marti-bebe-pomposo:1.1",
+        "marti-bebe-pomposo:1.2",
+        "marti-bebe-pomposo:1.3"
+      ],
+      "assessment": "Compared Bebé’s portrait, bedtime, the trip to Paris and Raúl."
+    },
+    {
+      "passages": [
+        "marti-bebe-pomposo:1.4",
+        "marti-bebe-pomposo:1.5",
+        "marti-bebe-pomposo:1.6",
+        "marti-bebe-pomposo:1.7"
+      ],
+      "assessment": "Compared the visits, Don Pomposo, the sword and the ending."
+    }
+  ]
+}

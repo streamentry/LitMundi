@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "work_id": "marti-bebe-pomposo",
+  "edition_id": "marti-bebe-vi-ai-2026",
+  "source_edition_id": "marti-bebe-es-edad-de-oro-1889",
+  "links": [
+    {
+      "source": [
+        "marti-bebe-pomposo:1.1"
+      ],
+      "target": [
+        "marti-bebe-pomposo:1.1"
+      ]
+    },
+    {
+      "source": [
+        "marti-bebe-pomposo:1.2"
+      ],
+      "target": [
+        "marti-bebe-pomposo:1.2"
+      ]
+    },
+    {
+      "source": [
+        "marti-bebe-pomposo:1.3"
+      ],
+      "target": [
+        "marti-bebe-pomposo:1.3"
+      ]
+    },
+    {
+      "source": [
+        "marti-bebe-pomposo:1.4"
+      ],
+      "target": [
+        "marti-bebe-pomposo:1.4"
+      ]
+    },
+    {
+      "source": [
+        "marti-bebe-pomposo:1.5"
+      ],
+      "target": [
+        "marti-bebe-pomposo:1.5"
+      ]
+    },
+    {
+      "source": [
+        "marti-bebe-pomposo:1.6"
+      ],
+      "target": [
+        "marti-bebe-pomposo:1.6"
+      ]
+    },
+    {
+      "source": [
+        "marti-bebe-pomposo:1.7"
+      ],
+      "target": [
+        "marti-bebe-pomposo:1.7"
+      ]
+    }
+  ]
+}

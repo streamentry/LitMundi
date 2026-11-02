@@ -1,0 +1,94 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "marti-bebe-vi-ai-2026",
+  "source_edition_id": "marti-bebe-es-edad-de-oro-1889",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Spanish-to-Vietnamese comparison of all 7 canonical passages and both titles. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 0 major and 16 minor findings with a pre-revision weighted score of 8.75; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "67f1658553e1589426ea28f69ff96505ff9ea28f6514d3b7b61295259150a0a2",
+  "target_sha256": "4ebffa86acbee6735535ff0e0e0ce27fe5a0666fb506c59eba58e02521505548",
+  "segments_reviewed": [
+    "marti-bebe-pomposo:1.1",
+    "marti-bebe-pomposo:1.2",
+    "marti-bebe-pomposo:1.3",
+    "marti-bebe-pomposo:1.4",
+    "marti-bebe-pomposo:1.5",
+    "marti-bebe-pomposo:1.6",
+    "marti-bebe-pomposo:1.7"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "marti-bebe-pomposo:1.2",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Restored a nursery jingle for the comelón/melón rhyme and echoed it in 1.3."
+    },
+    {
+      "segment": "marti-bebe-pomposo:1.1",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "la tierra is soil (the earthworm confusion), not the planet: làm ra đất; de mi alma no longer calqued; dril and zapatos bajos made precise."
+    },
+    {
+      "segment": "marti-bebe-pomposo:1.4",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "estirado now carries both stiffness and attitude (ngay đơ, kênh kiệu), setting up ‘qué largo’."
+    },
+    {
+      "segment": "marti-bebe-pomposo:1.6",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "¡qué sable! as a real exclamation; malo as a child’s ác; para el niño as cậu chủ nhỏ, sharpening the snub to Raúl."
+    },
+    {
+      "segment": "marti-bebe-pomposo:1.1",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Removed the Spanish !: stacking and capitalised after ! and ? outside dashed interjections."
+    },
+    {
+      "segment": "marti-bebe-pomposo:1.7",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "pícaro applied to Bebé as ranh mãnh; Gloucester xảo quyệt; small naturalness fixes in 1.2, 1.4, 1.5 and 1.7."
+    },
+    {
+      "segment": "@title",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The name Pomposo (‘pompous’) is kept untranslated, so the joke in the name is not visible to Vietnamese readers; no in-text gloss is added."
+    }
+  ],
+  "summary": "Full assessment of all 7 Spanish/Vietnamese passages and both titles. Bebé’s portrait and kindness, bedtime games, the trip to Paris with motherless Raúl, the day’s visits, the memory of Don Pomposo’s hotel room and the gilded sword, and Bebé’s secret gift of the sword to Raúl are complete and in order. The separate-context pass found no major issue; its sixteen minor findings were revised. Fidelity, voice, imagery and mechanics are 9.0, naturalness 8.5. Unrounded weighted score 8.925 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "Bebé y el señor don Pomposo",
+    "target_title": "Bebé và ngài Don Pomposo",
+    "rationale": "Bebé và ngài Don Pomposo keeps both names and renders el señor with the ironically formal ngài; the satirical meaning of Pomposo is not translated."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "edition_id": "marti-bebe-es-edad-de-oro-1889",
+  "work_id": "marti-bebe-pomposo",
+  "checked_at": "2026-11-02",
+  "checker_kind": "ai_assisted",
+  "source_sha256": "67f1658553e1589426ea28f69ff96505ff9ea28f6514d3b7b61295259150a0a2",
+  "segments_checked": [
+    "marti-bebe-pomposo:1.1",
+    "marti-bebe-pomposo:1.2",
+    "marti-bebe-pomposo:1.3",
+    "marti-bebe-pomposo:1.4",
+    "marti-bebe-pomposo:1.5",
+    "marti-bebe-pomposo:1.6",
+    "marti-bebe-pomposo:1.7"
+  ],
+  "witness_url": "https://www.gutenberg.org/cache/epub/19898/pg19898-images.html",
+  "witness_pages": [
+    "Bebé y el señor don Pomposo, complete 7-paragraph section"
+  ],
+  "notes": "Complete paragraph extraction and exact canonical comparison passed for 7/7 units after the stated normalization. Each source paragraph was also read for continuity, beginning/end boundaries and the translation assessment. This is an AI-assisted technical check of the identified electronic witness, not independent human review or a new physical-facsimile collation.",
+  "normalization_decisions": [
+    "HTML tags and entity encoding removed; line breaks and repeated spaces normalized inside paragraphs.",
+    "All 7 paragraph boundaries, «» quotations and em-dash interjections retained as printed, including witness typos."
+  ],
+  "witness_extract_path": "corpus/editorial/source-witnesses/marti-bebe-es-edad-de-oro-1889-extract-2026-11-02.json",
+  "witness_extract_sha256": "6f31bdd5ec465592c6798ed4b37d1928d2158b86cbc7581dd3136ab7c536720c",
+  "access_method": "direct_https_html",
+  "html_witness_sha256": "b1930ca3d85cc1f31d8355e0f72fad1e41757d73e6e789fe3d23331e203e6b5b"
+}

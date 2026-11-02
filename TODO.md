@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 11 published · 263 todo · 0 in progress · 226 on hold.**
+**500 selected works · 12 published · 262 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -30,7 +30,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **012. Rokeya Sakhawat Hossain — Sultana’s Dream** · en · short story · **Todo** · [Evidence](https://cuny.manifoldapp.org/read/women-s-political-and-social-thought/section/b2ff448b-965e-4ca9-b4b1-f7a92b893e7d)
 - [ ] **013. Ichiyo Higuchi — Jusan’ya / The Thirteenth Night** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person64.html)
 - [ ] **014. Leo Tolstoy — How Much Land Does a Man Need?** · ru · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/6157)
-- [ ] **015. José Martí — Bebé y el señor don Pomposo** · es · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/19898)
+- [x] **015. José Martí — Bebé y el señor don Pomposo** · es · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/19898) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/marti-bebe-pomposo/marti-bebe-vi-ai-2026/)
 - [ ] **016. Natsume Soseki — 夢十夜 / Ten Nights of Dreams** · ja · collection · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person148.html)
 - [ ] **017. Rabindranath Tagore — কাবুলিওয়ালা / Kabuliwala** · bn · short story · **Todo** · [Evidence](https://scalar.lehigh.edu/literature-of-colonial-south-asia/short-stories-by-rabindranath-tagore.19)
 - [ ] **018. Edgar Allan Poe — The Tell-Tale Heart** · en · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/2148)
