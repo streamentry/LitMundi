@@ -253,5 +253,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "id": "higuchi-thirteenth-night",
+    "title": "十三夜",
+    "author": "Ichiyo Higuchi",
+    "author_death_year": 1896,
+    "first_published_year": 1895,
+    "original_language": "ja",
+    "genre": "short_story",
+    "description": "On the night of the thirteenth moon a young wife returns to her parents to ask for a divorce, is sent back to her husband, and on the way meets the childhood friend now pulling rickshaws, in Higuchi Ichiyō’s two-part story.",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

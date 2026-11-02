@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "work_id": "higuchi-thirteenth-night",
+  "edition_id": "higuchi-jusanya-vi-ai-2026",
+  "source_edition_id": "higuchi-jusanya-ja-bungei-kurabu-1895",
+  "title_vi": "Đêm mười ba",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Fused narration and speech",
+      "decision": "Ichiyō’s long unquoted chains of narration and speech are kept as long Vietnamese sentences joined by commas and semicolons, without quotation marks.",
+      "rationale": "The fusion of voices is part of the style; speaker changes remain legible through Vietnamese address forms."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-queue-013",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "higuchi-thirteenth-night:1.5",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "關や關や no longer reads as ‘Mr Seki’: ông gọi Seki ơi, Seki à; 二言目には as hở ra là."
+        },
+        {
+          "segment": "higuchi-thirteenth-night:1.4",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "She bites her sleeve to hold back the sob (toan òa lên thì cắn chặt tay áo lót mà nén lại)."
+        },
+        {
+          "segment": "higuchi-thirteenth-night:1.8",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "綿銘仙 is cotton meisen, not padded."
+        },
+        {
+          "segment": "higuchi-thirteenth-night:1.2",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "おほゝ as a refined laugh (cười nhỏ nhẹ); けろ〳〵 as tỉnh như không."
+        },
+        {
+          "segment": "higuchi-thirteenth-night:1.1",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "威勢よき黒ぬり車 as a gleaming, briskly running carriage; also 毛繻子 as cheap wool-satin (1.3), the father’s scolding (1.3), the dangling clause in 1.3 and the resignation sentence in 1.9."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "十三夜 / 十五夜 / 片月見",
+      "draft_rendering": "đêm mười ba / đêm rằm tháng tám / ngắm trăng lẻ một đêm thì cũng kiêng",
+      "alternatives": [],
+      "rationale": "The thirteenth-night moon viewing of the ninth lunar month completes the mid-autumn viewing; viewing only one is unlucky.",
+      "passages": [
+        "higuchi-thirteenth-night:1.3"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "お關 / 阿關 / 關",
+      "draft_rendering": "Oseki / Seki",
+      "alternatives": [],
+      "rationale": "Seki without the honorific only where the source itself drops お.",
+      "passages": [
+        "higuchi-thirteenth-night:1.2",
+        "higuchi-thirteenth-night:1.5",
+        "higuchi-thirteenth-night:1.8"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "奏任 / 丸髷",
+      "draft_rendering": "quan hàm tấu nhiệm / búi tóc marumage",
+      "alternatives": [],
+      "rationale": "Rank and married woman’s hairstyle kept as period markers without in-text glosses.",
+      "passages": [
+        "higuchi-thirteenth-night:1.1",
+        "higuchi-thirteenth-night:1.8"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Aozora Bunko transcription (card 55670) made from the first publication itself, 文藝倶樂部 閨秀小説號 (博文館, 10 December 1895), in old kanji and kana. Later collected-works texts (Aozora cards 386 and 56040) were not used.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "03f9892a510805c5643cc02fb04945c8148c710d96898556f35b68b584c7582b",
+  "target_sha256": "83c17565b12dc52701c6f39d974782587153a03281599c8427da02b540d322be",
+  "coverage": {
+    "canonical_passages": 14,
+    "translated_passages": 14,
+    "aligned_passages": 14
+  },
+  "ai_review_record": "corpus/reviews/higuchi-thirteenth-night/higuchi-jusanya-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "higuchi-thirteenth-night:1.1",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "奏任 and 片月見 are rendered without in-text glosses; readers unfamiliar with Meiji ranks or the two-moon custom may need a note."
+    }
+  ],
+  "title_review": {
+    "source_title": "十三夜",
+    "target_title": "Đêm mười ba",
+    "rationale": "Đêm mười ba keeps the plain calendar title; the moon is implied as in the Japanese, and the custom is explained in the story itself."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "higuchi-thirteenth-night:1.1",
+        "higuchi-thirteenth-night:1.2",
+        "higuchi-thirteenth-night:1.3",
+        "higuchi-thirteenth-night:1.4",
+        "higuchi-thirteenth-night:1.5",
+        "higuchi-thirteenth-night:1.6",
+        "higuchi-thirteenth-night:1.7",
+        "higuchi-thirteenth-night:1.8",
+        "higuchi-thirteenth-night:1.9"
+      ],
+      "assessment": "Compared section 上: arrival, the parents, the dumplings, the request, the marriage, the father’s counsel and the return."
+    },
+    {
+      "passages": [
+        "higuchi-thirteenth-night:2.1",
+        "higuchi-thirteenth-night:2.2",
+        "higuchi-thirteenth-night:2.3",
+        "higuchi-thirteenth-night:2.4",
+        "higuchi-thirteenth-night:2.5"
+      ],
+      "assessment": "Compared section 下: the rickshaw, Ueno, Rokunosuke’s recognition and story, and the parting."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "higuchi-jusanya-vi-ai-2026",
+  "source_edition_id": "higuchi-jusanya-ja-bungei-kurabu-1895",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Japanese-to-Vietnamese comparison of all 14 canonical passages and both titles. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 0 major and 12 minor findings with a pre-revision weighted score of 8.925; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "03f9892a510805c5643cc02fb04945c8148c710d96898556f35b68b584c7582b",
+  "target_sha256": "83c17565b12dc52701c6f39d974782587153a03281599c8427da02b540d322be",
+  "segments_reviewed": [
+    "higuchi-thirteenth-night:1.1",
+    "higuchi-thirteenth-night:1.2",
+    "higuchi-thirteenth-night:1.3",
+    "higuchi-thirteenth-night:1.4",
+    "higuchi-thirteenth-night:1.5",
+    "higuchi-thirteenth-night:1.6",
+    "higuchi-thirteenth-night:1.7",
+    "higuchi-thirteenth-night:1.8",
+    "higuchi-thirteenth-night:1.9",
+    "higuchi-thirteenth-night:2.1",
+    "higuchi-thirteenth-night:2.2",
+    "higuchi-thirteenth-night:2.3",
+    "higuchi-thirteenth-night:2.4",
+    "higuchi-thirteenth-night:2.5"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "higuchi-thirteenth-night:1.5",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "關や關や no longer reads as ‘Mr Seki’: ông gọi Seki ơi, Seki à; 二言目には as hở ra là."
+    },
+    {
+      "segment": "higuchi-thirteenth-night:1.4",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "She bites her sleeve to hold back the sob (toan òa lên thì cắn chặt tay áo lót mà nén lại)."
+    },
+    {
+      "segment": "higuchi-thirteenth-night:1.8",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "綿銘仙 is cotton meisen, not padded."
+    },
+    {
+      "segment": "higuchi-thirteenth-night:1.2",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "おほゝ as a refined laugh (cười nhỏ nhẹ); けろ〳〵 as tỉnh như không."
+    },
+    {
+      "segment": "higuchi-thirteenth-night:1.1",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "威勢よき黒ぬり車 as a gleaming, briskly running carriage; also 毛繻子 as cheap wool-satin (1.3), the father’s scolding (1.3), the dangling clause in 1.3 and the resignation sentence in 1.9."
+    },
+    {
+      "segment": "higuchi-thirteenth-night:1.1",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "奏任 and 片月見 are rendered without in-text glosses; readers unfamiliar with Meiji ranks or the two-moon custom may need a note."
+    }
+  ],
+  "summary": "Full assessment of all 14 Japanese/Vietnamese passages and both titles. Oseki’s arrival at her parents’ door, their welcome and the thirteenth-night dumplings, her request for divorce and account of Harada’s contempt, the mother’s anger, the father’s admonition and her return, the rickshaw stopping in dark Ueno, the recognition of Rokunosuke and his story, and the parting at Hirokōji are complete clause by clause. The separate-context pass found no major issue; its twelve minor findings were revised except an open note on period terms. Fidelity, voice, imagery and mechanics are 9.0, naturalness 8.5. Unrounded weighted score 8.925 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "十三夜",
+    "target_title": "Đêm mười ba",
+    "rationale": "Đêm mười ba keeps the plain calendar title; the moon is implied as in the Japanese, and the custom is explained in the story itself."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "edition_id": "higuchi-jusanya-ja-bungei-kurabu-1895",
+  "work_id": "higuchi-thirteenth-night",
+  "checked_at": "2026-11-02",
+  "checker_kind": "ai_assisted",
+  "source_sha256": "03f9892a510805c5643cc02fb04945c8148c710d96898556f35b68b584c7582b",
+  "segments_checked": [
+    "higuchi-thirteenth-night:1.1",
+    "higuchi-thirteenth-night:1.2",
+    "higuchi-thirteenth-night:1.3",
+    "higuchi-thirteenth-night:1.4",
+    "higuchi-thirteenth-night:1.5",
+    "higuchi-thirteenth-night:1.6",
+    "higuchi-thirteenth-night:1.7",
+    "higuchi-thirteenth-night:1.8",
+    "higuchi-thirteenth-night:1.9",
+    "higuchi-thirteenth-night:2.1",
+    "higuchi-thirteenth-night:2.2",
+    "higuchi-thirteenth-night:2.3",
+    "higuchi-thirteenth-night:2.4",
+    "higuchi-thirteenth-night:2.5"
+  ],
+  "witness_url": "https://www.aozora.gr.jp/cards/000064/files/55670_57510.html",
+  "witness_pages": [
+    "十三夜, sections 上 and 下, complete main_text block"
+  ],
+  "notes": "Complete paragraph extraction and exact canonical comparison passed for 14/14 units after the stated normalization. Each source paragraph was also read for continuity, beginning/end boundaries and the translation assessment. This is an AI-assisted technical check of the identified electronic witness, not independent human review or a new physical-facsimile collation.",
+  "normalization_decisions": [
+    "Shift_JIS converted to UTF-8; HTML tags and ruby readings removed; Aozora editorial notes ［＃…］ removed; paragraph-initial ideographic spaces removed.",
+    "External characters encoded as Unicode: 哆 (口＋多), 幵 (研のつくり), 减 (冫＋咸, U+51CF); Aozora’s repetition-mark notation ／＼ and ／″＼ encoded as 〳〵 and 〴〵.",
+    "Section headings 《上》《下》 represented as section boundaries; the printed end mark 《終》 excluded."
+  ],
+  "witness_extract_path": "corpus/editorial/source-witnesses/higuchi-jusanya-ja-bungei-kurabu-1895-extract-2026-11-02.json",
+  "witness_extract_sha256": "78386d961fe751dc91873e14cd9ec7be77c4265514c194a723c80abc0d28ccf2",
+  "access_method": "direct_https_html",
+  "html_witness_sha256": "1ccada21ed55a3fde75a1f688d025cdc71a845955a72ecf611c62f5f0b6f685b"
+}

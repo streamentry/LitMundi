@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "work_id": "higuchi-thirteenth-night",
+  "segment_ids": [
+    "higuchi-thirteenth-night:1.1",
+    "higuchi-thirteenth-night:1.2",
+    "higuchi-thirteenth-night:1.3",
+    "higuchi-thirteenth-night:1.4",
+    "higuchi-thirteenth-night:1.5",
+    "higuchi-thirteenth-night:1.6",
+    "higuchi-thirteenth-night:1.7",
+    "higuchi-thirteenth-night:1.8",
+    "higuchi-thirteenth-night:1.9",
+    "higuchi-thirteenth-night:2.1",
+    "higuchi-thirteenth-night:2.2",
+    "higuchi-thirteenth-night:2.3",
+    "higuchi-thirteenth-night:2.4",
+    "higuchi-thirteenth-night:2.5"
+  ],
+  "deprecated_ids": {},
+  "notes": "Canonical units follow every paragraph of the selected complete transcription. Sections 1–2 correspond to the headings 上 and 下. The title and section headings are structural metadata; ruby, editorial notes, the printed end mark 《終》 and navigation are excluded. Passage IDs are immutable and may not be reassigned."
+}

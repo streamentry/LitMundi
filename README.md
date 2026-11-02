@@ -26,8 +26,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [José Martí — Bebé y el señor don Pomposo](corpus/editorial/marti-bebe-pomposo/marti-bebe-vi-ai-2026.json) | Spanish; La Edad de Oro 1889, Gutenberg #19898 | 7 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Rokeya Sakhawat Hossain — Sultana's Dream](corpus/editorial/rokeya-sultanas-dream/rokeya-sultana-vi-ai-2026.json) | English; Indian Ladies' Magazine 1905 via Penn electronic text | 137 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Leo Tolstoy — Много ли человеку земли нужно](corpus/editorial/tolstoy-how-much-land/tolstoy-zemli-vi-ai-2026.json) | Russian; Собрание сочинений в 22 т., vol. 10 via Russian Wikisource | 92 | 8.925 (displayed 8.93) | AI-reviewed translation published |
+| [Ichiyo Higuchi — 十三夜](corpus/editorial/higuchi-thirteenth-night/higuchi-jusanya-vi-ai-2026.json) | Japanese; 文藝倶樂部 閨秀小説號 1895 via Aozora Bunko #55670 | 14 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 
-All sixteen originals are published, giving thirty-two public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All seventeen originals are published, giving thirty-four public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 
