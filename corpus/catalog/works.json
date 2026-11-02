@@ -103,5 +103,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. A 1922 Vietnamese translation by Vũ Văn Định and later translations are reported; their availability, completeness and reuse status were not audited here. No absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "id": "akutagawa-spiders-thread",
+    "title": "蜘蛛の糸",
+    "author": "Ryunosuke Akutagawa",
+    "author_death_year": 1927,
+    "first_published_year": 1918,
+    "original_language": "ja",
+    "genre": "short_story",
+    "description": "The Buddha lowers a spider’s thread into hell for a thief who once spared a spider, in a three-part fable of mercy, selfishness and an indifferent paradise.",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

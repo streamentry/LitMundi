@@ -1,0 +1,38 @@
+{
+  "edition_id": "akutagawa-kumo-ja-chikuma-1986",
+  "work_id": "akutagawa-spiders-thread",
+  "checked_at": "2026-11-02",
+  "checker_kind": "ai_assisted",
+  "source_sha256": "605d68fcd5eab3b87195c1f76812990b4f6a4a04a6c017f437ca085efba6bb44",
+  "segments_checked": [
+    "akutagawa-spiders-thread:1.1",
+    "akutagawa-spiders-thread:1.2",
+    "akutagawa-spiders-thread:1.3",
+    "akutagawa-spiders-thread:1.4",
+    "akutagawa-spiders-thread:2.1",
+    "akutagawa-spiders-thread:2.2",
+    "akutagawa-spiders-thread:2.3",
+    "akutagawa-spiders-thread:2.4",
+    "akutagawa-spiders-thread:2.5",
+    "akutagawa-spiders-thread:2.6",
+    "akutagawa-spiders-thread:2.7",
+    "akutagawa-spiders-thread:2.8",
+    "akutagawa-spiders-thread:3.1",
+    "akutagawa-spiders-thread:3.2",
+    "akutagawa-spiders-thread:3.3"
+  ],
+  "witness_url": "https://www.aozora.gr.jp/cards/000879/files/92_14545.html",
+  "witness_pages": [
+    "蜘蛛の糸, sections 一–三 and dateline, complete main_text block"
+  ],
+  "notes": "Complete paragraph extraction and exact canonical comparison passed for 15/15 units after the stated normalization. Each source paragraph was also read for continuity, beginning/end boundaries and the translation assessment. This is an AI-assisted technical check of the identified electronic witness, not independent human review or a new physical-facsimile collation.",
+  "normalization_decisions": [
+    "Shift_JIS converted to UTF-8; HTML tags removed; ruby readings (<rt>/<rp>) dropped and base text kept; paragraph-initial ideographic spaces removed.",
+    "The JIS external character image 「特のへん＋廴＋聿」 (第3水準1-87-71) is encoded as 犍 in all occurrences of 犍陀多.",
+    "Section headings 一, 二, 三 are represented as section boundaries; the dateline （大正七年四月十六日） is retained as the final passage."
+  ],
+  "witness_extract_path": "corpus/editorial/source-witnesses/akutagawa-kumo-ja-chikuma-1986-extract-2026-11-02.json",
+  "witness_extract_sha256": "08372a026b89f39666138d440802c475d1087ce36fcc358f92a19ce88e839b7d",
+  "access_method": "direct_https_html",
+  "html_witness_sha256": "47cdc4b16202cc9556107e0b7bf86fc7c831e140dd8894ce93fa7425eadce419"
+}

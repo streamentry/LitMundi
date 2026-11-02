@@ -11,17 +11,31 @@ const width=1200,height=630;
 const colors={paper:'#faf9f6',ink:'#193e2f',green:'#24553e',muted:'#53665a',line:'#dce3d9',gold:'#b39559'};
 const xml=value=>String(value).replace(/[&<>"']/g,character=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[character]));
 
+const dejavu={file:fontfile,family:'DejaVu Serif'};
+const scriptFonts=JSON.parse(await readFile(join(root,'scripts/fonts/social-fonts.json'),'utf8'));
+// Latin (including Vietnamese) and general punctuation are covered by DejaVu Serif.
+const dejavuCovered=/^[\n\u0020-\u024F\u1E00-\u1EFF\u2000-\u206F]*$/u;
+
+/** Pick a vendored font that covers every character of a title; never fall back silently. */
+function fontFor(value,language) {
+  if(dejavuCovered.test(value))return dejavu;
+  const font=scriptFonts[language];
+  const missing=[...value].filter(character=>character.codePointAt(0)>0x7E&&!font?.characters.includes(character));
+  if(!font||missing.length)throw new Error(`Social-card font lacks ${missing.join('')||'a font'} for language ${language}; run scripts/fonts/subset-social-fonts.py`);
+  return {file:join(root,'scripts/fonts',font.file),family:font.family};
+}
+
 /** Render the full text. Long titles wrap and shrink; none are ellipsized. */
-async function textLayer(value,{size,maxWidth,maxHeight,color=colors.ink}) {
+async function textLayer(value,{size,maxWidth,maxHeight,color=colors.ink,font=dejavu}) {
   const text='<span foreground="'+color+'" fallback="false">'+xml(value.normalize('NFC'))+'</span>';
-  const options={text,fontfile,width:maxWidth,rgba:true,align:'left',wrap:'word-char',spacing:5};
+  const options={text,fontfile:font.file,width:maxWidth,rgba:true,align:'left',wrap:'word-char',spacing:5};
   for(let points=size;points>=24;points-=2){
-    const result=await sharp({text:{...options,font:'DejaVu Serif '+points,dpi:72}}).png().toBuffer({resolveWithObject:true});
+    const result=await sharp({text:{...options,font:font.family+' '+points,dpi:72}}).png().toBuffer({resolveWithObject:true});
     if(result.info.width<=maxWidth&&result.info.height<=maxHeight)return result.data;
   }
   // The bounded-height Pango layout fits unusually long bibliographic titles
   // without dropping words. The page metadata retains the complete title too.
-  const result=await sharp({text:{...options,font:'DejaVu Serif 24',height:maxHeight}}).png().toBuffer({resolveWithObject:true});
+  const result=await sharp({text:{...options,font:font.family+' 24',height:maxHeight}}).png().toBuffer({resolveWithObject:true});
   if(result.info.width>maxWidth||result.info.height>maxHeight)throw new Error('Social-card text exceeds its layout bounds');
   return result.data;
 }
@@ -47,8 +61,8 @@ const icon=await sharp(logo).resize(48,48).png().toBuffer();
 const brand=await textLayer('LitMundi',{size:40,maxWidth:800,maxHeight:55});
 const footer=await textLayer('Read · Compare · Download',{size:22,maxWidth:1048,maxHeight:35,color:colors.muted});
 
-async function card(filename,title,byline) {
-  const heading=await textLayer(title,{size:76,maxWidth:1048,maxHeight:220});
+async function card(filename,title,byline,language='en') {
+  const heading=await textLayer(title,{size:76,maxWidth:1048,maxHeight:220,font:fontFor(title,language)});
   const attribution=await textLayer(byline,{size:30,maxWidth:1048,maxHeight:74,color:colors.muted});
   const image=await sharp(background).composite([
     {input:icon,left:76,top:62},{input:brand,left:143,top:66},
@@ -61,7 +75,7 @@ async function card(filename,title,byline) {
 }
 
 await card('site.png','A library of\nworld literature.','Originals and translations');
-for(const work of published)await card(work.id+'.png',work.title,work.author);
+for(const work of published)await card(work.id+'.png',work.title,work.author,work.original_language);
 
 // Remove only known corpus cards that are no longer public. Unrelated files
 // in this directory are not deleted, and the authoritative corpus is untouched.

@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "work_id": "akutagawa-spiders-thread",
+  "edition_id": "akutagawa-kumo-vi-ai-2026",
+  "source_edition_id": "akutagawa-kumo-ja-chikuma-1986",
+  "title_vi": "Sợi tơ nhện",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Storyteller register",
+      "decision": "Render the polite oral 〜でございます narration with gentle Vietnamese storytelling markers (Ấy là…, có lạ không chứ!) rather than modern neutral prose.",
+      "rationale": "The story was written for the children’s magazine 赤い鳥 in a narrator’s courteous spoken voice."
+    },
+    {
+      "topic": "Exclamations",
+      "decision": "Use ! for Kandata’s laughing しめた and his howled order, although the witness ends them with 。.",
+      "rationale": "Period Japanese seldom used ！; Vietnamese full stops would misrepresent shouted speech that the narration explicitly labels as laughing and howling."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-queue-005",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "akutagawa-spiders-thread:2.6",
+          "category": "editorial_mechanics",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Kandata’s howled order had been punctuated with Vietnamese full stops copied from 。, which made it sound calm. Exclamation marks now match the narrated 喚きました."
+        },
+        {
+          "segment": "akutagawa-spiders-thread:1.2",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "針の山 had been capitalised núi Kim, readable as a proper name or Sino-Vietnamese 金 (gold). Now núi chông kim at first mention and lowercase núi kim thereafter (2.1, 2.2, 2.5)."
+        },
+        {
+          "segment": "akutagawa-spiders-thread:2.5",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "しめた rendered as the triumphant “Hay rồi! Hay rồi!” instead of the flat Được rồi; the narrator’s surprise marker ではございませんか restored as có lạ không chứ!, mirroring 2.2."
+        },
+        {
+          "segment": "akutagawa-spiders-thread:3.2",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The closing time sentence now mirrors 1.1 (“chắc hẳn lúc ấy… gần trưa”), restoring the frame symmetry of morning and noon."
+        },
+        {
+          "segment": "akutagawa-spiders-thread:2.8",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "後には is temporal; replaced spatial Phía sau with Rồi chỉ còn lại and the faintly comic ngắn ngủn with buông thõng một đoạn ngắn."
+        },
+        {
+          "segment": "akutagawa-spiders-thread:2.1",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "〜のでございましょう is conjectural: Ấy là vì became Có lẽ vì; the paragraph again opens with Kandata as its topic."
+        },
+        {
+          "segment": "akutagawa-spiders-thread:3.1",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "浅間しく思召された now carries both pity and shame (đáng thương mà cũng thật đáng hổ thẹn); じっと rendered chăm chú."
+        },
+        {
+          "segment": "akutagawa-spiders-thread:2.5",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Removed a misattached simile (cái miệng to như một thằng ngốc) and rephrased as há hốc miệng ra như một thằng ngốc."
+        },
+        {
+          "segment": "akutagawa-spiders-thread:1.3",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Lúc nhúc describes a teeming crowd, not one man; removed."
+        },
+        {
+          "segment": "akutagawa-spiders-thread:2.2",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Smoothed the thread’s descent: một sợi mảnh mai lấp lánh, cứ thế êm êm trôi xuống for するすると."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "御釈迦様",
+      "draft_rendering": "Đức Phật Thích Ca / Đức Phật / Ngài",
+      "alternatives": [
+        "Đức Thích Ca"
+      ],
+      "rationale": "Honorific reference matching the narrator’s respectful 御〜になる forms.",
+      "passages": [
+        "akutagawa-spiders-thread:1.1",
+        "akutagawa-spiders-thread:1.2",
+        "akutagawa-spiders-thread:1.4",
+        "akutagawa-spiders-thread:3.1",
+        "akutagawa-spiders-thread:3.2"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "犍陀多",
+      "draft_rendering": "Kandata",
+      "alternatives": [
+        "Kiền Đà Đa"
+      ],
+      "rationale": "Follows the ruby reading かんだた; narration uses gã, fitting a notorious thief.",
+      "passages": [
+        "akutagawa-spiders-thread:1.3",
+        "akutagawa-spiders-thread:2.1",
+        "akutagawa-spiders-thread:2.3",
+        "akutagawa-spiders-thread:2.5",
+        "akutagawa-spiders-thread:2.6",
+        "akutagawa-spiders-thread:2.7"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "針の山 / 血の池 / 三途の河 / 極楽",
+      "draft_rendering": "núi chông kim, núi kim / ao máu / sông Tam Đồ / cõi Cực Lạc",
+      "alternatives": [
+        "núi đao"
+      ],
+      "rationale": "Lowercase núi kim avoids reading Sino-Vietnamese kim as 金 (gold); the first mention specifies chông kim.",
+      "passages": [
+        "akutagawa-spiders-thread:1.2",
+        "akutagawa-spiders-thread:2.1",
+        "akutagawa-spiders-thread:2.2",
+        "akutagawa-spiders-thread:2.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "覗き眼鏡",
+      "draft_rendering": "hộp kính xem tranh",
+      "alternatives": [],
+      "rationale": "A peep-show box viewed through a lens, not ordinary spectacles.",
+      "passages": [
+        "akutagawa-spiders-thread:1.2"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete Aozora Bunko transcription (card 92, file 92_14545) of the text in 芥川龍之介全集2 (ちくま文庫, 筑摩書房, 1986; 11th printing 1996), itself based on the 筑摩全集類聚版 collected works (1971). This witness uses modern kanji and kana orthography (新字新仮名). First publication: 赤い鳥, July 1918. Ruby readings are omitted from the canonical text; the external character 「特のへん＋廴＋聿」 is encoded as Unicode 犍.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "605d68fcd5eab3b87195c1f76812990b4f6a4a04a6c017f437ca085efba6bb44",
+  "target_sha256": "87db1d2cdc00e1578bdea2f3d8c2402551f8074ed58ff0a9d0b7f0c4193a55be",
+  "coverage": {
+    "canonical_passages": 15,
+    "translated_passages": 15,
+    "aligned_passages": 15
+  },
+  "ai_review_record": "corpus/reviews/akutagawa-spiders-thread/akutagawa-kumo-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "akutagawa-spiders-thread:1.1",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Vietnamese storyteller markers approximate but cannot reproduce the honorific spoken texture of 〜でございます and 御〜になる; some politeness is carried only by Đức Phật/Ngài."
+    },
+    {
+      "segment": "akutagawa-spiders-thread:3.3",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The dateline keeps the Taishō era form (năm Đại Chính thứ 7) without a Gregorian gloss (1918), which belongs in apparatus rather than the text."
+    }
+  ],
+  "title_review": {
+    "source_title": "蜘蛛の糸",
+    "target_title": "Sợi tơ nhện",
+    "rationale": "蜘蛛の糸 is literally ‘the spider’s thread’. Sợi tơ nhện is the plain, natural Vietnamese equivalent, matches the recurring body term exactly and reveals nothing about the outcome."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "akutagawa-spiders-thread:1.1",
+        "akutagawa-spiders-thread:1.2",
+        "akutagawa-spiders-thread:1.3",
+        "akutagawa-spiders-thread:1.4"
+      ],
+      "assessment": "Compared the paradise frame, the view to hell, Kandata’s crimes and spared spider, and the lowering of the thread."
+    },
+    {
+      "passages": [
+        "akutagawa-spiders-thread:2.1",
+        "akutagawa-spiders-thread:2.2",
+        "akutagawa-spiders-thread:2.3",
+        "akutagawa-spiders-thread:2.4",
+        "akutagawa-spiders-thread:2.5",
+        "akutagawa-spiders-thread:2.6",
+        "akutagawa-spiders-thread:2.7",
+        "akutagawa-spiders-thread:2.8"
+      ],
+      "assessment": "Compared the blood pool, needle mountain, silence, the thread’s descent, the climb, rest, the crowd of climbers, the shout, the snap and the hanging remnant."
+    },
+    {
+      "passages": [
+        "akutagawa-spiders-thread:3.1",
+        "akutagawa-spiders-thread:3.2",
+        "akutagawa-spiders-thread:3.3"
+      ],
+      "assessment": "Compared the Buddha’s reaction, the judgement on Kandata’s heart, the indifferent lotuses, the noon echo and the dateline."
+    }
+  ]
+}

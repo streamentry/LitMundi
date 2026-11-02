@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 4 published · 270 todo · 0 in progress · 226 on hold.**
+**500 selected works · 5 published · 269 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -20,7 +20,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **002. Kate Chopin — The Story of an Hour** · en · short story · **Published** · [Evidence](https://www.katechopin.org/story-hour/) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/chopin-story-of-an-hour/chopin-hour-vi-ai-2026/)
 - [x] **003. Saki — The Open Window** · en · short story · **Published** · [Evidence](https://www.annotated-saki.info/first-publication/) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/saki-the-open-window/saki-open-window-vi-ai-2026/)
 - [x] **004. Guy de Maupassant — La Parure** · fr · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/14790) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/maupassant-la-parure/maupassant-parure-vi-ai-2026/)
-- [ ] **005. Ryunosuke Akutagawa — 蜘蛛の糸 / The Spider’s Thread** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html)
+- [x] **005. Ryunosuke Akutagawa — 蜘蛛の糸 / The Spider’s Thread** · ja · short story · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/akutagawa-spiders-thread/akutagawa-kumo-vi-ai-2026/)
 - [ ] **006. Machado de Assis — A Cartomante** · pt · short story · **Todo** · [Evidence](https://openlibrary.org/works/OL1003023W)
 - [ ] **007. Lu Xun — 孔乙己 / Kong Yiji** · zh · short story · **Todo** · [Evidence](https://jsis.washington.edu/earc/lu-xun-the-father-of-modern-chinese-literature-ncta-online-book-study/)
 - [ ] **008. Rabindranath Tagore — পোস্টমাস্টার / The Postmaster** · bn · short story · **Todo** · [Evidence](https://scalar.lehigh.edu/literature-of-colonial-south-asia/short-stories-by-rabindranath-tagore.19)
