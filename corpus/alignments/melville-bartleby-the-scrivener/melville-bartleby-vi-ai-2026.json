@@ -1,0 +1,2016 @@
+{
+  "schema_version": 1,
+  "work_id": "melville-bartleby-the-scrivener",
+  "edition_id": "melville-bartleby-vi-ai-2026",
+  "source_edition_id": "melville-bartleby-en-pg11231",
+  "links": [
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.1"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.1"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.2"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.2"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.3"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.3"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.4"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.4"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.5"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.5"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.6"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.6"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.7"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.7"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.8"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.8"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.9"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.9"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.10"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.10"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.11"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.11"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.12"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.12"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.13"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.13"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.14"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.14"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.15"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.15"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.16"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.16"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.17"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.17"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.18"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.18"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.19"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.19"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.20"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.20"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.21"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.21"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.22"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.22"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.23"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.23"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.24"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.24"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.25"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.25"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.26"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.26"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.27"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.27"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.28"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.28"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.29"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.29"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.30"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.30"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.31"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.31"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.32"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.32"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.33"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.33"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.34"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.34"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.35"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.35"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.36"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.36"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.37"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.37"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.38"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.38"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.39"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.39"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.40"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.40"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.41"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.41"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.42"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.42"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.43"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.43"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.44"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.44"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.45"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.45"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.46"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.46"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.47"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.47"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.48"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.48"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.49"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.49"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.50"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.50"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.51"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.51"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.52"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.52"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.53"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.53"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.54"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.54"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.55"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.55"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.56"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.56"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.57"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.57"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.58"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.58"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.59"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.59"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.60"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.60"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.61"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.61"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.62"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.62"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.63"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.63"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.64"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.64"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.65"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.65"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.66"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.66"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.67"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.67"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.68"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.68"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.69"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.69"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.70"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.70"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.71"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.71"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.72"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.72"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.73"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.73"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.74"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.74"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.75"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.75"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.76"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.76"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.77"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.77"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.78"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.78"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.79"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.79"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.80"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.80"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.81"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.81"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.82"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.82"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.83"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.83"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.84"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.84"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.85"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.85"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.86"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.86"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.87"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.87"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.88"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.88"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.89"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.89"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.90"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.90"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.91"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.91"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.92"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.92"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.93"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.93"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.94"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.94"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.95"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.95"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.96"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.96"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.97"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.97"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.98"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.98"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.99"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.99"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.100"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.100"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.101"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.101"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.102"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.102"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.103"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.103"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.104"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.104"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.105"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.105"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.106"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.106"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.107"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.107"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.108"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.108"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.109"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.109"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.110"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.110"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.111"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.111"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.112"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.112"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.113"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.113"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.114"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.114"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.115"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.115"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.116"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.116"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.117"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.117"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.118"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.118"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.119"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.119"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.120"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.120"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.121"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.121"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.122"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.122"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.123"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.123"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.124"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.124"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.125"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.125"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.126"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.126"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.127"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.127"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.128"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.128"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.129"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.129"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.130"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.130"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.131"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.131"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.132"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.132"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.133"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.133"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.134"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.134"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.135"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.135"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.136"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.136"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.137"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.137"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.138"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.138"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.139"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.139"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.140"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.140"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.141"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.141"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.142"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.142"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.143"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.143"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.144"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.144"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.145"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.145"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.146"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.146"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.147"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.147"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.148"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.148"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.149"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.149"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.150"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.150"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.151"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.151"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.152"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.152"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.153"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.153"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.154"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.154"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.155"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.155"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.156"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.156"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.157"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.157"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.158"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.158"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.159"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.159"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.160"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.160"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.161"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.161"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.162"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.162"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.163"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.163"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.164"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.164"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.165"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.165"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.166"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.166"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.167"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.167"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.168"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.168"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.169"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.169"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.170"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.170"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.171"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.171"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.172"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.172"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.173"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.173"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.174"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.174"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.175"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.175"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.176"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.176"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.177"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.177"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.178"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.178"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.179"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.179"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.180"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.180"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.181"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.181"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.182"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.182"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.183"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.183"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.184"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.184"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.185"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.185"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.186"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.186"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.187"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.187"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.188"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.188"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.189"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.189"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.190"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.190"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.191"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.191"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.192"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.192"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.193"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.193"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.194"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.194"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.195"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.195"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.196"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.196"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.197"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.197"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.198"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.198"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.199"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.199"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.200"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.200"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.201"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.201"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.202"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.202"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.203"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.203"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.204"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.204"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.205"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.205"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.206"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.206"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.207"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.207"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.208"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.208"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.209"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.209"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.210"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.210"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.211"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.211"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.212"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.212"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.213"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.213"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.214"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.214"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.215"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.215"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.216"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.216"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.217"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.217"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.218"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.218"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.219"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.219"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.220"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.220"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.221"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.221"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.222"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.222"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.223"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.223"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.224"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.224"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.225"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.225"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.226"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.226"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.227"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.227"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.228"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.228"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.229"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.229"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.230"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.230"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.231"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.231"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.232"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.232"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.233"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.233"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.234"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.234"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.235"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.235"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.236"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.236"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.237"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.237"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.238"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.238"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.239"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.239"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.240"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.240"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.241"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.241"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.242"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.242"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.243"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.243"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.244"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.244"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.245"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.245"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.246"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.246"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.247"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.247"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.248"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.248"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.249"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.249"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.250"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.250"
+      ]
+    },
+    {
+      "source": [
+        "melville-bartleby-the-scrivener:1.251"
+      ],
+      "target": [
+        "melville-bartleby-the-scrivener:1.251"
+      ]
+    }
+  ]
+}

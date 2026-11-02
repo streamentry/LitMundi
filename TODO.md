@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 27 published · 247 todo · 0 in progress · 226 on hold.**
+**500 selected works · 28 published · 246 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -46,7 +46,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **028. Leo Tolstoy — The Death of Ivan Ilyich** · ru · novella · **Todo** · [Evidence](https://openlibrary.org/works/OL35297256W)
 - [ ] **029. Ichiyo Higuchi — Takekurabe / Growing Up** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person64.html)
 - [ ] **030. Edgar Allan Poe — The Fall of the House of Usher** · en · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/2148)
-- [ ] **031. Herman Melville — Bartleby, the Scrivener** · en · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/11231)
+- [x] **031. Herman Melville — Bartleby, the Scrivener** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/11231) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/melville-bartleby-the-scrivener/melville-bartleby-vi-ai-2026/)
 - [ ] **032. Ichiyo Higuchi — Nigorie / Troubled Waters** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person64.html)
 - [ ] **033. Jane Austen — Pride and Prejudice** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/1342)
 - [ ] **034. Lu Xun — Diary of a Madman** · zh · short story · **Todo** · [Evidence](https://jsis.washington.edu/earc/lu-xun-the-father-of-modern-chinese-literature-ncta-online-book-study/)

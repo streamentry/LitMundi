@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "work_id": "melville-bartleby-the-scrivener",
+  "edition_id": "melville-bartleby-vi-ai-2026",
+  "source_edition_id": "melville-bartleby-en-pg11231",
+  "title_vi": "Bartleby, người chép văn bản: Một câu chuyện phố Wall",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Address",
+      "decision": "The narrator calls Bartleby anh and narrates him as anh ta (hắn only in anger); Bartleby says tôi/ông; Turkey is ông ta, Nippers anh ta.",
+      "rationale": "Stable across all three drafting parts."
+    },
+    {
+      "topic": "Narrator",
+      "decision": "The lawyer’s urbane, self-regarding irony and legal periphrasis are kept, including his inner debate addressed to himself (mình).",
+      "rationale": "The story is told through his complacency."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-melville-bartleby-the-scrivener",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "melville-bartleby-the-scrivener:1.169",
+          "category": "editorial_mechanics",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Dash style unified across the drafting parts (spaced em dashes, 34 instances in 169–251)."
+        },
+        {
+          "segment": "melville-bartleby-the-scrivener:1.117",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Turkey’s running ‘With submission, sir’ restored to Xin lượng thứ, thưa ông; Nippers is anh ta throughout; quotation of ‘thà’ unified."
+        },
+        {
+          "segment": "melville-bartleby-the-scrivener:1.217",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The Halls of Justice (Dinh Công lý) no longer share the name of the Court of Chancery."
+        },
+        {
+          "segment": "melville-bartleby-the-scrivener:1.183",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘In mercy’s name’ no longer a promise of justice; 188 ‘the foremost one’ not ‘the leader’; 11 compatriot; 89 doubled shroud; 117 awkward ‘chịu thà’; 171–172 self-address as mình; 234 grub-man’s ‘Your sarvant’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "I would prefer not to",
+      "draft_rendering": "Tôi thà không làm thì hơn",
+      "alternatives": [
+        "Tôi muốn không làm thì hơn"
+      ],
+      "rationale": "‘thà … thì hơn’ carries ‘prefer’ and lets the word’s contagion through the office (Nippers, Turkey, the narrator) stay audible; clipped variants are clipped in Vietnamese too.",
+      "passages": [
+        "melville-bartleby-the-scrivener:1.37",
+        "melville-bartleby-the-scrivener:1.72",
+        "melville-bartleby-the-scrivener:1.112",
+        "melville-bartleby-the-scrivener:1.125"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Turkey / Nippers / Ginger Nut",
+      "draft_rendering": "Gà Tây / Kìm Cộng / Bánh Gừng",
+      "alternatives": [],
+      "rationale": "Nicknames translated, capitalised and unglossed, as the narrator explains them himself.",
+      "passages": [
+        "melville-bartleby-the-scrivener:1.5",
+        "melville-bartleby-the-scrivener:1.11",
+        "melville-bartleby-the-scrivener:1.15"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "scrivener; Master in Chancery; the Tombs / Halls of Justice; Dead Letter Office",
+      "draft_rendering": "người chép văn bản; Thẩm phán phụ tá; nhà ngục Tombs / Dinh Công lý; Phòng Thư Chết",
+      "alternatives": [
+        "người chép thuê"
+      ],
+      "rationale": "Fixed across the three drafting parts; the Court of Chancery and the Halls of Justice are kept distinct.",
+      "passages": [
+        "melville-bartleby-the-scrivener:1.1",
+        "melville-bartleby-the-scrivener:1.4",
+        "melville-bartleby-the-scrivener:1.217",
+        "melville-bartleby-the-scrivener:1.250"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete text of Project Gutenberg #11231 (transcribed by Steve J. Nelson and Clara T. Nelson). Gutenberg does not identify the printed edition transcribed; the story was first published in Putnam’s Monthly Magazine, November–December 1853. Not collated with a print facsimile; italic emphasis is not preserved in plain canonical passages.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "86eb0e1bcf8813c6a9c0b79fcd2db65fd2b3ccee22035fabfd7db8f0f9d9f078",
+  "target_sha256": "3a4e8afd0c29f8381cf1a969c82e0328e5e6f23891f66ebec3af384b2fa4c688",
+  "coverage": {
+    "canonical_passages": 251,
+    "translated_passages": 251,
+    "aligned_passages": 251
+  },
+  "ai_review_record": "corpus/reviews/melville-bartleby-the-scrivener/melville-bartleby-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "melville-bartleby-the-scrivener:1.66",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Turkey’s tipsy grammar and the grub-man’s dialect are only partly marked."
+    },
+    {
+      "segment": "melville-bartleby-the-scrivener:1.4",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Master in Chancery rendered as Thẩm phán phụ tá, which suggests a judge rather than a court officer."
+    }
+  ],
+  "title_review": {
+    "source_title": "Bartleby, the Scrivener: A Story of Wall-Street",
+    "target_title": "Bartleby, người chép văn bản: Một câu chuyện phố Wall",
+    "rationale": "Bartleby, người chép văn bản: Một câu chuyện phố Wall keeps Melville’s subtitle and the body’s own term for scrivener."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "melville-bartleby-the-scrivener:1.1",
+        "melville-bartleby-the-scrivener:1.2",
+        "melville-bartleby-the-scrivener:1.3"
+      ],
+      "assessment": "The narrator’s self-introduction keeps its snug complacency."
+    },
+    {
+      "passages": [
+        "melville-bartleby-the-scrivener:1.250",
+        "melville-bartleby-the-scrivener:1.251"
+      ],
+      "assessment": "Dead Letter Office coda and ‘Ôi Bartleby! Ôi nhân loại!’ keep their cadence."
+    }
+  ]
+}

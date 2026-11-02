@@ -448,5 +448,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Bartleby, the Scrivener: A Story of Wall-Street",
+    "author": "Herman Melville",
+    "author_death_year": 1891,
+    "first_published_year": 1853,
+    "original_language": "en",
+    "genre": "short_story",
+    "description": "A Wall Street lawyer recounts how his copyist Bartleby, answering every request with “I would prefer not to”, stops working, refuses to leave, and dies in the Tombs.",
+    "id": "melville-bartleby-the-scrivener",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
