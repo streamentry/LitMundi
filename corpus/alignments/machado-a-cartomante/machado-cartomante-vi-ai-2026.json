@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "work_id": "machado-a-cartomante",
+  "edition_id": "machado-cartomante-vi-ai-2026",
+  "source_edition_id": "machado-cartomante-pt-laemmert-1896",
+  "links": [
+    {
+      "source": [
+        "machado-a-cartomante:1.1"
+      ],
+      "target": [
+        "machado-a-cartomante:1.1"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.2"
+      ],
+      "target": [
+        "machado-a-cartomante:1.2"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.3"
+      ],
+      "target": [
+        "machado-a-cartomante:1.3"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.4"
+      ],
+      "target": [
+        "machado-a-cartomante:1.4"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.5"
+      ],
+      "target": [
+        "machado-a-cartomante:1.5"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.6"
+      ],
+      "target": [
+        "machado-a-cartomante:1.6"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.7"
+      ],
+      "target": [
+        "machado-a-cartomante:1.7"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.8"
+      ],
+      "target": [
+        "machado-a-cartomante:1.8"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.9"
+      ],
+      "target": [
+        "machado-a-cartomante:1.9"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.10"
+      ],
+      "target": [
+        "machado-a-cartomante:1.10"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.11"
+      ],
+      "target": [
+        "machado-a-cartomante:1.11"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.12"
+      ],
+      "target": [
+        "machado-a-cartomante:1.12"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.13"
+      ],
+      "target": [
+        "machado-a-cartomante:1.13"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.14"
+      ],
+      "target": [
+        "machado-a-cartomante:1.14"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.15"
+      ],
+      "target": [
+        "machado-a-cartomante:1.15"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.16"
+      ],
+      "target": [
+        "machado-a-cartomante:1.16"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.17"
+      ],
+      "target": [
+        "machado-a-cartomante:1.17"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.18"
+      ],
+      "target": [
+        "machado-a-cartomante:1.18"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.19"
+      ],
+      "target": [
+        "machado-a-cartomante:1.19"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.20"
+      ],
+      "target": [
+        "machado-a-cartomante:1.20"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.21"
+      ],
+      "target": [
+        "machado-a-cartomante:1.21"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.22"
+      ],
+      "target": [
+        "machado-a-cartomante:1.22"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.23"
+      ],
+      "target": [
+        "machado-a-cartomante:1.23"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.24"
+      ],
+      "target": [
+        "machado-a-cartomante:1.24"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.25"
+      ],
+      "target": [
+        "machado-a-cartomante:1.25"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.26"
+      ],
+      "target": [
+        "machado-a-cartomante:1.26"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.27"
+      ],
+      "target": [
+        "machado-a-cartomante:1.27"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.28"
+      ],
+      "target": [
+        "machado-a-cartomante:1.28"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.29"
+      ],
+      "target": [
+        "machado-a-cartomante:1.29"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.30"
+      ],
+      "target": [
+        "machado-a-cartomante:1.30"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.31"
+      ],
+      "target": [
+        "machado-a-cartomante:1.31"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.32"
+      ],
+      "target": [
+        "machado-a-cartomante:1.32"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.33"
+      ],
+      "target": [
+        "machado-a-cartomante:1.33"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.34"
+      ],
+      "target": [
+        "machado-a-cartomante:1.34"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.35"
+      ],
+      "target": [
+        "machado-a-cartomante:1.35"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.36"
+      ],
+      "target": [
+        "machado-a-cartomante:1.36"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.37"
+      ],
+      "target": [
+        "machado-a-cartomante:1.37"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.38"
+      ],
+      "target": [
+        "machado-a-cartomante:1.38"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.39"
+      ],
+      "target": [
+        "machado-a-cartomante:1.39"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.40"
+      ],
+      "target": [
+        "machado-a-cartomante:1.40"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.41"
+      ],
+      "target": [
+        "machado-a-cartomante:1.41"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.42"
+      ],
+      "target": [
+        "machado-a-cartomante:1.42"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.43"
+      ],
+      "target": [
+        "machado-a-cartomante:1.43"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.44"
+      ],
+      "target": [
+        "machado-a-cartomante:1.44"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.45"
+      ],
+      "target": [
+        "machado-a-cartomante:1.45"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.46"
+      ],
+      "target": [
+        "machado-a-cartomante:1.46"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.47"
+      ],
+      "target": [
+        "machado-a-cartomante:1.47"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.48"
+      ],
+      "target": [
+        "machado-a-cartomante:1.48"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.49"
+      ],
+      "target": [
+        "machado-a-cartomante:1.49"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.50"
+      ],
+      "target": [
+        "machado-a-cartomante:1.50"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.51"
+      ],
+      "target": [
+        "machado-a-cartomante:1.51"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.52"
+      ],
+      "target": [
+        "machado-a-cartomante:1.52"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.53"
+      ],
+      "target": [
+        "machado-a-cartomante:1.53"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.54"
+      ],
+      "target": [
+        "machado-a-cartomante:1.54"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.55"
+      ],
+      "target": [
+        "machado-a-cartomante:1.55"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.56"
+      ],
+      "target": [
+        "machado-a-cartomante:1.56"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.57"
+      ],
+      "target": [
+        "machado-a-cartomante:1.57"
+      ]
+    },
+    {
+      "source": [
+        "machado-a-cartomante:1.58"
+      ],
+      "target": [
+        "machado-a-cartomante:1.58"
+      ]
+    }
+  ]
+}

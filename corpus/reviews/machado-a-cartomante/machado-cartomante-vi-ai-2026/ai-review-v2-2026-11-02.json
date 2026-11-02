@@ -1,0 +1,180 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "machado-cartomante-vi-ai-2026",
+  "source_edition_id": "machado-cartomante-pt-laemmert-1896",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Portuguese-to-Vietnamese comparison of all 58 canonical passages and both titles. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 0 major and 19 minor findings with a pre-revision weighted score of 8.975; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "20f7ea5b15274db14bcf7351ed890ce980900cdbe5ec69e7809cd5d2528000e9",
+  "target_sha256": "8e5455673073fee997f396af5a93b01d8c4806d8083582e1d2f3090e68268af0",
+  "segments_reviewed": [
+    "machado-a-cartomante:1.1",
+    "machado-a-cartomante:1.2",
+    "machado-a-cartomante:1.3",
+    "machado-a-cartomante:1.4",
+    "machado-a-cartomante:1.5",
+    "machado-a-cartomante:1.6",
+    "machado-a-cartomante:1.7",
+    "machado-a-cartomante:1.8",
+    "machado-a-cartomante:1.9",
+    "machado-a-cartomante:1.10",
+    "machado-a-cartomante:1.11",
+    "machado-a-cartomante:1.12",
+    "machado-a-cartomante:1.13",
+    "machado-a-cartomante:1.14",
+    "machado-a-cartomante:1.15",
+    "machado-a-cartomante:1.16",
+    "machado-a-cartomante:1.17",
+    "machado-a-cartomante:1.18",
+    "machado-a-cartomante:1.19",
+    "machado-a-cartomante:1.20",
+    "machado-a-cartomante:1.21",
+    "machado-a-cartomante:1.22",
+    "machado-a-cartomante:1.23",
+    "machado-a-cartomante:1.24",
+    "machado-a-cartomante:1.25",
+    "machado-a-cartomante:1.26",
+    "machado-a-cartomante:1.27",
+    "machado-a-cartomante:1.28",
+    "machado-a-cartomante:1.29",
+    "machado-a-cartomante:1.30",
+    "machado-a-cartomante:1.31",
+    "machado-a-cartomante:1.32",
+    "machado-a-cartomante:1.33",
+    "machado-a-cartomante:1.34",
+    "machado-a-cartomante:1.35",
+    "machado-a-cartomante:1.36",
+    "machado-a-cartomante:1.37",
+    "machado-a-cartomante:1.38",
+    "machado-a-cartomante:1.39",
+    "machado-a-cartomante:1.40",
+    "machado-a-cartomante:1.41",
+    "machado-a-cartomante:1.42",
+    "machado-a-cartomante:1.43",
+    "machado-a-cartomante:1.44",
+    "machado-a-cartomante:1.45",
+    "machado-a-cartomante:1.46",
+    "machado-a-cartomante:1.47",
+    "machado-a-cartomante:1.48",
+    "machado-a-cartomante:1.49",
+    "machado-a-cartomante:1.50",
+    "machado-a-cartomante:1.51",
+    "machado-a-cartomante:1.52",
+    "machado-a-cartomante:1.53",
+    "machado-a-cartomante:1.54",
+    "machado-a-cartomante:1.55",
+    "machado-a-cartomante:1.56",
+    "machado-a-cartomante:1.57",
+    "machado-a-cartomante:1.58"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9.5
+  },
+  "findings": [
+    {
+      "segment": "machado-a-cartomante:1.31",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "voltar a primeira travessa is turning into the first cross street, not going back: now rẽ vào ngõ ngang đầu tiên."
+    },
+    {
+      "segment": "machado-a-cartomante:1.25",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The repeated note no longer uses inclusive nhà chúng mình or the calque không chậm trễ; identical wording applied in 1.25, 1.26 and 1.28."
+    },
+    {
+      "segment": "machado-a-cartomante:1.16",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The cartas pun (letters/cards) cannot be reproduced; lá thư now quietly echoes lá bài."
+    },
+    {
+      "segment": "machado-a-cartomante:1.20",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "amor-proprio is self-respect here: tự trọng, not touchy tự ái."
+    },
+    {
+      "segment": "machado-a-cartomante:1.21",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "interesse is self-interest (tư lợi); apaixonadas is vehement (hằn học, kích động)."
+    },
+    {
+      "segment": "machado-a-cartomante:1.18",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Restored the things/person contrast (Đến đấy là phần của sự vật…) and the intimate second-person aside with the diminutive fechadinhos."
+    },
+    {
+      "segment": "machado-a-cartomante:1.58",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Kept the clinical, deadpan ending: bắn chàng ngã chết instead of the added violence of quật; feições decompostas as thất sắc."
+    },
+    {
+      "segment": "machado-a-cartomante:1.2",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Smoothed Rita’s opening reply and had the fortune-teller address her as cô."
+    },
+    {
+      "segment": "machado-a-cartomante:1.12",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Removed a stacked calque in the negation sentence."
+    },
+    {
+      "segment": "machado-a-cartomante:1.46",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "sibylla is a classical sibyl, not a Vietnamese medium: nữ tiên tri sibyl."
+    },
+    {
+      "segment": "machado-a-cartomante:1.4",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "como eu tenho andado is anxiety rather than suffering; also lisonjeado (1.13), escrúpulos (1.19), repugnava-lhe (1.27), levo os sobrescriptos (1.23), recentes/nova (1.54) and two calques (1.31, 1.42) corrected."
+    },
+    {
+      "segment": "machado-a-cartomante:1.18",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Odor di femina and ragazzo innamorato are left in the original languages without gloss, as in the source."
+    }
+  ],
+  "summary": "Full assessment of all 58 Portuguese/Vietnamese passages and both titles. The Hamlet frame, Rita’s visit to the fortune-teller, Camillo’s scepticism and the narrator’s asides, the three characters’ history, the affair, the anonymous letters, the summons, the cab halted by an overturned cart, the consultation, the ten-mil-réis payment, the restored credulity and the abrupt double killing are complete and in order. The separate-context pass found no major issue; nineteen minor findings were revised, including a misread street direction and the wording of the repeated note. Fidelity, voice and imagery are 9.0, mechanics 9.5, naturalness 8.5. Unrounded weighted score 8.975 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "A Cartomante",
+    "target_title": "Bà bói bài",
+    "rationale": "A Cartomante names a woman who reads cards. Bà bói bài keeps both the cards and her gender, matches the recurring body term and does not anticipate the ending."
+  }
+}

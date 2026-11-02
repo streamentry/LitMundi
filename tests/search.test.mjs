@@ -128,9 +128,10 @@ test('the actual public Machado editions resolve title and author searches witho
     return {workId:work.id,editionId:edition.id,title:editionTitle(work,edition),originalTitle:work.title,titleLanguage:edition.title?edition.language:work.original_language,author:work.author,language:edition.language,languageName:languages[edition.language]??edition.language,reviewCategory:reviewCategory(edition),passages:read('corpus/structure/'+work.id+'.json').segment_ids.map(id=>[id,text[id]])};
   });
   const index=await prepareSearchIndex(inventory,{yieldControl:immediate});
-  const expected=published.filter(edition=>edition.work_id==='machado-um-apologo').map(edition=>edition.id).sort();
-  assert.ok(expected.length>0);
-  for(const query of ['Um Apólogo','Machado']){
+  const byWork=published.filter(edition=>edition.work_id==='machado-um-apologo').map(edition=>edition.id).sort();
+  const byAuthor=published.filter(edition=>works.find(work=>work.id===edition.work_id).author==='Machado de Assis').map(edition=>edition.id).sort();
+  assert.ok(byWork.length>0);
+  for(const [query,expected] of [['Um Apólogo',byWork],['Machado',byAuthor]]){
     const result=await searchIndex(index,{query,locale:'vi'});
     assert.deepEqual(result.editions.map(edition=>edition.editionId).sort(),expected);
     assert.equal(result.editions[0].language,'vi');
