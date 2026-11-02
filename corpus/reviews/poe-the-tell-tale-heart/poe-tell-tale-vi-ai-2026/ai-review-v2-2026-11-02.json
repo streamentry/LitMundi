@@ -1,0 +1,98 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "poe-tell-tale-vi-ai-2026",
+  "source_edition_id": "poe-tell-tale-en-raven-1903",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct English-to-Vietnamese comparison of all 18 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 0 major and 16 minor findings with a pre-revision weighted score of 8.8; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "b8e5651e5f0b9999f1e64c441bb4e5380833073157bdb278f0bb27acc99d0b0f",
+  "target_sha256": "b38ac72eea4ecab389183beb05111640adaf58c2e8e1766acb311d37eb46d607",
+  "segments_reviewed": [
+    "poe-the-tell-tale-heart:1.1",
+    "poe-the-tell-tale-heart:1.2",
+    "poe-the-tell-tale-heart:1.3",
+    "poe-the-tell-tale-heart:1.4",
+    "poe-the-tell-tale-heart:1.5",
+    "poe-the-tell-tale-heart:1.6",
+    "poe-the-tell-tale-heart:1.7",
+    "poe-the-tell-tale-heart:1.8",
+    "poe-the-tell-tale-heart:1.9",
+    "poe-the-tell-tale-heart:1.10",
+    "poe-the-tell-tale-heart:1.11",
+    "poe-the-tell-tale-heart:1.12",
+    "poe-the-tell-tale-heart:1.13",
+    "poe-the-tell-tale-heart:1.14",
+    "poe-the-tell-tale-heart:1.15",
+    "poe-the-tell-tale-heart:1.16",
+    "poe-the-tell-tale-heart:1.17",
+    "poe-the-tell-tale-heart:1.18"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "poe-the-tell-tale-heart:1.1",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The opening adverb order repaired (rất, rất căng thẳng, căng thẳng đến khủng khiếp) and healthily as mental soundness (tỉnh táo)."
+    },
+    {
+      "segment": "poe-the-tell-tale-heart:1.9",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "film (1.2) and veil (1.9) distinguished: lớp màng / tấm mạng."
+    },
+    {
+      "segment": "poe-the-tell-tale-heart:1.11",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "the dead hour as giờ khắc chết lặng, avoiding an added sense of killing; old house as nhà cũ."
+    },
+    {
+      "segment": "poe-the-tell-tale-heart:1.3",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "dark lantern as a shuttered carrying lamp (đèn xách có cửa che)."
+    },
+    {
+      "segment": "poe-the-tell-tale-heart:1.14",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "foul play kept as suspicion (chuyện mờ ám), not a named murder; also mortal terror (1.7), fairly chuckled (1.4), polysyndeton (1.12), 1.13 ambiguity, 1.18 climax."
+    },
+    {
+      "segment": "poe-the-tell-tale-heart:1.7",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "death watches as mọt báo tử keeps the beetle but not Poe’s pun with the ticking watch."
+    }
+  ],
+  "summary": "Full assessment of all 18 English/Vietnamese passages and both titles. The narrator’s protestations of sanity, the vulture eye, the seven nights of watching, the eighth night, the beating heart, the murder and dismemberment, the officers’ visit and the confession are complete and in order, with the dash-driven rhythm and refrains intact. The separate-context pass found no major issue; its sixteen minor findings were revised except the death-watch pun. Fidelity, voice, imagery and mechanics are 9.0, naturalness 8.5. Unrounded weighted score 8.925 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "The Tell-Tale Heart",
+    "target_title": "Trái tim mách tội",
+    "rationale": "Trái tim mách tội is the established Vietnamese title; mách tội captures the heart as informer better than a literal ‘telling’."
+  }
+}

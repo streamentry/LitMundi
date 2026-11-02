@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "work_id": "poe-the-tell-tale-heart",
+  "edition_id": "poe-tell-tale-vi-ai-2026",
+  "source_edition_id": "poe-tell-tale-en-raven-1903",
+  "title_vi": "Trái tim mách tội",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Address",
+      "decision": "The narrator addresses his hearers as các người, defensive and hostile; the old man is ông già / ông.",
+      "rationale": "Neither deferential quý vị nor intimate các anh fits ‘why will you say that I am mad?’."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-poe-tell-tale-heart",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "poe-the-tell-tale-heart:1.1",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The opening adverb order repaired (rất, rất căng thẳng, căng thẳng đến khủng khiếp) and healthily as mental soundness (tỉnh táo)."
+        },
+        {
+          "segment": "poe-the-tell-tale-heart:1.9",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "film (1.2) and veil (1.9) distinguished: lớp màng / tấm mạng."
+        },
+        {
+          "segment": "poe-the-tell-tale-heart:1.11",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "the dead hour as giờ khắc chết lặng, avoiding an added sense of killing; old house as nhà cũ."
+        },
+        {
+          "segment": "poe-the-tell-tale-heart:1.3",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "dark lantern as a shuttered carrying lamp (đèn xách có cửa che)."
+        },
+        {
+          "segment": "poe-the-tell-tale-heart:1.14",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "foul play kept as suspicion (chuyện mờ ám), not a named murder; also mortal terror (1.7), fairly chuckled (1.4), polysyndeton (1.12), 1.13 ambiguity, 1.18 climax."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "vulture eye / Evil Eye",
+      "draft_rendering": "con mắt kền kền / Con Mắt Quỷ",
+      "alternatives": [],
+      "rationale": "Fixed renderings, keeping the source’s capitals.",
+      "passages": [
+        "poe-the-tell-tale-heart:1.2",
+        "poe-the-tell-tale-heart:1.3",
+        "poe-the-tell-tale-heart:1.9"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "a low, dull, quick sound — much such a sound as a watch makes when enveloped in cotton",
+      "draft_rendering": "âm thanh trầm, đục, dồn dập — như tiếng một chiếc đồng hồ bị bọc trong bông",
+      "alternatives": [],
+      "rationale": "Identical refrain at both occurrences.",
+      "passages": [
+        "poe-the-tell-tale-heart:1.10",
+        "poe-the-tell-tale-heart:1.17"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "death watches",
+      "draft_rendering": "mọt báo tử",
+      "alternatives": [],
+      "rationale": "The deathwatch beetle; the pun with the ticking watch is partly lost.",
+      "passages": [
+        "poe-the-tell-tale-heart:1.7"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete THE TELL-TALE HEART section of The Works of Edgar Allan Poe, Raven Edition, vol. 2, as transcribed in Project Gutenberg #2148. First published in The Pioneer, January 1843; not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "b8e5651e5f0b9999f1e64c441bb4e5380833073157bdb278f0bb27acc99d0b0f",
+  "target_sha256": "b38ac72eea4ecab389183beb05111640adaf58c2e8e1766acb311d37eb46d607",
+  "coverage": {
+    "canonical_passages": 18,
+    "translated_passages": 18,
+    "aligned_passages": 18
+  },
+  "ai_review_record": "corpus/reviews/poe-the-tell-tale-heart/poe-tell-tale-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "poe-the-tell-tale-heart:1.7",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "death watches as mọt báo tử keeps the beetle but not Poe’s pun with the ticking watch."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Tell-Tale Heart",
+    "target_title": "Trái tim mách tội",
+    "rationale": "Trái tim mách tội is the established Vietnamese title; mách tội captures the heart as informer better than a literal ‘telling’."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "poe-the-tell-tale-heart:1.1",
+        "poe-the-tell-tale-heart:1.2",
+        "poe-the-tell-tale-heart:1.3",
+        "poe-the-tell-tale-heart:1.4",
+        "poe-the-tell-tale-heart:1.5",
+        "poe-the-tell-tale-heart:1.6",
+        "poe-the-tell-tale-heart:1.7",
+        "poe-the-tell-tale-heart:1.8",
+        "poe-the-tell-tale-heart:1.9"
+      ],
+      "assessment": "Compared the protestations, the eye, the nightly watching and the eighth night."
+    },
+    {
+      "passages": [
+        "poe-the-tell-tale-heart:1.10",
+        "poe-the-tell-tale-heart:1.11",
+        "poe-the-tell-tale-heart:1.12",
+        "poe-the-tell-tale-heart:1.13",
+        "poe-the-tell-tale-heart:1.14",
+        "poe-the-tell-tale-heart:1.15",
+        "poe-the-tell-tale-heart:1.16",
+        "poe-the-tell-tale-heart:1.17",
+        "poe-the-tell-tale-heart:1.18"
+      ],
+      "assessment": "Compared the heartbeat, the murder, the concealment, the officers and the confession."
+    }
+  ]
+}

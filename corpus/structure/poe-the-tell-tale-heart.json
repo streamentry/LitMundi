@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "work_id": "poe-the-tell-tale-heart",
+  "segment_ids": [
+    "poe-the-tell-tale-heart:1.1",
+    "poe-the-tell-tale-heart:1.2",
+    "poe-the-tell-tale-heart:1.3",
+    "poe-the-tell-tale-heart:1.4",
+    "poe-the-tell-tale-heart:1.5",
+    "poe-the-tell-tale-heart:1.6",
+    "poe-the-tell-tale-heart:1.7",
+    "poe-the-tell-tale-heart:1.8",
+    "poe-the-tell-tale-heart:1.9",
+    "poe-the-tell-tale-heart:1.10",
+    "poe-the-tell-tale-heart:1.11",
+    "poe-the-tell-tale-heart:1.12",
+    "poe-the-tell-tale-heart:1.13",
+    "poe-the-tell-tale-heart:1.14",
+    "poe-the-tell-tale-heart:1.15",
+    "poe-the-tell-tale-heart:1.16",
+    "poe-the-tell-tale-heart:1.17",
+    "poe-the-tell-tale-heart:1.18"
+  ],
+  "deprecated_ids": {},
+  "notes": "Canonical units follow every prose paragraph of the selected complete electronic witness. The title is edition metadata; headings and navigation are excluded. Passage IDs are immutable and may not be reassigned."
+}
