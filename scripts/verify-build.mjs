@@ -24,6 +24,7 @@ const decode=text=>text.replace(/&(#x[\da-f]+|#\d+|amp|quot|apos|lt|gt);/gi,(mat
   if(entity.startsWith('#'))return String.fromCodePoint(Number(entity.slice(1)));
   return ({amp:'&',quot:'"',apos:"'",lt:'<',gt:'>'})[entity]??match;
 });
+const anchorIds=new Map();
 const attrs=value=>Object.fromEntries([...value.matchAll(/([\w:-]+)="([^"]*)"/g)].map(match=>[match[1],decode(match[2])]));
 const hasAttribute=(value,name)=>new RegExp('(?:^|\\s)'+name+'(?:\\s|=|/|$)','i').test(value);
 const textContent=value=>decode(value.replace(/<[^>]*>/g,''));
@@ -101,9 +102,9 @@ for(const file of htmlFiles){
     assert.ok(existsSync(target),'Broken local link in '+file+': '+value);
     assert.ok(resolve(target).startsWith(resolve('dist')+'/'),'Local route escapes dist');
     if(url.hash&&target.endsWith('.html')){
-      const targetHTML=readFileSync(target,'utf8'),fragment=decodeURIComponent(url.hash.slice(1));
-      const targetIds=[...targetHTML.matchAll(/\bid="([^"]*)"/g)].map(entry=>decode(entry[1]));
-      assert.ok(targetIds.includes(fragment),'Broken passage/anchor in '+file+': '+value);
+      const fragment=decodeURIComponent(url.hash.slice(1));
+      if(!anchorIds.has(target))anchorIds.set(target,new Set([...readFileSync(target,'utf8').matchAll(/\bid="([^"]*)"/g)].map(entry=>decode(entry[1]))));
+      assert.ok(anchorIds.get(target).has(fragment),'Broken passage/anchor in '+file+': '+value);
     }
     checkedLinks++;
   }
