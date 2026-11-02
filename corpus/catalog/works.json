@@ -568,5 +568,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Frankenstein; or, The Modern Prometheus",
+    "author": "Mary Shelley",
+    "author_death_year": 1851,
+    "first_published_year": 1818,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "Through the Arctic letters of Robert Walton, Victor Frankenstein tells how he gave life to a being who, rejected by him and by mankind, destroys everyone Victor loves.",
+    "id": "shelley-frankenstein",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

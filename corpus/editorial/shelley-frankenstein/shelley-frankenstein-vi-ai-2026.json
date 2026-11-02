@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "work_id": "shelley-frankenstein",
+  "edition_id": "shelley-frankenstein-vi-ai-2026",
+  "source_edition_id": "shelley-frankenstein-en-lackington-1818",
+  "title_vi": "Frankenstein, hay Prometheus thời hiện đại",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Witness",
+      "decision": "The 1818 first-edition text is translated, not the revised 1831 text; the unsigned Preface, the Milton epigraph and the dedication are included.",
+      "rationale": "The first edition is the selected witness."
+    },
+    {
+      "topic": "Verse",
+      "decision": "The Milton epigraph and the Coleridge, Percy Shelley and Wordsworth quotations are rendered as Vietnamese verse with the same number of lines.",
+      "rationale": "The quotations are part of the novel’s texture."
+    },
+    {
+      "topic": "Letters",
+      "decision": "Walton’s frame letters keep their date lines, salutations and signatures as separate units; Walton writes to his elder sister as em/chị.",
+      "rationale": "The epistolary frame is structural."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-shelley-frankenstein",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "shelley-frankenstein:11.7",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "nó used for William, Ernest and Elizabeth in Alphonse’s letter and Clerval’s speech; now reserved for the creature, and the miniature disambiguated."
+        },
+        {
+          "segment": "shelley-frankenstein:21.5",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "“my creator” no longer contemptuous (kẻ) in the creature’s pleas; kẻ kept only for curses."
+        },
+        {
+          "segment": "shelley-frankenstein:26.20",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The wedding-night threat made verbatim with the source’s punctuation at every recurrence."
+        },
+        {
+          "segment": "shelley-frankenstein:15.14",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Felix as chàng throughout; ‘cousin’ restored in Elizabeth’s address; chái kept only for the hovel; ‘Great God!’ as Lạy Chúa!; Victor’s father ông in narration."
+        },
+        {
+          "segment": "shelley-frankenstein:19.6",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘large assemblages of men’, ‘does not grudge’, ‘fatal’ and ‘my friend’ corrected; calques in 145, 181, 322, 338, 501, 538, 588 recast; last sentence strengthened."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "fiend / dæmon / wretch / monster / creature / being",
+      "draft_rendering": "con quỷ / ác quỷ / kẻ khốn khổ / quái vật / sinh vật (tạo vật in relation to its creator)",
+      "alternatives": [],
+      "rationale": "Shelley’s shifting names for the creature are kept distinct; sinh linh is reserved for human beings.",
+      "passages": [
+        "shelley-frankenstein:9.8",
+        "shelley-frankenstein:14.8",
+        "shelley-frankenstein:19.7",
+        "shelley-frankenstein:21.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "thou / you (Victor and the creature)",
+      "draft_rendering": "ta / ngươi in face-to-face confrontations; tôi / ông in the creature’s narrated tale",
+      "alternatives": [],
+      "rationale": "Mirrors the source’s own shift between thou and you.",
+      "passages": [
+        "shelley-frankenstein:14.8",
+        "shelley-frankenstein:15.1",
+        "shelley-frankenstein:24.15",
+        "shelley-frankenstein:28.72"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "“I will be with you on your wedding-night”",
+      "draft_rendering": "Ta sẽ ở bên ngươi trong đêm tân hôn của ngươi",
+      "alternatives": [],
+      "rationale": "The threat recurs verbatim, with the source’s punctuation, every time it is quoted.",
+      "passages": [
+        "shelley-frankenstein:24.15",
+        "shelley-frankenstein:24.18",
+        "shelley-frankenstein:26.20",
+        "shelley-frankenstein:26.30"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "nó",
+      "draft_rendering": "reserved for the creature",
+      "alternatives": [],
+      "rationale": "Victor’s brothers and Elizabeth are never nó, so the pronoun keeps its weight.",
+      "passages": [
+        "shelley-frankenstein:11.7",
+        "shelley-frankenstein:11.10",
+        "shelley-frankenstein:14.6"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #41445, transcribed from a photo-reprint of the first edition (London: Lackington, Hughes, Harding, Mavor & Jones, 1818), in three volumes. The more widely used Gutenberg #84 reproduces the revised 1831 text and was not used. Not collated with a print facsimile.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "7b6798e42bc142c78037e02af3fab838efbc77329c809314a23581b2cbcd4763",
+  "target_sha256": "fd6a90c588329c20a9e22481b1299fe598aa193556c8b93b6fa372eee3dae47c",
+  "coverage": {
+    "canonical_passages": 774,
+    "translated_passages": 774,
+    "aligned_passages": 774
+  },
+  "ai_review_record": "corpus/reviews/shelley-frankenstein/shelley-frankenstein-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "shelley-frankenstein:24.1",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The unfinished female creature is called ả in Victor’s reasoning, sharper than the source’s neutral she."
+    }
+  ],
+  "title_review": {
+    "source_title": "Frankenstein; or, The Modern Prometheus",
+    "target_title": "Frankenstein, hay Prometheus thời hiện đại",
+    "rationale": "Frankenstein, hay Prometheus thời hiện đại keeps Shelley’s double title; hay reproduces the source’s ‘; or,’."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "shelley-frankenstein:1.1",
+        "shelley-frankenstein:1.2"
+      ],
+      "assessment": "Milton epigraph and dedication from the title pages."
+    },
+    {
+      "passages": [
+        "shelley-frankenstein:9.8",
+        "shelley-frankenstein:14.4",
+        "shelley-frankenstein:22.21"
+      ],
+      "assessment": "Coleridge, Mutability and Wordsworth stanzas kept as verse."
+    },
+    {
+      "passages": [
+        "shelley-frankenstein:28.81"
+      ],
+      "assessment": "Final sentence of Walton’s journal."
+    }
+  ]
+}
