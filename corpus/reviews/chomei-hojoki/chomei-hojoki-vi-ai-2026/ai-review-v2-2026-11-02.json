@@ -1,0 +1,83 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "chomei-hojoki-vi-ai-2026",
+  "source_edition_id": "chomei-hojoki-ja-kokubun-taikan-1909",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Japanese-to-Vietnamese comparison of all 17 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 0 major and 10 minor findings with a pre-revision weighted score of 8.925; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "3e250027d7bb1c413eca7c21918889ea7a0aaac3725d6c7f114f84832c691298",
+  "target_sha256": "f1e269f3c5cbc802798ade15c7fba7cc8238ba07cfb40d8099788da3569ced85",
+  "segments_reviewed": [
+    "chomei-hojoki:1.1",
+    "chomei-hojoki:1.2",
+    "chomei-hojoki:1.3",
+    "chomei-hojoki:1.4",
+    "chomei-hojoki:1.5",
+    "chomei-hojoki:1.6",
+    "chomei-hojoki:1.7",
+    "chomei-hojoki:1.8",
+    "chomei-hojoki:1.9",
+    "chomei-hojoki:1.10",
+    "chomei-hojoki:1.11",
+    "chomei-hojoki:1.12",
+    "chomei-hojoki:1.13",
+    "chomei-hojoki:1.14",
+    "chomei-hojoki:1.15",
+    "chomei-hojoki:1.16",
+    "chomei-hojoki:1.17"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "chomei-hojoki:1.16",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "かたはらに舌根をやとひて no longer a tongue ‘beside’ him: chỉ tạm mượn thiệt căn."
+    },
+    {
+      "segment": "chomei-hojoki:1.8",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The shame and fawning are given back to the wife, children and servants, as the relative clause requires."
+    },
+    {
+      "segment": "chomei-hojoki:1.2",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "あぢきなし as vô ích / vô nghĩa rather than ‘tasteless’; palace offices unified; それ and そもそも rendered as discourse openers; 1.5 and 1.10 additions removed; the waka’s たえぬ as unceasing."
+    },
+    {
+      "segment": "chomei-hojoki:1.16",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "niệm Phật bất thỉnh is kept unglossed and may be opaque to general readers."
+    }
+  ],
+  "summary": "Full assessment of all 17 classical-Japanese/Vietnamese units — sixteen prose sections and the closing waka — and both titles. The river opening, the fire of Angen, the whirlwind, the removal of the capital, the Yōwa famine, the Genryaku earthquake, the reflections on dwelling, the hut at Hino and the closing self-questioning are complete, with the classical parallelism and Buddhist vocabulary kept. The separate-context pass scored 8.925 with no major findings and ten minor ones, which were revised. Fidelity, voice, imagery and mechanics are 9.0, naturalness 8.5. Unrounded weighted score 8.925 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "方丈記",
+    "target_title": "Phương trượng ký",
+    "rationale": "Phương trượng ký is the established Sino-Vietnamese reading of 方丈記 and matches the Hán-Việt register of the text; the body names the hut phương trượng."
+  }
+}
