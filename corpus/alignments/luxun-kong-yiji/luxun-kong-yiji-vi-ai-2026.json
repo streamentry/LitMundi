@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "work_id": "luxun-kong-yiji",
+  "edition_id": "luxun-kong-yiji-vi-ai-2026",
+  "source_edition_id": "luxun-kong-yiji-zh-quanji-1938",
+  "links": [
+    {
+      "source": [
+        "luxun-kong-yiji:1.1"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.2"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.3"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.4"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.4"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.5"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.5"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.6"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.6"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.7"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.7"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.8"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.8"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.9"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.9"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.10"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.10"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.11"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.11"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.12"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.12"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.13"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.13"
+      ]
+    },
+    {
+      "source": [
+        "luxun-kong-yiji:1.14"
+      ],
+      "target": [
+        "luxun-kong-yiji:1.14"
+      ]
+    }
+  ]
+}

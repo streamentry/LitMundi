@@ -18,6 +18,7 @@ FONTS = ROOT / 'scripts/fonts'
 MANIFEST = FONTS / 'social-fonts.json'
 UPSTREAM = {
     'ja': {'family': 'Noto Serif JP', 'source': 'https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/JP/NotoSerifJP-Regular.otf'},
+    'zh': {'family': 'Noto Serif TC', 'source': 'https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/TC/NotoSerifTC-Regular.otf'},
 }
 
 

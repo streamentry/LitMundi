@@ -4,5 +4,11 @@
     "source": "https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/JP/NotoSerifJP-Regular.otf",
     "file": "social-ja.otf",
     "characters": "の糸蛛蜘"
+  },
+  "zh": {
+    "family": "Noto Serif TC",
+    "source": "https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/TC/NotoSerifTC-Regular.otf",
+    "file": "social-zh.otf",
+    "characters": "乙孔己"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "work_id": "luxun-kong-yiji",
+  "segment_ids": [
+    "luxun-kong-yiji:1.1",
+    "luxun-kong-yiji:1.2",
+    "luxun-kong-yiji:1.3",
+    "luxun-kong-yiji:1.4",
+    "luxun-kong-yiji:1.5",
+    "luxun-kong-yiji:1.6",
+    "luxun-kong-yiji:1.7",
+    "luxun-kong-yiji:1.8",
+    "luxun-kong-yiji:1.9",
+    "luxun-kong-yiji:1.10",
+    "luxun-kong-yiji:1.11",
+    "luxun-kong-yiji:1.12",
+    "luxun-kong-yiji:1.13",
+    "luxun-kong-yiji:1.14"
+  ],
+  "deprecated_ids": {},
+  "notes": "Canonical units follow every paragraph of the selected complete transcription, ending with the author’s dateline. The title is edition metadata; headings, proper-name underline marks and navigation are excluded. Passage IDs are immutable and may not be reassigned."
+}

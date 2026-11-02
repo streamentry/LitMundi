@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "work_id": "luxun-kong-yiji",
+  "edition_id": "luxun-kong-yiji-vi-ai-2026",
+  "source_edition_id": "luxun-kong-yiji-zh-quanji-1938",
+  "title_vi": "Khổng Ất Kỷ",
+  "translation_direction": "zh → vi; direct from the specifically identified complete Chinese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Forms of address",
+      "decision": "Narration uses hắn for Kong Yiji; customers and the proprietor address him as anh; Kong and the boy use tôi/cậu and the boy answers with a dismissive anh.",
+      "rationale": "Vietnamese pronouns must encode the tavern’s condescension and Kong’s attempted dignity without adding explanation."
+    },
+    {
+      "topic": "Punctuation",
+      "decision": "Convert 『』 to “ ”, ‘ ’ for inner quotation, …… to … and full-width punctuation to Vietnamese conventions.",
+      "rationale": "Typographic conversion only; sentence boundaries and dashes follow the source."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-queue-007",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "luxun-kong-yiji:1.4",
+          "category": "target_naturalness",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "竊書 rendered only as thiết thư would be opaque to most Vietnamese readers; Kong now glosses it himself (Thiết thư… lấy sách không thể tính là ăn cắp…), keeping both pedantry and legibility."
+        },
+        {
+          "segment": "luxun-kong-yiji:1.10",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "後來打折了腿了 repeats 打折了腿 as a brutal circular answer; restored as “Sau nữa thì bị đánh gãy chân rồi.”"
+        },
+        {
+          "segment": "luxun-kong-yiji:1.11",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "不成樣子 is ‘wretched’, not ‘no longer human’: now tiều tụy chẳng ra hình dạng gì nữa; 靠着火 now ở bên lò lửa without inventing sitting."
+        },
+        {
+          "segment": "luxun-kong-yiji:1.1",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "葷菜 covers meat or fish: món mặn."
+        },
+        {
+          "segment": "luxun-kong-yiji:1.4",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "排出 now xếp ra (lining coins up); 滿口 now mở miệng là."
+        },
+        {
+          "segment": "luxun-kong-yiji:1.6",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Smoothed 不屑置辯 (khinh khỉnh, không thèm biện bạch), the grey face (màu tro xám) and restored 之類 (các thứ)."
+        },
+        {
+          "segment": "luxun-kong-yiji:1.7",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "也配 restored as scornful đòi; the boy’s 茴 answer shortened; the fingernail tapping rephrased."
+        },
+        {
+          "segment": "luxun-kong-yiji:1.9",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Removed an added emphatic đấy and strengthened 這麽過 (cứ thế mà sống)."
+        },
+        {
+          "segment": "luxun-kong-yiji:1.10",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Restored 也 in 我纔也覺得 (tôi cũng mới thấy)."
+        },
+        {
+          "segment": "luxun-kong-yiji:1.3",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "主顧也沒有好聲氣 now khách cũng chẳng ai nói năng tử tế."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "孔乙己",
+      "draft_rendering": "Khổng Ất Kỷ",
+      "alternatives": [],
+      "rationale": "Standard Sino-Vietnamese reading; the nickname’s origin in the copybook phrase 上大人孔乙己 is rendered Thượng đại nhân Khổng Ất Kỷ.",
+      "passages": [
+        "luxun-kong-yiji:1.4"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "長衫 / 短衣幫",
+      "draft_rendering": "áo dài / hạng áo ngắn",
+      "alternatives": [
+        "áo trường sam"
+      ],
+      "rationale": "Class markers kept as a fixed pair throughout; áo dài here is the scholar’s long gown, contrasted with labourers’ short jackets.",
+      "passages": [
+        "luxun-kong-yiji:1.1",
+        "luxun-kong-yiji:1.2",
+        "luxun-kong-yiji:1.4"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "之乎者也 / 君子固窮 / 多乎哉？不多也",
+      "draft_rendering": "chi hồ giả dã / quân tử cố cùng / Đa hồ tai? Bất đa dã.",
+      "alternatives": [],
+      "rationale": "Hán-Việt readings preserve the classical pedantry that the tavern finds half-intelligible; the vernacular “Không nhiều, không nhiều!” before the tag carries its sense.",
+      "passages": [
+        "luxun-kong-yiji:1.4",
+        "luxun-kong-yiji:1.6",
+        "luxun-kong-yiji:1.8"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "竊書 / 偸",
+      "draft_rendering": "thiết thư / ăn cắp",
+      "alternatives": [
+        "lấy sách"
+      ],
+      "rationale": "The joke is a literary verb used to dignify theft; Kong’s own gloss (lấy sách) makes the euphemism legible.",
+      "passages": [
+        "luxun-kong-yiji:1.4"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "店內外充滿了快活的空氣",
+      "draft_rendering": "trong quán ngoài quán tràn ngập bầu không khí vui vẻ",
+      "alternatives": [],
+      "rationale": "An identical ironic refrain at both occurrences.",
+      "passages": [
+        "luxun-kong-yiji:1.4",
+        "luxun-kong-yiji:1.6"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the validated (proofread level 4) Chinese Wikisource transcription of 魯迅全集 vol. 1 (Lu Xun Memorial Committee edition, 1938; 1948 printing), scan pages 313–318, in traditional characters as printed. The story was first published in 新青年 6.4 (April 1919) and collected in 吶喊 (1923); those earlier texts were not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "2d50db19a6a7e851a52e557ba4c7d1cbc5069e19d2bb56595c3901c23671cfa0",
+  "target_sha256": "3efdb38d29fad2648e5715ae9846a3439077e6a578386d06b1a6b527880837d9",
+  "coverage": {
+    "canonical_passages": 14,
+    "translated_passages": 14,
+    "aligned_passages": 14
+  },
+  "ai_review_record": "corpus/reviews/luxun-kong-yiji/luxun-kong-yiji-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.975,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "luxun-kong-yiji:1.8",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Đa hồ tai? Bất đa dã. depends on readers’ familiarity with Hán-Việt; the preceding vernacular line carries the meaning but the comic register shifts slightly."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.13",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Có lẽ… đích thực keeps the 大約…的確 contradiction, though Vietnamese makes it slightly more explicit than the Chinese."
+    }
+  ],
+  "title_review": {
+    "source_title": "孔乙己",
+    "target_title": "Khổng Ất Kỷ",
+    "rationale": "孔乙己 is the character’s nickname; Khổng Ất Kỷ is the standard Sino-Vietnamese reading, matches every body occurrence and is explained in passage 1.4 by the copybook phrase it comes from."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "luxun-kong-yiji:1.1",
+        "luxun-kong-yiji:1.2",
+        "luxun-kong-yiji:1.3"
+      ],
+      "assessment": "Compared the tavern layout, prices, short-jacket and long-gown customers, the boy’s hiring and demotion."
+    },
+    {
+      "passages": [
+        "luxun-kong-yiji:1.4",
+        "luxun-kong-yiji:1.5",
+        "luxun-kong-yiji:1.6",
+        "luxun-kong-yiji:1.7",
+        "luxun-kong-yiji:1.8",
+        "luxun-kong-yiji:1.9"
+      ],
+      "assessment": "Compared Kong Yiji’s portrait, nickname, theft argument, classical tags, the 茴 exchange, the children and the beans."
+    },
+    {
+      "passages": [
+        "luxun-kong-yiji:1.10",
+        "luxun-kong-yiji:1.11",
+        "luxun-kong-yiji:1.12",
+        "luxun-kong-yiji:1.13",
+        "luxun-kong-yiji:1.14"
+      ],
+      "assessment": "Compared the slate, the beating, the final visit, the hands, the repeated debt line, the closing paradox and the dateline."
+    }
+  ]
+}

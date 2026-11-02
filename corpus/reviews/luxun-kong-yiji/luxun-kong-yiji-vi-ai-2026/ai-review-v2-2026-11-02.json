@@ -1,0 +1,136 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "luxun-kong-yiji-vi-ai-2026",
+  "source_edition_id": "luxun-kong-yiji-zh-quanji-1938",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Chinese-to-Vietnamese comparison of all 14 canonical passages and both titles. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 2 major and 15 minor findings with a pre-revision weighted score of 8.85; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "2d50db19a6a7e851a52e557ba4c7d1cbc5069e19d2bb56595c3901c23671cfa0",
+  "target_sha256": "3efdb38d29fad2648e5715ae9846a3439077e6a578386d06b1a6b527880837d9",
+  "segments_reviewed": [
+    "luxun-kong-yiji:1.1",
+    "luxun-kong-yiji:1.2",
+    "luxun-kong-yiji:1.3",
+    "luxun-kong-yiji:1.4",
+    "luxun-kong-yiji:1.5",
+    "luxun-kong-yiji:1.6",
+    "luxun-kong-yiji:1.7",
+    "luxun-kong-yiji:1.8",
+    "luxun-kong-yiji:1.9",
+    "luxun-kong-yiji:1.10",
+    "luxun-kong-yiji:1.11",
+    "luxun-kong-yiji:1.12",
+    "luxun-kong-yiji:1.13",
+    "luxun-kong-yiji:1.14"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9.5
+  },
+  "findings": [
+    {
+      "segment": "luxun-kong-yiji:1.4",
+      "category": "target_naturalness",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "竊書 rendered only as thiết thư would be opaque to most Vietnamese readers; Kong now glosses it himself (Thiết thư… lấy sách không thể tính là ăn cắp…), keeping both pedantry and legibility."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.10",
+      "category": "literary_voice",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "後來打折了腿了 repeats 打折了腿 as a brutal circular answer; restored as “Sau nữa thì bị đánh gãy chân rồi.”"
+    },
+    {
+      "segment": "luxun-kong-yiji:1.11",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "不成樣子 is ‘wretched’, not ‘no longer human’: now tiều tụy chẳng ra hình dạng gì nữa; 靠着火 now ở bên lò lửa without inventing sitting."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.1",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "葷菜 covers meat or fish: món mặn."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.4",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "排出 now xếp ra (lining coins up); 滿口 now mở miệng là."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.6",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Smoothed 不屑置辯 (khinh khỉnh, không thèm biện bạch), the grey face (màu tro xám) and restored 之類 (các thứ)."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.7",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "也配 restored as scornful đòi; the boy’s 茴 answer shortened; the fingernail tapping rephrased."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.9",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Removed an added emphatic đấy and strengthened 這麽過 (cứ thế mà sống)."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.10",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Restored 也 in 我纔也覺得 (tôi cũng mới thấy)."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "主顧也沒有好聲氣 now khách cũng chẳng ai nói năng tử tế."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.8",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Đa hồ tai? Bất đa dã. depends on readers’ familiarity with Hán-Việt; the preceding vernacular line carries the meaning but the comic register shifts slightly."
+    },
+    {
+      "segment": "luxun-kong-yiji:1.13",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Có lẽ… đích thực keeps the 大約…的確 contradiction, though Vietnamese makes it slightly more explicit than the Chinese."
+    }
+  ],
+  "summary": "Full assessment of all 14 Chinese/Vietnamese passages and both titles. The Lu Town tavern, the boy’s demotion to warming wine, Kong Yiji’s long gown, nickname, scars, pedantry and theft, the refrain of merriment, the 茴 lesson, the children and the beans, the proprietor’s nineteen-copper slate, the beating at the juren’s house, the final crawl on his hands and the closing ‘probably… indeed’ are complete and in order, with the dateline. Two major findings from the separate-context pass (opaque thiết thư; lost repetition of 打折了腿) and fifteen minor ones were revised. Fidelity, voice and imagery are 9.0, mechanics 9.5, naturalness 8.5 because the Hán-Việt classical tags remain demanding. Unrounded weighted score 8.975 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "孔乙己",
+    "target_title": "Khổng Ất Kỷ",
+    "rationale": "孔乙己 is the character’s nickname; Khổng Ất Kỷ is the standard Sino-Vietnamese reading, matches every body occurrence and is explained in passage 1.4 by the copybook phrase it comes from."
+  }
+}
