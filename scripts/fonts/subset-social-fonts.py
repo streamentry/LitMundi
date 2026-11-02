@@ -19,6 +19,7 @@ MANIFEST = FONTS / 'social-fonts.json'
 UPSTREAM = {
     'ja': {'family': 'Noto Serif JP', 'source': 'https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/JP/NotoSerifJP-Regular.otf'},
     'zh': {'family': 'Noto Serif TC', 'source': 'https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/TC/NotoSerifTC-Regular.otf'},
+    'bn': {'family': 'Noto Serif Bengali', 'source': 'https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-Regular.ttf'},
 }
 
 
@@ -31,7 +32,7 @@ def main(pairs):
             sys.exit(f'No upstream font configured for {lang}')
         titles = [w['title'] for w in works if w['original_language'] == lang]
         chars = sorted({c for t in titles for c in t if ord(c) > 0x7E})
-        output = FONTS / f'social-{lang}.otf'
+        output = FONTS / f'social-{lang}{pathlib.Path(upstream).suffix}'
         subprocess.run([
             sys.executable, '-m', 'fontTools.subset', upstream,
             '--unicodes=20-7E', '--text=' + ''.join(chars),

@@ -1,0 +1,176 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "tagore-postmaster-vi-ai-2026",
+  "source_edition_id": "tagore-postmaster-bn-visvabharati-1951",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Bengali-to-Vietnamese comparison of all 33 canonical passages and both titles. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 3 major and 17 minor findings with a pre-revision weighted score of 8.65; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "7a1c76bc663d46cdddf47bad7423095c4c6525f57a4e168e2b081ffd0ad10a20",
+  "target_sha256": "150958e7a140647ba192cacf87e07eae72df316e7c64c0d25343189af292f61f",
+  "segments_reviewed": [
+    "tagore-postmaster:1.1",
+    "tagore-postmaster:1.2",
+    "tagore-postmaster:1.3",
+    "tagore-postmaster:1.4",
+    "tagore-postmaster:1.5",
+    "tagore-postmaster:1.6",
+    "tagore-postmaster:1.7",
+    "tagore-postmaster:1.8",
+    "tagore-postmaster:1.9",
+    "tagore-postmaster:1.10",
+    "tagore-postmaster:1.11",
+    "tagore-postmaster:1.12",
+    "tagore-postmaster:1.13",
+    "tagore-postmaster:1.14",
+    "tagore-postmaster:1.15",
+    "tagore-postmaster:1.16",
+    "tagore-postmaster:1.17",
+    "tagore-postmaster:1.18",
+    "tagore-postmaster:1.19",
+    "tagore-postmaster:1.20",
+    "tagore-postmaster:1.21",
+    "tagore-postmaster:1.22",
+    "tagore-postmaster:1.23",
+    "tagore-postmaster:1.24",
+    "tagore-postmaster:1.25",
+    "tagore-postmaster:1.26",
+    "tagore-postmaster:1.27",
+    "tagore-postmaster:1.28",
+    "tagore-postmaster:1.29",
+    "tagore-postmaster:1.30",
+    "tagore-postmaster:1.31",
+    "tagore-postmaster:1.32",
+    "tagore-postmaster:1.33"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 8.5,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "tagore-postmaster:1.32",
+      "category": "literary_voice",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "quê mùa tầm thường sounded contemptuous for সামান্য গ্রাম্য বালিকা at the tenderest moment; now cô bé thôn quê nhỏ nhoi."
+    },
+    {
+      "segment": "tagore-postmaster:1.33",
+      "category": "imagery_consistency",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "Restored ভাসিয়া (floating in tears), pairing Ratan with the floating traveller of 1.32: Nó chỉ trôi giữa dòng nước mắt."
+    },
+    {
+      "segment": "tagore-postmaster:1.12",
+      "category": "literary_voice",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "The honorific verb gives the postmaster himself credit for passing the conjuncts; the subject ông is restored."
+    },
+    {
+      "segment": "tagore-postmaster:1.32",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "ছলছল and ধরণী now rưng rưng … mặt đất; the lap image of জগতের ক্রোড়বিচ্যুত restored; idiomatic ai là gì của ai."
+    },
+    {
+      "segment": "tagore-postmaster:1.33",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The ভ্রান্তিপাশ noose echo restored as thòng lọng."
+    },
+    {
+      "segment": "tagore-postmaster:1.11",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The court-petition image (নালিশ … দরবারে) and the defeated monsoon’s remnant clouds restored."
+    },
+    {
+      "segment": "tagore-postmaster:1.3",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "অন্তর্যামী জানেন now có Trời chứng giám; genie and mansions instead of demon and high-rises."
+    },
+    {
+      "segment": "tagore-postmaster:1.10",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Ratan names his family ‘mẹ’, ‘chị’, ‘anh’ as her own; হৃদয়পটে restored as khung tranh."
+    },
+    {
+      "segment": "tagore-postmaster:1.24",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Ratan’s timid question no longer presumes (nhé removed); রুটি গড়া is cán bánh."
+    },
+    {
+      "segment": "tagore-postmaster:1.27",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Removed the ambiguous vì tôi đi đâu in the postmaster’s reassurance."
+    },
+    {
+      "segment": "tagore-postmaster:1.29",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The new postmaster receives no honorific (Viên trưởng trạm mới), as in the source."
+    },
+    {
+      "segment": "@title",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Changed Ông trưởng trạm bưu điện to the neutral Người trưởng trạm bưu điện, closer to the bare job title for a young Calcutta man."
+    },
+    {
+      "segment": "tagore-postmaster:1.2",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "ভদ্রলোক kept as a class word (con nhà gia giáo); also fixed 1.7, 1.9, 1.15, 1.28 and 1.31 wording."
+    },
+    {
+      "segment": "tagore-postmaster:1.12",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘স্বরে অ’ ‘স্বরে আ’ is domesticated as Vietnamese ê a ‘a’, ‘ă’; the Bengali vowel names are not preserved."
+    },
+    {
+      "segment": "tagore-postmaster:1.5",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Both বাবু and দাদাবাবু become cậu, so Ratan’s growing intimacy is carried by context rather than a change of address."
+    }
+  ],
+  "summary": "Full assessment of all 33 Bengali/Vietnamese passages and both titles. The Ulapur posting, the Calcutta lad’s isolation and poems, Ratan’s service, evening talk of family, the monsoon noon, the reading lessons, the illness and nursing, the transfer request, the parting dialogue, the offered money, the river departure with its philosophy and Ratan’s lingering false hope are complete and in order. Three major findings from the separate-context pass (a contemptuous adjective at the climax, the lost floating-in-tears image, the dropped subject in the comic lesson sentence) and fourteen minor ones were revised, and the title was neutralised. Fidelity, voice and mechanics are 9.0; naturalness and imagery 8.5. Unrounded weighted score 8.85 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "পোস্ট্‌মাস্টার",
+    "target_title": "Người trưởng trạm bưu điện",
+    "rationale": "পোস্ট্‌মাস্টার is a bare job title for a young man; Người trưởng trạm bưu điện names his actual sub-post-office post neutrally, matches the body term ông trưởng trạm without the honorific weight of Ông in the title, and keeps the narrator’s ironic distance."
+  }
+}

@@ -19,8 +19,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Ryunosuke Akutagawa — 蜘蛛の糸](corpus/editorial/akutagawa-spiders-thread/akutagawa-kumo-vi-ai-2026.json) | Japanese; Chikuma Bunko 1986 via Aozora Bunko #92 | 15 | 8.80 | AI-reviewed translation published |
 | [Lu Xun — 孔乙己](corpus/editorial/luxun-kong-yiji/luxun-kong-yiji-vi-ai-2026.json) | Chinese; 魯迅全集 1938 (1948 printing) via validated Wikisource pages | 14 | 8.975 (displayed 8.98) | AI-reviewed translation published |
 | [Machado de Assis — A Cartomante](corpus/editorial/machado-a-cartomante/machado-cartomante-vi-ai-2026.json) | Portuguese; Laemmert 1896, pp. 9–29 (Commons scan) | 58 | 8.975 (displayed 8.98) | AI-reviewed translation published |
+| [Rabindranath Tagore — পোস্ট্‌মাস্টার](corpus/editorial/tagore-postmaster/tagore-postmaster-vi-ai-2026.json) | Bengali; গল্পগুচ্ছ vol. 1 (Visva-Bharati) via validated Wikisource pages | 33 | 8.85 | AI-reviewed translation published |
 
-All nine originals are published, giving eighteen public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All ten originals are published, giving twenty public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

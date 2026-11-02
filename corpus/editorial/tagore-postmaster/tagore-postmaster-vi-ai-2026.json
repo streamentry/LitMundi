@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "work_id": "tagore-postmaster",
+  "edition_id": "tagore-postmaster-vi-ai-2026",
+  "source_edition_id": "tagore-postmaster-bn-visvabharati-1951",
+  "title_vi": "Người trưởng trạm bưu điện",
+  "translation_direction": "bn → vi; direct from the specifically identified complete Bengali electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Address system",
+      "decision": "Ratan uses cậu/con; the postmaster uses tôi/em; narration calls him ông trưởng trạm and her nó/con bé.",
+      "rationale": "Keeps the household hierarchy fixed so that his tôi/em reads as detached kindness rather than romance; tao/mày would be harsher than তুই."
+    },
+    {
+      "topic": "Play-script dialogue",
+      "decision": "Speaker labels in passages 1.6–1.8 and 1.19–1.22 are rendered “Ông trưởng trạm:” / “Ratan:”, and questions take ? although Bengali often ends them with ।.",
+      "rationale": "Keeps the source’s abrupt dramatic form while following Vietnamese punctuation."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-queue-008",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "tagore-postmaster:1.32",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "quê mùa tầm thường sounded contemptuous for সামান্য গ্রাম্য বালিকা at the tenderest moment; now cô bé thôn quê nhỏ nhoi."
+        },
+        {
+          "segment": "tagore-postmaster:1.33",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Restored ভাসিয়া (floating in tears), pairing Ratan with the floating traveller of 1.32: Nó chỉ trôi giữa dòng nước mắt."
+        },
+        {
+          "segment": "tagore-postmaster:1.12",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The honorific verb gives the postmaster himself credit for passing the conjuncts; the subject ông is restored."
+        },
+        {
+          "segment": "tagore-postmaster:1.32",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "ছলছল and ধরণী now rưng rưng … mặt đất; the lap image of জগতের ক্রোড়বিচ্যুত restored; idiomatic ai là gì của ai."
+        },
+        {
+          "segment": "tagore-postmaster:1.33",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The ভ্রান্তিপাশ noose echo restored as thòng lọng."
+        },
+        {
+          "segment": "tagore-postmaster:1.11",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The court-petition image (নালিশ … দরবারে) and the defeated monsoon’s remnant clouds restored."
+        },
+        {
+          "segment": "tagore-postmaster:1.3",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "অন্তর্যামী জানেন now có Trời chứng giám; genie and mansions instead of demon and high-rises."
+        },
+        {
+          "segment": "tagore-postmaster:1.10",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Ratan names his family ‘mẹ’, ‘chị’, ‘anh’ as her own; হৃদয়পটে restored as khung tranh."
+        },
+        {
+          "segment": "tagore-postmaster:1.24",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Ratan’s timid question no longer presumes (nhé removed); রুটি গড়া is cán bánh."
+        },
+        {
+          "segment": "tagore-postmaster:1.27",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Removed the ambiguous vì tôi đi đâu in the postmaster’s reassurance."
+        },
+        {
+          "segment": "tagore-postmaster:1.29",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The new postmaster receives no honorific (Viên trưởng trạm mới), as in the source."
+        },
+        {
+          "segment": "@title",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Changed Ông trưởng trạm bưu điện to the neutral Người trưởng trạm bưu điện, closer to the bare job title for a young Calcutta man."
+        },
+        {
+          "segment": "tagore-postmaster:1.2",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "ভদ্রলোক kept as a class word (con nhà gia giáo); also fixed 1.7, 1.9, 1.15, 1.28 and 1.31 wording."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "বাবু / দাদাবাবু",
+      "draft_rendering": "cậu",
+      "alternatives": [
+        "anh",
+        "ông"
+      ],
+      "rationale": "The affectionate form a household servant uses for a young master; Ratan calls herself con. The shift from babu to dadababu is not separately marked.",
+      "passages": [
+        "tagore-postmaster:1.5",
+        "tagore-postmaster:1.12",
+        "tagore-postmaster:1.14",
+        "tagore-postmaster:1.17",
+        "tagore-postmaster:1.24",
+        "tagore-postmaster:1.30"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "আটচালা / কলিকা / খোল-করতাল / বাউল / খাটিয়া / রুটি",
+      "draft_rendering": "nhà tranh tám mái / nõ điếu / trống khol, chũm chọe kartal / hát rong Baul / giường dây / bánh roti",
+      "alternatives": [],
+      "rationale": "Concrete Bengal village items kept recognisable, with transliteration only where Vietnamese has no equivalent.",
+      "passages": [
+        "tagore-postmaster:1.2",
+        "tagore-postmaster:1.5",
+        "tagore-postmaster:1.9",
+        "tagore-postmaster:1.14"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "ভাসমান পথিক / অশ্রুজলে ভাসিয়া",
+      "draft_rendering": "người lữ khách trôi trên dòng nước / trôi giữa dòng nước mắt",
+      "alternatives": [],
+      "rationale": "Tagore pairs the departing traveller floating on the river with Ratan floating in tears; both use trôi.",
+      "passages": [
+        "tagore-postmaster:1.32",
+        "tagore-postmaster:1.33"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the validated (proofread level 4) Bengali Wikisource transcription of গল্পগুচ্ছ, vol. 1 (Visva-Bharati; new edition 1353 Bhadra / 1946, the scanned copy reprinted 1357 Chaitra), scan pages 32–38. First publication: Hitabadi, 1298 B.S. (1891). The editors’ conjectural periodical date printed after the story is apparatus and is excluded; the witness spelling থাটিয়ায় (passage 1.17, for খাটিয়ায়) is retained as printed.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "7a1c76bc663d46cdddf47bad7423095c4c6525f57a4e168e2b081ffd0ad10a20",
+  "target_sha256": "150958e7a140647ba192cacf87e07eae72df316e7c64c0d25343189af292f61f",
+  "coverage": {
+    "canonical_passages": 33,
+    "translated_passages": 33,
+    "aligned_passages": 33
+  },
+  "ai_review_record": "corpus/reviews/tagore-postmaster/tagore-postmaster-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.85,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "tagore-postmaster:1.12",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘স্বরে অ’ ‘স্বরে আ’ is domesticated as Vietnamese ê a ‘a’, ‘ă’; the Bengali vowel names are not preserved."
+    },
+    {
+      "segment": "tagore-postmaster:1.5",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Both বাবু and দাদাবাবু become cậu, so Ratan’s growing intimacy is carried by context rather than a change of address."
+    }
+  ],
+  "title_review": {
+    "source_title": "পোস্ট্‌মাস্টার",
+    "target_title": "Người trưởng trạm bưu điện",
+    "rationale": "পোস্ট্‌মাস্টার is a bare job title for a young man; Người trưởng trạm bưu điện names his actual sub-post-office post neutrally, matches the body term ông trưởng trạm without the honorific weight of Ông in the title, and keeps the narrator’s ironic distance."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "tagore-postmaster:1.1",
+        "tagore-postmaster:1.2",
+        "tagore-postmaster:1.3",
+        "tagore-postmaster:1.4",
+        "tagore-postmaster:1.5",
+        "tagore-postmaster:1.6",
+        "tagore-postmaster:1.7",
+        "tagore-postmaster:1.8",
+        "tagore-postmaster:1.9",
+        "tagore-postmaster:1.10"
+      ],
+      "assessment": "Compared the posting, the village, the poems, Ratan’s introduction, evening calls, the play-script exchange, memories and family talk."
+    },
+    {
+      "passages": [
+        "tagore-postmaster:1.11",
+        "tagore-postmaster:1.12",
+        "tagore-postmaster:1.13",
+        "tagore-postmaster:1.14",
+        "tagore-postmaster:1.15",
+        "tagore-postmaster:1.16",
+        "tagore-postmaster:1.17"
+      ],
+      "assessment": "Compared the monsoon noon, the reading lessons, the rains, the illness, nursing, the transfer request and the waiting."
+    },
+    {
+      "passages": [
+        "tagore-postmaster:1.18",
+        "tagore-postmaster:1.19",
+        "tagore-postmaster:1.20",
+        "tagore-postmaster:1.21",
+        "tagore-postmaster:1.22",
+        "tagore-postmaster:1.23",
+        "tagore-postmaster:1.24",
+        "tagore-postmaster:1.25",
+        "tagore-postmaster:1.26",
+        "tagore-postmaster:1.27",
+        "tagore-postmaster:1.28",
+        "tagore-postmaster:1.29",
+        "tagore-postmaster:1.30",
+        "tagore-postmaster:1.31",
+        "tagore-postmaster:1.32",
+        "tagore-postmaster:1.33"
+      ],
+      "assessment": "Compared the parting dialogue, the refused request, the bath water, the money, the river, the traveller’s philosophy and the closing apostrophe."
+    }
+  ]
+}

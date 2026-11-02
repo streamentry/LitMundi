@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "work_id": "tagore-postmaster",
+  "edition_id": "tagore-postmaster-vi-ai-2026",
+  "source_edition_id": "tagore-postmaster-bn-visvabharati-1951",
+  "links": [
+    {
+      "source": [
+        "tagore-postmaster:1.1"
+      ],
+      "target": [
+        "tagore-postmaster:1.1"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.2"
+      ],
+      "target": [
+        "tagore-postmaster:1.2"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.3"
+      ],
+      "target": [
+        "tagore-postmaster:1.3"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.4"
+      ],
+      "target": [
+        "tagore-postmaster:1.4"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.5"
+      ],
+      "target": [
+        "tagore-postmaster:1.5"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.6"
+      ],
+      "target": [
+        "tagore-postmaster:1.6"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.7"
+      ],
+      "target": [
+        "tagore-postmaster:1.7"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.8"
+      ],
+      "target": [
+        "tagore-postmaster:1.8"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.9"
+      ],
+      "target": [
+        "tagore-postmaster:1.9"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.10"
+      ],
+      "target": [
+        "tagore-postmaster:1.10"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.11"
+      ],
+      "target": [
+        "tagore-postmaster:1.11"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.12"
+      ],
+      "target": [
+        "tagore-postmaster:1.12"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.13"
+      ],
+      "target": [
+        "tagore-postmaster:1.13"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.14"
+      ],
+      "target": [
+        "tagore-postmaster:1.14"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.15"
+      ],
+      "target": [
+        "tagore-postmaster:1.15"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.16"
+      ],
+      "target": [
+        "tagore-postmaster:1.16"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.17"
+      ],
+      "target": [
+        "tagore-postmaster:1.17"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.18"
+      ],
+      "target": [
+        "tagore-postmaster:1.18"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.19"
+      ],
+      "target": [
+        "tagore-postmaster:1.19"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.20"
+      ],
+      "target": [
+        "tagore-postmaster:1.20"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.21"
+      ],
+      "target": [
+        "tagore-postmaster:1.21"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.22"
+      ],
+      "target": [
+        "tagore-postmaster:1.22"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.23"
+      ],
+      "target": [
+        "tagore-postmaster:1.23"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.24"
+      ],
+      "target": [
+        "tagore-postmaster:1.24"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.25"
+      ],
+      "target": [
+        "tagore-postmaster:1.25"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.26"
+      ],
+      "target": [
+        "tagore-postmaster:1.26"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.27"
+      ],
+      "target": [
+        "tagore-postmaster:1.27"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.28"
+      ],
+      "target": [
+        "tagore-postmaster:1.28"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.29"
+      ],
+      "target": [
+        "tagore-postmaster:1.29"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.30"
+      ],
+      "target": [
+        "tagore-postmaster:1.30"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.31"
+      ],
+      "target": [
+        "tagore-postmaster:1.31"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.32"
+      ],
+      "target": [
+        "tagore-postmaster:1.32"
+      ]
+    },
+    {
+      "source": [
+        "tagore-postmaster:1.33"
+      ],
+      "target": [
+        "tagore-postmaster:1.33"
+      ]
+    }
+  ]
+}

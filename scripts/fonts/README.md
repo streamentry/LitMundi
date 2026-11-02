@@ -20,9 +20,11 @@ the image between builds. Inspect the resulting images when adding a script.
 ## Additional scripts
 
 `social-fonts.json` maps an original language to a vendored subset font used
-for titles that DejaVu Serif cannot render. `social-ja.otf` is a subset of
-Noto Serif JP (SIL Open Font License 1.1, `LICENSE-NotoSerifCJK-OFL.txt`)
-containing printable ASCII plus the characters of the corpus's Japanese titles.
+for titles that DejaVu Serif cannot render. `social-ja.otf`, `social-zh.otf` and
+`social-bn.ttf` are subsets of Noto Serif JP, Noto Serif TC and Noto Serif
+Bengali (SIL Open Font License 1.1; `LICENSE-NotoSerifCJK-OFL.txt`,
+`LICENSE-NotoSerifBengali-OFL.txt`) containing printable ASCII plus the
+characters of the corpus's titles in that language.
 The subset is an OFL Modified Version; it may keep the Noto name because Noto
 declares no Reserved Font Name.
 

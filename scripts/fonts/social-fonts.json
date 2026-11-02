@@ -10,5 +10,11 @@
     "source": "https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/TC/NotoSerifTC-Regular.otf",
     "file": "social-zh.otf",
     "characters": "乙孔己"
+  },
+  "bn": {
+    "family": "Noto Serif Bengali",
+    "source": "https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-Regular.ttf",
+    "file": "social-bn.ttf",
+    "characters": "টপমরসাো্‌"
   }
 }
