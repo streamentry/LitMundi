@@ -418,5 +418,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "author_death_year": 1870,
+    "first_published_year": 1843,
+    "original_language": "en",
+    "genre": "novella",
+    "description": "The miser Ebenezer Scrooge is visited on Christmas Eve by the ghost of his partner Marley and three Spirits, and wakes on Christmas morning a changed man.",
+    "id": "dickens-a-christmas-carol",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

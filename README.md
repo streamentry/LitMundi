@@ -37,8 +37,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Gustave Flaubert — Un cœur simple](corpus/editorial/flaubert-un-cur-simple/flaubert-coeur-vi-ai-2026.json) | French; Trois contes, Charpentier 1877 via Project Gutenberg #12065 | 243 | 8.8 | AI-reviewed translation published |
 | [Nikolai Gogol — Шинель](corpus/editorial/gogol-the-overcoat/gogol-shinel-vi-ai-2026.json) | Russian; Полное собрание сочинений, т. 3 (1938) via Russian Wikisource | 35 | 8.8 | AI-reviewed translation published |
 | [Ryunosuke Akutagawa — 地獄變](corpus/editorial/akutagawa-hell-screen/akutagawa-jigoku-vi-ai-2026.json) | Japanese; 傀儡師 1919 facsimile via Aozora Bunko #61 | 143 | 8.925 (displayed 8.93) | AI-reviewed translation published |
+| [Charles Dickens — A Christmas Carol](corpus/editorial/dickens-a-christmas-carol/dickens-carol-vi-ai-2026.json) | English; Chapman & Hall 1843 text via Project Gutenberg #46 | 717 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 
-All twenty-seven originals are published, giving fifty-four public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All twenty-eight originals are published, giving fifty-six public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 
