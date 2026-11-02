@@ -1,0 +1,129 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "gogol-shinel-vi-ai-2026",
+  "source_edition_id": "gogol-shinel-ru-pss-1938",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Russian-to-Vietnamese comparison of all 35 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 3 major and 13 minor findings with a pre-revision weighted score of 8.53; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then obtained a second fresh separate-context assessment of the revised text (8.8, no major findings), applied its fixes, and assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "57e982bca7baf2cf2b7e823491098a5a4989847ef649fe9f8b1c013f6f369084",
+  "target_sha256": "86a1fcb3873544ee80bb03caf28e921ca9fb16218ab1a187ec3934fef3d0ed73",
+  "segments_reviewed": [
+    "gogol-the-overcoat:1.1",
+    "gogol-the-overcoat:1.2",
+    "gogol-the-overcoat:1.3",
+    "gogol-the-overcoat:1.4",
+    "gogol-the-overcoat:1.5",
+    "gogol-the-overcoat:1.6",
+    "gogol-the-overcoat:1.7",
+    "gogol-the-overcoat:1.8",
+    "gogol-the-overcoat:1.9",
+    "gogol-the-overcoat:1.10",
+    "gogol-the-overcoat:1.11",
+    "gogol-the-overcoat:1.12",
+    "gogol-the-overcoat:1.13",
+    "gogol-the-overcoat:1.14",
+    "gogol-the-overcoat:1.15",
+    "gogol-the-overcoat:1.16",
+    "gogol-the-overcoat:1.17",
+    "gogol-the-overcoat:1.18",
+    "gogol-the-overcoat:1.19",
+    "gogol-the-overcoat:1.20",
+    "gogol-the-overcoat:1.21",
+    "gogol-the-overcoat:1.22",
+    "gogol-the-overcoat:1.23",
+    "gogol-the-overcoat:1.24",
+    "gogol-the-overcoat:1.25",
+    "gogol-the-overcoat:1.26",
+    "gogol-the-overcoat:1.27",
+    "gogol-the-overcoat:1.28",
+    "gogol-the-overcoat:1.29",
+    "gogol-the-overcoat:1.30",
+    "gogol-the-overcoat:1.31",
+    "gogol-the-overcoat:1.32",
+    "gogol-the-overcoat:1.33",
+    "gogol-the-overcoat:1.34",
+    "gogol-the-overcoat:1.35"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 8.5,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "gogol-the-overcoat:1.31",
+      "category": "imagery_consistency",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "Akaky’s tic того switched to cái đó in the second half, including the ghost’s climactic line; now cái ấy throughout."
+    },
+    {
+      "segment": "gogol-the-overcoat:1.34",
+      "category": "imagery_consistency",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "капот became áo choàng cũ in the second half, breaking the «уже известный читателю капот» callback; now áo choàng ngủ throughout."
+    },
+    {
+      "segment": "gogol-the-overcoat:1.35",
+      "category": "imagery_consistency",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "тайные советники rendered as a rank class contradicting the советник chain of 1.4; now cố vấn cơ mật, with cố vấn hàm cửu phẩm in 1.4 and 1.35."
+    },
+    {
+      "segment": "gogol-the-overcoat:1.31",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "столоначальник typo (trưởng ban) corrected; надзиратель no longer a school ‘giám thị’; будочник, сторож, грош and sâm-banh unified."
+    },
+    {
+      "segment": "gogol-the-overcoat:1.35",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Mechanical repetition of một nhân vật quan trọng reduced to Gogol’s одно; viên chức-người chết replaced; lowercase after exclamation normalised; 1.28 toast and 1.3 «новому или важному лицу» rephrased."
+    },
+    {
+      "segment": "gogol-the-overcoat:1.2",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The barracks rhyme «пряжку в петлицу / геморой в поясницу» is not reproduced as rhyme."
+    },
+    {
+      "segment": "gogol-the-overcoat:1.28",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Petrovich’s substandard «судырь» and «Здравствовать желаю» are only lightly marked."
+    },
+    {
+      "segment": "gogol-the-overcoat:1.35",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "hồn ma viên chức softens the corpse’s physicality of чиновник-мертвец."
+    }
+  ],
+  "summary": "Full assessment of all 35 Russian/Vietnamese passages, many of them very long, and both titles. The naming scene, the copying clerk’s life, Petrovich and the new coat, the party, the robbery, the Significant Person and the ghost ending are complete, with the skaz narrator’s hedges and digressions intact. The first separate-context pass scored 8.53 with three major consistency findings across the two drafting halves (Akaky’s tic, the капот, rank terms) that blocked release; all were revised, and a second fresh separate-context assessment of the revised text found no major or critical issue and scored it 8.8. Fidelity, imagery and mechanics are 9.0, voice and naturalness 8.5. Unrounded weighted score 8.8 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "Шинель",
+    "target_title": "Chiếc áo khoác",
+    "rationale": "Chiếc áo khoác is the established Vietnamese title; áo khoác is broader than шинель, but áo choàng is reserved for the капот so that the old/new coat contrast stays clear."
+  }
+}

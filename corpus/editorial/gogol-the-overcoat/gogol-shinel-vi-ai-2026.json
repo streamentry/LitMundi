@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "work_id": "gogol-the-overcoat",
+  "edition_id": "gogol-shinel-vi-ai-2026",
+  "source_edition_id": "gogol-shinel-ru-pss-1938",
+  "title_vi": "Chiếc áo khoác",
+  "translation_direction": "ru → vi; direct from the specifically identified complete Russian electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Skaz narrator",
+      "decision": "The narrator is chúng tôi, with his hedges, failing memory, digressions and mock-solemn asides kept in place.",
+      "rationale": "Gogol’s narrating voice is the story’s comedy and its pathos."
+    },
+    {
+      "topic": "Address",
+      "decision": "Akaky and Petrovich: ngài/tôi; the Significant Person to Akaky: ông; the ghost to the Significant Person: mày/tao; «Я брат твой» as Tôi là người anh em của anh.",
+      "rationale": "Register marks the social distances the story is about."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-gogol-the-overcoat",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "gogol-the-overcoat:1.31",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Akaky’s tic того switched to cái đó in the second half, including the ghost’s climactic line; now cái ấy throughout."
+        },
+        {
+          "segment": "gogol-the-overcoat:1.34",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "капот became áo choàng cũ in the second half, breaking the «уже известный читателю капот» callback; now áo choàng ngủ throughout."
+        },
+        {
+          "segment": "gogol-the-overcoat:1.35",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "тайные советники rendered as a rank class contradicting the советник chain of 1.4; now cố vấn cơ mật, with cố vấn hàm cửu phẩm in 1.4 and 1.35."
+        },
+        {
+          "segment": "gogol-the-overcoat:1.31",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "столоначальник typo (trưởng ban) corrected; надзиратель no longer a school ‘giám thị’; будочник, сторож, грош and sâm-banh unified."
+        },
+        {
+          "segment": "gogol-the-overcoat:1.35",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Mechanical repetition of một nhân vật quan trọng reduced to Gogol’s одно; viên chức-người chết replaced; lowercase after exclamation normalised; 1.28 toast and 1.3 «новому или важному лицу» rephrased."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "шинель / капот",
+      "draft_rendering": "áo khoác / áo choàng ngủ",
+      "alternatives": [
+        "áo măng-tô"
+      ],
+      "rationale": "The story turns on the contrast between the new greatcoat and the old coat the office mocks as a капот; the two terms are never mixed.",
+      "passages": [
+        "gogol-the-overcoat:1.5",
+        "gogol-the-overcoat:1.10",
+        "gogol-the-overcoat:1.30",
+        "gogol-the-overcoat:1.34"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "того (Akaky’s verbal tic)",
+      "draft_rendering": "cái ấy",
+      "alternatives": [
+        "cái đó"
+      ],
+      "rationale": "One rendering for all nineteen instances, including the narrator naming the tic and the ghost’s «я тебя того, поймал».",
+      "passages": [
+        "gogol-the-overcoat:1.7",
+        "gogol-the-overcoat:1.31",
+        "gogol-the-overcoat:1.35"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "значительное лицо",
+      "draft_rendering": "nhân vật quan trọng",
+      "alternatives": [
+        "nhân vật hệ trọng"
+      ],
+      "rationale": "A fixed epithet in all twenty-two occurrences; the indefinite một is kept only where Gogol writes одно.",
+      "passages": [
+        "gogol-the-overcoat:1.31",
+        "gogol-the-overcoat:1.33",
+        "gogol-the-overcoat:1.35"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "титулярный / тайный советник; столоначальник; будочник",
+      "draft_rendering": "cố vấn/viên chức hàm cửu phẩm; cố vấn cơ mật; trưởng bàn; người gác chòi canh",
+      "alternatives": [],
+      "rationale": "Table-of-Ranks terms are rendered by class so that the советник pun in 1.4 lands; office and police terms are fixed.",
+      "passages": [
+        "gogol-the-overcoat:1.1",
+        "gogol-the-overcoat:1.4",
+        "gogol-the-overcoat:1.31",
+        "gogol-the-overcoat:1.35"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Russian Wikisource page «Шинель (Гоголь)/ПСС 1938 (СО)» (revision 5631032), whose source is Н. В. Гоголь, Полное собрание сочинений, vol. 3 (1938), pp. 139–174, via FEB, in modern orthography. Wikisource marks its quality 3; a second transcription (СС 1967) has the same long paragraphing. First published in Сочинения Николая Гоголя, vol. 3 (1842); not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "57e982bca7baf2cf2b7e823491098a5a4989847ef649fe9f8b1c013f6f369084",
+  "target_sha256": "86a1fcb3873544ee80bb03caf28e921ca9fb16218ab1a187ec3934fef3d0ed73",
+  "coverage": {
+    "canonical_passages": 35,
+    "translated_passages": 35,
+    "aligned_passages": 35
+  },
+  "ai_review_record": "corpus/reviews/gogol-the-overcoat/gogol-shinel-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "gogol-the-overcoat:1.2",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The barracks rhyme «пряжку в петлицу / геморой в поясницу» is not reproduced as rhyme."
+    },
+    {
+      "segment": "gogol-the-overcoat:1.28",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Petrovich’s substandard «судырь» and «Здравствовать желаю» are only lightly marked."
+    },
+    {
+      "segment": "gogol-the-overcoat:1.35",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "hồn ma viên chức softens the corpse’s physicality of чиновник-мертвец."
+    }
+  ],
+  "title_review": {
+    "source_title": "Шинель",
+    "target_title": "Chiếc áo khoác",
+    "rationale": "Chiếc áo khoác is the established Vietnamese title; áo khoác is broader than шинель, but áo choàng is reserved for the капот so that the old/new coat contrast stays clear."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "gogol-the-overcoat:1.1"
+      ],
+      "assessment": "Naming scene and calendar names complete."
+    },
+    {
+      "passages": [
+        "gogol-the-overcoat:1.33"
+      ],
+      "assessment": "«Оставьте меня» and «Я брат твой» kept with weight."
+    },
+    {
+      "passages": [
+        "gogol-the-overcoat:1.35"
+      ],
+      "assessment": "Ghost ending complete, including the snuff, the pig and the Obukhov bridge."
+    }
+  ]
+}
