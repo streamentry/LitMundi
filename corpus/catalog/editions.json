@@ -4105,5 +4105,126 @@
       "human_contributors": [],
       "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
+  },
+  {
+    "id": "luxun-kuangren-zh-quanji-1938",
+    "work_id": "luxun-diary-madman",
+    "language": "zh",
+    "title": "狂人日記",
+    "kind": "source",
+    "status": "published",
+    "label": "狂人日記 · 中文, 《魯迅全集》第一卷（1938；1948 年重印）",
+    "content_path": "corpus/segments/luxun-diary-madman/luxun-kuangren-zh-quanji-1938.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "魯迅「狂人日記」，《魯迅全集》第一卷（上海：魯迅全集出版社，1938；1948 年重印）. Chinese Wikisource Page namespace, 魯迅全集01 (1948).pdf pp. 298–312. First published in 新青年, 1918.",
+      "catalog_url": "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+      "text_url": "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+      "retrieved_at": "2026-11-03",
+      "source_witness": "Preface, entries 一–十三 and dateline from 魯迅全集01 (1948).pdf, Wikisource pages 298–312. No claim of a newly inspected printed copy."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Lu Xun text)",
+      "basis": "Term-based assessment on 2026-11-03. Lu Xun died in 1936; China’s life-plus-50 term expired at the end of 1986, Vietnam’s life-plus-50 term has expired, and publication in 1918 is beyond the US 95-year maximum. Only Lu Xun’s text is reused, without the 1938 edition’s editorial matter. This is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "CN",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Lu Xun",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/luxun-kuangren-zh-quanji-1938.json"
+      ],
+      "notes": "Technical extraction and complete AI-assisted paragraph comparison cover all 78 canonical units. Source-check metadata records exact hashes, witness boundaries, normalization and access limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "luxun-kuangren-vi-ai-2026",
+    "work_id": "luxun-diary-madman",
+    "language": "vi",
+    "title": "Nhật ký người điên",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/luxun-diary-madman/luxun-kuangren-vi-ai-2026.json",
+    "source_edition_id": "luxun-kuangren-zh-quanji-1938",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified Chinese source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-02",
+      "source_witness": "luxun-kuangren-zh-quanji-1938"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "CN",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/consumer-terms",
+        "https://zh.wikisource.org/wiki/%E7%8B%82%E4%BA%BA%E6%97%A5%E8%A8%98",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Lu Xun",
+      "translator": "LitMundi AI translation (Claude)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.93,
+      "record_paths": [
+        "corpus/reviews/luxun-diary-madman/luxun-kuangren-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/luxun-diary-madman/luxun-kuangren-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "notes": "Complete AI literary assessment: unrounded weighted score 8.925/10, threshold 8.6. All 78 source/target passages and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment is disclosed; an independent-context AI pass from the same model family supplied findings, which is not human certification or model diversity. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "Claude Opus 5.5 (Anthropic) — AI translation, literary revision and assessment"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
   }
 ]

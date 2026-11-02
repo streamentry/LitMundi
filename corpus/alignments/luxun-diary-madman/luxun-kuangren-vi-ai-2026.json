@@ -1,0 +1,632 @@
+{
+  "schema_version": 1,
+  "work_id": "luxun-diary-madman",
+  "edition_id": "luxun-kuangren-vi-ai-2026",
+  "source_edition_id": "luxun-kuangren-zh-quanji-1938",
+  "links": [
+    {
+      "source": [
+        "luxun-diary-madman:1.1"
+      ],
+      "target": [
+        "luxun-diary-madman:1.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:2.1"
+      ],
+      "target": [
+        "luxun-diary-madman:2.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:2.2"
+      ],
+      "target": [
+        "luxun-diary-madman:2.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:2.3"
+      ],
+      "target": [
+        "luxun-diary-madman:2.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:3.1"
+      ],
+      "target": [
+        "luxun-diary-madman:3.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:3.2"
+      ],
+      "target": [
+        "luxun-diary-madman:3.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:3.3"
+      ],
+      "target": [
+        "luxun-diary-madman:3.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:3.4"
+      ],
+      "target": [
+        "luxun-diary-madman:3.4"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.1"
+      ],
+      "target": [
+        "luxun-diary-madman:4.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.2"
+      ],
+      "target": [
+        "luxun-diary-madman:4.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.3"
+      ],
+      "target": [
+        "luxun-diary-madman:4.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.4"
+      ],
+      "target": [
+        "luxun-diary-madman:4.4"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.5"
+      ],
+      "target": [
+        "luxun-diary-madman:4.5"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.6"
+      ],
+      "target": [
+        "luxun-diary-madman:4.6"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.7"
+      ],
+      "target": [
+        "luxun-diary-madman:4.7"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.8"
+      ],
+      "target": [
+        "luxun-diary-madman:4.8"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.9"
+      ],
+      "target": [
+        "luxun-diary-madman:4.9"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.10"
+      ],
+      "target": [
+        "luxun-diary-madman:4.10"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.11"
+      ],
+      "target": [
+        "luxun-diary-madman:4.11"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:4.12"
+      ],
+      "target": [
+        "luxun-diary-madman:4.12"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:5.1"
+      ],
+      "target": [
+        "luxun-diary-madman:5.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:5.2"
+      ],
+      "target": [
+        "luxun-diary-madman:5.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:5.3"
+      ],
+      "target": [
+        "luxun-diary-madman:5.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:5.4"
+      ],
+      "target": [
+        "luxun-diary-madman:5.4"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:5.5"
+      ],
+      "target": [
+        "luxun-diary-madman:5.5"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:5.6"
+      ],
+      "target": [
+        "luxun-diary-madman:5.6"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:5.7"
+      ],
+      "target": [
+        "luxun-diary-madman:5.7"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:5.8"
+      ],
+      "target": [
+        "luxun-diary-madman:5.8"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:6.1"
+      ],
+      "target": [
+        "luxun-diary-madman:6.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:6.2"
+      ],
+      "target": [
+        "luxun-diary-madman:6.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:7.1"
+      ],
+      "target": [
+        "luxun-diary-madman:7.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:7.2"
+      ],
+      "target": [
+        "luxun-diary-madman:7.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:8.1"
+      ],
+      "target": [
+        "luxun-diary-madman:8.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:8.2"
+      ],
+      "target": [
+        "luxun-diary-madman:8.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:8.3"
+      ],
+      "target": [
+        "luxun-diary-madman:8.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:8.4"
+      ],
+      "target": [
+        "luxun-diary-madman:8.4"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.1"
+      ],
+      "target": [
+        "luxun-diary-madman:9.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.2"
+      ],
+      "target": [
+        "luxun-diary-madman:9.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.3"
+      ],
+      "target": [
+        "luxun-diary-madman:9.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.4"
+      ],
+      "target": [
+        "luxun-diary-madman:9.4"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.5"
+      ],
+      "target": [
+        "luxun-diary-madman:9.5"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.6"
+      ],
+      "target": [
+        "luxun-diary-madman:9.6"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.7"
+      ],
+      "target": [
+        "luxun-diary-madman:9.7"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.8"
+      ],
+      "target": [
+        "luxun-diary-madman:9.8"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.9"
+      ],
+      "target": [
+        "luxun-diary-madman:9.9"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.10"
+      ],
+      "target": [
+        "luxun-diary-madman:9.10"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.11"
+      ],
+      "target": [
+        "luxun-diary-madman:9.11"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.12"
+      ],
+      "target": [
+        "luxun-diary-madman:9.12"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:9.13"
+      ],
+      "target": [
+        "luxun-diary-madman:9.13"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:10.1"
+      ],
+      "target": [
+        "luxun-diary-madman:10.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:10.2"
+      ],
+      "target": [
+        "luxun-diary-madman:10.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.1"
+      ],
+      "target": [
+        "luxun-diary-madman:11.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.2"
+      ],
+      "target": [
+        "luxun-diary-madman:11.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.3"
+      ],
+      "target": [
+        "luxun-diary-madman:11.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.4"
+      ],
+      "target": [
+        "luxun-diary-madman:11.4"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.5"
+      ],
+      "target": [
+        "luxun-diary-madman:11.5"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.6"
+      ],
+      "target": [
+        "luxun-diary-madman:11.6"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.7"
+      ],
+      "target": [
+        "luxun-diary-madman:11.7"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.8"
+      ],
+      "target": [
+        "luxun-diary-madman:11.8"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.9"
+      ],
+      "target": [
+        "luxun-diary-madman:11.9"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.10"
+      ],
+      "target": [
+        "luxun-diary-madman:11.10"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.11"
+      ],
+      "target": [
+        "luxun-diary-madman:11.11"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.12"
+      ],
+      "target": [
+        "luxun-diary-madman:11.12"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.13"
+      ],
+      "target": [
+        "luxun-diary-madman:11.13"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.14"
+      ],
+      "target": [
+        "luxun-diary-madman:11.14"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.15"
+      ],
+      "target": [
+        "luxun-diary-madman:11.15"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:11.16"
+      ],
+      "target": [
+        "luxun-diary-madman:11.16"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:12.1"
+      ],
+      "target": [
+        "luxun-diary-madman:12.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:12.2"
+      ],
+      "target": [
+        "luxun-diary-madman:12.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:12.3"
+      ],
+      "target": [
+        "luxun-diary-madman:12.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:12.4"
+      ],
+      "target": [
+        "luxun-diary-madman:12.4"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:13.1"
+      ],
+      "target": [
+        "luxun-diary-madman:13.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:13.2"
+      ],
+      "target": [
+        "luxun-diary-madman:13.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:13.3"
+      ],
+      "target": [
+        "luxun-diary-madman:13.3"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:13.4"
+      ],
+      "target": [
+        "luxun-diary-madman:13.4"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:14.1"
+      ],
+      "target": [
+        "luxun-diary-madman:14.1"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:14.2"
+      ],
+      "target": [
+        "luxun-diary-madman:14.2"
+      ]
+    },
+    {
+      "source": [
+        "luxun-diary-madman:14.3"
+      ],
+      "target": [
+        "luxun-diary-madman:14.3"
+      ]
+    }
+  ]
+}
