@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "work_id": "austen-pride-and-prejudice",
+  "edition_id": "austen-pride-vi-ai-2026",
+  "source_edition_id": "austen-pride-en-egerton-1813",
+  "title_vi": "Kiêu hãnh và định kiến",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Witness",
+      "decision": "The 1813 first-edition text (Gutenberg #42671) is used, with chapters numbered continuously across its three volumes.",
+      "rationale": "The first edition is the selected witness; #1342 reproduces the 1894 illustrated edition."
+    },
+    {
+      "topic": "Style",
+      "decision": "Austen’s balanced periodic sentences and unmarked irony are kept; free indirect style is not flagged; em dashes are unspaced as in the source.",
+      "rationale": "The narrator’s irony depends on sentence architecture."
+    },
+    {
+      "topic": "Famous lines",
+      "decision": "The opening sentence, ‘tolerable’, the first proposal’s opening and its echo in chapter 58 are fixed renderings.",
+      "rationale": "Recurring and quoted lines must match."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-austen-pride-and-prejudice",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "austen-pride-and-prejudice:34.19",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Elizabeth’s defence of Wickham (‘who could help feeling an interest?’) was reversed by a double negative; corrected, and the revised quarter passed a fresh separate-context re-assessment."
+        },
+        {
+          "segment": "austen-pride-and-prejudice:14.1",
+          "category": "editorial_mechanics",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Em-dash spacing unified (170 instances) across the twelve drafting parts."
+        },
+        {
+          "segment": "austen-pride-and-prejudice:16.53",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Book-wide address and term rulings applied: Lady Catherine as bác to her nephews, khuôn viên for Park, Bingley the elder brother, Sir William’s anh to Darcy, Mrs. Reynolds’s cậu chủ, steward vs housekeeper, de Bourgh, dượng Phillips."
+        },
+        {
+          "segment": "austen-pride-and-prejudice:25.10",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Pronoun slips where ‘we’ excluded Elizabeth (Mrs. Gardiner’s speech and letter, Lady Catherine’s ‘our instrument’), kinship errors (Collins’s sister-in-law), and misreadings (1426, 1500, 1114, 1043) corrected."
+        },
+        {
+          "segment": "austen-pride-and-prejudice:61.15",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "About forty calques and stiff phrasings recast, including the final sentence and Mr. Bennet’s ‘I flatter myself’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "pride / prejudice",
+      "draft_rendering": "kiêu hãnh (kiêu ngạo where condemned as arrogance) / định kiến",
+      "alternatives": [
+        "thành kiến"
+      ],
+      "rationale": "The title-sense of pride is kiêu hãnh; kiêu ngạo marks Elizabeth’s or the narrator’s condemnation.",
+      "passages": [
+        "austen-pride-and-prejudice:33.38",
+        "austen-pride-and-prejudice:36.1",
+        "austen-pride-and-prejudice:36.8"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Darcy ↔ Elizabeth",
+      "draft_rendering": "anh/tôi — cô/tôi; anh/em only after the second proposal is accepted",
+      "alternatives": [],
+      "rationale": "The shift in address marks the reconciliation.",
+      "passages": [
+        "austen-pride-and-prejudice:34.4",
+        "austen-pride-and-prejudice:58.8",
+        "austen-pride-and-prejudice:58.10"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Charlotte ↔ Elizabeth; Mrs. Gardiner ↔ Elizabeth; Lady Catherine",
+      "draft_rendering": "chị/em; mợ/cháu; ta/cô to Elizabeth, ta/cháu to her nephews, Lệnh bà in Collins’s mouth",
+      "alternatives": [],
+      "rationale": "Fixed across the twelve drafting parts.",
+      "passages": [
+        "austen-pride-and-prejudice:5.9",
+        "austen-pride-and-prejudice:25.10",
+        "austen-pride-and-prejudice:31.5",
+        "austen-pride-and-prejudice:38.4"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "entail; living; steward; housekeeper",
+      "draft_rendering": "điều khoản thừa kế (hạn định); chức mục sư; viên quản lý điền trang; bà quản gia",
+      "alternatives": [],
+      "rationale": "Period legal and household vocabulary kept distinct.",
+      "passages": [
+        "austen-pride-and-prejudice:7.1",
+        "austen-pride-and-prejudice:35.5",
+        "austen-pride-and-prejudice:43.9"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #42671, a transcription of the first edition (London: T. Egerton, 1813) in three volumes, with its original spelling and punctuation. The more widely used Gutenberg #1342 reproduces the 1894 illustrated George Allen edition with image-set initials and was not used. Not collated with a print facsimile.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "9072cb195ac87fed440d11ec92bd53855bb5f3faaaa53a5151ad4b157edc5f59",
+  "target_sha256": "ffc04fe4ee83a34657ef06a10b70dc792e7cc3d9b4a9911fd7cd6adc9b537623",
+  "coverage": {
+    "canonical_passages": 2050,
+    "translated_passages": 2050,
+    "aligned_passages": 2050
+  },
+  "ai_review_record": "corpus/reviews/austen-pride-and-prejudice/austen-pride-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "austen-pride-and-prejudice:33.40",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Elizabeth’s angry thoughts and Mrs. Gardiner sometimes call Darcy anh ta, a deliberate register shift."
+    },
+    {
+      "segment": "austen-pride-and-prejudice:35.5",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Some very long periodic sentences rely on chains of mà… điều mà…."
+    }
+  ],
+  "title_review": {
+    "source_title": "Pride and Prejudice",
+    "target_title": "Kiêu hãnh và định kiến",
+    "rationale": "Kiêu hãnh và định kiến is the established Vietnamese title and matches the body’s kiêu hãnh / định kiến."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "austen-pride-and-prejudice:1.1",
+        "austen-pride-and-prejudice:1.2"
+      ],
+      "assessment": "Opening sentence in its fixed rendering."
+    },
+    {
+      "passages": [
+        "austen-pride-and-prejudice:34.4",
+        "austen-pride-and-prejudice:36.8"
+      ],
+      "assessment": "First proposal and ‘Till this moment I never knew myself’."
+    },
+    {
+      "passages": [
+        "austen-pride-and-prejudice:61.15"
+      ],
+      "assessment": "Final sentence on the Gardiners."
+    }
+  ]
+}

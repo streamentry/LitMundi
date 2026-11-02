@@ -48,8 +48,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Lu Xun — 阿Q正傳](corpus/editorial/luxun-ah-q/luxun-ahq-vi-ai-2026.json) | Chinese; 魯迅全集 vol. 1 (1938, 1948 printing) via Chinese Wikisource | 318 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Matsuo Bashō — おくのほそ道](corpus/editorial/basho-narrow-road/basho-hosomichi-vi-ai-2026.json) | Japanese; 新釈奥の細道 (1911) base text via Japanese Wikisource | 167 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Mary Shelley — Frankenstein](corpus/editorial/shelley-frankenstein/shelley-frankenstein-vi-ai-2026.json) | English; first edition, Lackington 1818 via Project Gutenberg #41445 | 774 | 8.925 (displayed 8.93) | AI-reviewed translation published |
+| [Jane Austen — Pride and Prejudice](corpus/editorial/austen-pride-and-prejudice/austen-pride-vi-ai-2026.json) | English; first edition, T. Egerton 1813 via Project Gutenberg #42671 | 2050 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 
-All thirty-eight originals are published, giving seventy-six public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All thirty-nine originals are published, giving seventy-eight public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 
