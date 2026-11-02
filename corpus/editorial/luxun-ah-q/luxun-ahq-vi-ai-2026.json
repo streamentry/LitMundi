@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "work_id": "luxun-ah-q",
+  "edition_id": "luxun-ahq-vi-ai-2026",
+  "source_edition_id": "luxun-ahq-zh-quanji-1938",
+  "title_vi": "A Q chính truyện",
+  "translation_direction": "zh → vi; direct from the specifically identified complete Chinese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Narrator",
+      "decision": "The mock-scholarly narrator of chapter I keeps Hán-Việt genre names (liệt truyện, tự truyện, … chính truyện) and the Confucian tags untranslated in Hán-Việt.",
+      "rationale": "The parody of biography conventions depends on the learned register."
+    },
+    {
+      "topic": "Pronouns",
+      "decision": "A Q says tao/mày to equals and inferiors, con before cụ Triệu and at the tribunal, tôi to the Fake Foreign Devil, and pleads with chị Ngô in tôi/chị.",
+      "rationale": "Register tracks A Q’s self-abasement and bluster."
+    },
+    {
+      "topic": "Punctuation",
+      "decision": "『』 as “ ” and 「」 as ‘ ’; the dealer’s drawl marks ～～ rendered as ellipses; opera lines keep their line breaks.",
+      "rationale": "Vietnamese typographic convention."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-luxun-ah-q",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "luxun-ah-q:4.24",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "A Q’s kneeling proposal to Wu Ma no longer sounds like a threat (tao/mày replaced by a pleading tôi/chị)."
+        },
+        {
+          "segment": "luxun-ah-q:2.21",
+          "category": "editorial_mechanics",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Full-width drawl marks replaced by Vietnamese ellipses (also 9.33 sound effect)."
+        },
+        {
+          "segment": "luxun-ah-q:5.9",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "竟, 驟然大闊, 一向, 調戲, 一臺戲, 娼婦們 corrected; 小烏龜子 insult given sting; opera titles and 閒人 unified across parts; several calques recast."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "精神勝利法",
+      "draft_rendering": "phép thắng lợi tinh thần",
+      "alternatives": [],
+      "rationale": "The established Vietnamese term for A Q’s method; the ‘son beats father’ formula (con đánh bố) is fixed wherever it recurs.",
+      "passages": [
+        "luxun-ah-q:2.13",
+        "luxun-ah-q:2.15",
+        "luxun-ah-q:3.3"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "假洋鬼子 / 趙太爺 / 秀才 / 小D",
+      "draft_rendering": "thằng Tây giả / cụ Triệu / cậu tú / D Con",
+      "alternatives": [],
+      "rationale": "Hán-Việt and nickname renderings stable across both drafting parts.",
+      "passages": [
+        "luxun-ah-q:1.4",
+        "luxun-ah-q:3.25",
+        "luxun-ah-q:5.9"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "柿油黨 (for 自由黨)",
+      "draft_rendering": "Đảng Dầu Hồng (for Đảng Tự do)",
+      "alternatives": [],
+      "rationale": "Keeps the villagers’ mishearing as a mishearing.",
+      "passages": [
+        "luxun-ah-q:8.9"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Chinese Wikisource transclusion «阿Q正傳» (revision 2633268) of 魯迅全集 vol. 1 (1938 edition, 1948 printing), Page namespace pages 380–437, all marked proofread (level 3). First serialised in 晨報副刊, 4 December 1921 – 12 February 1922, and collected in 吶喊 (1923); not collated with the serial text.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "cf7853770c0d41e7dec523af1cfe98ad34e3fdfaa235a6a377ecdc870d35d933",
+  "target_sha256": "f248fa1cf7d52c52324260efbbfd5168da335f165e9cb0c8178381e4ea0f047d",
+  "coverage": {
+    "canonical_passages": 318,
+    "translated_passages": 318,
+    "aligned_passages": 318
+  },
+  "ai_review_record": "corpus/reviews/luxun-ah-q/luxun-ahq-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "luxun-ah-q:4.16",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The witness reads 趙太爺未進秀才 where other editions read 趙大爺 (the son); the translation follows the selected witness."
+    },
+    {
+      "segment": "luxun-ah-q:2.5",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The witness typo 情神 (for 精神) is translated by sense; it is recorded, not emended."
+    }
+  ],
+  "title_review": {
+    "source_title": "阿Q正傳",
+    "target_title": "A Q chính truyện",
+    "rationale": "A Q chính truyện follows the established Vietnamese title and the glossary’s chính truyện for 正傳."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "luxun-ah-q:1.1",
+        "luxun-ah-q:1.2",
+        "luxun-ah-q:1.3"
+      ],
+      "assessment": "Chapter I’s parody of biography genres kept in Hán-Việt."
+    },
+    {
+      "passages": [
+        "luxun-ah-q:9.42",
+        "luxun-ah-q:9.47",
+        "luxun-ah-q:9.48"
+      ],
+      "assessment": "The wolf’s eyes, the crowd’s verdict and the dateline."
+    }
+  ]
+}

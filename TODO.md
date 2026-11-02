@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 33 published · 241 todo · 0 in progress · 226 on hold.**
+**500 selected works · 34 published · 240 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -52,7 +52,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **034. Lu Xun — Diary of a Madman** · zh · short story · **Published** · [Evidence](https://jsis.washington.edu/earc/lu-xun-the-father-of-modern-chinese-literature-ncta-online-book-study/) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/luxun-diary-madman/luxun-kuangren-vi-ai-2026/)
 - [ ] **035. Mary Shelley — Frankenstein** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/84)
 - [ ] **036. Charlotte Brontë — Jane Eyre** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/1260)
-- [ ] **037. Lu Xun — The True Story of Ah Q** · zh · novella · **Todo** · [Evidence](https://jsis.washington.edu/earc/lu-xun-the-father-of-modern-chinese-literature-ncta-online-book-study/)
+- [x] **037. Lu Xun — The True Story of Ah Q** · zh · novella · **Published** · [Evidence](https://jsis.washington.edu/earc/lu-xun-the-father-of-modern-chinese-literature-ncta-online-book-study/) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/luxun-ah-q/luxun-ahq-vi-ai-2026/)
 - [ ] **038. Emily Brontë — Wuthering Heights** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/768)
 - [ ] **039. Matsuo Basho — Oku no hosomichi / The Narrow Road to the Deep North** · ja · memoir · **Todo** · [Evidence](https://www.penguinrandomhouse.com/books/9360/narrow-road-to-the-interior-by-matsuo-basho/)
 - [ ] **040. George Eliot — Middlemarch** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/145)
