@@ -1,0 +1,89 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "higuchi-nigorie-vi-ai-2026",
+  "source_edition_id": "higuchi-nigorie-ja-bungei-kurabu-1895",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Japanese-to-Vietnamese comparison of all 23 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 0 major and 11 minor findings with a pre-revision weighted score of 8.925; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "62c2958643ce2cfe05e18a7175a98b403a7baf3b447a3de52e55edbfaa0f9a81",
+  "target_sha256": "0bf25c9f70dc6878ca9666ce5db7f6830912df1c9cab5d9b987f9b90aeb5f13d",
+  "segments_reviewed": [
+    "higuchi-troubled-waters:1.1",
+    "higuchi-troubled-waters:1.2",
+    "higuchi-troubled-waters:1.3",
+    "higuchi-troubled-waters:1.4",
+    "higuchi-troubled-waters:2.1",
+    "higuchi-troubled-waters:2.2",
+    "higuchi-troubled-waters:3.1",
+    "higuchi-troubled-waters:3.2",
+    "higuchi-troubled-waters:3.3",
+    "higuchi-troubled-waters:4.1",
+    "higuchi-troubled-waters:5.1",
+    "higuchi-troubled-waters:5.2",
+    "higuchi-troubled-waters:6.1",
+    "higuchi-troubled-waters:6.2",
+    "higuchi-troubled-waters:6.3",
+    "higuchi-troubled-waters:6.4",
+    "higuchi-troubled-waters:6.5",
+    "higuchi-troubled-waters:6.6",
+    "higuchi-troubled-waters:6.7",
+    "higuchi-troubled-waters:7.1",
+    "higuchi-troubled-waters:7.2",
+    "higuchi-troubled-waters:7.3",
+    "higuchi-troubled-waters:8.1"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "higuchi-troubled-waters:1.2",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "女ならぬお客樣 joke clarified: male customers are asked to come in person."
+    },
+    {
+      "segment": "higuchi-troubled-waters:2.1",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Oriki’s joking self-identification as the oiran Takao made clear; 親故か expanded; the teasing in 1.6 restored to Oriki."
+    },
+    {
+      "segment": "higuchi-troubled-waters:4.1",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "内職 as home piecework, not chores; 丸める no longer the idiom for distorting facts; added colons removed; 1.22 Ohatsu’s parcel clarified."
+    },
+    {
+      "segment": "higuchi-troubled-waters:4.1",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "狸 rendered hồ ly (fox) rather than the tanuki trickster."
+    }
+  ],
+  "summary": "Full assessment of all 23 Japanese/Vietnamese passages in eight chapters and both titles. Oriki’s life at the Kiku-no-i, Yūki’s visits, Genshichi’s ruin, Oriki’s confession of her family’s history, the quarrel over Taikichi’s cake and the two funerals are complete, with dialogue embedded in Ichiyō’s periods and the ending’s ambiguity intact. The separate-context pass scored 8.925 with no major findings and eleven minor ones; the substantive items were revised. Fidelity, voice, imagery and mechanics are 9.0, naturalness 8.5. Unrounded weighted score 8.925 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "にごりえ",
+    "target_title": "Dòng nước đục",
+    "rationale": "Dòng nước đục keeps 濁り江, a muddied inlet, and echoes Oriki’s ‘drifting into this stream’ in chapter 5."
+  }
+}

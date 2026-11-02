@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "work_id": "higuchi-troubled-waters",
+  "segment_ids": [
+    "higuchi-troubled-waters:1.1",
+    "higuchi-troubled-waters:1.2",
+    "higuchi-troubled-waters:1.3",
+    "higuchi-troubled-waters:1.4",
+    "higuchi-troubled-waters:2.1",
+    "higuchi-troubled-waters:2.2",
+    "higuchi-troubled-waters:3.1",
+    "higuchi-troubled-waters:3.2",
+    "higuchi-troubled-waters:3.3",
+    "higuchi-troubled-waters:4.1",
+    "higuchi-troubled-waters:5.1",
+    "higuchi-troubled-waters:5.2",
+    "higuchi-troubled-waters:6.1",
+    "higuchi-troubled-waters:6.2",
+    "higuchi-troubled-waters:6.3",
+    "higuchi-troubled-waters:6.4",
+    "higuchi-troubled-waters:6.5",
+    "higuchi-troubled-waters:6.6",
+    "higuchi-troubled-waters:6.7",
+    "higuchi-troubled-waters:7.1",
+    "higuchi-troubled-waters:7.2",
+    "higuchi-troubled-waters:7.3",
+    "higuchi-troubled-waters:8.1"
+  ],
+  "deprecated_ids": {},
+  "notes": "Canonical units follow every paragraph of the selected complete electronic witness. Sections 1–8 correspond to the numbered chapters （一）–（八）. The title and chapter numerals are structural metadata; ruby, Aozora editorial notes and navigation are excluded. Passage IDs are immutable and may not be reassigned."
+}

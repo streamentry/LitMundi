@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "work_id": "higuchi-troubled-waters",
+  "edition_id": "higuchi-nigorie-vi-ai-2026",
+  "source_edition_id": "higuchi-nigorie-ja-bungei-kurabu-1895",
+  "title_vi": "Dòng nước đục",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Dialogue",
+      "decision": "Dialogue stays embedded in Ichiyō’s comma-linked periods without quotation marks, as in the source; the few speaker tags needed are minimal.",
+      "rationale": "The run-on form is the work’s rhythm."
+    },
+    {
+      "topic": "Registers",
+      "decision": "Oriki: em/anh with customers and Yūki; Yūki: tôi/em; Genshichi and Ohatsu: anh/em, turning to mình/tôi and cô/tôi in the quarrel.",
+      "rationale": "Register marks intimacy, contempt and despair."
+    },
+    {
+      "topic": "Ending",
+      "decision": "The rumours of the last chapter are rendered without resolving whether Oriki died willingly.",
+      "rationale": "The ambiguity is the ending."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-higuchi-troubled-waters",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "higuchi-troubled-waters:1.2",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "女ならぬお客樣 joke clarified: male customers are asked to come in person."
+        },
+        {
+          "segment": "higuchi-troubled-waters:2.1",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Oriki’s joking self-identification as the oiran Takao made clear; 親故か expanded; the teasing in 1.6 restored to Oriki."
+        },
+        {
+          "segment": "higuchi-troubled-waters:4.1",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "内職 as home piecework, not chores; 丸める no longer the idiom for distorting facts; added colons removed; 1.22 Ohatsu’s parcel clarified."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "菊の井 / 新開 / 銘酒屋",
+      "draft_rendering": "quán Kiku-no-i / khu Shinkai / quán rượu",
+      "alternatives": [],
+      "rationale": "The drinking house’s trade is left implicit, as in the source.",
+      "passages": [
+        "higuchi-troubled-waters:1.2",
+        "higuchi-troubled-waters:1.4",
+        "higuchi-troubled-waters:8.1"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "溝 / 溝板",
+      "draft_rendering": "cống / tấm ván cống",
+      "alternatives": [],
+      "rationale": "The ditch links the rice of Oriki’s childhood (6) and Taikichi’s thrown cake (7).",
+      "passages": [
+        "higuchi-troubled-waters:4.1",
+        "higuchi-troubled-waters:6.4",
+        "higuchi-troubled-waters:7.2"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "お寺の山",
+      "draft_rendering": "núi chùa",
+      "alternatives": [],
+      "rationale": "Fixed so the foreshadowing of the final chapter is kept.",
+      "passages": [
+        "higuchi-troubled-waters:4.1",
+        "higuchi-troubled-waters:8.1"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Aozora Bunko transcription (card 55672, file 55672_58811) of the first publication in 文藝倶樂部 第九篇 (20 September 1895), in old kanji and kana; not collated. Aozora notes recording corrections of the base text are applied as transcribed.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "62c2958643ce2cfe05e18a7175a98b403a7baf3b447a3de52e55edbfaa0f9a81",
+  "target_sha256": "0bf25c9f70dc6878ca9666ce5db7f6830912df1c9cab5d9b987f9b90aeb5f13d",
+  "coverage": {
+    "canonical_passages": 23,
+    "translated_passages": 23,
+    "aligned_passages": 23
+  },
+  "ai_review_record": "corpus/reviews/higuchi-troubled-waters/higuchi-nigorie-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "higuchi-troubled-waters:4.1",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "狸 rendered hồ ly (fox) rather than the tanuki trickster."
+    }
+  ],
+  "title_review": {
+    "source_title": "にごりえ",
+    "target_title": "Dòng nước đục",
+    "rationale": "Dòng nước đục keeps 濁り江, a muddied inlet, and echoes Oriki’s ‘drifting into this stream’ in chapter 5."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "higuchi-troubled-waters:6.4"
+      ],
+      "assessment": "Oriki’s confession complete."
+    },
+    {
+      "passages": [
+        "higuchi-troubled-waters:8.1"
+      ],
+      "assessment": "The rumours of the ending left unresolved."
+    }
+  ]
+}
