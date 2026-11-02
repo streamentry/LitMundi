@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 18 published · 256 todo · 0 in progress · 226 on hold.**
+**500 selected works · 19 published · 255 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -37,7 +37,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **019. Charlotte Perkins Gilman — The Yellow Wallpaper** · en · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/1952) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/gilman-the-yellow-wallpaper/gilman-wallpaper-vi-ai-2026/)
 - [ ] **020. Franz Kafka — Die Verwandlung** · de · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/22367)
 - [ ] **021. Charles Dickens — A Christmas Carol** · en · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/46)
-- [ ] **022. Ryunosuke Akutagawa — Rashomon** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html)
+- [x] **022. Ryunosuke Akutagawa — Rashomon** · ja · short story · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/akutagawa-rashomon/akutagawa-rashomon-vi-ai-2026/)
 - [ ] **023. Robert Louis Stevenson — Strange Case of Dr Jekyll and Mr Hyde** · en · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/42)
 - [ ] **024. Ryunosuke Akutagawa — In a Grove** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html)
 - [ ] **025. Gustave Flaubert — Un cœur simple** · fr · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/12065)

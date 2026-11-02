@@ -30,8 +30,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Rabindranath Tagore — কাবুলিওয়ালা](corpus/editorial/tagore-kabuliwala/tagore-kabuliwala-vi-ai-2026.json) | Bengali; গল্পগুচ্ছ vol. 1 (Visva-Bharati) via validated Wikisource pages | 68 | 8.875 (displayed 8.88) | AI-reviewed translation published |
 | [Edgar Allan Poe — The Tell-Tale Heart](corpus/editorial/poe-the-tell-tale-heart/poe-tell-tale-vi-ai-2026.json) | English; Raven Edition vol. 2, Gutenberg #2148 | 18 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Charlotte Perkins Gilman — The Yellow Wallpaper](corpus/editorial/gilman-the-yellow-wallpaper/gilman-wallpaper-vi-ai-2026.json) | English; Gutenberg #1952 (edition not identified) | 267 | 8.925 (displayed 8.93) | AI-reviewed translation published |
+| [Ryunosuke Akutagawa — 羅生門](corpus/editorial/akutagawa-rashomon/akutagawa-rashomon-vi-ai-2026.json) | Japanese; Chikuma Bunko 1986 via Aozora Bunko #127 | 37 | 9.00 | AI-reviewed translation published |
 
-All twenty originals are published, giving forty public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All twenty-one originals are published, giving forty-two public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

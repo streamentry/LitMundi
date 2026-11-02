@@ -1,0 +1,110 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "akutagawa-rashomon-vi-ai-2026",
+  "source_edition_id": "akutagawa-rashomon-ja-chikuma-1986",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Japanese-to-Vietnamese comparison of all 37 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 0 major and 13 minor findings with a pre-revision weighted score of 8.925; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "93506298d31e2de3bbe2fd87b3dedc1b483e13236556467815b38d706ddf4858",
+  "target_sha256": "8375903b2565d0e23413fedd1f4a29ca912f9fb3113c9a7c8a8ee7743cf8f600",
+  "segments_reviewed": [
+    "akutagawa-rashomon:1.1",
+    "akutagawa-rashomon:1.2",
+    "akutagawa-rashomon:1.3",
+    "akutagawa-rashomon:1.4",
+    "akutagawa-rashomon:1.5",
+    "akutagawa-rashomon:1.6",
+    "akutagawa-rashomon:1.7",
+    "akutagawa-rashomon:1.8",
+    "akutagawa-rashomon:1.9",
+    "akutagawa-rashomon:1.10",
+    "akutagawa-rashomon:1.11",
+    "akutagawa-rashomon:1.12",
+    "akutagawa-rashomon:1.13",
+    "akutagawa-rashomon:1.14",
+    "akutagawa-rashomon:1.15",
+    "akutagawa-rashomon:1.16",
+    "akutagawa-rashomon:1.17",
+    "akutagawa-rashomon:1.18",
+    "akutagawa-rashomon:1.19",
+    "akutagawa-rashomon:1.20",
+    "akutagawa-rashomon:1.21",
+    "akutagawa-rashomon:1.22",
+    "akutagawa-rashomon:1.23",
+    "akutagawa-rashomon:1.24",
+    "akutagawa-rashomon:1.25",
+    "akutagawa-rashomon:1.26",
+    "akutagawa-rashomon:1.27",
+    "akutagawa-rashomon:1.28",
+    "akutagawa-rashomon:1.29",
+    "akutagawa-rashomon:1.30",
+    "akutagawa-rashomon:1.31",
+    "akutagawa-rashomon:1.32",
+    "akutagawa-rashomon:1.33",
+    "akutagawa-rashomon:1.34",
+    "akutagawa-rashomon:1.35",
+    "akutagawa-rashomon:1.36",
+    "akutagawa-rashomon:1.37"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 9,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "akutagawa-rashomon:1.11",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "恐る恐る as rụt rè, not terrified; 念を押した as hỏi gặng (1.32)."
+    },
+    {
+      "segment": "akutagawa-rashomon:1.16",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Restored それほど (Đến thế đấy) linking his hatred of evil to the burning pine torch; ある日 restored in 1.1."
+    },
+    {
+      "segment": "akutagawa-rashomon:1.4",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "鴟尾 as đuôi cá, avoiding a clash with đao (sword); the kerria-yellow undergarment as vàng tươi (1.9)."
+    },
+    {
+      "segment": "akutagawa-rashomon:1.26",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The old woman’s repetition kept without the double này; calques fixed in 1.4, 1.12, 1.23, 1.27, 1.30; 1.33 hardened."
+    },
+    {
+      "segment": "akutagawa-rashomon:1.24",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "旅の者 as kẻ lỡ đường slightly shades ‘traveller’; acceptable because the servant is lying."
+    }
+  ],
+  "summary": "Full assessment of all 37 Japanese/Vietnamese passages and both titles. The ruined gate in the rain, the dismissed servant’s dilemma, the narrator’s intrusions, the corpses in the tower, the old woman pulling hair, the servant’s shifting hatred, her self-justification, the robbery and the final disappearance are complete and in order, with the dateline. The separate-context pass found no major issue; its thirteen minor findings were revised. All five criteria are 9.0. Unrounded weighted score 9 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "羅生門",
+    "target_title": "Rashōmon",
+    "rationale": "Rashōmon keeps the gate’s Japanese name, matching the body (cổng Rashōmon) and the internationally known title; the Sino-Vietnamese La Sinh Môn used in some older editions is not adopted."
+  }
+}
