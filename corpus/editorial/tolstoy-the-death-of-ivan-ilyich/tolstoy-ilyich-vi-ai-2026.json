@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "work_id": "tolstoy-the-death-of-ivan-ilyich",
+  "edition_id": "tolstoy-ilyich-vi-ai-2026",
+  "source_edition_id": "tolstoy-ilyich-ru-ss12-1984",
+  "title_vi": "Cái chết của Ivan Ilyich",
+  "translation_direction": "ru → vi; direct from the specifically identified complete Russian electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Repetition",
+      "decision": "Tolstoy’s deliberate repetitions and anaphora are kept rather than varied for elegance.",
+      "rationale": "The relentless plain syntax is the novella’s voice."
+    },
+    {
+      "topic": "French and Latin",
+      "decision": "Tolstoy’s French and Latin phrases (le phénix de la famille, respice finem, comme il faut, établissement) stay untranslated, as in the original; the 1984 edition’s editorial footnotes are not reproduced.",
+      "rationale": "The foreign phrases mark the class register Tolstoy satirises."
+    },
+    {
+      "topic": "Pronouns",
+      "decision": "Ivan Ilyich is anh in chapter II before his marriage and ông afterwards; Praskovya Fyodorovna nàng then bà; husband and wife use tôi/anh, with em in tender moments.",
+      "rationale": "Register tracks the marriage."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-tolstoy-the-death-of-ivan-ilyich",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "tolstoy-the-death-of-ivan-ilyich:2.1",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The key sentence on the ‘most simple and ordinary and most terrible’ life restored to Tolstoy’s grouping."
+        },
+        {
+          "segment": "tolstoy-the-death-of-ivan-ilyich:1.18",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Garbled doubled appositive in the funeral chapter recast; 106, 122, 173 and 317 smoothed."
+        },
+        {
+          "segment": "tolstoy-the-death-of-ivan-ilyich:1.36",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "встряхнулась, установившуюся было, the doctor’s neutral этого доктора, and the cause clause in 225 corrected."
+        },
+        {
+          "segment": "tolstoy-the-death-of-ivan-ilyich:4.5",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Cross-part consistency: the doctor’s address, обед/ужин (bữa chiều / bữa ăn khuya), роббер, сцены, Gerasim’s pronoun cậu, đi-văng and quotation punctuation unified."
+        },
+        {
+          "segment": "tolstoy-the-death-of-ivan-ilyich:7.34",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Gerasim’s switch to ты is now audible in his line."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "легко, приятно и прилично",
+      "draft_rendering": "nhẹ nhàng, dễ chịu và đứng đắn",
+      "alternatives": [],
+      "rationale": "Tolstoy’s ironic formula is rendered identically wherever it recurs, singly or together; прилично/приличие is always đứng đắn.",
+      "passages": [
+        "tolstoy-the-death-of-ivan-ilyich:2.4",
+        "tolstoy-the-death-of-ivan-ilyich:2.20",
+        "tolstoy-the-death-of-ivan-ilyich:3.22"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Она (the pain, death); не то; черный мешок",
+      "draft_rendering": "Nó; Không phải thế; cái bao đen",
+      "alternatives": [],
+      "rationale": "The personified pain is capitalised Nó once it ‘comes and stands before him’; the key words of the final chapters are fixed.",
+      "passages": [
+        "tolstoy-the-death-of-ivan-ilyich:6.8",
+        "tolstoy-the-death-of-ivan-ilyich:11.11",
+        "tolstoy-the-death-of-ivan-ilyich:12.3"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "прости / пропусти; Кончена смерть",
+      "draft_rendering": "tha cho / cho qua; Hết rồi cái chết. Nó không còn nữa.",
+      "alternatives": [],
+      "rationale": "The near-homophone slip and the final reversal are kept.",
+      "passages": [
+        "tolstoy-the-death-of-ivan-ilyich:12.9",
+        "tolstoy-the-death-of-ivan-ilyich:12.19"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Gerasim’s address",
+      "draft_rendering": "Gerasim: con / ông chủ; Ivan Ilyich: cậu",
+      "alternatives": [],
+      "rationale": "Peasant deference and the master’s familiarity; Gerasim’s switch to ты is shown by dropping the deferential pronoun.",
+      "passages": [
+        "tolstoy-the-death-of-ivan-ilyich:7.13",
+        "tolstoy-the-death-of-ivan-ilyich:7.34",
+        "tolstoy-the-death-of-ivan-ilyich:7.35"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Russian Wikisource page «Смерть Ивана Ильича (Толстой)» (revision 5726104), transcribed from az.lib.ru in modern orthography and marked 75% (proofread) quality; its commentary identifies the base as Л. Н. Толстой, Собрание сочинений в 12 томах, т. 11 (Москва: Правда, 1984). First published in Сочинения гр. Л. Н. Толстого, ч. 12 (Москва, 1886); not collated with a print facsimile.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "637a4b7786d1b4e6b40d226290f4cd81236e02f76d78425f7c796453a57aefb4",
+  "target_sha256": "de0677d8ff672bb9d8276165a9048bc729782a5143040fc71618284142355607",
+  "coverage": {
+    "canonical_passages": 367,
+    "translated_passages": 367,
+    "aligned_passages": 367
+  },
+  "ai_review_record": "corpus/reviews/tolstoy-the-death-of-ivan-ilyich/tolstoy-ilyich-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "tolstoy-the-death-of-ivan-ilyich:8.62",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "«ничто не тяжело, ничто не легче» is compressed."
+    }
+  ],
+  "title_review": {
+    "source_title": "Смерть Ивана Ильича",
+    "target_title": "Cái chết của Ivan Ilyich",
+    "rationale": "Cái chết của Ivan Ilyich is the established Vietnamese title and matches the body’s cái chết for смерть."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "tolstoy-the-death-of-ivan-ilyich:2.1"
+      ],
+      "assessment": "Opening of chapter II keeps its three superlatives."
+    },
+    {
+      "passages": [
+        "tolstoy-the-death-of-ivan-ilyich:12.18",
+        "tolstoy-the-death-of-ivan-ilyich:12.19",
+        "tolstoy-the-death-of-ivan-ilyich:12.20"
+      ],
+      "assessment": "Ending keeps «Кончена смерть… Ее нет больше» and the dateline."
+    }
+  ]
+}

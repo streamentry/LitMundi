@@ -1,0 +1,2944 @@
+{
+  "schema_version": 1,
+  "work_id": "tolstoy-the-death-of-ivan-ilyich",
+  "edition_id": "tolstoy-ilyich-vi-ai-2026",
+  "source_edition_id": "tolstoy-ilyich-ru-ss12-1984",
+  "links": [
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.21"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.22"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.22"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.23"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.23"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.24"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.24"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.25"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.25"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.26"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.26"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.27"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.27"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.28"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.28"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.29"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.29"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.30"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.30"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.31"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.31"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.32"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.32"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.33"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.33"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.34"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.34"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.35"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.35"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.36"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.36"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.37"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.37"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.38"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.38"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.39"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.39"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.40"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.40"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.41"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.41"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.42"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.42"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.43"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.43"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.44"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.44"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.45"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.45"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.46"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.46"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.47"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.47"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.48"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.48"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.49"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.49"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.50"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.50"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.51"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.51"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.52"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.52"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.53"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.53"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.54"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.54"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:1.55"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:1.55"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.21"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.22"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.22"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.23"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.23"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.24"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.24"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.25"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.25"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.26"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.26"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.27"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.27"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.28"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.28"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.29"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.29"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.30"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.30"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:2.31"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:2.31"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.21"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.22"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.22"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.23"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.23"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.24"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.24"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:3.25"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:3.25"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.21"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.22"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.22"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.23"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.23"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.24"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.24"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.25"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.25"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.26"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.26"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.27"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.27"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.28"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.28"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.29"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.29"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.30"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.30"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:4.31"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:4.31"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.21"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.22"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.22"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.23"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.23"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.24"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.24"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.25"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.25"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.26"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.26"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.27"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.27"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.28"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.28"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.29"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.29"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.30"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.30"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.31"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.31"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:5.32"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:5.32"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:6.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:6.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.21"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.22"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.22"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.23"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.23"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.24"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.24"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.25"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.25"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.26"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.26"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.27"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.27"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.28"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.28"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.29"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.29"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.30"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.30"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.31"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.31"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.32"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.32"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.33"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.33"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.34"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.34"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.35"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.35"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:7.36"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:7.36"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.21"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.22"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.22"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.23"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.23"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.24"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.24"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.25"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.25"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.26"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.26"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.27"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.27"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.28"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.28"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.29"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.29"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.30"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.30"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.31"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.31"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.32"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.32"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.33"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.33"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.34"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.34"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.35"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.35"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.36"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.36"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.37"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.37"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.38"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.38"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.39"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.39"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.40"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.40"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.41"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.41"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.42"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.42"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.43"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.43"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.44"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.44"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.45"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.45"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.46"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.46"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.47"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.47"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.48"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.48"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.49"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.49"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.50"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.50"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.51"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.51"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.52"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.52"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.53"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.53"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.54"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.54"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.55"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.55"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.56"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.56"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.57"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.57"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.58"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.58"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.59"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.59"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.60"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.60"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.61"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.61"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.62"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.62"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.63"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.63"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:8.64"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:8.64"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.21"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.22"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.22"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.23"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.23"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:9.24"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:9.24"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:10.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:10.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:10.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:10.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:10.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:10.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:10.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:10.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:10.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:10.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:10.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:10.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.21"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.22"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.22"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.23"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.23"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.24"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.24"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.25"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.25"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.26"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.26"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.27"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.27"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:11.28"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:11.28"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.1"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.1"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.2"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.2"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.3"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.3"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.4"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.4"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.5"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.5"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.6"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.6"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.7"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.7"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.8"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.8"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.9"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.9"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.10"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.10"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.11"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.11"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.12"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.12"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.13"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.13"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.14"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.14"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.15"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.15"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.16"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.16"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.17"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.17"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.18"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.18"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.19"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.19"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.20"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.20"
+      ]
+    },
+    {
+      "source": [
+        "tolstoy-the-death-of-ivan-ilyich:12.21"
+      ],
+      "target": [
+        "tolstoy-the-death-of-ivan-ilyich:12.21"
+      ]
+    }
+  ]
+}

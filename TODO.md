@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 29 published · 245 todo · 0 in progress · 226 on hold.**
+**500 selected works · 30 published · 244 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -43,7 +43,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **025. Gustave Flaubert — Un cœur simple** · fr · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/12065) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/flaubert-un-cur-simple/flaubert-coeur-vi-ai-2026/)
 - [x] **026. Nikolai Gogol — The Overcoat** · ru · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/36238) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/gogol-the-overcoat/gogol-shinel-vi-ai-2026/)
 - [x] **027. Ryunosuke Akutagawa — Hell Screen** · ja · short story · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/akutagawa-hell-screen/akutagawa-jigoku-vi-ai-2026/)
-- [ ] **028. Leo Tolstoy — The Death of Ivan Ilyich** · ru · novella · **Todo** · [Evidence](https://openlibrary.org/works/OL35297256W)
+- [x] **028. Leo Tolstoy — The Death of Ivan Ilyich** · ru · novella · **Published** · [Evidence](https://openlibrary.org/works/OL35297256W) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/tolstoy-the-death-of-ivan-ilyich/tolstoy-ilyich-vi-ai-2026/)
 - [ ] **029. Ichiyo Higuchi — Takekurabe / Growing Up** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person64.html)
 - [x] **030. Edgar Allan Poe — The Fall of the House of Usher** · en · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/2148) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/poe-the-fall-of-the-house-of-usher/poe-usher-vi-ai-2026/)
 - [x] **031. Herman Melville — Bartleby, the Scrivener** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/11231) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/melville-bartleby-the-scrivener/melville-bartleby-vi-ai-2026/)

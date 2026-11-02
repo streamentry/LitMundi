@@ -478,5 +478,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Смерть Ивана Ильича",
+    "author": "Leo Tolstoy",
+    "author_death_year": 1910,
+    "first_published_year": 1886,
+    "original_language": "ru",
+    "genre": "novella",
+    "description": "A successful judge whose life has been ‘easy, pleasant and decent’ falls ill after a trivial accident and, dying, discovers that his whole life has been ‘not the right thing’.",
+    "id": "tolstoy-the-death-of-ivan-ilyich",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
