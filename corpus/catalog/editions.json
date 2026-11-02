@@ -1641,5 +1641,130 @@
       "human_contributors": [],
       "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
+  },
+  {
+    "id": "andersen-pige-da-eventyr-1900",
+    "work_id": "andersen-little-match-girl",
+    "language": "da",
+    "title": "Den lille Pige med Svovlstikkerne",
+    "kind": "source",
+    "status": "published",
+    "label": "Den lille Pige med Svovlstikkerne · Dansk, Eventyr II (Det Nordiske Forlag 1900)",
+    "content_path": "corpus/segments/andersen-little-match-girl/andersen-pige-da-eventyr-1900.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "H. C. Andersen, “Den lille Pige med Svovlstikkerne”, Eventyr, vol. 2, illustrated by Hans Tegner, introduction by Georg Brandes (København: Det Nordiske Forlag, E. Bojesen, 1900), pp. 169–173. Internet Archive scan eventyr02ande. First published December 1845.",
+      "catalog_url": "https://archive.org/details/eventyr02ande",
+      "text_url": "https://archive.org/download/eventyr02ande/eventyr02ande_djvu.txt",
+      "retrieved_at": "2026-11-02",
+      "source_witness": "Printed pp. 169–173 (scan leaves 174–180, including the title page and a full-page plate) of the 1900 Det Nordiske Forlag edition; AI-assisted transcription from the page images checked against the Internet Archive OCR. No claim of a newly inspected physical copy."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Hans Christian Andersen text)",
+      "basis": "Term-based assessment on 2026-11-02. Andersen died in 1875; the Danish/EU life-plus-70 and Vietnam’s life-plus-50 terms have long expired. The tale (1845) and the selected 1900 witness are beyond the US 95-year maximum. Only Andersen’s text is reused; Hans Tegner’s illustrations (Tegner died 1932) and Georg Brandes’s introduction are excluded, and the edition’s spelling modernisation is treated as non-creative. This is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "DK",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://archive.org/details/eventyr02ande",
+        "https://archive.org/download/eventyr02ande/eventyr02ande_djvu.txt",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Hans Christian Andersen",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://archive.org/download/eventyr02ande/eventyr02ande_djvu.txt",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/andersen-pige-da-eventyr-1900.json"
+      ],
+      "notes": "AI-assisted transcription of all 9 paragraphs from the page images, re-read against the images and compared with the Internet Archive OCR. Source-check metadata records exact hashes, witness boundaries, normalization and limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "andersen-pige-vi-ai-2026",
+    "work_id": "andersen-little-match-girl",
+    "language": "vi",
+    "title": "Cô bé bán diêm",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/andersen-little-match-girl/andersen-pige-vi-ai-2026.json",
+    "source_edition_id": "andersen-pige-da-eventyr-1900",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified Danish source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-02",
+      "source_witness": "andersen-pige-da-eventyr-1900"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "DK",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/consumer-terms",
+        "https://archive.org/details/eventyr02ande",
+        "https://archive.org/download/eventyr02ande/eventyr02ande_djvu.txt",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0116",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Hans Christian Andersen",
+      "translator": "LitMundi AI translation (Claude)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.93,
+      "record_paths": [
+        "corpus/reviews/andersen-little-match-girl/andersen-pige-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/andersen-little-match-girl/andersen-pige-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "notes": "Complete AI literary assessment: unrounded weighted score 8.925/10, threshold 8.6. All 9 source/target passages and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment is disclosed; an independent-context AI pass from the same model family supplied findings, which is not human certification or model diversity. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "Claude Opus 5.5 (Anthropic) — AI translation, literary revision and assessment"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
   }
 ]

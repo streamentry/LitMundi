@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "work_id": "andersen-little-match-girl",
+  "segment_ids": [
+    "andersen-little-match-girl:1.1",
+    "andersen-little-match-girl:1.2",
+    "andersen-little-match-girl:1.3",
+    "andersen-little-match-girl:1.4",
+    "andersen-little-match-girl:1.5",
+    "andersen-little-match-girl:1.6",
+    "andersen-little-match-girl:1.7",
+    "andersen-little-match-girl:1.8",
+    "andersen-little-match-girl:1.9"
+  ],
+  "deprecated_ids": {},
+  "notes": "Canonical units follow every printed paragraph of the selected 1900 witness. The title is edition metadata; the title-page caption, running heads, page numbers, signatures and illustrations are excluded. Passage IDs are immutable and may not be reassigned."
+}

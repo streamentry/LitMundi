@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "work_id": "andersen-little-match-girl",
+  "edition_id": "andersen-pige-vi-ai-2026",
+  "source_edition_id": "andersen-pige-da-eventyr-1900",
+  "links": [
+    {
+      "source": [
+        "andersen-little-match-girl:1.1"
+      ],
+      "target": [
+        "andersen-little-match-girl:1.1"
+      ]
+    },
+    {
+      "source": [
+        "andersen-little-match-girl:1.2"
+      ],
+      "target": [
+        "andersen-little-match-girl:1.2"
+      ]
+    },
+    {
+      "source": [
+        "andersen-little-match-girl:1.3"
+      ],
+      "target": [
+        "andersen-little-match-girl:1.3"
+      ]
+    },
+    {
+      "source": [
+        "andersen-little-match-girl:1.4"
+      ],
+      "target": [
+        "andersen-little-match-girl:1.4"
+      ]
+    },
+    {
+      "source": [
+        "andersen-little-match-girl:1.5"
+      ],
+      "target": [
+        "andersen-little-match-girl:1.5"
+      ]
+    },
+    {
+      "source": [
+        "andersen-little-match-girl:1.6"
+      ],
+      "target": [
+        "andersen-little-match-girl:1.6"
+      ]
+    },
+    {
+      "source": [
+        "andersen-little-match-girl:1.7"
+      ],
+      "target": [
+        "andersen-little-match-girl:1.7"
+      ]
+    },
+    {
+      "source": [
+        "andersen-little-match-girl:1.8"
+      ],
+      "target": [
+        "andersen-little-match-girl:1.8"
+      ]
+    },
+    {
+      "source": [
+        "andersen-little-match-girl:1.9"
+      ],
+      "target": [
+        "andersen-little-match-girl:1.9"
+      ]
+    }
+  ]
+}

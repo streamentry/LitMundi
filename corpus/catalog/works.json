@@ -193,5 +193,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "id": "andersen-little-match-girl",
+    "title": "Den lille Pige med Svovlstikkerne",
+    "author": "Hans Christian Andersen",
+    "author_death_year": 1875,
+    "first_published_year": 1845,
+    "original_language": "da",
+    "genre": "short_story",
+    "description": "A barefoot girl who has sold no matches lights them one by one on New Year’s Eve and sees warmth, a feast, a Christmas tree and her grandmother, in Andersen’s brief tale of poverty and vision.",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Several Vietnamese translations under the title Cô bé bán diêm are widely known; their sources, completeness and reuse status were not audited here. No absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

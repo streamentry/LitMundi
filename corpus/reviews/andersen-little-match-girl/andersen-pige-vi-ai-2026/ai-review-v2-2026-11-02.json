@@ -1,0 +1,117 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "andersen-pige-vi-ai-2026",
+  "source_edition_id": "andersen-pige-da-eventyr-1900",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Danish-to-Vietnamese comparison of all 9 canonical passages and both titles. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 1 major and 12 minor findings with a pre-revision weighted score of 8.475; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then obtained a second fresh separate-context assessment of the revised text (8.925, minor findings only), applied its fixes, and assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "a1b742b448e137d1c876b68325d377a2ec69872722d2856865979034dadc11c9",
+  "target_sha256": "2e0185b1624060fe0435480df0b56794e604aeb689b5e80b8b2dbb1af1f8b12a",
+  "segments_reviewed": [
+    "andersen-little-match-girl:1.1",
+    "andersen-little-match-girl:1.2",
+    "andersen-little-match-girl:1.3",
+    "andersen-little-match-girl:1.4",
+    "andersen-little-match-girl:1.5",
+    "andersen-little-match-girl:1.6",
+    "andersen-little-match-girl:1.7",
+    "andersen-little-match-girl:1.8",
+    "andersen-little-match-girl:1.9"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "andersen-little-match-girl:1.6",
+      "category": "imagery_consistency",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "Andersen’s recurring gamle Mormor had been flattened to bà three times; now bà ngoại già / bà ngoại throughout, with Bà ơi! kept for the cry."
+    },
+    {
+      "segment": "andersen-little-match-girl:1.9",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The bystanders’ Hun har villet varme sig is flat and inferential: Chắc nó định sưởi cho ấm, người ta bảo — without an added exclamation."
+    },
+    {
+      "segment": "andersen-little-match-girl:1.3",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "næsten ganske døde af Kulde keeps død (gần như đã chết vì rét), anticipating 1.9; the parallel hvor sprudede den, hvor brændte den restored."
+    },
+    {
+      "segment": "andersen-little-match-girl:1.1",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The mother had worn the slippers most recently, not ‘for the last time’; the boy’s selv restored."
+    },
+    {
+      "segment": "andersen-little-match-girl:1.6",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Nu dør der en is present: Có ai đang chết đấy!"
+    },
+    {
+      "segment": "andersen-little-match-girl:1.7",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Glans rendered as hào quang throughout; velsignet as warmth rather than religious blessing; bà ẵm cô bé; hai bà cháu đã ở bên Chúa."
+    },
+    {
+      "segment": "andersen-little-match-girl:1.2",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "forkuet as cowed (rụt rè, khổ sở)."
+    },
+    {
+      "segment": "andersen-little-match-girl:1.3",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Capitalisation after internal ! normalised to Vietnamese convention; Tromle as thân lò."
+    },
+    {
+      "segment": "@title",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Cô bé bán diêm is the established Vietnamese title; the Danish literally says ‘the little girl with the matches’, and bán (selling) is supplied from the story."
+    },
+    {
+      "segment": "andersen-little-match-girl:1.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Second-pass fixes: they lived just under the roof (garret), hands tê dại rather than ‘dead’, varied the repeated sưởi ấm, aligned velsignet in 1.3 and 1.8, holde paa as keeping her there, thi thể for Lig, de mange Julelys as muôn vàn."
+    }
+  ],
+  "summary": "Full assessment of all 9 Danish/Vietnamese passages and both titles. The cold New Year’s Eve, the lost slippers, the unsold matches, the corner between the houses, the four visions (stove, goose, Christmas tree, grandmother), the falling star, the flight to God and the morning discovery with the bystanders’ remark are complete and in order. The first separate-context pass scored the draft 8.475 (below threshold); after revision a second fresh separate-context pass assessed the revised text. Fidelity, voice, imagery and mechanics are 9.0, naturalness 8.5. Unrounded weighted score 8.925 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "Den lille Pige med Svovlstikkerne",
+    "target_title": "Cô bé bán diêm",
+    "rationale": "Cô bé bán diêm is the title by which Vietnamese readers know the tale. It is not literal (the Danish names ‘the little girl with the matches’), but the story shows her selling matches, and the established title avoids presenting a familiar work under an unrecognisable name."
+  }
+}
