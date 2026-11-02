@@ -163,5 +163,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "id": "quiroga-feather-pillow",
+    "title": "El almohadón de pluma",
+    "author": "Horacio Quiroga",
+    "author_death_year": 1937,
+    "first_published_year": 1907,
+    "original_language": "es",
+    "genre": "short_story",
+    "description": "A young bride wastes away in a cold, silent house while doctors find no cause, in a short gothic tale whose explanation lies inside her pillow.",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

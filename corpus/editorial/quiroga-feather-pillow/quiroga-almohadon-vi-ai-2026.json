@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "work_id": "quiroga-feather-pillow",
+  "edition_id": "quiroga-almohadon-vi-ai-2026",
+  "source_edition_id": "quiroga-almohadon-es-1917",
+  "title_vi": "Chiếc gối lông vũ",
+  "translation_direction": "es → vi; direct from the specifically identified complete Spanish electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Suspense",
+      "decision": "No word for parasite, insect or bite-mark appears before passage 1.23; the pillow appears only in 1.18 as something Alicia will not let anyone touch.",
+      "rationale": "Quiroga withholds the explanation until the pillow is cut open."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-queue-009",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "quiroga-feather-pillow:1.20",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "sola ya refers to the now-empty bed, not the maid being alone; corrected to chiếc giường giờ đã trống."
+        },
+        {
+          "segment": "quiroga-feather-pillow:1.27",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "articuló describes words barely forced out by a trembling maid, not clear enunciation: cố thốt lên."
+        },
+        {
+          "segment": "quiroga-feather-pillow:1.16",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "su médico restored as Jordán’s doctor (linking to 1.6); Pst… as a resigned Chậc…"
+        },
+        {
+          "segment": "quiroga-feather-pillow:1.30",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The flat quasi-scientific ending no longer uses colloquial chim chóc / nhỏ xíu; final gối lông vũ echoes the title."
+        },
+        {
+          "segment": "quiroga-feather-pillow:1.1",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "escalofrío now ớn lạnh and heló làm giá buốt, restoring the chill motif."
+        },
+        {
+          "segment": "quiroga-feather-pillow:1.17",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "¡Sólo eso me faltaba! keeps Jordán’s first person: Tôi chỉ còn thiếu mỗi chuyện này nữa thôi!"
+        },
+        {
+          "segment": "quiroga-feather-pillow:1.15",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "desangrándose is being drained, not visible bleeding: kiệt máu dần."
+        },
+        {
+          "segment": "quiroga-feather-pillow:1.28",
+          "category": "editorial_mechanics",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Removed the doubled colon-dash; feathers (lông) and hairy legs (lông lá) distinguished; the pillow is carried to the dining room."
+        },
+        {
+          "segment": "quiroga-feather-pillow:1.19",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Jordán’s muffled steps now echo the carpet that ahogaba them in 1.8."
+        },
+        {
+          "segment": "@title",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Chiếc gối lông became Chiếc gối lông vũ: lông alone can mean fur or hair."
+        },
+        {
+          "segment": "quiroga-feather-pillow:1.3",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Second-pass fixes: the echo clause in 1.3, the parasite sentence in 1.30, and additions removed in 1.1, 1.6, 1.17, 1.18, 1.20 and 1.29."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "escalofrío / estremecimiento",
+      "draft_rendering": "ớn lạnh / rùng mình",
+      "alternatives": [],
+      "rationale": "Keeps the opening chill linked to the cold-house imagery (heló, glacial, frío) while estremecimiento stays rùng mình.",
+      "passages": [
+        "quiroga-feather-pillow:1.1",
+        "quiroga-feather-pillow:1.3"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "almohadón (de pluma) / funda / picadura",
+      "draft_rendering": "chiếc gối (lông vũ) / áo gối / vết đốt",
+      "alternatives": [
+        "gối lông"
+      ],
+      "rationale": "Stable object vocabulary; lông vũ distinguishes feathers from the creature’s hairy legs and echoes the title in the last sentence.",
+      "passages": [
+        "quiroga-feather-pillow:1.18",
+        "quiroga-feather-pillow:1.20",
+        "quiroga-feather-pillow:1.22",
+        "quiroga-feather-pillow:1.23",
+        "quiroga-feather-pillow:1.29",
+        "quiroga-feather-pillow:1.30"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete EL ALMOHADON DE PLUMA section of Cuentos de amor de locura y de muerte (1917) as transcribed in Project Gutenberg #13507. First published in Caras y Caretas, 13 July 1907; that magazine text was not collated. The witness accentuation (fué, dió, aún, El) is retained.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "6643e8f87d443446bd9f43946f3a6e5236e80e2f706c82cd049d2f7f7604f34d",
+  "target_sha256": "e3728254fe6abce9510f716fe9f7c2aa01de9dce8cfef2bb2739c136c7cdb3f9",
+  "coverage": {
+    "canonical_passages": 30,
+    "translated_passages": 30,
+    "aligned_passages": 30
+  },
+  "ai_review_record": "corpus/reviews/quiroga-feather-pillow/quiroga-almohadon-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.975,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "quiroga-feather-pillow:1.28",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The fronted participial clause before con vật quái dị is slightly heavy in Vietnamese; it is kept to preserve Quiroga’s delayed reveal."
+    }
+  ],
+  "title_review": {
+    "source_title": "El almohadón de pluma",
+    "target_title": "Chiếc gối lông vũ",
+    "rationale": "El almohadón de pluma names the feather pillow. Chiếc gối lông vũ is literal, specifies feathers rather than fur or hair, echoes the last sentence of the story and reveals nothing about what is inside."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "quiroga-feather-pillow:1.1",
+        "quiroga-feather-pillow:1.2",
+        "quiroga-feather-pillow:1.3",
+        "quiroga-feather-pillow:1.4",
+        "quiroga-feather-pillow:1.5",
+        "quiroga-feather-pillow:1.6",
+        "quiroga-feather-pillow:1.7",
+        "quiroga-feather-pillow:1.8"
+      ],
+      "assessment": "Compared the honeymoon, the house, the illness, the garden scene, the doctor and the vigil."
+    },
+    {
+      "passages": [
+        "quiroga-feather-pillow:1.9",
+        "quiroga-feather-pillow:1.10",
+        "quiroga-feather-pillow:1.11",
+        "quiroga-feather-pillow:1.12",
+        "quiroga-feather-pillow:1.13",
+        "quiroga-feather-pillow:1.14",
+        "quiroga-feather-pillow:1.15",
+        "quiroga-feather-pillow:1.16",
+        "quiroga-feather-pillow:1.17",
+        "quiroga-feather-pillow:1.18",
+        "quiroga-feather-pillow:1.19"
+      ],
+      "assessment": "Compared the hallucinations, the consultations, the nocturnal decline, the refusal to move the pillow and the final delirium."
+    },
+    {
+      "passages": [
+        "quiroga-feather-pillow:1.20",
+        "quiroga-feather-pillow:1.21",
+        "quiroga-feather-pillow:1.22",
+        "quiroga-feather-pillow:1.23",
+        "quiroga-feather-pillow:1.24",
+        "quiroga-feather-pillow:1.25",
+        "quiroga-feather-pillow:1.26",
+        "quiroga-feather-pillow:1.27",
+        "quiroga-feather-pillow:1.28",
+        "quiroga-feather-pillow:1.29",
+        "quiroga-feather-pillow:1.30"
+      ],
+      "assessment": "Compared the empty bed, the stains, the weight, the cut pillow, the creature, the explanation and the closing note."
+    }
+  ]
+}
