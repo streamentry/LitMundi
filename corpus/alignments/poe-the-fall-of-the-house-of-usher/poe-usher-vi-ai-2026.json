@@ -1,0 +1,416 @@
+{
+  "schema_version": 1,
+  "work_id": "poe-the-fall-of-the-house-of-usher",
+  "edition_id": "poe-usher-vi-ai-2026",
+  "source_edition_id": "poe-usher-en-raven-1903",
+  "links": [
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.1"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.1"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.2"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.2"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.3"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.3"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.4"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.4"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.5"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.5"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.6"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.6"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.7"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.7"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.8"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.8"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.9"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.9"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.10"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.10"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.11"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.11"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.12"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.12"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.13"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.13"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.14"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.14"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.15"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.15"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.16"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.16"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.17"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.17"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.18"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.18"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.19"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.19"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.20"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.20"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.21"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.21"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.22"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.22"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.23"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.23"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.24"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.24"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.25"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.25"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.26"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.26"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.27"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.27"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.28"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.28"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.29"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.29"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.30"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.30"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.31"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.31"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.32"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.32"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.33"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.33"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.34"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.34"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.35"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.35"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.36"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.36"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.37"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.37"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.38"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.38"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.39"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.39"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.40"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.40"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.41"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.41"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.42"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.42"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.43"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.43"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.44"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.44"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.45"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.45"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.46"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.46"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.47"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.47"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.48"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.48"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.49"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.49"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.50"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.50"
+      ]
+    },
+    {
+      "source": [
+        "poe-the-fall-of-the-house-of-usher:1.51"
+      ],
+      "target": [
+        "poe-the-fall-of-the-house-of-usher:1.51"
+      ]
+    }
+  ]
+}

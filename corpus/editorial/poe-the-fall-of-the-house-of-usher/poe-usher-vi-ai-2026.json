@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "work_id": "poe-the-fall-of-the-house-of-usher",
+  "edition_id": "poe-usher-vi-ai-2026",
+  "source_edition_id": "poe-usher-en-raven-1903",
+  "title_vi": "Sự sụp đổ của Nhà Usher",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Epigraph",
+      "decision": "Béranger’s French epigraph is kept untranslated, as an epigraph.",
+      "rationale": "Poe quotes it in French."
+    },
+    {
+      "topic": "Verse",
+      "decision": "Line breaks of the poem and the shield legend are preserved as separate lines; stanzas rhyme in alternating patterns with short refrain lines kept short.",
+      "rationale": "Poe’s allegory of the mind’s decay depends on the poem being read as a poem."
+    },
+    {
+      "topic": "Echoes",
+      "decision": "The sounds of the Mad Trist and their real echoes share fixed words (nghiến rít, tiếng thét, loảng xoảng, xé toạc).",
+      "rationale": "The climax depends on the reader hearing the correspondences."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-poe-the-fall-of-the-house-of-usher",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "poe-the-fall-of-the-house-of-usher:1.2",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "House of Usher rendered Lâu đài (building only) in 1.2 and 1.17 but Nhà in 1.4 and 1.51, breaking the family/mansion double meaning; now Nhà Usher throughout."
+        },
+        {
+          "segment": "poe-the-fall-of-the-house-of-usher:1.49",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The ‘hollow coffin’ no longer read as empty; ‘say, rather’ correction and the climax lines sharpened."
+        },
+        {
+          "segment": "poe-the-fall-of-the-house-of-usher:1.25",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The final stanza and stanza II restored to rhyme; the shield legend made a rhymed couplet."
+        },
+        {
+          "segment": "poe-the-fall-of-the-house-of-usher:1.17",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘ideality’ as imaginative faculty (trí tưởng tượng) in 1.17 and 1.38; ‘you shall not’ as a prohibition; studio, opium-eater, turrets, forest and restrained hysteria corrected; several calques recast."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "House of Usher",
+      "draft_rendering": "Nhà Usher (the mansion itself: dinh thự)",
+      "alternatives": [
+        "Lâu đài Usher",
+        "Dòng họ Usher"
+      ],
+      "rationale": "Capitalised Nhà carries both the family and the building, as Poe’s unit 4 explains, so the final sentence keeps its double meaning.",
+      "passages": [
+        "poe-the-fall-of-the-house-of-usher:1.2",
+        "poe-the-fall-of-the-house-of-usher:1.4",
+        "poe-the-fall-of-the-house-of-usher:1.17",
+        "poe-the-fall-of-the-house-of-usher:1.51"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "tarn; fissure; sentience of vegetable things",
+      "draft_rendering": "hồ đầm; vết nứt; tri giác của mọi loài thảo mộc",
+      "alternatives": [],
+      "rationale": "Fixed atmospheric terms that recur from the opening to the collapse.",
+      "passages": [
+        "poe-the-fall-of-the-house-of-usher:1.2",
+        "poe-the-fall-of-the-house-of-usher:1.6",
+        "poe-the-fall-of-the-house-of-usher:1.27",
+        "poe-the-fall-of-the-house-of-usher:1.51"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "The Haunted Palace; Mad Trist",
+      "draft_rendering": "Cung điện ma ám; Cuộc hẹn hò điên loạn",
+      "alternatives": [],
+      "rationale": "The poem is rendered as rhymed Vietnamese verse with its stanza numerals and line breaks; the romance quotations use a pseudo-archaic register distinct from the narrator.",
+      "passages": [
+        "poe-the-fall-of-the-house-of-usher:1.19",
+        "poe-the-fall-of-the-house-of-usher:1.20",
+        "poe-the-fall-of-the-house-of-usher:1.25",
+        "poe-the-fall-of-the-house-of-usher:1.40",
+        "poe-the-fall-of-the-house-of-usher:1.43"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete THE FALL OF THE HOUSE OF USHER section of The Works of Edgar Allan Poe, Raven Edition, vol. 2, as transcribed in Project Gutenberg #2148. First published in Burton’s Gentleman’s Magazine, September 1839; not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "26305514118a7c34d6f5a7f0ff84591276389b26cb1c64fd85e431a56d2b3831",
+  "target_sha256": "85fb759e77b056912d54505af579d8b128e58c6e5afe0a25e9dbbea2939ae254",
+  "coverage": {
+    "canonical_passages": 51,
+    "translated_passages": 51,
+    "aligned_passages": 51
+  },
+  "ai_review_record": "corpus/reviews/poe-the-fall-of-the-house-of-usher/poe-usher-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "poe-the-fall-of-the-house-of-usher:1.26",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The source’s comma before a parenthesis is copied as printed."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Fall of the House of Usher",
+    "target_title": "Sự sụp đổ của Nhà Usher",
+    "rationale": "Sự sụp đổ của Nhà Usher: capitalised Nhà keeps both the dynasty and the building, matching the final sentence; Lâu đài would name only the building."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "poe-the-fall-of-the-house-of-usher:1.1"
+      ],
+      "assessment": "French epigraph kept as printed."
+    },
+    {
+      "passages": [
+        "poe-the-fall-of-the-house-of-usher:1.20",
+        "poe-the-fall-of-the-house-of-usher:1.21",
+        "poe-the-fall-of-the-house-of-usher:1.22",
+        "poe-the-fall-of-the-house-of-usher:1.23",
+        "poe-the-fall-of-the-house-of-usher:1.24",
+        "poe-the-fall-of-the-house-of-usher:1.25"
+      ],
+      "assessment": "The poem rendered as rhymed verse with its allegory intact."
+    },
+    {
+      "passages": [
+        "poe-the-fall-of-the-house-of-usher:1.51"
+      ],
+      "assessment": "Final sentence keeps Poe’s chain of dashes and the double sense of the quoted “Nhà Usher”."
+    }
+  ]
+}

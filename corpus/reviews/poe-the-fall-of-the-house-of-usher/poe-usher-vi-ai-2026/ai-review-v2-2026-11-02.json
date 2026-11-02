@@ -1,0 +1,124 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "poe-usher-vi-ai-2026",
+  "source_edition_id": "poe-usher-en-raven-1903",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct English-to-Vietnamese comparison of all 51 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 1 major and 18 minor findings with a pre-revision weighted score of 8.775; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then obtained a second fresh separate-context assessment of the revised text (8.925, no major findings), applied its fixes, and assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "26305514118a7c34d6f5a7f0ff84591276389b26cb1c64fd85e431a56d2b3831",
+  "target_sha256": "85fb759e77b056912d54505af579d8b128e58c6e5afe0a25e9dbbea2939ae254",
+  "segments_reviewed": [
+    "poe-the-fall-of-the-house-of-usher:1.1",
+    "poe-the-fall-of-the-house-of-usher:1.2",
+    "poe-the-fall-of-the-house-of-usher:1.3",
+    "poe-the-fall-of-the-house-of-usher:1.4",
+    "poe-the-fall-of-the-house-of-usher:1.5",
+    "poe-the-fall-of-the-house-of-usher:1.6",
+    "poe-the-fall-of-the-house-of-usher:1.7",
+    "poe-the-fall-of-the-house-of-usher:1.8",
+    "poe-the-fall-of-the-house-of-usher:1.9",
+    "poe-the-fall-of-the-house-of-usher:1.10",
+    "poe-the-fall-of-the-house-of-usher:1.11",
+    "poe-the-fall-of-the-house-of-usher:1.12",
+    "poe-the-fall-of-the-house-of-usher:1.13",
+    "poe-the-fall-of-the-house-of-usher:1.14",
+    "poe-the-fall-of-the-house-of-usher:1.15",
+    "poe-the-fall-of-the-house-of-usher:1.16",
+    "poe-the-fall-of-the-house-of-usher:1.17",
+    "poe-the-fall-of-the-house-of-usher:1.18",
+    "poe-the-fall-of-the-house-of-usher:1.19",
+    "poe-the-fall-of-the-house-of-usher:1.20",
+    "poe-the-fall-of-the-house-of-usher:1.21",
+    "poe-the-fall-of-the-house-of-usher:1.22",
+    "poe-the-fall-of-the-house-of-usher:1.23",
+    "poe-the-fall-of-the-house-of-usher:1.24",
+    "poe-the-fall-of-the-house-of-usher:1.25",
+    "poe-the-fall-of-the-house-of-usher:1.26",
+    "poe-the-fall-of-the-house-of-usher:1.27",
+    "poe-the-fall-of-the-house-of-usher:1.28",
+    "poe-the-fall-of-the-house-of-usher:1.29",
+    "poe-the-fall-of-the-house-of-usher:1.30",
+    "poe-the-fall-of-the-house-of-usher:1.31",
+    "poe-the-fall-of-the-house-of-usher:1.32",
+    "poe-the-fall-of-the-house-of-usher:1.33",
+    "poe-the-fall-of-the-house-of-usher:1.34",
+    "poe-the-fall-of-the-house-of-usher:1.35",
+    "poe-the-fall-of-the-house-of-usher:1.36",
+    "poe-the-fall-of-the-house-of-usher:1.37",
+    "poe-the-fall-of-the-house-of-usher:1.38",
+    "poe-the-fall-of-the-house-of-usher:1.39",
+    "poe-the-fall-of-the-house-of-usher:1.40",
+    "poe-the-fall-of-the-house-of-usher:1.41",
+    "poe-the-fall-of-the-house-of-usher:1.42",
+    "poe-the-fall-of-the-house-of-usher:1.43",
+    "poe-the-fall-of-the-house-of-usher:1.44",
+    "poe-the-fall-of-the-house-of-usher:1.45",
+    "poe-the-fall-of-the-house-of-usher:1.46",
+    "poe-the-fall-of-the-house-of-usher:1.47",
+    "poe-the-fall-of-the-house-of-usher:1.48",
+    "poe-the-fall-of-the-house-of-usher:1.49",
+    "poe-the-fall-of-the-house-of-usher:1.50",
+    "poe-the-fall-of-the-house-of-usher:1.51"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "poe-the-fall-of-the-house-of-usher:1.2",
+      "category": "imagery_consistency",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "House of Usher rendered Lâu đài (building only) in 1.2 and 1.17 but Nhà in 1.4 and 1.51, breaking the family/mansion double meaning; now Nhà Usher throughout."
+    },
+    {
+      "segment": "poe-the-fall-of-the-house-of-usher:1.49",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The ‘hollow coffin’ no longer read as empty; ‘say, rather’ correction and the climax lines sharpened."
+    },
+    {
+      "segment": "poe-the-fall-of-the-house-of-usher:1.25",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The final stanza and stanza II restored to rhyme; the shield legend made a rhymed couplet."
+    },
+    {
+      "segment": "poe-the-fall-of-the-house-of-usher:1.17",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "‘ideality’ as imaginative faculty (trí tưởng tượng) in 1.17 and 1.38; ‘you shall not’ as a prohibition; studio, opium-eater, turrets, forest and restrained hysteria corrected; several calques recast."
+    },
+    {
+      "segment": "poe-the-fall-of-the-house-of-usher:1.26",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The source’s comma before a parenthesis is copied as printed."
+    }
+  ],
+  "summary": "Full assessment of all 51 English/Vietnamese passages, including the epigraph, the six stanzas of “The Haunted Palace”, the Mad Trist quotations and both titles. The approach to the house, Roderick and Madeline, the poem, the entombment, the reading of the Mad Trist and the collapse into the tarn are complete, with Poe’s periodic sentences and sound echoes intact. The first separate-context pass scored 8.775 but reported one major finding (the House of Usher rendered two ways, breaking its double meaning) that blocked release; it and the minor findings were revised, and a second fresh separate-context assessment of the revised text found no major issue and scored it 8.925. Fidelity, voice, imagery and mechanics are 9.0, naturalness 8.5. Unrounded weighted score 8.925 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "The Fall of the House of Usher",
+    "target_title": "Sự sụp đổ của Nhà Usher",
+    "rationale": "Sự sụp đổ của Nhà Usher: capitalised Nhà keeps both the dynasty and the building, matching the final sentence; Lâu đài would name only the building."
+  }
+}

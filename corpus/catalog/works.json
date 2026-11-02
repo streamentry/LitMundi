@@ -463,5 +463,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Fall of the House of Usher",
+    "author": "Edgar Allan Poe",
+    "author_death_year": 1849,
+    "first_published_year": 1839,
+    "original_language": "en",
+    "genre": "short_story",
+    "description": "Summoned by a boyhood friend, the narrator spends days in the decaying mansion of Roderick Usher and his cataleptic sister Madeline, until house and family fall together into the tarn.",
+    "id": "poe-the-fall-of-the-house-of-usher",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
