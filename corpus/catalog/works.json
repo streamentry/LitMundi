@@ -268,5 +268,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "কাবুলিওয়ালা",
+    "author": "Rabindranath Tagore",
+    "author_death_year": 1941,
+    "first_published_year": 1892,
+    "original_language": "bn",
+    "genre": "short_story",
+    "description": "A Calcutta writer watches his small daughter befriend an Afghan dried-fruit seller, who is jailed and returns years later on her wedding day, in Tagore’s story of two fathers.",
+    "id": "tagore-kabuliwala",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

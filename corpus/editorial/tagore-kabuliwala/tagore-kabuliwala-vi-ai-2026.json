@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "work_id": "tagore-kabuliwala",
+  "edition_id": "tagore-kabuliwala-vi-ai-2026",
+  "source_edition_id": "tagore-kabuliwala-bn-visvabharati-1951",
+  "title_vi": "Người Kabul",
+  "translation_direction": "bn → vi; direct from the specifically identified complete Bengali electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Rahamat’s speech",
+      "decision": "Light, systematic foreign marking (Babu, salaam, tui, small grammatical slips) in his early speech; standard tôi after prison (1.51–1.60), as Tagore’s Bengali becomes more standard there.",
+      "rationale": "Signals a foreigner without caricature or in-text explanation."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-tagore-kabuliwala",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "tagore-kabuliwala:1.39",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The শ্বশুরবাড়ি jail euphemism was lost; Rahamat, arrested with tied hands, now answers “Thì đang đi nhà chồng đây nè!”, letting the double meaning surface through the scene without an in-text gloss."
+        },
+        {
+          "segment": "tagore-kabuliwala:1.25",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Rahamat’s broken Bengali had been rendered as fluent native Vietnamese; now marked by Babu, salaam, tui and small grammatical slips, with a deliberate shift to tôi after prison."
+        },
+        {
+          "segment": "tagore-kabuliwala:1.40",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "মারিতাম is conditional (‘I would hit him’): Tui đánh bố chồng liền, mà làm sao được — tay bị trói rồi."
+        },
+        {
+          "segment": "tagore-kabuliwala:1.23",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The needless চন্দ্রবিন্দু joke rendered with a needless Vietnamese tilde: “Või!”."
+        },
+        {
+          "segment": "tagore-kabuliwala:1.15",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The sixteen-anna pun is carried in the wording (đáng giá trọn cả đồng rupi mười sáu anna) rather than an explanation."
+        },
+        {
+          "segment": "tagore-kabuliwala:1.68",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "মঙ্গল-আলোক contrasted with the forgone electric lights: thứ ánh sáng của phúc lành."
+        },
+        {
+          "segment": "tagore-kabuliwala:1.50",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The narrator’s curt তুই register restored; other fixes in 1.3, 1.9, 1.12, 1.14, 1.21, 1.24, 1.26, 1.27, 1.29, 1.34, 1.42, 1.43, 1.44, 1.60, 1.63, 1.65."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "শ্বশুরবাড়ি / শ্বশুর",
+      "draft_rendering": "nhà chồng / bố chồng",
+      "alternatives": [
+        "nhà bố chồng"
+      ],
+      "rationale": "The bride’s marital home; Rahamat’s jail euphemism has no Vietnamese slang equivalent, so the arrest scene (1.39–1.40) carries it through his own joke.",
+      "passages": [
+        "tagore-kabuliwala:1.25",
+        "tagore-kabuliwala:1.26",
+        "tagore-kabuliwala:1.27",
+        "tagore-kabuliwala:1.38",
+        "tagore-kabuliwala:1.39",
+        "tagore-kabuliwala:1.40",
+        "tagore-kabuliwala:1.64"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "বাবু / খোখী",
+      "draft_rendering": "Babu / bé",
+      "alternatives": [
+        "ông"
+      ],
+      "rationale": "Rahamat’s foreign address form is kept as Babu; his little girl is bé.",
+      "passages": [
+        "tagore-kabuliwala:1.12",
+        "tagore-kabuliwala:1.57",
+        "tagore-kabuliwala:1.60"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the validated (proofread level 4) Bengali Wikisource transcription of গল্পগুচ্ছ, vol. 1 (Visva-Bharati; new edition 1353 / 1946, scanned reprint 1357), scan pages 188–198. First published in সাধনা, অগ্রহায়ণ 1299 B.S. (1892). The editors’ periodical date after the story is apparatus and is excluded; one missing opening quotation mark in the witness (passage 1.23) is supplied only in the translation.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "a72aac8f078e319d59b180cf9ddd21bc335737c8c0131d4cca7c18eb7a642da2",
+  "target_sha256": "f6be47e4d80c444903b293c587c2d632be1473809a04dcd820ff03abd23701ab",
+  "coverage": {
+    "canonical_passages": 68,
+    "translated_passages": 68,
+    "aligned_passages": 68
+  },
+  "ai_review_record": "corpus/reviews/tagore-kabuliwala/tagore-kabuliwala-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.875,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [],
+  "title_review": {
+    "source_title": "কাবুলিওয়ালা",
+    "target_title": "Người Kabul",
+    "rationale": "Người Kabul names Rahamat as the narrator and the household see him, a man from Kabul; it keeps the body term and avoids the peddler’s trade suffix -wala, which has no neat Vietnamese equivalent."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "tagore-kabuliwala:1.1",
+        "tagore-kabuliwala:1.2",
+        "tagore-kabuliwala:1.3",
+        "tagore-kabuliwala:1.4",
+        "tagore-kabuliwala:1.5",
+        "tagore-kabuliwala:1.6",
+        "tagore-kabuliwala:1.7",
+        "tagore-kabuliwala:1.8",
+        "tagore-kabuliwala:1.9",
+        "tagore-kabuliwala:1.10",
+        "tagore-kabuliwala:1.11",
+        "tagore-kabuliwala:1.12",
+        "tagore-kabuliwala:1.13",
+        "tagore-kabuliwala:1.14",
+        "tagore-kabuliwala:1.15",
+        "tagore-kabuliwala:1.16",
+        "tagore-kabuliwala:1.17",
+        "tagore-kabuliwala:1.18",
+        "tagore-kabuliwala:1.19",
+        "tagore-kabuliwala:1.20",
+        "tagore-kabuliwala:1.21",
+        "tagore-kabuliwala:1.22",
+        "tagore-kabuliwala:1.23",
+        "tagore-kabuliwala:1.24",
+        "tagore-kabuliwala:1.25",
+        "tagore-kabuliwala:1.26",
+        "tagore-kabuliwala:1.27",
+        "tagore-kabuliwala:1.28",
+        "tagore-kabuliwala:1.29",
+        "tagore-kabuliwala:1.30",
+        "tagore-kabuliwala:1.31",
+        "tagore-kabuliwala:1.32",
+        "tagore-kabuliwala:1.33"
+      ],
+      "assessment": "Compared Mini, the first meetings, the bag joke, the half-rupee and the father-in-law jokes."
+    },
+    {
+      "passages": [
+        "tagore-kabuliwala:1.34",
+        "tagore-kabuliwala:1.35",
+        "tagore-kabuliwala:1.36",
+        "tagore-kabuliwala:1.37",
+        "tagore-kabuliwala:1.38",
+        "tagore-kabuliwala:1.39",
+        "tagore-kabuliwala:1.40",
+        "tagore-kabuliwala:1.41",
+        "tagore-kabuliwala:1.42",
+        "tagore-kabuliwala:1.43",
+        "tagore-kabuliwala:1.44",
+        "tagore-kabuliwala:1.45",
+        "tagore-kabuliwala:1.46",
+        "tagore-kabuliwala:1.47"
+      ],
+      "assessment": "Compared the arrest, the years after and the wedding preparations."
+    },
+    {
+      "passages": [
+        "tagore-kabuliwala:1.48",
+        "tagore-kabuliwala:1.49",
+        "tagore-kabuliwala:1.50",
+        "tagore-kabuliwala:1.51",
+        "tagore-kabuliwala:1.52",
+        "tagore-kabuliwala:1.53",
+        "tagore-kabuliwala:1.54",
+        "tagore-kabuliwala:1.55",
+        "tagore-kabuliwala:1.56",
+        "tagore-kabuliwala:1.57",
+        "tagore-kabuliwala:1.58",
+        "tagore-kabuliwala:1.59",
+        "tagore-kabuliwala:1.60",
+        "tagore-kabuliwala:1.61",
+        "tagore-kabuliwala:1.62",
+        "tagore-kabuliwala:1.63",
+        "tagore-kabuliwala:1.64",
+        "tagore-kabuliwala:1.65",
+        "tagore-kabuliwala:1.66",
+        "tagore-kabuliwala:1.67",
+        "tagore-kabuliwala:1.68"
+      ],
+      "assessment": "Compared Rahamat’s return, the handprint, Mini as bride and the gift."
+    }
+  ]
+}
