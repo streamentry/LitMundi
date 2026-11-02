@@ -3002,5 +3002,130 @@
       "human_contributors": [],
       "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
+  },
+  {
+    "id": "akutagawa-yabu-ja-chikuma-1987",
+    "work_id": "akutagawa-in-a-grove",
+    "language": "ja",
+    "title": "藪の中",
+    "kind": "source",
+    "status": "published",
+    "label": "藪の中 · 日本語, ちくま文庫『芥川龍之介全集4』1987（青空文庫）",
+    "content_path": "corpus/segments/akutagawa-in-a-grove/akutagawa-yabu-ja-chikuma-1987.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "芥川龍之介「藪の中」『芥川龍之介全集4』（ちくま文庫、筑摩書房、1987）. Aozora Bunko electronic text, card 179. First published in 新潮, January 1922; dated December 1921 by the author.",
+      "catalog_url": "https://www.aozora.gr.jp/cards/000879/card179.html",
+      "text_url": "https://www.aozora.gr.jp/cards/000879/files/179_15255.html",
+      "retrieved_at": "2026-11-02",
+      "source_witness": "Complete seven testimonies and dateline of Aozora Bunko file 179_15255. No claim of a newly inspected printed copy."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Ryunosuke Akutagawa text)",
+      "basis": "Term-based assessment on 2026-11-02. Akutagawa died in 1927; under Japan’s life-plus-50 term then in force the work entered the public domain at the end of 1977, and the 2018 extension did not revive it. Publication in 1922 is beyond the US 95-year maximum. Vietnam’s life-plus-50 term has expired. Only the underlying story is reused, without Aozora markup or ruby; modern orthography is treated as non-creative normalisation. This is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "JP",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://www.aozora.gr.jp/cards/000879/card179.html",
+        "https://www.aozora.gr.jp/cards/000879/files/179_15255.html",
+        "https://www.japaneselawtranslation.go.jp/en/laws/view/4207",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Ryunosuke Akutagawa",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://www.aozora.gr.jp/cards/000879/files/179_15255.html",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/akutagawa-yabu-ja-chikuma-1987.json"
+      ],
+      "notes": "Technical extraction and complete AI-assisted paragraph comparison cover all 46 canonical units. Source-check metadata records exact hashes, witness boundaries, normalization and access limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "akutagawa-yabu-vi-ai-2026",
+    "work_id": "akutagawa-in-a-grove",
+    "language": "vi",
+    "title": "Trong lùm cây",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/akutagawa-in-a-grove/akutagawa-yabu-vi-ai-2026.json",
+    "source_edition_id": "akutagawa-yabu-ja-chikuma-1987",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified Japanese source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-02",
+      "source_witness": "akutagawa-yabu-ja-chikuma-1987"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "JP",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/consumer-terms",
+        "https://www.aozora.gr.jp/cards/000879/card179.html",
+        "https://www.aozora.gr.jp/cards/000879/files/179_15255.html",
+        "https://www.japaneselawtranslation.go.jp/en/laws/view/4207",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Ryunosuke Akutagawa",
+      "translator": "LitMundi AI translation (Claude)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.93,
+      "record_paths": [
+        "corpus/reviews/akutagawa-in-a-grove/akutagawa-yabu-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/akutagawa-in-a-grove/akutagawa-yabu-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "notes": "Complete AI literary assessment: unrounded weighted score 8.925/10, threshold 8.6. All 46 source/target passages and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment is disclosed; an independent-context AI pass from the same model family supplied findings, which is not human certification or model diversity. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "Claude Opus 5.5 (Anthropic) — AI translation, literary revision and assessment"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
   }
 ]

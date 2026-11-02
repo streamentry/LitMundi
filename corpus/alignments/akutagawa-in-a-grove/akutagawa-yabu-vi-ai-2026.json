@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "work_id": "akutagawa-in-a-grove",
+  "edition_id": "akutagawa-yabu-vi-ai-2026",
+  "source_edition_id": "akutagawa-yabu-ja-chikuma-1987",
+  "links": [
+    {
+      "source": [
+        "akutagawa-in-a-grove:1.1"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:1.1"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:1.2"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:1.2"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:1.3"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:1.3"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:1.4"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:1.4"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:2.1"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:2.1"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:2.2"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:2.2"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:2.3"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:2.3"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:3.1"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:3.1"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:3.2"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:3.2"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:3.3"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:3.3"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:4.1"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:4.1"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:4.2"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:4.2"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:4.3"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:4.3"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:4.4"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:4.4"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:4.5"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:4.5"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.1"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.1"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.2"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.2"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.3"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.3"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.4"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.4"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.5"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.5"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.6"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.6"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.7"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.7"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.8"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.8"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.9"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.9"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.10"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.10"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.11"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.11"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.12"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.12"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.13"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.13"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:5.14"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:5.14"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:6.1"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:6.1"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:6.2"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:6.2"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:6.3"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:6.3"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:6.4"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:6.4"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:6.5"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:6.5"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:6.6"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:6.6"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:6.7"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:6.7"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:6.8"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:6.8"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:7.1"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:7.1"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:7.2"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:7.2"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:7.3"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:7.3"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:7.4"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:7.4"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:7.5"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:7.5"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:7.6"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:7.6"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:7.7"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:7.7"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:7.8"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:7.8"
+      ]
+    },
+    {
+      "source": [
+        "akutagawa-in-a-grove:7.9"
+      ],
+      "target": [
+        "akutagawa-in-a-grove:7.9"
+      ]
+    }
+  ]
+}

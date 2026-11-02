@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "work_id": "akutagawa-in-a-grove",
+  "edition_id": "akutagawa-yabu-vi-ai-2026",
+  "source_edition_id": "akutagawa-yabu-ja-chikuma-1987",
+  "title_vi": "Trong lùm cây",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Contradictions",
+      "decision": "Discrepancies between testimonies (number of arrows, times, the horse’s whereabouts, who killed the husband) are rendered exactly and never harmonised.",
+      "rationale": "The story’s meaning depends on irreconcilable accounts."
+    },
+    {
+      "topic": "Voices",
+      "decision": "Woodcutter Dạ, thưa quan; monk bần tăng; freed convict Bẩm quan; old woman già này; Tajōmaru tôi/các ông; the woman tôi and thiếp/chàng; the ghost ta.",
+      "rationale": "Seven distinct registers."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-akutagawa-in-a-grove",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "akutagawa-in-a-grove:2.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "丈は四寸 (conventional horse height, 4 shaku 4 sun ≈ 1.3 m) had become a horse about 40 cm tall; now ‘chừng một mét ba’."
+        },
+        {
+          "segment": "akutagawa-in-a-grove:2.1",
+          "category": "editorial_mechanics",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "行腳 misspelt hành khước (‘refuse’); corrected to hành cước."
+        },
+        {
+          "segment": "akutagawa-in-a-grove:2.2",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The husband walks beside the mounted wife, and the route is the monk’s own; いえ as à không."
+        },
+        {
+          "segment": "akutagawa-in-a-grove:1.1",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Headings made parallel: the five 物語 as Lời kể … khi bị quan Kebiishi tra hỏi; 放免 as người phóng miễn."
+        },
+        {
+          "segment": "akutagawa-in-a-grove:6.4",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "お死になすって下さい no longer sounds like a curse: xin chàng cũng hãy chết theo thiếp; 合 as hợp (5.12); naturalness fixes in 3.2, 4.2, a stage direction in 7.4 and 7.8; dashes normalised."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "藪",
+      "draft_rendering": "lùm cây",
+      "alternatives": [
+        "bụi rậm"
+      ],
+      "rationale": "One term throughout and in the title; the idiomatic sense of 藪の中 (‘the truth cannot be known’) has no Vietnamese equivalent.",
+      "passages": [
+        "akutagawa-in-a-grove:1.2",
+        "akutagawa-in-a-grove:4.2",
+        "akutagawa-in-a-grove:7.8"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "〜の物語 / 白状 / 懺悔",
+      "draft_rendering": "Lời kể … khi bị quan Kebiishi tra hỏi / Lời thú tội / Lời sám hối",
+      "alternatives": [
+        "Lời khai"
+      ],
+      "rationale": "Parallel headings follow the source’s own three genres of testimony.",
+      "passages": [
+        "akutagawa-in-a-grove:1.1",
+        "akutagawa-in-a-grove:2.1",
+        "akutagawa-in-a-grove:3.1",
+        "akutagawa-in-a-grove:4.1",
+        "akutagawa-in-a-grove:5.1",
+        "akutagawa-in-a-grove:6.1",
+        "akutagawa-in-a-grove:7.1"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "縹 / 紺",
+      "draft_rendering": "xanh lam / chàm",
+      "alternatives": [],
+      "rationale": "The husband’s and Tajōmaru’s robes are kept distinct in every testimony.",
+      "passages": [
+        "akutagawa-in-a-grove:1.3",
+        "akutagawa-in-a-grove:5.2"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Aozora Bunko transcription (card 179, file 179_15255) of 芥川龍之介全集4 (ちくま文庫, 1987), in modern orthography. The testimony headings are kept as text because they identify each speaker. First published in 新潮, January 1922; not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "6dcf1e511958d2037768d62d27dd7a6100d03e97c55d7ac8b4724ea7efd07525",
+  "target_sha256": "074830ce5fa36a3f2cb498d26fca09c3bde77cb3149ed6d0ffa12a56d7787645",
+  "coverage": {
+    "canonical_passages": 46,
+    "translated_passages": 46,
+    "aligned_passages": 46
+  },
+  "ai_review_record": "corpus/reviews/akutagawa-in-a-grove/akutagawa-yabu-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "@title",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Trong lùm cây matches the body term, but lùm cây suggests a smaller clump than 藪, and the idiom’s sense of unknowable truth is lost."
+    }
+  ],
+  "title_review": {
+    "source_title": "藪の中",
+    "target_title": "Trong lùm cây",
+    "rationale": "Trong lùm cây renders 藪の中 literally and matches the body term; Vietnamese cannot carry the idiomatic sense of an unknowable truth."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "akutagawa-in-a-grove:1.1",
+        "akutagawa-in-a-grove:1.2",
+        "akutagawa-in-a-grove:1.3",
+        "akutagawa-in-a-grove:1.4",
+        "akutagawa-in-a-grove:2.1",
+        "akutagawa-in-a-grove:2.2",
+        "akutagawa-in-a-grove:2.3",
+        "akutagawa-in-a-grove:3.1",
+        "akutagawa-in-a-grove:3.2",
+        "akutagawa-in-a-grove:3.3",
+        "akutagawa-in-a-grove:4.1",
+        "akutagawa-in-a-grove:4.2",
+        "akutagawa-in-a-grove:4.3",
+        "akutagawa-in-a-grove:4.4",
+        "akutagawa-in-a-grove:4.5"
+      ],
+      "assessment": "Compared the four witnesses’ testimonies to the magistrate."
+    },
+    {
+      "passages": [
+        "akutagawa-in-a-grove:5.1",
+        "akutagawa-in-a-grove:5.2",
+        "akutagawa-in-a-grove:5.3",
+        "akutagawa-in-a-grove:5.4",
+        "akutagawa-in-a-grove:5.5",
+        "akutagawa-in-a-grove:5.6",
+        "akutagawa-in-a-grove:5.7",
+        "akutagawa-in-a-grove:5.8",
+        "akutagawa-in-a-grove:5.9",
+        "akutagawa-in-a-grove:5.10",
+        "akutagawa-in-a-grove:5.11",
+        "akutagawa-in-a-grove:5.12",
+        "akutagawa-in-a-grove:5.13",
+        "akutagawa-in-a-grove:5.14"
+      ],
+      "assessment": "Compared Tajōmaru’s confession."
+    },
+    {
+      "passages": [
+        "akutagawa-in-a-grove:6.1",
+        "akutagawa-in-a-grove:6.2",
+        "akutagawa-in-a-grove:6.3",
+        "akutagawa-in-a-grove:6.4",
+        "akutagawa-in-a-grove:6.5",
+        "akutagawa-in-a-grove:6.6",
+        "akutagawa-in-a-grove:6.7",
+        "akutagawa-in-a-grove:6.8",
+        "akutagawa-in-a-grove:7.1",
+        "akutagawa-in-a-grove:7.2",
+        "akutagawa-in-a-grove:7.3",
+        "akutagawa-in-a-grove:7.4",
+        "akutagawa-in-a-grove:7.5",
+        "akutagawa-in-a-grove:7.6",
+        "akutagawa-in-a-grove:7.7",
+        "akutagawa-in-a-grove:7.8",
+        "akutagawa-in-a-grove:7.9"
+      ],
+      "assessment": "Compared the woman’s repentance, the ghost’s account and the dateline."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "akutagawa-yabu-vi-ai-2026",
+  "source_edition_id": "akutagawa-yabu-ja-chikuma-1987",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Japanese-to-Vietnamese comparison of all 46 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 2 major and 11 minor findings with a pre-revision weighted score of 8.65; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "6dcf1e511958d2037768d62d27dd7a6100d03e97c55d7ac8b4724ea7efd07525",
+  "target_sha256": "074830ce5fa36a3f2cb498d26fca09c3bde77cb3149ed6d0ffa12a56d7787645",
+  "segments_reviewed": [
+    "akutagawa-in-a-grove:1.1",
+    "akutagawa-in-a-grove:1.2",
+    "akutagawa-in-a-grove:1.3",
+    "akutagawa-in-a-grove:1.4",
+    "akutagawa-in-a-grove:2.1",
+    "akutagawa-in-a-grove:2.2",
+    "akutagawa-in-a-grove:2.3",
+    "akutagawa-in-a-grove:3.1",
+    "akutagawa-in-a-grove:3.2",
+    "akutagawa-in-a-grove:3.3",
+    "akutagawa-in-a-grove:4.1",
+    "akutagawa-in-a-grove:4.2",
+    "akutagawa-in-a-grove:4.3",
+    "akutagawa-in-a-grove:4.4",
+    "akutagawa-in-a-grove:4.5",
+    "akutagawa-in-a-grove:5.1",
+    "akutagawa-in-a-grove:5.2",
+    "akutagawa-in-a-grove:5.3",
+    "akutagawa-in-a-grove:5.4",
+    "akutagawa-in-a-grove:5.5",
+    "akutagawa-in-a-grove:5.6",
+    "akutagawa-in-a-grove:5.7",
+    "akutagawa-in-a-grove:5.8",
+    "akutagawa-in-a-grove:5.9",
+    "akutagawa-in-a-grove:5.10",
+    "akutagawa-in-a-grove:5.11",
+    "akutagawa-in-a-grove:5.12",
+    "akutagawa-in-a-grove:5.13",
+    "akutagawa-in-a-grove:5.14",
+    "akutagawa-in-a-grove:6.1",
+    "akutagawa-in-a-grove:6.2",
+    "akutagawa-in-a-grove:6.3",
+    "akutagawa-in-a-grove:6.4",
+    "akutagawa-in-a-grove:6.5",
+    "akutagawa-in-a-grove:6.6",
+    "akutagawa-in-a-grove:6.7",
+    "akutagawa-in-a-grove:6.8",
+    "akutagawa-in-a-grove:7.1",
+    "akutagawa-in-a-grove:7.2",
+    "akutagawa-in-a-grove:7.3",
+    "akutagawa-in-a-grove:7.4",
+    "akutagawa-in-a-grove:7.5",
+    "akutagawa-in-a-grove:7.6",
+    "akutagawa-in-a-grove:7.7",
+    "akutagawa-in-a-grove:7.8",
+    "akutagawa-in-a-grove:7.9"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "akutagawa-in-a-grove:2.2",
+      "category": "semantic_fidelity",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "丈は四寸 (conventional horse height, 4 shaku 4 sun ≈ 1.3 m) had become a horse about 40 cm tall; now ‘chừng một mét ba’."
+    },
+    {
+      "segment": "akutagawa-in-a-grove:2.1",
+      "category": "editorial_mechanics",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "行腳 misspelt hành khước (‘refuse’); corrected to hành cước."
+    },
+    {
+      "segment": "akutagawa-in-a-grove:2.2",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The husband walks beside the mounted wife, and the route is the monk’s own; いえ as à không."
+    },
+    {
+      "segment": "akutagawa-in-a-grove:1.1",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Headings made parallel: the five 物語 as Lời kể … khi bị quan Kebiishi tra hỏi; 放免 as người phóng miễn."
+    },
+    {
+      "segment": "akutagawa-in-a-grove:6.4",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "お死になすって下さい no longer sounds like a curse: xin chàng cũng hãy chết theo thiếp; 合 as hợp (5.12); naturalness fixes in 3.2, 4.2, a stage direction in 7.4 and 7.8; dashes normalised."
+    },
+    {
+      "segment": "@title",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Trong lùm cây matches the body term, but lùm cây suggests a smaller clump than 藪, and the idiom’s sense of unknowable truth is lost."
+    }
+  ],
+  "summary": "Full assessment of all 46 Japanese/Vietnamese passages, the seven testimony headings and both titles. The woodcutter’s discovery, the monk’s sighting, the capture of Tajōmaru, the old woman’s plea, Tajōmaru’s confession, the wife’s repentance and the dead man’s account through a medium are complete, with every contradiction preserved. The separate-context pass scored 8.65 with two open major findings (a 40 cm horse; a misspelt heading) that blocked release; both and nine minor findings were revised. Fidelity, voice, imagery and mechanics are 9.0, naturalness 8.5. Unrounded weighted score 8.925 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "藪の中",
+    "target_title": "Trong lùm cây",
+    "rationale": "Trong lùm cây renders 藪の中 literally and matches the body term; Vietnamese cannot carry the idiomatic sense of an unknowable truth."
+  }
+}

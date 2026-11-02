@@ -358,5 +358,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "藪の中",
+    "author": "Ryunosuke Akutagawa",
+    "author_death_year": 1927,
+    "first_published_year": 1922,
+    "original_language": "ja",
+    "genre": "short_story",
+    "description": "Seven contradictory accounts of a samurai’s death in a grove — witnesses, the bandit Tajōmaru, the wife and the dead man speaking through a medium — in Akutagawa’s story without a resolving truth.",
+    "id": "akutagawa-in-a-grove",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

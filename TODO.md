@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 21 published · 253 todo · 0 in progress · 226 on hold.**
+**500 selected works · 22 published · 252 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -39,7 +39,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **021. Charles Dickens — A Christmas Carol** · en · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/46)
 - [x] **022. Ryunosuke Akutagawa — Rashomon** · ja · short story · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/akutagawa-rashomon/akutagawa-rashomon-vi-ai-2026/)
 - [ ] **023. Robert Louis Stevenson — Strange Case of Dr Jekyll and Mr Hyde** · en · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/42)
-- [ ] **024. Ryunosuke Akutagawa — In a Grove** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html)
+- [x] **024. Ryunosuke Akutagawa — In a Grove** · ja · short story · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/akutagawa-in-a-grove/akutagawa-yabu-vi-ai-2026/)
 - [ ] **025. Gustave Flaubert — Un cœur simple** · fr · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/12065)
 - [ ] **026. Nikolai Gogol — The Overcoat** · ru · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/36238)
 - [ ] **027. Ryunosuke Akutagawa — Hell Screen** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html)
