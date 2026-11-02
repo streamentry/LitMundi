@@ -88,5 +88,20 @@
       "status": "unverified",
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     }
+  },
+  {
+    "id": "maupassant-la-parure",
+    "title": "La Parure",
+    "author": "Guy de Maupassant",
+    "author_death_year": 1893,
+    "first_published_year": 1884,
+    "original_language": "fr",
+    "genre": "short_story",
+    "description": "A clerk’s wife borrows a necklace for a ministry ball, loses it and spends ten years paying for the replacement, in a compressed story of status, pride and irreversible cost.",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. A 1922 Vietnamese translation by Vũ Văn Định and later translations are reported; their availability, completeness and reuse status were not audited here. No absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

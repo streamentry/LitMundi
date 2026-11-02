@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "work_id": "maupassant-la-parure",
+  "edition_id": "maupassant-parure-vi-ai-2026",
+  "source_edition_id": "maupassant-parure-fr-marpon-flammarion-1885",
+  "title_vi": "Món trang sức",
+  "translation_direction": "fr → vi; direct from the specifically identified complete French electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Pronoun and address system",
+      "decision": "Narration uses nàng for Mathilde, anh for Loisel and bà for Mme Forestier; the spouses use anh/em; the former convent friends use mình/cậu, while the unrecognising Mme Forestier first answers with formal tôi/bà.",
+      "rationale": "Vietnamese requires explicit social address. The choices mark intimacy, marriage and the moment of non-recognition without adding facts about age."
+    },
+    {
+      "topic": "Witness punctuation",
+      "decision": "Retain the witness’s irregular ellipses and lowercase after an internal ? or ! inside exclamations and repeated questions.",
+      "rationale": "These marks belong to the selected witness; the Vietnamese follows them consistently rather than silently normalising some and not others."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-queue-004",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "maupassant-la-parure:1.106",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The narrator’s reflection had used slangy tiêu đời and a stiff adjectival đổi thay. Revised to “Đời sao mà kỳ lạ, mà đổi thay khôn lường! Chỉ cần một chút cỏn con là đủ khiến ta mất tất cả hay cứu vớt được ta!”, restoring gravity and the echo between losing the necklace and being lost."
+        },
+        {
+          "segment": "@title",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Changed the draft title Chuỗi vòng cổ, which doubled two necklace words and matched neither body term, to Món trang sức, which keeps the generic sense of parure and links to passages 1.2, 1.45, 1.91, 1.96 and 1.106."
+        },
+        {
+          "segment": "maupassant-la-parure:1.91",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Parure rendered as món trang sức here and in 1.96 and 1.106 instead of the uncommon chuỗi vòng."
+        },
+        {
+          "segment": "maupassant-la-parure:1.54",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Replaced khoái lạc, which leans carnal in Vietnamese, with niềm vui thú for grisée par le plaisir."
+        },
+        {
+          "segment": "maupassant-la-parure:1.105",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Restored the deliberate polysyndeton of la femme forte, et dure, et rude; rendered si fêtée as được tung hô, săn đón and cette soirée as buổi dạ hội for term consistency."
+        },
+        {
+          "segment": "maupassant-la-parure:2.13",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Replaced the potentially inclusive bọn mình with vợ chồng mình so Mme Forestier is not grammatically included among those who paid."
+        },
+        {
+          "segment": "maupassant-la-parure:2.2",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Cette bourgeoise means an ordinary woman of modest condition; replaced xuềnh xoàng (slovenly) with bình dân, echoing femme du peuple in 1.100."
+        },
+        {
+          "segment": "maupassant-la-parure:1.11",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Avec dépit is vexation, not hostility: hằn học changed to bực dọc."
+        },
+        {
+          "segment": "maupassant-la-parure:1.52",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "S’enfuit avec son trésor restored as chạy biến đi, keeping the hint of flight with a prize."
+        },
+        {
+          "segment": "maupassant-la-parure:1.53",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Removed an added cũng so the short final sentence about the minister keeps its weight."
+        },
+        {
+          "segment": "maupassant-la-parure:1.99",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Replaced repeated khủng khiếp (horrible / effroyable) with cùng cực and kinh khủng, and the ill-fitting connective vả lại with vả chăng."
+        },
+        {
+          "segment": "maupassant-la-parure:1.44",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Ma chère no longer calqued as bạn thân mến: “Cậu cứ chọn đi, bạn yêu.”"
+        },
+        {
+          "segment": "maupassant-la-parure:1.3",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Đạm bạc describes meals; son humble ménage is now những việc nhà lặt vặt."
+        },
+        {
+          "segment": "maupassant-la-parure:1.19",
+          "category": "editorial_mechanics",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Applied the witness’s lowercase after internal ? and ! consistently (1.4, 1.19, 1.68), matching 1.98, 1.106 and 2.12."
+        },
+        {
+          "segment": "maupassant-la-parure:1.17",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Restored the emphatic à moi as Anh thì thấy."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. A 1922 Vietnamese translation by Vũ Văn Định and later translations are reported; their availability, completeness and reuse status were not audited here. No absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "parure / parée / les parures",
+      "draft_rendering": "món trang sức / trang sức cho mình / đồ trang sức",
+      "alternatives": [
+        "chuỗi vòng",
+        "sợi dây chuyền"
+      ],
+      "rationale": "Keep one lexical family for the title word, Mathilde’s inability to be adorned and the necklace as an object of exchange, so the closing question still points back to the title.",
+      "passages": [
+        "maupassant-la-parure:1.2",
+        "maupassant-la-parure:1.45",
+        "maupassant-la-parure:1.91",
+        "maupassant-la-parure:1.96",
+        "maupassant-la-parure:1.106"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "rivière de diamants / chapelet de diamants",
+      "draft_rendering": "chuỗi kim cương",
+      "alternatives": [
+        "chuỗi hạt kim cương"
+      ],
+      "rationale": "A single-row diamond necklace; the same phrase is used in narration and dialogue so the final revelation lands on the identical object word.",
+      "passages": [
+        "maupassant-la-parure:1.48",
+        "maupassant-la-parure:1.62",
+        "maupassant-la-parure:1.66",
+        "maupassant-la-parure:1.84",
+        "maupassant-la-parure:1.90",
+        "maupassant-la-parure:1.92",
+        "maupassant-la-parure:1.95",
+        "maupassant-la-parure:2.12",
+        "maupassant-la-parure:2.18",
+        "maupassant-la-parure:2.22"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "fête / soirée / bal",
+      "draft_rendering": "buổi tiệc (dự tiệc) / dạ hội / vũ hội",
+      "alternatives": [],
+      "rationale": "Maupassant moves between the official reception, the evening and the dance; separate Vietnamese words keep those distinctions stable.",
+      "passages": [
+        "maupassant-la-parure:1.10",
+        "maupassant-la-parure:1.21",
+        "maupassant-la-parure:1.30",
+        "maupassant-la-parure:1.33",
+        "maupassant-la-parure:1.53",
+        "maupassant-la-parure:1.71",
+        "maupassant-la-parure:1.105",
+        "maupassant-la-parure:2.12"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Ah! le bon pot-au-feu!",
+      "draft_rendering": "A! nồi thịt hầm ngon quá!",
+      "alternatives": [
+        "món pô-tô-phơ"
+      ],
+      "rationale": "A homely boiled-beef dish served from the tureen he has just uncovered; a plain Vietnamese description avoids an opaque loanword while keeping the domestic contrast with her dreams.",
+      "passages": [
+        "maupassant-la-parure:1.4"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "francs / louis / sous",
+      "draft_rendering": "phrăng / đồng louis / xu",
+      "alternatives": [],
+      "rationale": "Established Vietnamese renderings of period French money; amounts are retained exactly, since the arithmetic of the debt is part of the story.",
+      "passages": [
+        "maupassant-la-parure:1.26",
+        "maupassant-la-parure:1.92",
+        "maupassant-la-parure:1.93",
+        "maupassant-la-parure:1.94",
+        "maupassant-la-parure:1.95",
+        "maupassant-la-parure:1.102",
+        "maupassant-la-parure:2.22"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected only the complete LA PARURE section of Contes du jour et de la nuit (Paris: C. Marpon et E. Flammarion, illustrated by Paul Cousturier) as transcribed in Project Gutenberg #14790 from BnF/Gallica images. The first newspaper publication (Le Gaulois, 17 February 1884) is bibliographic context, not a second text silently mixed into the source. Witness punctuation such as “!..”, “....” and “Oui, C’est probable” is retained rather than silently corrected.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "63745f277d70214ec5bc1b0688f8127b5ba9134c7593713fa17c8af95be10872",
+  "target_sha256": "8108e7d5be7ed9d7815beb653b2f42cd5eaf6bc6af2eb9f1ec6f7fb5702679ab",
+  "coverage": {
+    "canonical_passages": 128,
+    "translated_passages": 128,
+    "aligned_passages": 128
+  },
+  "ai_review_record": "corpus/reviews/maupassant-la-parure/maupassant-parure-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "maupassant-la-parure:1.4",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Nồi thịt hầm keeps the homely tureen dish but not the culturally specific name pot-au-feu; a loanword would be more exact and less legible."
+    },
+    {
+      "segment": "maupassant-la-parure:1.1",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Nàng gives Mathilde a literary narrative register that persists after her hardening (1.99–1.105). The ironic distance is defensible, but some readers may prefer a shift to chị in the second half."
+    },
+    {
+      "segment": "maupassant-la-parure:1.88",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Tuyên bố for déclarer remains slightly formal in domestic speech at 1.4 and 1.88; it is kept where the mock-solemn irony supports it."
+    }
+  ],
+  "title_review": {
+    "source_title": "La Parure",
+    "target_title": "Món trang sức",
+    "rationale": "La Parure names an adornment rather than specifically a necklace. Món trang sức keeps that generic sense and links the title to Mathilde’s inability to adorn herself (1.2), the jewels she tries on (1.45) and the object she loses and repays (1.91, 1.96, 1.106). It does not reveal the diamonds or their falseness. Familiar Vietnamese titles such as Chuỗi hạt kim cương or Sợi dây chuyền are more recognisable but narrower; this edition prefers the source’s generality."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "maupassant-la-parure:1.1",
+        "maupassant-la-parure:1.2",
+        "maupassant-la-parure:1.3",
+        "maupassant-la-parure:1.4",
+        "maupassant-la-parure:1.5",
+        "maupassant-la-parure:1.6"
+      ],
+      "assessment": "Compared the opening portrait: birth into a clerk’s family, the generalisation about women’s beauty as rank, dreams of salons and dinners, lack of jewels and the rich convent friend."
+    },
+    {
+      "passages": [
+        "maupassant-la-parure:1.7",
+        "maupassant-la-parure:1.8",
+        "maupassant-la-parure:1.9",
+        "maupassant-la-parure:1.10",
+        "maupassant-la-parure:1.11",
+        "maupassant-la-parure:1.12",
+        "maupassant-la-parure:1.13",
+        "maupassant-la-parure:1.14",
+        "maupassant-la-parure:1.15",
+        "maupassant-la-parure:1.16",
+        "maupassant-la-parure:1.17",
+        "maupassant-la-parure:1.18",
+        "maupassant-la-parure:1.19",
+        "maupassant-la-parure:1.20",
+        "maupassant-la-parure:1.21",
+        "maupassant-la-parure:1.22",
+        "maupassant-la-parure:1.23",
+        "maupassant-la-parure:1.24",
+        "maupassant-la-parure:1.25",
+        "maupassant-la-parure:1.26",
+        "maupassant-la-parure:1.27",
+        "maupassant-la-parure:1.28",
+        "maupassant-la-parure:1.29",
+        "maupassant-la-parure:1.30",
+        "maupassant-la-parure:1.31",
+        "maupassant-la-parure:1.32",
+        "maupassant-la-parure:1.33",
+        "maupassant-la-parure:1.34",
+        "maupassant-la-parure:1.35",
+        "maupassant-la-parure:1.36",
+        "maupassant-la-parure:1.37",
+        "maupassant-la-parure:1.38",
+        "maupassant-la-parure:1.39",
+        "maupassant-la-parure:1.40",
+        "maupassant-la-parure:1.41",
+        "maupassant-la-parure:1.42",
+        "maupassant-la-parure:1.43",
+        "maupassant-la-parure:1.44",
+        "maupassant-la-parure:1.45",
+        "maupassant-la-parure:1.46",
+        "maupassant-la-parure:1.47",
+        "maupassant-la-parure:1.48",
+        "maupassant-la-parure:1.49",
+        "maupassant-la-parure:1.50",
+        "maupassant-la-parure:1.51",
+        "maupassant-la-parure:1.52"
+      ],
+      "assessment": "Compared the invitation text, quarrel over the dress, the 400 francs and the husband’s sacrificed gun, the flowers suggestion, the visit to Mme Forestier and the choice of the diamond necklace."
+    },
+    {
+      "passages": [
+        "maupassant-la-parure:1.53",
+        "maupassant-la-parure:1.54",
+        "maupassant-la-parure:1.55",
+        "maupassant-la-parure:1.56",
+        "maupassant-la-parure:1.57",
+        "maupassant-la-parure:1.58",
+        "maupassant-la-parure:1.59",
+        "maupassant-la-parure:1.60",
+        "maupassant-la-parure:1.61",
+        "maupassant-la-parure:1.62",
+        "maupassant-la-parure:1.63",
+        "maupassant-la-parure:1.64",
+        "maupassant-la-parure:1.65",
+        "maupassant-la-parure:1.66",
+        "maupassant-la-parure:1.67",
+        "maupassant-la-parure:1.68",
+        "maupassant-la-parure:1.69",
+        "maupassant-la-parure:1.70",
+        "maupassant-la-parure:1.71",
+        "maupassant-la-parure:1.72",
+        "maupassant-la-parure:1.73",
+        "maupassant-la-parure:1.74",
+        "maupassant-la-parure:1.75",
+        "maupassant-la-parure:1.76",
+        "maupassant-la-parure:1.77",
+        "maupassant-la-parure:1.78",
+        "maupassant-la-parure:1.79",
+        "maupassant-la-parure:1.80",
+        "maupassant-la-parure:1.81",
+        "maupassant-la-parure:1.82",
+        "maupassant-la-parure:1.83",
+        "maupassant-la-parure:1.84",
+        "maupassant-la-parure:1.85"
+      ],
+      "assessment": "Compared the ball, the shabby wraps, the search for a cab, the arrival at rue des Martyrs, discovery of the loss, the night search and the letter about a broken clasp."
+    },
+    {
+      "passages": [
+        "maupassant-la-parure:1.86",
+        "maupassant-la-parure:1.87",
+        "maupassant-la-parure:1.88",
+        "maupassant-la-parure:1.89",
+        "maupassant-la-parure:1.90",
+        "maupassant-la-parure:1.91",
+        "maupassant-la-parure:1.92",
+        "maupassant-la-parure:1.93",
+        "maupassant-la-parure:1.94",
+        "maupassant-la-parure:1.95",
+        "maupassant-la-parure:1.96",
+        "maupassant-la-parure:1.97",
+        "maupassant-la-parure:1.98",
+        "maupassant-la-parure:1.99",
+        "maupassant-la-parure:1.100",
+        "maupassant-la-parure:1.101",
+        "maupassant-la-parure:1.102",
+        "maupassant-la-parure:1.103",
+        "maupassant-la-parure:1.104",
+        "maupassant-la-parure:1.105",
+        "maupassant-la-parure:1.106"
+      ],
+      "assessment": "Compared the jeweller’s visits, the 40,000/36,000/34,000-franc terms, the borrowing and usury, the return without the case being opened, ten years of labour and the narrator’s reflection."
+    },
+    {
+      "passages": [
+        "maupassant-la-parure:2.1",
+        "maupassant-la-parure:2.2",
+        "maupassant-la-parure:2.3",
+        "maupassant-la-parure:2.4",
+        "maupassant-la-parure:2.5",
+        "maupassant-la-parure:2.6",
+        "maupassant-la-parure:2.7",
+        "maupassant-la-parure:2.8",
+        "maupassant-la-parure:2.9",
+        "maupassant-la-parure:2.10",
+        "maupassant-la-parure:2.11",
+        "maupassant-la-parure:2.12",
+        "maupassant-la-parure:2.13",
+        "maupassant-la-parure:2.14",
+        "maupassant-la-parure:2.15",
+        "maupassant-la-parure:2.16",
+        "maupassant-la-parure:2.17",
+        "maupassant-la-parure:2.18",
+        "maupassant-la-parure:2.19",
+        "maupassant-la-parure:2.20",
+        "maupassant-la-parure:2.21",
+        "maupassant-la-parure:2.22"
+      ],
+      "assessment": "Compared the Champs-Élysées meeting, non-recognition, the confession, proud naive joy and the final line that the original necklace was false and worth at most five hundred francs."
+    }
+  ]
+}

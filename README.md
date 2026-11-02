@@ -15,8 +15,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Emilia Pardo Bazán — El encaje roto](docs/BATCH-001-VIETNAMESE-500.md) | Spanish; Administración [1898?], pp. 233–239 | 15 | 8.625 (displayed 8.63) | Revised AI-reviewed translation published |
 | [Kate Chopin — The Story of an Hour](docs/BATCH-001-VIETNAMESE-500.md) | English; Society electronic text with the 1895 readings | 23 | 8.80 | AI-reviewed translation published |
 | [Saki — The Open Window](docs/BATCH-001-VIETNAMESE-500.md) | English; John Lane 1914, Gutenberg #269 | 29 | 8.875 (displayed 8.88) | AI-reviewed translation published |
+| [Guy de Maupassant — La Parure](corpus/editorial/maupassant-la-parure/maupassant-parure-vi-ai-2026.json) | French; Marpon & Flammarion [1885], Gutenberg #14790 | 128 | 8.80 | AI-reviewed translation published |
 
-All five originals are published, giving ten public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All six originals are published, giving twelve public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 
