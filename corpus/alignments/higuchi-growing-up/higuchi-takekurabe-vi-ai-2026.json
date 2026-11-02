@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "work_id": "higuchi-growing-up",
+  "edition_id": "higuchi-takekurabe-vi-ai-2026",
+  "source_edition_id": "higuchi-takekurabe-ja-bungei-kurabu-1896",
+  "links": [
+    {
+      "source": [
+        "higuchi-growing-up:1.1"
+      ],
+      "target": [
+        "higuchi-growing-up:1.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:2.1"
+      ],
+      "target": [
+        "higuchi-growing-up:2.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:2.2"
+      ],
+      "target": [
+        "higuchi-growing-up:2.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:2.3"
+      ],
+      "target": [
+        "higuchi-growing-up:2.3"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:3.1"
+      ],
+      "target": [
+        "higuchi-growing-up:3.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:4.1"
+      ],
+      "target": [
+        "higuchi-growing-up:4.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:5.1"
+      ],
+      "target": [
+        "higuchi-growing-up:5.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:6.1"
+      ],
+      "target": [
+        "higuchi-growing-up:6.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:6.2"
+      ],
+      "target": [
+        "higuchi-growing-up:6.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:7.1"
+      ],
+      "target": [
+        "higuchi-growing-up:7.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:7.2"
+      ],
+      "target": [
+        "higuchi-growing-up:7.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:8.1"
+      ],
+      "target": [
+        "higuchi-growing-up:8.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:9.1"
+      ],
+      "target": [
+        "higuchi-growing-up:9.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:9.2"
+      ],
+      "target": [
+        "higuchi-growing-up:9.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:9.3"
+      ],
+      "target": [
+        "higuchi-growing-up:9.3"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:10.1"
+      ],
+      "target": [
+        "higuchi-growing-up:10.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:10.2"
+      ],
+      "target": [
+        "higuchi-growing-up:10.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:10.3"
+      ],
+      "target": [
+        "higuchi-growing-up:10.3"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:10.4"
+      ],
+      "target": [
+        "higuchi-growing-up:10.4"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:11.1"
+      ],
+      "target": [
+        "higuchi-growing-up:11.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:11.2"
+      ],
+      "target": [
+        "higuchi-growing-up:11.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:11.3"
+      ],
+      "target": [
+        "higuchi-growing-up:11.3"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:11.4"
+      ],
+      "target": [
+        "higuchi-growing-up:11.4"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:11.5"
+      ],
+      "target": [
+        "higuchi-growing-up:11.5"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:12.1"
+      ],
+      "target": [
+        "higuchi-growing-up:12.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:12.2"
+      ],
+      "target": [
+        "higuchi-growing-up:12.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:12.3"
+      ],
+      "target": [
+        "higuchi-growing-up:12.3"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:12.4"
+      ],
+      "target": [
+        "higuchi-growing-up:12.4"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:12.5"
+      ],
+      "target": [
+        "higuchi-growing-up:12.5"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:12.6"
+      ],
+      "target": [
+        "higuchi-growing-up:12.6"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:13.1"
+      ],
+      "target": [
+        "higuchi-growing-up:13.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:13.2"
+      ],
+      "target": [
+        "higuchi-growing-up:13.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:13.3"
+      ],
+      "target": [
+        "higuchi-growing-up:13.3"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:13.4"
+      ],
+      "target": [
+        "higuchi-growing-up:13.4"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:13.5"
+      ],
+      "target": [
+        "higuchi-growing-up:13.5"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:14.1"
+      ],
+      "target": [
+        "higuchi-growing-up:14.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:14.2"
+      ],
+      "target": [
+        "higuchi-growing-up:14.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:15.1"
+      ],
+      "target": [
+        "higuchi-growing-up:15.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:15.2"
+      ],
+      "target": [
+        "higuchi-growing-up:15.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:15.3"
+      ],
+      "target": [
+        "higuchi-growing-up:15.3"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:15.4"
+      ],
+      "target": [
+        "higuchi-growing-up:15.4"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:15.5"
+      ],
+      "target": [
+        "higuchi-growing-up:15.5"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:16.1"
+      ],
+      "target": [
+        "higuchi-growing-up:16.1"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:16.2"
+      ],
+      "target": [
+        "higuchi-growing-up:16.2"
+      ]
+    },
+    {
+      "source": [
+        "higuchi-growing-up:16.3"
+      ],
+      "target": [
+        "higuchi-growing-up:16.3"
+      ]
+    }
+  ]
+}

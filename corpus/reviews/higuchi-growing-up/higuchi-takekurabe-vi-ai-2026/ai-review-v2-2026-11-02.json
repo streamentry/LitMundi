@@ -1,0 +1,118 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "higuchi-takekurabe-vi-ai-2026",
+  "source_edition_id": "higuchi-takekurabe-ja-bungei-kurabu-1896",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct Japanese-to-Vietnamese comparison of all 45 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 0 major and 16 minor findings with a pre-revision weighted score of 8.85; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "f53eaab96312ef45160e782fcb927b5ee86774d9841a200c0c74b988babd6ab8",
+  "target_sha256": "c9076ecee20150be0973959439573e82a235aafc41fcb8c020632a105d72a1a0",
+  "segments_reviewed": [
+    "higuchi-growing-up:1.1",
+    "higuchi-growing-up:2.1",
+    "higuchi-growing-up:2.2",
+    "higuchi-growing-up:2.3",
+    "higuchi-growing-up:3.1",
+    "higuchi-growing-up:4.1",
+    "higuchi-growing-up:5.1",
+    "higuchi-growing-up:6.1",
+    "higuchi-growing-up:6.2",
+    "higuchi-growing-up:7.1",
+    "higuchi-growing-up:7.2",
+    "higuchi-growing-up:8.1",
+    "higuchi-growing-up:9.1",
+    "higuchi-growing-up:9.2",
+    "higuchi-growing-up:9.3",
+    "higuchi-growing-up:10.1",
+    "higuchi-growing-up:10.2",
+    "higuchi-growing-up:10.3",
+    "higuchi-growing-up:10.4",
+    "higuchi-growing-up:11.1",
+    "higuchi-growing-up:11.2",
+    "higuchi-growing-up:11.3",
+    "higuchi-growing-up:11.4",
+    "higuchi-growing-up:11.5",
+    "higuchi-growing-up:12.1",
+    "higuchi-growing-up:12.2",
+    "higuchi-growing-up:12.3",
+    "higuchi-growing-up:12.4",
+    "higuchi-growing-up:12.5",
+    "higuchi-growing-up:12.6",
+    "higuchi-growing-up:13.1",
+    "higuchi-growing-up:13.2",
+    "higuchi-growing-up:13.3",
+    "higuchi-growing-up:13.4",
+    "higuchi-growing-up:13.5",
+    "higuchi-growing-up:14.1",
+    "higuchi-growing-up:14.2",
+    "higuchi-growing-up:15.1",
+    "higuchi-growing-up:15.2",
+    "higuchi-growing-up:15.3",
+    "higuchi-growing-up:15.4",
+    "higuchi-growing-up:15.5",
+    "higuchi-growing-up:16.1",
+    "higuchi-growing-up:16.2",
+    "higuchi-growing-up:16.3"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 9,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 9
+  },
+  "findings": [
+    {
+      "segment": "higuchi-growing-up:4.1",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "罪の無き子 no longer the wrong idiom vô tội vạ."
+    },
+    {
+      "segment": "higuchi-growing-up:15.4",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Shōta comes to Midori’s pillow and puts his hands on his own knees; ‘knee’ and ‘thigh’ errors removed."
+    },
+    {
+      "segment": "higuchi-growing-up:14.1",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "華魁 as oiran, not hoa khôi, in Shōta’s line about Midori’s destiny; 寮, 萬燈, nicknames and colours unified across the drafting parts."
+    },
+    {
+      "segment": "higuchi-growing-up:1.1",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "茶屋が棧橋 as the plank bridges behind the teahouses; かわ色, 紙雛, 弓張提燈 and 學林 corrected or de-calqued."
+    },
+    {
+      "segment": "higuchi-growing-up:11.2",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Narration occasionally calls Midori cô rather than cô bé before her change."
+    }
+  ],
+  "summary": "Full assessment of all 45 Japanese/Vietnamese passages in sixteen chapters and both titles. The Daionji-mae streets, the children’s gangs and the festival brawl, Midori and Nobu’s estrangement, the rain and the broken thong, Midori’s change after the Tori-no-ichi and the paper narcissus are complete, with Ichiyō’s periods and embedded dialogue kept. The separate-context pass scored 8.85 with no major findings and sixteen minor ones, mostly cross-part consistency; those and the two meaning errors were revised. Fidelity, voice, imagery and mechanics are 9.0, naturalness 8.5. Unrounded weighted score 8.925 meets the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "たけくらべ",
+    "target_title": "Tuổi thơ so vai",
+    "rationale": "Tuổi thơ so vai keeps the image of children measuring themselves against each other and the loss of childhood that たけくらべ implies; Đọ chiều cao would read as the name of a game."
+  }
+}

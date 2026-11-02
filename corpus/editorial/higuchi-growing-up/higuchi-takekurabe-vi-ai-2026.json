@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "work_id": "higuchi-growing-up",
+  "edition_id": "higuchi-takekurabe-vi-ai-2026",
+  "source_edition_id": "higuchi-takekurabe-ja-bungei-kurabu-1896",
+  "title_vi": "Tuổi thơ so vai",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Dialogue",
+      "decision": "Dialogue stays embedded in the narration without quotation marks, and Ichiyō’s long comma-linked periods are kept.",
+      "rationale": "The run-on gabun is the work’s music."
+    },
+    {
+      "topic": "Registers",
+      "decision": "Chōkichi tao/mày; Nobu tớ/cậu; Shōta em/chị Midori with Midori and tao/mày only in his outburst; Midori tớ with friends and tôi/các người in the brawl.",
+      "rationale": "The children’s registers mark gang, class and feeling."
+    },
+    {
+      "topic": "Names",
+      "decision": "Narration uses Midori, Nobu and Shōta; the full name Fujimoto Nobuyuki appears at his introduction.",
+      "rationale": "Consistent across both drafting parts."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-higuchi-growing-up",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "higuchi-growing-up:4.1",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "罪の無き子 no longer the wrong idiom vô tội vạ."
+        },
+        {
+          "segment": "higuchi-growing-up:15.4",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Shōta comes to Midori’s pillow and puts his hands on his own knees; ‘knee’ and ‘thigh’ errors removed."
+        },
+        {
+          "segment": "higuchi-growing-up:14.1",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "華魁 as oiran, not hoa khôi, in Shōta’s line about Midori’s destiny; 寮, 萬燈, nicknames and colours unified across the drafting parts."
+        },
+        {
+          "segment": "higuchi-growing-up:1.1",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "茶屋が棧橋 as the plank bridges behind the teahouses; かわ色, 紙雛, 弓張提燈 and 學林 corrected or de-calqued."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "表町 / 横町",
+      "draft_rendering": "phe Phố Trước / phe Ngõ Bên",
+      "alternatives": [],
+      "rationale": "The two children’s gangs keep fixed names through the festival brawl and after.",
+      "passages": [
+        "higuchi-growing-up:2.2",
+        "higuchi-growing-up:5.1",
+        "higuchi-growing-up:10.1"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "紅入り友仙の切れ端 / 鼻緒 / 水仙の作り花",
+      "draft_rendering": "mảnh lụa yūzen điểm đỏ / quai guốc / bông thủy tiên giả",
+      "alternatives": [],
+      "rationale": "The three objects of the rain scene and the ending keep one name each.",
+      "passages": [
+        "higuchi-growing-up:12.1",
+        "higuchi-growing-up:13.2",
+        "higuchi-growing-up:16.3"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "華魁 / 寮",
+      "draft_rendering": "oiran / biệt trang",
+      "alternatives": [
+        "hoa khôi",
+        "biệt thự"
+      ],
+      "rationale": "Hoa khôi would read as ‘beauty queen’; Midori’s destiny depends on the word.",
+      "passages": [
+        "higuchi-growing-up:8.1",
+        "higuchi-growing-up:14.1",
+        "higuchi-growing-up:15.3"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Aozora Bunko transcription (card 55671, file 55671_64594) of the complete revised text as reprinted in 文藝倶樂部 第二卷第五編 (April 1896), in old kanji and kana. First serialised in 文學界, nos. 25–37 (January 1895 – January 1896); not collated. Aozora notes recording corrections of the base text are applied as transcribed.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "f53eaab96312ef45160e782fcb927b5ee86774d9841a200c0c74b988babd6ab8",
+  "target_sha256": "c9076ecee20150be0973959439573e82a235aafc41fcb8c020632a105d72a1a0",
+  "coverage": {
+    "canonical_passages": 45,
+    "translated_passages": 45,
+    "aligned_passages": 45
+  },
+  "ai_review_record": "corpus/reviews/higuchi-growing-up/higuchi-takekurabe-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "higuchi-growing-up:11.2",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Narration occasionally calls Midori cô rather than cô bé before her change."
+    }
+  ],
+  "title_review": {
+    "source_title": "たけくらべ",
+    "target_title": "Tuổi thơ so vai",
+    "rationale": "Tuổi thơ so vai keeps the image of children measuring themselves against each other and the loss of childhood that たけくらべ implies; Đọ chiều cao would read as the name of a game."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "higuchi-growing-up:1.1"
+      ],
+      "assessment": "Opening survey of the quarter keeps its irony."
+    },
+    {
+      "passages": [
+        "higuchi-growing-up:16.3"
+      ],
+      "assessment": "The paper narcissus ending kept quiet and exact."
+    }
+  ]
+}
