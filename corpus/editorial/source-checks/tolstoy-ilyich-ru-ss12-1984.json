@@ -375,7 +375,7 @@
   ],
   "witness_url": "https://ru.wikisource.org/wiki/%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D1%8C_%D0%98%D0%B2%D0%B0%D0%BD%D0%B0_%D0%98%D0%BB%D1%8C%D0%B8%D1%87%D0%B0_(%D0%A2%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%B9)",
   "witness_pages": [
-    "validated Wikisource Page namespace pages"
+    "Russian Wikisource main-namespace page «Смерть Ивана Ильича (Толстой)», revision 5726104 (marked 75%, proofread; not validated)"
   ],
   "notes": "Complete paragraph extraction and exact canonical comparison passed for 367/367 units after the stated normalization. Each source paragraph was also read for continuity, beginning/end boundaries and the translation assessment. This is an AI-assisted technical check of the identified electronic witness, not independent human review or a new physical-facsimile collation.",
   "normalization_decisions": [
@@ -384,6 +384,6 @@
     "Paragraphs split at blank lines; hard line wraps joined; non-breaking spaces normalised."
   ],
   "witness_extract_path": "corpus/editorial/source-witnesses/tolstoy-ilyich-ru-ss12-1984-extract-2026-11-03.json",
-  "witness_extract_sha256": "f206d3d9642880f11c22ee60c7deca82ec7d8f9048c2e84f2b36d67e83922bcd",
+  "witness_extract_sha256": "206ce82a5a71ea7e915c68d1ffb93d77c6fca63ed4bff920d852e720efa98f36",
   "access_method": "mediawiki_api"
 }

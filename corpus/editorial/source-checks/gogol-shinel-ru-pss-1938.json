@@ -43,7 +43,7 @@
   ],
   "witness_url": "https://ru.wikisource.org/wiki/%D0%A8%D0%B8%D0%BD%D0%B5%D0%BB%D1%8C_(%D0%93%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C)/%D0%9F%D0%A1%D0%A1_1938_(%D0%A1%D0%9E)",
   "witness_pages": [
-    "validated Wikisource Page namespace pages"
+    "Russian Wikisource main-namespace page «Шинель (Гоголь)/ПСС 1938 (СО)», revision 5631032 (marked quality 3, proofread; not validated)"
   ],
   "notes": "Complete paragraph extraction and exact canonical comparison passed for 35/35 units after the stated normalization. Each source paragraph was also read for continuity, beginning/end boundaries and the translation assessment. This is an AI-assisted technical check of the identified electronic witness, not independent human review or a new physical-facsimile collation.",
   "normalization_decisions": [
@@ -51,6 +51,6 @@
     "Paragraphs split at blank lines; non-breaking spaces normalised."
   ],
   "witness_extract_path": "corpus/editorial/source-witnesses/gogol-shinel-ru-pss-1938-extract-2026-11-02.json",
-  "witness_extract_sha256": "9d56d6960e66a4a65d29b92a5fbaa1d090ea37396537090f0f3f7674cea0a0e7",
+  "witness_extract_sha256": "06cced875f6fa5e01166efd67a313e8275bb31d931e35b0da83b1d4b17588128",
   "access_method": "mediawiki_api"
 }
