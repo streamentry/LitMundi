@@ -21,8 +21,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Machado de Assis — A Cartomante](corpus/editorial/machado-a-cartomante/machado-cartomante-vi-ai-2026.json) | Portuguese; Laemmert 1896, pp. 9–29 (Commons scan) | 58 | 8.975 (displayed 8.98) | AI-reviewed translation published |
 | [Rabindranath Tagore — পোস্ট্‌মাস্টার](corpus/editorial/tagore-postmaster/tagore-postmaster-vi-ai-2026.json) | Bengali; গল্পগুচ্ছ vol. 1 (Visva-Bharati) via validated Wikisource pages | 33 | 8.85 | AI-reviewed translation published |
 | [Horacio Quiroga — El almohadón de pluma](corpus/editorial/quiroga-feather-pillow/quiroga-almohadon-vi-ai-2026.json) | Spanish; Cuentos de amor de locura y de muerte 1917, Gutenberg #13507 | 30 | 8.975 (displayed 8.98) | AI-reviewed translation published |
+| [Anton Chekhov — Дама с собачкой](corpus/editorial/chekhov-lady-with-dog/chekhov-dama-vi-ai-2026.json) | Russian; academic ПСС vol. 10 via Russian Wikisource | 128 | 8.975 (displayed 8.98) | AI-reviewed translation published |
 
-All eleven originals are published, giving twenty-two public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All twelve originals are published, giving twenty-four public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

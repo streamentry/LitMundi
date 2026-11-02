@@ -1518,5 +1518,128 @@
       "human_contributors": [],
       "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
+  },
+  {
+    "id": "chekhov-dama-ru-pss-1977",
+    "work_id": "chekhov-lady-with-dog",
+    "language": "ru",
+    "title": "Дама с собачкой",
+    "kind": "source",
+    "status": "published",
+    "label": "Дама с собачкой · Русский, ПСС в 30 т., т. 10",
+    "content_path": "corpus/segments/chekhov-lady-with-dog/chekhov-dama-ru-pss-1977.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "А. П. Чехов, «Дама с собачкой», Полное собрание сочинений и писем в тридцати томах, Сочинения, т. 10 (Москва: Наука), с. 128–143. Russian Wikisource transcription (revision 5736015) via the Фундаментальная электронная библиотека. First published in Русская мысль, 1899, no. 12.",
+      "catalog_url": "https://ru.wikisource.org/wiki/%D0%94%D0%B0%D0%BC%D0%B0_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)",
+      "text_url": "https://ru.wikisource.org/wiki/%D0%94%D0%B0%D0%BC%D0%B0_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)",
+      "retrieved_at": "2026-11-02",
+      "source_witness": "Complete chapters I–IV of the Russian Wikisource page «Дама с собачкой (Чехов)», revision 5736015 (quality 100%). No claim of a newly inspected printed copy."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Anton Chekhov text)",
+      "basis": "Term-based assessment on 2026-11-02. Chekhov died in 1904; the Russian life-plus-70 term and Vietnam’s life-plus-50 term have long expired. First publication in 1899 is beyond the US 95-year maximum. Only Chekhov’s text is reused; the academic edition’s commentary, apparatus and Wikisource notes are excluded, and modern orthography is treated as non-creative normalisation. Wikisource marks the text PD-old-70. This is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "RU",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://ru.wikisource.org/wiki/%D0%94%D0%B0%D0%BC%D0%B0_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)",
+        "http://feb-web.ru/feb/chekhov/texts/sp0/spa/Spa-128-.htm",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Anton Chekhov",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://ru.wikisource.org/wiki/%D0%94%D0%B0%D0%BC%D0%B0_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/chekhov-dama-ru-pss-1977.json"
+      ],
+      "notes": "Technical extraction and complete AI-assisted paragraph comparison cover all 128 canonical units. Source-check metadata records exact hashes, witness boundaries, normalization and access limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "chekhov-dama-vi-ai-2026",
+    "work_id": "chekhov-lady-with-dog",
+    "language": "vi",
+    "title": "Người đàn bà có con chó nhỏ",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/chekhov-lady-with-dog/chekhov-dama-vi-ai-2026.json",
+    "source_edition_id": "chekhov-dama-ru-pss-1977",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified Russian source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-02",
+      "source_witness": "chekhov-dama-ru-pss-1977"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "RU",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/consumer-terms",
+        "https://ru.wikisource.org/wiki/%D0%94%D0%B0%D0%BC%D0%B0_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_(%D0%A7%D0%B5%D1%85%D0%BE%D0%B2)",
+        "http://feb-web.ru/feb/chekhov/texts/sp0/spa/Spa-128-.htm",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Anton Chekhov",
+      "translator": "LitMundi AI translation (Claude)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.98,
+      "record_paths": [
+        "corpus/reviews/chekhov-lady-with-dog/chekhov-dama-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/chekhov-lady-with-dog/chekhov-dama-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "notes": "Complete AI literary assessment: unrounded weighted score 8.975/10, threshold 8.6. All 128 source/target passages and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment is disclosed; an independent-context AI pass from the same model family supplied findings, which is not human certification or model diversity. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "Claude Opus 5.5 (Anthropic) — AI translation, literary revision and assessment"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
   }
 ]
