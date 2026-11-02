@@ -12,6 +12,7 @@ import json
 import pathlib
 import subprocess
 import sys
+import unicodedata
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 FONTS = ROOT / 'scripts/fonts'
@@ -31,7 +32,9 @@ def main(pairs):
         if lang not in UPSTREAM:
             sys.exit(f'No upstream font configured for {lang}')
         titles = [w['title'] for w in works if w['original_language'] == lang]
-        chars = sorted({c for t in titles for c in t if ord(c) > 0x7E})
+        # Shapers may decompose a character (Bengali \u09cb -> \u09c7 + \u09be),
+        # so keep the canonical decomposition of every title character too.
+        chars = sorted({c for t in titles for c in t + unicodedata.normalize('NFD', t) if ord(c) > 0x7E})
         output = FONTS / f'social-{lang}{pathlib.Path(upstream).suffix}'
         subprocess.run([
             sys.executable, '-m', 'fontTools.subset', upstream,
