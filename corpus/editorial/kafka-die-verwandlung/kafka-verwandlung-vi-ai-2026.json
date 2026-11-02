@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "work_id": "kafka-die-verwandlung",
+  "edition_id": "kafka-verwandlung-vi-ai-2026",
+  "source_edition_id": "kafka-verwandlung-de-wolff-1917",
+  "title_vi": "Hóa thân",
+  "translation_direction": "de → vi; direct from the specifically identified complete German electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Address",
+      "decision": "Narration: chàng for Gregor, người cha / người mẹ; Gregor’s inner speech mình, tôi aloud to the chief clerk, con to his parents; the family uses bố/mẹ/con and Grete anh/em.",
+      "rationale": "Standardised across three separately drafted parts."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-kafka-die-verwandlung",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "kafka-die-verwandlung:3.25",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Grete’s pronoun shift for Gregor (es → er in ‘er fängt schon wieder an’ and over the corpse in 3.31) had been flattened to nó; now anh ấy where she says er, nó where she says es."
+        },
+        {
+          "segment": "kafka-die-verwandlung:2.2",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Cross-part consistency: tàu điện (2.2/3.38); the father’s self-reference bố (2.29); Kommis as nhân viên bán hàng (3.7)."
+        },
+        {
+          "segment": "kafka-die-verwandlung:2.28",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Grete’s ‘Du, Gregor!’ restored as a threat (Anh… Gregor!); the mother’s ‘Mọi người’ (2.19); Endlich as Thế là xong! (3.28)."
+        },
+        {
+          "segment": "kafka-die-verwandlung:1.5",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Calques fixed: der große Schnitt (1.5), verfolgen (1.18), sich aussöhnen (3.9), Doppelkinn (2.29), Dienermütze (3.19); the lieutenant’s quân phục (1.26); German-style ‘–,’ punctuation removed."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Ungeziefer / Untier / Tier / Mistkäfer",
+      "draft_rendering": "con sâu bọ khổng lồ / con quái vật / con vật / con bọ hung",
+      "alternatives": [],
+      "rationale": "Distinct words for Kafka’s distinct terms, never conflated.",
+      "passages": [
+        "kafka-die-verwandlung:1.1",
+        "kafka-die-verwandlung:3.17",
+        "kafka-die-verwandlung:3.8"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "es / er (Grete about Gregor)",
+      "draft_rendering": "nó / anh ấy",
+      "alternatives": [],
+      "rationale": "Grete’s deliberate shift from es to er, and back to er over the corpse, is mirrored.",
+      "passages": [
+        "kafka-die-verwandlung:3.17",
+        "kafka-die-verwandlung:3.20",
+        "kafka-die-verwandlung:3.25",
+        "kafka-die-verwandlung:3.31"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Prokurist / Bedienerin / Zimmerherren / Kanapee / Sofa",
+      "draft_rendering": "ông chánh văn phòng / bà giúp việc / ba ông thuê trọ / ghế xô-pha / đi-văng",
+      "alternatives": [],
+      "rationale": "Fixed across the three parts.",
+      "passages": [
+        "kafka-die-verwandlung:1.13",
+        "kafka-die-verwandlung:2.15",
+        "kafka-die-verwandlung:3.6"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Uniform / Livree",
+      "draft_rendering": "đồng phục (father) / chế phục; quân phục for the lieutenant",
+      "alternatives": [],
+      "rationale": "Keeps Kafka’s military/servile and Uniform/Livree distinctions.",
+      "passages": [
+        "kafka-die-verwandlung:1.26",
+        "kafka-die-verwandlung:2.29",
+        "kafka-die-verwandlung:3.12"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete text of Die Verwandlung (Leipzig: Kurt Wolff Verlag, 1917; Der jüngste Tag 22/23) as transcribed in Project Gutenberg #22367. First published in Die weißen Blätter, October 1915, and as a book in 1915; not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "f5ffa5925f501e1e0a0c24ccf9219a4ccd7426fe9bbbd9cda778beccfbe5c205",
+  "target_sha256": "ecb056f590103d63c6d6355cdc998035e1bdbd5daddd3b04d3894775b1eff599",
+  "coverage": {
+    "canonical_passages": 97,
+    "translated_passages": 97,
+    "aligned_passages": 97
+  },
+  "ai_review_record": "corpus/reviews/kafka-die-verwandlung/kafka-verwandlung-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "kafka-die-verwandlung:3.28",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Endlich! as Thế là xong! keeps the release but loses some of the sense of ‘at last’."
+    }
+  ],
+  "title_review": {
+    "source_title": "Die Verwandlung",
+    "target_title": "Hóa thân",
+    "rationale": "Hóa thân is the established, sober Vietnamese title and matches cuộc hóa thân in the text; it avoids the more sensational Biến dạng."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "kafka-die-verwandlung:1.1",
+        "kafka-die-verwandlung:1.2",
+        "kafka-die-verwandlung:1.3",
+        "kafka-die-verwandlung:1.4",
+        "kafka-die-verwandlung:1.5",
+        "kafka-die-verwandlung:1.6",
+        "kafka-die-verwandlung:1.7",
+        "kafka-die-verwandlung:1.8",
+        "kafka-die-verwandlung:1.9",
+        "kafka-die-verwandlung:1.10",
+        "kafka-die-verwandlung:1.11",
+        "kafka-die-verwandlung:1.12",
+        "kafka-die-verwandlung:1.13",
+        "kafka-die-verwandlung:1.14",
+        "kafka-die-verwandlung:1.15",
+        "kafka-die-verwandlung:1.16",
+        "kafka-die-verwandlung:1.17",
+        "kafka-die-verwandlung:1.18",
+        "kafka-die-verwandlung:1.19",
+        "kafka-die-verwandlung:1.20",
+        "kafka-die-verwandlung:1.21",
+        "kafka-die-verwandlung:1.22",
+        "kafka-die-verwandlung:1.23",
+        "kafka-die-verwandlung:1.24",
+        "kafka-die-verwandlung:1.25",
+        "kafka-die-verwandlung:1.26",
+        "kafka-die-verwandlung:1.27",
+        "kafka-die-verwandlung:1.28",
+        "kafka-die-verwandlung:1.29",
+        "kafka-die-verwandlung:1.30"
+      ],
+      "assessment": "Compared part I: the waking, the chief clerk and the father’s driving Gregor back."
+    },
+    {
+      "passages": [
+        "kafka-die-verwandlung:2.1",
+        "kafka-die-verwandlung:2.2",
+        "kafka-die-verwandlung:2.3",
+        "kafka-die-verwandlung:2.4",
+        "kafka-die-verwandlung:2.5",
+        "kafka-die-verwandlung:2.6",
+        "kafka-die-verwandlung:2.7",
+        "kafka-die-verwandlung:2.8",
+        "kafka-die-verwandlung:2.9",
+        "kafka-die-verwandlung:2.10",
+        "kafka-die-verwandlung:2.11",
+        "kafka-die-verwandlung:2.12",
+        "kafka-die-verwandlung:2.13",
+        "kafka-die-verwandlung:2.14",
+        "kafka-die-verwandlung:2.15",
+        "kafka-die-verwandlung:2.16",
+        "kafka-die-verwandlung:2.17",
+        "kafka-die-verwandlung:2.18",
+        "kafka-die-verwandlung:2.19",
+        "kafka-die-verwandlung:2.20",
+        "kafka-die-verwandlung:2.21",
+        "kafka-die-verwandlung:2.22",
+        "kafka-die-verwandlung:2.23",
+        "kafka-die-verwandlung:2.24",
+        "kafka-die-verwandlung:2.25",
+        "kafka-die-verwandlung:2.26",
+        "kafka-die-verwandlung:2.27",
+        "kafka-die-verwandlung:2.28",
+        "kafka-die-verwandlung:2.29"
+      ],
+      "assessment": "Compared part II: feeding, the furniture, the picture and the apple."
+    },
+    {
+      "passages": [
+        "kafka-die-verwandlung:3.1",
+        "kafka-die-verwandlung:3.2",
+        "kafka-die-verwandlung:3.3",
+        "kafka-die-verwandlung:3.4",
+        "kafka-die-verwandlung:3.5",
+        "kafka-die-verwandlung:3.6",
+        "kafka-die-verwandlung:3.7",
+        "kafka-die-verwandlung:3.8",
+        "kafka-die-verwandlung:3.9",
+        "kafka-die-verwandlung:3.10",
+        "kafka-die-verwandlung:3.11",
+        "kafka-die-verwandlung:3.12",
+        "kafka-die-verwandlung:3.13",
+        "kafka-die-verwandlung:3.14",
+        "kafka-die-verwandlung:3.15",
+        "kafka-die-verwandlung:3.16",
+        "kafka-die-verwandlung:3.17",
+        "kafka-die-verwandlung:3.18",
+        "kafka-die-verwandlung:3.19",
+        "kafka-die-verwandlung:3.20",
+        "kafka-die-verwandlung:3.21",
+        "kafka-die-verwandlung:3.22",
+        "kafka-die-verwandlung:3.23",
+        "kafka-die-verwandlung:3.24",
+        "kafka-die-verwandlung:3.25",
+        "kafka-die-verwandlung:3.26",
+        "kafka-die-verwandlung:3.27",
+        "kafka-die-verwandlung:3.28",
+        "kafka-die-verwandlung:3.29",
+        "kafka-die-verwandlung:3.30",
+        "kafka-die-verwandlung:3.31",
+        "kafka-die-verwandlung:3.32",
+        "kafka-die-verwandlung:3.33",
+        "kafka-die-verwandlung:3.34",
+        "kafka-die-verwandlung:3.35",
+        "kafka-die-verwandlung:3.36",
+        "kafka-die-verwandlung:3.37",
+        "kafka-die-verwandlung:3.38"
+      ],
+      "assessment": "Compared part III: the lodgers, the violin, the verdict, the death and the ending."
+    }
+  ]
+}
