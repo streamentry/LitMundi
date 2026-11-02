@@ -1,0 +1,1232 @@
+{
+  "schema_version": 1,
+  "work_id": "miyazawa-restaurant-orders",
+  "edition_id": "miyazawa-chumon-vi-ai-2026",
+  "source_edition_id": "miyazawa-chumon-ja-chikuma-1986",
+  "links": [
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.1"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.1"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.2"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.2"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.3"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.3"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.4"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.4"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.5"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.5"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.6"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.6"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.7"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.7"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.8"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.8"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.9"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.9"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.10"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.10"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.11"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.11"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.12"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.12"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.13"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.13"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.14"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.14"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.15"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.15"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.16"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.16"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.17"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.17"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.18"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.18"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.19"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.19"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.20"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.20"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.21"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.21"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.22"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.22"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.23"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.23"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.24"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.24"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.25"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.25"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.26"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.26"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.27"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.27"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.28"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.28"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.29"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.29"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.30"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.30"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.31"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.31"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.32"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.32"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.33"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.33"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.34"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.34"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.35"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.35"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.36"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.36"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.37"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.37"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.38"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.38"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.39"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.39"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.40"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.40"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.41"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.41"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.42"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.42"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.43"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.43"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.44"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.44"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.45"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.45"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.46"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.46"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.47"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.47"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.48"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.48"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.49"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.49"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.50"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.50"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.51"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.51"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.52"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.52"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.53"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.53"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.54"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.54"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.55"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.55"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.56"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.56"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.57"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.57"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.58"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.58"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.59"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.59"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.60"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.60"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.61"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.61"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.62"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.62"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.63"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.63"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.64"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.64"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.65"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.65"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.66"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.66"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.67"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.67"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.68"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.68"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.69"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.69"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.70"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.70"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.71"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.71"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.72"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.72"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.73"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.73"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.74"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.74"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.75"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.75"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.76"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.76"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.77"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.77"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.78"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.78"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.79"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.79"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.80"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.80"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.81"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.81"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.82"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.82"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.83"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.83"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.84"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.84"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.85"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.85"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.86"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.86"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.87"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.87"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.88"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.88"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.89"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.89"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.90"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.90"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.91"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.91"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.92"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.92"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.93"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.93"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.94"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.94"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.95"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.95"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.96"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.96"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.97"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.97"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.98"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.98"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.99"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.99"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.100"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.100"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.101"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.101"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.102"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.102"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.103"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.103"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.104"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.104"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.105"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.105"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.106"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.106"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.107"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.107"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.108"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.108"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.109"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.109"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.110"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.110"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.111"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.111"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.112"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.112"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.113"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.113"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.114"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.114"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.115"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.115"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.116"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.116"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.117"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.117"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.118"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.118"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.119"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.119"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.120"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.120"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.121"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.121"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.122"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.122"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.123"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.123"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.124"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.124"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.125"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.125"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.126"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.126"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.127"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.127"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.128"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.128"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.129"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.129"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.130"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.130"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.131"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.131"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.132"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.132"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.133"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.133"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.134"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.134"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.135"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.135"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.136"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.136"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.137"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.137"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.138"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.138"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.139"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.139"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.140"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.140"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.141"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.141"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.142"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.142"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.143"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.143"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.144"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.144"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.145"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.145"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.146"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.146"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.147"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.147"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.148"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.148"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.149"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.149"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.150"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.150"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.151"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.151"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.152"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.152"
+      ]
+    },
+    {
+      "source": [
+        "miyazawa-restaurant-orders:1.153"
+      ],
+      "target": [
+        "miyazawa-restaurant-orders:1.153"
+      ]
+    }
+  ]
+}

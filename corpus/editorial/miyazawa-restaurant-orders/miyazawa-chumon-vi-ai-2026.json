@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "work_id": "miyazawa-restaurant-orders",
+  "edition_id": "miyazawa-chumon-vi-ai-2026",
+  "source_edition_id": "miyazawa-chumon-ja-chikuma-1986",
+  "title_vi": "Nhà hàng nhiều yêu cầu",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "The gentlemen’s smug citified banter, the cats’ underling speech (đại ca, ông chủ) and the narrator’s asides to the reader (các bạn biết sao không?) are kept distinct.",
+      "rationale": "The comedy depends on register."
+    },
+    {
+      "topic": "Onomatopoeia",
+      "decision": "Japanese sound words rendered with lively Vietnamese equivalents rather than transliteration.",
+      "rationale": "Read-aloud quality for readers of any age."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-miyazawa-restaurant-orders",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "miyazawa-restaurant-orders:1.75",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "An invented ‘barefoot’ contradicted the later removal of the socks (1.90); removed, and the revised text passed a fresh separate-context re-assessment."
+        },
+        {
+          "segment": "miyazawa-restaurant-orders:1.120",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "大へん結構にできました now also reads as ‘you have been prepared nicely’; お気の毒でした keeps its polite surface (1.108)."
+        },
+        {
+          "segment": "miyazawa-restaurant-orders:1.109",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Salting and sprinkling verbs unified; the ‘as much as ten yen’ brag restored for its payoff; misreadings in 1.8, 1.69, 1.90 and several calques corrected; onomatopoeia and ellipses revised."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "注文",
+      "draft_rendering": "yêu cầu",
+      "alternatives": [
+        "đòi hỏi",
+        "món gọi"
+      ],
+      "rationale": "Holds both readings — the customers’ orders and the restaurant’s demands — so the gentlemen’s misreading and the reveal both work.",
+      "passages": [
+        "miyazawa-restaurant-orders:1.46",
+        "miyazawa-restaurant-orders:1.52",
+        "miyazawa-restaurant-orders:1.114"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "door notices",
+      "draft_rendering": "polite restaurant Vietnamese with a second, sinister reading",
+      "alternatives": [],
+      "rationale": "Each notice must read innocently first and fatally on reflection.",
+      "passages": [
+        "miyazawa-restaurant-orders:1.38",
+        "miyazawa-restaurant-orders:1.50",
+        "miyazawa-restaurant-orders:1.108",
+        "miyazawa-restaurant-orders:1.120",
+        "miyazawa-restaurant-orders:1.121"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "もみ込む / 振りかける",
+      "draft_rendering": "xát muối / vẩy",
+      "alternatives": [],
+      "rationale": "One verb each, so the cats’ link between the gentlemen and the salted greens holds.",
+      "passages": [
+        "miyazawa-restaurant-orders:1.100",
+        "miyazawa-restaurant-orders:1.109",
+        "miyazawa-restaurant-orders:1.131"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Aozora Bunko transcription (card 1927, file 1927_17906) of 宮沢賢治全集8 (ちくま文庫, 1986), in new kanji and historical kana. First published in the story collection イーハトヴ童話 注文の多い料理店 (杜陵出版部・東京光原社, December 1924); not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "62faa1be93265a30ec5d713b76e19132a7b5111c7aa1ee19f2a7ee13fd75d3fa",
+  "target_sha256": "8f8bee6bf27ce8d54c6cb6ad9f89f7504ed789863c0b2c5a5f0667f12a7271a9",
+  "coverage": {
+    "canonical_passages": 153,
+    "translated_passages": 153,
+    "aligned_passages": 153
+  },
+  "ai_review_record": "corpus/reviews/miyazawa-restaurant-orders/miyazawa-chumon-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "miyazawa-restaurant-orders:1.121",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "おなかにおはひりください keeps only the sinister ‘into the belly’ reading; the ‘come inside’ pun is lost."
+    }
+  ],
+  "title_review": {
+    "source_title": "注文の多い料理店",
+    "target_title": "Nhà hàng nhiều yêu cầu",
+    "rationale": "Nhà hàng nhiều yêu cầu matches the sign in the story word for word and keeps both readings of 注文."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "miyazawa-restaurant-orders:1.21",
+        "miyazawa-restaurant-orders:1.22",
+        "miyazawa-restaurant-orders:1.23",
+        "miyazawa-restaurant-orders:1.24",
+        "miyazawa-restaurant-orders:1.25",
+        "miyazawa-restaurant-orders:1.26"
+      ],
+      "assessment": "Restaurant sign layout preserved."
+    },
+    {
+      "passages": [
+        "miyazawa-restaurant-orders:1.133",
+        "miyazawa-restaurant-orders:1.153"
+      ],
+      "assessment": "The crumpled faces at the end keep the deadpan."
+    }
+  ]
+}

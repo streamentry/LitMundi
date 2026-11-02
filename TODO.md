@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 38 published · 236 todo · 0 in progress · 226 on hold.**
+**500 selected works · 39 published · 235 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -70,7 +70,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 ## 51–100
 
 - [ ] **051. Oscar Wilde — The Picture of Dorian Gray** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/174)
-- [ ] **052. Kenji Miyazawa — The Restaurant of Many Orders** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person81.html)
+- [x] **052. Kenji Miyazawa — The Restaurant of Many Orders** · ja · short story · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person81.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/miyazawa-restaurant-orders/miyazawa-chumon-vi-ai-2026/)
 - [ ] **053. Oscar Wilde — The Importance of Being Earnest** · en · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/844)
 - [ ] **054. Rabindranath Tagore — The Home and the World** · bn · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/54667/rabindranath-tagore/)
 - [ ] **055. H. G. Wells — The Time Machine** · en · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/35)
