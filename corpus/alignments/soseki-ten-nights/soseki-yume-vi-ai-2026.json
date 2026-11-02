@@ -1,0 +1,1424 @@
+{
+  "schema_version": 1,
+  "work_id": "soseki-ten-nights",
+  "edition_id": "soseki-yume-vi-ai-2026",
+  "source_edition_id": "soseki-yume-ja-chikuma-1988",
+  "links": [
+    {
+      "source": [
+        "soseki-ten-nights:1.1"
+      ],
+      "target": [
+        "soseki-ten-nights:1.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.2"
+      ],
+      "target": [
+        "soseki-ten-nights:1.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.3"
+      ],
+      "target": [
+        "soseki-ten-nights:1.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.4"
+      ],
+      "target": [
+        "soseki-ten-nights:1.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.5"
+      ],
+      "target": [
+        "soseki-ten-nights:1.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.6"
+      ],
+      "target": [
+        "soseki-ten-nights:1.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.7"
+      ],
+      "target": [
+        "soseki-ten-nights:1.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.8"
+      ],
+      "target": [
+        "soseki-ten-nights:1.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.9"
+      ],
+      "target": [
+        "soseki-ten-nights:1.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.10"
+      ],
+      "target": [
+        "soseki-ten-nights:1.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.11"
+      ],
+      "target": [
+        "soseki-ten-nights:1.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.12"
+      ],
+      "target": [
+        "soseki-ten-nights:1.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.13"
+      ],
+      "target": [
+        "soseki-ten-nights:1.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.14"
+      ],
+      "target": [
+        "soseki-ten-nights:1.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.15"
+      ],
+      "target": [
+        "soseki-ten-nights:1.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.16"
+      ],
+      "target": [
+        "soseki-ten-nights:1.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.17"
+      ],
+      "target": [
+        "soseki-ten-nights:1.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.18"
+      ],
+      "target": [
+        "soseki-ten-nights:1.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:1.19"
+      ],
+      "target": [
+        "soseki-ten-nights:1.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.1"
+      ],
+      "target": [
+        "soseki-ten-nights:2.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.2"
+      ],
+      "target": [
+        "soseki-ten-nights:2.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.3"
+      ],
+      "target": [
+        "soseki-ten-nights:2.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.4"
+      ],
+      "target": [
+        "soseki-ten-nights:2.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.5"
+      ],
+      "target": [
+        "soseki-ten-nights:2.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.6"
+      ],
+      "target": [
+        "soseki-ten-nights:2.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.7"
+      ],
+      "target": [
+        "soseki-ten-nights:2.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.8"
+      ],
+      "target": [
+        "soseki-ten-nights:2.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.9"
+      ],
+      "target": [
+        "soseki-ten-nights:2.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.10"
+      ],
+      "target": [
+        "soseki-ten-nights:2.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.11"
+      ],
+      "target": [
+        "soseki-ten-nights:2.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.12"
+      ],
+      "target": [
+        "soseki-ten-nights:2.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.13"
+      ],
+      "target": [
+        "soseki-ten-nights:2.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.14"
+      ],
+      "target": [
+        "soseki-ten-nights:2.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:2.15"
+      ],
+      "target": [
+        "soseki-ten-nights:2.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.1"
+      ],
+      "target": [
+        "soseki-ten-nights:3.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.2"
+      ],
+      "target": [
+        "soseki-ten-nights:3.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.3"
+      ],
+      "target": [
+        "soseki-ten-nights:3.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.4"
+      ],
+      "target": [
+        "soseki-ten-nights:3.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.5"
+      ],
+      "target": [
+        "soseki-ten-nights:3.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.6"
+      ],
+      "target": [
+        "soseki-ten-nights:3.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.7"
+      ],
+      "target": [
+        "soseki-ten-nights:3.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.8"
+      ],
+      "target": [
+        "soseki-ten-nights:3.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.9"
+      ],
+      "target": [
+        "soseki-ten-nights:3.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.10"
+      ],
+      "target": [
+        "soseki-ten-nights:3.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.11"
+      ],
+      "target": [
+        "soseki-ten-nights:3.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.12"
+      ],
+      "target": [
+        "soseki-ten-nights:3.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.13"
+      ],
+      "target": [
+        "soseki-ten-nights:3.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.14"
+      ],
+      "target": [
+        "soseki-ten-nights:3.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.15"
+      ],
+      "target": [
+        "soseki-ten-nights:3.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.16"
+      ],
+      "target": [
+        "soseki-ten-nights:3.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.17"
+      ],
+      "target": [
+        "soseki-ten-nights:3.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.18"
+      ],
+      "target": [
+        "soseki-ten-nights:3.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.19"
+      ],
+      "target": [
+        "soseki-ten-nights:3.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.20"
+      ],
+      "target": [
+        "soseki-ten-nights:3.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.21"
+      ],
+      "target": [
+        "soseki-ten-nights:3.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.22"
+      ],
+      "target": [
+        "soseki-ten-nights:3.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.23"
+      ],
+      "target": [
+        "soseki-ten-nights:3.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.24"
+      ],
+      "target": [
+        "soseki-ten-nights:3.24"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.25"
+      ],
+      "target": [
+        "soseki-ten-nights:3.25"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.26"
+      ],
+      "target": [
+        "soseki-ten-nights:3.26"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.27"
+      ],
+      "target": [
+        "soseki-ten-nights:3.27"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.28"
+      ],
+      "target": [
+        "soseki-ten-nights:3.28"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.29"
+      ],
+      "target": [
+        "soseki-ten-nights:3.29"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.30"
+      ],
+      "target": [
+        "soseki-ten-nights:3.30"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.31"
+      ],
+      "target": [
+        "soseki-ten-nights:3.31"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.32"
+      ],
+      "target": [
+        "soseki-ten-nights:3.32"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.33"
+      ],
+      "target": [
+        "soseki-ten-nights:3.33"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:3.34"
+      ],
+      "target": [
+        "soseki-ten-nights:3.34"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.1"
+      ],
+      "target": [
+        "soseki-ten-nights:4.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.2"
+      ],
+      "target": [
+        "soseki-ten-nights:4.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.3"
+      ],
+      "target": [
+        "soseki-ten-nights:4.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.4"
+      ],
+      "target": [
+        "soseki-ten-nights:4.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.5"
+      ],
+      "target": [
+        "soseki-ten-nights:4.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.6"
+      ],
+      "target": [
+        "soseki-ten-nights:4.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.7"
+      ],
+      "target": [
+        "soseki-ten-nights:4.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.8"
+      ],
+      "target": [
+        "soseki-ten-nights:4.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.9"
+      ],
+      "target": [
+        "soseki-ten-nights:4.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.10"
+      ],
+      "target": [
+        "soseki-ten-nights:4.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.11"
+      ],
+      "target": [
+        "soseki-ten-nights:4.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.12"
+      ],
+      "target": [
+        "soseki-ten-nights:4.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.13"
+      ],
+      "target": [
+        "soseki-ten-nights:4.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.14"
+      ],
+      "target": [
+        "soseki-ten-nights:4.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.15"
+      ],
+      "target": [
+        "soseki-ten-nights:4.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.16"
+      ],
+      "target": [
+        "soseki-ten-nights:4.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.17"
+      ],
+      "target": [
+        "soseki-ten-nights:4.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.18"
+      ],
+      "target": [
+        "soseki-ten-nights:4.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.19"
+      ],
+      "target": [
+        "soseki-ten-nights:4.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.20"
+      ],
+      "target": [
+        "soseki-ten-nights:4.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.21"
+      ],
+      "target": [
+        "soseki-ten-nights:4.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.22"
+      ],
+      "target": [
+        "soseki-ten-nights:4.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.23"
+      ],
+      "target": [
+        "soseki-ten-nights:4.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:4.24"
+      ],
+      "target": [
+        "soseki-ten-nights:4.24"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.1"
+      ],
+      "target": [
+        "soseki-ten-nights:5.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.2"
+      ],
+      "target": [
+        "soseki-ten-nights:5.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.3"
+      ],
+      "target": [
+        "soseki-ten-nights:5.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.4"
+      ],
+      "target": [
+        "soseki-ten-nights:5.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.5"
+      ],
+      "target": [
+        "soseki-ten-nights:5.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.6"
+      ],
+      "target": [
+        "soseki-ten-nights:5.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.7"
+      ],
+      "target": [
+        "soseki-ten-nights:5.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.8"
+      ],
+      "target": [
+        "soseki-ten-nights:5.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.9"
+      ],
+      "target": [
+        "soseki-ten-nights:5.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.10"
+      ],
+      "target": [
+        "soseki-ten-nights:5.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.11"
+      ],
+      "target": [
+        "soseki-ten-nights:5.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.12"
+      ],
+      "target": [
+        "soseki-ten-nights:5.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.13"
+      ],
+      "target": [
+        "soseki-ten-nights:5.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:5.14"
+      ],
+      "target": [
+        "soseki-ten-nights:5.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.1"
+      ],
+      "target": [
+        "soseki-ten-nights:6.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.2"
+      ],
+      "target": [
+        "soseki-ten-nights:6.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.3"
+      ],
+      "target": [
+        "soseki-ten-nights:6.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.4"
+      ],
+      "target": [
+        "soseki-ten-nights:6.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.5"
+      ],
+      "target": [
+        "soseki-ten-nights:6.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.6"
+      ],
+      "target": [
+        "soseki-ten-nights:6.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.7"
+      ],
+      "target": [
+        "soseki-ten-nights:6.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.8"
+      ],
+      "target": [
+        "soseki-ten-nights:6.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.9"
+      ],
+      "target": [
+        "soseki-ten-nights:6.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.10"
+      ],
+      "target": [
+        "soseki-ten-nights:6.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.11"
+      ],
+      "target": [
+        "soseki-ten-nights:6.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.12"
+      ],
+      "target": [
+        "soseki-ten-nights:6.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.13"
+      ],
+      "target": [
+        "soseki-ten-nights:6.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.14"
+      ],
+      "target": [
+        "soseki-ten-nights:6.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.15"
+      ],
+      "target": [
+        "soseki-ten-nights:6.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.16"
+      ],
+      "target": [
+        "soseki-ten-nights:6.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.17"
+      ],
+      "target": [
+        "soseki-ten-nights:6.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.18"
+      ],
+      "target": [
+        "soseki-ten-nights:6.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:6.19"
+      ],
+      "target": [
+        "soseki-ten-nights:6.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.1"
+      ],
+      "target": [
+        "soseki-ten-nights:7.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.2"
+      ],
+      "target": [
+        "soseki-ten-nights:7.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.3"
+      ],
+      "target": [
+        "soseki-ten-nights:7.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.4"
+      ],
+      "target": [
+        "soseki-ten-nights:7.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.5"
+      ],
+      "target": [
+        "soseki-ten-nights:7.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.6"
+      ],
+      "target": [
+        "soseki-ten-nights:7.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.7"
+      ],
+      "target": [
+        "soseki-ten-nights:7.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.8"
+      ],
+      "target": [
+        "soseki-ten-nights:7.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.9"
+      ],
+      "target": [
+        "soseki-ten-nights:7.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.10"
+      ],
+      "target": [
+        "soseki-ten-nights:7.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.11"
+      ],
+      "target": [
+        "soseki-ten-nights:7.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.12"
+      ],
+      "target": [
+        "soseki-ten-nights:7.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.13"
+      ],
+      "target": [
+        "soseki-ten-nights:7.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.14"
+      ],
+      "target": [
+        "soseki-ten-nights:7.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:7.15"
+      ],
+      "target": [
+        "soseki-ten-nights:7.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.1"
+      ],
+      "target": [
+        "soseki-ten-nights:8.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.2"
+      ],
+      "target": [
+        "soseki-ten-nights:8.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.3"
+      ],
+      "target": [
+        "soseki-ten-nights:8.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.4"
+      ],
+      "target": [
+        "soseki-ten-nights:8.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.5"
+      ],
+      "target": [
+        "soseki-ten-nights:8.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.6"
+      ],
+      "target": [
+        "soseki-ten-nights:8.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.7"
+      ],
+      "target": [
+        "soseki-ten-nights:8.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.8"
+      ],
+      "target": [
+        "soseki-ten-nights:8.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.9"
+      ],
+      "target": [
+        "soseki-ten-nights:8.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.10"
+      ],
+      "target": [
+        "soseki-ten-nights:8.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.11"
+      ],
+      "target": [
+        "soseki-ten-nights:8.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.12"
+      ],
+      "target": [
+        "soseki-ten-nights:8.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.13"
+      ],
+      "target": [
+        "soseki-ten-nights:8.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.14"
+      ],
+      "target": [
+        "soseki-ten-nights:8.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:8.15"
+      ],
+      "target": [
+        "soseki-ten-nights:8.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.1"
+      ],
+      "target": [
+        "soseki-ten-nights:9.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.2"
+      ],
+      "target": [
+        "soseki-ten-nights:9.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.3"
+      ],
+      "target": [
+        "soseki-ten-nights:9.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.4"
+      ],
+      "target": [
+        "soseki-ten-nights:9.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.5"
+      ],
+      "target": [
+        "soseki-ten-nights:9.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.6"
+      ],
+      "target": [
+        "soseki-ten-nights:9.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.7"
+      ],
+      "target": [
+        "soseki-ten-nights:9.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.8"
+      ],
+      "target": [
+        "soseki-ten-nights:9.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.9"
+      ],
+      "target": [
+        "soseki-ten-nights:9.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.10"
+      ],
+      "target": [
+        "soseki-ten-nights:9.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:9.11"
+      ],
+      "target": [
+        "soseki-ten-nights:9.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.1"
+      ],
+      "target": [
+        "soseki-ten-nights:10.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.2"
+      ],
+      "target": [
+        "soseki-ten-nights:10.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.3"
+      ],
+      "target": [
+        "soseki-ten-nights:10.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.4"
+      ],
+      "target": [
+        "soseki-ten-nights:10.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.5"
+      ],
+      "target": [
+        "soseki-ten-nights:10.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.6"
+      ],
+      "target": [
+        "soseki-ten-nights:10.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.7"
+      ],
+      "target": [
+        "soseki-ten-nights:10.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.8"
+      ],
+      "target": [
+        "soseki-ten-nights:10.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.9"
+      ],
+      "target": [
+        "soseki-ten-nights:10.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.10"
+      ],
+      "target": [
+        "soseki-ten-nights:10.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-ten-nights:10.11"
+      ],
+      "target": [
+        "soseki-ten-nights:10.11"
+      ]
+    }
+  ]
+}

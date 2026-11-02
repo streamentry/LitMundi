@@ -2750,5 +2750,130 @@
       "human_contributors": [],
       "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
+  },
+  {
+    "id": "soseki-yume-ja-chikuma-1988",
+    "work_id": "soseki-ten-nights",
+    "language": "ja",
+    "title": "夢十夜",
+    "kind": "source",
+    "status": "published",
+    "label": "夢十夜 · 日本語, ちくま文庫『夏目漱石全集10』1988（青空文庫）",
+    "content_path": "corpus/segments/soseki-ten-nights/soseki-yume-ja-chikuma-1988.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "夏目漱石「夢十夜」『夏目漱石全集10』（ちくま文庫、筑摩書房、1988）. Aozora Bunko electronic text, card 799. First serialised in 朝日新聞, 1908.",
+      "catalog_url": "https://www.aozora.gr.jp/cards/000148/card799.html",
+      "text_url": "https://www.aozora.gr.jp/cards/000148/files/799_14972.html",
+      "retrieved_at": "2026-11-02",
+      "source_witness": "Complete 第一夜–第十夜 of Aozora Bunko file 799_14972. No claim of a newly inspected printed copy."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Natsume Soseki text)",
+      "basis": "Term-based assessment on 2026-11-02. Sōseki died in 1916; the Japanese and Vietnamese post-mortem terms have long expired, and publication in 1908 is beyond the US 95-year maximum. Only the underlying text is reused, without Aozora markup or ruby; modern orthography is treated as non-creative normalisation. This is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "JP",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://www.aozora.gr.jp/cards/000148/card799.html",
+        "https://www.aozora.gr.jp/cards/000148/files/799_14972.html",
+        "https://www.japaneselawtranslation.go.jp/en/laws/view/4207",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Natsume Soseki",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://www.aozora.gr.jp/cards/000148/files/799_14972.html",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/soseki-yume-ja-chikuma-1988.json"
+      ],
+      "notes": "Technical extraction and complete AI-assisted paragraph comparison cover all 177 canonical units. Source-check metadata records exact hashes, witness boundaries, normalization and access limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "soseki-yume-vi-ai-2026",
+    "work_id": "soseki-ten-nights",
+    "language": "vi",
+    "title": "Mười đêm mộng",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/soseki-ten-nights/soseki-yume-vi-ai-2026.json",
+    "source_edition_id": "soseki-yume-ja-chikuma-1988",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified Japanese source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-02",
+      "source_witness": "soseki-yume-ja-chikuma-1988"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "JP",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/consumer-terms",
+        "https://www.aozora.gr.jp/cards/000148/card799.html",
+        "https://www.aozora.gr.jp/cards/000148/files/799_14972.html",
+        "https://www.japaneselawtranslation.go.jp/en/laws/view/4207",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Natsume Soseki",
+      "translator": "LitMundi AI translation (Claude)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.93,
+      "record_paths": [
+        "corpus/reviews/soseki-ten-nights/soseki-yume-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/soseki-ten-nights/soseki-yume-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "notes": "Complete AI literary assessment: unrounded weighted score 8.925/10, threshold 8.6. All 177 source/target passages and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment is disclosed; an independent-context AI pass from the same model family supplied findings, which is not human certification or model diversity. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "Claude Opus 5.5 (Anthropic) — AI translation, literary revision and assessment"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
   }
 ]
