@@ -34,8 +34,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Natsume Soseki — 夢十夜](corpus/editorial/soseki-ten-nights/soseki-yume-vi-ai-2026.json) | Japanese; Chikuma Bunko 1988 via Aozora Bunko #799 | 177 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Franz Kafka — Die Verwandlung](corpus/editorial/kafka-die-verwandlung/kafka-verwandlung-vi-ai-2026.json) | German; Kurt Wolff 1917, Gutenberg #22367 | 97 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Ryunosuke Akutagawa — 藪の中](corpus/editorial/akutagawa-in-a-grove/akutagawa-yabu-vi-ai-2026.json) | Japanese; Chikuma Bunko 1987 via Aozora Bunko #179 | 46 | 8.925 (displayed 8.93) | AI-reviewed translation published |
+| [Gustave Flaubert — Un cœur simple](corpus/editorial/flaubert-un-cur-simple/flaubert-coeur-vi-ai-2026.json) | French; Trois contes, Charpentier 1877 via Project Gutenberg #12065 | 243 | 8.8 | AI-reviewed translation published |
 
-All twenty-four originals are published, giving forty-eight public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All twenty-five originals are published, giving fifty public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

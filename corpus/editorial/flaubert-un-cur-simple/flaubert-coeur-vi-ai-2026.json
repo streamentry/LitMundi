@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "work_id": "flaubert-un-cur-simple",
+  "edition_id": "flaubert-coeur-vi-ai-2026",
+  "source_edition_id": "flaubert-coeur-fr-charpentier-1877",
+  "title_vi": "Một tấm lòng chất phác",
+  "translation_direction": "fr → vi; direct from the specifically identified complete French electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Pronouns",
+      "decision": "Félicité is chị throughout; she calls herself con with Mme Aubain and tôi with others; Mme Aubain addresses her as chị.",
+      "rationale": "Stable relational register across the fifty years of the story."
+    },
+    {
+      "topic": "Irony and free indirect style",
+      "decision": "Flaubert’s deadpan irony, ternary lists and em-dash pivots are kept without added comment, piety or sentiment.",
+      "rationale": "The tale’s balance between tenderness and irony is its voice."
+    },
+    {
+      "topic": "Dialogue",
+      "decision": "Paragraph-initial dialogue uses a dash without quotation marks throughout; inline speech uses curly quotes.",
+      "rationale": "Vietnamese convention; the witness itself varies between parts."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-flaubert-un-cur-simple",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "flaubert-un-cur-simple:5.8",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "«Est-il bien?» no longer narrowed to the parrot’s looks: Nó có ổn không?"
+        },
+        {
+          "segment": "flaubert-un-cur-simple:3.58",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "«Ça ne leur fait rien, à eux!» now means ‘it means nothing to them’, without added contempt."
+        },
+        {
+          "segment": "flaubert-un-cur-simple:3.94",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Papillons from the wardrobe are moths (con nhậy), matching the vermin-eaten hat."
+        },
+        {
+          "segment": "flaubert-un-cur-simple:4.30",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "«insignifiantes actions» as việc vụn vặt (trivial), not vô nghĩa."
+        },
+        {
+          "segment": "flaubert-un-cur-simple:3.42",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Clarified that it is Madame who panics over Virginie."
+        },
+        {
+          "segment": "flaubert-un-cur-simple:4.5",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Ungrammatical sentence about Bourais’s face rewritten; calques in 2.19, 3.84, 3.68 and 3.29 smoothed."
+        },
+        {
+          "segment": "flaubert-un-cur-simple:4.29",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Recurring motifs fixed: cuốn địa lý có tranh khắc and the nhung lông dài hat; la mère Simon consistently bà Simon; reposoir bàn thờ tạm."
+        },
+        {
+          "segment": "flaubert-un-cur-simple:4.52",
+          "category": "editorial_mechanics",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Paragraph-initial dialogue punctuation standardised across both halves."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Madame / Monsieur",
+      "draft_rendering": "bà chủ, bà Aubain / Bà, Ông (in quotation)",
+      "alternatives": [
+        "phu nhân"
+      ],
+      "rationale": "Félicité’s world is defined by her mistress; capitalised Bà/Ông keep the household’s reverent «Monsieur».",
+      "passages": [
+        "flaubert-un-cur-simple:2.19",
+        "flaubert-un-cur-simple:3.36",
+        "flaubert-un-cur-simple:4.29"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "le Saint-Esprit",
+      "draft_rendering": "Đức Chúa Thánh Thần",
+      "alternatives": [
+        "Chúa Thánh Thần"
+      ],
+      "rationale": "Standard Vietnamese Catholic term, fixed in all occurrences because the parrot–Spirit fusion depends on it.",
+      "passages": [
+        "flaubert-un-cur-simple:3.2",
+        "flaubert-un-cur-simple:4.32",
+        "flaubert-un-cur-simple:4.46"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "reposoir / ostensoir",
+      "draft_rendering": "bàn thờ tạm / mặt nhật",
+      "alternatives": [
+        "bàn thờ ngắm"
+      ],
+      "rationale": "Catholic liturgical vocabulary; mặt nhật keeps the sun image of «son grand soleil d’or».",
+      "passages": [
+        "flaubert-un-cur-simple:3.6",
+        "flaubert-un-cur-simple:4.53",
+        "flaubert-un-cur-simple:5.13"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "la mère Simon / la Simonne",
+      "draft_rendering": "bà Simon / mụ Simonne",
+      "alternatives": [],
+      "rationale": "Flaubert’s two forms of address are kept distinct.",
+      "passages": [
+        "flaubert-un-cur-simple:4.8",
+        "flaubert-un-cur-simple:4.61",
+        "flaubert-un-cur-simple:5.11"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete UN COEUR SIMPLE section (parts I–V) of Trois contes, cinquième édition (Paris: G. Charpentier, 1877), as transcribed in Project Gutenberg #12065. First published in Le Moniteur universel, April 1877; not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "6f8ffc6f44ddb94d98cb3dc87cd17a1c5db3d182861838cd48131d87060a7122",
+  "target_sha256": "729a937f6b04add7ea9b21e9e7daeba75cea6962847164c81e6b36deeed15491",
+  "coverage": {
+    "canonical_passages": 243,
+    "translated_passages": 243,
+    "aligned_passages": 243
+  },
+  "ai_review_record": "corpus/reviews/flaubert-un-cur-simple/flaubert-coeur-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "flaubert-un-cur-simple:3.24",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Period measures (dặm, khắc) kept without notes."
+    },
+    {
+      "segment": "flaubert-un-cur-simple:4.24",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Part IV occasionally says cô Virginie where earlier parts use the bare name."
+    }
+  ],
+  "title_review": {
+    "source_title": "Un cœur simple",
+    "target_title": "Một tấm lòng chất phác",
+    "rationale": "Một tấm lòng chất phác keeps cœur as the seat of love (tấm lòng) and simple as guileless, not plain; the assessor preferred it to Một tâm hồn chất phác, which clashed with âmes in the text."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "flaubert-un-cur-simple:1.1",
+        "flaubert-un-cur-simple:1.2",
+        "flaubert-un-cur-simple:1.3",
+        "flaubert-un-cur-simple:1.4",
+        "flaubert-un-cur-simple:1.5",
+        "flaubert-un-cur-simple:1.6",
+        "flaubert-un-cur-simple:1.7",
+        "flaubert-un-cur-simple:1.8"
+      ],
+      "assessment": "Fifty years of service sketched in Flaubert’s ironic inventory."
+    },
+    {
+      "passages": [
+        "flaubert-un-cur-simple:5.1",
+        "flaubert-un-cur-simple:5.2",
+        "flaubert-un-cur-simple:5.3",
+        "flaubert-un-cur-simple:5.4",
+        "flaubert-un-cur-simple:5.5",
+        "flaubert-un-cur-simple:5.6",
+        "flaubert-un-cur-simple:5.7",
+        "flaubert-un-cur-simple:5.8",
+        "flaubert-un-cur-simple:5.9",
+        "flaubert-un-cur-simple:5.10",
+        "flaubert-un-cur-simple:5.11",
+        "flaubert-un-cur-simple:5.12",
+        "flaubert-un-cur-simple:5.13",
+        "flaubert-un-cur-simple:5.14"
+      ],
+      "assessment": "The final vision keeps «crut voir» open between delusion and grace."
+    }
+  ]
+}
