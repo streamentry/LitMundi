@@ -3,6 +3,9 @@ import Base from '../../../../layouts/Base.astro';
 import Passage from '../../../../components/Passage.astro';
 import OriginalTitle from '../../../../components/OriginalTitle.astro';
 import Citation from '../../../../components/Citation.astro';
+import Illustration from '../../../../components/Illustration.astro';
+import {profileFor,localized,readingMinutes} from '../../../../lib/profiles';
+import {sectionTitle} from '../../../../lib/sections';
 import {strings,supported,type Locale} from '../../../../lib/i18n';
 import {catalog,languageNames,issueUrl,passagesFor,readableEditions,publishedEditions,resolveEdition,parallelFor,publicWorks,bestEdition,reviewCategory,editionTitle} from '../../../../lib/corpus';
 import {pagePath,assetPath} from '../../../../lib/urls';
@@ -19,6 +22,19 @@ const legacy=e.id!==Astro.params.edition,current=pagePath(lang,'read',w.id,e.id)
 const passages=passagesFor(e),parallel=parallelFor(e),reading=readableEditions(w.id);
 const provenanceSource=parallel?.source??e;
 const firstPassage=passages[0]?.[0],ui=readerUi[lang];
+const profile=profileFor(w.id),illustration=profile?.illustration??null,tagline=localized(profile?.tagline,lang);
+const minutes=profile?readingMinutes(passages,e.language):0;
+const illustrationLabels={...ui,source:ui.illustrationSource};
+const sectionOf=(id:string)=>Number(id.split(':').pop()!.split('.')[0]);
+const groupBy=<T,>(items:T[],keyOf:(item:T)=>number)=>items.reduce<{n:number,items:T[]}[]>((groups,item)=>{const n=keyOf(item),last=groups[groups.length-1];if(last&&last.n===n)last.items.push(item);else groups.push({n,items:[item]});return groups;},[]);
+const sections=parallel?groupBy(parallel.rows,row=>sectionOf((row.target[0]??row.source[0])[0])):groupBy(passages,([id])=>sectionOf(id));
+const paged=sections.length>1;
+const firstText=(s:{items:any[]})=>parallel?s.items[0].target[0]?.[1]:s.items[0][1];
+const titled=sections.map(s=>({...s,title:paged?sectionTitle(firstText(s)):null}));
+const sectionLabel=(n:number,title?:string|null)=>title??ui.section+' '+n;
+type Row={source:[string,string][];target:[string,string][]};
+const rowSections=titled as unknown as {n:number;title:string|null;items:Row[]}[];
+const textSections=titled as unknown as {n:number;title:string|null;items:[string,string][]}[];
 const published=e.status==='published'&&w.visibility==='public',noindex=!published||legacy;
 const canonical=published?canonicalEditionPath(e):current;
 const canonicalUrl=new URL(canonical,Astro.site).href;
@@ -56,7 +72,8 @@ const structuredData=published?{
 ---
 <Base lang={lang} title={readerPageTitle(w,e,languageNames)} description={readerPageDescription(w,e,lang,languageNames)} noindex={noindex} canonicalPath={canonical} structuredData={structuredData} breadcrumbs={breadcrumbs} socialImage={published?assetPath('social/'+w.id+'.png'):undefined} socialImageAlt={published?w.title+' — '+w.author:undefined}>
 <div class="container"><section class="reader-head">
-  <p class="eyebrow">{published?<a href={pagePath(lang,'authors')+'#'+authorSlug(w.author)}>{w.author}</a>:w.author} · {languageNames[e.language]??e.language}</p>
+  {illustration&&<Illustration illustration={illustration} lang={lang} variant="banner" labels={illustrationLabels} eager={true}/>}
+  <p class="eyebrow">{published?<a href={pagePath(lang,'authors')+'#'+authorSlug(w.author)}>{w.author}</a>:w.author} · {languageNames[e.language]??e.language}{minutes>0&&<> · ≈ {minutes} {ui.minutes}</>}</p>
   <h1 lang={titleLanguage} data-edition-title={e.id}>{title}</h1>
   {showOriginal&&<OriginalTitle title={w.title} language={w.original_language} locale={lang}/>}
   <div class="reader-actions">
@@ -66,6 +83,7 @@ const structuredData=published?{
       <a data-reader-download="txt" href={assetPath('downloads/'+e.id+'.txt')} download>{ui.downloadTxt}</a>
     </>}
   </div>
+  {tagline&&<p class="lede" lang={tagline.language}>{tagline.value}</p>}
   <p lang={summary.language} data-work-summary={w.id}>{summary.text}</p>
   <p class="muted" lang={e.kind==='source'?'en':e.language}>{e.label}</p>
   <div class="tools"><a href={pagePath(lang,'works',w.id)}>← {t.all}</a><a href={issueUrl(w.id,e.id)}>{t.feedback} <span aria-hidden="true">↗</span></a></div>
@@ -100,7 +118,14 @@ const structuredData=published?{
       <div class="bookmark-controls"><label><input type="checkbox" id="remember-place" />{t.remember}</label><a id="resume-reading" href={current} hidden>{t.resume}</a><button id="clear-progress" type="button" hidden>{t.clearProgress}</button></div>
       <p class="muted" id="progress-message">{t.progressHint}</p>
     </div>}
-    <details><summary>{t.contents} · {passages.length}</summary><nav aria-label={t.contents}><ol>{passages.map(([id])=><li><a href={'#'+id} aria-label={t.passage+' '+id.split(':').pop()}>{id.split(':').pop()}</a></li>)}</ol></nav></details>
+    {paged&&<div class="chapter-pager" hidden data-chapter-pager data-chapter-total={sections.length} role="group" aria-label={ui.chapterNav}>
+      <button type="button" data-chapter-prev>← {ui.chapterPrev}</button>
+      <label class="sr-only" for="chapter-jump">{ui.chapterJump}</label>
+      <select id="chapter-jump" data-chapter-select>{titled.map((s,i)=><option value={String(i)}>{sectionLabel(s.n,s.title)}</option>)}</select>
+      <span class="chapter-count" data-chapter-count>1 {ui.chapterOf} {sections.length}</span>
+      <button type="button" data-chapter-next>{ui.chapterNext} →</button>
+    </div>}
+    <details><summary>{paged?ui.allSections:t.contents} · {paged?sections.length:passages.length}</summary><nav aria-label={t.contents}>{paged?<ol class="section-list">{titled.map(s=><li><a href={'#section-'+s.n} data-chapter-link={s.n}>{sectionLabel(s.n,s.title)}</a></li>)}</ol>:<ol>{passages.map(([id])=><li><a href={'#'+id} aria-label={t.passage+' '+id.split(':').pop()}>{id.split(':').pop()}</a></li>)}</ol>}</nav></details>
     {parallel&&<>
       <div class="comparison-control"><label for="show-original"><input id="show-original" type="checkbox" autocomplete="off" aria-controls="parallel-text" />{t.showOriginal}</label><span class="muted" lang={parallel.source.language}>{languageNames[parallel.source.language]??parallel.source.language}</span></div>
       <p class="muted comparison-hint">{t.compareHint}</p>
@@ -108,11 +133,17 @@ const structuredData=published?{
   </div>
   {parallel?<article id="parallel-text" class="parallel-reader" lang={e.language} aria-label={title}>
     <div class="parallel-heading"><h2>{languageNames[parallel.source.language]??parallel.source.language} · {t.original}</h2><h2>{languageNames[e.language]??e.language} · {badge}</h2></div>
-    {parallel.rows.map(row=><div class="parallel-row">
-      <section class="parallel-cell" data-source-cell={parallel.source.id}><p class="language-label">{languageNames[parallel.source.language]??parallel.source.language}</p>{row.source.map(([id,text])=><Passage id={id} anchorId={'source-'+id} permalink={pagePath(lang,'read',w.id,parallel.source.id)+'#'+id} text={text} language={parallel.source.language} locale={lang} workId={w.id} editionId={parallel.source.id} track={false}/>)}</section>
-      <section class="parallel-cell" data-target-cell={e.id}><p class="language-label">{languageNames[e.language]??e.language}</p>{row.target.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</section>
-    </div>)}
-  </article>:<article class="reader" lang={e.language} aria-label={title}>{passages.map(([id,text])=><Passage id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</article>}
+    {rowSections.map(s=><div class="chapter" role="group" id={'section-'+s.n} data-chapter={s.n} aria-label={paged?sectionLabel(s.n,s.title):undefined}>{paged&&!s.title&&<h2 class="chapter-title">{sectionLabel(s.n)}</h2>}
+    {s.items.map((row,ri)=><div class="parallel-row">
+      <section class="parallel-cell" data-source-cell={parallel.source.id}><p class="language-label">{languageNames[parallel.source.language]??parallel.source.language}</p>{row.source.map(([id,text],pi)=><Passage heading={paged&&ri===0&&pi===0&&sectionTitle(text)!==null} id={id} anchorId={'source-'+id} permalink={pagePath(lang,'read',w.id,parallel.source.id)+'#'+id} text={text} language={parallel.source.language} locale={lang} workId={w.id} editionId={parallel.source.id} track={false}/>)}</section>
+      <section class="parallel-cell" data-target-cell={e.id}><p class="language-label">{languageNames[e.language]??e.language}</p>{row.target.map(([id,text],pi)=><Passage heading={ri===0&&pi===0&&!!s.title} id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</section>
+    </div>)}</div>)}
+  </article>:<article class="reader" lang={e.language} aria-label={title}>{textSections.map(s=><div class="chapter" role="group" id={'section-'+s.n} data-chapter={s.n} aria-label={paged?sectionLabel(s.n,s.title):undefined}>{paged&&!s.title&&<h2 class="chapter-title">{sectionLabel(s.n)}</h2>}{s.items.map(([id,text],pi)=><Passage heading={pi===0&&!!s.title} id={id} text={text} language={e.language} locale={lang} workId={w.id} editionId={e.id}/>)}</div>)}</article>}
+  {paged&&<div class="chapter-pager chapter-pager-end" hidden data-chapter-pager data-chapter-total={sections.length} role="group" aria-label={ui.chapterNav}>
+    <button type="button" data-chapter-prev>← {ui.chapterPrev}</button>
+    <span class="chapter-count" data-chapter-count>1 {ui.chapterOf} {sections.length}</span>
+    <button type="button" data-chapter-next>{ui.chapterNext} →</button>
+  </div>}
   {published&&<div class="reader-feedback"><a href={feedback}>{t.readerFeedback} <span aria-hidden="true">↗</span></a></div>}
   {published&&<nav class="next-works" aria-label={t.works} data-reading-language={e.language}>
     {previous&&previousEdition?<a href={pagePath(lang,'read',previous.id,previousEdition.id)} data-navigation-direction="previous" data-navigation-edition={previousEdition.id} data-navigation-language={previousEdition.language}>
@@ -125,7 +156,7 @@ const structuredData=published?{
     </a>}
   </nav>}
 </div>
-<script>import '../../../../scripts/reading-progress';</script>
+<script>import '../../../../scripts/reading-progress';import '../../../../scripts/chapter-pages';</script>
 </Base>
 <style>
   .reader-actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;margin:14px 0 24px}

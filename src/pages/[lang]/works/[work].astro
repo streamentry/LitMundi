@@ -1,8 +1,11 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import OriginalTitle from '../../../components/OriginalTitle.astro';
+import Illustration from '../../../components/Illustration.astro';
+import {profileFor,localized,readingMinutes} from '../../../lib/profiles';
+import readerUi from '../../../lib/reader-ui.json';
 import {strings,supported,type Locale} from '../../../lib/i18n';
-import {catalog,languageNames,editionsForWork,readableEditions,publishedEditions,bestEdition,reviewCategory,editionTitle} from '../../../lib/corpus';
+import {catalog,languageNames,passagesFor,editionsForWork,readableEditions,publishedEditions,bestEdition,reviewCategory,editionTitle} from '../../../lib/corpus';
 import {pagePath,assetPath} from '../../../lib/urls';
 import {labels,workSummary,languageName,genreName,authorSlug,workPageTitle,workPageDescription} from '../../../lib/discovery';
 import {canonicalEditionPath} from '../../../lib/seo';
@@ -14,6 +17,11 @@ const title=editionTitle(w,preferred),titleLanguage=preferred?.title?preferred.l
 const drafts=editionsForWork(w.id).filter(e=>e.status==='draft'&&e.content_path);
 const isDemo=w.visibility!=='public'||!reading.some(e=>e.status==='published');
 const summary=workSummary(w,lang),published=publishedEditions(w.id);
+const profile=profileFor(w.id),ui=readerUi[lang],illustration=profile?.illustration??null;
+const tagline=localized(profile?.tagline,lang),why=localized(profile?.why_it_matters,lang),themes=localized(profile?.themes,lang);
+const context=localized(profile?.context,lang),readingNote=localized(profile?.reading_note,lang);
+const minutes=preferred&&profile?readingMinutes(passagesFor(preferred),preferred.language):0;
+const illustrationLabels={...ui,source:ui.illustrationSource};
 const textLanguages=[...new Set(published.map(edition=>edition.language))];
 const workUrl=new URL(pagePath(lang,'works',w.id),Astro.site).href;
 const description=workPageDescription(w,published,lang,languageNames);
@@ -31,21 +39,40 @@ const breadcrumbs=[{name:d.collection,href:pagePath(lang)},{name:title,href:page
 ---
 <Base lang={lang} title={workPageTitle(w,preferred)} description={description} noindex={isDemo} structuredData={structuredData} breadcrumbs={breadcrumbs} socialImage={!isDemo?assetPath('social/'+w.id+'.png'):undefined} socialImageAlt={!isDemo?w.title+' — '+w.author:undefined}>
 <div class="container">
-  <section class="reader-head">
+  <section class={'reader-head work-hero'+(illustration?' has-illustration':'')}>
+    <div class="work-hero-text">
     <p class="eyebrow">{!isDemo?<a href={pagePath(lang,'authors')+'#'+authorSlug(w.author)}>{w.author}</a>:w.author} · {w.first_published_year}</p>
     <h1 lang={titleLanguage} data-edition-title={preferred?.id}>{title}</h1>
     {preferred?.kind==='translation'&&title!==w.title&&<OriginalTitle title={w.title} language={w.original_language} locale={lang}/>}
+    {tagline&&<p class="lede" lang={tagline.language}>{tagline.value}</p>}
     <p lang={summary.language} data-work-summary={w.id}>{summary.text}</p>
     <dl class="work-facts">
       <dt>{d.firstPublished}</dt><dd>{w.first_published_year}</dd>
       <dt>{d.genre}</dt><dd>{genreName(w.genre,lang)}</dd>
       <dt>{d.originalLanguage}</dt><dd>{languageName(w.original_language,lang,languageNames)}</dd>
       {published.length>0&&<><dt>{d.availableLanguages}</dt><dd>{textLanguages.map(code=>languageName(code,lang,languageNames)).join(' · ')}</dd></>}
+      {minutes>0&&<><dt>{ui.readingTime}</dt><dd>≈ {minutes} {ui.minutes}</dd></>}
     </dl>
     {isDemo&&<p class="notice">{t.sampleNotice}</p>}
     {!isDemo&&!reading.some(e=>e.language===lang&&e.status==='published')&&<p class="notice">{t.noTranslation}</p>}
     {preferred&&<a class="button" href={pagePath(lang,'read',w.id,preferred.id)}>{t.read} · {languageNames[preferred.language]??preferred.language} <span aria-hidden="true">→</span></a>}
+    </div>
+    {illustration&&<Illustration illustration={illustration} lang={lang} variant="hero" labels={illustrationLabels} eager={true}/>}
   </section>
+  {profile&&why&&<section class="section work-intro" aria-labelledby="why-title">
+    <div class="work-intro-main">
+      <h2 id="why-title">{ui.whyTitle}</h2>
+      {why.value.map(paragraph=><p lang={why.language}>{paragraph}</p>)}
+      <p class="muted intro-note">{ui.introNote}</p>
+    </div>
+    <aside class="work-intro-side" aria-label={ui.themesTitle}>
+      {themes&&<><h3>{ui.themesTitle}</h3><ul class="chips" lang={themes.language}>{themes.value.map(theme=><li>{theme}</li>)}</ul></>}
+      {context&&<><h3>{ui.contextTitle}</h3><p lang={context.language}>{context.value}</p></>}
+      {readingNote&&<><h3>{ui.readingNoteTitle}</h3><p lang={readingNote.language}>{readingNote.value}</p></>}
+      {profile.key_facts.length>0&&<><h3>{ui.factsTitle}</h3><dl class="key-facts">{profile.key_facts.map(fact=>{const label=localized(fact.label,lang)!,value=localized(fact.value,lang)!;return <><dt lang={label.language}>{label.value}</dt><dd lang={value.language}>{value.value}</dd></>;})}</dl></>}
+      <details class="intro-sources"><summary>{ui.sourcesTitle}</summary><ul>{profile.sources.map(url=><li><a href={url} rel="noopener">{url}</a></li>)}</ul></details>
+    </aside>
+  </section>}
   <section class="section" aria-labelledby="edition-list"><h2 id="edition-list">{t.all}</h2><div class="grid">
     {reading.map(e=><article class="card">
       <span class="pill" data-review-category={reviewCategory(e)}>{e.status==='sample'?t.sample:reviewCategory(e)==='ai'?t.aiReviewed:reviewCategory(e)==='human'?t.humanReviewed:e.kind==='source'?t.sourcePublished:t.translationPublished}</span>

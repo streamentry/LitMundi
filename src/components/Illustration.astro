@@ -1,0 +1,18 @@
+---
+import {localized,type Illustration} from '../lib/profiles';
+import {assetPath} from '../lib/urls';
+import type {Locale} from '../lib/i18n';
+interface Props {illustration:Illustration;lang:Locale;variant?:'hero'|'banner'|'thumb';labels:Record<string,string>;eager?:boolean}
+const {illustration:i,lang,variant='hero',labels,eager=false}=Astro.props;
+const alt=localized(i.alt,lang)!,caption=localized(i.caption,lang)!;
+const kind=labels['depicts_'+i.depicts];
+const src=assetPath(variant==='thumb'?i.thumb:i.file);
+const width=variant==='thumb'?480:i.width,height=variant==='thumb'?Math.round(480*i.height/i.width):i.height;
+---
+{variant==='thumb'
+  ?<img class="illustration illustration-thumb" src={src} alt="" width={width} height={height} loading="lazy" decoding="async" style={'object-position:'+i.focus} />
+  :<figure class={'illustration illustration-'+variant}>
+    <img src={src} alt={alt.value} lang={alt.language} width={width} height={height} loading={eager?'eager':'lazy'} decoding="async" fetchpriority={eager?'high':undefined} style={'object-position:'+i.focus} />
+    <figcaption><span class="illustration-kind">{kind}</span> <span lang={caption.language}>{caption.value}</span>
+      <small lang="en">{i.credit} <a href={i.source_url} rel="noopener">{labels.source}</a></small></figcaption>
+  </figure>}

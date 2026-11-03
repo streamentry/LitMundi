@@ -28,8 +28,11 @@ if(controls&&shell){
   const update=()=>{
     const previousIndex=index;
     pending=false;index=-1;
-    passages.forEach((passage,i)=>{if(passage.getBoundingClientRect().top<innerHeight*.45)index=i;});
-    if(passages.length&&passages[passages.length-1].getBoundingClientRect().bottom<=innerHeight&&index>=0)index=passages.length-1;
+    const visible=passages.map((passage,i)=>({passage,i})).filter(({passage})=>!passage.closest('[hidden]'));
+    visible.forEach(({passage,i})=>{if(passage.getBoundingClientRect().top<innerHeight*.45)index=i;});
+    const tail=visible[visible.length-1];
+    if(tail&&tail.i===passages.length-1&&tail.passage.getBoundingClientRect().bottom<=innerHeight&&index>=0)index=passages.length-1;
+    else if(tail&&index<0&&visible[0].i>0&&scrollY>0)index=visible[0].i;
     if(index!==previousIndex){
       progress.value=index+1;output.textContent=(index+1)+' / '+passages.length;
     }
@@ -48,6 +51,6 @@ if(controls&&shell){
     addEventListener('pageshow',()=>{comparison.checked=false;update();});
   }
   addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(update);}},{passive:true});
-  addEventListener('resize',update);update();
+  addEventListener('resize',update);addEventListener('chapterchange',update);update();
 }
 export {};

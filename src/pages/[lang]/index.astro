@@ -1,6 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
 import OriginalTitle from '../../components/OriginalTitle.astro';
+import Illustration from '../../components/Illustration.astro';
+import {profileFor,localized} from '../../lib/profiles';
+import readerUi from '../../lib/reader-ui.json';
 import {strings,supported,type Locale} from '../../lib/i18n';
 import {publicWorks,publishedEditions,languageNames,bestEdition,reviewCategory,editionTitle} from '../../lib/corpus';
 import {pagePath,assetPath,basePath} from '../../lib/urls';
@@ -41,13 +44,15 @@ const structuredData={
     <section id="edition-results" class="search-results" aria-labelledby="edition-results-title" hidden><h3 id="edition-results-title">{searchLabels[lang].editions}</h3><ol></ol></section>
     <div class="grid" id="collection-cards">{works.map(work=>{
       const editions=publishedEditions(work.id);const first=bestEdition(work,lang)!;const category=reviewCategory(first),title=editionTitle(work,first);
-      const summary=workSummary(work,lang);
+      const summary=workSummary(work,lang),profile=profileFor(work.id),tagline=localized(profile?.tagline,lang);
       const badge=category==='ai'?t.aiReviewed:category==='human'?t.humanReviewed:category==='source'?t.sourcePublished:t.translationPublished;
       return <article class="card" data-work-id={work.id} data-author={work.author} data-languages={editions.map(e=>e.language).join(' ')}>
+        {profile?.illustration&&<a class="card-art" href={pagePath(lang,'works',work.id)} tabindex="-1" aria-hidden="true"><Illustration illustration={profile.illustration} lang={lang} variant="thumb" labels={readerUi[lang]}/></a>}
         <span class="pill" data-review-category={category}>{badge}</span>
         <h3 lang={first.title?first.language:work.original_language} data-edition-title={first.id}><a href={pagePath(lang,'works',work.id)}>{title}</a></h3>
         {first.kind==='translation'&&title!==work.title&&<OriginalTitle title={work.title} language={work.original_language} locale={lang}/>}
         <p class="muted"><a href={pagePath(lang,'authors')+'#'+authorSlug(work.author)}>{work.author}</a> · {work.first_published_year}<br/>{editions.map(e=>languageNames[e.language]??e.language).filter((v,i,a)=>a.indexOf(v)===i).join(' · ')}</p>
+        {tagline&&<p class="card-tagline" lang={tagline.language}>{tagline.value}</p>}
         <p lang={summary.language} data-work-summary={work.id}>{summary.text}</p>
         <a class="card-link" href={pagePath(lang,'read',work.id,first.id)}>{t.read} <span aria-hidden="true">→</span></a>
       </article>;
