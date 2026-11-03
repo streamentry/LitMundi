@@ -733,5 +733,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "A Room of One's Own",
+    "author": "Virginia Woolf",
+    "author_death_year": 1941,
+    "first_published_year": 1929,
+    "original_language": "en",
+    "genre": "essay",
+    "description": "Invited to speak on “Women and Fiction,” Virginia Woolf answers with a story instead of a thesis: an unnamed narrator is turned off a college lawn and refused entry to a library, and draws her conclusions from what she sees. Her claim is plain: a woman must have money and a room of her own if she is to write fiction. Hogarth Press published the book in 1929, a year after the two Cambridge talks it grew from.",
+    "id": "woolf-a-room-of-one-s-own",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

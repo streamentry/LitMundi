@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 46 published · 228 todo · 0 in progress · 226 on hold.**
+**500 selected works · 47 published · 227 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -63,7 +63,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **045. Thomas Hardy — Tess of the d'Urbervilles** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/110)
 - [ ] **046. Virginia Woolf — Mrs Dalloway** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/71865)
 - [x] **047. Natsume Soseki — Botchan** · ja · novel · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person148.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/soseki-botchan/soseki-botchan-vi-ai-2026/)
-- [ ] **048. Virginia Woolf — A Room of One's Own** · en · essay · **Todo** · [Evidence](https://openlibrary.org/works/OL39379W)
+- [x] **048. Virginia Woolf — A Room of One's Own** · en · essay · **Published** · [Evidence](https://openlibrary.org/works/OL39379W) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/woolf-a-room-of-one-s-own/woolf-room-vi-ai-2026/)
 - [ ] **049. Natsume Soseki — Kusamakura / The Grass Pillow** · ja · novella · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person148.html)
 - [ ] **050. James Joyce — Dubliners** · en · collection · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/2814)
 
