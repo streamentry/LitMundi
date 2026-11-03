@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "work_id": "james-the-turn-of-the-screw",
+  "edition_id": "james-screw-vi-ai-2026",
+  "source_edition_id": "james-screw-en-pg209",
+  "title_vi": "Một vòng ốc nữa",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Ambiguity",
+      "decision": "Whether the ghosts are real or the governess’s fantasy is never resolved in the Vietnamese: hedges (‘I suppose’, ‘as it were’) are kept, and broken-off lines (for example ‘I might.’) stay broken off.",
+      "rationale": "The story’s power is that both readings remain open."
+    },
+    {
+      "topic": "Syntax",
+      "decision": "James’s long periodic sentences are broken at natural junctures and recast in Vietnamese syntax rather than kept word for word; translationese was the main fault of the first drafts.",
+      "rationale": "Naturalness was the weakest sub-score through five review rounds."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-james-the-turn-of-the-screw",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "james-the-turn-of-the-screw:1.44",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Five majors in units 44, 116, 135, 136 and 180 (calqued ‘face the music’, a garbled clause, ‘turned real’, a wrong address form and ‘inconsequence’) were corrected."
+        },
+        {
+          "segment": "james-the-turn-of-the-screw:11.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘on this’ rendered ‘before this’ (unit 377), ‘girded her loins’ rendered as an austerity idiom (650) and ‘with nothing on’ rendered ‘naked’ (607) were corrected."
+        },
+        {
+          "segment": "james-the-turn-of-the-screw:4.19",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘sân thượng’ used for both the tower and the ground-level terrace (137, 143–144), and the returned question ‘Do you?’ (742), were corrected."
+        },
+        {
+          "segment": "james-the-turn-of-the-screw:25.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The broken-off line ‘I might.’ had been completed with an added phrase; it is left broken off. ‘incapacity’ (339) and a double negative that flipped a hedge (231) were also corrected."
+        },
+        {
+          "segment": "james-the-turn-of-the-screw:10.3",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Calqued syntax and pronoun slips (governess ‘bà’, Quint and Jessel forms) were recast over several rounds."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "another turn of the screw",
+      "draft_rendering": "thêm một vòng ốc nữa",
+      "alternatives": [],
+      "rationale": "Douglas’s idiom that gives the tale its title; one wording wherever it recurs.",
+      "passages": [
+        "james-the-turn-of-the-screw:1.3",
+        "james-the-turn-of-the-screw:1.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the governess / my employer / the children",
+      "draft_rendering": "cô gia sư (tôi) / ngài chủ nhà / hai học trò nhỏ",
+      "alternatives": [],
+      "rationale": "Fixed forms of address through the tale, with the governess always ‘tôi/cô’ in her own narration.",
+      "passages": [
+        "james-the-turn-of-the-screw:2.5",
+        "james-the-turn-of-the-screw:4.2",
+        "james-the-turn-of-the-screw:8.30"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Peter Quint / Miss Jessel",
+      "draft_rendering": "Peter Quint (hắn/gã) / cô Jessel (bà ta/cô ấy)",
+      "alternatives": [],
+      "rationale": "Names kept; the pronouns separate the governess’s voice from Mrs. Grose’s.",
+      "passages": [
+        "james-the-turn-of-the-screw:7.22",
+        "james-the-turn-of-the-screw:8.60",
+        "james-the-turn-of-the-screw:15.10"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the apparitions",
+      "draft_rendering": "bóng hình / bóng ma",
+      "alternatives": [],
+      "rationale": "One word family for the apparitions, avoiding terms that fix them as real or imagined.",
+      "passages": [
+        "james-the-turn-of-the-screw:6.36",
+        "james-the-turn-of-the-screw:8.60",
+        "james-the-turn-of-the-screw:21.2"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #209, an electronic transcription of Henry James’s The Turn of the Screw as published in the collection The Two Magics (New York: Macmillan, 1898); the story first appeared in Collier’s Weekly (27 January – 16 April 1898). The Gutenberg page does not name the exact printing and the text was not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "0cab1d3507aa4e691209c24021602de71b516810088db21a5a0a4b1c86954d8d",
+  "target_sha256": "4ef59f776d7430d960b93512783ee8b508112a358aab964e2d698b05c779af84",
+  "coverage": {
+    "canonical_passages": 811,
+    "translated_passages": 811,
+    "aligned_passages": 811
+  },
+  "ai_review_record": "corpus/reviews/james-the-turn-of-the-screw/james-screw-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "james-the-turn-of-the-screw:7.2",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few long periods remain heavier than natural Vietnamese prose would have them."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Turn of the Screw",
+    "target_title": "Một vòng ốc nữa",
+    "rationale": "The Vietnamese title ‘Một vòng ốc nữa’ is this edition’s own rendering of the idiom ‘another turn of the screw’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "james-the-turn-of-the-screw:1.2"
+      ],
+      "assessment": "The frame: Christmas Eve around the fire."
+    },
+    {
+      "passages": [
+        "james-the-turn-of-the-screw:25.52"
+      ],
+      "assessment": "The last line."
+    }
+  ]
+}

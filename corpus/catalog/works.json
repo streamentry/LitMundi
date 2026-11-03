@@ -838,5 +838,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Turn of the Screw",
+    "author": "Henry James",
+    "author_death_year": 1916,
+    "first_published_year": 1898,
+    "original_language": "en",
+    "genre": "novella",
+    "description": "On Christmas Eve, a group by a fire hears a manuscript read aloud: the account of a governess sent to Bly, a country house in Essex, to look after Miles and Flora, whose uncle wants nothing to do with them. Soon she sees a man and a woman who should not be there, and the housekeeper’s answers make her fear for the children. James serialised it in Collier’s Weekly in 1898, and readers have argued ever since over whether the ghosts are real.",
+    "id": "james-the-turn-of-the-screw",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
