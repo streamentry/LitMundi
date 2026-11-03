@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 49 published · 225 todo · 0 in progress · 226 on hold.**
+**500 selected works · 50 published · 224 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -86,7 +86,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **065. Guy de Maupassant — Boule de Suif** · fr · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/10746) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/maupassant-boule-de-suif/maupassant-boule-vi-ai-2026/)
 - [ ] **066. George Sand — La Mare au diable** · fr · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/23582)
 - [ ] **067. Jose Rizal — Noli me tangere** · es · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/47584)
-- [ ] **068. E. T. A. Hoffmann — Der Sandmann** · de · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/6341)
+- [x] **068. E. T. A. Hoffmann — Der Sandmann** · de · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/6341) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/hoffmann-der-sandmann/hoffmann-sandmann-vi-ai-2026/)
 - [ ] **069. Jose Rizal — El Filibusterismo** · es · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/30903)
 - [ ] **070. Heinrich von Kleist — Michael Kohlhaas** · de · novella · **Todo** · [Evidence](https://openlibrary.org/works/OL1451547W)
 - [ ] **071. Thomas Mann — Der Tod in Venedig** · de · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/66073)

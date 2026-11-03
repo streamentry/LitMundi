@@ -1,0 +1,124 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "hoffmann-sandmann-vi-ai-2026",
+  "source_edition_id": "hoffmann-sandmann-de-pg6341",
+  "reviewed_at": "2026-11-02",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct German-to-Vietnamese comparison of all 44 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported one major and about thirty-five minor findings with a pre-revision weighted score of 8.55; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "d6dbd8081ac5c714964908867151bb0f1c5116c446362be682054fe0f80cdd69",
+  "target_sha256": "58e3998c03d60b7fcc3d4503955ebb3c73bd13042742df95d9b8d527c537e1ee",
+  "segments_reviewed": [
+    "hoffmann-der-sandmann:1.1",
+    "hoffmann-der-sandmann:1.2",
+    "hoffmann-der-sandmann:1.3",
+    "hoffmann-der-sandmann:1.4",
+    "hoffmann-der-sandmann:1.5",
+    "hoffmann-der-sandmann:1.6",
+    "hoffmann-der-sandmann:1.7",
+    "hoffmann-der-sandmann:1.8",
+    "hoffmann-der-sandmann:1.9",
+    "hoffmann-der-sandmann:1.10",
+    "hoffmann-der-sandmann:1.11",
+    "hoffmann-der-sandmann:1.12",
+    "hoffmann-der-sandmann:1.13",
+    "hoffmann-der-sandmann:1.14",
+    "hoffmann-der-sandmann:1.15",
+    "hoffmann-der-sandmann:1.16",
+    "hoffmann-der-sandmann:2.1",
+    "hoffmann-der-sandmann:2.2",
+    "hoffmann-der-sandmann:2.3",
+    "hoffmann-der-sandmann:2.4",
+    "hoffmann-der-sandmann:2.5",
+    "hoffmann-der-sandmann:2.6",
+    "hoffmann-der-sandmann:2.7",
+    "hoffmann-der-sandmann:3.1",
+    "hoffmann-der-sandmann:3.2",
+    "hoffmann-der-sandmann:3.3",
+    "hoffmann-der-sandmann:3.4",
+    "hoffmann-der-sandmann:3.5",
+    "hoffmann-der-sandmann:3.6",
+    "hoffmann-der-sandmann:3.7",
+    "hoffmann-der-sandmann:3.8",
+    "hoffmann-der-sandmann:3.9",
+    "hoffmann-der-sandmann:3.10",
+    "hoffmann-der-sandmann:3.11",
+    "hoffmann-der-sandmann:3.12",
+    "hoffmann-der-sandmann:3.13",
+    "hoffmann-der-sandmann:3.14",
+    "hoffmann-der-sandmann:3.15",
+    "hoffmann-der-sandmann:3.16",
+    "hoffmann-der-sandmann:3.17",
+    "hoffmann-der-sandmann:3.18",
+    "hoffmann-der-sandmann:3.19",
+    "hoffmann-der-sandmann:3.20",
+    "hoffmann-der-sandmann:3.21"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 8.5,
+    "target_naturalness": 8,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 8.5
+  },
+  "findings": [
+    {
+      "segment": "hoffmann-der-sandmann:3.15",
+      "category": "semantic_fidelity",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "‘Er hätte ihn erwürgt’ (he would have strangled him) was rendered as a completed act; now ‘Anh hẳn đã bóp chết ông’ with the modal kept."
+    },
+    {
+      "segment": "hoffmann-der-sandmann:1.2",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "‘các người’ register slips, the dropped ‘thấu kính’, and a garbled clause in the first letter were corrected."
+    },
+    {
+      "segment": "hoffmann-der-sandmann:3.12",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Nathanael’s tôi/anh/em pronouns, the term for the automaton and the ‘tẹp’ dialect marks were unified."
+    },
+    {
+      "segment": "hoffmann-der-sandmann:3.15",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "Typos and an ambiguous ‘anh ta’ were fixed."
+    },
+    {
+      "segment": "hoffmann-der-sandmann:3.17",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "‘hinter denen’ no longer read as ‘sau đó’."
+    },
+    {
+      "segment": "hoffmann-der-sandmann:3.19",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few long periodic sentences remain heavier than German’s rhythm requires."
+    }
+  ],
+  "summary": "Full assessment of all 44 German/Vietnamese passages: Nathanael’s first letter, Clara’s reply and the third letter with the narrator’s account to the end. The first reviews scored 8.725 (units 1–23) and 8.375 (units 24–44) and found one major, an inverted conditional; it was fixed together with the minors. A fresh separate-context review of the revised second half scored 8.68 with no major or critical finding, the first half having already cleared 8.6 without a major; the remaining minor points were then applied. The final score is taken from the weaker half, 8.675 on the half-point scale, above the unchanged 8.6 threshold. No unresolved major or critical issue remains.",
+  "title_review": {
+    "source_title": "Der Sandmann",
+    "target_title": "Ông Cát (Der Sandmann)",
+    "rationale": "Der Sandmann is rendered ‘Ông Cát’ in the text; the Vietnamese edition title keeps the German name beside it."
+  }
+}

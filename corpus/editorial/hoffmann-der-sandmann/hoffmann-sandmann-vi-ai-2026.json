@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "work_id": "hoffmann-der-sandmann",
+  "edition_id": "hoffmann-sandmann-vi-ai-2026",
+  "source_edition_id": "hoffmann-sandmann-de-pg6341",
+  "title_vi": "Ông Cát (Der Sandmann)",
+  "translation_direction": "de → vi; direct from the specifically identified complete German electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Nathanael’s breathless, dash-broken letters, Clara’s calm reply and the narrator’s irony are kept distinct; the exclamation-heavy Romantic register is not toned down.",
+      "rationale": "The story’s unease depends on the split between hysterical and rational voices."
+    },
+    {
+      "topic": "Mood and modality",
+      "decision": "Konjunktiv II and conditional constructions are rendered with modal particles (hẳn, giá mà) so that ‘would have’ is not turned into ‘did’.",
+      "rationale": "A reviewer found one such inversion in the first draft."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-hoffmann-der-sandmann",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "hoffmann-der-sandmann:3.15",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Er hätte ihn erwürgt’ (he would have strangled him) was rendered as a completed act; now ‘Anh hẳn đã bóp chết ông’ with the modal kept."
+        },
+        {
+          "segment": "hoffmann-der-sandmann:1.2",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘các người’ register slips, the dropped ‘thấu kính’, and a garbled clause in the first letter were corrected."
+        },
+        {
+          "segment": "hoffmann-der-sandmann:3.12",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Nathanael’s tôi/anh/em pronouns, the term for the automaton and the ‘tẹp’ dialect marks were unified."
+        },
+        {
+          "segment": "hoffmann-der-sandmann:3.15",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Typos and an ambiguous ‘anh ta’ were fixed."
+        },
+        {
+          "segment": "hoffmann-der-sandmann:3.17",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘hinter denen’ no longer read as ‘sau đó’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "der Sandmann",
+      "draft_rendering": "Ông Cát (Der Sandmann) at first use, then Ông Cát",
+      "alternatives": [],
+      "rationale": "The nursery bogeyman who throws sand in children’s eyes; the German name is kept once.",
+      "passages": [
+        "hoffmann-der-sandmann:1.1",
+        "hoffmann-der-sandmann:1.8",
+        "hoffmann-der-sandmann:1.10"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Wetterglashändler / Perspektiv",
+      "draft_rendering": "người bán phong vũ biểu và thấu kính / ống nhòm bỏ túi",
+      "alternatives": [],
+      "rationale": "Coppola’s wares carry the eye imagery; one rendering throughout.",
+      "passages": [
+        "hoffmann-der-sandmann:1.1",
+        "hoffmann-der-sandmann:3.4",
+        "hoffmann-der-sandmann:3.11"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Automat / Holzpuppe",
+      "draft_rendering": "người máy / búp bê gỗ",
+      "alternatives": [],
+      "rationale": "The automaton Olimpia is a ‘người máy’; the wooden doll is its taunt.",
+      "passages": [
+        "hoffmann-der-sandmann:3.7",
+        "hoffmann-der-sandmann:3.13",
+        "hoffmann-der-sandmann:3.17"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Nathanael–Lothar–Clara address",
+      "draft_rendering": "tôi/cậu between Nathanael and Lothar; anh/em between Nathanael and Clara",
+      "alternatives": [],
+      "rationale": "One address system through the letters and the narrated scenes.",
+      "passages": [
+        "hoffmann-der-sandmann:1.1",
+        "hoffmann-der-sandmann:2.1",
+        "hoffmann-der-sandmann:3.12"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the story ‘Der Sandmann’ from Project Gutenberg #6341, a transcription of E. T. A. Hoffmann’s Nachtstücke (Berlin: Realschulbuchhandlung, 1816–17). The edition that the Gutenberg text follows is not stated on the page and was not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "d6dbd8081ac5c714964908867151bb0f1c5116c446362be682054fe0f80cdd69",
+  "target_sha256": "58e3998c03d60b7fcc3d4503955ebb3c73bd13042742df95d9b8d527c537e1ee",
+  "coverage": {
+    "canonical_passages": 44,
+    "translated_passages": 44,
+    "aligned_passages": 44
+  },
+  "ai_review_record": "corpus/reviews/hoffmann-der-sandmann/hoffmann-sandmann-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "hoffmann-der-sandmann:3.19",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few long periodic sentences remain heavier than German’s rhythm requires."
+    }
+  ],
+  "title_review": {
+    "source_title": "Der Sandmann",
+    "target_title": "Ông Cát (Der Sandmann)",
+    "rationale": "Der Sandmann is rendered ‘Ông Cát’ in the text; the Vietnamese edition title keeps the German name beside it."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "hoffmann-der-sandmann:1.1"
+      ],
+      "assessment": "The opening: Nathanael’s letter about the barometer seller."
+    },
+    {
+      "passages": [
+        "hoffmann-der-sandmann:3.21"
+      ],
+      "assessment": "The ending: the narrator’s account of Clara."
+    }
+  ]
+}
