@@ -823,5 +823,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Madman: His Parables and Poems",
+    "author": "Kahlil Gibran",
+    "author_death_year": 1931,
+    "first_published_year": 1918,
+    "original_language": "en",
+    "genre": "collection",
+    "description": "In the prologue, a man loses his seven masks, runs through the market with his own face uncovered, and is declared mad. He takes the word as a gift and speaks on from there, in a prologue and thirty-four short parables and prose poems about gods, kings, a scarecrow, a wise dog, war and the self. Kahlil Gibran’s first book in English was published by Alfred A. Knopf in New York in 1918.",
+    "id": "gibran-madman",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

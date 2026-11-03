@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 52 published · 222 todo · 0 in progress · 226 on hold.**
+**500 selected works · 53 published · 221 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -92,7 +92,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **071. Thomas Mann — Der Tod in Venedig** · de · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/66073)
 - [ ] **072. Kahlil Gibran — The Prophet** · en · poetry collection · **Todo** · [Evidence](https://www.gutenberg.org/files/58585/58585-h/58585-h.htm)
 - [ ] **073. Fyodor Dostoevsky — Notes from Underground** · ru · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/600)
-- [ ] **074. Kahlil Gibran — The Madman: His Parables and Poems** · en · collection · **Todo** · [Evidence](https://www.gutenberg.org/cache/epub/5616/pg5616-images.html)
+- [x] **074. Kahlil Gibran — The Madman: His Parables and Poems** · en · collection · **Published** · [Evidence](https://www.gutenberg.org/cache/epub/5616/pg5616-images.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/gibran-madman/gibran-madman-vi-ai-2026/)
 - [ ] **075. Leo Tolstoy — Hadji Murad** · ru · novella · **Todo** · [Evidence](https://openlibrary.org/works/OL267106W)
 - [ ] **076. Anton Chekhov — Ward No. 6** · ru · novella · **Todo** · [Evidence](https://openlibrary.org/works/OL55450W)
 - [ ] **077. Murasaki Shikibu — The Tale of Genji** · ja · novel · **Todo** · [Evidence](https://nhk-fdn.or.jp/int/en/catalog/educational/detail_language/la_story-land-in-classical-japanese.html)

@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "work_id": "gibran-madman",
+  "edition_id": "gibran-madman-vi-ai-2026",
+  "source_edition_id": "gibran-madman-en-pg5616",
+  "title_vi": "Kẻ điên: Những ngụ ngôn và bài thơ",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Gibran’s solemn, simple parabolic voice is rendered in short, clean sentences with his repetitions kept identical; the piece titles are short Vietnamese titles.",
+      "rationale": "The parables depend on rhythm and repetition more than on vocabulary."
+    },
+    {
+      "topic": "Block quotation",
+      "decision": "The Gospel quotation inside ‘The Blessed City’ (Matthew 5:29–30) is translated close to the standard Vietnamese biblical sense and kept as its own unit, which a first extraction had dropped.",
+      "rationale": "The corpus must hold every sentence of the witness."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-gibran-madman",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "gibran-madman:1.6",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Optatives rendered as indicatives (units 6 and 110), ‘comrade’ as ‘đồng chí’ (unit 24) and pronoun/register slips in the first prologue pieces were corrected."
+        },
+        {
+          "segment": "gibran-madman:23.2",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The Defeat refrain’s pronoun, ‘in child-bed’ and ‘how large a foot-print’ were corrected and the refrain made identical."
+        },
+        {
+          "segment": "gibran-madman:30.2",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Pronoun and gender inconsistencies for the blade of grass (units 236–238) and the body-part names (241–245) were unified."
+        },
+        {
+          "segment": "gibran-madman:21.11",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The Gospel quotation, missing from the first extraction, was added and its wording smoothed."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "the madman / madness",
+      "draft_rendering": "kẻ điên / cơn điên",
+      "alternatives": [],
+      "rationale": "The speaker of the prologue and the book’s title figure; one pair of terms throughout.",
+      "passages": [
+        "gibran-madman:1.1",
+        "gibran-madman:1.4",
+        "gibran-madman:1.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "God / Master / Creator / Father",
+      "draft_rendering": "Thượng Đế / Đấng Chủ Tể / Đấng Tạo Hóa / Cha",
+      "alternatives": [],
+      "rationale": "The four prayers of the first piece use one rising series of addresses.",
+      "passages": [
+        "gibran-madman:2.2",
+        "gibran-madman:2.4",
+        "gibran-madman:2.6"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Defeat, my Defeat (refrain)",
+      "draft_rendering": "Thất bại, Thất bại của tôi",
+      "alternatives": [],
+      "rationale": "The refrain stays identical on every repetition and the speaker is ‘tôi’ throughout.",
+      "passages": [
+        "gibran-madman:23.2",
+        "gibran-madman:23.4",
+        "gibran-madman:23.6"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "thou / thee register",
+      "draft_rendering": "ngươi, hỡi — a formal, solemn but plain address",
+      "alternatives": [],
+      "rationale": "Gibran’s King-James tint is given a formal Vietnamese equivalent without obscure archaisms.",
+      "passages": [
+        "gibran-madman:2.2",
+        "gibran-madman:3.9",
+        "gibran-madman:21.11"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #5616, an electronic transcription of Kahlil Gibran’s The Madman (New York: Alfred A. Knopf, 1918). The page does not name the printing and the text was not collated with the 1918 edition.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "fa3271cc0b94727a08db50fd460bdd800c9a22748cbcf65c7172ea7d5b2fb213",
+  "target_sha256": "e72ef25892d67afecb6183558b845234008eeec44b23c62dbd181554dc772776",
+  "coverage": {
+    "canonical_passages": 286,
+    "translated_passages": 286,
+    "aligned_passages": 286
+  },
+  "ai_review_record": "corpus/reviews/gibran-madman/gibran-madman-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.6,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "gibran-madman:2.2",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The King James tint of Gibran’s English is only partly carried; the prayers open with ‘Hỡi’ but the rest is plain modern Vietnamese."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Madman: His Parables and Poems",
+    "target_title": "Kẻ điên: Những ngụ ngôn và bài thơ",
+    "rationale": "The Vietnamese title ‘Kẻ điên: Những ngụ ngôn và bài thơ’ is this edition’s own rendering; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "gibran-madman:1.1"
+      ],
+      "assessment": "The prologue: how I became a madman."
+    },
+    {
+      "passages": [
+        "gibran-madman:35.17"
+      ],
+      "assessment": "The last piece, ‘The Perfect World’."
+    }
+  ]
+}
