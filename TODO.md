@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 40 published · 234 todo · 0 in progress · 226 on hold.**
+**500 selected works · 41 published · 233 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -74,7 +74,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **053. Oscar Wilde — The Importance of Being Earnest** · en · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/844)
 - [ ] **054. Rabindranath Tagore — The Home and the World** · bn · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/54667/rabindranath-tagore/)
 - [ ] **055. H. G. Wells — The Time Machine** · en · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/35)
-- [ ] **056. Joseph Conrad — Heart of Darkness** · en · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/219)
+- [x] **056. Joseph Conrad — Heart of Darkness** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/219) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/conrad-heart-of-darkness/conrad-heart-vi-ai-2026/)
 - [ ] **057. Rabindranath Tagore — The Post Office** · bn · play · **Todo** · [Evidence](https://www.nobelprize.org/prizes/literature/1913/tagore/bibliography/?print=1)
 - [ ] **058. Katherine Mansfield — Bliss and Other Stories** · en · collection · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/44385)
 - [ ] **059. Premchand — Nirmala** · hi · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/2059256/premchand/)
