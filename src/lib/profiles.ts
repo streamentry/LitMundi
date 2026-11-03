@@ -35,3 +35,9 @@ export function readingMinutes(passages: [string, string][], language: string): 
   const units = cjk ? [...text].filter(character => !/\s/.test(character)).length : text.split(/\s+/).filter(Boolean).length;
   return Math.max(1, Math.round(units / (cjk ? 500 : language === 'vi' ? 220 : 240)));
 }
+
+/** "7 min read" / "11 h 37 min read" in the reader's language. */
+export function readingLabel(minutes: number, ui: {hourUnit: string; minuteUnit: string; readSuffix: string}): string {
+  const hours = Math.floor(minutes / 60), rest = minutes % 60;
+  return (hours > 0 ? hours + ' ' + ui.hourUnit + (rest ? ' ' + rest + ' ' + ui.minuteUnit : '') : minutes + ' ' + ui.minuteUnit) + ui.readSuffix;
+}

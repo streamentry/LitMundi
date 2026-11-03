@@ -4,7 +4,7 @@ import Passage from '../../../../components/Passage.astro';
 import OriginalTitle from '../../../../components/OriginalTitle.astro';
 import Citation from '../../../../components/Citation.astro';
 import Illustration from '../../../../components/Illustration.astro';
-import {profileFor,localized,readingMinutes} from '../../../../lib/profiles';
+import {profileFor,localized,readingMinutes,readingLabel} from '../../../../lib/profiles';
 import {sectionTitle} from '../../../../lib/sections';
 import {strings,supported,type Locale} from '../../../../lib/i18n';
 import {catalog,languageNames,issueUrl,passagesFor,readableEditions,publishedEditions,resolveEdition,parallelFor,publicWorks,bestEdition,reviewCategory,editionTitle} from '../../../../lib/corpus';
@@ -73,7 +73,7 @@ const structuredData=published?{
 <Base lang={lang} title={readerPageTitle(w,e,languageNames)} description={readerPageDescription(w,e,lang,languageNames)} noindex={noindex} canonicalPath={canonical} structuredData={structuredData} breadcrumbs={breadcrumbs} socialImage={published?assetPath('social/'+w.id+'.png'):undefined} socialImageAlt={published?w.title+' — '+w.author:undefined}>
 <div class="container"><section class="reader-head">
   {illustration&&<Illustration illustration={illustration} lang={lang} variant="banner" labels={illustrationLabels} eager={true}/>}
-  <p class="eyebrow">{published?<a href={pagePath(lang,'authors')+'#'+authorSlug(w.author)}>{w.author}</a>:w.author} · {languageNames[e.language]??e.language}{minutes>0&&<> · ≈ {minutes} {ui.minutes}</>}</p>
+  <p class="eyebrow">{published?<a href={pagePath(lang,'authors')+'#'+authorSlug(w.author)}>{w.author}</a>:w.author} · {languageNames[e.language]??e.language}{minutes>0&&<> · ≈ {readingLabel(minutes,ui)}</>}</p>
   <h1 lang={titleLanguage} data-edition-title={e.id}>{title}</h1>
   {showOriginal&&<OriginalTitle title={w.title} language={w.original_language} locale={lang}/>}
   <div class="reader-actions">

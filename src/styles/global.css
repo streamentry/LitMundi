@@ -45,7 +45,7 @@
 .illustration figcaption a{color:inherit}
 .illustration-kind{font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.66rem;color:#7a5b22}
 .card-art{display:block;align-self:stretch;margin:-26px -26px 16px;overflow:hidden;border-radius:8px 8px 0 0}
-.illustration-thumb{aspect-ratio:3/2;border-radius:0;transition:transform .5s cubic-bezier(.16,1,.3,1)}
+.illustration-thumb{display:block;width:100%;height:auto;object-fit:cover;aspect-ratio:3/2;background:#e7e3d6;border-radius:0;transition:transform .5s cubic-bezier(.16,1,.3,1)}
 .card:hover .illustration-thumb{transform:scale(1.035)}
 .card-tagline{font:italic 1.02rem/1.45 var(--serif);color:var(--ink);margin:2px 0 8px}
 .work-intro{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:56px;padding-top:34px;border-top:1px solid var(--line)}

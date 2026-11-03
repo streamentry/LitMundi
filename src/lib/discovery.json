@@ -29,8 +29,18 @@
       "aiReview": "AI-reviewed",
       "humanReview": "human-reviewed",
       "publicationReview": "publication and review history recorded",
-      "languages": {"en":"English","vi":"Vietnamese","fr":"French","es":"Spanish","pt":"Portuguese"},
-      "genres": {"prose_poem":"Prose poem","short_story":"Short story","novel":"Novel"}
+      "languages": {
+        "en": "English",
+        "vi": "Vietnamese",
+        "fr": "French",
+        "es": "Spanish",
+        "pt": "Portuguese"
+      },
+      "genres": {
+        "prose_poem": "Prose poem",
+        "short_story": "Short story",
+        "novel": "Novel"
+      }
     },
     "vi": {
       "homeTitle": "Văn học thế giới: nguyên tác và bản dịch tiếng Việt",
@@ -61,8 +71,18 @@
       "aiReview": "do AI đánh giá",
       "humanReview": "được con người đánh giá",
       "publicationReview": "có hồ sơ xuất bản và đánh giá",
-      "languages": {"en":"tiếng Anh","vi":"tiếng Việt","fr":"tiếng Pháp","es":"tiếng Tây Ban Nha","pt":"tiếng Bồ Đào Nha"},
-      "genres": {"prose_poem":"Thơ văn xuôi","short_story":"Truyện ngắn","novel":"Tiểu thuyết"}
+      "languages": {
+        "en": "tiếng Anh",
+        "vi": "tiếng Việt",
+        "fr": "tiếng Pháp",
+        "es": "tiếng Tây Ban Nha",
+        "pt": "tiếng Bồ Đào Nha"
+      },
+      "genres": {
+        "prose_poem": "Thơ văn xuôi",
+        "short_story": "Truyện ngắn",
+        "novel": "Tiểu thuyết"
+      }
     },
     "fr": {
       "homeTitle": "Littérature mondiale : originaux et traductions vietnamiennes",
@@ -93,8 +113,18 @@
       "aiReview": "évaluée par IA",
       "humanReview": "révisée par des humains",
       "publicationReview": "publication et évaluations documentées",
-      "languages": {"en":"anglais","vi":"vietnamien","fr":"français","es":"espagnol","pt":"portugais"},
-      "genres": {"prose_poem":"Poème en prose","short_story":"Nouvelle","novel":"Roman"}
+      "languages": {
+        "en": "anglais",
+        "vi": "vietnamien",
+        "fr": "français",
+        "es": "espagnol",
+        "pt": "portugais"
+      },
+      "genres": {
+        "prose_poem": "Poème en prose",
+        "short_story": "Nouvelle",
+        "novel": "Roman"
+      }
     },
     "es": {
       "homeTitle": "Literatura mundial: originales y traducciones vietnamitas",
@@ -125,40 +155,284 @@
       "aiReview": "evaluada por IA",
       "humanReview": "revisada por personas",
       "publicationReview": "publicación y evaluaciones documentadas",
-      "languages": {"en":"inglés","vi":"vietnamita","fr":"francés","es":"español","pt":"portugués"},
-      "genres": {"prose_poem":"Poema en prosa","short_story":"Cuento","novel":"Novela"}
+      "languages": {
+        "en": "inglés",
+        "vi": "vietnamita",
+        "fr": "francés",
+        "es": "español",
+        "pt": "portugués"
+      },
+      "genres": {
+        "prose_poem": "Poema en prosa",
+        "short_story": "Cuento",
+        "novel": "Novela"
+      }
     }
   },
   "summaries": {
     "wilde-the-artist": {
-      "en": "A short allegory about transforming enduring sorrow into fleeting pleasure, first published in Poems in Prose (1894).",
-      "vi": "Một ngụ ngôn ngắn về việc biến nỗi buồn dài lâu thành niềm vui thoáng chốc, in lần đầu trong Poems in Prose (1894).",
-      "fr": "Une courte allégorie sur la transformation d’un chagrin durable en plaisir éphémère, publiée pour la première fois dans Poems in Prose (1894).",
-      "es": "Una breve alegoría sobre la transformación de un dolor duradero en un placer fugaz, publicada por primera vez en Poems in Prose (1894)."
+      "en": "An artist wants to make an image of “the Pleasure that abideth for a Moment.” Oscar Wilde needed only a handful of lines to turn that errand into a parable about what art costs. It is one of six prose poems he published in 1894.",
+      "vi": "Một nghệ sĩ muốn tạc hình “Niềm Vui chỉ ở lại trong chốc lát”. Oscar Wilde chỉ cần vài dòng để biến chuyện ấy thành một ngụ ngôn về cái giá của nghệ thuật. Đây là một trong sáu bài thơ văn xuôi ông cho đăng năm 1894.",
+      "fr": "Un artiste veut faire une image du « Plaisir qui demeure un instant ». Oscar Wilde n’a eu besoin que de quelques lignes pour faire de cette mission une parabole sur ce que coûte l’art. C’est l’un des six poèmes en prose qu’il publia en 1894.",
+      "es": "Un artista quiere hacer una imagen del «Placer que permanece un instante». A Oscar Wilde le bastaron unas pocas líneas para convertir ese encargo en una parábola sobre lo que cuesta el arte. Es uno de los seis poemas en prosa que publicó en 1894."
     },
     "machado-um-apologo": {
-      "en": "A needle and a thread dispute who deserves the credit in a brief Brazilian satire of labor, vanity and social advancement.",
-      "vi": "Một cây kim và một sợi chỉ tranh nhau công lao trong câu chuyện châm biếm ngắn của Brazil về lao động, lòng hư danh và sự thăng tiến trong xã hội.",
-      "fr": "Une aiguille et un fil se disputent le mérite dans une brève satire brésilienne du travail, de la vanité et de l’ascension sociale.",
-      "es": "Una aguja y un hilo discuten quién merece el reconocimiento en una breve sátira brasileña sobre el trabajo, la vanidad y el ascenso social."
+      "en": "In a seamstress’s workroom, a needle scolds the thread for putting on airs, and the thread answers in kind. Machado de Assis stages their quarrel as a fable, a few pages long, and leaves the reader to decide what it is really about.",
+      "vi": "Trong phòng may của một cô thợ, cây kim mắng sợi chỉ làm bộ làm tịch, và sợi chỉ cãi lại. Machado de Assis dựng cuộc cãi vã ấy thành một ngụ ngôn dài vài trang, để người đọc tự quyết xem nó thực sự nói về điều gì.",
+      "fr": "Dans l’atelier d’une couturière, une aiguille reproche à son fil de se donner des airs, et le fil lui répond de la même façon. Machado de Assis met en scène leur querelle sous forme de fable, de quelques pages, et laisse au lecteur le soin de décider de quoi il s’agit vraiment.",
+      "es": "En el taller de una costurera, una aguja reprende al hilo por darse aires, y el hilo le responde en el mismo tono. Machado de Assis escenifica su disputa como una fábula de pocas páginas y deja al lector decidir de qué trata en realidad."
     },
     "pardo-bazan-el-encaje-roto": {
-      "en": "A bride refuses her vows; years later she explains a fleeting glimpse of her fiancé’s character. A Spanish story about social appearances and a woman’s power to refuse.",
-      "vi": "Một cô dâu từ chối nói lời thề trong lễ cưới; nhiều năm sau, cô kể lại một thoáng bộc lộ tính cách của vị hôn phu. Truyện ngắn Tây Ban Nha về vẻ bề ngoài trong xã hội và quyền từ chối của phụ nữ.",
-      "fr": "Une mariée refuse de prononcer ses vœux ; des années plus tard, elle évoque un bref aperçu du caractère de son fiancé. Une nouvelle espagnole sur les apparences sociales et le pouvoir de refus d’une femme.",
-      "es": "Una novia se niega a pronunciar sus votos; años después explica un instante en que vislumbró el carácter de su prometido. Un cuento español sobre las apariencias sociales y el poder de una mujer para negarse."
+      "en": "A narrator is invited to the lavish wedding of Micaelita Aránguiz, and what happens at the altar sets the whole city talking. Years later, at a spa, the bride tells her side. Pardo Bazán turns a scandal into a quiet study of what a woman is expected to swallow.",
+      "vi": "Người kể chuyện được mời dự đám cưới sang trọng của Micaelita Aránguiz, và điều xảy ra trước bàn thờ khiến cả thành phố bàn tán. Nhiều năm sau, ở một khu nghỉ dưỡng, cô dâu kể lại phần của mình. Pardo Bazán biến một vụ tai tiếng thành một khảo sát lặng lẽ về điều người phụ nữ bị đòi hỏi phải nuốt xuống.",
+      "fr": "Un narrateur est invité au somptueux mariage de Micaelita Aránguiz, et ce qui se passe à l’autel fait parler toute la ville. Des années plus tard, dans une station thermale, la mariée donne sa version. Pardo Bazán fait d’un scandale une étude discrète de ce qu’on attend d’une femme qu’elle avale.",
+      "es": "Un narrador es invitado a la fastuosa boda de Micaelita Aránguiz, y lo que sucede ante el altar da que hablar a toda la ciudad. Años después, en un balneario, la novia cuenta su versión. Pardo Bazán convierte un escándalo en un estudio discreto de lo que se espera que una mujer trague."
     },
     "chopin-story-of-an-hour": {
-      "en": "A woman receives news of her husband’s death; her private thoughts and the public explanation of what follows diverge.",
-      "vi": "Một phụ nữ nhận tin chồng qua đời. Những suy nghĩ thầm kín của cô khác với lời giải thích của người ngoài về chuyện xảy ra sau đó.",
-      "fr": "Une femme apprend la mort de son mari ; ses pensées intimes diffèrent de l’explication donnée publiquement des événements qui suivent.",
-      "es": "Una mujer recibe la noticia de la muerte de su marido; sus pensamientos íntimos y la explicación pública de lo que sucede después difieren."
+      "en": "Mrs. Mallard is given the news of her husband’s death as gently as possible. What she feels when she is left alone surprises her more than anyone. Kate Chopin packs it into a few pages, and it still unsettles readers.",
+      "vi": "Bà Mallard được báo tin chồng mất theo cách nhẹ nhàng nhất có thể. Điều bà cảm thấy khi ở một mình làm chính bà ngạc nhiên hơn bất kỳ ai. Kate Chopin nén tất cả vào vài trang giấy, và truyện vẫn khiến người đọc bất an.",
+      "fr": "On annonce à Mme Mallard la mort de son mari avec tous les ménagements possibles. Ce qu’elle ressent une fois seule la surprend plus que personne. Kate Chopin tient tout en quelques pages, et le texte continue de troubler ses lecteurs.",
+      "es": "A la señora Mallard le dan la noticia de la muerte de su marido con todo el tacto posible. Lo que siente al quedarse sola la sorprende más que a nadie. Kate Chopin lo condensa en unas pocas páginas, y el relato sigue inquietando a quien lo lee."
     },
     "saki-the-open-window": {
-      "en": "A nervous visitor hears a young hostess’s account of an open window in a short satire of social manners, credulity and invention.",
-      "vi": "Một vị khách dễ lo âu nghe cô gái trẻ đón tiếp mình kể về ô cửa sổ mở, trong truyện châm biếm ngắn về phép xã giao, sự cả tin và những chuyện bịa đặt.",
-      "fr": "Un visiteur nerveux écoute une jeune hôtesse lui raconter l’histoire d’une fenêtre ouverte, dans une brève satire des conventions sociales, de la crédulité et de l’invention.",
-      "es": "Un visitante nervioso escucha el relato de una joven anfitriona sobre una ventana abierta, en una breve sátira de las convenciones sociales, la credulidad y la invención."
+      "en": "Framton Nuttel, a nervous man, pays a call at a country house. While he waits for his hostess, her young niece explains the open window to him. The story takes minutes to read and is built to the last line.",
+      "vi": "Framton Nuttel, một người hay căng thẳng, đến thăm một ngôi nhà ở nông thôn. Trong lúc chờ bà chủ nhà, cô cháu gái nhỏ giải thích cho anh về khung cửa sổ đang mở. Truyện đọc chỉ mất vài phút và được dựng chặt chẽ đến tận câu cuối.",
+      "fr": "Framton Nuttel, homme nerveux, rend visite à une maison de campagne. Pendant qu’il attend la maîtresse de maison, la jeune nièce de celle-ci lui explique la fenêtre ouverte. Le récit se lit en quelques minutes et est construit pour sa dernière phrase.",
+      "es": "Framton Nuttel, un hombre nervioso, hace una visita a una casa de campo. Mientras espera a la anfitriona, la joven sobrina de ésta le explica la ventana abierta. El relato se lee en minutos y está construido para su última frase."
+    },
+    "maupassant-la-parure": {
+      "en": "Mathilde Loisel, married to a minor clerk, resents every plain thing in her life. An invitation to a grand evening gives her one chance to shine. Maupassant follows the consequences with a cool, exact eye, and later writers, from Henry James to Somerset Maugham, have answered its ending.",
+      "vi": "Mathilde Loisel, vợ một viên thư ký quèn, chán ghét mọi thứ giản dị trong đời mình. Một lời mời dự dạ hội lớn cho bà một cơ hội để tỏa sáng. Maupassant theo dõi hậu quả bằng con mắt lạnh và chính xác, và về sau nhiều nhà văn, từ Henry James đến Somerset Maugham, đã đối đáp với cái kết của nó.",
+      "fr": "Mathilde Loisel, épouse d’un modeste commis, supporte mal tout ce que sa vie a de simple. Une invitation à une grande soirée lui offre une occasion de briller. Maupassant suit les conséquences d’un regard froid et exact, et des écrivains plus tardifs, de Henry James à Somerset Maugham, ont répondu à sa fin.",
+      "es": "Mathilde Loisel, casada con un modesto empleado, rechaza todo lo sencillo de su vida. Una invitación a una gran velada le ofrece una oportunidad de lucirse. Maupassant sigue las consecuencias con una mirada fría y exacta, y escritores posteriores, de Henry James a Somerset Maugham, han respondido a su final."
+    },
+    "akutagawa-spiders-thread": {
+      "en": "From the edge of a lotus pond in Paradise, the Buddha looks down into Hell and notices a man who, once, did one small kind thing. Akutagawa Ryūnosuke built this brief story for a children’s magazine in 1918, from a Buddhist tale in a book by the American writer Paul Carus.",
+      "vi": "Từ bờ ao sen ở cõi Cực Lạc, Đức Phật nhìn xuống địa ngục và để ý một người đàn ông từng làm một việc tốt nhỏ nhoi. Akutagawa Ryūnosuke viết truyện ngắn này cho một tạp chí thiếu nhi năm 1918, dựa trên một câu chuyện Phật giáo trong cuốn sách của nhà văn Mỹ Paul Carus.",
+      "fr": "Du bord d’un étang de lotus au Paradis, le Bouddha regarde l’Enfer et remarque un homme qui, une fois, a fait une petite bonne action. Akutagawa Ryūnosuke a composé ce court récit en 1918 pour une revue d’enfants, à partir d’un conte bouddhique tiré d’un livre de l’écrivain américain Paul Carus.",
+      "es": "Desde la orilla de un estanque de lotos en el Paraíso, Buda mira hacia el Infierno y se fija en un hombre que, una vez, hizo una pequeña buena acción. Akutagawa Ryūnosuke compuso este breve relato en 1918 para una revista infantil, a partir de un cuento budista de un libro del escritor estadounidense Paul Carus."
+    },
+    "luxun-kong-yiji": {
+      "en": "At Xianheng Inn, customers in long gowns sit to drink and those in short coats stand outside the counter. Kong Yiji wears the long gown but drinks standing. Told by the boy who warms the wine, Lu Xun’s few pages show how a small town amuses itself with a man it has no use for.",
+      "vi": "Ở quán rượu Hàm Hanh, khách mặc áo dài thì ngồi uống, khách áo ngắn thì đứng ngoài quầy. Khổng Ất Kỷ mặc áo dài nhưng lại đứng uống. Qua lời kể của cậu bé hâm rượu trong quán, vài trang truyện của Lỗ Tấn cho thấy một thị trấn nhỏ giải khuây bằng một người mà nó không cần đến.",
+      "fr": "À l’auberge de Xianheng, les clients en longue robe boivent assis, ceux en veste courte restent debout devant le comptoir. Kong Yiji porte la longue robe mais boit debout. Raconté par le garçon qui réchauffe le vin, le récit de Lu Xun montre en quelques pages comment une petite ville s’amuse d’un homme dont elle n’a que faire.",
+      "es": "En la posada de Xianheng, los clientes de túnica larga beben sentados y los de chaqueta corta, de pie junto al mostrador. Kong Yiji lleva la túnica larga pero bebe de pie. Contado por el muchacho que calienta el vino, el relato de Lu Xun muestra en pocas páginas cómo un pueblo se divierte con un hombre para quien no tiene uso."
+    },
+    "machado-a-cartomante": {
+      "en": "In Rio de Janeiro in 1869, Rita consults a fortune-teller about her lover Camilo, who is also her husband Vilela’s boyhood friend. Machado de Assis turns a small piece of superstition into a story about skepticism, desire and the irony of fate.",
+      "vi": "Ở Rio de Janeiro năm 1869, Rita đi xem bói về người tình Camilo, cũng là bạn thuở nhỏ của chồng cô, Vilela. Machado de Assis biến một chút mê tín thành câu chuyện về hoài nghi, ham muốn và sự trớ trêu của số phận.",
+      "fr": "À Rio de Janeiro, en 1869, Rita consulte une cartomancienne à propos de son amant Camilo, qui est aussi l’ami d’enfance de son mari Vilela. Machado de Assis fait d’une petite superstition un récit sur le scepticisme, le désir et l’ironie du sort.",
+      "es": "En Río de Janeiro, en 1869, Rita consulta a una echadora de cartas sobre su amante Camilo, que además es amigo de la infancia de su marido Vilela. Machado de Assis convierte una pequeña superstición en un relato sobre el escepticismo, el deseo y la ironía del destino."
+    },
+    "tagore-postmaster": {
+      "en": "A postmaster from Calcutta is sent to the small village of Ulapur, where he is lonely and ill at ease. An orphan girl, Ratan, cooks and cleans for him, and a quiet bond grows. In a few pages, Tagore asks what we owe the people who briefly make a place bearable.",
+      "vi": "Một chàng bưu tá từ Calcutta được cử về làng nhỏ Ulapur, cô đơn và lạc lõng. Cô bé mồ côi Ratan nấu nướng, quét dọn cho anh, và một mối gắn bó lặng lẽ lớn dần. Chỉ trong vài trang, Tagore hỏi ta nợ gì những người từng làm một nơi chốn trở nên dễ sống.",
+      "fr": "Un maître de poste de Calcutta est envoyé dans le petit village d’Ulapur, où il se sent seul et mal à l’aise. Une orpheline, Ratan, fait pour lui la cuisine et le ménage, et un lien discret se noue. En quelques pages, Tagore demande ce que nous devons à ceux qui, un moment, rendent un lieu supportable.",
+      "es": "Un jefe de correos de Calcuta es destinado a la pequeña aldea de Ulapur, donde se siente solo e incómodo. Una huérfana, Ratan, le cocina y le limpia, y entre ellos crece un vínculo callado. En pocas páginas, Tagore pregunta qué debemos a quienes, por un tiempo, vuelven soportable un lugar."
+    },
+    "quiroga-feather-pillow": {
+      "en": "Alicia marries Jordán and moves into a white, silent house where his severity leaves little room for tenderness. Then she falls ill, with ordinary symptoms and no cause the doctors can name. In a few pages, Horacio Quiroga lets domestic realism and horror share one scene.",
+      "vi": "Alicia cưới Jordán và về ở ngôi nhà trắng, im lặng, nơi tính khắc nghiệt của chồng chẳng chừa chỗ cho sự dịu dàng. Rồi cô đổ bệnh, triệu chứng bình thường mà bác sĩ không gọi được tên nguyên nhân. Chỉ trong vài trang, Horacio Quiroga cho chủ nghĩa hiện thực đời thường và nỗi kinh dị cùng đứng chung một cảnh.",
+      "fr": "Alicia épouse Jordán et s’installe dans une maison blanche et silencieuse où la sévérité de son mari laisse peu de place à la tendresse. Puis elle tombe malade, de symptômes banals et sans cause que les médecins sachent nommer. En quelques pages, Horacio Quiroga fait cohabiter dans une même scène le réalisme domestique et l’horreur.",
+      "es": "Alicia se casa con Jordán y se muda a una casa blanca y silenciosa donde la severidad de él deja poco espacio a la ternura. Luego enferma, con síntomas corrientes y sin una causa que los médicos sepan nombrar. En pocas páginas, Horacio Quiroga hace convivir en una misma escena el realismo doméstico y el horror."
+    },
+    "chekhov-lady-with-dog": {
+      "en": "Dmitri Gurov, a Moscow bank worker nearing forty, meets a young woman who has come to Yalta alone with her small dog. Both are married, and both assume the affair will end with the holiday. Chekhov follows what happens afterward in a few quiet pages.",
+      "vi": "Dmitri Gurov, nhân viên ngân hàng ở Moskva gần bốn mươi tuổi, gặp một phụ nữ trẻ đến Yalta một mình cùng con chó nhỏ. Cả hai đều đã có gia đình và đều nghĩ cuộc tình sẽ kết thúc cùng kỳ nghỉ. Chekhov theo dõi những gì xảy ra sau đó trong vài trang lặng lẽ.",
+      "fr": "Dmitri Gourov, employé de banque moscovite approchant la quarantaine, rencontre une jeune femme venue seule à Yalta avec son petit chien. Tous deux sont mariés, et tous deux supposent que la liaison s’arrêtera avec les vacances. En quelques pages tranquilles, Tchekhov suit ce qui arrive ensuite.",
+      "es": "Dmitri Gúrov, empleado de banca moscovita cercano a los cuarenta, conoce a una joven que ha llegado sola a Yalta con su perrito. Ambos están casados, y ambos suponen que el romance acabará con las vacaciones. En unas pocas páginas tranquilas, Chéjov sigue lo que ocurre después."
+    },
+    "andersen-little-match-girl": {
+      "en": "A girl who has sold no matches on a freezing New Year’s Eve dares not go home, because her father would beat her. She strikes the matches one by one for warmth. Hans Christian Andersen’s few pages are among the best-known fairy tales ever printed.",
+      "vi": "Một bé gái chưa bán được que diêm nào trong đêm giao thừa giá buốt, không dám về nhà vì sợ bị cha đánh. Em quẹt từng que để sưởi ấm. Vài trang của Hans Christian Andersen là một trong những truyện cổ tích được biết đến nhiều nhất.",
+      "fr": "Une petite fille qui n’a vendu aucune allumette par une nuit glaciale de la Saint-Sylvestre n’ose pas rentrer chez elle, car son père la battrait. Elle frotte les allumettes une à une pour se réchauffer. Les quelques pages de Hans Christian Andersen comptent parmi les contes de fées les plus connus jamais imprimés.",
+      "es": "Una niña que no ha vendido ni una cerilla en una helada Nochevieja no se atreve a volver a casa, porque su padre le pegaría. Va encendiendo las cerillas una a una para calentarse. Las pocas páginas de Hans Christian Andersen figuran entre los cuentos de hadas más conocidos jamás impresos."
+    },
+    "marti-bebe-pomposo": {
+      "en": "On the night before he leaves for Paris, five-year-old Bebé lies in bed thinking about the visit of his mother’s rich uncle, Don Pomposo, who made a fuss of him and ignored his motherless cousin Raúl. José Martí wrote it for children and trusts them to notice what is unfair.",
+      "vi": "Đêm trước chuyến đi Paris, cậu bé năm tuổi Bebé nằm nghĩ về lần ông chú giàu của mẹ, Don Pomposo, đến thăm: ông nâng niu cậu và làm ngơ người anh em họ mồ côi mẹ là Raúl. José Martí viết cho trẻ em và tin rằng các em nhận ra điều bất công.",
+      "fr": "La veille de son départ pour Paris, Bebé, cinq ans, est couché et pense à la visite de l’oncle riche de sa mère, don Pomposo, qui l’a comblé d’attentions et a ignoré son cousin Raúl, orphelin de mère. José Martí l’a écrit pour les enfants et leur fait confiance pour remarquer ce qui est injuste.",
+      "es": "La noche antes de partir a París, Bebé, de cinco años, está acostado pensando en la visita del tío rico de su madre, don Pomposo, que le hizo mil fiestas y no hizo caso de su primo Raúl, huérfano de madre. José Martí lo escribió para los niños y confía en que sabrán notar lo que es injusto."
+    },
+    "rokeya-sultanas-dream": {
+      "en": "In a dream, a woman is led through Ladyland, a country where women govern, science runs on solar power and weather control, and men live in seclusion. Rokeya Sakhawat Hossain turns the custom of purdah upside down and argues with every stereotype by following its logic to the end. It is short, playful and sharper than its gentle tone suggests.",
+      "vi": "Trong giấc mơ, một người phụ nữ được dẫn đi thăm Ladyland, xứ sở do phụ nữ cai quản, chạy bằng năng lượng mặt trời và khoa học điều khiển thời tiết, còn đàn ông sống khép kín trong nhà. Rokeya Sakhawat Hossain đảo ngược tục purdah và bác từng định kiến giới bằng cách lần theo logic của nó đến cùng. Truyện ngắn, tinh nghịch và sắc hơn giọng văn nhẹ nhàng của nó.",
+      "fr": "Dans un rêve, une femme est conduite à travers Ladyland, un pays où les femmes gouvernent, où la science repose sur l’énergie solaire et la maîtrise du temps, et où les hommes vivent reclus. Rokeya Sakhawat Hossain retourne la coutume du purdah et discute chaque stéréotype en le menant jusqu’au bout de sa logique. Le texte est court, enjoué et plus acéré que son ton doux ne le laisse croire.",
+      "es": "En un sueño, una mujer es guiada por Ladyland, un país donde gobiernan las mujeres, la ciencia funciona con energía solar y control del clima, y los hombres viven recluidos. Rokeya Sakhawat Hossain da la vuelta a la costumbre del purdah y discute cada estereotipo llevando su lógica hasta el final. Es breve, juguetón y más afilado de lo que sugiere su tono amable."
+    },
+    "tolstoy-how-much-land": {
+      "en": "Pahom, a peasant, believes that with enough land he would fear nothing, not even the devil. He buys, moves and buys again, until a deal with the Bashkirs on the steppe puts one day’s walk between him and everything he wants. Tolstoy tells it in a few thousand words, plainly, like a fable.",
+      "vi": "Pahom, một nông dân, tin rằng chỉ cần có đủ đất thì ông không sợ gì nữa, kể cả quỷ. Ông mua, dời nhà rồi lại mua, cho đến khi một thỏa thuận với người Bashkir trên thảo nguyên đặt trước ông một ngày đi bộ và tất cả những gì ông muốn. Tolstoy kể bằng lời giản dị, như một ngụ ngôn.",
+      "fr": "Pakhom, un paysan, croit qu’avec assez de terre il ne craindrait rien, pas même le diable. Il achète, déménage et rachète, jusqu’à ce qu’un marché conclu avec les Bachkirs, dans la steppe, mette une journée de marche entre lui et tout ce qu’il désire. Tolstoï le raconte en quelques milliers de mots, simplement, comme une fable.",
+      "es": "Pajom, un campesino, cree que con suficiente tierra no temería a nada, ni siquiera al diablo. Compra, se muda y vuelve a comprar, hasta que un trato con los bashkires en la estepa pone una jornada de camino entre él y todo lo que desea. Tolstói lo cuenta en unos pocos miles de palabras, con sencillez, como una fábula."
+    },
+    "higuchi-thirteenth-night": {
+      "en": "Oseki, married seven years to a government official, leaves his house one night and returns to her parents. What she says there, and what her family answers, makes up most of this short story. Higuchi Ichiyō writes it in a few quiet scenes, with the moon as the only witness.",
+      "vi": "Oseki, kết hôn bảy năm với một viên chức chính quyền, một đêm rời nhà chồng để về với cha mẹ. Những gì cô nói ở đó, và những gì gia đình đáp lại, chiếm gần hết truyện ngắn này. Higuchi Ichiyō viết nó bằng vài cảnh lặng lẽ, với vầng trăng làm nhân chứng duy nhất.",
+      "fr": "Oseki, mariée depuis sept ans à un fonctionnaire, quitte une nuit la maison de son mari et retourne chez ses parents. Ce qu’elle y dit, et ce que sa famille lui répond, forme l’essentiel de cette courte nouvelle. Higuchi Ichiyō l’écrit en quelques scènes calmes, avec la lune pour seul témoin.",
+      "es": "Oseki, casada desde hace siete años con un funcionario, abandona una noche la casa de su marido y vuelve con sus padres. Lo que dice allí, y lo que su familia le responde, ocupa casi todo este breve cuento. Higuchi Ichiyō lo escribe en unas pocas escenas serenas, con la luna como único testigo."
+    },
+    "tagore-kabuliwala": {
+      "en": "Rahmat, a Pashtun dry-fruit seller from Kabul, befriends Mini, the five-year-old daughter of a Calcutta writer who tells the story. Their friendship runs through years, and through a good deal that the narrator misjudges. Tagore keeps it small and exact, and the feeling arrives without being announced.",
+      "vi": "Rahmat, người Pashtun bán quả khô từ Kabul, kết bạn với Mini, cô con gái năm tuổi của một nhà văn ở Calcutta, người kể câu chuyện. Tình bạn của họ đi qua nhiều năm, và qua không ít điều người kể đã nhìn sai. Tagore giữ truyện nhỏ và chính xác, để cảm xúc đến mà không cần báo trước.",
+      "fr": "Rahmat, marchand de fruits secs pachtoune venu de Kaboul, se lie d’amitié avec Mini, la fille de cinq ans d’un écrivain de Calcutta qui raconte l’histoire. Leur amitié s’étend sur des années, et sur bien des choses que le narrateur juge mal. Tagore reste petit et exact, et l’émotion arrive sans être annoncée.",
+      "es": "Rahmat, un vendedor pastún de frutos secos de Kabul, hace amistad con Mini, la hija de cinco años de un escritor de Calcuta que cuenta la historia. Su amistad atraviesa los años, y buena parte de lo que el narrador juzga mal. Tagore lo mantiene pequeño y exacto, y la emoción llega sin anunciarse."
+    },
+    "poe-the-tell-tale-heart": {
+      "en": "The narrator insists he is calm, and perfectly sane, and he proves it by describing a murder in exact detail. The old man’s pale blue eye is the cause; a sound that will not stop is the consequence. Poe packs it into a few pages that read aloud like a confession.",
+      "vi": "Người kể khăng khăng rằng mình bình tĩnh và hoàn toàn tỉnh táo, và chứng minh điều đó bằng việc mô tả một vụ giết người thật chi tiết. Con mắt xanh nhợt của ông già là nguyên nhân; một âm thanh không chịu dứt là hậu quả. Poe nén tất cả vào vài trang đọc lên như một lời thú tội.",
+      "fr": "Le narrateur assure qu’il est calme, et parfaitement sain d’esprit, et il le prouve en décrivant un meurtre dans les moindres détails. L’œil bleu pâle du vieillard en est la cause ; un bruit qui ne cesse pas en est la conséquence. Poe tient le tout en quelques pages qui, lues à voix haute, ont l’air d’une confession.",
+      "es": "El narrador insiste en que está tranquilo, y en su sano juicio, y lo demuestra describiendo un asesinato con todo detalle. El pálido ojo azul del anciano es la causa; un sonido que no cesa, la consecuencia. Poe lo condensa en unas pocas páginas que, leídas en voz alta, suenan a confesión."
+    },
+    "gilman-the-yellow-wallpaper": {
+      "en": "A physician rents a summer house and confines his wife to a nursery on the upper floor, forbidding her to work or write. She keeps a secret journal, and her attention settles on the room’s yellow wallpaper. Gilman’s story is brief, domestic and increasingly unsettling.",
+      "vi": "Một bác sĩ thuê nhà nghỉ hè và giữ vợ mình trong căn phòng trẻ ở tầng trên, cấm cô làm việc hay viết lách. Cô lén ghi nhật ký, và sự chú ý của cô dồn vào tấm giấy dán tường màu vàng trong phòng. Truyện của Gilman ngắn, đời thường và ngày càng bất an.",
+      "fr": "Un médecin loue une maison d’été et enferme sa femme dans la chambre d’enfants, à l’étage, lui interdisant de travailler et d’écrire. Elle tient en secret un journal, et son attention se fixe sur le papier peint jaune de la pièce. Le récit de Gilman est bref, domestique et de plus en plus troublant.",
+      "es": "Un médico alquila una casa de verano y confina a su esposa en la habitación de los niños, en el piso de arriba, prohibiéndole trabajar y escribir. Ella lleva un diario secreto, y su atención se fija en el papel pintado amarillo de la habitación. El relato de Gilman es breve, doméstico y cada vez más inquietante."
+    },
+    "akutagawa-rashomon": {
+      "en": "A servant who has just been dismissed shelters from the rain under the Rashōmon gate, in a Kyoto that has fallen into ruin. Up in the gate’s loft he finds something that tests whatever he still believes. Akutagawa retells a medieval tale in barely a dozen pages.",
+      "vi": "Một gia nhân vừa bị đuổi việc trú mưa dưới cổng La Sinh Môn, trong một Kyoto đã tàn phá. Trên gác cổng, anh gặp một điều thử thách mọi điều anh còn tin. Akutagawa kể lại một truyện thời trung đại chỉ trong chừng mười mấy trang.",
+      "fr": "Un serviteur tout juste renvoyé s’abrite de la pluie sous la porte Rashōmon, dans un Kyoto tombé en ruine. Dans l’étage de la porte, il trouve de quoi mettre à l’épreuve ce qui lui reste de convictions. Akutagawa réécrit un conte médiéval en à peine une douzaine de pages.",
+      "es": "Un criado recién despedido se resguarda de la lluvia bajo la puerta de Rashōmon, en una Kioto reducida a ruinas. En el desván de la puerta encuentra algo que pone a prueba lo que aún le queda de creencias. Akutagawa reescribe un cuento medieval en apenas una docena de páginas."
+    },
+    "soseki-ten-nights": {
+      "en": "A man tells ten dreams in ten short chapters. A vigil by a grave, a blind child on his back, a sculptor carving guardian gods in a temple, a steamship with no destination: each is complete in a few pages and none explains itself.",
+      "vi": "Một người kể lại mười giấc mơ trong mười chương ngắn. Một đêm canh bên mộ, đứa trẻ mù trên lưng, nhà điêu khắc tạc các vị thần hộ pháp trước cổng chùa, con tàu hơi nước không biết đi đâu: mỗi giấc mơ chỉ vài trang, trọn vẹn và không giải thích gì về mình.",
+      "fr": "Un homme raconte dix rêves en dix brefs chapitres. Une veillée près d’une tombe, un enfant aveugle sur son dos, un sculpteur taillant des dieux gardiens dans un temple, un paquebot sans destination : chacun est complet en quelques pages et aucun ne s’explique.",
+      "es": "Un hombre cuenta diez sueños en diez capítulos breves. Una vigilia junto a una tumba, un niño ciego a su espalda, un escultor tallando dioses guardianes en un templo, un vapor sin destino: cada uno es completo en pocas páginas y ninguno se explica."
+    },
+    "kafka-die-verwandlung": {
+      "en": "Gregor Samsa wakes in his bed in Prague, unable to rise, and his first worry is that he will miss his train to work. In under a hundred pages Kafka follows what happens to a household when its breadwinner stops being useful.",
+      "vi": "Gregor Samsa thức dậy trên giường mình ở Praha, không sao ngồi dậy nổi, và nỗi lo đầu tiên của anh là trễ chuyến tàu đi làm. Chưa đầy trăm trang, Kafka theo dõi điều xảy ra với một gia đình khi người nuôi cả nhà không còn dùng được nữa.",
+      "fr": "Gregor Samsa se réveille dans son lit à Prague, incapable de se lever, et sa première inquiétude est de manquer son train pour le travail. En moins de cent pages, Kafka suit ce qui arrive à un foyer quand celui qui le fait vivre cesse d’être utile.",
+      "es": "Gregor Samsa despierta en su cama en Praga, incapaz de levantarse, y su primera preocupación es perder el tren al trabajo. En menos de cien páginas, Kafka sigue lo que le ocurre a un hogar cuando quien lo sostiene deja de ser útil."
+    },
+    "akutagawa-in-a-grove": {
+      "en": "A woodcutter finds a body in a grove near Kyoto. Seven testimonies follow, from witnesses to the people involved, each sure of itself and each different. It is also the reason a word like ‘Rashomon’ now means something in courtrooms and newsrooms.",
+      "vi": "Một người đốn củi phát hiện một xác chết trong lùm cây gần Kyoto. Rồi bảy lời khai nối nhau, từ người làm chứng đến những người trong cuộc, mỗi lời đều tự tin và mỗi lời một khác. Đó cũng là lý do một cái tên như ‘Rashomon’ ngày nay có nghĩa riêng ở tòa án lẫn phòng tin.",
+      "fr": "Un bûcheron découvre un corps dans un bosquet près de Kyoto. Sept témoignages suivent, de témoins comme de protagonistes, chacun sûr de lui et chacun différent. C’est aussi la raison pour laquelle un mot comme « Rashōmon » signifie aujourd’hui quelque chose dans les tribunaux et les rédactions.",
+      "es": "Un leñador encuentra un cadáver en un bosquecillo cerca de Kioto. Siguen siete testimonios, de testigos y de implicados, cada uno seguro de sí mismo y cada uno distinto. Es también la razón por la que una palabra como «Rashōmon» significa hoy algo en los tribunales y las redacciones."
+    },
+    "flaubert-un-cur-simple": {
+      "en": "Félicité works in the house of Madame Aubain in Pont-l’Évêque, loving what she is given to love: a family, a nephew, a parrot. Flaubert follows her whole life without once raising his voice.",
+      "vi": "Félicité làm việc trong nhà bà Aubain ở Pont-l’Évêque, thương những gì cuộc đời trao cho cô để thương: một gia đình, một đứa cháu, một con vẹt. Flaubert theo cô suốt đời mà không một lần cao giọng.",
+      "fr": "Félicité travaille chez Mme Aubain à Pont-l’Évêque, aimant ce qu’on lui donne à aimer : une famille, un neveu, un perroquet. Flaubert suit toute sa vie sans jamais élever la voix.",
+      "es": "Félicité trabaja en casa de la señora Aubain, en Pont-l’Évêque, y ama lo que se le da para amar: una familia, un sobrino, un loro. Flaubert sigue toda su vida sin alzar nunca la voz."
+    },
+    "gogol-the-overcoat": {
+      "en": "Akaky Akakievich Bashmachkin spends his days copying documents in a government office and is mocked by his colleagues. When his old coat falls apart in the Petersburg winter, a tailor’s bill becomes the biggest event of his life.",
+      "vi": "Akaky Akakievich Bashmachkin ngày ngày chép giấy tờ trong một công sở và bị đồng nghiệp trêu chọc. Khi chiếc áo cũ rách tả tơi giữa mùa đông Petersburg, tiền công may áo trở thành sự kiện lớn nhất đời ông.",
+      "fr": "Akaki Akakiévitch Bachmatchkine passe ses journées à copier des documents dans un bureau de l’administration, moqué par ses collègues. Quand son vieux manteau tombe en lambeaux dans l’hiver pétersbourgeois, la note d’un tailleur devient le plus grand événement de sa vie.",
+      "es": "Akaki Akákievich Bashmachkin pasa los días copiando documentos en una oficina del Estado, burlado por sus compañeros. Cuando su viejo capote se deshace en el invierno de Petersburgo, la cuenta de un sastre se convierte en el mayor acontecimiento de su vida."
+    },
+    "akutagawa-hell-screen": {
+      "en": "Yoshihide, a proud and disliked master painter, serves the Lord of Horikawa, who commands a screen of hell. A servant in the household tells what followed, in a narration that is courteous, admiring and not to be trusted.",
+      "vi": "Yoshihide, một bậc thầy hội họa kiêu hãnh và bị nhiều người ghét, phục vụ Đại nhân Horikawa, người ra lệnh vẽ một bức bình phong địa ngục. Một gia nhân trong phủ kể lại những gì đã diễn ra, bằng lối kể lễ độ, đầy ngưỡng mộ, và không đáng tin hoàn toàn.",
+      "fr": "Yoshihide, maître peintre orgueilleux et peu aimé, est au service du seigneur de Horikawa, qui lui commande un paravent de l’enfer. Un domestique de la maison raconte ce qui suivit, sur un ton courtois, admiratif et peu digne de confiance.",
+      "es": "Yoshihide, un maestro pintor orgulloso y poco querido, sirve al señor de Horikawa, que le encarga un biombo del infierno. Un criado de la casa cuenta lo que ocurrió después, con una voz cortés, admirativa y poco fiable."
+    },
+    "dickens-a-christmas-carol": {
+      "en": "On Christmas Eve, Ebenezer Scrooge, a London moneylender who hates the holiday, is visited by the ghost of his dead partner, Jacob Marley. What the ghost brings is a warning and three visitors who will show Scrooge his own life.",
+      "vi": "Đêm Giáng sinh, Ebenezer Scrooge, một chủ nợ ở London ghét ngày lễ này, bị hồn người cộng sự đã chết, Jacob Marley, ghé thăm. Bóng ma mang đến một lời cảnh báo và ba vị khách sẽ cho Scrooge thấy chính cuộc đời mình.",
+      "fr": "La veille de Noël, Ebenezer Scrooge, prêteur londonien qui déteste la fête, reçoit la visite du fantôme de son associé défunt, Jacob Marley. Le fantôme apporte un avertissement et trois visiteurs qui montreront à Scrooge sa propre vie.",
+      "es": "En Nochebuena, Ebenezer Scrooge, un prestamista londinense que detesta la fiesta, recibe la visita del fantasma de su difunto socio, Jacob Marley. El fantasma trae una advertencia y tres visitantes que mostrarán a Scrooge su propia vida."
+    },
+    "stevenson-strange-case-of-dr-jekyll-and-mr-hyde": {
+      "en": "Gabriel Utterson, a sober London lawyer, grows uneasy about a friend’s will that leaves everything to a brutal stranger called Edward Hyde. Stevenson wrote the novella while largely bedridden in Bournemouth; it came out in January 1886 as a one-shilling paperback and sold close to 40,000 copies in six months. Its title has since become shorthand for a person with two faces.",
+      "vi": "Gabriel Utterson, một luật sư London điềm đạm, bất an trước bản di chúc của người bạn để lại toàn bộ tài sản cho một kẻ lạ tàn bạo tên Edward Hyde. Stevenson viết truyện ngắn này khi phần lớn thời gian phải nằm nghỉ ở Bournemouth; sách ra mắt tháng 1 năm 1886 dưới dạng bìa mềm giá một shilling và bán được gần 40.000 bản trong sáu tháng. Từ đó, tên truyện thành cách nói quen thuộc để chỉ người có hai bộ mặt.",
+      "fr": "Gabriel Utterson, avocat londonien rassis, s’inquiète du testament d’un ami qui lègue tout à un étranger brutal nommé Edward Hyde. Stevenson a écrit la nouvelle alors qu’il était presque alité à Bournemouth ; elle parut en janvier 1886 en brochure à un shilling et se vendit à près de 40 000 exemplaires en six mois. Son titre est devenu depuis l’expression d’une personne à double visage.",
+      "es": "Gabriel Utterson, un sobrio abogado londinense, se inquieta por el testamento de un amigo que lo deja todo a un brutal desconocido llamado Edward Hyde. Stevenson escribió la novela corta cuando pasaba casi todo el tiempo en cama en Bournemouth; salió en enero de 1886 en rústica a un chelín y vendió cerca de 40 000 ejemplares en seis meses. Su título se ha convertido desde entonces en sinónimo de una persona de dos caras."
+    },
+    "melville-bartleby-the-scrivener": {
+      "en": "An elderly Wall Street lawyer, who narrates, takes on a new scrivener named Bartleby. At first Bartleby copies documents tirelessly; then he begins to answer requests with “I would prefer not to”. Published anonymously in two instalments in Putnam’s Monthly Magazine in 1853, it is a comedy of office manners that turns into something harder to name.",
+      "vi": "Một luật sư lớn tuổi ở phố Wall, cũng là người kể chuyện, nhận thêm một người chép thuê tên Bartleby. Lúc đầu Bartleby chép giấy tờ không biết mệt; rồi anh bắt đầu đáp các yêu cầu bằng câu “I would prefer not to” (tạm hiểu: “tôi thích không làm hơn”). Truyện đăng nặc danh thành hai kỳ trên Putnam’s Monthly Magazine năm 1853, khởi đầu như một vở hài kịch văn phòng rồi chuyển sang thứ khó gọi tên hơn.",
+      "fr": "Un avocat âgé de Wall Street, qui est aussi le narrateur, engage un nouveau copiste nommé Bartleby. Au début, Bartleby copie sans relâche ; puis il se met à répondre aux demandes par « Je préférerais ne pas ». Publié anonymement en deux livraisons dans Putnam’s Monthly Magazine en 1853, c’est une comédie de bureau qui devient quelque chose de plus difficile à nommer.",
+      "es": "Un anciano abogado de Wall Street, que además es el narrador, contrata a un nuevo escribiente llamado Bartleby. Al principio Bartleby copia documentos sin descanso; luego empieza a responder a las peticiones con «Preferiría no hacerlo». Publicado de forma anónima en dos entregas en Putnam’s Monthly Magazine en 1853, es una comedia de costumbres de oficina que se vuelve algo más difícil de nombrar."
+    },
+    "poe-the-fall-of-the-house-of-usher": {
+      "en": "An unnamed narrator visits his boyhood friend Roderick Usher, who is ill in mind and body and lives in a decaying ancestral house with his sister Madeline. First published in Burton’s Gentleman’s Magazine in September 1839, it is Poe’s best-known Gothic tale, and one of the shortest routes into his way of building fear.",
+      "vi": "Người kể chuyện không tên đến thăm Roderick Usher, bạn thuở nhỏ, người đang ốm cả thể xác lẫn tinh thần và sống trong ngôi nhà tổ tiên mục nát cùng em gái Madeline. Truyện đăng lần đầu trên Burton’s Gentleman’s Magazine tháng 9 năm 1839, là truyện Gothic nổi tiếng nhất của Poe và là một lối vào ngắn gọn để thấy ông dựng nỗi sợ thế nào.",
+      "fr": "Un narrateur sans nom rend visite à son ami d’enfance Roderick Usher, malade de corps et d’esprit, qui vit avec sa sœur Madeline dans une demeure ancestrale en ruine. Paru pour la première fois dans Burton’s Gentleman’s Magazine en septembre 1839, c’est le conte gothique le plus connu de Poe et l’une des entrées les plus courtes dans sa façon de bâtir la peur.",
+      "es": "Un narrador sin nombre visita a su amigo de la infancia Roderick Usher, enfermo de cuerpo y de mente, que vive con su hermana Madeline en una casa ancestral en ruinas. Publicado por primera vez en Burton’s Gentleman’s Magazine en septiembre de 1839, es el cuento gótico más conocido de Poe y una de las vías más breves para entrar en su manera de construir el miedo."
+    },
+    "tolstoy-the-death-of-ivan-ilyich": {
+      "en": "Ivan Ilyich is a high-court judge who has built a comfortable, correct life by doing what is expected. When an illness he cannot name begins to change how he sees that life, the novella follows him closely. Tolstoy published it in 1886, soon after his religious conversion, and it is often counted among the finest examples of the novella form.",
+      "vi": "Ivan Ilyich là một thẩm phán tòa cấp cao, đã dựng nên cuộc đời êm ấm, đúng mực bằng cách làm điều người ta mong đợi. Khi một căn bệnh không gọi nổi tên bắt đầu đổi cách ông nhìn cuộc đời ấy, truyện vừa bám sát ông từng bước. Tolstoy xuất bản năm 1886, ngay sau cuộc hoán cải tôn giáo của mình, và tác phẩm thường được xếp vào những mẫu mực nhất của thể truyện vừa.",
+      "fr": "Ivan Ilitch est juge à la cour d’appel et s’est bâti une vie confortable et correcte en faisant ce qu’on attend de lui. Quand une maladie qu’il ne sait pas nommer commence à changer son regard sur cette vie, la nouvelle le suit de près. Tolstoï l’a publiée en 1886, peu après sa conversion religieuse, et on la compte souvent parmi les plus beaux exemples du genre.",
+      "es": "Iván Ilich es juez de un tribunal superior y se ha construido una vida cómoda y correcta haciendo lo que se espera de él. Cuando una enfermedad que no sabe nombrar empieza a cambiar su manera de ver esa vida, la novela lo sigue de cerca. Tolstói la publicó en 1886, poco después de su conversión religiosa, y a menudo se la cuenta entre los mejores ejemplos del género."
+    },
+    "luxun-diary-madman": {
+      "en": "A short story from 1918 presented as the diary of a man who becomes convinced that his neighbours, and then his own family, mean him harm. It opens with a note in classical Chinese; the rest is written in the plain spoken language that Lu Xun and his circle were pushing into literature.",
+      "vi": "Truyện ngắn năm 1918, trình bày như nhật ký của một người dần tin rằng hàng xóm, rồi cả gia đình mình, muốn hại mình. Truyện mở bằng một ghi chú viết bằng văn ngôn; phần còn lại viết bằng khẩu ngữ giản dị mà Lỗ Tấn và những người cùng thời đang đưa vào văn chương.",
+      "fr": "Nouvelle de 1918 présentée comme le journal d’un homme qui se persuade que ses voisins, puis sa propre famille, lui veulent du mal. Elle s’ouvre sur une note en chinois classique ; le reste est écrit dans la langue parlée simple que Lu Xun et son cercle s’efforçaient d’introduire en littérature.",
+      "es": "Relato de 1918 presentado como el diario de un hombre que se convence de que sus vecinos, y luego su propia familia, quieren hacerle daño. Se abre con una nota en chino clásico; el resto está escrito en la lengua hablada, llana, que Lu Xun y su círculo empujaban hacia la literatura."
+    },
+    "higuchi-growing-up": {
+      "en": "Takekurabe follows four young people in Daionjimae, a fictional neighbourhood just outside Tokyo’s Yoshiwara district, over about four months framed by two festivals. Higuchi Ichiyō serialized it in the magazine Bungakkai from January 1895 to January 1896,.",
+      "vi": "Takekurabe theo bốn người trẻ ở Daionjimae, một khu phố hư cấu ngay bên ngoài khu Yoshiwara của Tokyo, trong khoảng bốn tháng khép giữa hai lễ hội. Higuchi Ichiyō đăng truyện nhiều kỳ trên tạp chí Bungakkai từ tháng 1 năm 1895 đến tháng 1 năm 1896.",
+      "fr": "Takekurabe suit quatre jeunes gens à Daionjimae, quartier imaginaire juste à l’extérieur du Yoshiwara de Tokyo, sur environ quatre mois encadrés par deux fêtes. Higuchi Ichiyō l’a publié en feuilleton dans la revue Bungakkai, de janvier 1895 à janvier 1896.",
+      "es": "Takekurabe sigue a cuatro jóvenes en Daionjimae, un barrio imaginario justo a las afueras del Yoshiwara de Tokio, durante unos cuatro meses enmarcados por dos fiestas. Higuchi Ichiyō lo publicó por entregas en la revista Bungakkai, de enero de 1895 a enero de 1896."
+    },
+    "higuchi-troubled-waters": {
+      "en": "Oriki is the most popular courtesan at the Kikunoi, a brothel in a red-light district; Genshichi, a former customer who has ruined himself for her, now struggles to get by. Higuchi Ichiyō wrote it in June and July 1895, when she was 23, and it appeared in Bungei kurabu that September.",
+      "vi": "Oriki là kỹ nữ được yêu nhất ở Kikunoi, một kỹ viện trong khu đèn đỏ; Genshichi, người khách cũ đã tự hủy hoại mình vì cô, giờ chật vật kiếm sống. Higuchi Ichiyō viết truyện trong tháng 6 và tháng 7 năm 1895, khi bà 23 tuổi, và truyện đăng trên Bungei kurabu tháng 9 năm ấy.",
+      "fr": "Oriki est la courtisane la plus courue du Kikunoi, une maison close d’un quartier réservé ; Genshichi, ancien client qui s’est ruiné pour elle, peine désormais à vivre. Higuchi Ichiyō l’a écrit en juin et juillet 1895, à 23 ans, et il a paru dans Bungei kurabu en septembre de la même année.",
+      "es": "Oriki es la cortesana más solicitada del Kikunoi, un burdel de un barrio de placer; Genshichi, un antiguo cliente que se arruinó por ella, lucha ahora por salir adelante. Higuchi Ichiyō lo escribió en junio y julio de 1895, a los 23 años, y apareció en Bungei kurabu en septiembre de ese año."
+    },
+    "luxun-ah-q": {
+      "en": "Ah Q is a hired hand with no family, no land and no certain name, living in the village of Weizhuang around the time of the 1911 revolution. Lu Xun’s narrator plays the dutiful biographer while the story laughs, then stops laughing. It is short, quick to read, and sharper than its reputation as a school text suggests.",
+      "vi": "AQ là gã làm thuê không gia đình, không ruộng đất, đến cái tên cũng chẳng ai chắc, sống ở làng Vị Trang vào quãng cách mạng Tân Hợi 1911. Người kể chuyện của Lỗ Tấn đóng vai người viết tiểu sử nghiêm chỉnh, để câu chuyện khiến ta bật cười rồi bỗng thôi cười. Truyện ngắn, đọc nhanh, và sắc hơn nhiều so với danh tiếng một bài văn học trong nhà trường.",
+      "fr": "Ah Q est un journalier sans famille, sans terre et sans nom bien établi, qui vit au village de Weizhuang à l’époque de la révolution de 1911. Le narrateur de Lu Xun joue le biographe appliqué, tandis que le récit rit, puis cesse de rire. Il est court, vite lu, et plus acéré que sa réputation de texte scolaire ne le laisse croire.",
+      "es": "Ah Q es un jornalero sin familia, sin tierra y sin un nombre seguro, que vive en la aldea de Weizhuang hacia la época de la revolución de 1911. El narrador de Lu Xun hace de biógrafo aplicado mientras el relato se ríe y luego deja de reír. Es corto, de lectura rápida y más afilado de lo que sugiere su fama de texto escolar."
+    },
+    "basho-narrow-road": {
+      "en": "In spring 1689 Matsuo Bashō left Edo with his companion Sora for the far north of Honshū, and later turned the trip into a short book of prose and haiku. It is a travel record that reads like a meditation on time, places and the people who passed through them before him.",
+      "vi": "Mùa xuân 1689, Matsuo Bashō cùng người bạn đồng hành Sora rời Edo đi lên vùng cực bắc đảo Honshū, rồi biến chuyến đi thành một cuốn sách ngắn gồm văn xuôi và haiku. Đó là cuốn ký hành đọc như một lời suy ngẫm về thời gian, về những nơi chốn, và về những người đã đi qua trước ông.",
+      "fr": "Au printemps 1689, Matsuo Bashō quitta Edo avec son compagnon Sora pour l’extrême nord de Honshū, puis tira de ce voyage un court livre de prose et de haïkus. C’est un récit de voyage qui se lit comme une méditation sur le temps, sur les lieux et sur ceux qui y ont passé avant lui.",
+      "es": "En la primavera de 1689, Matsuo Bashō salió de Edo con su compañero Sora hacia el extremo norte de Honshū, y más tarde hizo del viaje un breve libro de prosa y haikus. Es un diario de viaje que se lee como una meditación sobre el tiempo, los lugares y la gente que pasó por ellos antes que él."
+    },
+    "shelley-frankenstein": {
+      "en": "Victor Frankenstein, a young student of natural philosophy, creates a thinking creature and runs from it. The novel passes the story through three voices, the last of them the creature’s own. It is far stranger, and more humane, than the film monster most people expect.",
+      "vi": "Victor Frankenstein, chàng sinh viên triết học tự nhiên, tạo ra một sinh vật biết suy nghĩ rồi bỏ chạy khỏi nó. Cuốn tiểu thuyết trao câu chuyện qua ba giọng kể, giọng cuối cùng là của chính sinh vật ấy. Nó lạ lùng hơn, và nhân hậu hơn, nhiều so với con quái vật điện ảnh mà đa số mọi người hình dung.",
+      "fr": "Victor Frankenstein, jeune étudiant en philosophie naturelle, crée un être pensant et le fuit. Le roman fait passer l’histoire par trois voix, la dernière étant celle de la créature elle-même. Il est bien plus étrange, et plus humain, que le monstre de cinéma auquel on s’attend.",
+      "es": "Victor Frankenstein, un joven estudiante de filosofía natural, crea un ser pensante y huye de él. La novela hace pasar la historia por tres voces, la última la de la propia criatura. Es mucho más extraña, y más humana, que el monstruo de película que casi todos esperan."
+    },
+    "austen-pride-and-prejudice": {
+      "en": "When a wealthy bachelor rents a house near the Bennets, their neighbours begin planning marriages, and Elizabeth Bennet forms a quick opinion of his proud friend Mr Darcy. Jane Austen’s comedy of manners is also a study of how people are wrong about each other, and how long it takes to find out.",
+      "vi": "Khi một chàng độc thân giàu có thuê nhà gần gia đình Bennet, cả vùng bắt đầu tính chuyện cưới xin, và Elizabeth Bennet nhanh chóng có ý kiến về người bạn kiêu kỳ của chàng, ông Darcy. Hài kịch phong tục của Jane Austen cũng là một nghiên cứu về việc con người nhìn lầm nhau, và phải mất bao lâu mới nhận ra.",
+      "fr": "Quand un riche célibataire loue une maison près de chez les Bennet, leurs voisins se mettent à échafauder des mariages, et Elizabeth Bennet se forge vite une opinion de son orgueilleux ami, M. Darcy. La comédie de mœurs de Jane Austen est aussi une étude de la façon dont on se trompe sur autrui, et du temps qu’il faut pour s’en apercevoir.",
+      "es": "Cuando un rico soltero alquila una casa cerca de los Bennet, los vecinos empiezan a planear matrimonios, y Elizabeth Bennet se forma enseguida una opinión de su orgulloso amigo, el señor Darcy. La comedia de costumbres de Jane Austen es también un estudio de cómo nos equivocamos unos sobre otros y de cuánto se tarda en descubrirlo."
+    },
+    "chomei-hojoki": {
+      "en": "Hōjōki, written in 1212, opens with a river that never stays the same and then asks what a person can really keep. Kamo no Chōmei describes the disasters he saw in the capital and the ten-foot-square hut where he settled as a recluse. It is short, calm and unexpectedly personal.",
+      "vi": "Phương trượng ký (Hōjōki), viết năm 1212, mở đầu bằng dòng sông không bao giờ giữ nguyên nước rồi hỏi con người thật sự giữ được gì. Kamo no Chōmei tả những tai ương ông chứng kiến ở kinh đô và túp lều vuông mười feet nơi ông ở ẩn. Sách ngắn, tĩnh lặng, và riêng tư một cách bất ngờ.",
+      "fr": "Le Hōjōki, écrit en 1212, s’ouvre sur un fleuve qui n’est jamais le même, puis demande ce qu’une personne peut vraiment garder. Kamo no Chōmei décrit les catastrophes dont il fut témoin dans la capitale et la hutte de dix pieds carrés où il s’est installé en ermite. Le texte est bref, calme et étonnamment intime.",
+      "es": "El Hōjōki, escrito en 1212, empieza con un río que nunca es el mismo y pregunta luego qué puede conservar de verdad una persona. Kamo no Chōmei describe los desastres que presenció en la capital y la choza de diez pies cuadrados donde se instaló como ermitaño. Es breve, sereno e inesperadamente personal."
+    },
+    "miyazawa-restaurant-orders": {
+      "en": "Two hunters in Western-style dress lose their guide in the mountains and, cold and hungry, come upon a Western-style restaurant. Behind each door hangs a sign, welcoming at first and stranger with every room. Miyazawa Kenji’s story turns on the double meaning of its title word chūmon: an order as a request, and an order as a meal.",
+      "vi": "Hai người đi săn ăn mặc kiểu Tây lạc mất người dẫn đường trong núi, đói và lạnh, thì gặp một nhà hàng kiểu phương Tây. Sau mỗi cánh cửa là một tấm biển, lúc đầu niềm nở, càng vào sâu càng lạ. Truyện của Miyazawa Kenji xoay quanh chữ 注文 (chūmon) trong nhan đề, vừa là “yêu cầu”, vừa là “gọi món”.",
+      "fr": "Deux chasseurs vêtus à l’occidentale perdent leur guide en montagne et, transis et affamés, tombent sur un restaurant de style occidental. Derrière chaque porte pend une pancarte, d’abord accueillante, puis plus étrange à chaque salle. Le récit de Miyazawa Kenji joue sur le double sens du mot chūmon, qui veut dire à la fois une demande et une commande de repas.",
+      "es": "Dos cazadores vestidos a la occidental pierden a su guía en la montaña y, helados y hambrientos, dan con un restaurante de estilo occidental. Tras cada puerta cuelga un cartel, acogedor al principio y más extraño en cada sala. El relato de Miyazawa Kenji juega con el doble sentido de la palabra chūmon: una petición y un pedido de comida."
+    },
+    "bronte-wuthering-heights": {
+      "en": "A tenant at Thrushcross Grange visits his landlord at Wuthering Heights, a farmhouse on the Yorkshire moors, and a housekeeper tells him how the place came to be so bitter. Her story reaches back about thirty years, to a boy taken in off the streets and the girl he grew up beside. Emily Brontë’s only novel is a love story with almost no softness in it.",
+      "vi": "Một người thuê nhà ở Thrushcross Grange đến thăm chủ nhà ở Wuthering Heights, trang trại trên đồng hoang Yorkshire, và bà quản gia kể cho ông nghe vì sao nơi ấy trở nên cay nghiệt đến thế. Câu chuyện của bà lùi về khoảng ba mươi năm trước, với một cậu bé được nhặt về từ đường phố và cô gái lớn lên bên cậu. Cuốn tiểu thuyết duy nhất của Emily Brontë là một chuyện tình hầu như không có chút dịu dàng.",
+      "fr": "Un locataire de Thrushcross Grange rend visite à son propriétaire à Wuthering Heights, une ferme de la lande du Yorkshire, et une gouvernante lui raconte comment ce lieu est devenu si amer. Son récit remonte à une trentaine d’années, à un garçon recueilli dans la rue et à la fille auprès de qui il a grandi. L’unique roman d’Emily Brontë est une histoire d’amour presque sans douceur.",
+      "es": "Un inquilino de Thrushcross Grange visita a su casero en Cumbres Borrascosas, una granja de los páramos de Yorkshire, y un ama de llaves le cuenta cómo el lugar llegó a ser tan amargo. Su relato se remonta unos treinta años, a un muchacho recogido de la calle y a la niña junto a quien creció. La única novela de Emily Brontë es una historia de amor casi sin ternura."
+    },
+    "conrad-heart-of-darkness": {
+      "en": "Charles Marlow, waiting for the tide on the Thames, tells his companions how he took a job captaining a river steamer for a Belgian ivory company in Africa. His task is to find Kurtz, a celebrated trader who has gone silent. Conrad drew on his own 1890 service on the Congo, and the story has been argued over ever since.",
+      "vi": "Charles Marlow, đang đợi con nước trên sông Thames, kể cho những người cùng tàu nghe chuyện ông nhận làm thuyền trưởng một chiếc tàu hơi nước chạy sông cho một công ty ngà voi của Bỉ ở châu Phi. Việc của ông là đi tìm Kurtz, một thương nhân lừng danh nay không còn tin tức. Conrad dựa vào chuyến phục vụ trên sông Congo của chính mình năm 1890, và truyện bị tranh cãi từ đó đến nay.",
+      "fr": "Charles Marlow, qui attend la marée sur la Tamise, raconte à ses compagnons comment il a accepté de commander un vapeur fluvial pour une compagnie belge d’ivoire, en Afrique. Sa mission est de retrouver Kurtz, un négociant célèbre devenu silencieux. Conrad s’est appuyé sur son propre service au Congo en 1890, et le récit n’a cessé d’être discuté depuis.",
+      "es": "Charles Marlow, que espera la marea en el Támesis, cuenta a sus compañeros cómo aceptó el puesto de capitán de un vapor fluvial para una compañía belga de marfil en África. Su tarea es encontrar a Kurtz, un célebre comerciante que ha dejado de dar noticias. Conrad se basó en su propio servicio en el Congo en 1890, y el relato se discute desde entonces."
+    },
+    "wells-the-time-machine": {
+      "en": "A man known only as the Time Traveller tells his dinner guests that time is a fourth dimension, and later comes back with a story to prove it. He has ridden a machine of his own making into the far future, where he meets two very different peoples and has to decide what they are. H. G. Wells’s 1895 novella gave the world its phrase “time machine”.",
+      "vi": "Một người chỉ được gọi là Nhà Du hành Thời gian bảo các vị khách dự tiệc tối rằng thời gian là chiều thứ tư, rồi sau đó trở về với một câu chuyện để chứng minh điều ấy. Ông đã cưỡi cỗ máy tự chế vào tương lai xa, gặp hai giống người rất khác nhau và phải tự quyết xem họ là gì. Truyện vừa năm 1895 của H. G. Wells mang đến cho thế giới cụm từ “cỗ máy thời gian”.",
+      "fr": "Un homme connu seulement comme le Voyageur du Temps explique à ses invités que le temps est une quatrième dimension, puis revient avec une histoire pour le prouver. Il a chevauché une machine de sa fabrication jusque dans un futur lointain, où il rencontre deux peuples très différents et doit décider de ce qu’ils sont. La nouvelle de H. G. Wells, publiée en 1895, a donné au monde l’expression « machine à explorer le temps ».",
+      "es": "Un hombre conocido solo como el Viajero del Tiempo explica a sus invitados a cenar que el tiempo es una cuarta dimensión, y más tarde regresa con una historia para demostrarlo. Ha viajado en una máquina de su invención hasta un futuro lejano, donde conoce a dos pueblos muy distintos y debe decidir qué son. La novela corta de H. G. Wells, de 1895, dio al mundo la expresión «máquina del tiempo»."
     }
   }
 }

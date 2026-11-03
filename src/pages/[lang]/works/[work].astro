@@ -2,7 +2,7 @@
 import Base from '../../../layouts/Base.astro';
 import OriginalTitle from '../../../components/OriginalTitle.astro';
 import Illustration from '../../../components/Illustration.astro';
-import {profileFor,localized,readingMinutes} from '../../../lib/profiles';
+import {profileFor,localized,readingMinutes,readingLabel} from '../../../lib/profiles';
 import readerUi from '../../../lib/reader-ui.json';
 import {strings,supported,type Locale} from '../../../lib/i18n';
 import {catalog,languageNames,passagesFor,editionsForWork,readableEditions,publishedEditions,bestEdition,reviewCategory,editionTitle} from '../../../lib/corpus';
@@ -51,7 +51,7 @@ const breadcrumbs=[{name:d.collection,href:pagePath(lang)},{name:title,href:page
       <dt>{d.genre}</dt><dd>{genreName(w.genre,lang)}</dd>
       <dt>{d.originalLanguage}</dt><dd>{languageName(w.original_language,lang,languageNames)}</dd>
       {published.length>0&&<><dt>{d.availableLanguages}</dt><dd>{textLanguages.map(code=>languageName(code,lang,languageNames)).join(' · ')}</dd></>}
-      {minutes>0&&<><dt>{ui.readingTime}</dt><dd>≈ {minutes} {ui.minutes}</dd></>}
+      {minutes>0&&<><dt>{ui.readingTime}</dt><dd>≈ {readingLabel(minutes,ui)}</dd></>}
     </dl>
     {isDemo&&<p class="notice">{t.sampleNotice}</p>}
     {!isDemo&&!reading.some(e=>e.language===lang&&e.status==='published')&&<p class="notice">{t.noTranslation}</p>}

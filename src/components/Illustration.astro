@@ -13,6 +13,6 @@ const width=variant==='thumb'?480:i.width,height=variant==='thumb'?Math.round(48
   ?<img class="illustration illustration-thumb" src={src} alt="" width={width} height={height} loading="lazy" decoding="async" style={'object-position:'+i.focus} />
   :<figure class={'illustration illustration-'+variant}>
     <img src={src} alt={alt.value} lang={alt.language} width={width} height={height} loading={eager?'eager':'lazy'} decoding="async" fetchpriority={eager?'high':undefined} style={'object-position:'+i.focus} />
-    <figcaption><span class="illustration-kind">{kind}</span> <span lang={caption.language}>{caption.value}</span>
-      <small lang="en">{i.credit} <a href={i.source_url} rel="noopener">{labels.source}</a></small></figcaption>
+    <figcaption><span class="illustration-kind">{kind}</span>{" "}<span lang={caption.language}>{caption.value}</span>
+      <small lang="en">{i.credit}{" "}<a href={i.source_url} rel="noopener">{labels.source}</a></small></figcaption>
   </figure>}

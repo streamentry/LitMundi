@@ -8,7 +8,7 @@
     "build": "npm run validate && npm run downloads && npm run social:images && astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "validate": "node scripts/validate.mjs && node scripts/validate-atlas.mjs && node scripts/translation-todo.mjs check",
+    "validate": "node scripts/validate.mjs && node scripts/validate-atlas.mjs && node scripts/validate-profiles.mjs && node scripts/translation-todo.mjs check",
     "export": "npm run validate && node scripts/export.mjs && python3 dist-archive/restore.py --verify-only",
     "test": "node --test tests/*.test.mjs",
     "verify:build": "node scripts/verify-build.mjs",

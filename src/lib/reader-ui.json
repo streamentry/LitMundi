@@ -22,14 +22,16 @@
     "readingNoteTitle": "Before you read",
     "factsTitle": "Good to know",
     "sourcesTitle": "Sources for this introduction",
-    "minutes": "min read",
     "readingTime": "Reading time",
     "textLength": "Length",
     "illustrationSource": "Source",
     "depicts_text": "Illustration of this work.",
     "depicts_related": "Related image.",
     "depicts_period": "Image from the period.",
-    "introNote": "Introduction written for LitMundi with AI assistance and checked against the sources listed below."
+    "introNote": "Introduction written for LitMundi with AI assistance and checked against the sources listed below.",
+    "hourUnit": "h",
+    "minuteUnit": "min",
+    "readSuffix": " read"
   },
   "vi": {
     "startReading": "Bắt đầu đọc",
@@ -54,14 +56,16 @@
     "readingNoteTitle": "Trước khi đọc",
     "factsTitle": "Nên biết",
     "sourcesTitle": "Nguồn của phần giới thiệu",
-    "minutes": "phút đọc",
     "readingTime": "Thời gian đọc",
     "textLength": "Độ dài",
     "illustrationSource": "Nguồn",
     "depicts_text": "Tranh minh họa cho tác phẩm.",
     "depicts_related": "Hình ảnh liên quan.",
     "depicts_period": "Hình ảnh cùng thời.",
-    "introNote": "Phần giới thiệu do LitMundi soạn với sự hỗ trợ của AI và đối chiếu với các nguồn dưới đây."
+    "introNote": "Phần giới thiệu do LitMundi soạn với sự hỗ trợ của AI và đối chiếu với các nguồn dưới đây.",
+    "hourUnit": "giờ",
+    "minuteUnit": "phút",
+    "readSuffix": " đọc"
   },
   "fr": {
     "startReading": "Commencer la lecture",
@@ -86,14 +90,16 @@
     "readingNoteTitle": "Avant de lire",
     "factsTitle": "Bon à savoir",
     "sourcesTitle": "Sources de cette présentation",
-    "minutes": "min de lecture",
     "readingTime": "Temps de lecture",
     "textLength": "Longueur",
     "illustrationSource": "Source",
     "depicts_text": "Illustration de cette œuvre.",
     "depicts_related": "Image associée.",
     "depicts_period": "Image d’époque.",
-    "introNote": "Présentation rédigée pour LitMundi avec l’aide de l’IA et vérifiée d’après les sources ci-dessous."
+    "introNote": "Présentation rédigée pour LitMundi avec l’aide de l’IA et vérifiée d’après les sources ci-dessous.",
+    "hourUnit": "h",
+    "minuteUnit": "min",
+    "readSuffix": " de lecture"
   },
   "es": {
     "startReading": "Empezar a leer",
@@ -118,13 +124,15 @@
     "readingNoteTitle": "Antes de leer",
     "factsTitle": "Conviene saber",
     "sourcesTitle": "Fuentes de esta introducción",
-    "minutes": "min de lectura",
     "readingTime": "Tiempo de lectura",
     "textLength": "Extensión",
     "illustrationSource": "Fuente",
     "depicts_text": "Ilustración de esta obra.",
     "depicts_related": "Imagen relacionada.",
     "depicts_period": "Imagen de época.",
-    "introNote": "Introducción redactada para LitMundi con ayuda de IA y contrastada con las fuentes que se indican abajo."
+    "introNote": "Introducción redactada para LitMundi con ayuda de IA y contrastada con las fuentes que se indican abajo.",
+    "hourUnit": "h",
+    "minuteUnit": "min",
+    "readSuffix": " de lectura"
   }
 }
