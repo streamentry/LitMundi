@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "work_id": "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave",
+  "edition_id": "douglass-narrative-vi-ai-2026",
+  "source_edition_id": "douglass-narrative-en-pg23",
+  "title_vi": "Tự truyện của Frederick Douglass, một nô lệ người Mỹ",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Douglass’s disciplined, ironic and restrained rhetoric is rendered in clear, dignified Vietnamese; scenes of violence are rendered plainly, without softening or sensationalising.",
+      "rationale": "The testimony’s force comes from plainness."
+    },
+    {
+      "topic": "Scope",
+      "decision": "Garrison’s Preface and Phillips’s letter are excluded as other authors’ framing; the book proper (Chapters I–XI) and the Appendix are the translated text.",
+      "rationale": "The work is Douglass’s own narrative; the framing texts can be added in a separate, attributed edition."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:2.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘master of the vessel’ rendered as the ship’s owner; corrected to the captain."
+        },
+        {
+          "segment": "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:10.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘breeder’ rendered ‘con đẻ’ and ‘adopted slaveholders’ rendered as adoption; both corrected (units 93 and 84)."
+        },
+        {
+          "segment": "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:11.6",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The counterfactual ‘thousands who now remain would escape’ read as if they already had; restored."
+        },
+        {
+          "segment": "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:12.9",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The parody hymn lost all its rhyme and jingle; it was recomposed as rhymed verse keeping every line’s sense."
+        },
+        {
+          "segment": "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:1.9",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘hắn’ made the overseer the man whipping Aunt Hester where the source’s ‘he’ is the master; corrected."
+        },
+        {
+          "segment": "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:10.26",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Calques, address forms (Hugh, Thomas), terms for God and Christianity and the censored-oath dashes were unified."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "God / Christian / Christianity",
+      "draft_rendering": "Thiên Chúa / Kitô hữu / Kitô giáo",
+      "alternatives": [],
+      "rationale": "One Catholic-register convention for the whole book, which also carries Douglass’s irony about slaveholding ‘Christians’.",
+      "passages": [
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:1.8",
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:10.12",
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:11.11"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "master / overseer / slaveholder",
+      "draft_rendering": "chủ / quản đốc / chủ nô",
+      "alternatives": [],
+      "rationale": "Roles are kept distinct so that pronouns such as ‘he’ in the whipping scene refer to the right man.",
+      "passages": [
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:1.9",
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:4.9",
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:10.32"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the Great House Farm",
+      "draft_rendering": "Trang trại Nhà Lớn",
+      "alternatives": [],
+      "rationale": "The Lloyd plantation’s name, kept as a proper name.",
+      "passages": [
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:3.6",
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:4.5",
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:4.9"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "negro-breaker / slurs",
+      "draft_rendering": "kẻ chuyên điều phục nô lệ; slurs rendered harshly only in whites’ speech",
+      "alternatives": [],
+      "rationale": "The slurs belong to the slaveholders’ speech and are not softened; the narrator’s own usage stays neutral.",
+      "passages": [
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:9.7",
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:10.47",
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:10.48"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #23, an electronic transcription of Narrative of the Life of Frederick Douglass, an American Slave. Written by Himself (Boston: Anti-Slavery Office, 1845). The page does not name the exact printing; the text was not collated with the 1845 first edition.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "1009d7603eaeea8702dfb17f564af156b58fff2a2262a33143bc495bcb99a441",
+  "target_sha256": "35e7fa009fa4a3d3d8d448bcc715e15db6cde5a302475a0782be0ad7abe7aed4",
+  "coverage": {
+    "canonical_passages": 174,
+    "translated_passages": 174,
+    "aligned_passages": 174
+  },
+  "ai_review_record": "corpus/reviews/douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave/douglass-narrative-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.6,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:12.3",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Unit 165 carries one line break fewer than the source because of an OCR artefact (‘they,v’) in the printed text."
+    }
+  ],
+  "title_review": {
+    "source_title": "Narrative of the Life of Frederick Douglass, an American Slave",
+    "target_title": "Tự truyện của Frederick Douglass, một nô lệ người Mỹ",
+    "rationale": "The Vietnamese title ‘Tự truyện của Frederick Douglass, một nô lệ người Mỹ’ is this edition’s own rendering; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:1.2"
+      ],
+      "assessment": "The opening: ‘I was born in Tuckahoe’."
+    },
+    {
+      "passages": [
+        "douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave:12.12"
+      ],
+      "assessment": "The signature and date of the Appendix."
+    }
+  ]
+}

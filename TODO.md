@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 54 published · 220 todo · 0 in progress · 226 on hold.**
+**500 selected works · 55 published · 219 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -103,7 +103,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **082. Anonymous (Japanese epic tradition) — The Tale of the Heike** · ja · epic · **Todo** · [Evidence](https://nhk-fdn.or.jp/int/en/catalog/educational/detail_language/la_story-land-in-classical-japanese.html)
 - [x] **083. Nathaniel Hawthorne — Young Goodman Brown** · en · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/512) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/hawthorne-young-goodman-brown/hawthorne-ygb-vi-ai-2026/)
 - [ ] **084. Yoshida Kenko — Tsurezuregusa / Essays in Idleness** · ja · essay · **Todo** · [Evidence](https://nhk-fdn.or.jp/int/en/catalog/educational/detail_language/la_story-land-in-classical-japanese.html)
-- [ ] **085. Frederick Douglass — Narrative of the Life of Frederick Douglass, an American Slave** · en · memoir · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/23)
+- [x] **085. Frederick Douglass — Narrative of the Life of Frederick Douglass, an American Slave** · en · memoir · **Published** · [Evidence](https://www.gutenberg.org/ebooks/23) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave/douglass-narrative-vi-ai-2026/)
 - [ ] **086. Harriet Jacobs — Incidents in the Life of a Slave Girl** · en · memoir · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/11030)
 - [ ] **087. Natsume Soseki — I Am a Cat** · ja · novel · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person148.html)
 - [ ] **088. Kate Chopin — The Awakening** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/160)
