@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "work_id": "voltaire-candide",
+  "edition_id": "voltaire-candide-vi-ai-2026",
+  "source_edition_id": "voltaire-candide-fr-beuchot-1829",
+  "title_vi": "Candide, hay Thuyết lạc quan",
+  "translation_direction": "fr → vi; direct from the specifically identified complete French electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Voltaire’s brisk, deadpan irony and the dialogue run on inside paragraphs are kept, with the title page and its line breaks reproduced.",
+      "rationale": "The satire depends on deadpan pace and unmarked speech."
+    },
+    {
+      "topic": "Terminology",
+      "decision": "Orders, sects and offices are given their Vietnamese ecclesiastical names (dòng Phanxicô, phái Tái Tẩy, á phó tế); the untranslated Italian of the old woman’s refrain is kept.",
+      "rationale": "Doctrinal and institutional jokes must stay legible."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-voltaire-candide",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "voltaire-candide:4.7",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Tái Thẩm’ (a retrial sect) corrected to the Anabaptists’ established name ‘Tái Tẩy’ throughout and in the glossary."
+        },
+        {
+          "segment": "voltaire-candide:11.4",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "mal physique and mal moral fixed as a stable pair; Andalucía, lieue/mille, ‘tiểu thư Cunégonde’ and ‘Kitô giáo’ made consistent."
+        },
+        {
+          "segment": "voltaire-candide:23.30",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘parricide’ rendered ‘tội giết vua’ and the second-cousin term made precise; subdeacon term unified as ‘á phó tế’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "les anabaptistes (Jacques l’anabaptiste)",
+      "draft_rendering": "phái Tái Tẩy (anabaptiste)",
+      "alternatives": [],
+      "rationale": "Established Vietnamese name of the Anabaptists; glossed once at first use.",
+      "passages": [
+        "voltaire-candide:4.7",
+        "voltaire-candide:8.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "mal moral / mal physique",
+      "draft_rendering": "cái ác luân lý / cái ác thể chất",
+      "alternatives": [],
+      "rationale": "Martin’s and Pangloss’s paired terms, kept constant through the book.",
+      "passages": [
+        "voltaire-candide:11.4",
+        "voltaire-candide:21.2",
+        "voltaire-candide:30.2"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "mademoiselle Cunégonde",
+      "draft_rendering": "tiểu thư Cunégonde (nàng in tender narration)",
+      "alternatives": [],
+      "rationale": "Courtly register for a baron’s daughter; ‘cô’ avoided.",
+      "passages": [
+        "voltaire-candide:22.3",
+        "voltaire-candide:23.31",
+        "voltaire-candide:31.11"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "la lieue / le mille",
+      "draft_rendering": "dặm Pháp / dặm",
+      "alternatives": [],
+      "rationale": "Distinguishes the French league from the mile.",
+      "passages": [
+        "voltaire-candide:3.3",
+        "voltaire-candide:8.3",
+        "voltaire-candide:15.3"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #4650, a transcription of Œuvres de Voltaire, ed. A. J. Q. Beuchot, vol. XXXIII, Romans I (Paris: Lefèvre / Werdet et Lequien fils, 1829). Beuchot’s preface and the volume’s footnotes, whether editorial or authorial, are excluded so that only the narrative text is canonical. First published 1759; not collated with the 1759 editions.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "adcc48a96d7def3ea2d1ee51b69dafb0c6383855f0acc1cb5725d520cf557d2b",
+  "target_sha256": "4c340b587cf2bfffd191c031d57856d3c2b9ae659f14ffb08e0b27412bc5e54b",
+  "coverage": {
+    "canonical_passages": 277,
+    "translated_passages": 277,
+    "aligned_passages": 277
+  },
+  "ai_review_record": "corpus/reviews/voltaire-candide/voltaire-candide-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.85,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "voltaire-candide:12.8",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The old woman’s Italian refrain is left untranslated, as in the source; a reader note would help."
+    },
+    {
+      "segment": "voltaire-candide:26.7",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Classical and historical names mix international and French forms; a single policy could follow in a patch."
+    }
+  ],
+  "title_review": {
+    "source_title": "Candide, ou l’Optimisme",
+    "target_title": "Candide, hay Thuyết lạc quan",
+    "rationale": "Candide, hay Thuyết lạc quan keeps Voltaire’s subtitle in the established Vietnamese form; the formula ‘cái tốt nhất trong mọi thế giới có thể có’ recurs unchanged."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "voltaire-candide:1.1"
+      ],
+      "assessment": "The fictional title page with its line breaks."
+    },
+    {
+      "passages": [
+        "voltaire-candide:31.11"
+      ],
+      "assessment": "The final line, ‘il faut cultiver notre jardin’."
+    }
+  ]
+}

@@ -54,8 +54,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Emily Brontë — Wuthering Heights](corpus/editorial/bronte-wuthering-heights/bronte-wuthering-vi-ai-2026.json) | English; Newby 1847 text via Project Gutenberg #768 | 1942 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Joseph Conrad — Heart of Darkness](corpus/editorial/conrad-heart-of-darkness/conrad-heart-vi-ai-2026.json) | English; Blackwood text via Project Gutenberg #219 | 198 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [H. G. Wells — The Time Machine](corpus/editorial/wells-the-time-machine/wells-timemachine-vi-ai-2026.json) | English; Project Gutenberg #35 | 323 | 8.925 (displayed 8.93) | AI-reviewed translation published |
+| [Voltaire — Candide, ou l’Optimisme](corpus/editorial/voltaire-candide/voltaire-candide-vi-ai-2026.json) | French; Project Gutenberg #4650 | 277 | 8.85 (displayed 8.85) | AI-reviewed translation published |
 
-All forty-four originals are published, giving eighty-eight public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All forty-five originals are published, giving ninety public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

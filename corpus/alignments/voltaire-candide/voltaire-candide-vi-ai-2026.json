@@ -1,0 +1,2224 @@
+{
+  "schema_version": 1,
+  "work_id": "voltaire-candide",
+  "edition_id": "voltaire-candide-vi-ai-2026",
+  "source_edition_id": "voltaire-candide-fr-beuchot-1829",
+  "links": [
+    {
+      "source": [
+        "voltaire-candide:1.1"
+      ],
+      "target": [
+        "voltaire-candide:1.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:2.1"
+      ],
+      "target": [
+        "voltaire-candide:2.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:2.2"
+      ],
+      "target": [
+        "voltaire-candide:2.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:2.3"
+      ],
+      "target": [
+        "voltaire-candide:2.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:2.4"
+      ],
+      "target": [
+        "voltaire-candide:2.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:2.5"
+      ],
+      "target": [
+        "voltaire-candide:2.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:2.6"
+      ],
+      "target": [
+        "voltaire-candide:2.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:2.7"
+      ],
+      "target": [
+        "voltaire-candide:2.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:2.8"
+      ],
+      "target": [
+        "voltaire-candide:2.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:2.9"
+      ],
+      "target": [
+        "voltaire-candide:2.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:3.1"
+      ],
+      "target": [
+        "voltaire-candide:3.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:3.2"
+      ],
+      "target": [
+        "voltaire-candide:3.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:3.3"
+      ],
+      "target": [
+        "voltaire-candide:3.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:4.1"
+      ],
+      "target": [
+        "voltaire-candide:4.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:4.2"
+      ],
+      "target": [
+        "voltaire-candide:4.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:4.3"
+      ],
+      "target": [
+        "voltaire-candide:4.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:4.4"
+      ],
+      "target": [
+        "voltaire-candide:4.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:4.5"
+      ],
+      "target": [
+        "voltaire-candide:4.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:4.6"
+      ],
+      "target": [
+        "voltaire-candide:4.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:4.7"
+      ],
+      "target": [
+        "voltaire-candide:4.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:4.8"
+      ],
+      "target": [
+        "voltaire-candide:4.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:5.1"
+      ],
+      "target": [
+        "voltaire-candide:5.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:5.2"
+      ],
+      "target": [
+        "voltaire-candide:5.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:5.3"
+      ],
+      "target": [
+        "voltaire-candide:5.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:5.4"
+      ],
+      "target": [
+        "voltaire-candide:5.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:5.5"
+      ],
+      "target": [
+        "voltaire-candide:5.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:5.6"
+      ],
+      "target": [
+        "voltaire-candide:5.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:5.7"
+      ],
+      "target": [
+        "voltaire-candide:5.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:6.1"
+      ],
+      "target": [
+        "voltaire-candide:6.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:6.2"
+      ],
+      "target": [
+        "voltaire-candide:6.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:6.3"
+      ],
+      "target": [
+        "voltaire-candide:6.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:6.4"
+      ],
+      "target": [
+        "voltaire-candide:6.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:6.5"
+      ],
+      "target": [
+        "voltaire-candide:6.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:6.6"
+      ],
+      "target": [
+        "voltaire-candide:6.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:6.7"
+      ],
+      "target": [
+        "voltaire-candide:6.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:6.8"
+      ],
+      "target": [
+        "voltaire-candide:6.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:7.1"
+      ],
+      "target": [
+        "voltaire-candide:7.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:7.2"
+      ],
+      "target": [
+        "voltaire-candide:7.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:7.3"
+      ],
+      "target": [
+        "voltaire-candide:7.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:7.4"
+      ],
+      "target": [
+        "voltaire-candide:7.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:7.5"
+      ],
+      "target": [
+        "voltaire-candide:7.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:8.1"
+      ],
+      "target": [
+        "voltaire-candide:8.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:8.2"
+      ],
+      "target": [
+        "voltaire-candide:8.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:8.3"
+      ],
+      "target": [
+        "voltaire-candide:8.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:8.4"
+      ],
+      "target": [
+        "voltaire-candide:8.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:8.5"
+      ],
+      "target": [
+        "voltaire-candide:8.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:9.1"
+      ],
+      "target": [
+        "voltaire-candide:9.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:9.2"
+      ],
+      "target": [
+        "voltaire-candide:9.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:9.3"
+      ],
+      "target": [
+        "voltaire-candide:9.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:9.4"
+      ],
+      "target": [
+        "voltaire-candide:9.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:9.5"
+      ],
+      "target": [
+        "voltaire-candide:9.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:9.6"
+      ],
+      "target": [
+        "voltaire-candide:9.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:9.7"
+      ],
+      "target": [
+        "voltaire-candide:9.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:10.1"
+      ],
+      "target": [
+        "voltaire-candide:10.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:10.2"
+      ],
+      "target": [
+        "voltaire-candide:10.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:10.3"
+      ],
+      "target": [
+        "voltaire-candide:10.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:10.4"
+      ],
+      "target": [
+        "voltaire-candide:10.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:10.5"
+      ],
+      "target": [
+        "voltaire-candide:10.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:10.6"
+      ],
+      "target": [
+        "voltaire-candide:10.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:10.7"
+      ],
+      "target": [
+        "voltaire-candide:10.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:11.1"
+      ],
+      "target": [
+        "voltaire-candide:11.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:11.2"
+      ],
+      "target": [
+        "voltaire-candide:11.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:11.3"
+      ],
+      "target": [
+        "voltaire-candide:11.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:11.4"
+      ],
+      "target": [
+        "voltaire-candide:11.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:12.1"
+      ],
+      "target": [
+        "voltaire-candide:12.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:12.2"
+      ],
+      "target": [
+        "voltaire-candide:12.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:12.3"
+      ],
+      "target": [
+        "voltaire-candide:12.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:12.4"
+      ],
+      "target": [
+        "voltaire-candide:12.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:12.5"
+      ],
+      "target": [
+        "voltaire-candide:12.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:12.6"
+      ],
+      "target": [
+        "voltaire-candide:12.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:12.7"
+      ],
+      "target": [
+        "voltaire-candide:12.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:12.8"
+      ],
+      "target": [
+        "voltaire-candide:12.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.1"
+      ],
+      "target": [
+        "voltaire-candide:13.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.2"
+      ],
+      "target": [
+        "voltaire-candide:13.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.3"
+      ],
+      "target": [
+        "voltaire-candide:13.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.4"
+      ],
+      "target": [
+        "voltaire-candide:13.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.5"
+      ],
+      "target": [
+        "voltaire-candide:13.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.6"
+      ],
+      "target": [
+        "voltaire-candide:13.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.7"
+      ],
+      "target": [
+        "voltaire-candide:13.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.8"
+      ],
+      "target": [
+        "voltaire-candide:13.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.9"
+      ],
+      "target": [
+        "voltaire-candide:13.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.10"
+      ],
+      "target": [
+        "voltaire-candide:13.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.11"
+      ],
+      "target": [
+        "voltaire-candide:13.11"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:13.12"
+      ],
+      "target": [
+        "voltaire-candide:13.12"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:14.1"
+      ],
+      "target": [
+        "voltaire-candide:14.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:14.2"
+      ],
+      "target": [
+        "voltaire-candide:14.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:14.3"
+      ],
+      "target": [
+        "voltaire-candide:14.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:14.4"
+      ],
+      "target": [
+        "voltaire-candide:14.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:14.5"
+      ],
+      "target": [
+        "voltaire-candide:14.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:14.6"
+      ],
+      "target": [
+        "voltaire-candide:14.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:15.1"
+      ],
+      "target": [
+        "voltaire-candide:15.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:15.2"
+      ],
+      "target": [
+        "voltaire-candide:15.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:15.3"
+      ],
+      "target": [
+        "voltaire-candide:15.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:15.4"
+      ],
+      "target": [
+        "voltaire-candide:15.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:15.5"
+      ],
+      "target": [
+        "voltaire-candide:15.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:15.6"
+      ],
+      "target": [
+        "voltaire-candide:15.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:15.7"
+      ],
+      "target": [
+        "voltaire-candide:15.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:15.8"
+      ],
+      "target": [
+        "voltaire-candide:15.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:16.1"
+      ],
+      "target": [
+        "voltaire-candide:16.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:16.2"
+      ],
+      "target": [
+        "voltaire-candide:16.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:16.3"
+      ],
+      "target": [
+        "voltaire-candide:16.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:16.4"
+      ],
+      "target": [
+        "voltaire-candide:16.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.1"
+      ],
+      "target": [
+        "voltaire-candide:17.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.2"
+      ],
+      "target": [
+        "voltaire-candide:17.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.3"
+      ],
+      "target": [
+        "voltaire-candide:17.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.4"
+      ],
+      "target": [
+        "voltaire-candide:17.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.5"
+      ],
+      "target": [
+        "voltaire-candide:17.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.6"
+      ],
+      "target": [
+        "voltaire-candide:17.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.7"
+      ],
+      "target": [
+        "voltaire-candide:17.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.8"
+      ],
+      "target": [
+        "voltaire-candide:17.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.9"
+      ],
+      "target": [
+        "voltaire-candide:17.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:17.10"
+      ],
+      "target": [
+        "voltaire-candide:17.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.1"
+      ],
+      "target": [
+        "voltaire-candide:18.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.2"
+      ],
+      "target": [
+        "voltaire-candide:18.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.3"
+      ],
+      "target": [
+        "voltaire-candide:18.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.4"
+      ],
+      "target": [
+        "voltaire-candide:18.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.5"
+      ],
+      "target": [
+        "voltaire-candide:18.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.6"
+      ],
+      "target": [
+        "voltaire-candide:18.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.7"
+      ],
+      "target": [
+        "voltaire-candide:18.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.8"
+      ],
+      "target": [
+        "voltaire-candide:18.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.9"
+      ],
+      "target": [
+        "voltaire-candide:18.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.10"
+      ],
+      "target": [
+        "voltaire-candide:18.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.11"
+      ],
+      "target": [
+        "voltaire-candide:18.11"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:18.12"
+      ],
+      "target": [
+        "voltaire-candide:18.12"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.1"
+      ],
+      "target": [
+        "voltaire-candide:19.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.2"
+      ],
+      "target": [
+        "voltaire-candide:19.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.3"
+      ],
+      "target": [
+        "voltaire-candide:19.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.4"
+      ],
+      "target": [
+        "voltaire-candide:19.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.5"
+      ],
+      "target": [
+        "voltaire-candide:19.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.6"
+      ],
+      "target": [
+        "voltaire-candide:19.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.7"
+      ],
+      "target": [
+        "voltaire-candide:19.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.8"
+      ],
+      "target": [
+        "voltaire-candide:19.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.9"
+      ],
+      "target": [
+        "voltaire-candide:19.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.10"
+      ],
+      "target": [
+        "voltaire-candide:19.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.11"
+      ],
+      "target": [
+        "voltaire-candide:19.11"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.12"
+      ],
+      "target": [
+        "voltaire-candide:19.12"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.13"
+      ],
+      "target": [
+        "voltaire-candide:19.13"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.14"
+      ],
+      "target": [
+        "voltaire-candide:19.14"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.15"
+      ],
+      "target": [
+        "voltaire-candide:19.15"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.16"
+      ],
+      "target": [
+        "voltaire-candide:19.16"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:19.17"
+      ],
+      "target": [
+        "voltaire-candide:19.17"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.1"
+      ],
+      "target": [
+        "voltaire-candide:20.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.2"
+      ],
+      "target": [
+        "voltaire-candide:20.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.3"
+      ],
+      "target": [
+        "voltaire-candide:20.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.4"
+      ],
+      "target": [
+        "voltaire-candide:20.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.5"
+      ],
+      "target": [
+        "voltaire-candide:20.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.6"
+      ],
+      "target": [
+        "voltaire-candide:20.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.7"
+      ],
+      "target": [
+        "voltaire-candide:20.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.8"
+      ],
+      "target": [
+        "voltaire-candide:20.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.9"
+      ],
+      "target": [
+        "voltaire-candide:20.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.10"
+      ],
+      "target": [
+        "voltaire-candide:20.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.11"
+      ],
+      "target": [
+        "voltaire-candide:20.11"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.12"
+      ],
+      "target": [
+        "voltaire-candide:20.12"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.13"
+      ],
+      "target": [
+        "voltaire-candide:20.13"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.14"
+      ],
+      "target": [
+        "voltaire-candide:20.14"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:20.15"
+      ],
+      "target": [
+        "voltaire-candide:20.15"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:21.1"
+      ],
+      "target": [
+        "voltaire-candide:21.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:21.2"
+      ],
+      "target": [
+        "voltaire-candide:21.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:21.3"
+      ],
+      "target": [
+        "voltaire-candide:21.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:21.4"
+      ],
+      "target": [
+        "voltaire-candide:21.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:21.5"
+      ],
+      "target": [
+        "voltaire-candide:21.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:21.6"
+      ],
+      "target": [
+        "voltaire-candide:21.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:21.7"
+      ],
+      "target": [
+        "voltaire-candide:21.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:21.8"
+      ],
+      "target": [
+        "voltaire-candide:21.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:21.9"
+      ],
+      "target": [
+        "voltaire-candide:21.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:22.1"
+      ],
+      "target": [
+        "voltaire-candide:22.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:22.2"
+      ],
+      "target": [
+        "voltaire-candide:22.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:22.3"
+      ],
+      "target": [
+        "voltaire-candide:22.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.1"
+      ],
+      "target": [
+        "voltaire-candide:23.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.2"
+      ],
+      "target": [
+        "voltaire-candide:23.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.3"
+      ],
+      "target": [
+        "voltaire-candide:23.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.4"
+      ],
+      "target": [
+        "voltaire-candide:23.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.5"
+      ],
+      "target": [
+        "voltaire-candide:23.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.6"
+      ],
+      "target": [
+        "voltaire-candide:23.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.7"
+      ],
+      "target": [
+        "voltaire-candide:23.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.8"
+      ],
+      "target": [
+        "voltaire-candide:23.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.9"
+      ],
+      "target": [
+        "voltaire-candide:23.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.10"
+      ],
+      "target": [
+        "voltaire-candide:23.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.11"
+      ],
+      "target": [
+        "voltaire-candide:23.11"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.12"
+      ],
+      "target": [
+        "voltaire-candide:23.12"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.13"
+      ],
+      "target": [
+        "voltaire-candide:23.13"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.14"
+      ],
+      "target": [
+        "voltaire-candide:23.14"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.15"
+      ],
+      "target": [
+        "voltaire-candide:23.15"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.16"
+      ],
+      "target": [
+        "voltaire-candide:23.16"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.17"
+      ],
+      "target": [
+        "voltaire-candide:23.17"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.18"
+      ],
+      "target": [
+        "voltaire-candide:23.18"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.19"
+      ],
+      "target": [
+        "voltaire-candide:23.19"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.20"
+      ],
+      "target": [
+        "voltaire-candide:23.20"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.21"
+      ],
+      "target": [
+        "voltaire-candide:23.21"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.22"
+      ],
+      "target": [
+        "voltaire-candide:23.22"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.23"
+      ],
+      "target": [
+        "voltaire-candide:23.23"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.24"
+      ],
+      "target": [
+        "voltaire-candide:23.24"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.25"
+      ],
+      "target": [
+        "voltaire-candide:23.25"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.26"
+      ],
+      "target": [
+        "voltaire-candide:23.26"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.27"
+      ],
+      "target": [
+        "voltaire-candide:23.27"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.28"
+      ],
+      "target": [
+        "voltaire-candide:23.28"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.29"
+      ],
+      "target": [
+        "voltaire-candide:23.29"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.30"
+      ],
+      "target": [
+        "voltaire-candide:23.30"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:23.31"
+      ],
+      "target": [
+        "voltaire-candide:23.31"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:24.1"
+      ],
+      "target": [
+        "voltaire-candide:24.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:24.2"
+      ],
+      "target": [
+        "voltaire-candide:24.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:24.3"
+      ],
+      "target": [
+        "voltaire-candide:24.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:24.4"
+      ],
+      "target": [
+        "voltaire-candide:24.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:24.5"
+      ],
+      "target": [
+        "voltaire-candide:24.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.1"
+      ],
+      "target": [
+        "voltaire-candide:25.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.2"
+      ],
+      "target": [
+        "voltaire-candide:25.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.3"
+      ],
+      "target": [
+        "voltaire-candide:25.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.4"
+      ],
+      "target": [
+        "voltaire-candide:25.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.5"
+      ],
+      "target": [
+        "voltaire-candide:25.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.6"
+      ],
+      "target": [
+        "voltaire-candide:25.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.7"
+      ],
+      "target": [
+        "voltaire-candide:25.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.8"
+      ],
+      "target": [
+        "voltaire-candide:25.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.9"
+      ],
+      "target": [
+        "voltaire-candide:25.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.10"
+      ],
+      "target": [
+        "voltaire-candide:25.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.11"
+      ],
+      "target": [
+        "voltaire-candide:25.11"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:25.12"
+      ],
+      "target": [
+        "voltaire-candide:25.12"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.1"
+      ],
+      "target": [
+        "voltaire-candide:26.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.2"
+      ],
+      "target": [
+        "voltaire-candide:26.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.3"
+      ],
+      "target": [
+        "voltaire-candide:26.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.4"
+      ],
+      "target": [
+        "voltaire-candide:26.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.5"
+      ],
+      "target": [
+        "voltaire-candide:26.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.6"
+      ],
+      "target": [
+        "voltaire-candide:26.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.7"
+      ],
+      "target": [
+        "voltaire-candide:26.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.8"
+      ],
+      "target": [
+        "voltaire-candide:26.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.9"
+      ],
+      "target": [
+        "voltaire-candide:26.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.10"
+      ],
+      "target": [
+        "voltaire-candide:26.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.11"
+      ],
+      "target": [
+        "voltaire-candide:26.11"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.12"
+      ],
+      "target": [
+        "voltaire-candide:26.12"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.13"
+      ],
+      "target": [
+        "voltaire-candide:26.13"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.14"
+      ],
+      "target": [
+        "voltaire-candide:26.14"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.15"
+      ],
+      "target": [
+        "voltaire-candide:26.15"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.16"
+      ],
+      "target": [
+        "voltaire-candide:26.16"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:26.17"
+      ],
+      "target": [
+        "voltaire-candide:26.17"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.1"
+      ],
+      "target": [
+        "voltaire-candide:27.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.2"
+      ],
+      "target": [
+        "voltaire-candide:27.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.3"
+      ],
+      "target": [
+        "voltaire-candide:27.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.4"
+      ],
+      "target": [
+        "voltaire-candide:27.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.5"
+      ],
+      "target": [
+        "voltaire-candide:27.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.6"
+      ],
+      "target": [
+        "voltaire-candide:27.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.7"
+      ],
+      "target": [
+        "voltaire-candide:27.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.8"
+      ],
+      "target": [
+        "voltaire-candide:27.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.9"
+      ],
+      "target": [
+        "voltaire-candide:27.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.10"
+      ],
+      "target": [
+        "voltaire-candide:27.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.11"
+      ],
+      "target": [
+        "voltaire-candide:27.11"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.12"
+      ],
+      "target": [
+        "voltaire-candide:27.12"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.13"
+      ],
+      "target": [
+        "voltaire-candide:27.13"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:27.14"
+      ],
+      "target": [
+        "voltaire-candide:27.14"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.1"
+      ],
+      "target": [
+        "voltaire-candide:28.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.2"
+      ],
+      "target": [
+        "voltaire-candide:28.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.3"
+      ],
+      "target": [
+        "voltaire-candide:28.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.4"
+      ],
+      "target": [
+        "voltaire-candide:28.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.5"
+      ],
+      "target": [
+        "voltaire-candide:28.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.6"
+      ],
+      "target": [
+        "voltaire-candide:28.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.7"
+      ],
+      "target": [
+        "voltaire-candide:28.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.8"
+      ],
+      "target": [
+        "voltaire-candide:28.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.9"
+      ],
+      "target": [
+        "voltaire-candide:28.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:28.10"
+      ],
+      "target": [
+        "voltaire-candide:28.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:29.1"
+      ],
+      "target": [
+        "voltaire-candide:29.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:29.2"
+      ],
+      "target": [
+        "voltaire-candide:29.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:29.3"
+      ],
+      "target": [
+        "voltaire-candide:29.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:29.4"
+      ],
+      "target": [
+        "voltaire-candide:29.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:29.5"
+      ],
+      "target": [
+        "voltaire-candide:29.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:30.1"
+      ],
+      "target": [
+        "voltaire-candide:30.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:30.2"
+      ],
+      "target": [
+        "voltaire-candide:30.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:30.3"
+      ],
+      "target": [
+        "voltaire-candide:30.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:30.4"
+      ],
+      "target": [
+        "voltaire-candide:30.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.1"
+      ],
+      "target": [
+        "voltaire-candide:31.1"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.2"
+      ],
+      "target": [
+        "voltaire-candide:31.2"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.3"
+      ],
+      "target": [
+        "voltaire-candide:31.3"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.4"
+      ],
+      "target": [
+        "voltaire-candide:31.4"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.5"
+      ],
+      "target": [
+        "voltaire-candide:31.5"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.6"
+      ],
+      "target": [
+        "voltaire-candide:31.6"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.7"
+      ],
+      "target": [
+        "voltaire-candide:31.7"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.8"
+      ],
+      "target": [
+        "voltaire-candide:31.8"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.9"
+      ],
+      "target": [
+        "voltaire-candide:31.9"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.10"
+      ],
+      "target": [
+        "voltaire-candide:31.10"
+      ]
+    },
+    {
+      "source": [
+        "voltaire-candide:31.11"
+      ],
+      "target": [
+        "voltaire-candide:31.11"
+      ]
+    }
+  ]
+}

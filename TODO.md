@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 42 published · 232 todo · 0 in progress · 226 on hold.**
+**500 selected works · 43 published · 231 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -79,7 +79,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **058. Katherine Mansfield — Bliss and Other Stories** · en · collection · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/44385)
 - [ ] **059. Premchand — Nirmala** · hi · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/2059256/premchand/)
 - [ ] **060. Christina Rossetti — Goblin Market** · en · poem · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/16950)
-- [ ] **061. Voltaire — Candide** · fr · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/19942)
+- [x] **061. Voltaire — Candide** · fr · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/19942) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/voltaire-candide/voltaire-candide-vi-ai-2026/)
 - [ ] **062. Bibhutibhushan Bandyopadhyay — Pather Panchali** · bn · novel · **Todo** · [Evidence](https://www.penguin.co.in/book/pather-panchali/)
 - [ ] **063. Gustave Flaubert — Madame Bovary** · fr · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/14155)
 - [ ] **064. Raden Adjeng Kartini — Door duisternis tot licht / From Darkness into Light** · nl · memoir · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/34647)
