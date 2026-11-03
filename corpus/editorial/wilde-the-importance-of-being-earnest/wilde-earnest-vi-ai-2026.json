@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "work_id": "wilde-the-importance-of-being-earnest",
+  "edition_id": "wilde-earnest-vi-ai-2026",
+  "source_edition_id": "wilde-earnest-en-pg844",
+  "title_vi": "Tầm quan trọng của việc phải là Ernest",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "The epigrams are rendered as speakable Vietnamese with Wilde’s paradox structure and deadpan register kept; Lady Bracknell keeps an imperious ‘bà/tôi’, Lane a laconic ‘thưa ngài’.",
+      "rationale": "The play’s effect depends on timing and class voice, not on word-for-word equivalence."
+    },
+    {
+      "topic": "Names and labels",
+      "decision": "Character names are kept in their English form; speech labels stay as upper-case labels at the head of each unit; stage directions stay in square brackets.",
+      "rationale": "A stage text needs recognisable speakers and a stable apparatus."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-wilde-the-importance-of-being-earnest",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "wilde-the-importance-of-being-earnest:1.78",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Ernest/earnest hook was weak; the pun is now carried through ‘Ernest nhất—tức là nghiêm chỉnh nhất’ and the closing line."
+        },
+        {
+          "segment": "wilde-the-importance-of-being-earnest:1.183",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘dưới xe ngựa’ read as ‘under the carriage’; the carriage idiom and the dog-cart (‘xe hai bánh’) were corrected."
+        },
+        {
+          "segment": "wilde-the-importance-of-being-earnest:3.146",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Cecily–Jack address changed from ‘bác Jack’ to ‘chú Jack’ so the play uses one system; units 785, 715 and 844 also corrected."
+        },
+        {
+          "segment": "wilde-the-importance-of-being-earnest:3.190",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The closing line was shortened so the pun is played rather than glossed."
+        },
+        {
+          "segment": "wilde-the-importance-of-being-earnest:2.42",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "A garbled line about Mr. Worthing, ‘thủy tùng’ for yew and other small naturalness points were corrected."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Ernest / earnest",
+      "draft_rendering": "Ernest / nghiêm chỉnh",
+      "alternatives": [],
+      "rationale": "The pun of the title: the name Ernest is kept and the adjective is rendered ‘nghiêm chỉnh’ so that the closing line lets both senses collide.",
+      "passages": [
+        "wilde-the-importance-of-being-earnest:1.78",
+        "wilde-the-importance-of-being-earnest:3.190"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Bunbury / Bunburyist",
+      "draft_rendering": "Bunbury / đi Bunbury",
+      "alternatives": [],
+      "rationale": "Algernon’s fictitious invalid; the name is kept and the verb is formed from it.",
+      "passages": [
+        "wilde-the-importance-of-being-earnest:1.60",
+        "wilde-the-importance-of-being-earnest:1.150",
+        "wilde-the-importance-of-being-earnest:1.300"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Aunt Augusta / Cecily and Jack (ward and guardian)",
+      "draft_rendering": "dì Augusta / chú–cháu",
+      "alternatives": [],
+      "rationale": "One address system through the play: Algernon says ‘dì’ to Lady Bracknell; Cecily calls Jack ‘chú’ and he calls her ‘cháu’.",
+      "passages": [
+        "wilde-the-importance-of-being-earnest:2.7",
+        "wilde-the-importance-of-being-earnest:2.349",
+        "wilde-the-importance-of-being-earnest:3.146"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Manor House, Woolton",
+      "draft_rendering": "Trang viên Manor House",
+      "alternatives": [],
+      "rationale": "One rendering for the country house in Acts II and III.",
+      "passages": [
+        "wilde-the-importance-of-being-earnest:1.290",
+        "wilde-the-importance-of-being-earnest:2.2",
+        "wilde-the-importance-of-being-earnest:3.2"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #844, an electronic text of the three-act version of The Importance of Being Earnest, first performed at the St James’s Theatre on 14 February 1895. Not collated with the 1895 or 1899 printed editions.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "e2e10f43cb45b1ffe5c1b6ef39e709ac4b60fdf7b44d49e4f96e4bc888711908",
+  "target_sha256": "fc29688afc430246d541219b3b7e19c09396f53a3ab7d6c042eb8734280ad67b",
+  "coverage": {
+    "canonical_passages": 939,
+    "translated_passages": 939,
+    "aligned_passages": 939
+  },
+  "ai_review_record": "corpus/reviews/wilde-the-importance-of-being-earnest/wilde-earnest-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "wilde-the-importance-of-being-earnest:1.200",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few period terms (for example the glossed income-tax joke) are explained more than a stage line would allow."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Importance of Being Earnest",
+    "target_title": "Tầm quan trọng của việc phải là Ernest",
+    "rationale": "The Vietnamese title is this edition’s own rendering built on the name Ernest, with the pun on ‘earnest’ carried by ‘nghiêm chỉnh’ in the text itself."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "wilde-the-importance-of-being-earnest:1.1"
+      ],
+      "assessment": "The opening exchange between Algernon and Lane."
+    },
+    {
+      "passages": [
+        "wilde-the-importance-of-being-earnest:3.190"
+      ],
+      "assessment": "The closing line on the importance of being Ernest."
+    }
+  ]
+}

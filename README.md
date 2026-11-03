@@ -57,8 +57,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Voltaire — Candide, ou l’Optimisme](corpus/editorial/voltaire-candide/voltaire-candide-vi-ai-2026.json) | French; Project Gutenberg #4650 | 277 | 8.85 (displayed 8.85) | AI-reviewed translation published |
 | [George Eliot — Silas Marner](corpus/editorial/eliot-silas-marner/eliot-silas-vi-ai-2026.json) | English; Project Gutenberg #550 | 814 | 8.65 (displayed 8.65) | AI-reviewed translation published |
 | [Natsume Sōseki — 坊っちゃん](corpus/editorial/soseki-botchan/soseki-botchan-vi-ai-2026.json) | Japanese; Aozora Bunko card 752 | 482 | 8.73 (displayed 8.73) | AI-reviewed translation published |
+| [Oscar Wilde — The Importance of Being Earnest](corpus/editorial/wilde-the-importance-of-being-earnest/wilde-earnest-vi-ai-2026.json) | English; Project Gutenberg #844 | 939 | 8.73 (displayed 8.73) | AI-reviewed translation published |
 
-All forty-seven originals are published, giving ninety-four public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All forty-eight originals are published, giving ninety-six public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 
