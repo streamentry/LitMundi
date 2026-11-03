@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 41 published · 233 todo · 0 in progress · 226 on hold.**
+**500 selected works · 42 published · 232 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -73,7 +73,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **052. Kenji Miyazawa — The Restaurant of Many Orders** · ja · short story · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person81.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/miyazawa-restaurant-orders/miyazawa-chumon-vi-ai-2026/)
 - [ ] **053. Oscar Wilde — The Importance of Being Earnest** · en · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/844)
 - [ ] **054. Rabindranath Tagore — The Home and the World** · bn · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/54667/rabindranath-tagore/)
-- [ ] **055. H. G. Wells — The Time Machine** · en · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/35)
+- [x] **055. H. G. Wells — The Time Machine** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/35) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/wells-the-time-machine/wells-timemachine-vi-ai-2026/)
 - [x] **056. Joseph Conrad — Heart of Darkness** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/219) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/conrad-heart-of-darkness/conrad-heart-vi-ai-2026/)
 - [ ] **057. Rabindranath Tagore — The Post Office** · bn · play · **Todo** · [Evidence](https://www.nobelprize.org/prizes/literature/1913/tagore/bibliography/?print=1)
 - [ ] **058. Katherine Mansfield — Bliss and Other Stories** · en · collection · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/44385)

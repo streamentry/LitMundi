@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "work_id": "wells-the-time-machine",
+  "edition_id": "wells-timemachine-vi-ai-2026",
+  "source_edition_id": "wells-timemachine-en-pg35",
+  "title_vi": "Cỗ máy thời gian",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Wells’s lucid, ironic late-Victorian narration and the dinner-party banter are kept; scientific and social vocabulary rendered precisely.",
+      "rationale": "The romance depends on plausibility and wit."
+    },
+    {
+      "topic": "Typography",
+      "decision": "Curly quotes and em dashes as in the source; the editor’s footnote marked —BBT.",
+      "rationale": "Vietnamese editorial convention."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-wells-the-time-machine",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "wells-the-time-machine:6.4",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘I was destined’ no longer read as ‘I intended’; ‘presentation below the threshold’ as a mental biểu tượng; ‘Necessity had come home to him’ without an added debt image."
+        },
+        {
+          "segment": "wells-the-time-machine:6.3",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Cross-part consistency: the year A.D. 802,701, Phoenicia, the Morlocks’ pronoun chúng."
+        },
+        {
+          "segment": "wells-the-time-machine:10.14",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘the great flood of humanity’ no longer the biblical Deluge; ‘little doll of a creature’ and a front-heavy clause recast."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "the Time Traveller; the Time Machine; Fourth Dimension",
+      "draft_rendering": "Nhà Du hành Thời gian; Cỗ máy Thời gian; Chiều thứ Tư",
+      "alternatives": [],
+      "rationale": "Capitalised as Wells capitalises them; the Traveller is anh in the frame and tôi in his tale.",
+      "passages": [
+        "wells-the-time-machine:1.2",
+        "wells-the-time-machine:1.51",
+        "wells-the-time-machine:2.16"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Eloi / Morlocks; Upper-world / Under-world",
+      "draft_rendering": "người Eloi (họ) / người Morlock (chúng); Thượng giới / Hạ giới",
+      "alternatives": [],
+      "rationale": "Pronouns divide the two races cleanly, as the allegory requires.",
+      "passages": [
+        "wells-the-time-machine:8.25",
+        "wells-the-time-machine:9.10",
+        "wells-the-time-machine:13.5"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "chapter titles",
+      "draft_rendering": "I. Mở đầu … XVI. Sau câu chuyện; Lời kết",
+      "alternatives": [],
+      "rationale": "Titles kept as text units, translated.",
+      "passages": [
+        "wells-the-time-machine:1.1",
+        "wells-the-time-machine:16.8",
+        "wells-the-time-machine:16.28"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete text of Project Gutenberg #35, with sixteen titled chapters and an Epilogue. Gutenberg does not identify the printed edition transcribed; the chapter division corresponds to later revised editions rather than the 1895 Heinemann text. First published in book form by William Heinemann (London, 1895). Not collated with a print facsimile.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "2c44e9a26edd0537e018b0214fae86bc6be1232db84bc920fa8f4f98b0ad0954",
+  "target_sha256": "c8f960cc67aaf486c200bb95c5acd4c9475a109d563fd39dfa4a46b4aaf967bf",
+  "coverage": {
+    "canonical_passages": 323,
+    "translated_passages": 323,
+    "aligned_passages": 323
+  },
+  "ai_review_record": "corpus/reviews/wells-the-time-machine/wells-timemachine-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.925,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "wells-the-time-machine:16.5",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The Time Traveller addresses the Editor once as ông, a defensible register for a rare visitor."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Time Machine",
+    "target_title": "Cỗ máy thời gian",
+    "rationale": "Cỗ máy thời gian is the established Vietnamese title; inside the text the object is the capitalised Cỗ máy Thời gian."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "wells-the-time-machine:1.3",
+        "wells-the-time-machine:1.4",
+        "wells-the-time-machine:1.5"
+      ],
+      "assessment": "The Fourth Dimension argument."
+    },
+    {
+      "passages": [
+        "wells-the-time-machine:14.2",
+        "wells-the-time-machine:14.13"
+      ],
+      "assessment": "The Further Vision."
+    },
+    {
+      "passages": [
+        "wells-the-time-machine:17.2"
+      ],
+      "assessment": "The Epilogue’s last sentence."
+    }
+  ]
+}

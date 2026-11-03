@@ -658,5 +658,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Time Machine",
+    "author": "H. G. Wells",
+    "author_death_year": 1946,
+    "first_published_year": 1895,
+    "original_language": "en",
+    "genre": "novella",
+    "description": "A Victorian inventor tells his dinner guests of his journey to the year 802,701, where the childlike Eloi live above the predatory Morlocks, and beyond to the dying Earth.",
+    "id": "wells-the-time-machine",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
