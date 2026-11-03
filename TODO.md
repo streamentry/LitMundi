@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 47 published · 227 todo · 0 in progress · 226 on hold.**
+**500 selected works · 48 published · 226 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -83,7 +83,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **062. Bibhutibhushan Bandyopadhyay — Pather Panchali** · bn · novel · **Todo** · [Evidence](https://www.penguin.co.in/book/pather-panchali/)
 - [ ] **063. Gustave Flaubert — Madame Bovary** · fr · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/14155)
 - [ ] **064. Raden Adjeng Kartini — Door duisternis tot licht / From Darkness into Light** · nl · memoir · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/34647)
-- [ ] **065. Guy de Maupassant — Boule de Suif** · fr · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/10746)
+- [x] **065. Guy de Maupassant — Boule de Suif** · fr · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/10746) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/maupassant-boule-de-suif/maupassant-boule-vi-ai-2026/)
 - [ ] **066. George Sand — La Mare au diable** · fr · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/23582)
 - [ ] **067. Jose Rizal — Noli me tangere** · es · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/47584)
 - [ ] **068. E. T. A. Hoffmann — Der Sandmann** · de · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/6341)

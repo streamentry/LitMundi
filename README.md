@@ -59,8 +59,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Natsume Sōseki — 坊っちゃん](corpus/editorial/soseki-botchan/soseki-botchan-vi-ai-2026.json) | Japanese; Aozora Bunko card 752 | 482 | 8.73 (displayed 8.73) | AI-reviewed translation published |
 | [Oscar Wilde — The Importance of Being Earnest](corpus/editorial/wilde-the-importance-of-being-earnest/wilde-earnest-vi-ai-2026.json) | English; Project Gutenberg #844 | 939 | 8.73 (displayed 8.73) | AI-reviewed translation published |
 | [Virginia Woolf — A Room of One's Own](corpus/editorial/woolf-a-room-of-one-s-own/woolf-room-vi-ai-2026.json) | English; Project Gutenberg Australia ebook 0200791h | 155 | 8.625 (displayed 8.63) | AI-reviewed translation published |
+| [Guy de Maupassant — Boule de Suif](corpus/editorial/maupassant-boule-de-suif/maupassant-boule-vi-ai-2026.json) | French; Project Gutenberg #10746 | 276 | 8.675 (displayed 8.68) | AI-reviewed translation published |
 
-All forty-nine originals are published, giving ninety-eight public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All fifty originals are published, giving one hundred public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

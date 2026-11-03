@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "work_id": "maupassant-boule-de-suif",
+  "edition_id": "maupassant-boule-vi-ai-2026",
+  "source_edition_id": "maupassant-boule-fr-pg10746",
+  "title_vi": "Cục Mỡ (Boule de Suif)",
+  "translation_direction": "fr → vi; direct from the specifically identified complete French electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Maupassant’s dry, concrete irony is rendered in plain precise Vietnamese; the officer’s German accent is marked lightly and readably.",
+      "rationale": "The story’s moral comedy depends on a cool narrator."
+    },
+    {
+      "topic": "Names and nickname",
+      "decision": "French names are kept; the nickname is translated as ‘Cục Mỡ’ and explained at first use.",
+      "rationale": "The nickname’s fatness and contempt carry the plot."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-maupassant-boule-de-suif",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "maupassant-boule-de-suif:1.37",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The pun ‘Loiseau vole’ was lost; the French wordplay is kept with an in-line gloss."
+        },
+        {
+          "segment": "maupassant-boule-de-suif:1.160",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The Prussian officer’s foreign accent was lost in speech units 160, 165 and 167; a light marking was added."
+        },
+        {
+          "segment": "maupassant-boule-de-suif:1.103",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Dialogue punctuation, ‘ga lăng’ spelling, ‘cô’/‘bà’ and the term for the two nuns were made consistent."
+        },
+        {
+          "segment": "maupassant-boule-de-suif:1.237",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The sour-grapes line and several literal calques were corrected."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Boule de Suif",
+      "draft_rendering": "Cục Mỡ (Boule de Suif) at first use, then Cục Mỡ",
+      "alternatives": [],
+      "rationale": "The nickname (suif = tallow) is rendered with its meaning; the real name Élisabeth Rousset is kept.",
+      "passages": [
+        "maupassant-boule-de-suif:1.1",
+        "maupassant-boule-de-suif:1.100",
+        "maupassant-boule-de-suif:1.276"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "les Prussiens / l’officier prussien",
+      "draft_rendering": "quân Phổ / viên sĩ quan Phổ",
+      "alternatives": [],
+      "rationale": "Established Vietnamese name of Prussia.",
+      "passages": [
+        "maupassant-boule-de-suif:1.1",
+        "maupassant-boule-de-suif:1.150",
+        "maupassant-boule-de-suif:1.200"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Loiseau vole (l’oiseau vole)",
+      "draft_rendering": "kept in French with an in-line gloss",
+      "alternatives": [],
+      "rationale": "The pun on the merchant’s name and the verb has no Vietnamese equivalent; it is glossed once.",
+      "passages": [
+        "maupassant-boule-de-suif:1.37"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "dialogue dash",
+      "draft_rendering": "— at the head of a speech unit, no quotation marks",
+      "alternatives": [],
+      "rationale": "The French convention is kept.",
+      "passages": [
+        "maupassant-boule-de-suif:1.30",
+        "maupassant-boule-de-suif:1.100",
+        "maupassant-boule-de-suif:1.200"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the title story of Project Gutenberg #10746, a transcription of the Ollendorff volume Boule de Suif (Paris, 1907 illustrated edition of Maupassant’s works). The story was first published in Les Soirées de Médan in 1880; not collated with that printing.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "341f06e4c599706f31ae70d7a0b4c71b7d1e28c585c298ea8879f757c41122aa",
+  "target_sha256": "8499b3f8eaa08a191edfe2373e3650e4e9132d53a632624d9c8e3a65f2e4ad2b",
+  "coverage": {
+    "canonical_passages": 276,
+    "translated_passages": 276,
+    "aligned_passages": 276
+  },
+  "ai_review_record": "corpus/reviews/maupassant-boule-de-suif/maupassant-boule-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "maupassant-boule-de-suif:1.55",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The ‘poire pour la soif’ and aspic-jelly images in units 55, 65 and 67 are rendered more plainly than in French."
+    }
+  ],
+  "title_review": {
+    "source_title": "Boule de Suif",
+    "target_title": "Cục Mỡ (Boule de Suif)",
+    "rationale": "Boule de Suif keeps the French title of the story; the nickname is explained in the Vietnamese text as ‘Cục Mỡ’."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "maupassant-boule-de-suif:1.1"
+      ],
+      "assessment": "The opening: the routed army crossing Rouen."
+    },
+    {
+      "passages": [
+        "maupassant-boule-de-suif:1.276"
+      ],
+      "assessment": "The final sob over the Marseillaise."
+    }
+  ]
+}
