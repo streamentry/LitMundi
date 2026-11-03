@@ -6565,5 +6565,128 @@
       "human_contributors": [],
       "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
+  },
+  {
+    "id": "anonymous-lazarillo-es-pg320",
+    "work_id": "lazarillo-lazarillo-de-tormes",
+    "language": "es",
+    "title": "La vida de Lazarillo de Tormes y de sus fortunas y adversidades",
+    "kind": "source",
+    "status": "published",
+    "label": "La vida de Lazarillo de Tormes · Español, Project Gutenberg #320 (Burgos, 1554)",
+    "content_path": "corpus/segments/lazarillo-lazarillo-de-tormes/anonymous-lazarillo-es-pg320.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "La vida de Lazarillo de Tormes y de sus fortunas y adversidades (Burgos: Juan de Junta, 1554). Project Gutenberg #320. Author unknown.",
+      "catalog_url": "https://www.gutenberg.org/ebooks/320",
+      "text_url": "https://www.gutenberg.org/cache/epub/320/pg320-images.html",
+      "retrieved_at": "2026-11-03",
+      "source_witness": "The Prólogo and Tratados Primero–Séptimo of Project Gutenberg #320. No claim of a newly inspected printed copy."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Anonymous text)",
+      "basis": "Term-based assessment on 2026-11-03. The work is anonymous and first printed in 1554, far outside any copyright term (the author_death_year field, which requires a number, holds the 1554 first-printing year as a conservative stand-in because no author is known); the electronic transcription adds no copyrightable layer to the text used. This is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "ES",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://www.gutenberg.org/ebooks/320",
+        "https://www.gutenberg.org/cache/epub/320/pg320-images.html",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Anonymous",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://www.gutenberg.org/cache/epub/320/pg320-images.html",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/anonymous-lazarillo-es-pg320.json"
+      ],
+      "notes": "Technical extraction and complete AI-assisted paragraph comparison cover all 352 canonical units. Source-check metadata records exact hashes, witness boundaries, normalization and access limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "anonymous-lazarillo-vi-ai-2026",
+    "work_id": "lazarillo-lazarillo-de-tormes",
+    "language": "vi",
+    "title": "Lazarillo de Tormes",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/lazarillo-lazarillo-de-tormes/anonymous-lazarillo-vi-ai-2026.json",
+    "source_edition_id": "anonymous-lazarillo-es-pg320",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified Spanish source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-02",
+      "source_witness": "anonymous-lazarillo-es-pg320"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "ES",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/consumer-terms",
+        "https://www.gutenberg.org/ebooks/320",
+        "https://www.gutenberg.org/cache/epub/320/pg320-images.html",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Anonymous",
+      "translator": "LitMundi AI translation (Claude)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.65,
+      "record_paths": [
+        "corpus/reviews/lazarillo-lazarillo-de-tormes/anonymous-lazarillo-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/lazarillo-lazarillo-de-tormes/anonymous-lazarillo-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "notes": "Complete AI literary assessment: unrounded weighted score 8.65/10, threshold 8.6. All 352 source/target passages and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment is disclosed; an independent-context AI pass from the same model family supplied findings, which is not human certification or model diversity. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "Claude Opus 5.5 (Anthropic) — AI translation, literary revision and assessment"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
   }
 ]

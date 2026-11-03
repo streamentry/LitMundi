@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "work_id": "lazarillo-lazarillo-de-tormes",
+  "edition_id": "anonymous-lazarillo-vi-ai-2026",
+  "source_edition_id": "anonymous-lazarillo-es-pg320",
+  "title_vi": "Lazarillo de Tormes",
+  "translation_direction": "es → vi; direct from the specifically identified complete Spanish electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Lázaro’s shrewd, dry, oral first-person voice is rendered in short clauses with natural connectives; Spanish syntactic calques were recast during revision.",
+      "rationale": "The picaresque comedy lives in tone, not in word order."
+    },
+    {
+      "topic": "Proverbs and puns",
+      "decision": "Proverbs and wordplay are rendered with an idiomatic Vietnamese turn that keeps the sense, without footnotes.",
+      "rationale": "A reader should not need apparatus to follow the joke."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-lazarillo-lazarillo-de-tormes",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "lazarillo-lazarillo-de-tormes:2.68",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A polarity inversion (‘no pareciendo ellas pudiera negar la demanda’) was corrected."
+        },
+        {
+          "segment": "lazarillo-lazarillo-de-tormes:3.36",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Three majors in units 117, 126 and 127 (mistranslated or garbled clauses) were corrected."
+        },
+        {
+          "segment": "lazarillo-lazarillo-de-tormes:7.3",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘mi boca era medida’, ‘no sé qué, y sí sé qué’ and ‘canónigos’ were rendered into nonsense or the wrong office; corrected."
+        },
+        {
+          "segment": "lazarillo-lazarillo-de-tormes:2.7",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘pringar’ rendered as resin and two opaque proverbs (units 12 and 39) were corrected."
+        },
+        {
+          "segment": "lazarillo-lazarillo-de-tormes:2.4",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Calqued Spanish syntax throughout was recast into idiomatic Vietnamese; the ‘hideputa’ insult and the ‘Commendador’ term were unified."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Vuestra Merced",
+      "draft_rendering": "ngài",
+      "alternatives": [],
+      "rationale": "The unnamed addressee of Lázaro’s letter; one deferential pronoun through the book, with the irony of a man writing up shame as success.",
+      "passages": [
+        "lazarillo-lazarillo-de-tormes:1.2",
+        "lazarillo-lazarillo-de-tormes:1.3",
+        "lazarillo-lazarillo-de-tormes:2.1"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "el ciego / el clérigo / el escudero / el buldero",
+      "draft_rendering": "gã mù / vị linh mục / ông escudero (quý tộc nghèo) / người bán giấy xá tội",
+      "alternatives": [],
+      "rationale": "Each master keeps one role name through his tratado.",
+      "passages": [
+        "lazarillo-lazarillo-de-tormes:2.6",
+        "lazarillo-lazarillo-de-tormes:3.4",
+        "lazarillo-lazarillo-de-tormes:4.5",
+        "lazarillo-lazarillo-de-tormes:6.10"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "honra",
+      "draft_rendering": "danh dự",
+      "alternatives": [],
+      "rationale": "The escudero’s theme word, rendered with a single term.",
+      "passages": [
+        "lazarillo-lazarillo-de-tormes:4.15",
+        "lazarillo-lazarillo-de-tormes:4.45",
+        "lazarillo-lazarillo-de-tormes:4.67"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "bulas",
+      "draft_rendering": "giấy xá tội",
+      "alternatives": [],
+      "rationale": "The papal indulgences the buldero sells.",
+      "passages": [
+        "lazarillo-lazarillo-de-tormes:6.10",
+        "lazarillo-lazarillo-de-tormes:6.20",
+        "lazarillo-lazarillo-de-tormes:6.30"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #320, an electronic transcription of the Burgos 1554 edition of La vida de Lazarillo de Tormes y de sus fortunas y adversidades. The transcription’s editorial policy and orthography were not collated against the 1554 print.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "37db28c05a7ba77dbe92d74786afba872293e3a5586d8dc06c2661b5dba7d1d0",
+  "target_sha256": "0e11f76b8156c358d3081bf331a09d2ead8544f24379d411aed82fb475d55d60",
+  "coverage": {
+    "canonical_passages": 352,
+    "translated_passages": 352,
+    "aligned_passages": 352
+  },
+  "ai_review_record": "corpus/reviews/lazarillo-lazarillo-de-tormes/anonymous-lazarillo-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.65,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "lazarillo-lazarillo-de-tormes:4.80",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few idioms (for example the ‘cabeza de lobo’ line) are rendered by sense rather than image."
+    }
+  ],
+  "title_review": {
+    "source_title": "La vida de Lazarillo de Tormes y de sus fortunas y adversidades",
+    "target_title": "Lazarillo de Tormes",
+    "rationale": "The Vietnamese title keeps the established name ‘Lazarillo de Tormes’; the Spanish long title is preserved in the source edition."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "lazarillo-lazarillo-de-tormes:1.2"
+      ],
+      "assessment": "The prologue addressed to Vuestra Merced."
+    },
+    {
+      "passages": [
+        "lazarillo-lazarillo-de-tormes:8.14"
+      ],
+      "assessment": "The closing bracketed promise of a continuation."
+    }
+  ]
+}

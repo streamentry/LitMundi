@@ -1,0 +1,2824 @@
+{
+  "schema_version": 1,
+  "work_id": "lazarillo-lazarillo-de-tormes",
+  "edition_id": "anonymous-lazarillo-vi-ai-2026",
+  "source_edition_id": "anonymous-lazarillo-es-pg320",
+  "links": [
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:1.1"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:1.1"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:1.2"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:1.2"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:1.3"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:1.3"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:1.4"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:1.4"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.1"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.1"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.2"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.2"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.3"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.3"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.4"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.4"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.5"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.5"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.6"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.6"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.7"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.7"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.8"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.8"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.9"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.9"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.10"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.10"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.11"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.11"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.12"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.12"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.13"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.13"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.14"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.14"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.15"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.15"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.16"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.16"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.17"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.17"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.18"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.18"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.19"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.19"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.20"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.20"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.21"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.21"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.22"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.22"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.23"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.23"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.24"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.24"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.25"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.25"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.26"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.26"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.27"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.27"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.28"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.28"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.29"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.29"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.30"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.30"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.31"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.31"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.32"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.32"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.33"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.33"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.34"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.34"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.35"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.35"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.36"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.36"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.37"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.37"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.38"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.38"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.39"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.39"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.40"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.40"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.41"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.41"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.42"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.42"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.43"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.43"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.44"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.44"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.45"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.45"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.46"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.46"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.47"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.47"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.48"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.48"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.49"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.49"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.50"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.50"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.51"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.51"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.52"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.52"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.53"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.53"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.54"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.54"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.55"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.55"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.56"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.56"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.57"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.57"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.58"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.58"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.59"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.59"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.60"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.60"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.61"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.61"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.62"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.62"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.63"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.63"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.64"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.64"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.65"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.65"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.66"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.66"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.67"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.67"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.68"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.68"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.69"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.69"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.70"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.70"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.71"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.71"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.72"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.72"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.73"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.73"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.74"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.74"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.75"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.75"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.76"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.76"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.77"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.77"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.78"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.78"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.79"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.79"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.80"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.80"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.81"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.81"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.82"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.82"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.83"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.83"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.84"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.84"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.85"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.85"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.86"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.86"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:2.87"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:2.87"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.1"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.1"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.2"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.2"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.3"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.3"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.4"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.4"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.5"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.5"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.6"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.6"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.7"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.7"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.8"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.8"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.9"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.9"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.10"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.10"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.11"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.11"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.12"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.12"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.13"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.13"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.14"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.14"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.15"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.15"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.16"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.16"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.17"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.17"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.18"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.18"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.19"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.19"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.20"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.20"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.21"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.21"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.22"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.22"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.23"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.23"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.24"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.24"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.25"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.25"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.26"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.26"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.27"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.27"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.28"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.28"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.29"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.29"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.30"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.30"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.31"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.31"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.32"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.32"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.33"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.33"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.34"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.34"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.35"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.35"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.36"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.36"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.37"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.37"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.38"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.38"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.39"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.39"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.40"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.40"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.41"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.41"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.42"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.42"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.43"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.43"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.44"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.44"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.45"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.45"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.46"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.46"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.47"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.47"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.48"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.48"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.49"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.49"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.50"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.50"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.51"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.51"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.52"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.52"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.53"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.53"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.54"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.54"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.55"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.55"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.56"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.56"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.57"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.57"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.58"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.58"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.59"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.59"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.60"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.60"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.61"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.61"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.62"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.62"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.63"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.63"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:3.64"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:3.64"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.1"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.1"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.2"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.2"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.3"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.3"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.4"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.4"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.5"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.5"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.6"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.6"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.7"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.7"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.8"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.8"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.9"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.9"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.10"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.10"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.11"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.11"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.12"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.12"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.13"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.13"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.14"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.14"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.15"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.15"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.16"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.16"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.17"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.17"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.18"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.18"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.19"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.19"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.20"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.20"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.21"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.21"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.22"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.22"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.23"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.23"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.24"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.24"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.25"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.25"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.26"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.26"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.27"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.27"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.28"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.28"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.29"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.29"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.30"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.30"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.31"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.31"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.32"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.32"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.33"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.33"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.34"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.34"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.35"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.35"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.36"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.36"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.37"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.37"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.38"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.38"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.39"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.39"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.40"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.40"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.41"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.41"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.42"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.42"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.43"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.43"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.44"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.44"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.45"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.45"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.46"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.46"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.47"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.47"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.48"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.48"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.49"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.49"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.50"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.50"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.51"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.51"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.52"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.52"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.53"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.53"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.54"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.54"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.55"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.55"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.56"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.56"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.57"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.57"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.58"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.58"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.59"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.59"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.60"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.60"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.61"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.61"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.62"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.62"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.63"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.63"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.64"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.64"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.65"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.65"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.66"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.66"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.67"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.67"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.68"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.68"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.69"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.69"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.70"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.70"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.71"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.71"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.72"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.72"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.73"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.73"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.74"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.74"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.75"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.75"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.76"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.76"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.77"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.77"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.78"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.78"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.79"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.79"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.80"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.80"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.81"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.81"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.82"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.82"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.83"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.83"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.84"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.84"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.85"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.85"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.86"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.86"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.87"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.87"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.88"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.88"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.89"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.89"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.90"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.90"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.91"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.91"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.92"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.92"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.93"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.93"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.94"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.94"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.95"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.95"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.96"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.96"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.97"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.97"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.98"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.98"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.99"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.99"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.100"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.100"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.101"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.101"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.102"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.102"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.103"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.103"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.104"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.104"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.105"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.105"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.106"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.106"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.107"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.107"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.108"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.108"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.109"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.109"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.110"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.110"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.111"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.111"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.112"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.112"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.113"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.113"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.114"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.114"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.115"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.115"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.116"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.116"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.117"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.117"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.118"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.118"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.119"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.119"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.120"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.120"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.121"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.121"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.122"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.122"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.123"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.123"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.124"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.124"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.125"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.125"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.126"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.126"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.127"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.127"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.128"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.128"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.129"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.129"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.130"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.130"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.131"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.131"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.132"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.132"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:4.133"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:4.133"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:5.1"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:5.1"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:5.2"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:5.2"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.1"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.1"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.2"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.2"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.3"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.3"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.4"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.4"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.5"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.5"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.6"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.6"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.7"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.7"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.8"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.8"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.9"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.9"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.10"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.10"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.11"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.11"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.12"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.12"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.13"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.13"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.14"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.14"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.15"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.15"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.16"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.16"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.17"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.17"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.18"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.18"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.19"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.19"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.20"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.20"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.21"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.21"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.22"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.22"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.23"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.23"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.24"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.24"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.25"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.25"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.26"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.26"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.27"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.27"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.28"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.28"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.29"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.29"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.30"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.30"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.31"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.31"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.32"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.32"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.33"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.33"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.34"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.34"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.35"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.35"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.36"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.36"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.37"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.37"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.38"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.38"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.39"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.39"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.40"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.40"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.41"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.41"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.42"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.42"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:6.43"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:6.43"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:7.1"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:7.1"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:7.2"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:7.2"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:7.3"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:7.3"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:7.4"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:7.4"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:7.5"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:7.5"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.1"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.1"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.2"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.2"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.3"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.3"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.4"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.4"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.5"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.5"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.6"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.6"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.7"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.7"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.8"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.8"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.9"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.9"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.10"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.10"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.11"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.11"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.12"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.12"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.13"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.13"
+      ]
+    },
+    {
+      "source": [
+        "lazarillo-lazarillo-de-tormes:8.14"
+      ],
+      "target": [
+        "lazarillo-lazarillo-de-tormes:8.14"
+      ]
+    }
+  ]
+}
