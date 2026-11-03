@@ -13,7 +13,7 @@
   },
   "ai_assessment": {
     "model": "Claude Opus 5.5",
-    "method": "Full direct English-to-Vietnamese comparison of all 814 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported 0 major and 10 minor findings with a pre-revision weighted score of 8.65; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "method": "Full direct English-to-Vietnamese comparison of all 814 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported three major and dozens of minor findings with a pre-revision weighted score of 8.40; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
     "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
   },
   "source_sha256": "521303997ef9c69ecd24e0f199802cc0c4f274371c89d1a3c33412e85f95444f",

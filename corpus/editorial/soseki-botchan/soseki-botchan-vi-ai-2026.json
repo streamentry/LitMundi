@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "work_id": "soseki-botchan",
+  "edition_id": "soseki-botchan-vi-ai-2026",
+  "source_edition_id": "soseki-botchan-ja-aozora-752-14964",
+  "title_vi": "Botchan",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Botchan’s brisk, quarrelsome, comic narration is rendered in short punchy sentences with Edokko bluntness, without a regional Vietnamese dialect.",
+      "rationale": "The novel’s comedy depends on the speaker’s directness."
+    },
+    {
+      "topic": "Wordplay",
+      "decision": "The なもし/菜飯 pun and the 勘五郎 callback are re-created in Vietnamese; sen and rin keep the period money.",
+      "rationale": "Jokes must still land for a Vietnamese reader."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-soseki-botchan",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "soseki-botchan:7.64",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘nothing is more reliable than people’ inverted 人間ほどあてにならないものはない; corrected, with Madonna as the referent of あの顔."
+        },
+        {
+          "segment": "soseki-botchan:2.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Direction of travel fixed (rời Tokyo; xuống tỉnh lẻ); 428, 473 and 479 corrected."
+        },
+        {
+          "segment": "soseki-botchan:10.3",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "bà Kiyo restored in narration; Hotta’s tớ/cậu and the landlady’s thầy made consistent across parts."
+        },
+        {
+          "segment": "soseki-botchan:8.56",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The returned money is the raise; 免職 now a dismissal; 一席伺わせる and 二間 corrected."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "赤シャツ / 山嵐 / 野だいこ / うらなり / 狸",
+      "draft_rendering": "Áo Đỏ / Bão Núi / Gã Bợ Đỡ / Dưa Héo / Lão Lửng",
+      "alternatives": [],
+      "rationale": "Botchan’s nicknames for the head teacher, Hotta, Noda, Koga and the headmaster, fixed through the novel.",
+      "passages": [
+        "soseki-botchan:6.18",
+        "soseki-botchan:7.57",
+        "soseki-botchan:9.38"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "坊っちゃん / 清",
+      "draft_rendering": "cậu Botchan (in Kiyo’s speech) / bà Kiyo",
+      "alternatives": [],
+      "rationale": "Kiyo’s affectionate address for the young master; the old servant is always bà Kiyo in narration.",
+      "passages": [
+        "soseki-botchan:1.2",
+        "soseki-botchan:10.3",
+        "soseki-botchan:11.99"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "おれ / 僕",
+      "draft_rendering": "tôi in narration, tao/mày to enemies; Hotta says tớ/cậu",
+      "alternatives": [],
+      "rationale": "Botchan’s blunt Edokko voice without regional dialect.",
+      "passages": [
+        "soseki-botchan:1.1",
+        "soseki-botchan:7.57",
+        "soseki-botchan:11.89"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "天麩羅 / 蕎麦 / 団子",
+      "draft_rendering": "tempura / soba / dango",
+      "alternatives": [],
+      "rationale": "Dish names kept as loanwords for the blackboard jokes.",
+      "passages": [
+        "soseki-botchan:5.32",
+        "soseki-botchan:9.8",
+        "soseki-botchan:11.86"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the Aozora Bunko transcription (card 752, file 752_14964, new characters and new kana) of 坊っちゃん, first published in ホトトギス (April 1906); the transcription follows the Chikuma Nihon Bungaku Zenshū edition (筑摩書房, 1st printing 1992-01-20, 2nd printing used for proofreading 1998-03-15; parent text 夏目漱石全集2, ちくま文庫, 1987). Not collated with the 1906 magazine text. Input by 真先芳秋, proofreading by 柳沢成雄; file published 1999-09-13, revised 2011-05-20.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "bc279a7f0fefaba465e73270d88656df3e7fd4d60a1bc699b9d3774f1f67f1b2",
+  "target_sha256": "eef04060e6c625c26d83f50f6bcf5e76266eb840c0d6642bfa4a1e33ce4f379c",
+  "coverage": {
+    "canonical_passages": 482,
+    "translated_passages": 482,
+    "aligned_passages": 482
+  },
+  "ai_review_record": "corpus/reviews/soseki-botchan/soseki-botchan-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "soseki-botchan:4.9",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The なもし/菜飯 pun is localised with a modern dish; a period-neutral dish could be considered."
+    }
+  ],
+  "title_review": {
+    "source_title": "坊っちゃん",
+    "target_title": "Botchan",
+    "rationale": "Botchan is the established Vietnamese title; the Japanese 坊っちゃん means a young master or spoiled boy and is explained in the introduction."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "soseki-botchan:1.1"
+      ],
+      "assessment": "The opening confession of recklessness."
+    },
+    {
+      "passages": [
+        "soseki-botchan:11.99",
+        "soseki-botchan:11.100"
+      ],
+      "assessment": "Kiyo’s grave and the ending."
+    }
+  ]
+}

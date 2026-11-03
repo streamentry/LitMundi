@@ -1,0 +1,3864 @@
+{
+  "schema_version": 1,
+  "work_id": "soseki-botchan",
+  "edition_id": "soseki-botchan-vi-ai-2026",
+  "source_edition_id": "soseki-botchan-ja-aozora-752-14964",
+  "links": [
+    {
+      "source": [
+        "soseki-botchan:1.1"
+      ],
+      "target": [
+        "soseki-botchan:1.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.2"
+      ],
+      "target": [
+        "soseki-botchan:1.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.3"
+      ],
+      "target": [
+        "soseki-botchan:1.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.4"
+      ],
+      "target": [
+        "soseki-botchan:1.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.5"
+      ],
+      "target": [
+        "soseki-botchan:1.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.6"
+      ],
+      "target": [
+        "soseki-botchan:1.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.7"
+      ],
+      "target": [
+        "soseki-botchan:1.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.8"
+      ],
+      "target": [
+        "soseki-botchan:1.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.9"
+      ],
+      "target": [
+        "soseki-botchan:1.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.10"
+      ],
+      "target": [
+        "soseki-botchan:1.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.11"
+      ],
+      "target": [
+        "soseki-botchan:1.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.12"
+      ],
+      "target": [
+        "soseki-botchan:1.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.13"
+      ],
+      "target": [
+        "soseki-botchan:1.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.14"
+      ],
+      "target": [
+        "soseki-botchan:1.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.15"
+      ],
+      "target": [
+        "soseki-botchan:1.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.16"
+      ],
+      "target": [
+        "soseki-botchan:1.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.17"
+      ],
+      "target": [
+        "soseki-botchan:1.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.18"
+      ],
+      "target": [
+        "soseki-botchan:1.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.19"
+      ],
+      "target": [
+        "soseki-botchan:1.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.20"
+      ],
+      "target": [
+        "soseki-botchan:1.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.21"
+      ],
+      "target": [
+        "soseki-botchan:1.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.22"
+      ],
+      "target": [
+        "soseki-botchan:1.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:1.23"
+      ],
+      "target": [
+        "soseki-botchan:1.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.1"
+      ],
+      "target": [
+        "soseki-botchan:2.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.2"
+      ],
+      "target": [
+        "soseki-botchan:2.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.3"
+      ],
+      "target": [
+        "soseki-botchan:2.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.4"
+      ],
+      "target": [
+        "soseki-botchan:2.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.5"
+      ],
+      "target": [
+        "soseki-botchan:2.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.6"
+      ],
+      "target": [
+        "soseki-botchan:2.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.7"
+      ],
+      "target": [
+        "soseki-botchan:2.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.8"
+      ],
+      "target": [
+        "soseki-botchan:2.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.9"
+      ],
+      "target": [
+        "soseki-botchan:2.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.10"
+      ],
+      "target": [
+        "soseki-botchan:2.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.11"
+      ],
+      "target": [
+        "soseki-botchan:2.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.12"
+      ],
+      "target": [
+        "soseki-botchan:2.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.13"
+      ],
+      "target": [
+        "soseki-botchan:2.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:2.14"
+      ],
+      "target": [
+        "soseki-botchan:2.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:3.1"
+      ],
+      "target": [
+        "soseki-botchan:3.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:3.2"
+      ],
+      "target": [
+        "soseki-botchan:3.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:3.3"
+      ],
+      "target": [
+        "soseki-botchan:3.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:3.4"
+      ],
+      "target": [
+        "soseki-botchan:3.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:3.5"
+      ],
+      "target": [
+        "soseki-botchan:3.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:3.6"
+      ],
+      "target": [
+        "soseki-botchan:3.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:3.7"
+      ],
+      "target": [
+        "soseki-botchan:3.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:3.8"
+      ],
+      "target": [
+        "soseki-botchan:3.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:3.9"
+      ],
+      "target": [
+        "soseki-botchan:3.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.1"
+      ],
+      "target": [
+        "soseki-botchan:4.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.2"
+      ],
+      "target": [
+        "soseki-botchan:4.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.3"
+      ],
+      "target": [
+        "soseki-botchan:4.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.4"
+      ],
+      "target": [
+        "soseki-botchan:4.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.5"
+      ],
+      "target": [
+        "soseki-botchan:4.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.6"
+      ],
+      "target": [
+        "soseki-botchan:4.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.7"
+      ],
+      "target": [
+        "soseki-botchan:4.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.8"
+      ],
+      "target": [
+        "soseki-botchan:4.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.9"
+      ],
+      "target": [
+        "soseki-botchan:4.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.10"
+      ],
+      "target": [
+        "soseki-botchan:4.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.11"
+      ],
+      "target": [
+        "soseki-botchan:4.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.12"
+      ],
+      "target": [
+        "soseki-botchan:4.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.13"
+      ],
+      "target": [
+        "soseki-botchan:4.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.14"
+      ],
+      "target": [
+        "soseki-botchan:4.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.15"
+      ],
+      "target": [
+        "soseki-botchan:4.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.16"
+      ],
+      "target": [
+        "soseki-botchan:4.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.17"
+      ],
+      "target": [
+        "soseki-botchan:4.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.18"
+      ],
+      "target": [
+        "soseki-botchan:4.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.19"
+      ],
+      "target": [
+        "soseki-botchan:4.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.20"
+      ],
+      "target": [
+        "soseki-botchan:4.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.21"
+      ],
+      "target": [
+        "soseki-botchan:4.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:4.22"
+      ],
+      "target": [
+        "soseki-botchan:4.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.1"
+      ],
+      "target": [
+        "soseki-botchan:5.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.2"
+      ],
+      "target": [
+        "soseki-botchan:5.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.3"
+      ],
+      "target": [
+        "soseki-botchan:5.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.4"
+      ],
+      "target": [
+        "soseki-botchan:5.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.5"
+      ],
+      "target": [
+        "soseki-botchan:5.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.6"
+      ],
+      "target": [
+        "soseki-botchan:5.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.7"
+      ],
+      "target": [
+        "soseki-botchan:5.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.8"
+      ],
+      "target": [
+        "soseki-botchan:5.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.9"
+      ],
+      "target": [
+        "soseki-botchan:5.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.10"
+      ],
+      "target": [
+        "soseki-botchan:5.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.11"
+      ],
+      "target": [
+        "soseki-botchan:5.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.12"
+      ],
+      "target": [
+        "soseki-botchan:5.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.13"
+      ],
+      "target": [
+        "soseki-botchan:5.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.14"
+      ],
+      "target": [
+        "soseki-botchan:5.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.15"
+      ],
+      "target": [
+        "soseki-botchan:5.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.16"
+      ],
+      "target": [
+        "soseki-botchan:5.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.17"
+      ],
+      "target": [
+        "soseki-botchan:5.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.18"
+      ],
+      "target": [
+        "soseki-botchan:5.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.19"
+      ],
+      "target": [
+        "soseki-botchan:5.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.20"
+      ],
+      "target": [
+        "soseki-botchan:5.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.21"
+      ],
+      "target": [
+        "soseki-botchan:5.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.22"
+      ],
+      "target": [
+        "soseki-botchan:5.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.23"
+      ],
+      "target": [
+        "soseki-botchan:5.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.24"
+      ],
+      "target": [
+        "soseki-botchan:5.24"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.25"
+      ],
+      "target": [
+        "soseki-botchan:5.25"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.26"
+      ],
+      "target": [
+        "soseki-botchan:5.26"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.27"
+      ],
+      "target": [
+        "soseki-botchan:5.27"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.28"
+      ],
+      "target": [
+        "soseki-botchan:5.28"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.29"
+      ],
+      "target": [
+        "soseki-botchan:5.29"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.30"
+      ],
+      "target": [
+        "soseki-botchan:5.30"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.31"
+      ],
+      "target": [
+        "soseki-botchan:5.31"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.32"
+      ],
+      "target": [
+        "soseki-botchan:5.32"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.33"
+      ],
+      "target": [
+        "soseki-botchan:5.33"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:5.34"
+      ],
+      "target": [
+        "soseki-botchan:5.34"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.1"
+      ],
+      "target": [
+        "soseki-botchan:6.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.2"
+      ],
+      "target": [
+        "soseki-botchan:6.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.3"
+      ],
+      "target": [
+        "soseki-botchan:6.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.4"
+      ],
+      "target": [
+        "soseki-botchan:6.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.5"
+      ],
+      "target": [
+        "soseki-botchan:6.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.6"
+      ],
+      "target": [
+        "soseki-botchan:6.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.7"
+      ],
+      "target": [
+        "soseki-botchan:6.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.8"
+      ],
+      "target": [
+        "soseki-botchan:6.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.9"
+      ],
+      "target": [
+        "soseki-botchan:6.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.10"
+      ],
+      "target": [
+        "soseki-botchan:6.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.11"
+      ],
+      "target": [
+        "soseki-botchan:6.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.12"
+      ],
+      "target": [
+        "soseki-botchan:6.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.13"
+      ],
+      "target": [
+        "soseki-botchan:6.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.14"
+      ],
+      "target": [
+        "soseki-botchan:6.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.15"
+      ],
+      "target": [
+        "soseki-botchan:6.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.16"
+      ],
+      "target": [
+        "soseki-botchan:6.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.17"
+      ],
+      "target": [
+        "soseki-botchan:6.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.18"
+      ],
+      "target": [
+        "soseki-botchan:6.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.19"
+      ],
+      "target": [
+        "soseki-botchan:6.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.20"
+      ],
+      "target": [
+        "soseki-botchan:6.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.21"
+      ],
+      "target": [
+        "soseki-botchan:6.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.22"
+      ],
+      "target": [
+        "soseki-botchan:6.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.23"
+      ],
+      "target": [
+        "soseki-botchan:6.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.24"
+      ],
+      "target": [
+        "soseki-botchan:6.24"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.25"
+      ],
+      "target": [
+        "soseki-botchan:6.25"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.26"
+      ],
+      "target": [
+        "soseki-botchan:6.26"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.27"
+      ],
+      "target": [
+        "soseki-botchan:6.27"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.28"
+      ],
+      "target": [
+        "soseki-botchan:6.28"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.29"
+      ],
+      "target": [
+        "soseki-botchan:6.29"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.30"
+      ],
+      "target": [
+        "soseki-botchan:6.30"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.31"
+      ],
+      "target": [
+        "soseki-botchan:6.31"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.32"
+      ],
+      "target": [
+        "soseki-botchan:6.32"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.33"
+      ],
+      "target": [
+        "soseki-botchan:6.33"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.34"
+      ],
+      "target": [
+        "soseki-botchan:6.34"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.35"
+      ],
+      "target": [
+        "soseki-botchan:6.35"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.36"
+      ],
+      "target": [
+        "soseki-botchan:6.36"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.37"
+      ],
+      "target": [
+        "soseki-botchan:6.37"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.38"
+      ],
+      "target": [
+        "soseki-botchan:6.38"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.39"
+      ],
+      "target": [
+        "soseki-botchan:6.39"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.40"
+      ],
+      "target": [
+        "soseki-botchan:6.40"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:6.41"
+      ],
+      "target": [
+        "soseki-botchan:6.41"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.1"
+      ],
+      "target": [
+        "soseki-botchan:7.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.2"
+      ],
+      "target": [
+        "soseki-botchan:7.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.3"
+      ],
+      "target": [
+        "soseki-botchan:7.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.4"
+      ],
+      "target": [
+        "soseki-botchan:7.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.5"
+      ],
+      "target": [
+        "soseki-botchan:7.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.6"
+      ],
+      "target": [
+        "soseki-botchan:7.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.7"
+      ],
+      "target": [
+        "soseki-botchan:7.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.8"
+      ],
+      "target": [
+        "soseki-botchan:7.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.9"
+      ],
+      "target": [
+        "soseki-botchan:7.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.10"
+      ],
+      "target": [
+        "soseki-botchan:7.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.11"
+      ],
+      "target": [
+        "soseki-botchan:7.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.12"
+      ],
+      "target": [
+        "soseki-botchan:7.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.13"
+      ],
+      "target": [
+        "soseki-botchan:7.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.14"
+      ],
+      "target": [
+        "soseki-botchan:7.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.15"
+      ],
+      "target": [
+        "soseki-botchan:7.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.16"
+      ],
+      "target": [
+        "soseki-botchan:7.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.17"
+      ],
+      "target": [
+        "soseki-botchan:7.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.18"
+      ],
+      "target": [
+        "soseki-botchan:7.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.19"
+      ],
+      "target": [
+        "soseki-botchan:7.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.20"
+      ],
+      "target": [
+        "soseki-botchan:7.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.21"
+      ],
+      "target": [
+        "soseki-botchan:7.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.22"
+      ],
+      "target": [
+        "soseki-botchan:7.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.23"
+      ],
+      "target": [
+        "soseki-botchan:7.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.24"
+      ],
+      "target": [
+        "soseki-botchan:7.24"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.25"
+      ],
+      "target": [
+        "soseki-botchan:7.25"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.26"
+      ],
+      "target": [
+        "soseki-botchan:7.26"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.27"
+      ],
+      "target": [
+        "soseki-botchan:7.27"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.28"
+      ],
+      "target": [
+        "soseki-botchan:7.28"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.29"
+      ],
+      "target": [
+        "soseki-botchan:7.29"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.30"
+      ],
+      "target": [
+        "soseki-botchan:7.30"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.31"
+      ],
+      "target": [
+        "soseki-botchan:7.31"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.32"
+      ],
+      "target": [
+        "soseki-botchan:7.32"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.33"
+      ],
+      "target": [
+        "soseki-botchan:7.33"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.34"
+      ],
+      "target": [
+        "soseki-botchan:7.34"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.35"
+      ],
+      "target": [
+        "soseki-botchan:7.35"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.36"
+      ],
+      "target": [
+        "soseki-botchan:7.36"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.37"
+      ],
+      "target": [
+        "soseki-botchan:7.37"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.38"
+      ],
+      "target": [
+        "soseki-botchan:7.38"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.39"
+      ],
+      "target": [
+        "soseki-botchan:7.39"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.40"
+      ],
+      "target": [
+        "soseki-botchan:7.40"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.41"
+      ],
+      "target": [
+        "soseki-botchan:7.41"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.42"
+      ],
+      "target": [
+        "soseki-botchan:7.42"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.43"
+      ],
+      "target": [
+        "soseki-botchan:7.43"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.44"
+      ],
+      "target": [
+        "soseki-botchan:7.44"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.45"
+      ],
+      "target": [
+        "soseki-botchan:7.45"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.46"
+      ],
+      "target": [
+        "soseki-botchan:7.46"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.47"
+      ],
+      "target": [
+        "soseki-botchan:7.47"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.48"
+      ],
+      "target": [
+        "soseki-botchan:7.48"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.49"
+      ],
+      "target": [
+        "soseki-botchan:7.49"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.50"
+      ],
+      "target": [
+        "soseki-botchan:7.50"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.51"
+      ],
+      "target": [
+        "soseki-botchan:7.51"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.52"
+      ],
+      "target": [
+        "soseki-botchan:7.52"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.53"
+      ],
+      "target": [
+        "soseki-botchan:7.53"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.54"
+      ],
+      "target": [
+        "soseki-botchan:7.54"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.55"
+      ],
+      "target": [
+        "soseki-botchan:7.55"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.56"
+      ],
+      "target": [
+        "soseki-botchan:7.56"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.57"
+      ],
+      "target": [
+        "soseki-botchan:7.57"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.58"
+      ],
+      "target": [
+        "soseki-botchan:7.58"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.59"
+      ],
+      "target": [
+        "soseki-botchan:7.59"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.60"
+      ],
+      "target": [
+        "soseki-botchan:7.60"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.61"
+      ],
+      "target": [
+        "soseki-botchan:7.61"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.62"
+      ],
+      "target": [
+        "soseki-botchan:7.62"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.63"
+      ],
+      "target": [
+        "soseki-botchan:7.63"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.64"
+      ],
+      "target": [
+        "soseki-botchan:7.64"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.65"
+      ],
+      "target": [
+        "soseki-botchan:7.65"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.66"
+      ],
+      "target": [
+        "soseki-botchan:7.66"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.67"
+      ],
+      "target": [
+        "soseki-botchan:7.67"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:7.68"
+      ],
+      "target": [
+        "soseki-botchan:7.68"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.1"
+      ],
+      "target": [
+        "soseki-botchan:8.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.2"
+      ],
+      "target": [
+        "soseki-botchan:8.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.3"
+      ],
+      "target": [
+        "soseki-botchan:8.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.4"
+      ],
+      "target": [
+        "soseki-botchan:8.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.5"
+      ],
+      "target": [
+        "soseki-botchan:8.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.6"
+      ],
+      "target": [
+        "soseki-botchan:8.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.7"
+      ],
+      "target": [
+        "soseki-botchan:8.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.8"
+      ],
+      "target": [
+        "soseki-botchan:8.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.9"
+      ],
+      "target": [
+        "soseki-botchan:8.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.10"
+      ],
+      "target": [
+        "soseki-botchan:8.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.11"
+      ],
+      "target": [
+        "soseki-botchan:8.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.12"
+      ],
+      "target": [
+        "soseki-botchan:8.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.13"
+      ],
+      "target": [
+        "soseki-botchan:8.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.14"
+      ],
+      "target": [
+        "soseki-botchan:8.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.15"
+      ],
+      "target": [
+        "soseki-botchan:8.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.16"
+      ],
+      "target": [
+        "soseki-botchan:8.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.17"
+      ],
+      "target": [
+        "soseki-botchan:8.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.18"
+      ],
+      "target": [
+        "soseki-botchan:8.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.19"
+      ],
+      "target": [
+        "soseki-botchan:8.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.20"
+      ],
+      "target": [
+        "soseki-botchan:8.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.21"
+      ],
+      "target": [
+        "soseki-botchan:8.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.22"
+      ],
+      "target": [
+        "soseki-botchan:8.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.23"
+      ],
+      "target": [
+        "soseki-botchan:8.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.24"
+      ],
+      "target": [
+        "soseki-botchan:8.24"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.25"
+      ],
+      "target": [
+        "soseki-botchan:8.25"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.26"
+      ],
+      "target": [
+        "soseki-botchan:8.26"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.27"
+      ],
+      "target": [
+        "soseki-botchan:8.27"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.28"
+      ],
+      "target": [
+        "soseki-botchan:8.28"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.29"
+      ],
+      "target": [
+        "soseki-botchan:8.29"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.30"
+      ],
+      "target": [
+        "soseki-botchan:8.30"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.31"
+      ],
+      "target": [
+        "soseki-botchan:8.31"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.32"
+      ],
+      "target": [
+        "soseki-botchan:8.32"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.33"
+      ],
+      "target": [
+        "soseki-botchan:8.33"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.34"
+      ],
+      "target": [
+        "soseki-botchan:8.34"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.35"
+      ],
+      "target": [
+        "soseki-botchan:8.35"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.36"
+      ],
+      "target": [
+        "soseki-botchan:8.36"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.37"
+      ],
+      "target": [
+        "soseki-botchan:8.37"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.38"
+      ],
+      "target": [
+        "soseki-botchan:8.38"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.39"
+      ],
+      "target": [
+        "soseki-botchan:8.39"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.40"
+      ],
+      "target": [
+        "soseki-botchan:8.40"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.41"
+      ],
+      "target": [
+        "soseki-botchan:8.41"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.42"
+      ],
+      "target": [
+        "soseki-botchan:8.42"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.43"
+      ],
+      "target": [
+        "soseki-botchan:8.43"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.44"
+      ],
+      "target": [
+        "soseki-botchan:8.44"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.45"
+      ],
+      "target": [
+        "soseki-botchan:8.45"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.46"
+      ],
+      "target": [
+        "soseki-botchan:8.46"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.47"
+      ],
+      "target": [
+        "soseki-botchan:8.47"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.48"
+      ],
+      "target": [
+        "soseki-botchan:8.48"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.49"
+      ],
+      "target": [
+        "soseki-botchan:8.49"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.50"
+      ],
+      "target": [
+        "soseki-botchan:8.50"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.51"
+      ],
+      "target": [
+        "soseki-botchan:8.51"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.52"
+      ],
+      "target": [
+        "soseki-botchan:8.52"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.53"
+      ],
+      "target": [
+        "soseki-botchan:8.53"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.54"
+      ],
+      "target": [
+        "soseki-botchan:8.54"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.55"
+      ],
+      "target": [
+        "soseki-botchan:8.55"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.56"
+      ],
+      "target": [
+        "soseki-botchan:8.56"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.57"
+      ],
+      "target": [
+        "soseki-botchan:8.57"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.58"
+      ],
+      "target": [
+        "soseki-botchan:8.58"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.59"
+      ],
+      "target": [
+        "soseki-botchan:8.59"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.60"
+      ],
+      "target": [
+        "soseki-botchan:8.60"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.61"
+      ],
+      "target": [
+        "soseki-botchan:8.61"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.62"
+      ],
+      "target": [
+        "soseki-botchan:8.62"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.63"
+      ],
+      "target": [
+        "soseki-botchan:8.63"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.64"
+      ],
+      "target": [
+        "soseki-botchan:8.64"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.65"
+      ],
+      "target": [
+        "soseki-botchan:8.65"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.66"
+      ],
+      "target": [
+        "soseki-botchan:8.66"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.67"
+      ],
+      "target": [
+        "soseki-botchan:8.67"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.68"
+      ],
+      "target": [
+        "soseki-botchan:8.68"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.69"
+      ],
+      "target": [
+        "soseki-botchan:8.69"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.70"
+      ],
+      "target": [
+        "soseki-botchan:8.70"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.71"
+      ],
+      "target": [
+        "soseki-botchan:8.71"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.72"
+      ],
+      "target": [
+        "soseki-botchan:8.72"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.73"
+      ],
+      "target": [
+        "soseki-botchan:8.73"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.74"
+      ],
+      "target": [
+        "soseki-botchan:8.74"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.75"
+      ],
+      "target": [
+        "soseki-botchan:8.75"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.76"
+      ],
+      "target": [
+        "soseki-botchan:8.76"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.77"
+      ],
+      "target": [
+        "soseki-botchan:8.77"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.78"
+      ],
+      "target": [
+        "soseki-botchan:8.78"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.79"
+      ],
+      "target": [
+        "soseki-botchan:8.79"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.80"
+      ],
+      "target": [
+        "soseki-botchan:8.80"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:8.81"
+      ],
+      "target": [
+        "soseki-botchan:8.81"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.1"
+      ],
+      "target": [
+        "soseki-botchan:9.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.2"
+      ],
+      "target": [
+        "soseki-botchan:9.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.3"
+      ],
+      "target": [
+        "soseki-botchan:9.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.4"
+      ],
+      "target": [
+        "soseki-botchan:9.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.5"
+      ],
+      "target": [
+        "soseki-botchan:9.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.6"
+      ],
+      "target": [
+        "soseki-botchan:9.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.7"
+      ],
+      "target": [
+        "soseki-botchan:9.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.8"
+      ],
+      "target": [
+        "soseki-botchan:9.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.9"
+      ],
+      "target": [
+        "soseki-botchan:9.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.10"
+      ],
+      "target": [
+        "soseki-botchan:9.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.11"
+      ],
+      "target": [
+        "soseki-botchan:9.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.12"
+      ],
+      "target": [
+        "soseki-botchan:9.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.13"
+      ],
+      "target": [
+        "soseki-botchan:9.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.14"
+      ],
+      "target": [
+        "soseki-botchan:9.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.15"
+      ],
+      "target": [
+        "soseki-botchan:9.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.16"
+      ],
+      "target": [
+        "soseki-botchan:9.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.17"
+      ],
+      "target": [
+        "soseki-botchan:9.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.18"
+      ],
+      "target": [
+        "soseki-botchan:9.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.19"
+      ],
+      "target": [
+        "soseki-botchan:9.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.20"
+      ],
+      "target": [
+        "soseki-botchan:9.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.21"
+      ],
+      "target": [
+        "soseki-botchan:9.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.22"
+      ],
+      "target": [
+        "soseki-botchan:9.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.23"
+      ],
+      "target": [
+        "soseki-botchan:9.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.24"
+      ],
+      "target": [
+        "soseki-botchan:9.24"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.25"
+      ],
+      "target": [
+        "soseki-botchan:9.25"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.26"
+      ],
+      "target": [
+        "soseki-botchan:9.26"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.27"
+      ],
+      "target": [
+        "soseki-botchan:9.27"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.28"
+      ],
+      "target": [
+        "soseki-botchan:9.28"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.29"
+      ],
+      "target": [
+        "soseki-botchan:9.29"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.30"
+      ],
+      "target": [
+        "soseki-botchan:9.30"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.31"
+      ],
+      "target": [
+        "soseki-botchan:9.31"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.32"
+      ],
+      "target": [
+        "soseki-botchan:9.32"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.33"
+      ],
+      "target": [
+        "soseki-botchan:9.33"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.34"
+      ],
+      "target": [
+        "soseki-botchan:9.34"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.35"
+      ],
+      "target": [
+        "soseki-botchan:9.35"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.36"
+      ],
+      "target": [
+        "soseki-botchan:9.36"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.37"
+      ],
+      "target": [
+        "soseki-botchan:9.37"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.38"
+      ],
+      "target": [
+        "soseki-botchan:9.38"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.39"
+      ],
+      "target": [
+        "soseki-botchan:9.39"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.40"
+      ],
+      "target": [
+        "soseki-botchan:9.40"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.41"
+      ],
+      "target": [
+        "soseki-botchan:9.41"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.42"
+      ],
+      "target": [
+        "soseki-botchan:9.42"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.43"
+      ],
+      "target": [
+        "soseki-botchan:9.43"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.44"
+      ],
+      "target": [
+        "soseki-botchan:9.44"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.45"
+      ],
+      "target": [
+        "soseki-botchan:9.45"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.46"
+      ],
+      "target": [
+        "soseki-botchan:9.46"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.47"
+      ],
+      "target": [
+        "soseki-botchan:9.47"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.48"
+      ],
+      "target": [
+        "soseki-botchan:9.48"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.49"
+      ],
+      "target": [
+        "soseki-botchan:9.49"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:9.50"
+      ],
+      "target": [
+        "soseki-botchan:9.50"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.1"
+      ],
+      "target": [
+        "soseki-botchan:10.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.2"
+      ],
+      "target": [
+        "soseki-botchan:10.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.3"
+      ],
+      "target": [
+        "soseki-botchan:10.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.4"
+      ],
+      "target": [
+        "soseki-botchan:10.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.5"
+      ],
+      "target": [
+        "soseki-botchan:10.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.6"
+      ],
+      "target": [
+        "soseki-botchan:10.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.7"
+      ],
+      "target": [
+        "soseki-botchan:10.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.8"
+      ],
+      "target": [
+        "soseki-botchan:10.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.9"
+      ],
+      "target": [
+        "soseki-botchan:10.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.10"
+      ],
+      "target": [
+        "soseki-botchan:10.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.11"
+      ],
+      "target": [
+        "soseki-botchan:10.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.12"
+      ],
+      "target": [
+        "soseki-botchan:10.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.13"
+      ],
+      "target": [
+        "soseki-botchan:10.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.14"
+      ],
+      "target": [
+        "soseki-botchan:10.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.15"
+      ],
+      "target": [
+        "soseki-botchan:10.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.16"
+      ],
+      "target": [
+        "soseki-botchan:10.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.17"
+      ],
+      "target": [
+        "soseki-botchan:10.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.18"
+      ],
+      "target": [
+        "soseki-botchan:10.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.19"
+      ],
+      "target": [
+        "soseki-botchan:10.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.20"
+      ],
+      "target": [
+        "soseki-botchan:10.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.21"
+      ],
+      "target": [
+        "soseki-botchan:10.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.22"
+      ],
+      "target": [
+        "soseki-botchan:10.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.23"
+      ],
+      "target": [
+        "soseki-botchan:10.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.24"
+      ],
+      "target": [
+        "soseki-botchan:10.24"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.25"
+      ],
+      "target": [
+        "soseki-botchan:10.25"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.26"
+      ],
+      "target": [
+        "soseki-botchan:10.26"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.27"
+      ],
+      "target": [
+        "soseki-botchan:10.27"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.28"
+      ],
+      "target": [
+        "soseki-botchan:10.28"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.29"
+      ],
+      "target": [
+        "soseki-botchan:10.29"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.30"
+      ],
+      "target": [
+        "soseki-botchan:10.30"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.31"
+      ],
+      "target": [
+        "soseki-botchan:10.31"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.32"
+      ],
+      "target": [
+        "soseki-botchan:10.32"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.33"
+      ],
+      "target": [
+        "soseki-botchan:10.33"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.34"
+      ],
+      "target": [
+        "soseki-botchan:10.34"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.35"
+      ],
+      "target": [
+        "soseki-botchan:10.35"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.36"
+      ],
+      "target": [
+        "soseki-botchan:10.36"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.37"
+      ],
+      "target": [
+        "soseki-botchan:10.37"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.38"
+      ],
+      "target": [
+        "soseki-botchan:10.38"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:10.39"
+      ],
+      "target": [
+        "soseki-botchan:10.39"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.1"
+      ],
+      "target": [
+        "soseki-botchan:11.1"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.2"
+      ],
+      "target": [
+        "soseki-botchan:11.2"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.3"
+      ],
+      "target": [
+        "soseki-botchan:11.3"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.4"
+      ],
+      "target": [
+        "soseki-botchan:11.4"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.5"
+      ],
+      "target": [
+        "soseki-botchan:11.5"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.6"
+      ],
+      "target": [
+        "soseki-botchan:11.6"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.7"
+      ],
+      "target": [
+        "soseki-botchan:11.7"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.8"
+      ],
+      "target": [
+        "soseki-botchan:11.8"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.9"
+      ],
+      "target": [
+        "soseki-botchan:11.9"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.10"
+      ],
+      "target": [
+        "soseki-botchan:11.10"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.11"
+      ],
+      "target": [
+        "soseki-botchan:11.11"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.12"
+      ],
+      "target": [
+        "soseki-botchan:11.12"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.13"
+      ],
+      "target": [
+        "soseki-botchan:11.13"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.14"
+      ],
+      "target": [
+        "soseki-botchan:11.14"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.15"
+      ],
+      "target": [
+        "soseki-botchan:11.15"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.16"
+      ],
+      "target": [
+        "soseki-botchan:11.16"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.17"
+      ],
+      "target": [
+        "soseki-botchan:11.17"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.18"
+      ],
+      "target": [
+        "soseki-botchan:11.18"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.19"
+      ],
+      "target": [
+        "soseki-botchan:11.19"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.20"
+      ],
+      "target": [
+        "soseki-botchan:11.20"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.21"
+      ],
+      "target": [
+        "soseki-botchan:11.21"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.22"
+      ],
+      "target": [
+        "soseki-botchan:11.22"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.23"
+      ],
+      "target": [
+        "soseki-botchan:11.23"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.24"
+      ],
+      "target": [
+        "soseki-botchan:11.24"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.25"
+      ],
+      "target": [
+        "soseki-botchan:11.25"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.26"
+      ],
+      "target": [
+        "soseki-botchan:11.26"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.27"
+      ],
+      "target": [
+        "soseki-botchan:11.27"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.28"
+      ],
+      "target": [
+        "soseki-botchan:11.28"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.29"
+      ],
+      "target": [
+        "soseki-botchan:11.29"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.30"
+      ],
+      "target": [
+        "soseki-botchan:11.30"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.31"
+      ],
+      "target": [
+        "soseki-botchan:11.31"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.32"
+      ],
+      "target": [
+        "soseki-botchan:11.32"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.33"
+      ],
+      "target": [
+        "soseki-botchan:11.33"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.34"
+      ],
+      "target": [
+        "soseki-botchan:11.34"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.35"
+      ],
+      "target": [
+        "soseki-botchan:11.35"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.36"
+      ],
+      "target": [
+        "soseki-botchan:11.36"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.37"
+      ],
+      "target": [
+        "soseki-botchan:11.37"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.38"
+      ],
+      "target": [
+        "soseki-botchan:11.38"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.39"
+      ],
+      "target": [
+        "soseki-botchan:11.39"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.40"
+      ],
+      "target": [
+        "soseki-botchan:11.40"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.41"
+      ],
+      "target": [
+        "soseki-botchan:11.41"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.42"
+      ],
+      "target": [
+        "soseki-botchan:11.42"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.43"
+      ],
+      "target": [
+        "soseki-botchan:11.43"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.44"
+      ],
+      "target": [
+        "soseki-botchan:11.44"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.45"
+      ],
+      "target": [
+        "soseki-botchan:11.45"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.46"
+      ],
+      "target": [
+        "soseki-botchan:11.46"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.47"
+      ],
+      "target": [
+        "soseki-botchan:11.47"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.48"
+      ],
+      "target": [
+        "soseki-botchan:11.48"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.49"
+      ],
+      "target": [
+        "soseki-botchan:11.49"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.50"
+      ],
+      "target": [
+        "soseki-botchan:11.50"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.51"
+      ],
+      "target": [
+        "soseki-botchan:11.51"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.52"
+      ],
+      "target": [
+        "soseki-botchan:11.52"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.53"
+      ],
+      "target": [
+        "soseki-botchan:11.53"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.54"
+      ],
+      "target": [
+        "soseki-botchan:11.54"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.55"
+      ],
+      "target": [
+        "soseki-botchan:11.55"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.56"
+      ],
+      "target": [
+        "soseki-botchan:11.56"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.57"
+      ],
+      "target": [
+        "soseki-botchan:11.57"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.58"
+      ],
+      "target": [
+        "soseki-botchan:11.58"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.59"
+      ],
+      "target": [
+        "soseki-botchan:11.59"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.60"
+      ],
+      "target": [
+        "soseki-botchan:11.60"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.61"
+      ],
+      "target": [
+        "soseki-botchan:11.61"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.62"
+      ],
+      "target": [
+        "soseki-botchan:11.62"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.63"
+      ],
+      "target": [
+        "soseki-botchan:11.63"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.64"
+      ],
+      "target": [
+        "soseki-botchan:11.64"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.65"
+      ],
+      "target": [
+        "soseki-botchan:11.65"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.66"
+      ],
+      "target": [
+        "soseki-botchan:11.66"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.67"
+      ],
+      "target": [
+        "soseki-botchan:11.67"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.68"
+      ],
+      "target": [
+        "soseki-botchan:11.68"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.69"
+      ],
+      "target": [
+        "soseki-botchan:11.69"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.70"
+      ],
+      "target": [
+        "soseki-botchan:11.70"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.71"
+      ],
+      "target": [
+        "soseki-botchan:11.71"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.72"
+      ],
+      "target": [
+        "soseki-botchan:11.72"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.73"
+      ],
+      "target": [
+        "soseki-botchan:11.73"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.74"
+      ],
+      "target": [
+        "soseki-botchan:11.74"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.75"
+      ],
+      "target": [
+        "soseki-botchan:11.75"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.76"
+      ],
+      "target": [
+        "soseki-botchan:11.76"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.77"
+      ],
+      "target": [
+        "soseki-botchan:11.77"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.78"
+      ],
+      "target": [
+        "soseki-botchan:11.78"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.79"
+      ],
+      "target": [
+        "soseki-botchan:11.79"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.80"
+      ],
+      "target": [
+        "soseki-botchan:11.80"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.81"
+      ],
+      "target": [
+        "soseki-botchan:11.81"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.82"
+      ],
+      "target": [
+        "soseki-botchan:11.82"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.83"
+      ],
+      "target": [
+        "soseki-botchan:11.83"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.84"
+      ],
+      "target": [
+        "soseki-botchan:11.84"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.85"
+      ],
+      "target": [
+        "soseki-botchan:11.85"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.86"
+      ],
+      "target": [
+        "soseki-botchan:11.86"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.87"
+      ],
+      "target": [
+        "soseki-botchan:11.87"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.88"
+      ],
+      "target": [
+        "soseki-botchan:11.88"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.89"
+      ],
+      "target": [
+        "soseki-botchan:11.89"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.90"
+      ],
+      "target": [
+        "soseki-botchan:11.90"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.91"
+      ],
+      "target": [
+        "soseki-botchan:11.91"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.92"
+      ],
+      "target": [
+        "soseki-botchan:11.92"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.93"
+      ],
+      "target": [
+        "soseki-botchan:11.93"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.94"
+      ],
+      "target": [
+        "soseki-botchan:11.94"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.95"
+      ],
+      "target": [
+        "soseki-botchan:11.95"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.96"
+      ],
+      "target": [
+        "soseki-botchan:11.96"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.97"
+      ],
+      "target": [
+        "soseki-botchan:11.97"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.98"
+      ],
+      "target": [
+        "soseki-botchan:11.98"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.99"
+      ],
+      "target": [
+        "soseki-botchan:11.99"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.100"
+      ],
+      "target": [
+        "soseki-botchan:11.100"
+      ]
+    },
+    {
+      "source": [
+        "soseki-botchan:11.101"
+      ],
+      "target": [
+        "soseki-botchan:11.101"
+      ]
+    }
+  ]
+}

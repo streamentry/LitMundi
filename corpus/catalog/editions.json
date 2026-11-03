@@ -5831,5 +5831,130 @@
       "human_contributors": [],
       "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
+  },
+  {
+    "id": "soseki-botchan-ja-aozora-752-14964",
+    "work_id": "soseki-botchan",
+    "language": "ja",
+    "title": "坊っちゃん",
+    "kind": "source",
+    "status": "published",
+    "label": "坊っちゃん · 日本語, ちくま日本文学全集『夏目漱石』1992（青空文庫・新字新仮名）",
+    "content_path": "corpus/segments/soseki-botchan/soseki-botchan-ja-aozora-752-14964.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "夏目漱石「坊っちゃん」『ホトトギス』1906年4月; text via ちくま日本文学全集『夏目漱石』（筑摩書房、1992）. Aozora Bunko electronic text, card 752.",
+      "catalog_url": "https://www.aozora.gr.jp/cards/000148/card752.html",
+      "text_url": "https://www.aozora.gr.jp/cards/000148/files/752_14964.html",
+      "retrieved_at": "2026-11-03",
+      "source_witness": "Complete chapters 一–十一 of Aozora Bunko file 752_14964. No claim of a newly inspected printed copy."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Natsume Soseki text)",
+      "basis": "Term-based assessment on 2026-11-03. Natsume Sōseki died in 1916; Japan’s post-mortem term expired long ago, publication in 1906 is beyond the US 95-year maximum, and Vietnam’s life-plus-50 term has expired. Only the underlying novel is reused, without Aozora markup or ruby. This is not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "JP",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://www.aozora.gr.jp/cards/000148/card752.html",
+        "https://www.aozora.gr.jp/cards/000148/files/752_14964.html",
+        "https://www.japaneselawtranslation.go.jp/en/laws/view/4207",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Natsume Soseki",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://www.aozora.gr.jp/cards/000148/files/752_14964.html",
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/editorial/source-checks/soseki-botchan-ja-aozora-752-14964.json"
+      ],
+      "notes": "Technical extraction and complete AI-assisted paragraph comparison cover all 482 canonical units. Source-check metadata records exact hashes, witness boundaries, normalization and access limitations. No independent human certification is claimed."
+    }
+  },
+  {
+    "id": "soseki-botchan-vi-ai-2026",
+    "work_id": "soseki-botchan",
+    "language": "vi",
+    "title": "Botchan",
+    "kind": "translation",
+    "status": "published",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2",
+    "content_path": "corpus/segments/soseki-botchan/soseki-botchan-vi-ai-2026.json",
+    "source_edition_id": "soseki-botchan-ja-aozora-752-14964",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified Japanese source edition; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-02",
+      "source_witness": "soseki-botchan-ja-aozora-752-14964"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated and revised directly from the separately assessed historical original. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted; original-source and third-party rights remain separate. No human creative contributors are recorded for this edition.",
+      "jurisdictions_assessed": [
+        "US",
+        "JP",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "https://www.anthropic.com/legal/consumer-terms",
+        "https://www.aozora.gr.jp/cards/000148/card752.html",
+        "https://www.aozora.gr.jp/cards/000148/files/752_14964.html",
+        "https://www.japaneselawtranslation.go.jp/en/laws/view/4207",
+        "https://www.copyright.gov/title17/92chap3.html",
+        "https://cov.gov.vn/quyen-tac-gia-quyen-lien-quan/thoi-han-bao-ho-quyen-tac-gia-la-bao-nhieu-nam-168808.html",
+        "https://cov.gov.vn/tin-tuc/gioi-thieu-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-so-huu-tri-tue-nam-2025-noi-dung-quyen-tac-gia-quyen-lien-quan-168841.html"
+      ]
+    },
+    "credits": {
+      "author": "Natsume Soseki",
+      "translator": "LitMundi AI translation (Claude)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-literary-assessment"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "score": 8.73,
+      "record_paths": [
+        "corpus/reviews/soseki-botchan/soseki-botchan-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/soseki-botchan/soseki-botchan-vi-ai-2026/ai-review-v2-2026-11-02.json"
+      ],
+      "notes": "Complete AI literary assessment: unrounded weighted score 8.725/10, threshold 8.6. All 482 source/target passages and exact titles were reviewed after revision, with matching content hashes. Same-system drafting/assessment is disclosed; an independent-context AI pass from the same model family supplied findings, which is not human certification or model diversity. Readers may submit corrections after publication."
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "Claude Opus 5.5 (Anthropic) — AI translation, literary revision and assessment"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
+    }
   }
 ]
