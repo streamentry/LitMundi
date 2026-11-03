@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "work_id": "london-the-call-of-the-wild",
+  "edition_id": "london-callwild-vi-ai-2026",
+  "source_edition_id": "london-callwild-en-pg215",
+  "title_vi": "Tiếng gọi nơi hoang dã",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "London’s plain declarative narration and his cumulative sentences are rendered in short, muscular Vietnamese sentences with concrete verbs; stiff Spanish-style or English calque syntax from the first draft was recast.",
+      "rationale": "The book’s force is physical and unsentimental."
+    },
+    {
+      "topic": "Dialect",
+      "decision": "The French-Canadian drivers and Hans speak in lightly marked colloquial Vietnamese; Perrault’s and François’s dialect is kept sparse.",
+      "rationale": "Heavy dialect would pull attention from the dogs."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-london-the-call-of-the-wild",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "london-the-call-of-the-wild:1.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘score’ (twenty) was misread in units 5 and 85; corrected."
+        },
+        {
+          "segment": "london-the-call-of-the-wild:3.19",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The cause and effect of the Dolly chase were inverted; corrected."
+        },
+        {
+          "segment": "london-the-call-of-the-wild:5.6",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘giving the lie to’ rendered literally, and a causal ‘vì’ was added in unit 203; corrected."
+        },
+        {
+          "segment": "london-the-call-of-the-wild:7.17",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘unpacked earth’, ‘fathered’ and ‘it would burst him’ (units 304, 319, 310) were mistranslated or garbled; corrected."
+        },
+        {
+          "segment": "london-the-call-of-the-wild:7.48",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘stealing from their camps’ was rendered as slipping away; now ‘ăn trộm từ trại họ’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "the law of club and fang",
+      "draft_rendering": "luật gậy và nanh",
+      "alternatives": [],
+      "rationale": "The book’s central formula, rendered identically at every occurrence.",
+      "passages": [
+        "london-the-call-of-the-wild:2.1",
+        "london-the-call-of-the-wild:3.1",
+        "london-the-call-of-the-wild:3.22"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Buck / the dogs",
+      "draft_rendering": "Buck; nó / chúng",
+      "alternatives": [],
+      "rationale": "Dogs are ‘nó’ and packs ‘chúng’, with no invented dialogue; the narration stays close to instinct without sentimentality.",
+      "passages": [
+        "london-the-call-of-the-wild:1.3",
+        "london-the-call-of-the-wild:2.9",
+        "london-the-call-of-the-wild:6.6"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Mush on / gee-pole / Salt Water / White River",
+      "draft_rendering": "Tới đi / cần lái / Nước Mặn / sông White",
+      "alternatives": [],
+      "rationale": "Trail terms fixed once and used through chapters IV–VII.",
+      "passages": [
+        "london-the-call-of-the-wild:5.2",
+        "london-the-call-of-the-wild:5.19",
+        "london-the-call-of-the-wild:5.52"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the Call / the wild",
+      "draft_rendering": "tiếng gọi / nơi hoang dã",
+      "alternatives": [],
+      "rationale": "Title words, kept as one phrase through the closing chapter.",
+      "passages": [
+        "london-the-call-of-the-wild:7.1",
+        "london-the-call-of-the-wild:7.13",
+        "london-the-call-of-the-wild:7.51"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #215, an electronic transcription of Jack London’s The Call of the Wild (New York: Macmillan, 1903). The Gutenberg page does not name the exact printing and the text was not collated with the 1903 edition or with the earlier Saturday Evening Post serialisation (summer 1903).",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "5af8c1026feab83824df3185cdd70c7579afda749ad78ee3f9c426444414e128",
+  "target_sha256": "42e758308f80f1dc062201bf7cb64a73c489275ea607c0841ebfd6a7214ce6bb",
+  "coverage": {
+    "canonical_passages": 338,
+    "translated_passages": 338,
+    "aligned_passages": 338
+  },
+  "ai_review_record": "corpus/reviews/london-the-call-of-the-wild/london-callwild-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.75,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "london-the-call-of-the-wild:5.32",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few interjections and the French-Canadian dialect are marked lightly or left in English."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Call of the Wild",
+    "target_title": "Tiếng gọi nơi hoang dã",
+    "rationale": "The Vietnamese title ‘Tiếng gọi nơi hoang dã’ is this edition’s own rendering; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "london-the-call-of-the-wild:1.2"
+      ],
+      "assessment": "The four-line epigraph."
+    },
+    {
+      "passages": [
+        "london-the-call-of-the-wild:7.51"
+      ],
+      "assessment": "The song of the pack at the close."
+    }
+  ]
+}

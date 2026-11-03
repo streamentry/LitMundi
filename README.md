@@ -63,8 +63,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Nathaniel Hawthorne — Young Goodman Brown](corpus/editorial/hawthorne-young-goodman-brown/hawthorne-ygb-vi-ai-2026.json) | English; Project Gutenberg #512 | 73 | 8.8 (displayed 8.80) | AI-reviewed translation published |
 | [E. T. A. Hoffmann — Der Sandmann](corpus/editorial/hoffmann-der-sandmann/hoffmann-sandmann-vi-ai-2026.json) | German; Project Gutenberg #6341 | 44 | 8.675 (displayed 8.68) | AI-reviewed translation published |
 | [Anonymous — La vida de Lazarillo de Tormes](corpus/editorial/lazarillo-lazarillo-de-tormes/anonymous-lazarillo-vi-ai-2026.json) | Spanish; Project Gutenberg #320 (Burgos 1554) | 352 | 8.65 (displayed 8.65) | AI-reviewed translation published |
+| [Jack London — The Call of the Wild](corpus/editorial/london-the-call-of-the-wild/london-callwild-vi-ai-2026.json) | English; Project Gutenberg #215 | 338 | 8.75 (displayed 8.75) | AI-reviewed translation published |
 
-All fifty-three originals are published, giving one hundred and six public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All fifty-four originals are published, giving one hundred and eight public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

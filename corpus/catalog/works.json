@@ -808,5 +808,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Call of the Wild",
+    "author": "Jack London",
+    "author_death_year": 1916,
+    "first_published_year": 1903,
+    "original_language": "en",
+    "genre": "novella",
+    "description": "Buck lives a sunlit life on a judge’s estate in California until a gardener, deep in gambling debts, sells him. Shipped to Seattle and then north, he is bought by Canadian mail dispatchers and put into harness as a sled dog in the Yukon. London’s short novel ran in The Saturday Evening Post in the summer of 1903 and appeared as a Macmillan book the same year.",
+    "id": "london-the-call-of-the-wild",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
