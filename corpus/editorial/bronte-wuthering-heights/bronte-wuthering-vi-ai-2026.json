@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "work_id": "bronte-wuthering-heights",
+  "edition_id": "bronte-wuthering-vi-ai-2026",
+  "source_edition_id": "bronte-wuthering-en-pg768",
+  "title_vi": "Đồi gió hú",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Frame",
+      "decision": "Lockwood’s affected narration and Nelly’s plainer voice are kept distinct; secondary narrators (Isabella’s letter, Zillah) keep their own registers.",
+      "rationale": "The nested narration is the novel’s structure."
+    },
+    {
+      "topic": "Style",
+      "decision": "Brontë’s passionate, dense prose and long periods are kept; em dashes unspaced as in the source; the ballad stanza kept as verse.",
+      "rationale": "Faithful to the witness."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-bronte-wuthering-heights",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "bronte-wuthering-heights:13.65",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Joseph’s ‘Him as allas maks a third’ (the Devil) had been given the honorific Đấng reserved for God; corrected."
+        },
+        {
+          "segment": "bronte-wuthering-heights:22.6",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Dialect and idiom misreadings corrected: Yorkshire ‘starved’ (chilled), ‘thrashing him to a mummy’, ‘struggled into its teens’, ‘If he had caught me!’, ‘kick the breath out of him’, ‘a stone or two heavier’."
+        },
+        {
+          "segment": "bronte-wuthering-heights:21.19",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Book-wide rulings across twelve drafting parts: curate, the fold, library, shilling, Bible names; Nelly’s cậu for young Hindley and adult Hareton, ông to Heathcliff; cô/nàng for young Catherine by chapter; Heathcliff’s nàng for the elder Catherine; Joseph’s mi and restored dialect."
+        },
+        {
+          "segment": "bronte-wuthering-heights:4.21",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Kinship corrected (Linton is not young Catherine’s elder cousin), Hareton’s age, and about twenty calques and stiff phrasings."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Wuthering Heights / Thrushcross Grange",
+      "draft_rendering": "Đồi Gió Hú / Trang trại Thrushcross",
+      "alternatives": [],
+      "rationale": "The established Vietnamese names; ‘the Heights’ and ‘the Grange’ follow them.",
+      "passages": [
+        "bronte-wuthering-heights:1.1",
+        "bronte-wuthering-heights:1.11",
+        "bronte-wuthering-heights:34.84"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Joseph’s Yorkshire dialect",
+      "draft_rendering": "rustic Central-Vietnamese-tinged speech (tau/mi/bây, răng, rứa, chi, nờ)",
+      "alternatives": [],
+      "rationale": "Marks his dialect and sanctimony while staying comprehensible; Bible names in hyphenated Protestant spelling.",
+      "passages": [
+        "bronte-wuthering-heights:2.4",
+        "bronte-wuthering-heights:2.59",
+        "bronte-wuthering-heights:13.65",
+        "bronte-wuthering-heights:20.27"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "address: Heathcliff ↔ Catherine; Nelly; young Catherine; Linton; uncles",
+      "draft_rendering": "tớ/cậu in childhood, anh/em as adults; Nelly ông/chị with Heathcliff; young Catherine chị to Linton; Edgar cậu, Heathcliff dượng; Heathcliff ta/cháu to his niece, then tao/mày after the lock-in",
+      "alternatives": [],
+      "rationale": "Vietnamese kinship and register track the novel’s two generations and the turn to open cruelty.",
+      "passages": [
+        "bronte-wuthering-heights:6.8",
+        "bronte-wuthering-heights:9.91",
+        "bronte-wuthering-heights:21.39",
+        "bronte-wuthering-heights:27.36"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "“Nelly, I am Heathcliff!”; final sentence",
+      "draft_rendering": "“Nelly, em chính là Heathcliff!”; “…những người ngủ dưới lớp đất yên lành ấy lại có thể ngủ không yên.”",
+      "alternatives": [],
+      "rationale": "Fixed renderings of the novel’s best-known lines.",
+      "passages": [
+        "bronte-wuthering-heights:9.91",
+        "bronte-wuthering-heights:34.84"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete text of Project Gutenberg #768. Gutenberg does not identify the printed edition transcribed; the novel was first published by Thomas Cautley Newby in December 1847. Not collated with a print facsimile; italic emphasis is not preserved in plain canonical passages.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "f534f46106010ddf4466a7a6b328dcaf23a3040179188385fba6987e454b2a80",
+  "target_sha256": "5ba19916983ca551f442009e01b936dcf68c15a51683bab208b9e8dd243977b8",
+  "coverage": {
+    "canonical_passages": 1942,
+    "translated_passages": 1942,
+    "aligned_passages": 1942
+  },
+  "ai_review_record": "corpus/reviews/bronte-wuthering-heights/bronte-wuthering-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.975,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "bronte-wuthering-heights:18.41",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Hareton’s contemptuous thee/thou is rendered with polite tôi/cô in one early scene."
+    }
+  ],
+  "title_review": {
+    "source_title": "Wuthering Heights",
+    "target_title": "Đồi gió hú",
+    "rationale": "Đồi gió hú is the long-established Vietnamese title; inside the text the house is the proper name Đồi Gió Hú."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "bronte-wuthering-heights:3.26",
+        "bronte-wuthering-heights:3.56"
+      ],
+      "assessment": "The ghost at the window and Heathcliff’s cry."
+    },
+    {
+      "passages": [
+        "bronte-wuthering-heights:9.83",
+        "bronte-wuthering-heights:9.91"
+      ],
+      "assessment": "Catherine’s confession to Nelly."
+    },
+    {
+      "passages": [
+        "bronte-wuthering-heights:34.84"
+      ],
+      "assessment": "Final sentence in its fixed rendering."
+    }
+  ]
+}

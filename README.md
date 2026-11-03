@@ -51,8 +51,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Jane Austen — Pride and Prejudice](corpus/editorial/austen-pride-and-prejudice/austen-pride-vi-ai-2026.json) | English; first edition, T. Egerton 1813 via Project Gutenberg #42671 | 2050 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Kamo no Chōmei — 方丈記](corpus/editorial/chomei-hojoki/chomei-hojoki-vi-ai-2026.json) | Japanese; 國文大觀 日記草子部 (1909) via Aozora Bunko #975 | 17 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 | [Miyazawa Kenji — 注文の多い料理店](corpus/editorial/miyazawa-restaurant-orders/miyazawa-chumon-vi-ai-2026.json) | Japanese; 宮沢賢治全集8 (ちくま文庫) via Aozora Bunko #1927 | 153 | 8.925 (displayed 8.93) | AI-reviewed translation published |
+| [Emily Brontë — Wuthering Heights](corpus/editorial/bronte-wuthering-heights/bronte-wuthering-vi-ai-2026.json) | English; Newby 1847 text via Project Gutenberg #768 | 1942 | 8.925 (displayed 8.93) | AI-reviewed translation published |
 
-All forty-one originals are published, giving eighty-two public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All forty-two originals are published, giving eighty-four public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

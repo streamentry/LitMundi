@@ -628,5 +628,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "author_death_year": 1848,
+    "first_published_year": 1847,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "The lodger Lockwood hears from the housekeeper Nelly Dean how the foundling Heathcliff, loving Catherine Earnshaw and losing her, took revenge on two families across two generations on the Yorkshire moors.",
+    "id": "bronte-wuthering-heights",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
