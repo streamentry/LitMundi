@@ -883,5 +883,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "author_death_year": 1940,
+    "first_published_year": 1925,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "Nick Carraway, a young Midwesterner, rents a small house on Long Island next to the mansion of Jay Gatsby, whose parties fill the summer nights with music and strangers. As Nick is drawn into Gatsby’s world and the circle of his cousin Daisy across the bay, he comes to see what the glitter is for. Charles Scribner’s Sons published it in New York on 10 April 1925.",
+    "id": "fitzgerald-the-great-gatsby",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

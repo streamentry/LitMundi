@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "work_id": "fitzgerald-the-great-gatsby",
+  "edition_id": "fitzgerald-gatsby-vi-ai-2026",
+  "source_edition_id": "fitzgerald-gatsby-en-pg64317",
+  "title_vi": "Gatsby vĩ đại",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Nick’s lyrical, reserved, retrospective voice and the brittle brightness of the dialogue are rendered in natural literary Vietnamese; the 1920s songs are short rhymed lyrics keeping their line counts.",
+      "rationale": "The book’s effect depends on tone and rhythm."
+    },
+    {
+      "topic": "Address and reference",
+      "decision": "‘anh’ in Jordan’s narration always means Nick; Nick says ‘tôi’; Tom and Nick use ‘anh/tôi’; Myrtle is ‘chị Wilson’ in narration.",
+      "rationale": "Ambiguous pronouns were the source of several majors in the first drafts."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-fitzgerald-the-great-gatsby",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "fitzgerald-the-great-gatsby:5.138",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘of Chicago’ was turned into the wedding’s location; the speaker and addressee of unit 729 were inverted; the rain and voices simile (723) was lost; the Sheik song (615) lost its meaning and rhyme; and ‘anh’ in Jordan’s narration was ambiguous (601–613); all corrected."
+        },
+        {
+          "segment": "fitzgerald-the-great-gatsby:8.276",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘I’m not?’ became ‘Không sao?’ and lost its meaning; now ‘Tôi không chăm sóc cô ấy nữa à?’."
+        },
+        {
+          "segment": "fitzgerald-the-great-gatsby:6.94",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Nick’s question ‘Anh chắc là muốn em đi chứ?’ read as spoken by Daisy; it is ‘…muốn tôi đi chứ?’."
+        },
+        {
+          "segment": "fitzgerald-the-great-gatsby:9.65",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Catherine was written as Myrtle’s elder sister (units 1407, 1459 and 213); she is the younger."
+        },
+        {
+          "segment": "fitzgerald-the-great-gatsby:2.95",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Missing verb, lexical slips, addressee errors and calques in the early chapters were corrected over three rounds."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "old sport",
+      "draft_rendering": "anh bạn già",
+      "alternatives": [],
+      "rationale": "Gatsby’s verbal tic, rendered identically at every occurrence.",
+      "passages": [
+        "fitzgerald-the-great-gatsby:4.7",
+        "fitzgerald-the-great-gatsby:6.64",
+        "fitzgerald-the-great-gatsby:8.74"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the valley of ashes / West Egg / East Egg",
+      "draft_rendering": "Thung lũng Tro / West Egg / East Egg",
+      "alternatives": [],
+      "rationale": "The valley of ashes is translated and the two Eggs are kept as names.",
+      "passages": [
+        "fitzgerald-the-great-gatsby:3.2",
+        "fitzgerald-the-great-gatsby:3.45",
+        "fitzgerald-the-great-gatsby:5.35"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Meyer Wolfshiem (Wolfsheim)",
+      "draft_rendering": "Wolfsheim",
+      "alternatives": [],
+      "rationale": "The source prints ‘Wolfshiem’; the Vietnamese uses the standard spelling ‘Wolfsheim’ except in the letter’s printed signature.",
+      "passages": [
+        "fitzgerald-the-great-gatsby:5.150",
+        "fitzgerald-the-great-gatsby:10.22",
+        "fitzgerald-the-great-gatsby:10.24"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Catherine / Myrtle (sisters)",
+      "draft_rendering": "Catherine = em gái; Myrtle = chị",
+      "alternatives": [],
+      "rationale": "Catherine is Myrtle’s younger sister; a first draft had made her the elder.",
+      "passages": [
+        "fitzgerald-the-great-gatsby:3.58",
+        "fitzgerald-the-great-gatsby:9.65",
+        "fitzgerald-the-great-gatsby:10.3"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #64317, an electronic transcription of F. Scott Fitzgerald’s The Great Gatsby (New York: Charles Scribner’s Sons, 1925). The Gutenberg page does not name the exact printing and the text was not collated; it prints the name of Meyer Wolfsheim as ‘Wolfshiem’, which is kept in the source and signature but rendered in the Vietnamese as ‘Wolfsheim’.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "2f2cba420005a84e0d5439ad41d38e9a36a72fc75b05966286b9d427ab399a87",
+  "target_sha256": "260dcca70c0f2eefe01bf4374fbf07cbecd2ed400aa19c0c974c2b0679ae73a4",
+  "coverage": {
+    "canonical_passages": 1620,
+    "translated_passages": 1620,
+    "aligned_passages": 1620
+  },
+  "ai_review_record": "corpus/reviews/fitzgerald-the-great-gatsby/fitzgerald-gatsby-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "fitzgerald-the-great-gatsby:4.141",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The Southern drunk-speech spellings in units 434–441 are rendered with only light marking."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Great Gatsby",
+    "target_title": "Gatsby vĩ đại",
+    "rationale": "The Vietnamese title ‘Gatsby vĩ đại’ is this edition’s own rendering; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "fitzgerald-the-great-gatsby:2.1"
+      ],
+      "assessment": "Nick’s father’s advice."
+    },
+    {
+      "passages": [
+        "fitzgerald-the-great-gatsby:10.164"
+      ],
+      "assessment": "The last line: boats against the current."
+    }
+  ]
+}
