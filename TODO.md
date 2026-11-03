@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 48 published · 226 todo · 0 in progress · 226 on hold.**
+**500 selected works · 49 published · 225 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -101,7 +101,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **080. Henrik Ibsen — A Doll's House** · no · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/15492)
 - [ ] **081. Hans Christian Andersen — The Little Mermaid** · da · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/1597)
 - [ ] **082. Anonymous (Japanese epic tradition) — The Tale of the Heike** · ja · epic · **Todo** · [Evidence](https://nhk-fdn.or.jp/int/en/catalog/educational/detail_language/la_story-land-in-classical-japanese.html)
-- [ ] **083. Nathaniel Hawthorne — Young Goodman Brown** · en · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/512)
+- [x] **083. Nathaniel Hawthorne — Young Goodman Brown** · en · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/512) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/hawthorne-young-goodman-brown/hawthorne-ygb-vi-ai-2026/)
 - [ ] **084. Yoshida Kenko — Tsurezuregusa / Essays in Idleness** · ja · essay · **Todo** · [Evidence](https://nhk-fdn.or.jp/int/en/catalog/educational/detail_language/la_story-land-in-classical-japanese.html)
 - [ ] **085. Frederick Douglass — Narrative of the Life of Frederick Douglass, an American Slave** · en · memoir · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/23)
 - [ ] **086. Harriet Jacobs — Incidents in the Life of a Slave Girl** · en · memoir · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/11030)

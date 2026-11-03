@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "work_id": "hawthorne-young-goodman-brown",
+  "edition_id": "hawthorne-ygb-vi-ai-2026",
+  "source_edition_id": "hawthorne-ygb-en-pg512",
+  "title_vi": "Chàng Goodman Brown trẻ tuổi",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Ambiguity",
+      "decision": "Hawthorne’s grave irony and the unresolved question whether the night was dream or fact are kept with no explanatory addition.",
+      "rationale": "The story’s power is its refusal to decide."
+    },
+    {
+      "topic": "Wordplay",
+      "decision": "The pun on Faith as a name and as a virtue is not translated into the text; the name stays ‘Faith’.",
+      "rationale": "A gloss would add words the English does not contain."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-hawthorne-young-goodman-brown",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "hawthorne-young-goodman-brown:1.50",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Faith/faith pun was dropped at the first attempt; later attempts added glosses, so the final text keeps the name ‘Faith’ and records the pun as an open note."
+        },
+        {
+          "segment": "hawthorne-young-goodman-brown:1.41",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A repeated clause and an added epithet were removed."
+        },
+        {
+          "segment": "hawthorne-young-goodman-brown:1.69",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A trailing clause ‘hold on to faith’ that the English lacks was cut."
+        },
+        {
+          "segment": "hawthorne-young-goodman-brown:1.46",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "An added gloss on ‘Faith below’ was removed."
+        },
+        {
+          "segment": "hawthorne-young-goodman-brown:1.36",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Magi and wizard were distinguished; constable, ‘Christian’ and communion terms were corrected."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Faith (the wife) / faith",
+      "draft_rendering": "Faith",
+      "alternatives": [
+        "Faith—đức tin"
+      ],
+      "rationale": "The wife’s name is kept as ‘Faith’ without a gloss; the pun between her name and the word faith cannot be carried without adding words, so it is recorded here rather than patched into the text.",
+      "passages": [
+        "hawthorne-young-goodman-brown:1.1",
+        "hawthorne-young-goodman-brown:1.50",
+        "hawthorne-young-goodman-brown:1.58"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "Goody Cloyse / Deacon Gookin",
+      "draft_rendering": "bà Cloyse / chấp sự Gookin",
+      "alternatives": [],
+      "rationale": "Puritan honorifics in a Vietnamese register.",
+      "passages": [
+        "hawthorne-young-goodman-brown:1.20",
+        "hawthorne-young-goodman-brown:1.43"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "communion",
+      "draft_rendering": "lễ Tiệc thánh",
+      "alternatives": [],
+      "rationale": "One term for the sacrament and the witch-meeting’s ironic echo of it.",
+      "passages": [
+        "hawthorne-young-goodman-brown:1.20",
+        "hawthorne-young-goodman-brown:1.47",
+        "hawthorne-young-goodman-brown:1.62"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the traveller / the figure",
+      "draft_rendering": "người lạ / lão",
+      "alternatives": [],
+      "rationale": "The devil in the shape of Brown’s grandfather is never named directly.",
+      "passages": [
+        "hawthorne-young-goodman-brown:1.8",
+        "hawthorne-young-goodman-brown:1.25",
+        "hawthorne-young-goodman-brown:1.40"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the story ‘Young Goodman Brown’ from Project Gutenberg #512, a transcription of Hawthorne’s collection Mosses from an Old Manse (1846). The story was first published anonymously in The New-England Magazine in April 1835; the Gutenberg text follows the 1846 collection and was not collated with the magazine printing.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "8bf67bd96fc5ff4a82c30c1a5ae423b800f3996361f7f8ad528a43fd41ececf0",
+  "target_sha256": "0ff92830eeb8936c244694729d3be7852a98be092bc82f458ee79aaa2be51079",
+  "coverage": {
+    "canonical_passages": 73,
+    "translated_passages": 73,
+    "aligned_passages": 73
+  },
+  "ai_review_record": "corpus/reviews/hawthorne-young-goodman-brown/hawthorne-ygb-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "hawthorne-young-goodman-brown:1.50",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The pun between the name Faith and the virtue is not audible in Vietnamese."
+    }
+  ],
+  "title_review": {
+    "source_title": "Young Goodman Brown",
+    "target_title": "Chàng Goodman Brown trẻ tuổi",
+    "rationale": "The Vietnamese title is this edition’s own rendering of ‘Young Goodman Brown’; the Puritan honorific Goodman is kept. No earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "hawthorne-young-goodman-brown:1.1"
+      ],
+      "assessment": "The farewell at the threshold with Faith."
+    },
+    {
+      "passages": [
+        "hawthorne-young-goodman-brown:1.73"
+      ],
+      "assessment": "The close: ‘a stern, a sad, a darkly meditative, a distrustful, if not a desperate man’."
+    }
+  ]
+}
