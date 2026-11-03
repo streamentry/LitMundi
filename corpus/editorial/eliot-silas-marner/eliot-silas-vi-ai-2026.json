@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "work_id": "eliot-silas-marner",
+  "edition_id": "eliot-silas-vi-ai-2026",
+  "source_edition_id": "eliot-silas-en-pg550",
+  "title_vi": "Silas Marner, người thợ dệt ở Raveloe",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Narration",
+      "decision": "Eliot’s long ironic and reflective sentences are kept as periods, not cut into short ones; the narrator calls Godfrey anh.",
+      "rationale": "The moral generalisations depend on the sentence shape."
+    },
+    {
+      "topic": "Dialect",
+      "decision": "Northern village speech with light deliberate slips for Dolly and Macey instead of a regional dialect.",
+      "rationale": "Eliot’s rustic voices stay distinct yet readable."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-eliot-silas-marner",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "eliot-silas-marner:16.12",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Aaron’s line to Eppie addressed her as bác; now anh/em, ‘Em lẽ ra không cần mẹ anh bảo cũng biết thế’."
+        },
+        {
+          "segment": "eliot-silas-marner:17.36",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘I won’t be over-anxious’ no longer reads as the opposite; 529, 329/338 (Priscilla is the elder sister), 540 (age 26) and 270 (cured by charm) likewise corrected."
+        },
+        {
+          "segment": "eliot-silas-marner:10.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘mushed’ rendered as dazed or worn-out, no longer ‘humble’ (nhũn nhặn)."
+        },
+        {
+          "segment": "eliot-silas-marner:19.51",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Eppie addresses Silas as con and bố throughout."
+        },
+        {
+          "segment": "eliot-silas-marner:14.22",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Christening and baptism kept distinct in Dolly’s speech."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "the Rainbow; the Red House; the Stone-pits; Lantern Yard",
+      "draft_rendering": "quán Cầu Vồng; Nhà Đỏ; hố đá; khu Lantern Yard",
+      "alternatives": [],
+      "rationale": "Fixed place names, kept the same through the book; the Stone-pits are an abandoned quarry, hố đá, distinct from mỏ đá.",
+      "passages": [
+        "eliot-silas-marner:6.7",
+        "eliot-silas-marner:10.39",
+        "eliot-silas-marner:16.2",
+        "eliot-silas-marner:21.6"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the Wise Woman; Them (Dolly’s Powers)",
+      "draft_rendering": "Bà Thầy; Các Đấng",
+      "alternatives": [],
+      "rationale": "Capitalised as Eliot capitalises them; Dolly’s deliberate rustic slips (thiên thằn, mô cồi, chủng đạu) mark her speech.",
+      "passages": [
+        "eliot-silas-marner:10.9",
+        "eliot-silas-marner:14.6",
+        "eliot-silas-marner:14.32"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "address pairs",
+      "draft_rendering": "Silas–Eppie bố/con; Dolly–Silas bác/tôi; Godfrey–Nancy anh/cô before marriage; Aaron–Eppie anh/em; Mrs Osgood mợ",
+      "alternatives": [],
+      "rationale": "Fixed kinship and class address forms keep every speaker distinct in rustic and genteel scenes.",
+      "passages": [
+        "eliot-silas-marner:16.12",
+        "eliot-silas-marner:18.16",
+        "eliot-silas-marner:19.3"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the cataleptic fits",
+      "draft_rendering": "cơn đờ người",
+      "alternatives": [],
+      "rationale": "One term for Silas’s trance fits throughout.",
+      "passages": [
+        "eliot-silas-marner:2.2",
+        "eliot-silas-marner:16.30",
+        "eliot-silas-marner:21.23"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected the complete text of Project Gutenberg #550. Gutenberg does not identify the printed edition transcribed; the novel was first published by William Blackwood and Sons (Edinburgh and London, 1861). Not collated with a print facsimile.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "521303997ef9c69ecd24e0f199802cc0c4f274371c89d1a3c33412e85f95444f",
+  "target_sha256": "c4f55abafb686b7336800b2cd6170cad6b54993e2afd870b0917d0c0004f92d9",
+  "coverage": {
+    "canonical_passages": 814,
+    "translated_passages": 814,
+    "aligned_passages": 814
+  },
+  "ai_review_record": "corpus/reviews/eliot-silas-marner/eliot-silas-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.65,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "eliot-silas-marner:11.36",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Some narrator sentences remain close to the English periods; naturalness is the weakest dimension."
+    }
+  ],
+  "title_review": {
+    "source_title": "Silas Marner",
+    "target_title": "Silas Marner, người thợ dệt ở Raveloe",
+    "rationale": "Silas Marner, người thợ dệt ở Raveloe keeps Eliot’s subtitle in Vietnamese form."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "eliot-silas-marner:1.1"
+      ],
+      "assessment": "The Wordsworth epigraph with its line breaks."
+    },
+    {
+      "passages": [
+        "eliot-silas-marner:16.12"
+      ],
+      "assessment": "Aaron to Eppie, anh/em."
+    },
+    {
+      "passages": [
+        "eliot-silas-marner:22.17"
+      ],
+      "assessment": "The closing lines."
+    }
+  ]
+}
