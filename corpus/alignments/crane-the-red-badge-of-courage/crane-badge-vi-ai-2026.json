@@ -1,0 +1,7952 @@
+{
+  "schema_version": 1,
+  "work_id": "crane-the-red-badge-of-courage",
+  "edition_id": "crane-badge-vi-ai-2026",
+  "source_edition_id": "crane-badge-en-pg73",
+  "links": [
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.44"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.44"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.45"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.45"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.46"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.46"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.47"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.47"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.48"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.48"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.49"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.49"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.50"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.50"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.51"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.51"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.52"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.52"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.53"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.53"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.54"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.54"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.55"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.55"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.56"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.56"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.57"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.57"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.58"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.58"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.59"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.59"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.60"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.60"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.61"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.61"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.62"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.62"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.63"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.63"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.64"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.64"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.65"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.65"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.66"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.66"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.67"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.67"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.68"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.68"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.69"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.69"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.70"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.70"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.71"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.71"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.72"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.72"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.73"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.73"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:1.74"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:1.74"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.44"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.44"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.45"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.45"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.46"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.46"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.47"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.47"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.48"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.48"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.49"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.49"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.50"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.50"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.51"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.51"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.52"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.52"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.53"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.53"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.54"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.54"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.55"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.55"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.56"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.56"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.57"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.57"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.58"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.58"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.59"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.59"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.60"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.60"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.61"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.61"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:2.62"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:2.62"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.44"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.44"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.45"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.45"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.46"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.46"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.47"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.47"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.48"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.48"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.49"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.49"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.50"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.50"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.51"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.51"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.52"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.52"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.53"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.53"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.54"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.54"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.55"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.55"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.56"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.56"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.57"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.57"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.58"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.58"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.59"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.59"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.60"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.60"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.61"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.61"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.62"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.62"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.63"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.63"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:3.64"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:3.64"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:4.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:4.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:5.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:5.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.44"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.44"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.45"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.45"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.46"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.46"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.47"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.47"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.48"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.48"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.49"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.49"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.50"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.50"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:6.51"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:6.51"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:7.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:7.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.44"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.44"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.45"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.45"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.46"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.46"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:8.47"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:8.47"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.44"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.44"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.45"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.45"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.46"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.46"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.47"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.47"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.48"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.48"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.49"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.49"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.50"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.50"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.51"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.51"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.52"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.52"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.53"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.53"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.54"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.54"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:9.55"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:9.55"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:10.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:10.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:11.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:11.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:12.44"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:12.44"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:13.44"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:13.44"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.43"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.43"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.44"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.44"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:14.45"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:14.45"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:15.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:15.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:16.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:16.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:17.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:17.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:18.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:18.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:19.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:19.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:20.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:20.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.35"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.36"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.36"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.37"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.37"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.38"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.38"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.39"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.39"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.40"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.40"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.41"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.41"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:21.42"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:21.42"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:22.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:22.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:23.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:23.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.1"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.1"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.2"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.2"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.3"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.3"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.4"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.4"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.5"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.5"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.6"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.6"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.7"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.7"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.8"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.8"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.9"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.9"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.10"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.10"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.11"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.11"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.12"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.12"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.13"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.13"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.14"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.14"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.15"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.15"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.16"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.16"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.17"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.17"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.18"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.18"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.19"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.19"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.20"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.20"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.21"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.21"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.22"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.22"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.23"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.23"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.24"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.24"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.25"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.25"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.26"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.26"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.27"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.27"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.28"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.28"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.29"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.29"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.30"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.30"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.31"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.31"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.32"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.32"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.33"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.33"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.34"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.34"
+      ]
+    },
+    {
+      "source": [
+        "crane-the-red-badge-of-courage:24.35"
+      ],
+      "target": [
+        "crane-the-red-badge-of-courage:24.35"
+      ]
+    }
+  ]
+}

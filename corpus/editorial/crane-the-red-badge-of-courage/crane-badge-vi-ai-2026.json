@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "work_id": "crane-the-red-badge-of-courage",
+  "edition_id": "crane-badge-vi-ai-2026",
+  "source_edition_id": "crane-badge-en-pg73",
+  "title_vi": "Chiếc huy hiệu đỏ của lòng dũng cảm",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Crane’s impressionist colour imagery, his ironic distance from heroism and his free indirect thought are rendered in vivid, rhythmic Vietnamese; soldier dialogue is plain and colloquial.",
+      "rationale": "The book’s effect is in image and rhythm, not in plot."
+    },
+    {
+      "topic": "Address forms",
+      "decision": "Henry says ‘tôi’ to Jim and addresses him ‘anh’; with Wilson, ‘cậu/tớ’.",
+      "rationale": "One address system through the quarrels and the retreat."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-02",
+      "cycle": "vietnamese-500-crane-the-red-badge-of-courage",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "crane-the-red-badge-of-courage:3.21",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘skirmishers’ rendered as snipers ‘lính bắn tỉa’ about eight times from unit 157; now ‘lính tản binh’. ‘at last’ was also wrongly attached to the sun’s rays in unit 95."
+        },
+        {
+          "segment": "crane-the-red-badge-of-courage:6.25",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘proverbial chicken’ rendered as a fable chicken; it is the headless chicken of the proverb."
+        },
+        {
+          "segment": "crane-the-red-badge-of-courage:14.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘heraldic wind’ rendered as a badge (‘phù hiệu’); now a wind that heralds the day."
+        },
+        {
+          "segment": "crane-the-red-badge-of-courage:18.17",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A garbled sentence (unit 783) and a ‘whale’ calque (985) were corrected."
+        },
+        {
+          "segment": "crane-the-red-badge-of-courage:24.26",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘ten hundred’ read as ten thousand; it is one thousand."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "skirmishers",
+      "draft_rendering": "lính tản binh",
+      "alternatives": [],
+      "rationale": "The first draft rendered ‘skirmishers’ as snipers about eight times; the term is now fixed through the book.",
+      "passages": [
+        "crane-the-red-badge-of-courage:3.21",
+        "crane-the-red-badge-of-courage:3.64",
+        "crane-the-red-badge-of-courage:6.23"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the youth / the tall soldier / the loud soldier / the tattered soldier",
+      "draft_rendering": "chàng thanh niên / gã cao lớn (Jim Conklin) / gã lính ồn ào (Wilson) / gã lính rách rưới",
+      "alternatives": [],
+      "rationale": "Crane’s epithets for his unnamed or half-named soldiers are kept as epithets, with the names given where the text gives them.",
+      "passages": [
+        "crane-the-red-badge-of-courage:1.10",
+        "crane-the-red-badge-of-courage:2.26",
+        "crane-the-red-badge-of-courage:7.22"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the Confederates (rebs, Johnnies)",
+      "draft_rendering": "quân miền Nam",
+      "alternatives": [],
+      "rationale": "One term for the enemy side in soldiers’ speech and narration.",
+      "passages": [
+        "crane-the-red-badge-of-courage:14.23",
+        "crane-the-red-badge-of-courage:14.31",
+        "crane-the-red-badge-of-courage:16.31"
+      ],
+      "evidence_urls": []
+    },
+    {
+      "source_term": "the red badge",
+      "draft_rendering": "chiếc huy hiệu đỏ",
+      "alternatives": [],
+      "rationale": "The book’s central image, the wound that the youth envies and fears.",
+      "passages": [
+        "crane-the-red-badge-of-courage:8.46",
+        "crane-the-red-badge-of-courage:11.29",
+        "crane-the-red-badge-of-courage:13.27"
+      ],
+      "evidence_urls": []
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #73, an electronic transcription of Stephen Crane’s The Red Badge of Courage (New York: D. Appleton, 1895), the text first published in book form after the abridged newspaper serialisation of December 1894. The Gutenberg page does not name the exact printing and the text was not collated.",
+  "updated_at": "2026-11-02",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "a065314f23c90f9263b24c89474b7a447a50264b4da3271a62160611edd8293e",
+  "target_sha256": "caa4ac209bca3dc1c936a4d167870681953785726f13a0126878b62463e9cc2c",
+  "coverage": {
+    "canonical_passages": 993,
+    "translated_passages": 993,
+    "aligned_passages": 993
+  },
+  "ai_review_record": "corpus/reviews/crane-the-red-badge-of-courage/crane-badge-vi-ai-2026/ai-review-v2-2026-11-02.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "crane-the-red-badge-of-courage:1.43",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few phrases such as ‘Cá tươi’ for ‘Fresh fish’ remain slightly literal."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Red Badge of Courage",
+    "target_title": "Chiếc huy hiệu đỏ của lòng dũng cảm",
+    "rationale": "The Vietnamese title ‘Chiếc huy hiệu đỏ của lòng dũng cảm’ is this edition’s own rendering; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "crane-the-red-badge-of-courage:1.2"
+      ],
+      "assessment": "The opening: the army waking in its camp."
+    },
+    {
+      "passages": [
+        "crane-the-red-badge-of-courage:24.35"
+      ],
+      "assessment": "The closing image."
+    }
+  ]
+}

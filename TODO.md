@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 55 published · 219 todo · 0 in progress · 226 on hold.**
+**500 selected works · 56 published · 218 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -111,7 +111,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **090. Edith Wharton — The Age of Innocence** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/541)
 - [x] **091. Henry James — The Turn of the Screw** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/209) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/james-the-turn-of-the-screw/james-screw-vi-ai-2026/)
 - [ ] **092. Cao Xueqin; continuation traditionally attributed to Gao E — Dream of the Red Chamber** · zh · novel · **Todo** · [Evidence](https://pages.ucsd.edu/~dkjordan/chin/novels.html)
-- [ ] **093. Stephen Crane — The Red Badge of Courage** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/73)
+- [x] **093. Stephen Crane — The Red Badge of Courage** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/73) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/crane-the-red-badge-of-courage/crane-badge-vi-ai-2026/)
 - [ ] **094. Luo Guanzhong (traditional attribution) — Romance of the Three Kingdoms** · zh · novel · **Todo** · [Evidence](https://pages.ucsd.edu/~dkjordan/chin/novels.html)
 - [x] **095. Jack London — The Call of the Wild** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/215) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/london-the-call-of-the-wild/london-callwild-vi-ai-2026/)
 - [ ] **096. F. Scott Fitzgerald — The Great Gatsby** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/64317)
