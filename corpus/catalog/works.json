@@ -1033,5 +1033,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "La Mare au Diable",
+    "author": "George Sand",
+    "author_death_year": 1876,
+    "first_published_year": 1846,
+    "original_language": "fr",
+    "genre": "novella",
+    "description": "George Sand’s La Mare au Diable (The Devil’s Pool, 1846) is the first of her four pastoral novels. Germain, a twenty-eight-year-old widower with three children, is urged by his father-in-law to remarry and sets off to meet a well-off widow, taking a sixteen-year-old girl, Marie, who is going to a new job. A night by the pond of the title changes what he wants. Sand says it grew from a Holbein engraving of a ploughman and a scene she watched at sowing time.",
+    "id": "sand-la-mare-au-diable",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

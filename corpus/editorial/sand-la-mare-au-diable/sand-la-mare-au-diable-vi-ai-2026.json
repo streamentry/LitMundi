@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "work_id": "sand-la-mare-au-diable",
+  "edition_id": "sand-la-mare-au-diable-vi-ai-2026",
+  "source_edition_id": "sand-la-mare-au-diable-fr-pg23582",
+  "title_vi": "Vũng nước Quỷ",
+  "translation_direction": "fr → vi; direct from the specifically identified complete French electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Sand’s warm, grave, lightly ironic narration and the plain rural speech of her peasants are rendered in simple rhythmic Vietnamese; dialogue keeps the source’s leading dash.",
+      "rationale": "The novella’s effect is the dignity given to country people."
+    },
+    {
+      "topic": "Scope",
+      "decision": "The novella proper is translated; the editorial notices and the appendix on country weddings are not.",
+      "rationale": "They are not part of the 1846 story and are separate texts in the same edition."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-sand-la-mare-au-diable",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "sand-la-mare-au-diable:2.18",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A rhetorical question read as its opposite; now an explicit interrogative."
+        },
+        {
+          "segment": "sand-la-mare-au-diable:4.16",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Những đứa vợ trước’ (former wives) was written for the children of the first marriage; now ‘những đứa con vợ trước’."
+        },
+        {
+          "segment": "sand-la-mare-au-diable:6.45",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Jacques, the brother of Germain’s late wife, was written as ‘anh rể’; corrected to the right kinship term."
+        },
+        {
+          "segment": "sand-la-mare-au-diable:11.8",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The idiom ‘finir sur la paille’ (to end up destitute) was rendered literally; now ‘rơi vào cảnh khốn cùng, màn trời chiếu đất’."
+        },
+        {
+          "segment": "sand-la-mare-au-diable:6.52",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "A reversed sense (‘je ferai toujours sa volonté’) was caught and corrected during the fix round."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Vũng nước Quỷ",
+      "alternatives": [],
+      "rationale": "The pond is a marshy pool in the forest; the title is translated.",
+      "passages": [
+        "sand-la-mare-au-diable:1.1",
+        "sand-la-mare-au-diable:8.19",
+        "sand-la-mare-au-diable:10.22"
+      ]
+    },
+    {
+      "source_term": "chapter headings",
+      "draft_rendering": "I. Tác giả gửi bạn đọc … XVII. Cô bé Marie",
+      "alternatives": [],
+      "rationale": "Roman numeral and full stop are kept; titles translated.",
+      "passages": [
+        "sand-la-mare-au-diable:1.1",
+        "sand-la-mare-au-diable:2.1",
+        "sand-la-mare-au-diable:3.1"
+      ]
+    },
+    {
+      "source_term": "Germain / Marie address",
+      "draft_rendering": "Germain: ‘anh’ to Marie, ‘cha/con’ to père Maurice; Marie: ‘tôi/anh’ then ‘em/anh’ after the declaration",
+      "alternatives": [],
+      "rationale": "The vous to tu shift is carried by the pronoun change.",
+      "passages": [
+        "sand-la-mare-au-diable:6.45",
+        "sand-la-mare-au-diable:6.52",
+        "sand-la-mare-au-diable:11.12"
+      ]
+    },
+    {
+      "source_term": "laboureur",
+      "draft_rendering": "người cày",
+      "alternatives": [],
+      "rationale": "Fixed term, tied to Holbein’s ploughman.",
+      "passages": [
+        "sand-la-mare-au-diable:1.1",
+        "sand-la-mare-au-diable:2.4",
+        "sand-la-mare-au-diable:4.8"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #23582, an electronic transcription of La Mare au Diable by George Sand (first published 1846). The Gutenberg page does not name the exact printing and the text was not collated with an earlier edition.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "6087f9e2bac7289816d4804156bb20e2622f568e27a2f3f9e7b6803319da7202",
+  "target_sha256": "824eacd05a3478e56ebec09e75a07281f0568321ead10c05740595e22a7dcdac",
+  "coverage": {
+    "canonical_passages": 566,
+    "translated_passages": 566,
+    "aligned_passages": 566
+  },
+  "ai_review_record": "corpus/reviews/sand-la-mare-au-diable/sand-la-mare-au-diable-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "sand-la-mare-au-diable:9.4",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Marie calls herself ‘chị’ but addresses Petit-Pierre as ‘con’ in a few units."
+    },
+    {
+      "segment": "sand-la-mare-au-diable:1.1",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The four-line old-French quatrain in the first chapter is rendered freely as unrhymed verse."
+    }
+  ],
+  "title_review": {
+    "source_title": "La Mare au Diable",
+    "target_title": "Vũng nước Quỷ",
+    "rationale": "The title is translated as ‘Vũng nước Quỷ’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "sand-la-mare-au-diable:1.2"
+      ],
+      "assessment": "The opening: the old-French quatrain beneath Holbein’s engraving of the ploughman and Death."
+    },
+    {
+      "passages": [
+        "sand-la-mare-au-diable:17.22"
+      ],
+      "assessment": "The last unit: ‘—Tiens, lui dit-il, tu as fait plus d’un heureux en m’aimant!’"
+    }
+  ]
+}
