@@ -70,8 +70,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Stephen Crane — The Red Badge of Courage](corpus/editorial/crane-the-red-badge-of-courage/crane-badge-vi-ai-2026.json) | English; Project Gutenberg #73 | 993 | 8.725 (displayed 8.73) | AI-reviewed translation published |
 | [F. Scott Fitzgerald — The Great Gatsby](corpus/editorial/fitzgerald-the-great-gatsby/fitzgerald-gatsby-vi-ai-2026.json) | English; Project Gutenberg #64317 | 1,620 | 8.675 (displayed 8.68) | AI-reviewed translation published |
 | [Kate Chopin — The Awakening](corpus/editorial/chopin-the-awakening/chopin-awakening-vi-ai-2026.json) | English; Project Gutenberg #160 | 1,105 | 8.65 (displayed 8.65) | AI-reviewed translation published |
+| [Lewis Carroll — Alice’s Adventures in Wonderland](corpus/editorial/carroll-alice-s-adventures-in-wonderland/carroll-alice-vi-ai-2026.json) | English; Project Gutenberg #11 | 784 | 8.625 (displayed 8.63) | AI-reviewed translation published |
 
-All sixty originals are published, giving one hundred and twenty public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All sixty-one originals are published, giving one hundred and twenty-two public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

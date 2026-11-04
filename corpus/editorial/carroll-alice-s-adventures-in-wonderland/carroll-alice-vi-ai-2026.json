@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "work_id": "carroll-alice-s-adventures-in-wonderland",
+  "edition_id": "carroll-alice-vi-ai-2026",
+  "source_edition_id": "carroll-alice-en-pg11",
+  "title_vi": "Alice ở xứ sở diệu kỳ",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Carroll’s deadpan, logical, child-clear narration is rendered in natural lively Vietnamese; the characters’ pedantry and rudeness are played straight.",
+      "rationale": "The comedy depends on a straight face."
+    },
+    {
+      "topic": "Wordplay",
+      "decision": "Puns are re-created with Vietnamese double meanings where possible (trúng gió / không trúng for ‘fit’; thắt for ‘not/knot’) and never explained in the text.",
+      "rationale": "A pun that needs a note is no longer a pun."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-carroll-alice-s-adventures-in-wonderland",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "carroll-alice-s-adventures-in-wonderland:3.35",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Fury tail-poem was flat unrhymed prose; recomposed as rhymed Vietnamese verse that keeps all fourteen source lines’ content in a single unit."
+        },
+        {
+          "segment": "carroll-alice-s-adventures-in-wonderland:6.34",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The axis/axes pun was dead (‘Trục ấy hả… chặt đầu nó đi’); re-created as a mishearing the Duchess can follow."
+        },
+        {
+          "segment": "carroll-alice-s-adventures-in-wonderland:12.50",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The ‘fit’ pun in units 759, 767 and 769 shared no word, so the King’s ‘It’s a pun!’ had nothing to point at; now ‘trúng gió’ / ‘không trúng’."
+        },
+        {
+          "segment": "carroll-alice-s-adventures-in-wonderland:1.10",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The malapropism ‘Antipathies’, the not/knot pun (88–90), the French-mouse logic (46) and the porpoise/purpose play were re-created."
+        },
+        {
+          "segment": "carroll-alice-s-adventures-in-wonderland:7.91",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The treacle ‘draw’ and ‘well in’ plays, the arithmetic parody and several address forms were corrected."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "the Mock Turtle / the Gryphon / the Mad Tea-Party",
+      "draft_rendering": "Rùa Giả / Gryphon / Bữa trà điên",
+      "alternatives": [],
+      "rationale": "Character names are fixed and capitalised as names through the book.",
+      "passages": [
+        "carroll-alice-s-adventures-in-wonderland:7.1",
+        "carroll-alice-s-adventures-in-wonderland:9.1",
+        "carroll-alice-s-adventures-in-wonderland:9.44"
+      ]
+    },
+    {
+      "source_term": "wordplay and parody verse",
+      "draft_rendering": "re-created in Vietnamese, with verse line counts unchanged",
+      "alternatives": [],
+      "rationale": "Carroll’s puns and the parodies of Victorian verse are recomposed as playful Vietnamese rather than glossed.",
+      "passages": [
+        "carroll-alice-s-adventures-in-wonderland:1.19",
+        "carroll-alice-s-adventures-in-wonderland:5.28",
+        "carroll-alice-s-adventures-in-wonderland:10.25"
+      ]
+    },
+    {
+      "source_term": "the Queen of Hearts / the King of Hearts / the Knave of Hearts",
+      "draft_rendering": "Nữ Hoàng Cơ / Vua Cơ / Tên Bồi Cơ",
+      "alternatives": [],
+      "rationale": "The court cards are named as suits of Vietnamese cards.",
+      "passages": [
+        "carroll-alice-s-adventures-in-wonderland:8.12",
+        "carroll-alice-s-adventures-in-wonderland:8.65",
+        "carroll-alice-s-adventures-in-wonderland:11.2"
+      ]
+    },
+    {
+      "source_term": "address forms",
+      "draft_rendering": "Alice says ‘tôi’ to everyone; the Rabbit says ‘cô’; the Queen and King ‘ta/ngươi’",
+      "alternatives": [],
+      "rationale": "One address system through the book.",
+      "passages": [
+        "carroll-alice-s-adventures-in-wonderland:6.3",
+        "carroll-alice-s-adventures-in-wonderland:8.65",
+        "carroll-alice-s-adventures-in-wonderland:11.53"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #11 (the Millennium Fulcrum edition 3.0), an electronic transcription of Alice’s Adventures in Wonderland (London: Macmillan, 1865; the Gutenberg text follows the later 1866 and 1897 Macmillan texts). The Gutenberg page does not name the exact printing and the text was not collated.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "26b310552c5c604677a8af3097931773ed29d278bc234aa01164fc93b4e1ed5e",
+  "target_sha256": "aef879c2ac7f9017e6d861b992706fe3415f1df6d3532dc90875925cdfdab799",
+  "coverage": {
+    "canonical_passages": 784,
+    "translated_passages": 784,
+    "aligned_passages": 784
+  },
+  "ai_review_record": "corpus/reviews/carroll-alice-s-adventures-in-wonderland/carroll-alice-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.625,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "carroll-alice-s-adventures-in-wonderland:6.34",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The axis/axes pun is re-created as an association rather than a true two-sense mishearing, and a few rhymes in the parody verses are slant."
+    }
+  ],
+  "title_review": {
+    "source_title": "Alice’s Adventures in Wonderland",
+    "target_title": "Alice ở xứ sở diệu kỳ",
+    "rationale": "The Vietnamese title ‘Alice ở xứ sở diệu kỳ’ is this edition’s own rendering; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "carroll-alice-s-adventures-in-wonderland:1.2"
+      ],
+      "assessment": "The opening: Alice on the bank with her sister."
+    },
+    {
+      "passages": [
+        "carroll-alice-s-adventures-in-wonderland:12.67"
+      ],
+      "assessment": "The closing: the sister’s dream of Alice grown up."
+    }
+  ]
+}

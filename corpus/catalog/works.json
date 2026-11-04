@@ -913,5 +913,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Alice’s Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "author_death_year": 1898,
+    "first_published_year": 1865,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "Alice, sitting bored beside her sister, follows a White Rabbit with a pocket watch down a rabbit hole and finds herself among creatures who change her size, question her name and argue in circles. Lewis Carroll, the pen name of the Oxford mathematician Charles Dodgson, published it with John Tenniel’s illustrations in 1865.",
+    "id": "carroll-alice-s-adventures-in-wonderland",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

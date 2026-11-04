@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 58 published · 216 todo · 0 in progress · 226 on hold.**
+**500 selected works · 59 published · 215 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -149,7 +149,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **125. Bram Stoker — Dracula** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/345)
 - [ ] **126. H. G. Wells — The War of the Worlds** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/36)
 - [ ] **127. Vishnusharma (traditional attribution) — Panchatantra** · sa · collection · **Todo** · [Evidence](https://claysanskritlibrary.org/volumes/)
-- [ ] **128. Lewis Carroll — Alice's Adventures in Wonderland** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/11)
+- [x] **128. Lewis Carroll — Alice's Adventures in Wonderland** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/11) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/carroll-alice-s-adventures-in-wonderland/carroll-alice-vi-ai-2026/)
 - [ ] **129. Kalidasa — Abhijnanasakuntalam / The Recognition of Shakuntala** · sa · play · **Todo** · [Evidence](https://claysanskritlibrary.org/volumes/)
 - [ ] **130. D. H. Lawrence — Sons and Lovers** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/217)
 - [ ] **131. Katherine Mansfield — The Garden Party and Other Stories** · en · collection · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/1429)
