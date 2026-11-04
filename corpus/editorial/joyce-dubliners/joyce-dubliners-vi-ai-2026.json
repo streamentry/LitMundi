@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "work_id": "joyce-dubliners",
+  "edition_id": "joyce-dubliners-vi-ai-2026",
+  "source_edition_id": "joyce-dubliners-en-pg2814",
+  "title_vi": "Người Dublin",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Joyce’s flat, exact, ironic narration and free indirect drift into the characters’ own vocabulary are kept without embellishment or explanation.",
+      "rationale": "The effect is in the restraint."
+    },
+    {
+      "topic": "Pub talk and dialect",
+      "decision": "Dublin speech and slurred drunk speech are rendered by register in plain colloquial Vietnamese, with a little deliberate error for slurring.",
+      "rationale": "Regional Vietnamese dialects would import the wrong place."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-joyce-dubliners",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "joyce-dubliners:1.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Faints’ and ‘worms’ are distillery terms (the last runnings and the coil of a still), not fainting fits and earthworms; now glossed as the still’s parts."
+        },
+        {
+          "segment": "joyce-dubliners:6.44",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Twenty after’ means twenty past the hour, not in twenty minutes; corrected."
+        },
+        {
+          "segment": "joyce-dubliners:9.21",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The remark that the last three words began with the same letter was false in Vietnamese because the B-B-B alliteration was lost; the run is now re-made so that it holds (units 482 and 493)."
+        },
+        {
+          "segment": "joyce-dubliners:14.253",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Sure five’ was rendered as ‘năm ăn năm’ (fifty-fifty), inverting the certainty; now ‘chắc như đinh đóng cột’."
+        },
+        {
+          "segment": "joyce-dubliners:15.44",
+          "category": "target_naturalness",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Kate and Julia’s address forms were inconsistent; Kate now calls Julia ‘chị Julia’ and herself ‘em’ throughout. The source never says which aunt is older, so this is the translation’s choice."
+        },
+        {
+          "segment": "joyce-dubliners:14.77",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Cunningham, M’Coy and Power addressed Kernan as ‘ông’ in some lines and ‘anh’ in others; unified as ‘anh’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "story titles",
+      "draft_rendering": "Hai chị em; Một cuộc chạm mặt; Sau cuộc đua; Bản sao; Đất sét; Ân sủng; Người chết",
+      "alternatives": [],
+      "rationale": "Titles are translated; Araby and Eveline stay.",
+      "passages": [
+        "joyce-dubliners:1.1",
+        "joyce-dubliners:2.1",
+        "joyce-dubliners:15.1"
+      ]
+    },
+    {
+      "source_term": "paralysis / gnomon / simony",
+      "draft_rendering": "liệt / gnomon / buôn thần bán thánh",
+      "alternatives": [],
+      "rationale": "The Euclid/Catechism trio is kept consistent.",
+      "passages": [
+        "joyce-dubliners:1.2"
+      ]
+    },
+    {
+      "source_term": "Kate and Julia Morkan",
+      "draft_rendering": "dì Kate, dì Julia; Kate calls Julia ‘chị Julia’",
+      "alternatives": [],
+      "rationale": "Gabriel says ‘dì’ to both; the sisters’ own pair is fixed.",
+      "passages": [
+        "joyce-dubliners:15.44",
+        "joyce-dubliners:15.54",
+        "joyce-dubliners:15.166"
+      ]
+    },
+    {
+      "source_term": "Kernan’s friends’ address",
+      "draft_rendering": "anh / ông by context; Kernan is ‘anh’ throughout",
+      "alternatives": [],
+      "rationale": "One address system in ‘Grace’.",
+      "passages": [
+        "joyce-dubliners:14.77",
+        "joyce-dubliners:14.90",
+        "joyce-dubliners:14.103"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #2814, an electronic transcription of Dubliners by James Joyce (1914). The Gutenberg page does not name the exact printing and the text was not collated with the first edition.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "181e424fa41e2e480b343fed533ad4942d9bf9025636bbc14127e0522cfc8e93",
+  "target_sha256": "0cb5e3b661c461c0f2a759d48f787ad623e028787a9a25cd01f8a601e7313c55",
+  "coverage": {
+    "canonical_passages": 1677,
+    "translated_passages": 1677,
+    "aligned_passages": 1677
+  },
+  "ai_review_record": "corpus/reviews/joyce-dubliners/joyce-dubliners-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "joyce-dubliners:12.136",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The ‘vermin’ for ‘ermine’ malapropism is rendered by the translator’s own pun."
+    },
+    {
+      "segment": "joyce-dubliners:12.219",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The Parnell ode in ‘Ivy Day’ is rendered without end-rhyme."
+    },
+    {
+      "segment": "joyce-dubliners:8.45",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A pun in unit 376 is only partly kept."
+    }
+  ],
+  "title_review": {
+    "source_title": "Dubliners",
+    "target_title": "Người Dublin",
+    "rationale": "The collection title is translated as ‘Người Dublin’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "joyce-dubliners:1.2"
+      ],
+      "assessment": "The opening of ‘The Sisters’: ‘There was no hope for him this time.’"
+    },
+    {
+      "passages": [
+        "joyce-dubliners:15.456"
+      ],
+      "assessment": "The last unit: the snow ‘upon all the living and the dead’."
+    }
+  ]
+}
