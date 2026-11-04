@@ -13,8 +13,8 @@ const xml=value=>String(value).replace(/[&<>"']/g,character=>({'&':'&amp;','<':'
 
 const dejavu={file:fontfile,family:'DejaVu Serif'};
 const scriptFonts=JSON.parse(await readFile(join(root,'scripts/fonts/social-fonts.json'),'utf8'));
-// Latin (including Vietnamese), Greek, Cyrillic and general punctuation are covered by DejaVu Serif.
-const dejavuCovered=/^[\n\u0020-\u024F\u0370-\u03FF\u0400-\u04FF\u1E00-\u1EFF\u2000-\u206F]*$/u;
+// Latin (including Vietnamese), Greek, Cyrillic, general punctuation and the numero sign (№, used in Russian titles) are covered by DejaVu Serif.
+const dejavuCovered=/^[\n\u0020-\u024F\u0370-\u03FF\u0400-\u04FF\u1E00-\u1EFF\u2000-\u206F\u2116]*$/u;
 
 /** Pick a vendored font that covers every character of a title; never fall back silently. */
 function fontFor(value,language) {

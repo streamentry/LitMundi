@@ -8,7 +8,7 @@ section describes the packaging files, not an additional license on the font.
 
 The generator supplies this font file directly to Sharp/Pango. It does not
 download webfonts. Current English, Portuguese and Spanish titles and author
-names are covered, including their accents.
+names are covered, including their accents. Cyrillic titles (for example Russian) and the numero sign № are also covered by DejaVu Serif.
 
 DejaVu Serif does **not** cover every writing system. Before publishing works
 whose original titles require additional scripts, such as Chinese or Japanese,

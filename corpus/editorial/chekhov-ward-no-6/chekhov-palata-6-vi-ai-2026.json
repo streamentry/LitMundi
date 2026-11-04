@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "work_id": "chekhov-ward-no-6",
+  "edition_id": "chekhov-palata-6-vi-ai-2026",
+  "source_edition_id": "chekhov-palata-6-ru-wikisource",
+  "title_vi": "Phòng bệnh số 6",
+  "translation_direction": "ru → vi; direct from the specifically identified complete Russian electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Chekhov’s restrained, ironic realism and the plain philosophical argument between Ragin and Gromov are kept in dry, clear Vietnamese without explanation or embellishment.",
+      "rationale": "The horror lies in the ordinary detail and the evenness of tone."
+    },
+    {
+      "topic": "Source",
+      "decision": "The Russian text comes from Wikisource because the backlog’s Open Library entry carries no text; its 75% proofreading status is disclosed.",
+      "rationale": "Translation is from the original Russian, not from a translation."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-05",
+      "cycle": "vietnamese-500-chekhov-ward-no-6",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "chekhov-ward-no-6:10.26",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The emphatic contrast ‘not even in December — even in May’ was flattened to ‘không phải tháng Chạp mà tháng Năm’; restored."
+        },
+        {
+          "segment": "chekhov-ward-no-6:16.22",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "A Russian idiom was rendered word for word; now a natural Vietnamese idiom."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Phòng bệnh số 6",
+      "alternatives": [],
+      "rationale": "‘Палата’ is a hospital ward, and ‘Ward No. 6’ also stands for the whole madhouse.",
+      "passages": [
+        "chekhov-ward-no-6:1.1"
+      ]
+    },
+    {
+      "source_term": "dialogue form",
+      "draft_rendering": "— leading dash and space, kept as in the source",
+      "alternatives": [],
+      "rationale": "The Russian convention is mirrored.",
+      "passages": [
+        "chekhov-ward-no-6:1.3",
+        "chekhov-ward-no-6:4.2"
+      ]
+    },
+    {
+      "source_term": "names",
+      "draft_rendering": "Andrei Yefimych Ragin, Ivan Dmitrich Gromov, Mikhail Averyanych, Nikita, Khobotov, Moiseika",
+      "alternatives": [],
+      "rationale": "Names transliterated once and held.",
+      "passages": [
+        "chekhov-ward-no-6:1.2",
+        "chekhov-ward-no-6:7.10",
+        "chekhov-ward-no-6:16.2"
+      ]
+    },
+    {
+      "source_term": "мужики",
+      "draft_rendering": "phu / mấy người đàn ông (unified)",
+      "alternatives": [],
+      "rationale": "One rendering for the peasants and workmen.",
+      "passages": [
+        "chekhov-ward-no-6:12.2",
+        "chekhov-ward-no-6:17.17",
+        "chekhov-ward-no-6:19.7"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Russian Wikisource transcription of Палата № 6 (Chekhov, first printed in Russkaya mysl, 1892), a chapter-by-chapter text marked on Wikisource as 75% proofread and derived from the Complete Works edition via the FEB site. The text was not collated with the first printing; its proofreading status is stated here so that the source’s quality is not overstated.",
+  "updated_at": "2026-11-05",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "2b2179d25399941cd3d153be3fee62b3ddbcc74091d58965668e43abc53d0426",
+  "target_sha256": "e7b2c714cf4bc5561dc26d4891c22ec8f5b4160dac1b69ab3c957bb3a0656b21",
+  "coverage": {
+    "canonical_passages": 395,
+    "translated_passages": 395,
+    "aligned_passages": 395
+  },
+  "ai_review_record": "corpus/reviews/chekhov-ward-no-6/chekhov-palata-6-vi-ai-2026/ai-review-v2-2026-11-05.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "chekhov-ward-no-6:1.8",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Снегирь’ (bullfinch) is rendered as ‘chim sẻ’ in unit 8."
+    },
+    {
+      "segment": "chekhov-ward-no-6:3.3",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A rank and a coat term in units 22 and 36 are only approximately rendered."
+    }
+  ],
+  "title_review": {
+    "source_title": "Палата № 6",
+    "target_title": "Phòng bệnh số 6",
+    "rationale": "The title is translated as ‘Phòng bệnh số 6’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "chekhov-ward-no-6:1.2"
+      ],
+      "assessment": "The opening: the small annex in the hospital yard, overgrown with burdock."
+    },
+    {
+      "passages": [
+        "chekhov-ward-no-6:19.8"
+      ],
+      "assessment": "The last unit: ‘Через день Андрея Ефимыча хоронили.’"
+    }
+  ]
+}
