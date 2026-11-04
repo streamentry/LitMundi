@@ -77,8 +77,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [James Joyce — Dubliners](corpus/editorial/joyce-dubliners/joyce-dubliners-vi-ai-2026.json) | English; Project Gutenberg #2814 | 1,677 | 8.80 | AI-reviewed translation published |
 | [Virginia Woolf — Mrs. Dalloway](corpus/editorial/woolf-mrs-dalloway/woolf-mrs-dalloway-vi-ai-2026.json) | English; Project Gutenberg #71865 | 754 | 8.675 (displayed 8.68) | AI-reviewed translation published |
 | [Kahlil Gibran — The Prophet](corpus/editorial/gibran-prophet/gibran-the-prophet-vi-ai-2026.json) | English; Project Gutenberg #58585 | 765 | 8.80 | AI-reviewed translation published |
+| [Edith Wharton — The Age of Innocence](corpus/editorial/wharton-the-age-of-innocence/wharton-the-age-of-innocence-vi-ai-2026.json) | English; Project Gutenberg #541 | 2,106 | 8.725 (displayed 8.73) | AI-reviewed translation published |
 
-All sixty-seven originals are published, giving one hundred and thirty-four public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All sixty-eight originals are published, giving one hundred and thirty-six public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

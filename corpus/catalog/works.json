@@ -1018,5 +1018,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Age of Innocence",
+    "author": "Edith Wharton",
+    "author_death_year": 1937,
+    "first_published_year": 1920,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "Edith Wharton’s The Age of Innocence (1920) is set in the 1870s among the upper class of Gilded Age New York. Newland Archer, a young lawyer, looks forward to marrying May Welland, until the arrival of her cousin, Countess Ellen Olenska, who has scandalously left a disastrous marriage in Europe, makes him doubt the match. It won the 1921 Pulitzer Prize for Fiction, making Wharton the first woman to win it.",
+    "id": "wharton-the-age-of-innocence",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

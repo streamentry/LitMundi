@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 65 published · 209 todo · 0 in progress · 226 on hold.**
+**500 selected works · 66 published · 208 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -108,7 +108,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **087. Natsume Soseki — I Am a Cat** · ja · novel · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person148.html)
 - [x] **088. Kate Chopin — The Awakening** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/160) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/chopin-the-awakening/chopin-awakening-vi-ai-2026/)
 - [ ] **089. Akiko Yosano — Midaregami / Tangled Hair** · ja · poetry collection · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person885.html)
-- [ ] **090. Edith Wharton — The Age of Innocence** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/541)
+- [x] **090. Edith Wharton — The Age of Innocence** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/541) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/wharton-the-age-of-innocence/wharton-the-age-of-innocence-vi-ai-2026/)
 - [x] **091. Henry James — The Turn of the Screw** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/209) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/james-the-turn-of-the-screw/james-screw-vi-ai-2026/)
 - [ ] **092. Cao Xueqin; continuation traditionally attributed to Gao E — Dream of the Red Chamber** · zh · novel · **Todo** · [Evidence](https://pages.ucsd.edu/~dkjordan/chin/novels.html)
 - [x] **093. Stephen Crane — The Red Badge of Courage** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/73) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/crane-the-red-badge-of-courage/crane-badge-vi-ai-2026/)

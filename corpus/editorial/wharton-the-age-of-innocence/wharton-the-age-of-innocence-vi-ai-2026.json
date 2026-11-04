@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "work_id": "wharton-the-age-of-innocence",
+  "edition_id": "wharton-the-age-of-innocence-vi-ai-2026",
+  "source_edition_id": "wharton-the-age-of-innocence-en-pg541",
+  "title_vi": "Thời đại ngây thơ",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Wharton’s ironic, balanced periodic narration and her free indirect style through Newland Archer are kept without softening or explanation.",
+      "rationale": "The novel’s effect is the irony toward the tribe’s code and Archer’s own blindness."
+    },
+    {
+      "topic": "Quotation marks",
+      "decision": "The source’s straight quotation marks are rendered as typographic curly quotes, with the same number of marks per unit.",
+      "rationale": "Standard Vietnamese typography; the count is checked against the source."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-wharton-the-age-of-innocence",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "wharton-the-age-of-innocence:8.26",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Mr. van der Luyden addressed Archer with a female term (‘cô’); now ‘cậu’."
+        },
+        {
+          "segment": "wharton-the-age-of-innocence:11.86",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Our cousin’ is the Duke, but the draft made it a female cousin; corrected."
+        },
+        {
+          "segment": "wharton-the-age-of-innocence:11.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Episcopalian’ was rendered with the Methodist term; now the Episcopal Church."
+        },
+        {
+          "segment": "wharton-the-age-of-innocence:31.65",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Husband of Ellen Olenska’s cousin’ read as Ellen’s own husband; corrected."
+        },
+        {
+          "segment": "wharton-the-age-of-innocence:36.87",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Don’t you always know what to say?’ became a question that inverted the sense; corrected."
+        },
+        {
+          "segment": "wharton-the-age-of-innocence:1.1",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The first slice used ‘chàng’ for Archer and ‘nàng’ for May and Ellen while the other slices used ‘anh’, ‘cô’ and ‘bà’; unified across the book (the epithets ‘nàng Cassandra’ and ‘nàng Pocahontas’ were kept)."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title and book headings",
+      "draft_rendering": "Thời đại ngây thơ; Quyển I; Quyển II",
+      "alternatives": [],
+      "rationale": "Titles are translated; chapter numerals are kept.",
+      "passages": [
+        "wharton-the-age-of-innocence:1.1",
+        "wharton-the-age-of-innocence:2.1",
+        "wharton-the-age-of-innocence:20.1"
+      ]
+    },
+    {
+      "source_term": "narration of Newland, May, Ellen",
+      "draft_rendering": "anh / cô / bà (Ellen) — with ‘nàng’ and ‘chàng’ avoided",
+      "alternatives": [],
+      "rationale": "One address system through the book.",
+      "passages": [
+        "wharton-the-age-of-innocence:2.1",
+        "wharton-the-age-of-innocence:5.11",
+        "wharton-the-age-of-innocence:12.53"
+      ]
+    },
+    {
+      "source_term": "Madame Olenska / Countess Olenska",
+      "draft_rendering": "bà Olenska / nữ bá tước Olenska",
+      "alternatives": [],
+      "rationale": "Formal reference for the married Countess.",
+      "passages": [
+        "wharton-the-age-of-innocence:3.9",
+        "wharton-the-age-of-innocence:4.9",
+        "wharton-the-age-of-innocence:8.9"
+      ]
+    },
+    {
+      "source_term": "the tribe",
+      "draft_rendering": "bộ lạc",
+      "alternatives": [],
+      "rationale": "Wharton’s anthropological irony.",
+      "passages": [
+        "wharton-the-age-of-innocence:27.47",
+        "wharton-the-age-of-innocence:27.48"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #541, an electronic transcription of The Age of Innocence by Edith Wharton (1920). The text was not collated with the first printing.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "8e348a2375a10d656ba66bfde5d7db6b76cd9c85b67ce7b9d198eec8d3ac0f77",
+  "target_sha256": "a7e43e3b41eed4ea15f34ff8dcb21893e9e5febe1a98af947a6b688321a09e92",
+  "coverage": {
+    "canonical_passages": 2106,
+    "translated_passages": 2106,
+    "aligned_passages": 2106
+  },
+  "ai_review_record": "corpus/reviews/wharton-the-age-of-innocence/wharton-the-age-of-innocence-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "wharton-the-age-of-innocence:27.47",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘The tribe’ is rendered ‘bộ tộc’ in some places and ‘bộ lạc’ in the glossary."
+    },
+    {
+      "segment": "wharton-the-age-of-innocence:15.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The register of ‘hắn’ in units 636–659 is rougher than the surrounding narration."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Age of Innocence",
+    "target_title": "Thời đại ngây thơ",
+    "rationale": "The title is translated as ‘Thời đại ngây thơ’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "wharton-the-age-of-innocence:2.1"
+      ],
+      "assessment": "The opening: the opera evening in January, in the Academy of Music."
+    },
+    {
+      "passages": [
+        "wharton-the-age-of-innocence:36.95"
+      ],
+      "assessment": "The last unit: ‘Newland Archer got up slowly and walked back alone to his hotel.’"
+    }
+  ]
+}
