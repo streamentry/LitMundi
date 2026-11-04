@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 67 published · 207 todo · 0 in progress · 226 on hold.**
+**500 selected works · 68 published · 206 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -116,7 +116,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **095. Jack London — The Call of the Wild** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/215) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/london-the-call-of-the-wild/london-callwild-vi-ai-2026/)
 - [x] **096. F. Scott Fitzgerald — The Great Gatsby** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/64317) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/fitzgerald-the-great-gatsby/fitzgerald-gatsby-vi-ai-2026/)
 - [ ] **097. Shi Nai’an (traditional attribution) — Water Margin** · zh · novel · **Todo** · [Evidence](https://pages.ucsd.edu/~dkjordan/chin/novels.html)
-- [ ] **098. Machado de Assis — Memórias Póstumas de Brás Cubas** · pt · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/54829)
+- [x] **098. Machado de Assis — Memórias Póstumas de Brás Cubas** · pt · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/54829) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/machado-memorias-postumas-de-bras-cubas/machado-memorias-postumas-vi-ai-2026/)
 - [ ] **099. Wu Cheng’en (traditional attribution) — Journey to the West** · zh · novel · **Todo** · [Evidence](https://pages.ucsd.edu/~dkjordan/chin/novels.html)
 - [ ] **100. Jane Austen — Emma** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/158)
 

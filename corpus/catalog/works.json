@@ -1048,5 +1048,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Memórias Póstumas de Brás Cubas",
+    "author": "Machado de Assis",
+    "author_death_year": 1908,
+    "first_published_year": 1881,
+    "original_language": "pt",
+    "genre": "novel",
+    "description": "Machado de Assis’s Memórias Póstumas de Brás Cubas (1881; Posthumous Memoirs of Brás Cubas, also translated as Epitaph of a Small Winner) is presented as the memoirs of a dead man. Brás Cubas begins with his own funeral and the pneumonia that killed him, then goes back to a spoiled childhood, a law degree, an adulterous affair and a string of failed ambitions. Wikipedia calls it one of the greatest works of Brazilian literature.",
+    "id": "machado-memorias-postumas-de-bras-cubas",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

@@ -135,6 +135,11 @@ test('the actual public Machado editions resolve title and author searches witho
     const result=await searchIndex(index,{query,locale:'vi'});
     assert.deepEqual(result.editions.map(edition=>edition.editionId).sort(),expected);
     assert.equal(result.editions[0].language,'vi');
-    assert.equal(result.passageCount,0);assert.equal(result.passages.length,0);
+    // Paragraph hits are allowed only where a passage itself contains every query word (e.g. a novel that mentions an "apólogo"); a bibliographic match alone must not fan out into paragraphs.
+    const plain=value=>String(value??'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+    const words=plain(query).split(/\s+/).filter(Boolean);
+    const literal=inventory.flatMap(record=>record.passages.filter(([,text])=>words.every(word=>plain(text).includes(word))).map(([id])=>id)).sort();
+    assert.deepEqual(result.passages.map(passage=>passage.id??passage.passageId).sort(),literal);
+    assert.equal(result.passageCount,literal.length);
   }
 });

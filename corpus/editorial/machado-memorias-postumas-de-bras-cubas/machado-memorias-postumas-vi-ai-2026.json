@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "work_id": "machado-memorias-postumas-de-bras-cubas",
+  "edition_id": "machado-memorias-postumas-vi-ai-2026",
+  "source_edition_id": "machado-memorias-postumas-pt-pg54829",
+  "title_vi": "Hồi ký của người chết Brás Cubas",
+  "translation_direction": "pt → vi; direct from the specifically identified complete Portuguese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Machado’s dry, digressive, ironic dead narrator, the short capricious chapters and the direct addresses to the reader are kept in light, lucid Vietnamese without explaining the jokes.",
+      "rationale": "The novel’s effect is tone and the rhythm of its brevity."
+    },
+    {
+      "topic": "Typography",
+      "decision": "The dot-and-shape passages (and the Latin ‘arma virumque cano’) are copied verbatim with their spacing and line breaks.",
+      "rationale": "They are visual jokes, not text."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-machado-memorias-postumas-de-bras-cubas",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "machado-memorias-postumas-de-bras-cubas:14.7",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Dr. Villaça’, a lettered graduate and poet, was rendered as a medical physician (‘bác sĩ’); ‘doutor’ is now treated as an honorific by context throughout."
+        },
+        {
+          "segment": "machado-memorias-postumas-de-bras-cubas:37.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Desci da Tijuca’ (came down from Tijuca) was rendered with the direction inverted; now ‘tôi từ Tijuca xuống’."
+        },
+        {
+          "segment": "machado-memorias-postumas-de-bras-cubas:62.12",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Entristecer-me’ was rendered with the polarity inverted (‘không buồn’); corrected."
+        },
+        {
+          "segment": "machado-memorias-postumas-de-bras-cubas:65.30",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Doutor’ was rendered ‘bác sĩ’ for a graduate who is not a physician; corrected, and the same title in 580 unified."
+        },
+        {
+          "segment": "machado-memorias-postumas-de-bras-cubas:149.5",
+          "category": "target_naturalness",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Sabina’s and Cotrim’s kinship and seniority forms toward Brás were inconsistent across units; Sabina is Brás’s younger sister, Cotrim ‘em rể’ to him and Brás ‘anh vợ’ to Cotrim, applied in all slices."
+        },
+        {
+          "segment": "machado-memorias-postumas-de-bras-cubas:152.3",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The hedged ‘Prazer é muito’ was rendered ‘Khoái thì nhiều’, losing the hedge; corrected."
+        },
+        {
+          "segment": "machado-memorias-postumas-de-bras-cubas:6.4",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Dieta germanica’ (the German Diet) was misread; corrected during the fix round."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Hồi ký của người chết Brás Cubas",
+      "alternatives": [],
+      "rationale": "‘Memórias póstumas’ are memoirs written after death.",
+      "passages": [
+        "machado-memorias-postumas-de-bras-cubas:1.1"
+      ]
+    },
+    {
+      "source_term": "doutor",
+      "draft_rendering": "ông / cậu / ngài by context; bác sĩ only for a physician",
+      "alternatives": [],
+      "rationale": "In the 1880s ‘doutor’ is an honorific for any graduate.",
+      "passages": [
+        "machado-memorias-postumas-de-bras-cubas:14.7",
+        "machado-memorias-postumas-de-bras-cubas:61.6",
+        "machado-memorias-postumas-de-bras-cubas:65.30"
+      ]
+    },
+    {
+      "source_term": "Sabina and Cotrim",
+      "draft_rendering": "Sabina: em gái of Brás; Cotrim: em rể to Brás, Brás anh vợ to Cotrim",
+      "alternatives": [],
+      "rationale": "One kinship system across the book.",
+      "passages": [
+        "machado-memorias-postumas-de-bras-cubas:27.3",
+        "machado-memorias-postumas-de-bras-cubas:46.7",
+        "machado-memorias-postumas-de-bras-cubas:150.2"
+      ]
+    },
+    {
+      "source_term": "typographic passages (dots, Virgilio shape, arma virumque cano)",
+      "draft_rendering": "copied verbatim",
+      "alternatives": [],
+      "rationale": "They are not translatable and carry no words to render.",
+      "passages": [
+        "machado-memorias-postumas-de-bras-cubas:28.17",
+        "machado-memorias-postumas-de-bras-cubas:28.19",
+        "machado-memorias-postumas-de-bras-cubas:57.3"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #54829, an electronic transcription of Memorias Posthumas de Braz Cubas by Machado de Assis (Rio de Janeiro: Typographia Nacional, 1881). The text was not collated with the printed edition and its orthography is the original’s, not modern Portuguese.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "a0100c8d0e0cb6e9c74e0a11dbd65c75af5d6e554f95dd961112582ce6027898",
+  "target_sha256": "b4d1cdf51665c576d8b35b4ac1378ca10ab8984abd427d0a81e66dc4d29b95d2",
+  "coverage": {
+    "canonical_passages": 1232,
+    "translated_passages": 1232,
+    "aligned_passages": 1232
+  },
+  "ai_review_record": "corpus/reviews/machado-memorias-postumas-de-bras-cubas/machado-memorias-postumas-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "machado-memorias-postumas-de-bras-cubas:33.6",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Biển xanh’ in unit 348 where the source means the sky."
+    },
+    {
+      "segment": "machado-memorias-postumas-de-bras-cubas:72.2",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Não serias capaz’ is rendered ‘không dám’, a shade off."
+    }
+  ],
+  "title_review": {
+    "source_title": "Memórias Póstumas de Brás Cubas",
+    "target_title": "Hồi ký của người chết Brás Cubas",
+    "rationale": "The title is translated as ‘Hồi ký của người chết Brás Cubas’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "machado-memorias-postumas-de-bras-cubas:1.2"
+      ],
+      "assessment": "The opening address: the author hopes for fewer readers than Stendhal’s hundred."
+    },
+    {
+      "passages": [
+        "machado-memorias-postumas-de-bras-cubas:162.3"
+      ],
+      "assessment": "The last unit: ‘Não tive filhos, não transmitti a nenhuma creatura o legado da nossa miseria.’"
+    }
+  ]
+}
