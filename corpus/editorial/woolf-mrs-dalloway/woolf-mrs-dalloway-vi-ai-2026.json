@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "work_id": "woolf-mrs-dalloway",
+  "edition_id": "woolf-mrs-dalloway-vi-ai-2026",
+  "source_edition_id": "woolf-mrs-dalloway-en-pg71865",
+  "title_vi": "Bà Dalloway",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Woolf’s long chained sentences, unsignalled shifts between minds and repeated refrains are kept, without splitting into short sentences or adding connectives.",
+      "rationale": "The novel’s effect is carried in the flow and the passage between consciousnesses."
+    },
+    {
+      "topic": "Sound-poem passages",
+      "decision": "The old woman’s sound-song (‘ee um fah um so …’) is kept as in the source and not translated.",
+      "rationale": "It is non-lexical by design."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-woolf-mrs-dalloway",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "woolf-mrs-dalloway:1.276",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Heaven knows if she didn’t think him the most original mind’ was rendered with inverted polarity; corrected."
+        },
+        {
+          "segment": "woolf-mrs-dalloway:1.401",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Milly Brush, a girl, was addressed as ‘bà’; now ‘cô’."
+        },
+        {
+          "segment": "woolf-mrs-dalloway:1.386",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Feasts on’ (of Conversion feeding on a will) was rendered as celebrating; now ‘ngốn lấy ý chí’."
+        },
+        {
+          "segment": "woolf-mrs-dalloway:1.427",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Paste’ (imitation gems) was rendered ‘hồ’ (glue); now ‘đá giả’."
+        },
+        {
+          "segment": "woolf-mrs-dalloway:1.518",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Miss Kilman was called ‘bà cô’ (spinster aunt), a mis-register; now ‘cô ấy’ / ‘cô Kilman’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Bà Dalloway",
+      "alternatives": [],
+      "rationale": "The title is translated and the Dalloway name is kept.",
+      "passages": [
+        "woolf-mrs-dalloway:1.1"
+      ]
+    },
+    {
+      "source_term": "narration of Clarissa / Peter / Septimus / Rezia / Elizabeth / Miss Kilman",
+      "draft_rendering": "Clarissa (bà only where a pronoun is needed); Peter (ông); Septimus (anh); Rezia (cô); Elizabeth (cô bé); cô Kilman",
+      "alternatives": [],
+      "rationale": "One reference system through the stream of consciousness.",
+      "passages": [
+        "woolf-mrs-dalloway:1.2",
+        "woolf-mrs-dalloway:1.200",
+        "woolf-mrs-dalloway:1.500"
+      ]
+    },
+    {
+      "source_term": "the leaden circles",
+      "draft_rendering": "những vòng tròn chì",
+      "alternatives": [],
+      "rationale": "A recurring Big Ben motif is kept constant.",
+      "passages": [
+        "woolf-mrs-dalloway:1.5",
+        "woolf-mrs-dalloway:1.60",
+        "woolf-mrs-dalloway:1.200"
+      ]
+    },
+    {
+      "source_term": "Fear no more the heat o’ the sun",
+      "draft_rendering": "Đừng sợ nữa cái nóng của mặt trời / Cũng đừng sợ cơn thịnh nộ dữ dội của mùa đông.",
+      "alternatives": [],
+      "rationale": "The Cymbeline refrain is kept as a two-line verse unit.",
+      "passages": [
+        "woolf-mrs-dalloway:1.18",
+        "woolf-mrs-dalloway:1.100"
+      ]
+    },
+    {
+      "source_term": "final lines",
+      "draft_rendering": "Là Clarissa, ông nói. / Vì bà đây rồi.",
+      "alternatives": [],
+      "rationale": "The last two units close the novel.",
+      "passages": [
+        "woolf-mrs-dalloway:1.753",
+        "woolf-mrs-dalloway:1.754"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #71865, an electronic transcription of Mrs. Dalloway by Virginia Woolf (1925). The Gutenberg page does not name the exact printing and the text was not collated with the first edition.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "5c890c828d3b351a80bde4a40ee050da262428b54d654e852365c3a963f1bab3",
+  "target_sha256": "ef04e3d03fd348b0407d8ce38d088691e9a7fceb0addaafde7af6cd1ef728b6b",
+  "coverage": {
+    "canonical_passages": 754,
+    "translated_passages": 754,
+    "aligned_passages": 754
+  },
+  "ai_review_record": "corpus/reviews/woolf-mrs-dalloway/woolf-mrs-dalloway-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "woolf-mrs-dalloway:1.24",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "An ambiguous ‘she’ is fixed to Elizabeth in unit 24; the English leaves it open for a moment."
+    },
+    {
+      "segment": "woolf-mrs-dalloway:1.3",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Calque in unit 3 left as is."
+    },
+    {
+      "segment": "woolf-mrs-dalloway:1.306",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Robes’ is rendered ‘áo dài’, a Vietnamese garment, in unit 306."
+    }
+  ],
+  "title_review": {
+    "source_title": "Mrs. Dalloway",
+    "target_title": "Bà Dalloway",
+    "rationale": "The title is translated as ‘Bà Dalloway’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "woolf-mrs-dalloway:1.2"
+      ],
+      "assessment": "The opening: ‘Mrs. Dalloway said she would buy the flowers herself.’"
+    },
+    {
+      "passages": [
+        "woolf-mrs-dalloway:1.754"
+      ],
+      "assessment": "The last unit: ‘For there she was.’"
+    }
+  ]
+}

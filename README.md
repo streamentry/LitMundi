@@ -75,8 +75,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Katherine Mansfield — Bliss, and Other Stories](corpus/editorial/mansfield-bliss-and-other-stories/mansfield-bliss-and-other-stories-vi-ai-2026.json) | English; Project Gutenberg #44385 | 1,630 | 8.70 | AI-reviewed translation published |
 | [Katherine Mansfield — The Garden Party, and Other Stories](corpus/editorial/mansfield-the-garden-party-and-other-stories/mansfield-the-garden-party-and-other-stories-vi-ai-2026.json) | English; Project Gutenberg #1429 | 1,548 | 8.80 | AI-reviewed translation published |
 | [James Joyce — Dubliners](corpus/editorial/joyce-dubliners/joyce-dubliners-vi-ai-2026.json) | English; Project Gutenberg #2814 | 1,677 | 8.80 | AI-reviewed translation published |
+| [Virginia Woolf — Mrs. Dalloway](corpus/editorial/woolf-mrs-dalloway/woolf-mrs-dalloway-vi-ai-2026.json) | English; Project Gutenberg #71865 | 754 | 8.675 (displayed 8.68) | AI-reviewed translation published |
 
-All sixty-five originals are published, giving one hundred and thirty public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All sixty-six originals are published, giving one hundred and thirty-two public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 
