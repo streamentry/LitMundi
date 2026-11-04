@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "work_id": "mansfield-bliss-and-other-stories",
+  "edition_id": "mansfield-bliss-and-other-stories-vi-ai-2026",
+  "source_edition_id": "mansfield-bliss-and-other-stories-en-pg44385",
+  "title_vi": "Hạnh phúc và những truyện khác",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Mansfield’s free indirect shifts of focalisation are kept unsignalled, with dashes and ellipses preserved unspaced, in dry, oblique, sensory Vietnamese.",
+      "rationale": "The stories live in these shifts and in what is left unsaid."
+    },
+    {
+      "topic": "French and dialect",
+      "decision": "French and Italian phrases stay in the source language; dialect and mis-speech (the landlady, the char, Antonio) are given Vietnamese equivalents.",
+      "rationale": "Register is part of the characterisation."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-mansfield-bliss-and-other-stories",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "mansfield-bliss-and-other-stories:3.123",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Mrs. Knight (‘Face’) was written ‘anh’ although she is a woman; now ‘chị’ here and in her later lines."
+        },
+        {
+          "segment": "mansfield-bliss-and-other-stories:5.39",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘She’ referred to the friendship, but the draft made it the woman; corrected."
+        },
+        {
+          "segment": "mansfield-bliss-and-other-stories:7.10",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The dustpan was rendered as a frying pan (‘chảo’); now ‘hót rác’."
+        },
+        {
+          "segment": "mansfield-bliss-and-other-stories:14.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Anh’ made the husband the one who ignored the instruction about speed; the driver is meant, and the line now says so."
+        },
+        {
+          "segment": "mansfield-bliss-and-other-stories:3.61",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Face’s self-reference alternated between ‘em’ and ‘chị’ toward Bertha; unified as ‘chị’."
+        },
+        {
+          "segment": "mansfield-bliss-and-other-stories:6.10",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The landlady’s ‘College eddication’ had become ‘trường nhạc’; now a plain, mocking ‘học hành đại học hẳn hoi’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Face / Mrs. Knight",
+      "draft_rendering": "Face; chị (to Bertha)",
+      "alternatives": [],
+      "rationale": "The nickname stays in English; the address is fixed.",
+      "passages": [
+        "mansfield-bliss-and-other-stories:3.61",
+        "mansfield-bliss-and-other-stories:3.123",
+        "mansfield-bliss-and-other-stories:3.135"
+      ]
+    },
+    {
+      "source_term": "Sun and Moon (the two children)",
+      "draft_rendering": "Nắng / Trăng",
+      "alternatives": [],
+      "rationale": "Nicknames rendered as Vietnamese words so the child’s world is audible.",
+      "passages": [
+        "mansfield-bliss-and-other-stories:9.1",
+        "mansfield-bliss-and-other-stories:9.30",
+        "mansfield-bliss-and-other-stories:11.24"
+      ]
+    },
+    {
+      "source_term": "Prelude’s family address forms",
+      "draft_rendering": "em/anh (Linda–Stanley); dì/cháu (Beryl–Kezia); con/mẹ/bà (children)",
+      "alternatives": [],
+      "rationale": "One address system through the story.",
+      "passages": [
+        "mansfield-bliss-and-other-stories:1.2",
+        "mansfield-bliss-and-other-stories:1.100",
+        "mansfield-bliss-and-other-stories:1.300"
+      ]
+    },
+    {
+      "source_term": "story titles",
+      "draft_rendering": "Hạnh phúc; Gió thổi; Tâm lý; Những bức tranh; Cô gia sư bé nhỏ; Cuộc trốn thoát",
+      "alternatives": [],
+      "rationale": "Titles are translated; Je ne parle pas français and Feuille d’Album stay in French.",
+      "passages": [
+        "mansfield-bliss-and-other-stories:2.1",
+        "mansfield-bliss-and-other-stories:3.1",
+        "mansfield-bliss-and-other-stories:4.1"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #44385, an electronic transcription of Bliss, and Other Stories by Katherine Mansfield (1920). The Gutenberg page does not name the exact printing and the text was not collated with the first edition.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "5bba4545a9a52002f43474b0a3dc25de4b88e42a1c47f36c64e81222ad140ce9",
+  "target_sha256": "9129027780f7a93493c1bf5b0be1eaedffdb964fa29df35c4a30775a8355f1ea",
+  "coverage": {
+    "canonical_passages": 1630,
+    "translated_passages": 1630,
+    "aligned_passages": 1630
+  },
+  "ai_review_record": "corpus/reviews/mansfield-bliss-and-other-stories/mansfield-bliss-and-other-stories-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.7,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "mansfield-bliss-and-other-stories:2.284",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Mouse’s ‘em’ and the dream-boy’s ‘anh’ shift roles within a few units in Raoul’s dream; left as a deliberate dream blur but flagged."
+    },
+    {
+      "segment": "mansfield-bliss-and-other-stories:5.26",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Quote nesting in units 990 and 1097 is simplified for letters that span several units."
+    }
+  ],
+  "title_review": {
+    "source_title": "Bliss, and Other Stories",
+    "target_title": "Hạnh phúc và những truyện khác",
+    "rationale": "The collection title is translated as ‘Hạnh phúc và những truyện khác’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "mansfield-bliss-and-other-stories:1.2"
+      ],
+      "assessment": "The opening of ‘Prelude’: the buggy with no room for Lottie and Kezia."
+    },
+    {
+      "passages": [
+        "mansfield-bliss-and-other-stories:14.33"
+      ],
+      "assessment": "The last unit, closing ‘The Escape’."
+    }
+  ]
+}

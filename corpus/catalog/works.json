@@ -943,5 +943,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Bliss, and Other Stories",
+    "author": "Katherine Mansfield",
+    "author_death_year": 1923,
+    "first_published_year": 1920,
+    "original_language": "en",
+    "genre": "collection",
+    "description": "Katherine Mansfield’s 1920 collection gathers fourteen stories, from “Prelude”, a Wellington family’s move to a new house, to “Bliss”, in which a woman’s radiant mood at her own dinner party meets an unwelcome discovery. Other stories include a Parisian writer’s account of a failed love affair and a portrait of an ill wife and her husband. Mansfield, born in New Zealand, was already ill with tuberculosis when she assembled it.",
+    "id": "mansfield-bliss-and-other-stories",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
