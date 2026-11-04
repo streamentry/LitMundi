@@ -1003,5 +1003,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Prophet",
+    "author": "Kahlil Gibran",
+    "author_death_year": 1931,
+    "first_published_year": 1923,
+    "original_language": "en",
+    "genre": "poem",
+    "description": "Kahlil Gibran’s The Prophet (1923) is a book of 26 prose poetry fables written in English. After twelve years in the city of Orphalese, the prophet Almustafa sees the ship that will take him home, and at the request of the seeress Almitra he speaks to the gathered crowd on love, marriage, children, work, joy and sorrow, death and other subjects before he sails. Knopf published it in New York in 1923.",
+    "id": "gibran-prophet",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

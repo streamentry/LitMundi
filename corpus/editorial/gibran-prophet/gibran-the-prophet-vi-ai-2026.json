@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "work_id": "gibran-prophet",
+  "edition_id": "gibran-the-prophet-vi-ai-2026",
+  "source_edition_id": "gibran-the-prophet-en-pg58585",
+  "title_vi": "Nhà tiên tri",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Gibran’s short parallel lines and biblical cadence are kept in spare, dignified Vietnamese without archaic pastiche or added explanation.",
+      "rationale": "The effect rests on rhythm and restraint."
+    },
+    {
+      "topic": "Structure",
+      "decision": "Each paragraph and verse line stays one unit; no chapter headings are invented.",
+      "rationale": "The source carries no headings for the sermons."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-gibran-prophet",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "gibran-prophet:1.2",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Stiff word order in the first paragraph was loosened."
+        },
+        {
+          "segment": "gibran-prophet:1.22",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "An ambiguous ‘người’ was clarified."
+        },
+        {
+          "segment": "gibran-prophet:1.247",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "A botanical term was corrected."
+        },
+        {
+          "segment": "gibran-prophet:1.328",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Corner-stone’ was rendered with a mason’s term unfamiliar to readers; made plain."
+        },
+        {
+          "segment": "gibran-prophet:1.426",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Bạn’ for a friend was ambiguous with the second person at the first mentions; now ‘người bạn’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Nhà tiên tri",
+      "alternatives": [],
+      "rationale": "The title is translated.",
+      "passages": [
+        "gibran-prophet:1.1"
+      ]
+    },
+    {
+      "source_term": "Speak to us of …",
+      "draft_rendering": "Xin hãy nói với chúng tôi về …",
+      "alternatives": [],
+      "rationale": "The formula is held uniform.",
+      "passages": [
+        "gibran-prophet:1.66",
+        "gibran-prophet:1.133",
+        "gibran-prophet:1.269"
+      ]
+    },
+    {
+      "source_term": "you (plural address in the sermons)",
+      "draft_rendering": "các người",
+      "alternatives": [],
+      "rationale": "A poetic plural address to the people.",
+      "passages": [
+        "gibran-prophet:1.70",
+        "gibran-prophet:1.140",
+        "gibran-prophet:1.300"
+      ]
+    },
+    {
+      "source_term": "Almustafa, Almitra, Orphalese, Ielool",
+      "draft_rendering": "kept",
+      "alternatives": [],
+      "rationale": "Names kept in the source form.",
+      "passages": [
+        "gibran-prophet:1.2",
+        "gibran-prophet:1.66",
+        "gibran-prophet:1.100"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #58585, an electronic transcription of The Prophet by Kahlil Gibran (New York: Alfred A. Knopf, 1923). The text was not collated with the printed edition.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "975c0c42eeca12867b8d3ff1258de5b574433f8729aebbcabd178d2dcfc9b2e0",
+  "target_sha256": "3d20dc197f5c2d3743ad32f49fd34565ca4a81671efca5e4a2d9eca9bc45bd09",
+  "coverage": {
+    "canonical_passages": 765,
+    "translated_passages": 765,
+    "aligned_passages": 765
+  },
+  "ai_review_record": "corpus/reviews/gibran-prophet/gibran-the-prophet-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "gibran-prophet:1.171",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Ngươi’ addressed to the beast and the apple tree is kept as a deliberate register choice; a reader may find it archaic."
+    },
+    {
+      "segment": "gibran-prophet:1.129",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Người’ for the prophet and for others in the sermon on Love is left to context."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Prophet",
+    "target_title": "Nhà tiên tri",
+    "rationale": "The title is translated as ‘Nhà tiên tri’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "gibran-prophet:1.2"
+      ],
+      "assessment": "The opening: Almustafa, who waited twelve years for his ship."
+    },
+    {
+      "passages": [
+        "gibran-prophet:1.765"
+      ],
+      "assessment": "The last unit: ‘another woman shall bear me.’"
+    }
+  ]
+}
