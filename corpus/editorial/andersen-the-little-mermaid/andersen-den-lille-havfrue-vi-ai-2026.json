@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "work_id": "andersen-the-little-mermaid",
+  "edition_id": "andersen-den-lille-havfrue-vi-ai-2026",
+  "source_edition_id": "andersen-den-lille-havfrue-da-wikisource",
+  "title_vi": "Nàng tiên cá nhỏ",
+  "translation_direction": "da → vi; direct from the specifically identified complete Danish electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Andersen’s spoken fairy-tale rhythm, wonder and restraint at the painful moments are kept in simple, musical Vietnamese without baby-talk or an added moral.",
+      "rationale": "The tale is told aloud, to children and adults at once."
+    },
+    {
+      "topic": "Source",
+      "decision": "The Danish original is used (Wikisource), not an English translation; the 1837 orthography is preserved in the source record.",
+      "rationale": "Translation is directly from Danish."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-05",
+      "cycle": "vietnamese-500-andersen-the-little-mermaid",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "andersen-the-little-mermaid:1.41",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Paa Skibe flyve’ (to sail swiftly) read as an aircraft (‘tàu bay’); now ‘tàu lướt như bay’."
+        },
+        {
+          "segment": "andersen-the-little-mermaid:1.73",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Ra đời’ meant ‘be born’ where the Danish says she never goes out into the world; now ‘bước ra đời’."
+        },
+        {
+          "segment": "andersen-the-little-mermaid:1.59",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The witch’s ‘med dem’ (with those things) read as ‘chúng mày’ (you all); corrected."
+        },
+        {
+          "segment": "andersen-the-little-mermaid:1.4",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Hans gamle Moder’ (the king’s mother) was ‘bà mẹ già’; now ‘người mẹ già của ông’, with ‘bà nội’ for the princesses’ grandmother."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Nàng tiên cá nhỏ",
+      "alternatives": [],
+      "rationale": "The common Vietnamese title for the tale.",
+      "passages": [
+        "andersen-the-little-mermaid:1.1"
+      ]
+    },
+    {
+      "source_term": "Havkongen / den gamle Moder / Havheksen",
+      "draft_rendering": "Vua Biển / bà nội / mụ phù thủy biển",
+      "alternatives": [],
+      "rationale": "Fixed terms for the sea court.",
+      "passages": [
+        "andersen-the-little-mermaid:1.3",
+        "andersen-the-little-mermaid:1.4",
+        "andersen-the-little-mermaid:1.59"
+      ]
+    },
+    {
+      "source_term": "Prindsen",
+      "draft_rendering": "hoàng tử",
+      "alternatives": [],
+      "rationale": "The prince; the Little Mermaid is ‘nàng’ in narration.",
+      "passages": [
+        "andersen-the-little-mermaid:1.30",
+        "andersen-the-little-mermaid:1.73"
+      ]
+    },
+    {
+      "source_term": "den udødelige Sjæl",
+      "draft_rendering": "linh hồn bất tử",
+      "alternatives": [],
+      "rationale": "The tale’s central stake.",
+      "passages": [
+        "andersen-the-little-mermaid:1.40",
+        "andersen-the-little-mermaid:1.90"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Danish Wikisource transcription of Den lille Havfrue (H. C. Andersen, first printed in Eventyr, fortalte for Børn, 1837). The text was not collated with the first printing; the transcription’s proofreading status was not stated on the page.",
+  "updated_at": "2026-11-05",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "5986e986fbccd1bcf9fa79077df7486ed2ce1835e085658bf9fa415c2a6baa9e",
+  "target_sha256": "f89d963447095c6dbd9fe169e5f8be0b29b44bc9a7186d02e6e35f2809960eff",
+  "coverage": {
+    "canonical_passages": 92,
+    "translated_passages": 92,
+    "aligned_passages": 92
+  },
+  "ai_review_record": "corpus/reviews/andersen-the-little-mermaid/andersen-den-lille-havfrue-vi-ai-2026/ai-review-v2-2026-11-05.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "andersen-the-little-mermaid:1.28",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few sentences keep the rhythm of the Danish more than natural Vietnamese order."
+    }
+  ],
+  "title_review": {
+    "source_title": "Den lille Havfrue",
+    "target_title": "Nàng tiên cá nhỏ",
+    "rationale": "The title is translated as ‘Nàng tiên cá nhỏ’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "andersen-the-little-mermaid:1.2"
+      ],
+      "assessment": "The opening: the sea blue as a cornflower and clear as glass."
+    },
+    {
+      "passages": [
+        "andersen-the-little-mermaid:1.92"
+      ],
+      "assessment": "The last unit: the Daughters of the Air and the three hundred years."
+    }
+  ]
+}
