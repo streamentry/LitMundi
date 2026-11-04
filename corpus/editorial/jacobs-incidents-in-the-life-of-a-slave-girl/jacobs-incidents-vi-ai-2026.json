@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "work_id": "jacobs-incidents-in-the-life-of-a-slave-girl",
+  "edition_id": "jacobs-incidents-vi-ai-2026",
+  "source_edition_id": "jacobs-incidents-en-pg11030",
+  "title_vi": "Những biến cố trong đời một cô gái nô lệ",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Jacobs’s plain, earnest first person and her restraint about sexual coercion and violence are kept in grave, direct Vietnamese, without softening or intensifying.",
+      "rationale": "Her restraint is the argument."
+    },
+    {
+      "topic": "Scope",
+      "decision": "Only the author’s own text is translated; the editor’s introduction and the appendix of letters are not.",
+      "rationale": "They were written by others."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-jacobs-incidents-in-the-life-of-a-slave-girl",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "jacobs-incidents-in-the-life-of-a-slave-girl:3.19",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Feet would just escape the ground’ was rendered as just touching it, reversing the hoisting detail; corrected."
+        },
+        {
+          "segment": "jacobs-incidents-in-the-life-of-a-slave-girl:12.18",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "William, Linda’s younger brother, was written ‘anh tôi’ (my elder brother) and Uncle Phillip ‘chú’; corrected to ‘em trai tôi’ and ‘cậu Phillip’, and the grandmother’s address to Linda to ‘cháu’, throughout the book."
+        },
+        {
+          "segment": "jacobs-incidents-in-the-life-of-a-slave-girl:28.18",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘His cousin’, a young lady, was rendered as a male cousin; corrected."
+        },
+        {
+          "segment": "jacobs-incidents-in-the-life-of-a-slave-girl:34.6",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "William was addressed ‘Anh’ and the grandmother said ‘con’ to Linda in units 550 and 566; unified with the book’s kinship rules."
+        },
+        {
+          "segment": "jacobs-incidents-in-the-life-of-a-slave-girl:42.14",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Emily Flint’s younger brother and Mrs. Hobbs’s brother were written ‘anh’; now ‘em trai’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "William / Uncle Phillip / grandmother",
+      "draft_rendering": "em trai tôi / cậu Phillip / bà ngoại (says ‘cháu’)",
+      "alternatives": [],
+      "rationale": "Kinship forms are fixed once across the book.",
+      "passages": [
+        "jacobs-incidents-in-the-life-of-a-slave-girl:12.18",
+        "jacobs-incidents-in-the-life-of-a-slave-girl:16.40",
+        "jacobs-incidents-in-the-life-of-a-slave-girl:30.11"
+      ]
+    },
+    {
+      "source_term": "slurs spoken by slaveholders",
+      "draft_rendering": "đồ mọi",
+      "alternatives": [],
+      "rationale": "One consistent harsh insult, used only in the mouths of whites.",
+      "passages": [
+        "jacobs-incidents-in-the-life-of-a-slave-girl:5.53",
+        "jacobs-incidents-in-the-life-of-a-slave-girl:15.7",
+        "jacobs-incidents-in-the-life-of-a-slave-girl:33.1"
+      ]
+    },
+    {
+      "source_term": "the loophole of retreat",
+      "draft_rendering": "lối thoát nhỏ",
+      "alternatives": [],
+      "rationale": "Kept consistent as a chapter title and a motif.",
+      "passages": [
+        "jacobs-incidents-in-the-life-of-a-slave-girl:19.11",
+        "jacobs-incidents-in-the-life-of-a-slave-girl:20.7"
+      ]
+    },
+    {
+      "source_term": "Reader",
+      "draft_rendering": "bạn đọc",
+      "alternatives": [],
+      "rationale": "The author’s direct address.",
+      "passages": [
+        "jacobs-incidents-in-the-life-of-a-slave-girl:1.2",
+        "jacobs-incidents-in-the-life-of-a-slave-girl:1.3"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #11030, an electronic transcription of Incidents in the Life of a Slave Girl, Written by Herself, edited by L. Maria Child (Boston, 1861). The Gutenberg page does not name the exact printing and the text was not collated with the first edition.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "c43e13d5f6ddd3e44a206b0b6862846045b4d929c20a84499c32f25d749b1a0b",
+  "target_sha256": "ff07e8be68f3ecaf7c6b8acceafa8fbb590576f8deeb958679f8244bb5ac21ce",
+  "coverage": {
+    "canonical_passages": 727,
+    "translated_passages": 727,
+    "aligned_passages": 727
+  },
+  "ai_review_record": "corpus/reviews/jacobs-incidents-in-the-life-of-a-slave-girl/jacobs-incidents-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "jacobs-incidents-in-the-life-of-a-slave-girl:30.7",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Phillip says ‘con’ to Linda in unit 546, where ‘cháu’ is meant."
+    },
+    {
+      "segment": "jacobs-incidents-in-the-life-of-a-slave-girl:30.14",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Bad bill’ is rendered ‘hóa đơn’ instead of a banknote in unit 553."
+    }
+  ],
+  "title_review": {
+    "source_title": "Incidents in the Life of a Slave Girl",
+    "target_title": "Những biến cố trong đời một cô gái nô lệ",
+    "rationale": "The title is translated as ‘Những biến cố trong đời một cô gái nô lệ’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "jacobs-incidents-in-the-life-of-a-slave-girl:1.2"
+      ],
+      "assessment": "The opening of the preface: ‘Reader, be assured this narrative is no fiction.’"
+    },
+    {
+      "passages": [
+        "jacobs-incidents-in-the-life-of-a-slave-girl:42.37"
+      ],
+      "assessment": "The last unit: the grandmother’s memory ‘like light, fleecy clouds floating over a dark and troubled sea.’"
+    }
+  ]
+}
