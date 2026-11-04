@@ -6798,7 +6798,7 @@
       "title": "The Garden Party and Other Stories",
       "author": "Katherine Mansfield",
       "original_language": "en",
-      "publication_year": null,
+      "publication_year": 1922,
       "form": "collection",
       "tradition": "New Zealand",
       "priority_band": 3,
@@ -6806,10 +6806,10 @@
       "source_ids": [
         "west-pg-1429"
       ],
-      "rights_screen": "likely_public_domain",
-      "rights_note": "Old underlying work is a public-domain candidate only; exact witness, editorial layers, translators and relevant jurisdictions require a separate clearance.",
-      "publication_edition_id": null,
-      "status": "todo",
+      "rights_screen": "cleared_in_corpus",
+      "rights_note": "The exact source and Vietnamese edition have separate rights assessments in corpus/catalog/editions.json. Clearance is limited to those recorded witnesses, uses and jurisdictions; it is not a blanket license for other editions.",
+      "publication_edition_id": "mansfield-the-garden-party-and-other-stories-vi-ai-2026",
+      "status": "published",
       "vietnamese_supply": {
         "status": "not_audited",
         "atlas_work_id": null,

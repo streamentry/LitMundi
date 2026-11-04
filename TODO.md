@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 61 published · 213 todo · 0 in progress · 226 on hold.**
+**500 selected works · 62 published · 212 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -152,7 +152,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **128. Lewis Carroll — Alice's Adventures in Wonderland** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/11) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/carroll-alice-s-adventures-in-wonderland/carroll-alice-vi-ai-2026/)
 - [ ] **129. Kalidasa — Abhijnanasakuntalam / The Recognition of Shakuntala** · sa · play · **Todo** · [Evidence](https://claysanskritlibrary.org/volumes/)
 - [ ] **130. D. H. Lawrence — Sons and Lovers** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/217)
-- [ ] **131. Katherine Mansfield — The Garden Party and Other Stories** · en · collection · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/1429)
+- [x] **131. Katherine Mansfield — The Garden Party and Other Stories** · en · collection · **Published** · [Evidence](https://www.gutenberg.org/ebooks/1429) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/mansfield-the-garden-party-and-other-stories/mansfield-the-garden-party-and-other-stories-vi-ai-2026/)
 - [ ] **132. Kalidasa — Meghaduta / The Cloud Messenger** · sa · poem · **Todo** · [Evidence](https://claysanskritlibrary.org/volumes/)
 - [ ] **133. Mary Wollstonecraft — A Vindication of the Rights of Woman** · en · essay · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/3420)
 - [ ] **134. Shudraka (traditional attribution) — Mricchakatika / The Little Clay Cart** · sa · play · **Todo** · [Evidence](https://nyupress.org/9780814707296/little-clay-cart/)

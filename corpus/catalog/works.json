@@ -958,5 +958,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Garden Party, and Other Stories",
+    "author": "Katherine Mansfield",
+    "author_death_year": 1923,
+    "first_published_year": 1922,
+    "original_language": "en",
+    "genre": "collection",
+    "description": "Katherine Mansfield’s 1922 collection gathers fifteen stories, opening with “At the Bay”, a summer day at a New Zealand seaside, and “The Garden Party”, in which a family’s party goes ahead after a neighbour’s death. Others follow two sisters sorting out their dead father’s belongings, “The Daughters of the Late Colonel”, and a solitary teacher in a park on a Sunday, “Miss Brill”. Mansfield wrote several of them in Switzerland while ill with tuberculosis, and died the following January.",
+    "id": "mansfield-the-garden-party-and-other-stories",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
