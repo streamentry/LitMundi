@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "work_id": "mann-der-tod-in-venedig",
+  "edition_id": "mann-der-tod-in-venedig-vi-ai-2026",
+  "source_edition_id": "mann-der-tod-in-venedig-de-pg12108",
+  "title_vi": "Cái chết ở Venezia",
+  "translation_direction": "de → vi; direct from the specifically identified complete German electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Mann’s long periodic sentences, irony and classical allusions are kept in supple literary Vietnamese, broken only where clarity demands it.",
+      "rationale": "The novella’s effect is the slow dissolution of a disciplined style."
+    },
+    {
+      "topic": "Quotation marks",
+      "decision": "The source’s »…« become curly quotation marks with the same count per unit.",
+      "rationale": "Standard Vietnamese typography."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-05",
+      "cycle": "vietnamese-500-mann-der-tod-in-venedig",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "mann-der-tod-in-venedig:2.11",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Puppenstand’ (the pupa stage of an insect) was rendered as a puppet; now ‘giai đoạn nhộng’."
+        },
+        {
+          "segment": "mann-der-tod-in-venedig:3.53",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Mit gezogener Tressenmütze’ (cap doffed in greeting) was misread as a drawn cap in units 74 and 91; corrected."
+        },
+        {
+          "segment": "mann-der-tod-in-venedig:4.8",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The garbled syntax of the marble mass of language and the slender form freed from it was recast so the sense is exact."
+        },
+        {
+          "segment": "mann-der-tod-in-venedig:5.6",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Den Entbehrten’ (the one he lacked) was rendered with the wrong referent; corrected."
+        },
+        {
+          "segment": "mann-der-tod-in-venedig:5.43",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The title ‘Der Elende’ was rendered ‘Kẻ khốn cùng’ here and ‘Kẻ khốn nạn’ earlier; unified after review."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Cái chết ở Venezia",
+      "alternatives": [],
+      "rationale": "The usual rendering of the title; Venedig becomes Venezia.",
+      "passages": [
+        "mann-der-tod-in-venedig:1.1"
+      ]
+    },
+    {
+      "source_term": "chapter headings",
+      "draft_rendering": "Chương thứ nhất … Chương thứ năm",
+      "alternatives": [],
+      "rationale": "Ordinal chapter headings are kept as heading units.",
+      "passages": [
+        "mann-der-tod-in-venedig:1.1",
+        "mann-der-tod-in-venedig:2.2",
+        "mann-der-tod-in-venedig:3.3"
+      ]
+    },
+    {
+      "source_term": "Tadzio / Aschenbach",
+      "draft_rendering": "Tadzio (‘cậu bé’) / Aschenbach (‘ông’)",
+      "alternatives": [],
+      "rationale": "The two never speak, so no address pair arises.",
+      "passages": [
+        "mann-der-tod-in-venedig:3.19",
+        "mann-der-tod-in-venedig:3.39"
+      ]
+    },
+    {
+      "source_term": "Der Elende",
+      "draft_rendering": "Kẻ khốn nạn",
+      "alternatives": [],
+      "rationale": "Aschenbach’s own earlier work, named identically throughout.",
+      "passages": [
+        "mann-der-tod-in-venedig:2.10",
+        "mann-der-tod-in-venedig:5.43"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #12108, an electronic transcription of Der Tod in Venedig by Thomas Mann, following the edition Munich: Hyperion-Verlag Hans von Weber, 1912, as stated on the Gutenberg page. The text was not collated with the printed edition.",
+  "updated_at": "2026-11-05",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "35ea62053685377d4d591173420718a6aa8c35bc9a173e91870dc42cfe16bcd5",
+  "target_sha256": "19b6f932b134c7233fde28ec8af435dafb19748653b4a505686374d9a5f41179",
+  "coverage": {
+    "canonical_passages": 170,
+    "translated_passages": 170,
+    "aligned_passages": 170
+  },
+  "ai_review_record": "corpus/reviews/mann-der-tod-in-venedig/mann-der-tod-in-venedig-vi-ai-2026/ai-review-v2-2026-11-05.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "mann-der-tod-in-venedig:3.69",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Unit 90 keeps the source’s straight quotes around ‘Excelsior’."
+    },
+    {
+      "segment": "mann-der-tod-in-venedig:4.10",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few long periods keep the German clause order more than natural Vietnamese order."
+    }
+  ],
+  "title_review": {
+    "source_title": "Der Tod in Venedig",
+    "target_title": "Cái chết ở Venezia",
+    "rationale": "The title is translated as ‘Cái chết ở Venezia’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "mann-der-tod-in-venedig:1.2"
+      ],
+      "assessment": "The opening: the walk in Munich’s English Garden and the stranger at the cemetery."
+    },
+    {
+      "passages": [
+        "mann-der-tod-in-venedig:5.50"
+      ],
+      "assessment": "The last unit: the report of Aschenbach’s death."
+    }
+  ]
+}

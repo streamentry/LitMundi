@@ -1123,5 +1123,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Der Tod in Venedig",
+    "author": "Thomas Mann",
+    "author_death_year": 1955,
+    "first_published_year": 1912,
+    "original_language": "de",
+    "genre": "novella",
+    "description": "Death in Venice (Der Tod in Venedig, 1912) is a novella by Thomas Mann. Gustav von Aschenbach, an esteemed and recently ennobled writer, travels to Venice and takes rooms at a hotel on the Lido, where he becomes obsessed with a Polish boy of about fourteen. As the obsession deepens he abandons his lifelong discipline, and he stays on even after he learns that a cholera epidemic is spreading through the city.",
+    "id": "mann-der-tod-in-venedig",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
