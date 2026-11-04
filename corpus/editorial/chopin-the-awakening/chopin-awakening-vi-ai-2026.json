@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "work_id": "chopin-the-awakening",
+  "edition_id": "chopin-awakening-vi-ai-2026",
+  "source_edition_id": "chopin-awakening-en-pg160",
+  "title_vi": "Sự thức tỉnh",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Chopin’s cool, precise, ironic third person and her lyrical passages on the sea are rendered in natural, restrained Vietnamese; Edna’s awakening is neither moralised nor softened.",
+      "rationale": "The novel’s force is in its restraint."
+    },
+    {
+      "topic": "Foreign words",
+      "decision": "French and Spanish words and sung lines are kept as printed, with the surrounding text giving the sense.",
+      "rationale": "The Creole setting is part of the book’s sound."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-chopin-the-awakening",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "chopin-the-awakening:2.9",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Edna’s youngest sister Janet was called her elder sister (units 27, 46, 47 and 793) although she is the youngest; corrected."
+        },
+        {
+          "segment": "chopin-the-awakening:5.8",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The ‘like a dog’ idiom was misread (unit 72)."
+        },
+        {
+          "segment": "chopin-the-awakening:29.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘feverish’ was rendered as malarial chills (762), ‘knowing’ as ‘biết điều’ (663) and ‘told him it was plumb’ as ‘nói thẳng’ (776); corrected."
+        },
+        {
+          "segment": "chopin-the-awakening:31.2",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The narration called Edna ‘bà’ through unit 827 and ‘cô’ from unit 829 to the end with no source reason; ‘bà’ is now used throughout."
+        },
+        {
+          "segment": "chopin-the-awakening:1.17",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘dinner’ (the midday meal in the source) was rendered ‘bữa tối’ in units 17, 28, 30 and 154; now ‘bữa chính’, with unit 173 matching."
+        },
+        {
+          "segment": "chopin-the-awakening:15.12",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Lexical slips and calques (for example ‘ngày kia’ for ‘on such a day’, ‘grotesque’ rendered four ways) were corrected."
+        },
+        {
+          "segment": "chopin-the-awakening:23.8",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Address forms between Edna, Adèle, Victor and Reisz were made consistent across all ranges."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Mrs. Pontellier / Edna",
+      "draft_rendering": "bà Pontellier / Edna; the pronoun in narration is ‘bà’",
+      "alternatives": [],
+      "rationale": "One form of reference for Edna in narration throughout the book; a first draft switched from ‘bà’ to ‘cô’ in the second half.",
+      "passages": [
+        "chopin-the-awakening:1.1",
+        "chopin-the-awakening:7.1",
+        "chopin-the-awakening:33.32"
+      ]
+    },
+    {
+      "source_term": "Janet / Margaret (Edna’s sisters)",
+      "draft_rendering": "Margaret = chị; Janet = em gái út",
+      "alternatives": [],
+      "rationale": "Janet is the youngest sister; a first draft had called her the elder.",
+      "passages": [
+        "chopin-the-awakening:2.9",
+        "chopin-the-awakening:7.23",
+        "chopin-the-awakening:30.8"
+      ]
+    },
+    {
+      "source_term": "Edna ↔ Adèle / Victor / Reisz",
+      "draft_rendering": "Edna→Adèle ‘tôi/chị’ (intimate ‘em/chị’); Edna→Victor ‘cậu’; Edna→Reisz ‘tôi/bà’",
+      "alternatives": [],
+      "rationale": "Address forms fixed for the whole book after the first review.",
+      "passages": [
+        "chopin-the-awakening:7.13",
+        "chopin-the-awakening:30.35",
+        "chopin-the-awakening:26.22"
+      ]
+    },
+    {
+      "source_term": "French and Spanish words, sung lines",
+      "draft_rendering": "kept as printed",
+      "alternatives": [],
+      "rationale": "The parrot’s ‘Allez vous-en! Sapristi!’, ‘Ah! si tu savais’ and music titles stay in the original language as in the source.",
+      "passages": [
+        "chopin-the-awakening:1.3",
+        "chopin-the-awakening:30.26",
+        "chopin-the-awakening:30.36"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the novel The Awakening from Project Gutenberg #160, an electronic transcription of The Awakening and Selected Short Stories. The Gutenberg page does not name the printing; the text follows Kate Chopin’s 1899 novel (Chicago and New York: Herbert S. Stone) and was not collated with it.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "71efb19182d24dc76e76cca20742f42a1c0bb980fce692d07ea73786d503a61b",
+  "target_sha256": "65f54bbf8f4a62901e3156e35d8ef7ba1d79011ca2c9dda3aba2d9d55646beba",
+  "coverage": {
+    "canonical_passages": 1105,
+    "translated_passages": 1105,
+    "aligned_passages": 1105
+  },
+  "ai_review_record": "corpus/reviews/chopin-the-awakening/chopin-awakening-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.65,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "chopin-the-awakening:21.30",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few phrases remain slightly literal, for example ‘tham vọng tự phụ’ at unit 575."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Awakening",
+    "target_title": "Sự thức tỉnh",
+    "rationale": "The Vietnamese title ‘Sự thức tỉnh’ is this edition’s own rendering; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "chopin-the-awakening:1.2"
+      ],
+      "assessment": "The opening: the parrot in its cage on the porch."
+    },
+    {
+      "passages": [
+        "chopin-the-awakening:39.33"
+      ],
+      "assessment": "The last paragraph: the sea and the hum of bees."
+    }
+  ]
+}

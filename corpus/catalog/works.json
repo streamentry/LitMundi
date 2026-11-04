@@ -898,5 +898,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Awakening",
+    "author": "Kate Chopin",
+    "author_death_year": 1904,
+    "first_published_year": 1899,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "Edna Pontellier, the wife of a New Orleans businessman, spends a summer with her family at a Gulf Coast resort on Grand Isle. There a friendship, a piece of piano music and the sea set her questioning the roles of wife and mother that everyone around her takes for granted. Herbert S. Stone & Company published it in Chicago and New York in 1899.",
+    "id": "chopin-the-awakening",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

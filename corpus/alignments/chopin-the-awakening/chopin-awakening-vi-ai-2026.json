@@ -1,0 +1,8848 @@
+{
+  "schema_version": 1,
+  "work_id": "chopin-the-awakening",
+  "edition_id": "chopin-awakening-vi-ai-2026",
+  "source_edition_id": "chopin-awakening-en-pg160",
+  "links": [
+    {
+      "source": [
+        "chopin-the-awakening:1.1"
+      ],
+      "target": [
+        "chopin-the-awakening:1.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.2"
+      ],
+      "target": [
+        "chopin-the-awakening:1.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.3"
+      ],
+      "target": [
+        "chopin-the-awakening:1.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.4"
+      ],
+      "target": [
+        "chopin-the-awakening:1.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.5"
+      ],
+      "target": [
+        "chopin-the-awakening:1.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.6"
+      ],
+      "target": [
+        "chopin-the-awakening:1.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.7"
+      ],
+      "target": [
+        "chopin-the-awakening:1.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.8"
+      ],
+      "target": [
+        "chopin-the-awakening:1.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.9"
+      ],
+      "target": [
+        "chopin-the-awakening:1.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.10"
+      ],
+      "target": [
+        "chopin-the-awakening:1.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.11"
+      ],
+      "target": [
+        "chopin-the-awakening:1.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.12"
+      ],
+      "target": [
+        "chopin-the-awakening:1.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.13"
+      ],
+      "target": [
+        "chopin-the-awakening:1.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.14"
+      ],
+      "target": [
+        "chopin-the-awakening:1.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.15"
+      ],
+      "target": [
+        "chopin-the-awakening:1.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.16"
+      ],
+      "target": [
+        "chopin-the-awakening:1.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.17"
+      ],
+      "target": [
+        "chopin-the-awakening:1.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:1.18"
+      ],
+      "target": [
+        "chopin-the-awakening:1.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.1"
+      ],
+      "target": [
+        "chopin-the-awakening:2.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.2"
+      ],
+      "target": [
+        "chopin-the-awakening:2.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.3"
+      ],
+      "target": [
+        "chopin-the-awakening:2.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.4"
+      ],
+      "target": [
+        "chopin-the-awakening:2.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.5"
+      ],
+      "target": [
+        "chopin-the-awakening:2.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.6"
+      ],
+      "target": [
+        "chopin-the-awakening:2.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.7"
+      ],
+      "target": [
+        "chopin-the-awakening:2.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.8"
+      ],
+      "target": [
+        "chopin-the-awakening:2.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.9"
+      ],
+      "target": [
+        "chopin-the-awakening:2.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.10"
+      ],
+      "target": [
+        "chopin-the-awakening:2.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.11"
+      ],
+      "target": [
+        "chopin-the-awakening:2.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:2.12"
+      ],
+      "target": [
+        "chopin-the-awakening:2.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.1"
+      ],
+      "target": [
+        "chopin-the-awakening:3.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.2"
+      ],
+      "target": [
+        "chopin-the-awakening:3.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.3"
+      ],
+      "target": [
+        "chopin-the-awakening:3.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.4"
+      ],
+      "target": [
+        "chopin-the-awakening:3.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.5"
+      ],
+      "target": [
+        "chopin-the-awakening:3.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.6"
+      ],
+      "target": [
+        "chopin-the-awakening:3.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.7"
+      ],
+      "target": [
+        "chopin-the-awakening:3.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.8"
+      ],
+      "target": [
+        "chopin-the-awakening:3.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.9"
+      ],
+      "target": [
+        "chopin-the-awakening:3.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.10"
+      ],
+      "target": [
+        "chopin-the-awakening:3.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.11"
+      ],
+      "target": [
+        "chopin-the-awakening:3.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.12"
+      ],
+      "target": [
+        "chopin-the-awakening:3.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.13"
+      ],
+      "target": [
+        "chopin-the-awakening:3.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.14"
+      ],
+      "target": [
+        "chopin-the-awakening:3.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.15"
+      ],
+      "target": [
+        "chopin-the-awakening:3.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.16"
+      ],
+      "target": [
+        "chopin-the-awakening:3.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.17"
+      ],
+      "target": [
+        "chopin-the-awakening:3.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.18"
+      ],
+      "target": [
+        "chopin-the-awakening:3.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.19"
+      ],
+      "target": [
+        "chopin-the-awakening:3.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:3.20"
+      ],
+      "target": [
+        "chopin-the-awakening:3.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.1"
+      ],
+      "target": [
+        "chopin-the-awakening:4.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.2"
+      ],
+      "target": [
+        "chopin-the-awakening:4.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.3"
+      ],
+      "target": [
+        "chopin-the-awakening:4.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.4"
+      ],
+      "target": [
+        "chopin-the-awakening:4.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.5"
+      ],
+      "target": [
+        "chopin-the-awakening:4.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.6"
+      ],
+      "target": [
+        "chopin-the-awakening:4.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.7"
+      ],
+      "target": [
+        "chopin-the-awakening:4.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.8"
+      ],
+      "target": [
+        "chopin-the-awakening:4.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.9"
+      ],
+      "target": [
+        "chopin-the-awakening:4.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.10"
+      ],
+      "target": [
+        "chopin-the-awakening:4.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.11"
+      ],
+      "target": [
+        "chopin-the-awakening:4.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.12"
+      ],
+      "target": [
+        "chopin-the-awakening:4.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.13"
+      ],
+      "target": [
+        "chopin-the-awakening:4.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:4.14"
+      ],
+      "target": [
+        "chopin-the-awakening:4.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.1"
+      ],
+      "target": [
+        "chopin-the-awakening:5.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.2"
+      ],
+      "target": [
+        "chopin-the-awakening:5.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.3"
+      ],
+      "target": [
+        "chopin-the-awakening:5.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.4"
+      ],
+      "target": [
+        "chopin-the-awakening:5.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.5"
+      ],
+      "target": [
+        "chopin-the-awakening:5.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.6"
+      ],
+      "target": [
+        "chopin-the-awakening:5.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.7"
+      ],
+      "target": [
+        "chopin-the-awakening:5.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.8"
+      ],
+      "target": [
+        "chopin-the-awakening:5.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.9"
+      ],
+      "target": [
+        "chopin-the-awakening:5.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.10"
+      ],
+      "target": [
+        "chopin-the-awakening:5.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.11"
+      ],
+      "target": [
+        "chopin-the-awakening:5.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.12"
+      ],
+      "target": [
+        "chopin-the-awakening:5.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.13"
+      ],
+      "target": [
+        "chopin-the-awakening:5.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.14"
+      ],
+      "target": [
+        "chopin-the-awakening:5.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.15"
+      ],
+      "target": [
+        "chopin-the-awakening:5.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.16"
+      ],
+      "target": [
+        "chopin-the-awakening:5.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.17"
+      ],
+      "target": [
+        "chopin-the-awakening:5.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.18"
+      ],
+      "target": [
+        "chopin-the-awakening:5.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.19"
+      ],
+      "target": [
+        "chopin-the-awakening:5.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.20"
+      ],
+      "target": [
+        "chopin-the-awakening:5.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.21"
+      ],
+      "target": [
+        "chopin-the-awakening:5.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.22"
+      ],
+      "target": [
+        "chopin-the-awakening:5.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.23"
+      ],
+      "target": [
+        "chopin-the-awakening:5.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.24"
+      ],
+      "target": [
+        "chopin-the-awakening:5.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.25"
+      ],
+      "target": [
+        "chopin-the-awakening:5.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.26"
+      ],
+      "target": [
+        "chopin-the-awakening:5.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:5.27"
+      ],
+      "target": [
+        "chopin-the-awakening:5.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:6.1"
+      ],
+      "target": [
+        "chopin-the-awakening:6.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:6.2"
+      ],
+      "target": [
+        "chopin-the-awakening:6.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:6.3"
+      ],
+      "target": [
+        "chopin-the-awakening:6.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:6.4"
+      ],
+      "target": [
+        "chopin-the-awakening:6.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:6.5"
+      ],
+      "target": [
+        "chopin-the-awakening:6.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:6.6"
+      ],
+      "target": [
+        "chopin-the-awakening:6.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:6.7"
+      ],
+      "target": [
+        "chopin-the-awakening:6.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:6.8"
+      ],
+      "target": [
+        "chopin-the-awakening:6.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.1"
+      ],
+      "target": [
+        "chopin-the-awakening:7.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.2"
+      ],
+      "target": [
+        "chopin-the-awakening:7.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.3"
+      ],
+      "target": [
+        "chopin-the-awakening:7.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.4"
+      ],
+      "target": [
+        "chopin-the-awakening:7.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.5"
+      ],
+      "target": [
+        "chopin-the-awakening:7.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.6"
+      ],
+      "target": [
+        "chopin-the-awakening:7.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.7"
+      ],
+      "target": [
+        "chopin-the-awakening:7.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.8"
+      ],
+      "target": [
+        "chopin-the-awakening:7.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.9"
+      ],
+      "target": [
+        "chopin-the-awakening:7.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.10"
+      ],
+      "target": [
+        "chopin-the-awakening:7.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.11"
+      ],
+      "target": [
+        "chopin-the-awakening:7.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.12"
+      ],
+      "target": [
+        "chopin-the-awakening:7.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.13"
+      ],
+      "target": [
+        "chopin-the-awakening:7.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.14"
+      ],
+      "target": [
+        "chopin-the-awakening:7.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.15"
+      ],
+      "target": [
+        "chopin-the-awakening:7.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.16"
+      ],
+      "target": [
+        "chopin-the-awakening:7.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.17"
+      ],
+      "target": [
+        "chopin-the-awakening:7.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.18"
+      ],
+      "target": [
+        "chopin-the-awakening:7.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.19"
+      ],
+      "target": [
+        "chopin-the-awakening:7.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.20"
+      ],
+      "target": [
+        "chopin-the-awakening:7.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.21"
+      ],
+      "target": [
+        "chopin-the-awakening:7.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.22"
+      ],
+      "target": [
+        "chopin-the-awakening:7.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.23"
+      ],
+      "target": [
+        "chopin-the-awakening:7.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.24"
+      ],
+      "target": [
+        "chopin-the-awakening:7.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.25"
+      ],
+      "target": [
+        "chopin-the-awakening:7.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.26"
+      ],
+      "target": [
+        "chopin-the-awakening:7.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.27"
+      ],
+      "target": [
+        "chopin-the-awakening:7.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.28"
+      ],
+      "target": [
+        "chopin-the-awakening:7.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.29"
+      ],
+      "target": [
+        "chopin-the-awakening:7.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.30"
+      ],
+      "target": [
+        "chopin-the-awakening:7.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.31"
+      ],
+      "target": [
+        "chopin-the-awakening:7.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.32"
+      ],
+      "target": [
+        "chopin-the-awakening:7.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.33"
+      ],
+      "target": [
+        "chopin-the-awakening:7.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.34"
+      ],
+      "target": [
+        "chopin-the-awakening:7.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.35"
+      ],
+      "target": [
+        "chopin-the-awakening:7.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:7.36"
+      ],
+      "target": [
+        "chopin-the-awakening:7.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.1"
+      ],
+      "target": [
+        "chopin-the-awakening:8.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.2"
+      ],
+      "target": [
+        "chopin-the-awakening:8.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.3"
+      ],
+      "target": [
+        "chopin-the-awakening:8.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.4"
+      ],
+      "target": [
+        "chopin-the-awakening:8.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.5"
+      ],
+      "target": [
+        "chopin-the-awakening:8.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.6"
+      ],
+      "target": [
+        "chopin-the-awakening:8.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.7"
+      ],
+      "target": [
+        "chopin-the-awakening:8.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.8"
+      ],
+      "target": [
+        "chopin-the-awakening:8.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.9"
+      ],
+      "target": [
+        "chopin-the-awakening:8.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.10"
+      ],
+      "target": [
+        "chopin-the-awakening:8.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.11"
+      ],
+      "target": [
+        "chopin-the-awakening:8.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.12"
+      ],
+      "target": [
+        "chopin-the-awakening:8.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.13"
+      ],
+      "target": [
+        "chopin-the-awakening:8.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.14"
+      ],
+      "target": [
+        "chopin-the-awakening:8.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.15"
+      ],
+      "target": [
+        "chopin-the-awakening:8.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.16"
+      ],
+      "target": [
+        "chopin-the-awakening:8.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.17"
+      ],
+      "target": [
+        "chopin-the-awakening:8.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.18"
+      ],
+      "target": [
+        "chopin-the-awakening:8.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.19"
+      ],
+      "target": [
+        "chopin-the-awakening:8.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.20"
+      ],
+      "target": [
+        "chopin-the-awakening:8.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.21"
+      ],
+      "target": [
+        "chopin-the-awakening:8.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.22"
+      ],
+      "target": [
+        "chopin-the-awakening:8.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.23"
+      ],
+      "target": [
+        "chopin-the-awakening:8.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.24"
+      ],
+      "target": [
+        "chopin-the-awakening:8.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.25"
+      ],
+      "target": [
+        "chopin-the-awakening:8.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.26"
+      ],
+      "target": [
+        "chopin-the-awakening:8.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.27"
+      ],
+      "target": [
+        "chopin-the-awakening:8.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.28"
+      ],
+      "target": [
+        "chopin-the-awakening:8.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.29"
+      ],
+      "target": [
+        "chopin-the-awakening:8.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.30"
+      ],
+      "target": [
+        "chopin-the-awakening:8.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.31"
+      ],
+      "target": [
+        "chopin-the-awakening:8.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.32"
+      ],
+      "target": [
+        "chopin-the-awakening:8.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.33"
+      ],
+      "target": [
+        "chopin-the-awakening:8.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.34"
+      ],
+      "target": [
+        "chopin-the-awakening:8.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.35"
+      ],
+      "target": [
+        "chopin-the-awakening:8.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.36"
+      ],
+      "target": [
+        "chopin-the-awakening:8.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.37"
+      ],
+      "target": [
+        "chopin-the-awakening:8.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.38"
+      ],
+      "target": [
+        "chopin-the-awakening:8.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:8.39"
+      ],
+      "target": [
+        "chopin-the-awakening:8.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.1"
+      ],
+      "target": [
+        "chopin-the-awakening:9.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.2"
+      ],
+      "target": [
+        "chopin-the-awakening:9.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.3"
+      ],
+      "target": [
+        "chopin-the-awakening:9.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.4"
+      ],
+      "target": [
+        "chopin-the-awakening:9.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.5"
+      ],
+      "target": [
+        "chopin-the-awakening:9.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.6"
+      ],
+      "target": [
+        "chopin-the-awakening:9.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.7"
+      ],
+      "target": [
+        "chopin-the-awakening:9.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.8"
+      ],
+      "target": [
+        "chopin-the-awakening:9.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.9"
+      ],
+      "target": [
+        "chopin-the-awakening:9.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.10"
+      ],
+      "target": [
+        "chopin-the-awakening:9.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.11"
+      ],
+      "target": [
+        "chopin-the-awakening:9.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.12"
+      ],
+      "target": [
+        "chopin-the-awakening:9.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.13"
+      ],
+      "target": [
+        "chopin-the-awakening:9.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.14"
+      ],
+      "target": [
+        "chopin-the-awakening:9.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.15"
+      ],
+      "target": [
+        "chopin-the-awakening:9.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.16"
+      ],
+      "target": [
+        "chopin-the-awakening:9.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.17"
+      ],
+      "target": [
+        "chopin-the-awakening:9.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.18"
+      ],
+      "target": [
+        "chopin-the-awakening:9.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.19"
+      ],
+      "target": [
+        "chopin-the-awakening:9.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.20"
+      ],
+      "target": [
+        "chopin-the-awakening:9.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.21"
+      ],
+      "target": [
+        "chopin-the-awakening:9.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.22"
+      ],
+      "target": [
+        "chopin-the-awakening:9.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.23"
+      ],
+      "target": [
+        "chopin-the-awakening:9.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.24"
+      ],
+      "target": [
+        "chopin-the-awakening:9.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.25"
+      ],
+      "target": [
+        "chopin-the-awakening:9.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.26"
+      ],
+      "target": [
+        "chopin-the-awakening:9.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:9.27"
+      ],
+      "target": [
+        "chopin-the-awakening:9.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.1"
+      ],
+      "target": [
+        "chopin-the-awakening:10.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.2"
+      ],
+      "target": [
+        "chopin-the-awakening:10.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.3"
+      ],
+      "target": [
+        "chopin-the-awakening:10.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.4"
+      ],
+      "target": [
+        "chopin-the-awakening:10.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.5"
+      ],
+      "target": [
+        "chopin-the-awakening:10.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.6"
+      ],
+      "target": [
+        "chopin-the-awakening:10.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.7"
+      ],
+      "target": [
+        "chopin-the-awakening:10.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.8"
+      ],
+      "target": [
+        "chopin-the-awakening:10.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.9"
+      ],
+      "target": [
+        "chopin-the-awakening:10.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.10"
+      ],
+      "target": [
+        "chopin-the-awakening:10.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.11"
+      ],
+      "target": [
+        "chopin-the-awakening:10.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.12"
+      ],
+      "target": [
+        "chopin-the-awakening:10.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.13"
+      ],
+      "target": [
+        "chopin-the-awakening:10.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.14"
+      ],
+      "target": [
+        "chopin-the-awakening:10.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.15"
+      ],
+      "target": [
+        "chopin-the-awakening:10.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.16"
+      ],
+      "target": [
+        "chopin-the-awakening:10.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.17"
+      ],
+      "target": [
+        "chopin-the-awakening:10.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.18"
+      ],
+      "target": [
+        "chopin-the-awakening:10.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.19"
+      ],
+      "target": [
+        "chopin-the-awakening:10.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.20"
+      ],
+      "target": [
+        "chopin-the-awakening:10.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.21"
+      ],
+      "target": [
+        "chopin-the-awakening:10.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.22"
+      ],
+      "target": [
+        "chopin-the-awakening:10.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.23"
+      ],
+      "target": [
+        "chopin-the-awakening:10.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.24"
+      ],
+      "target": [
+        "chopin-the-awakening:10.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.25"
+      ],
+      "target": [
+        "chopin-the-awakening:10.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.26"
+      ],
+      "target": [
+        "chopin-the-awakening:10.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.27"
+      ],
+      "target": [
+        "chopin-the-awakening:10.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.28"
+      ],
+      "target": [
+        "chopin-the-awakening:10.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.29"
+      ],
+      "target": [
+        "chopin-the-awakening:10.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.30"
+      ],
+      "target": [
+        "chopin-the-awakening:10.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.31"
+      ],
+      "target": [
+        "chopin-the-awakening:10.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.32"
+      ],
+      "target": [
+        "chopin-the-awakening:10.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.33"
+      ],
+      "target": [
+        "chopin-the-awakening:10.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.34"
+      ],
+      "target": [
+        "chopin-the-awakening:10.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.35"
+      ],
+      "target": [
+        "chopin-the-awakening:10.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.36"
+      ],
+      "target": [
+        "chopin-the-awakening:10.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.37"
+      ],
+      "target": [
+        "chopin-the-awakening:10.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.38"
+      ],
+      "target": [
+        "chopin-the-awakening:10.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.39"
+      ],
+      "target": [
+        "chopin-the-awakening:10.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.40"
+      ],
+      "target": [
+        "chopin-the-awakening:10.40"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.41"
+      ],
+      "target": [
+        "chopin-the-awakening:10.41"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.42"
+      ],
+      "target": [
+        "chopin-the-awakening:10.42"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.43"
+      ],
+      "target": [
+        "chopin-the-awakening:10.43"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.44"
+      ],
+      "target": [
+        "chopin-the-awakening:10.44"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.45"
+      ],
+      "target": [
+        "chopin-the-awakening:10.45"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.46"
+      ],
+      "target": [
+        "chopin-the-awakening:10.46"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.47"
+      ],
+      "target": [
+        "chopin-the-awakening:10.47"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.48"
+      ],
+      "target": [
+        "chopin-the-awakening:10.48"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.49"
+      ],
+      "target": [
+        "chopin-the-awakening:10.49"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.50"
+      ],
+      "target": [
+        "chopin-the-awakening:10.50"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:10.51"
+      ],
+      "target": [
+        "chopin-the-awakening:10.51"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.1"
+      ],
+      "target": [
+        "chopin-the-awakening:11.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.2"
+      ],
+      "target": [
+        "chopin-the-awakening:11.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.3"
+      ],
+      "target": [
+        "chopin-the-awakening:11.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.4"
+      ],
+      "target": [
+        "chopin-the-awakening:11.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.5"
+      ],
+      "target": [
+        "chopin-the-awakening:11.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.6"
+      ],
+      "target": [
+        "chopin-the-awakening:11.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.7"
+      ],
+      "target": [
+        "chopin-the-awakening:11.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.8"
+      ],
+      "target": [
+        "chopin-the-awakening:11.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.9"
+      ],
+      "target": [
+        "chopin-the-awakening:11.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.10"
+      ],
+      "target": [
+        "chopin-the-awakening:11.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.11"
+      ],
+      "target": [
+        "chopin-the-awakening:11.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.12"
+      ],
+      "target": [
+        "chopin-the-awakening:11.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.13"
+      ],
+      "target": [
+        "chopin-the-awakening:11.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.14"
+      ],
+      "target": [
+        "chopin-the-awakening:11.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.15"
+      ],
+      "target": [
+        "chopin-the-awakening:11.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.16"
+      ],
+      "target": [
+        "chopin-the-awakening:11.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.17"
+      ],
+      "target": [
+        "chopin-the-awakening:11.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.18"
+      ],
+      "target": [
+        "chopin-the-awakening:11.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.19"
+      ],
+      "target": [
+        "chopin-the-awakening:11.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.20"
+      ],
+      "target": [
+        "chopin-the-awakening:11.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.21"
+      ],
+      "target": [
+        "chopin-the-awakening:11.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.22"
+      ],
+      "target": [
+        "chopin-the-awakening:11.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:11.23"
+      ],
+      "target": [
+        "chopin-the-awakening:11.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.1"
+      ],
+      "target": [
+        "chopin-the-awakening:12.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.2"
+      ],
+      "target": [
+        "chopin-the-awakening:12.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.3"
+      ],
+      "target": [
+        "chopin-the-awakening:12.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.4"
+      ],
+      "target": [
+        "chopin-the-awakening:12.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.5"
+      ],
+      "target": [
+        "chopin-the-awakening:12.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.6"
+      ],
+      "target": [
+        "chopin-the-awakening:12.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.7"
+      ],
+      "target": [
+        "chopin-the-awakening:12.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.8"
+      ],
+      "target": [
+        "chopin-the-awakening:12.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.9"
+      ],
+      "target": [
+        "chopin-the-awakening:12.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.10"
+      ],
+      "target": [
+        "chopin-the-awakening:12.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.11"
+      ],
+      "target": [
+        "chopin-the-awakening:12.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.12"
+      ],
+      "target": [
+        "chopin-the-awakening:12.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.13"
+      ],
+      "target": [
+        "chopin-the-awakening:12.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.14"
+      ],
+      "target": [
+        "chopin-the-awakening:12.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.15"
+      ],
+      "target": [
+        "chopin-the-awakening:12.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.16"
+      ],
+      "target": [
+        "chopin-the-awakening:12.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.17"
+      ],
+      "target": [
+        "chopin-the-awakening:12.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.18"
+      ],
+      "target": [
+        "chopin-the-awakening:12.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.19"
+      ],
+      "target": [
+        "chopin-the-awakening:12.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.20"
+      ],
+      "target": [
+        "chopin-the-awakening:12.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.21"
+      ],
+      "target": [
+        "chopin-the-awakening:12.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.22"
+      ],
+      "target": [
+        "chopin-the-awakening:12.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.23"
+      ],
+      "target": [
+        "chopin-the-awakening:12.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.24"
+      ],
+      "target": [
+        "chopin-the-awakening:12.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.25"
+      ],
+      "target": [
+        "chopin-the-awakening:12.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.26"
+      ],
+      "target": [
+        "chopin-the-awakening:12.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.27"
+      ],
+      "target": [
+        "chopin-the-awakening:12.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.28"
+      ],
+      "target": [
+        "chopin-the-awakening:12.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.29"
+      ],
+      "target": [
+        "chopin-the-awakening:12.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.30"
+      ],
+      "target": [
+        "chopin-the-awakening:12.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.31"
+      ],
+      "target": [
+        "chopin-the-awakening:12.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.32"
+      ],
+      "target": [
+        "chopin-the-awakening:12.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.33"
+      ],
+      "target": [
+        "chopin-the-awakening:12.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.34"
+      ],
+      "target": [
+        "chopin-the-awakening:12.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.35"
+      ],
+      "target": [
+        "chopin-the-awakening:12.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.36"
+      ],
+      "target": [
+        "chopin-the-awakening:12.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.37"
+      ],
+      "target": [
+        "chopin-the-awakening:12.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.38"
+      ],
+      "target": [
+        "chopin-the-awakening:12.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.39"
+      ],
+      "target": [
+        "chopin-the-awakening:12.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.40"
+      ],
+      "target": [
+        "chopin-the-awakening:12.40"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.41"
+      ],
+      "target": [
+        "chopin-the-awakening:12.41"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:12.42"
+      ],
+      "target": [
+        "chopin-the-awakening:12.42"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.1"
+      ],
+      "target": [
+        "chopin-the-awakening:13.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.2"
+      ],
+      "target": [
+        "chopin-the-awakening:13.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.3"
+      ],
+      "target": [
+        "chopin-the-awakening:13.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.4"
+      ],
+      "target": [
+        "chopin-the-awakening:13.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.5"
+      ],
+      "target": [
+        "chopin-the-awakening:13.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.6"
+      ],
+      "target": [
+        "chopin-the-awakening:13.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.7"
+      ],
+      "target": [
+        "chopin-the-awakening:13.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.8"
+      ],
+      "target": [
+        "chopin-the-awakening:13.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.9"
+      ],
+      "target": [
+        "chopin-the-awakening:13.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.10"
+      ],
+      "target": [
+        "chopin-the-awakening:13.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.11"
+      ],
+      "target": [
+        "chopin-the-awakening:13.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.12"
+      ],
+      "target": [
+        "chopin-the-awakening:13.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.13"
+      ],
+      "target": [
+        "chopin-the-awakening:13.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.14"
+      ],
+      "target": [
+        "chopin-the-awakening:13.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.15"
+      ],
+      "target": [
+        "chopin-the-awakening:13.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.16"
+      ],
+      "target": [
+        "chopin-the-awakening:13.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.17"
+      ],
+      "target": [
+        "chopin-the-awakening:13.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.18"
+      ],
+      "target": [
+        "chopin-the-awakening:13.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.19"
+      ],
+      "target": [
+        "chopin-the-awakening:13.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.20"
+      ],
+      "target": [
+        "chopin-the-awakening:13.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.21"
+      ],
+      "target": [
+        "chopin-the-awakening:13.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.22"
+      ],
+      "target": [
+        "chopin-the-awakening:13.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.23"
+      ],
+      "target": [
+        "chopin-the-awakening:13.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.24"
+      ],
+      "target": [
+        "chopin-the-awakening:13.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.25"
+      ],
+      "target": [
+        "chopin-the-awakening:13.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.26"
+      ],
+      "target": [
+        "chopin-the-awakening:13.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.27"
+      ],
+      "target": [
+        "chopin-the-awakening:13.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.28"
+      ],
+      "target": [
+        "chopin-the-awakening:13.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.29"
+      ],
+      "target": [
+        "chopin-the-awakening:13.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.30"
+      ],
+      "target": [
+        "chopin-the-awakening:13.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.31"
+      ],
+      "target": [
+        "chopin-the-awakening:13.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.32"
+      ],
+      "target": [
+        "chopin-the-awakening:13.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.33"
+      ],
+      "target": [
+        "chopin-the-awakening:13.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:13.34"
+      ],
+      "target": [
+        "chopin-the-awakening:13.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.1"
+      ],
+      "target": [
+        "chopin-the-awakening:14.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.2"
+      ],
+      "target": [
+        "chopin-the-awakening:14.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.3"
+      ],
+      "target": [
+        "chopin-the-awakening:14.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.4"
+      ],
+      "target": [
+        "chopin-the-awakening:14.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.5"
+      ],
+      "target": [
+        "chopin-the-awakening:14.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.6"
+      ],
+      "target": [
+        "chopin-the-awakening:14.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.7"
+      ],
+      "target": [
+        "chopin-the-awakening:14.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.8"
+      ],
+      "target": [
+        "chopin-the-awakening:14.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.9"
+      ],
+      "target": [
+        "chopin-the-awakening:14.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.10"
+      ],
+      "target": [
+        "chopin-the-awakening:14.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.11"
+      ],
+      "target": [
+        "chopin-the-awakening:14.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.12"
+      ],
+      "target": [
+        "chopin-the-awakening:14.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:14.13"
+      ],
+      "target": [
+        "chopin-the-awakening:14.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.1"
+      ],
+      "target": [
+        "chopin-the-awakening:15.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.2"
+      ],
+      "target": [
+        "chopin-the-awakening:15.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.3"
+      ],
+      "target": [
+        "chopin-the-awakening:15.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.4"
+      ],
+      "target": [
+        "chopin-the-awakening:15.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.5"
+      ],
+      "target": [
+        "chopin-the-awakening:15.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.6"
+      ],
+      "target": [
+        "chopin-the-awakening:15.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.7"
+      ],
+      "target": [
+        "chopin-the-awakening:15.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.8"
+      ],
+      "target": [
+        "chopin-the-awakening:15.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.9"
+      ],
+      "target": [
+        "chopin-the-awakening:15.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.10"
+      ],
+      "target": [
+        "chopin-the-awakening:15.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.11"
+      ],
+      "target": [
+        "chopin-the-awakening:15.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.12"
+      ],
+      "target": [
+        "chopin-the-awakening:15.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.13"
+      ],
+      "target": [
+        "chopin-the-awakening:15.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.14"
+      ],
+      "target": [
+        "chopin-the-awakening:15.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.15"
+      ],
+      "target": [
+        "chopin-the-awakening:15.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.16"
+      ],
+      "target": [
+        "chopin-the-awakening:15.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.17"
+      ],
+      "target": [
+        "chopin-the-awakening:15.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.18"
+      ],
+      "target": [
+        "chopin-the-awakening:15.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.19"
+      ],
+      "target": [
+        "chopin-the-awakening:15.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.20"
+      ],
+      "target": [
+        "chopin-the-awakening:15.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.21"
+      ],
+      "target": [
+        "chopin-the-awakening:15.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.22"
+      ],
+      "target": [
+        "chopin-the-awakening:15.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.23"
+      ],
+      "target": [
+        "chopin-the-awakening:15.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.24"
+      ],
+      "target": [
+        "chopin-the-awakening:15.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.25"
+      ],
+      "target": [
+        "chopin-the-awakening:15.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.26"
+      ],
+      "target": [
+        "chopin-the-awakening:15.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.27"
+      ],
+      "target": [
+        "chopin-the-awakening:15.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.28"
+      ],
+      "target": [
+        "chopin-the-awakening:15.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.29"
+      ],
+      "target": [
+        "chopin-the-awakening:15.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.30"
+      ],
+      "target": [
+        "chopin-the-awakening:15.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.31"
+      ],
+      "target": [
+        "chopin-the-awakening:15.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.32"
+      ],
+      "target": [
+        "chopin-the-awakening:15.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.33"
+      ],
+      "target": [
+        "chopin-the-awakening:15.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.34"
+      ],
+      "target": [
+        "chopin-the-awakening:15.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.35"
+      ],
+      "target": [
+        "chopin-the-awakening:15.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.36"
+      ],
+      "target": [
+        "chopin-the-awakening:15.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.37"
+      ],
+      "target": [
+        "chopin-the-awakening:15.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.38"
+      ],
+      "target": [
+        "chopin-the-awakening:15.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.39"
+      ],
+      "target": [
+        "chopin-the-awakening:15.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.40"
+      ],
+      "target": [
+        "chopin-the-awakening:15.40"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.41"
+      ],
+      "target": [
+        "chopin-the-awakening:15.41"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.42"
+      ],
+      "target": [
+        "chopin-the-awakening:15.42"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.43"
+      ],
+      "target": [
+        "chopin-the-awakening:15.43"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.44"
+      ],
+      "target": [
+        "chopin-the-awakening:15.44"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.45"
+      ],
+      "target": [
+        "chopin-the-awakening:15.45"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.46"
+      ],
+      "target": [
+        "chopin-the-awakening:15.46"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.47"
+      ],
+      "target": [
+        "chopin-the-awakening:15.47"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.48"
+      ],
+      "target": [
+        "chopin-the-awakening:15.48"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.49"
+      ],
+      "target": [
+        "chopin-the-awakening:15.49"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.50"
+      ],
+      "target": [
+        "chopin-the-awakening:15.50"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.51"
+      ],
+      "target": [
+        "chopin-the-awakening:15.51"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.52"
+      ],
+      "target": [
+        "chopin-the-awakening:15.52"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.53"
+      ],
+      "target": [
+        "chopin-the-awakening:15.53"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.54"
+      ],
+      "target": [
+        "chopin-the-awakening:15.54"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.55"
+      ],
+      "target": [
+        "chopin-the-awakening:15.55"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.56"
+      ],
+      "target": [
+        "chopin-the-awakening:15.56"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:15.57"
+      ],
+      "target": [
+        "chopin-the-awakening:15.57"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.1"
+      ],
+      "target": [
+        "chopin-the-awakening:16.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.2"
+      ],
+      "target": [
+        "chopin-the-awakening:16.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.3"
+      ],
+      "target": [
+        "chopin-the-awakening:16.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.4"
+      ],
+      "target": [
+        "chopin-the-awakening:16.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.5"
+      ],
+      "target": [
+        "chopin-the-awakening:16.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.6"
+      ],
+      "target": [
+        "chopin-the-awakening:16.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.7"
+      ],
+      "target": [
+        "chopin-the-awakening:16.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.8"
+      ],
+      "target": [
+        "chopin-the-awakening:16.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.9"
+      ],
+      "target": [
+        "chopin-the-awakening:16.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.10"
+      ],
+      "target": [
+        "chopin-the-awakening:16.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.11"
+      ],
+      "target": [
+        "chopin-the-awakening:16.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.12"
+      ],
+      "target": [
+        "chopin-the-awakening:16.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.13"
+      ],
+      "target": [
+        "chopin-the-awakening:16.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.14"
+      ],
+      "target": [
+        "chopin-the-awakening:16.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.15"
+      ],
+      "target": [
+        "chopin-the-awakening:16.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.16"
+      ],
+      "target": [
+        "chopin-the-awakening:16.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.17"
+      ],
+      "target": [
+        "chopin-the-awakening:16.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.18"
+      ],
+      "target": [
+        "chopin-the-awakening:16.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.19"
+      ],
+      "target": [
+        "chopin-the-awakening:16.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.20"
+      ],
+      "target": [
+        "chopin-the-awakening:16.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.21"
+      ],
+      "target": [
+        "chopin-the-awakening:16.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.22"
+      ],
+      "target": [
+        "chopin-the-awakening:16.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.23"
+      ],
+      "target": [
+        "chopin-the-awakening:16.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.24"
+      ],
+      "target": [
+        "chopin-the-awakening:16.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.25"
+      ],
+      "target": [
+        "chopin-the-awakening:16.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.26"
+      ],
+      "target": [
+        "chopin-the-awakening:16.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.27"
+      ],
+      "target": [
+        "chopin-the-awakening:16.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.28"
+      ],
+      "target": [
+        "chopin-the-awakening:16.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.29"
+      ],
+      "target": [
+        "chopin-the-awakening:16.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.30"
+      ],
+      "target": [
+        "chopin-the-awakening:16.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:16.31"
+      ],
+      "target": [
+        "chopin-the-awakening:16.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.1"
+      ],
+      "target": [
+        "chopin-the-awakening:17.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.2"
+      ],
+      "target": [
+        "chopin-the-awakening:17.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.3"
+      ],
+      "target": [
+        "chopin-the-awakening:17.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.4"
+      ],
+      "target": [
+        "chopin-the-awakening:17.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.5"
+      ],
+      "target": [
+        "chopin-the-awakening:17.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.6"
+      ],
+      "target": [
+        "chopin-the-awakening:17.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.7"
+      ],
+      "target": [
+        "chopin-the-awakening:17.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.8"
+      ],
+      "target": [
+        "chopin-the-awakening:17.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.9"
+      ],
+      "target": [
+        "chopin-the-awakening:17.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.10"
+      ],
+      "target": [
+        "chopin-the-awakening:17.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.11"
+      ],
+      "target": [
+        "chopin-the-awakening:17.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.12"
+      ],
+      "target": [
+        "chopin-the-awakening:17.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.13"
+      ],
+      "target": [
+        "chopin-the-awakening:17.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.14"
+      ],
+      "target": [
+        "chopin-the-awakening:17.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.15"
+      ],
+      "target": [
+        "chopin-the-awakening:17.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.16"
+      ],
+      "target": [
+        "chopin-the-awakening:17.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.17"
+      ],
+      "target": [
+        "chopin-the-awakening:17.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.18"
+      ],
+      "target": [
+        "chopin-the-awakening:17.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.19"
+      ],
+      "target": [
+        "chopin-the-awakening:17.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.20"
+      ],
+      "target": [
+        "chopin-the-awakening:17.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.21"
+      ],
+      "target": [
+        "chopin-the-awakening:17.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.22"
+      ],
+      "target": [
+        "chopin-the-awakening:17.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.23"
+      ],
+      "target": [
+        "chopin-the-awakening:17.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.24"
+      ],
+      "target": [
+        "chopin-the-awakening:17.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.25"
+      ],
+      "target": [
+        "chopin-the-awakening:17.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.26"
+      ],
+      "target": [
+        "chopin-the-awakening:17.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.27"
+      ],
+      "target": [
+        "chopin-the-awakening:17.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.28"
+      ],
+      "target": [
+        "chopin-the-awakening:17.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.29"
+      ],
+      "target": [
+        "chopin-the-awakening:17.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.30"
+      ],
+      "target": [
+        "chopin-the-awakening:17.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.31"
+      ],
+      "target": [
+        "chopin-the-awakening:17.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.32"
+      ],
+      "target": [
+        "chopin-the-awakening:17.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.33"
+      ],
+      "target": [
+        "chopin-the-awakening:17.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.34"
+      ],
+      "target": [
+        "chopin-the-awakening:17.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.35"
+      ],
+      "target": [
+        "chopin-the-awakening:17.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.36"
+      ],
+      "target": [
+        "chopin-the-awakening:17.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:17.37"
+      ],
+      "target": [
+        "chopin-the-awakening:17.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.1"
+      ],
+      "target": [
+        "chopin-the-awakening:18.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.2"
+      ],
+      "target": [
+        "chopin-the-awakening:18.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.3"
+      ],
+      "target": [
+        "chopin-the-awakening:18.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.4"
+      ],
+      "target": [
+        "chopin-the-awakening:18.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.5"
+      ],
+      "target": [
+        "chopin-the-awakening:18.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.6"
+      ],
+      "target": [
+        "chopin-the-awakening:18.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.7"
+      ],
+      "target": [
+        "chopin-the-awakening:18.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.8"
+      ],
+      "target": [
+        "chopin-the-awakening:18.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.9"
+      ],
+      "target": [
+        "chopin-the-awakening:18.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.10"
+      ],
+      "target": [
+        "chopin-the-awakening:18.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.11"
+      ],
+      "target": [
+        "chopin-the-awakening:18.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.12"
+      ],
+      "target": [
+        "chopin-the-awakening:18.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.13"
+      ],
+      "target": [
+        "chopin-the-awakening:18.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.14"
+      ],
+      "target": [
+        "chopin-the-awakening:18.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.15"
+      ],
+      "target": [
+        "chopin-the-awakening:18.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.16"
+      ],
+      "target": [
+        "chopin-the-awakening:18.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.17"
+      ],
+      "target": [
+        "chopin-the-awakening:18.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.18"
+      ],
+      "target": [
+        "chopin-the-awakening:18.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.19"
+      ],
+      "target": [
+        "chopin-the-awakening:18.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.20"
+      ],
+      "target": [
+        "chopin-the-awakening:18.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.21"
+      ],
+      "target": [
+        "chopin-the-awakening:18.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.22"
+      ],
+      "target": [
+        "chopin-the-awakening:18.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.23"
+      ],
+      "target": [
+        "chopin-the-awakening:18.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:18.24"
+      ],
+      "target": [
+        "chopin-the-awakening:18.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.1"
+      ],
+      "target": [
+        "chopin-the-awakening:19.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.2"
+      ],
+      "target": [
+        "chopin-the-awakening:19.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.3"
+      ],
+      "target": [
+        "chopin-the-awakening:19.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.4"
+      ],
+      "target": [
+        "chopin-the-awakening:19.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.5"
+      ],
+      "target": [
+        "chopin-the-awakening:19.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.6"
+      ],
+      "target": [
+        "chopin-the-awakening:19.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.7"
+      ],
+      "target": [
+        "chopin-the-awakening:19.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.8"
+      ],
+      "target": [
+        "chopin-the-awakening:19.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.9"
+      ],
+      "target": [
+        "chopin-the-awakening:19.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.10"
+      ],
+      "target": [
+        "chopin-the-awakening:19.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.11"
+      ],
+      "target": [
+        "chopin-the-awakening:19.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.12"
+      ],
+      "target": [
+        "chopin-the-awakening:19.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.13"
+      ],
+      "target": [
+        "chopin-the-awakening:19.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:19.14"
+      ],
+      "target": [
+        "chopin-the-awakening:19.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.1"
+      ],
+      "target": [
+        "chopin-the-awakening:20.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.2"
+      ],
+      "target": [
+        "chopin-the-awakening:20.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.3"
+      ],
+      "target": [
+        "chopin-the-awakening:20.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.4"
+      ],
+      "target": [
+        "chopin-the-awakening:20.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.5"
+      ],
+      "target": [
+        "chopin-the-awakening:20.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.6"
+      ],
+      "target": [
+        "chopin-the-awakening:20.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.7"
+      ],
+      "target": [
+        "chopin-the-awakening:20.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.8"
+      ],
+      "target": [
+        "chopin-the-awakening:20.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.9"
+      ],
+      "target": [
+        "chopin-the-awakening:20.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.10"
+      ],
+      "target": [
+        "chopin-the-awakening:20.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.11"
+      ],
+      "target": [
+        "chopin-the-awakening:20.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.12"
+      ],
+      "target": [
+        "chopin-the-awakening:20.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.13"
+      ],
+      "target": [
+        "chopin-the-awakening:20.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.14"
+      ],
+      "target": [
+        "chopin-the-awakening:20.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.15"
+      ],
+      "target": [
+        "chopin-the-awakening:20.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.16"
+      ],
+      "target": [
+        "chopin-the-awakening:20.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.17"
+      ],
+      "target": [
+        "chopin-the-awakening:20.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:20.18"
+      ],
+      "target": [
+        "chopin-the-awakening:20.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.1"
+      ],
+      "target": [
+        "chopin-the-awakening:21.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.2"
+      ],
+      "target": [
+        "chopin-the-awakening:21.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.3"
+      ],
+      "target": [
+        "chopin-the-awakening:21.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.4"
+      ],
+      "target": [
+        "chopin-the-awakening:21.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.5"
+      ],
+      "target": [
+        "chopin-the-awakening:21.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.6"
+      ],
+      "target": [
+        "chopin-the-awakening:21.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.7"
+      ],
+      "target": [
+        "chopin-the-awakening:21.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.8"
+      ],
+      "target": [
+        "chopin-the-awakening:21.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.9"
+      ],
+      "target": [
+        "chopin-the-awakening:21.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.10"
+      ],
+      "target": [
+        "chopin-the-awakening:21.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.11"
+      ],
+      "target": [
+        "chopin-the-awakening:21.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.12"
+      ],
+      "target": [
+        "chopin-the-awakening:21.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.13"
+      ],
+      "target": [
+        "chopin-the-awakening:21.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.14"
+      ],
+      "target": [
+        "chopin-the-awakening:21.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.15"
+      ],
+      "target": [
+        "chopin-the-awakening:21.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.16"
+      ],
+      "target": [
+        "chopin-the-awakening:21.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.17"
+      ],
+      "target": [
+        "chopin-the-awakening:21.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.18"
+      ],
+      "target": [
+        "chopin-the-awakening:21.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.19"
+      ],
+      "target": [
+        "chopin-the-awakening:21.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.20"
+      ],
+      "target": [
+        "chopin-the-awakening:21.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.21"
+      ],
+      "target": [
+        "chopin-the-awakening:21.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.22"
+      ],
+      "target": [
+        "chopin-the-awakening:21.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.23"
+      ],
+      "target": [
+        "chopin-the-awakening:21.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.24"
+      ],
+      "target": [
+        "chopin-the-awakening:21.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.25"
+      ],
+      "target": [
+        "chopin-the-awakening:21.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.26"
+      ],
+      "target": [
+        "chopin-the-awakening:21.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.27"
+      ],
+      "target": [
+        "chopin-the-awakening:21.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.28"
+      ],
+      "target": [
+        "chopin-the-awakening:21.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.29"
+      ],
+      "target": [
+        "chopin-the-awakening:21.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.30"
+      ],
+      "target": [
+        "chopin-the-awakening:21.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.31"
+      ],
+      "target": [
+        "chopin-the-awakening:21.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.32"
+      ],
+      "target": [
+        "chopin-the-awakening:21.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.33"
+      ],
+      "target": [
+        "chopin-the-awakening:21.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.34"
+      ],
+      "target": [
+        "chopin-the-awakening:21.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.35"
+      ],
+      "target": [
+        "chopin-the-awakening:21.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.36"
+      ],
+      "target": [
+        "chopin-the-awakening:21.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.37"
+      ],
+      "target": [
+        "chopin-the-awakening:21.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.38"
+      ],
+      "target": [
+        "chopin-the-awakening:21.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.39"
+      ],
+      "target": [
+        "chopin-the-awakening:21.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.40"
+      ],
+      "target": [
+        "chopin-the-awakening:21.40"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.41"
+      ],
+      "target": [
+        "chopin-the-awakening:21.41"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.42"
+      ],
+      "target": [
+        "chopin-the-awakening:21.42"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:21.43"
+      ],
+      "target": [
+        "chopin-the-awakening:21.43"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.1"
+      ],
+      "target": [
+        "chopin-the-awakening:22.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.2"
+      ],
+      "target": [
+        "chopin-the-awakening:22.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.3"
+      ],
+      "target": [
+        "chopin-the-awakening:22.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.4"
+      ],
+      "target": [
+        "chopin-the-awakening:22.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.5"
+      ],
+      "target": [
+        "chopin-the-awakening:22.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.6"
+      ],
+      "target": [
+        "chopin-the-awakening:22.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.7"
+      ],
+      "target": [
+        "chopin-the-awakening:22.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.8"
+      ],
+      "target": [
+        "chopin-the-awakening:22.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.9"
+      ],
+      "target": [
+        "chopin-the-awakening:22.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.10"
+      ],
+      "target": [
+        "chopin-the-awakening:22.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.11"
+      ],
+      "target": [
+        "chopin-the-awakening:22.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.12"
+      ],
+      "target": [
+        "chopin-the-awakening:22.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.13"
+      ],
+      "target": [
+        "chopin-the-awakening:22.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.14"
+      ],
+      "target": [
+        "chopin-the-awakening:22.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.15"
+      ],
+      "target": [
+        "chopin-the-awakening:22.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.16"
+      ],
+      "target": [
+        "chopin-the-awakening:22.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.17"
+      ],
+      "target": [
+        "chopin-the-awakening:22.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.18"
+      ],
+      "target": [
+        "chopin-the-awakening:22.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.19"
+      ],
+      "target": [
+        "chopin-the-awakening:22.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.20"
+      ],
+      "target": [
+        "chopin-the-awakening:22.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.21"
+      ],
+      "target": [
+        "chopin-the-awakening:22.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.22"
+      ],
+      "target": [
+        "chopin-the-awakening:22.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.23"
+      ],
+      "target": [
+        "chopin-the-awakening:22.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.24"
+      ],
+      "target": [
+        "chopin-the-awakening:22.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.25"
+      ],
+      "target": [
+        "chopin-the-awakening:22.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.26"
+      ],
+      "target": [
+        "chopin-the-awakening:22.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.27"
+      ],
+      "target": [
+        "chopin-the-awakening:22.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.28"
+      ],
+      "target": [
+        "chopin-the-awakening:22.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.29"
+      ],
+      "target": [
+        "chopin-the-awakening:22.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.30"
+      ],
+      "target": [
+        "chopin-the-awakening:22.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.31"
+      ],
+      "target": [
+        "chopin-the-awakening:22.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.32"
+      ],
+      "target": [
+        "chopin-the-awakening:22.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:22.33"
+      ],
+      "target": [
+        "chopin-the-awakening:22.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.1"
+      ],
+      "target": [
+        "chopin-the-awakening:23.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.2"
+      ],
+      "target": [
+        "chopin-the-awakening:23.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.3"
+      ],
+      "target": [
+        "chopin-the-awakening:23.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.4"
+      ],
+      "target": [
+        "chopin-the-awakening:23.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.5"
+      ],
+      "target": [
+        "chopin-the-awakening:23.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.6"
+      ],
+      "target": [
+        "chopin-the-awakening:23.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.7"
+      ],
+      "target": [
+        "chopin-the-awakening:23.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.8"
+      ],
+      "target": [
+        "chopin-the-awakening:23.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.9"
+      ],
+      "target": [
+        "chopin-the-awakening:23.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.10"
+      ],
+      "target": [
+        "chopin-the-awakening:23.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.11"
+      ],
+      "target": [
+        "chopin-the-awakening:23.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.12"
+      ],
+      "target": [
+        "chopin-the-awakening:23.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.13"
+      ],
+      "target": [
+        "chopin-the-awakening:23.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.14"
+      ],
+      "target": [
+        "chopin-the-awakening:23.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.15"
+      ],
+      "target": [
+        "chopin-the-awakening:23.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.16"
+      ],
+      "target": [
+        "chopin-the-awakening:23.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.17"
+      ],
+      "target": [
+        "chopin-the-awakening:23.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.18"
+      ],
+      "target": [
+        "chopin-the-awakening:23.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.19"
+      ],
+      "target": [
+        "chopin-the-awakening:23.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:23.20"
+      ],
+      "target": [
+        "chopin-the-awakening:23.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.1"
+      ],
+      "target": [
+        "chopin-the-awakening:24.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.2"
+      ],
+      "target": [
+        "chopin-the-awakening:24.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.3"
+      ],
+      "target": [
+        "chopin-the-awakening:24.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.4"
+      ],
+      "target": [
+        "chopin-the-awakening:24.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.5"
+      ],
+      "target": [
+        "chopin-the-awakening:24.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.6"
+      ],
+      "target": [
+        "chopin-the-awakening:24.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.7"
+      ],
+      "target": [
+        "chopin-the-awakening:24.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.8"
+      ],
+      "target": [
+        "chopin-the-awakening:24.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.9"
+      ],
+      "target": [
+        "chopin-the-awakening:24.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.10"
+      ],
+      "target": [
+        "chopin-the-awakening:24.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.11"
+      ],
+      "target": [
+        "chopin-the-awakening:24.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.12"
+      ],
+      "target": [
+        "chopin-the-awakening:24.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.13"
+      ],
+      "target": [
+        "chopin-the-awakening:24.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:24.14"
+      ],
+      "target": [
+        "chopin-the-awakening:24.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.1"
+      ],
+      "target": [
+        "chopin-the-awakening:25.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.2"
+      ],
+      "target": [
+        "chopin-the-awakening:25.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.3"
+      ],
+      "target": [
+        "chopin-the-awakening:25.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.4"
+      ],
+      "target": [
+        "chopin-the-awakening:25.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.5"
+      ],
+      "target": [
+        "chopin-the-awakening:25.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.6"
+      ],
+      "target": [
+        "chopin-the-awakening:25.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.7"
+      ],
+      "target": [
+        "chopin-the-awakening:25.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.8"
+      ],
+      "target": [
+        "chopin-the-awakening:25.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.9"
+      ],
+      "target": [
+        "chopin-the-awakening:25.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.10"
+      ],
+      "target": [
+        "chopin-the-awakening:25.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.11"
+      ],
+      "target": [
+        "chopin-the-awakening:25.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.12"
+      ],
+      "target": [
+        "chopin-the-awakening:25.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.13"
+      ],
+      "target": [
+        "chopin-the-awakening:25.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.14"
+      ],
+      "target": [
+        "chopin-the-awakening:25.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.15"
+      ],
+      "target": [
+        "chopin-the-awakening:25.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.16"
+      ],
+      "target": [
+        "chopin-the-awakening:25.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.17"
+      ],
+      "target": [
+        "chopin-the-awakening:25.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.18"
+      ],
+      "target": [
+        "chopin-the-awakening:25.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.19"
+      ],
+      "target": [
+        "chopin-the-awakening:25.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.20"
+      ],
+      "target": [
+        "chopin-the-awakening:25.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.21"
+      ],
+      "target": [
+        "chopin-the-awakening:25.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.22"
+      ],
+      "target": [
+        "chopin-the-awakening:25.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.23"
+      ],
+      "target": [
+        "chopin-the-awakening:25.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.24"
+      ],
+      "target": [
+        "chopin-the-awakening:25.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.25"
+      ],
+      "target": [
+        "chopin-the-awakening:25.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.26"
+      ],
+      "target": [
+        "chopin-the-awakening:25.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.27"
+      ],
+      "target": [
+        "chopin-the-awakening:25.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.28"
+      ],
+      "target": [
+        "chopin-the-awakening:25.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.29"
+      ],
+      "target": [
+        "chopin-the-awakening:25.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.30"
+      ],
+      "target": [
+        "chopin-the-awakening:25.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.31"
+      ],
+      "target": [
+        "chopin-the-awakening:25.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.32"
+      ],
+      "target": [
+        "chopin-the-awakening:25.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.33"
+      ],
+      "target": [
+        "chopin-the-awakening:25.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.34"
+      ],
+      "target": [
+        "chopin-the-awakening:25.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.35"
+      ],
+      "target": [
+        "chopin-the-awakening:25.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.36"
+      ],
+      "target": [
+        "chopin-the-awakening:25.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:25.37"
+      ],
+      "target": [
+        "chopin-the-awakening:25.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.1"
+      ],
+      "target": [
+        "chopin-the-awakening:26.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.2"
+      ],
+      "target": [
+        "chopin-the-awakening:26.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.3"
+      ],
+      "target": [
+        "chopin-the-awakening:26.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.4"
+      ],
+      "target": [
+        "chopin-the-awakening:26.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.5"
+      ],
+      "target": [
+        "chopin-the-awakening:26.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.6"
+      ],
+      "target": [
+        "chopin-the-awakening:26.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.7"
+      ],
+      "target": [
+        "chopin-the-awakening:26.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.8"
+      ],
+      "target": [
+        "chopin-the-awakening:26.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.9"
+      ],
+      "target": [
+        "chopin-the-awakening:26.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.10"
+      ],
+      "target": [
+        "chopin-the-awakening:26.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.11"
+      ],
+      "target": [
+        "chopin-the-awakening:26.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.12"
+      ],
+      "target": [
+        "chopin-the-awakening:26.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.13"
+      ],
+      "target": [
+        "chopin-the-awakening:26.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.14"
+      ],
+      "target": [
+        "chopin-the-awakening:26.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.15"
+      ],
+      "target": [
+        "chopin-the-awakening:26.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.16"
+      ],
+      "target": [
+        "chopin-the-awakening:26.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.17"
+      ],
+      "target": [
+        "chopin-the-awakening:26.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.18"
+      ],
+      "target": [
+        "chopin-the-awakening:26.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.19"
+      ],
+      "target": [
+        "chopin-the-awakening:26.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.20"
+      ],
+      "target": [
+        "chopin-the-awakening:26.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.21"
+      ],
+      "target": [
+        "chopin-the-awakening:26.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.22"
+      ],
+      "target": [
+        "chopin-the-awakening:26.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.23"
+      ],
+      "target": [
+        "chopin-the-awakening:26.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.24"
+      ],
+      "target": [
+        "chopin-the-awakening:26.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.25"
+      ],
+      "target": [
+        "chopin-the-awakening:26.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.26"
+      ],
+      "target": [
+        "chopin-the-awakening:26.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.27"
+      ],
+      "target": [
+        "chopin-the-awakening:26.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.28"
+      ],
+      "target": [
+        "chopin-the-awakening:26.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.29"
+      ],
+      "target": [
+        "chopin-the-awakening:26.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.30"
+      ],
+      "target": [
+        "chopin-the-awakening:26.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.31"
+      ],
+      "target": [
+        "chopin-the-awakening:26.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.32"
+      ],
+      "target": [
+        "chopin-the-awakening:26.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.33"
+      ],
+      "target": [
+        "chopin-the-awakening:26.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.34"
+      ],
+      "target": [
+        "chopin-the-awakening:26.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.35"
+      ],
+      "target": [
+        "chopin-the-awakening:26.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.36"
+      ],
+      "target": [
+        "chopin-the-awakening:26.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.37"
+      ],
+      "target": [
+        "chopin-the-awakening:26.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.38"
+      ],
+      "target": [
+        "chopin-the-awakening:26.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.39"
+      ],
+      "target": [
+        "chopin-the-awakening:26.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.40"
+      ],
+      "target": [
+        "chopin-the-awakening:26.40"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.41"
+      ],
+      "target": [
+        "chopin-the-awakening:26.41"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.42"
+      ],
+      "target": [
+        "chopin-the-awakening:26.42"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.43"
+      ],
+      "target": [
+        "chopin-the-awakening:26.43"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.44"
+      ],
+      "target": [
+        "chopin-the-awakening:26.44"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:26.45"
+      ],
+      "target": [
+        "chopin-the-awakening:26.45"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.1"
+      ],
+      "target": [
+        "chopin-the-awakening:27.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.2"
+      ],
+      "target": [
+        "chopin-the-awakening:27.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.3"
+      ],
+      "target": [
+        "chopin-the-awakening:27.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.4"
+      ],
+      "target": [
+        "chopin-the-awakening:27.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.5"
+      ],
+      "target": [
+        "chopin-the-awakening:27.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.6"
+      ],
+      "target": [
+        "chopin-the-awakening:27.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.7"
+      ],
+      "target": [
+        "chopin-the-awakening:27.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.8"
+      ],
+      "target": [
+        "chopin-the-awakening:27.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.9"
+      ],
+      "target": [
+        "chopin-the-awakening:27.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.10"
+      ],
+      "target": [
+        "chopin-the-awakening:27.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.11"
+      ],
+      "target": [
+        "chopin-the-awakening:27.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.12"
+      ],
+      "target": [
+        "chopin-the-awakening:27.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.13"
+      ],
+      "target": [
+        "chopin-the-awakening:27.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.14"
+      ],
+      "target": [
+        "chopin-the-awakening:27.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.15"
+      ],
+      "target": [
+        "chopin-the-awakening:27.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.16"
+      ],
+      "target": [
+        "chopin-the-awakening:27.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.17"
+      ],
+      "target": [
+        "chopin-the-awakening:27.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.18"
+      ],
+      "target": [
+        "chopin-the-awakening:27.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.19"
+      ],
+      "target": [
+        "chopin-the-awakening:27.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.20"
+      ],
+      "target": [
+        "chopin-the-awakening:27.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:27.21"
+      ],
+      "target": [
+        "chopin-the-awakening:27.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:28.1"
+      ],
+      "target": [
+        "chopin-the-awakening:28.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:28.2"
+      ],
+      "target": [
+        "chopin-the-awakening:28.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.1"
+      ],
+      "target": [
+        "chopin-the-awakening:29.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.2"
+      ],
+      "target": [
+        "chopin-the-awakening:29.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.3"
+      ],
+      "target": [
+        "chopin-the-awakening:29.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.4"
+      ],
+      "target": [
+        "chopin-the-awakening:29.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.5"
+      ],
+      "target": [
+        "chopin-the-awakening:29.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.6"
+      ],
+      "target": [
+        "chopin-the-awakening:29.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.7"
+      ],
+      "target": [
+        "chopin-the-awakening:29.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.8"
+      ],
+      "target": [
+        "chopin-the-awakening:29.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.9"
+      ],
+      "target": [
+        "chopin-the-awakening:29.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.10"
+      ],
+      "target": [
+        "chopin-the-awakening:29.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.11"
+      ],
+      "target": [
+        "chopin-the-awakening:29.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.12"
+      ],
+      "target": [
+        "chopin-the-awakening:29.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.13"
+      ],
+      "target": [
+        "chopin-the-awakening:29.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.14"
+      ],
+      "target": [
+        "chopin-the-awakening:29.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.15"
+      ],
+      "target": [
+        "chopin-the-awakening:29.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.16"
+      ],
+      "target": [
+        "chopin-the-awakening:29.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.17"
+      ],
+      "target": [
+        "chopin-the-awakening:29.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.18"
+      ],
+      "target": [
+        "chopin-the-awakening:29.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.19"
+      ],
+      "target": [
+        "chopin-the-awakening:29.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.20"
+      ],
+      "target": [
+        "chopin-the-awakening:29.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.21"
+      ],
+      "target": [
+        "chopin-the-awakening:29.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.22"
+      ],
+      "target": [
+        "chopin-the-awakening:29.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.23"
+      ],
+      "target": [
+        "chopin-the-awakening:29.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.24"
+      ],
+      "target": [
+        "chopin-the-awakening:29.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:29.25"
+      ],
+      "target": [
+        "chopin-the-awakening:29.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.1"
+      ],
+      "target": [
+        "chopin-the-awakening:30.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.2"
+      ],
+      "target": [
+        "chopin-the-awakening:30.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.3"
+      ],
+      "target": [
+        "chopin-the-awakening:30.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.4"
+      ],
+      "target": [
+        "chopin-the-awakening:30.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.5"
+      ],
+      "target": [
+        "chopin-the-awakening:30.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.6"
+      ],
+      "target": [
+        "chopin-the-awakening:30.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.7"
+      ],
+      "target": [
+        "chopin-the-awakening:30.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.8"
+      ],
+      "target": [
+        "chopin-the-awakening:30.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.9"
+      ],
+      "target": [
+        "chopin-the-awakening:30.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.10"
+      ],
+      "target": [
+        "chopin-the-awakening:30.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.11"
+      ],
+      "target": [
+        "chopin-the-awakening:30.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.12"
+      ],
+      "target": [
+        "chopin-the-awakening:30.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.13"
+      ],
+      "target": [
+        "chopin-the-awakening:30.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.14"
+      ],
+      "target": [
+        "chopin-the-awakening:30.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.15"
+      ],
+      "target": [
+        "chopin-the-awakening:30.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.16"
+      ],
+      "target": [
+        "chopin-the-awakening:30.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.17"
+      ],
+      "target": [
+        "chopin-the-awakening:30.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.18"
+      ],
+      "target": [
+        "chopin-the-awakening:30.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.19"
+      ],
+      "target": [
+        "chopin-the-awakening:30.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.20"
+      ],
+      "target": [
+        "chopin-the-awakening:30.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.21"
+      ],
+      "target": [
+        "chopin-the-awakening:30.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.22"
+      ],
+      "target": [
+        "chopin-the-awakening:30.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.23"
+      ],
+      "target": [
+        "chopin-the-awakening:30.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.24"
+      ],
+      "target": [
+        "chopin-the-awakening:30.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.25"
+      ],
+      "target": [
+        "chopin-the-awakening:30.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.26"
+      ],
+      "target": [
+        "chopin-the-awakening:30.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.27"
+      ],
+      "target": [
+        "chopin-the-awakening:30.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.28"
+      ],
+      "target": [
+        "chopin-the-awakening:30.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.29"
+      ],
+      "target": [
+        "chopin-the-awakening:30.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.30"
+      ],
+      "target": [
+        "chopin-the-awakening:30.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.31"
+      ],
+      "target": [
+        "chopin-the-awakening:30.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.32"
+      ],
+      "target": [
+        "chopin-the-awakening:30.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.33"
+      ],
+      "target": [
+        "chopin-the-awakening:30.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.34"
+      ],
+      "target": [
+        "chopin-the-awakening:30.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.35"
+      ],
+      "target": [
+        "chopin-the-awakening:30.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.36"
+      ],
+      "target": [
+        "chopin-the-awakening:30.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.37"
+      ],
+      "target": [
+        "chopin-the-awakening:30.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.38"
+      ],
+      "target": [
+        "chopin-the-awakening:30.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.39"
+      ],
+      "target": [
+        "chopin-the-awakening:30.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.40"
+      ],
+      "target": [
+        "chopin-the-awakening:30.40"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.41"
+      ],
+      "target": [
+        "chopin-the-awakening:30.41"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:30.42"
+      ],
+      "target": [
+        "chopin-the-awakening:30.42"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.1"
+      ],
+      "target": [
+        "chopin-the-awakening:31.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.2"
+      ],
+      "target": [
+        "chopin-the-awakening:31.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.3"
+      ],
+      "target": [
+        "chopin-the-awakening:31.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.4"
+      ],
+      "target": [
+        "chopin-the-awakening:31.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.5"
+      ],
+      "target": [
+        "chopin-the-awakening:31.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.6"
+      ],
+      "target": [
+        "chopin-the-awakening:31.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.7"
+      ],
+      "target": [
+        "chopin-the-awakening:31.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.8"
+      ],
+      "target": [
+        "chopin-the-awakening:31.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.9"
+      ],
+      "target": [
+        "chopin-the-awakening:31.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.10"
+      ],
+      "target": [
+        "chopin-the-awakening:31.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.11"
+      ],
+      "target": [
+        "chopin-the-awakening:31.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.12"
+      ],
+      "target": [
+        "chopin-the-awakening:31.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.13"
+      ],
+      "target": [
+        "chopin-the-awakening:31.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.14"
+      ],
+      "target": [
+        "chopin-the-awakening:31.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.15"
+      ],
+      "target": [
+        "chopin-the-awakening:31.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.16"
+      ],
+      "target": [
+        "chopin-the-awakening:31.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.17"
+      ],
+      "target": [
+        "chopin-the-awakening:31.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.18"
+      ],
+      "target": [
+        "chopin-the-awakening:31.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.19"
+      ],
+      "target": [
+        "chopin-the-awakening:31.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.20"
+      ],
+      "target": [
+        "chopin-the-awakening:31.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.21"
+      ],
+      "target": [
+        "chopin-the-awakening:31.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.22"
+      ],
+      "target": [
+        "chopin-the-awakening:31.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.23"
+      ],
+      "target": [
+        "chopin-the-awakening:31.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.24"
+      ],
+      "target": [
+        "chopin-the-awakening:31.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.25"
+      ],
+      "target": [
+        "chopin-the-awakening:31.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.26"
+      ],
+      "target": [
+        "chopin-the-awakening:31.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.27"
+      ],
+      "target": [
+        "chopin-the-awakening:31.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:31.28"
+      ],
+      "target": [
+        "chopin-the-awakening:31.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.1"
+      ],
+      "target": [
+        "chopin-the-awakening:32.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.2"
+      ],
+      "target": [
+        "chopin-the-awakening:32.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.3"
+      ],
+      "target": [
+        "chopin-the-awakening:32.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.4"
+      ],
+      "target": [
+        "chopin-the-awakening:32.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.5"
+      ],
+      "target": [
+        "chopin-the-awakening:32.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.6"
+      ],
+      "target": [
+        "chopin-the-awakening:32.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.7"
+      ],
+      "target": [
+        "chopin-the-awakening:32.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.8"
+      ],
+      "target": [
+        "chopin-the-awakening:32.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.9"
+      ],
+      "target": [
+        "chopin-the-awakening:32.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.10"
+      ],
+      "target": [
+        "chopin-the-awakening:32.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.11"
+      ],
+      "target": [
+        "chopin-the-awakening:32.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.12"
+      ],
+      "target": [
+        "chopin-the-awakening:32.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:32.13"
+      ],
+      "target": [
+        "chopin-the-awakening:32.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.1"
+      ],
+      "target": [
+        "chopin-the-awakening:33.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.2"
+      ],
+      "target": [
+        "chopin-the-awakening:33.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.3"
+      ],
+      "target": [
+        "chopin-the-awakening:33.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.4"
+      ],
+      "target": [
+        "chopin-the-awakening:33.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.5"
+      ],
+      "target": [
+        "chopin-the-awakening:33.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.6"
+      ],
+      "target": [
+        "chopin-the-awakening:33.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.7"
+      ],
+      "target": [
+        "chopin-the-awakening:33.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.8"
+      ],
+      "target": [
+        "chopin-the-awakening:33.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.9"
+      ],
+      "target": [
+        "chopin-the-awakening:33.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.10"
+      ],
+      "target": [
+        "chopin-the-awakening:33.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.11"
+      ],
+      "target": [
+        "chopin-the-awakening:33.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.12"
+      ],
+      "target": [
+        "chopin-the-awakening:33.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.13"
+      ],
+      "target": [
+        "chopin-the-awakening:33.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.14"
+      ],
+      "target": [
+        "chopin-the-awakening:33.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.15"
+      ],
+      "target": [
+        "chopin-the-awakening:33.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.16"
+      ],
+      "target": [
+        "chopin-the-awakening:33.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.17"
+      ],
+      "target": [
+        "chopin-the-awakening:33.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.18"
+      ],
+      "target": [
+        "chopin-the-awakening:33.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.19"
+      ],
+      "target": [
+        "chopin-the-awakening:33.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.20"
+      ],
+      "target": [
+        "chopin-the-awakening:33.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.21"
+      ],
+      "target": [
+        "chopin-the-awakening:33.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.22"
+      ],
+      "target": [
+        "chopin-the-awakening:33.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.23"
+      ],
+      "target": [
+        "chopin-the-awakening:33.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.24"
+      ],
+      "target": [
+        "chopin-the-awakening:33.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.25"
+      ],
+      "target": [
+        "chopin-the-awakening:33.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.26"
+      ],
+      "target": [
+        "chopin-the-awakening:33.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.27"
+      ],
+      "target": [
+        "chopin-the-awakening:33.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.28"
+      ],
+      "target": [
+        "chopin-the-awakening:33.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.29"
+      ],
+      "target": [
+        "chopin-the-awakening:33.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.30"
+      ],
+      "target": [
+        "chopin-the-awakening:33.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.31"
+      ],
+      "target": [
+        "chopin-the-awakening:33.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.32"
+      ],
+      "target": [
+        "chopin-the-awakening:33.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.33"
+      ],
+      "target": [
+        "chopin-the-awakening:33.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.34"
+      ],
+      "target": [
+        "chopin-the-awakening:33.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.35"
+      ],
+      "target": [
+        "chopin-the-awakening:33.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.36"
+      ],
+      "target": [
+        "chopin-the-awakening:33.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.37"
+      ],
+      "target": [
+        "chopin-the-awakening:33.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.38"
+      ],
+      "target": [
+        "chopin-the-awakening:33.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.39"
+      ],
+      "target": [
+        "chopin-the-awakening:33.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.40"
+      ],
+      "target": [
+        "chopin-the-awakening:33.40"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.41"
+      ],
+      "target": [
+        "chopin-the-awakening:33.41"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.42"
+      ],
+      "target": [
+        "chopin-the-awakening:33.42"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.43"
+      ],
+      "target": [
+        "chopin-the-awakening:33.43"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.44"
+      ],
+      "target": [
+        "chopin-the-awakening:33.44"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.45"
+      ],
+      "target": [
+        "chopin-the-awakening:33.45"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.46"
+      ],
+      "target": [
+        "chopin-the-awakening:33.46"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.47"
+      ],
+      "target": [
+        "chopin-the-awakening:33.47"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.48"
+      ],
+      "target": [
+        "chopin-the-awakening:33.48"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.49"
+      ],
+      "target": [
+        "chopin-the-awakening:33.49"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.50"
+      ],
+      "target": [
+        "chopin-the-awakening:33.50"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.51"
+      ],
+      "target": [
+        "chopin-the-awakening:33.51"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.52"
+      ],
+      "target": [
+        "chopin-the-awakening:33.52"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.53"
+      ],
+      "target": [
+        "chopin-the-awakening:33.53"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.54"
+      ],
+      "target": [
+        "chopin-the-awakening:33.54"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.55"
+      ],
+      "target": [
+        "chopin-the-awakening:33.55"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.56"
+      ],
+      "target": [
+        "chopin-the-awakening:33.56"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.57"
+      ],
+      "target": [
+        "chopin-the-awakening:33.57"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.58"
+      ],
+      "target": [
+        "chopin-the-awakening:33.58"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:33.59"
+      ],
+      "target": [
+        "chopin-the-awakening:33.59"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.1"
+      ],
+      "target": [
+        "chopin-the-awakening:34.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.2"
+      ],
+      "target": [
+        "chopin-the-awakening:34.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.3"
+      ],
+      "target": [
+        "chopin-the-awakening:34.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.4"
+      ],
+      "target": [
+        "chopin-the-awakening:34.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.5"
+      ],
+      "target": [
+        "chopin-the-awakening:34.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.6"
+      ],
+      "target": [
+        "chopin-the-awakening:34.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.7"
+      ],
+      "target": [
+        "chopin-the-awakening:34.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.8"
+      ],
+      "target": [
+        "chopin-the-awakening:34.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.9"
+      ],
+      "target": [
+        "chopin-the-awakening:34.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.10"
+      ],
+      "target": [
+        "chopin-the-awakening:34.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.11"
+      ],
+      "target": [
+        "chopin-the-awakening:34.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.12"
+      ],
+      "target": [
+        "chopin-the-awakening:34.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.13"
+      ],
+      "target": [
+        "chopin-the-awakening:34.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.14"
+      ],
+      "target": [
+        "chopin-the-awakening:34.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.15"
+      ],
+      "target": [
+        "chopin-the-awakening:34.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.16"
+      ],
+      "target": [
+        "chopin-the-awakening:34.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.17"
+      ],
+      "target": [
+        "chopin-the-awakening:34.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.18"
+      ],
+      "target": [
+        "chopin-the-awakening:34.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.19"
+      ],
+      "target": [
+        "chopin-the-awakening:34.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.20"
+      ],
+      "target": [
+        "chopin-the-awakening:34.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.21"
+      ],
+      "target": [
+        "chopin-the-awakening:34.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.22"
+      ],
+      "target": [
+        "chopin-the-awakening:34.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.23"
+      ],
+      "target": [
+        "chopin-the-awakening:34.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.24"
+      ],
+      "target": [
+        "chopin-the-awakening:34.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.25"
+      ],
+      "target": [
+        "chopin-the-awakening:34.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.26"
+      ],
+      "target": [
+        "chopin-the-awakening:34.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.27"
+      ],
+      "target": [
+        "chopin-the-awakening:34.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.28"
+      ],
+      "target": [
+        "chopin-the-awakening:34.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.29"
+      ],
+      "target": [
+        "chopin-the-awakening:34.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.30"
+      ],
+      "target": [
+        "chopin-the-awakening:34.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.31"
+      ],
+      "target": [
+        "chopin-the-awakening:34.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.32"
+      ],
+      "target": [
+        "chopin-the-awakening:34.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.33"
+      ],
+      "target": [
+        "chopin-the-awakening:34.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.34"
+      ],
+      "target": [
+        "chopin-the-awakening:34.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.35"
+      ],
+      "target": [
+        "chopin-the-awakening:34.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.36"
+      ],
+      "target": [
+        "chopin-the-awakening:34.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.37"
+      ],
+      "target": [
+        "chopin-the-awakening:34.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.38"
+      ],
+      "target": [
+        "chopin-the-awakening:34.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.39"
+      ],
+      "target": [
+        "chopin-the-awakening:34.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.40"
+      ],
+      "target": [
+        "chopin-the-awakening:34.40"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.41"
+      ],
+      "target": [
+        "chopin-the-awakening:34.41"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.42"
+      ],
+      "target": [
+        "chopin-the-awakening:34.42"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.43"
+      ],
+      "target": [
+        "chopin-the-awakening:34.43"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.44"
+      ],
+      "target": [
+        "chopin-the-awakening:34.44"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.45"
+      ],
+      "target": [
+        "chopin-the-awakening:34.45"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.46"
+      ],
+      "target": [
+        "chopin-the-awakening:34.46"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:34.47"
+      ],
+      "target": [
+        "chopin-the-awakening:34.47"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.1"
+      ],
+      "target": [
+        "chopin-the-awakening:35.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.2"
+      ],
+      "target": [
+        "chopin-the-awakening:35.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.3"
+      ],
+      "target": [
+        "chopin-the-awakening:35.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.4"
+      ],
+      "target": [
+        "chopin-the-awakening:35.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.5"
+      ],
+      "target": [
+        "chopin-the-awakening:35.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.6"
+      ],
+      "target": [
+        "chopin-the-awakening:35.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.7"
+      ],
+      "target": [
+        "chopin-the-awakening:35.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.8"
+      ],
+      "target": [
+        "chopin-the-awakening:35.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.9"
+      ],
+      "target": [
+        "chopin-the-awakening:35.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.10"
+      ],
+      "target": [
+        "chopin-the-awakening:35.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.11"
+      ],
+      "target": [
+        "chopin-the-awakening:35.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.12"
+      ],
+      "target": [
+        "chopin-the-awakening:35.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.13"
+      ],
+      "target": [
+        "chopin-the-awakening:35.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:35.14"
+      ],
+      "target": [
+        "chopin-the-awakening:35.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.1"
+      ],
+      "target": [
+        "chopin-the-awakening:36.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.2"
+      ],
+      "target": [
+        "chopin-the-awakening:36.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.3"
+      ],
+      "target": [
+        "chopin-the-awakening:36.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.4"
+      ],
+      "target": [
+        "chopin-the-awakening:36.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.5"
+      ],
+      "target": [
+        "chopin-the-awakening:36.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.6"
+      ],
+      "target": [
+        "chopin-the-awakening:36.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.7"
+      ],
+      "target": [
+        "chopin-the-awakening:36.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.8"
+      ],
+      "target": [
+        "chopin-the-awakening:36.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.9"
+      ],
+      "target": [
+        "chopin-the-awakening:36.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.10"
+      ],
+      "target": [
+        "chopin-the-awakening:36.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.11"
+      ],
+      "target": [
+        "chopin-the-awakening:36.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.12"
+      ],
+      "target": [
+        "chopin-the-awakening:36.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.13"
+      ],
+      "target": [
+        "chopin-the-awakening:36.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.14"
+      ],
+      "target": [
+        "chopin-the-awakening:36.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.15"
+      ],
+      "target": [
+        "chopin-the-awakening:36.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.16"
+      ],
+      "target": [
+        "chopin-the-awakening:36.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.17"
+      ],
+      "target": [
+        "chopin-the-awakening:36.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.18"
+      ],
+      "target": [
+        "chopin-the-awakening:36.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.19"
+      ],
+      "target": [
+        "chopin-the-awakening:36.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.20"
+      ],
+      "target": [
+        "chopin-the-awakening:36.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.21"
+      ],
+      "target": [
+        "chopin-the-awakening:36.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.22"
+      ],
+      "target": [
+        "chopin-the-awakening:36.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.23"
+      ],
+      "target": [
+        "chopin-the-awakening:36.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.24"
+      ],
+      "target": [
+        "chopin-the-awakening:36.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.25"
+      ],
+      "target": [
+        "chopin-the-awakening:36.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.26"
+      ],
+      "target": [
+        "chopin-the-awakening:36.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.27"
+      ],
+      "target": [
+        "chopin-the-awakening:36.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.28"
+      ],
+      "target": [
+        "chopin-the-awakening:36.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.29"
+      ],
+      "target": [
+        "chopin-the-awakening:36.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.30"
+      ],
+      "target": [
+        "chopin-the-awakening:36.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.31"
+      ],
+      "target": [
+        "chopin-the-awakening:36.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.32"
+      ],
+      "target": [
+        "chopin-the-awakening:36.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.33"
+      ],
+      "target": [
+        "chopin-the-awakening:36.33"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.34"
+      ],
+      "target": [
+        "chopin-the-awakening:36.34"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.35"
+      ],
+      "target": [
+        "chopin-the-awakening:36.35"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.36"
+      ],
+      "target": [
+        "chopin-the-awakening:36.36"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.37"
+      ],
+      "target": [
+        "chopin-the-awakening:36.37"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.38"
+      ],
+      "target": [
+        "chopin-the-awakening:36.38"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.39"
+      ],
+      "target": [
+        "chopin-the-awakening:36.39"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.40"
+      ],
+      "target": [
+        "chopin-the-awakening:36.40"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.41"
+      ],
+      "target": [
+        "chopin-the-awakening:36.41"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.42"
+      ],
+      "target": [
+        "chopin-the-awakening:36.42"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.43"
+      ],
+      "target": [
+        "chopin-the-awakening:36.43"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.44"
+      ],
+      "target": [
+        "chopin-the-awakening:36.44"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.45"
+      ],
+      "target": [
+        "chopin-the-awakening:36.45"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.46"
+      ],
+      "target": [
+        "chopin-the-awakening:36.46"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.47"
+      ],
+      "target": [
+        "chopin-the-awakening:36.47"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.48"
+      ],
+      "target": [
+        "chopin-the-awakening:36.48"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.49"
+      ],
+      "target": [
+        "chopin-the-awakening:36.49"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.50"
+      ],
+      "target": [
+        "chopin-the-awakening:36.50"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.51"
+      ],
+      "target": [
+        "chopin-the-awakening:36.51"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:36.52"
+      ],
+      "target": [
+        "chopin-the-awakening:36.52"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.1"
+      ],
+      "target": [
+        "chopin-the-awakening:37.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.2"
+      ],
+      "target": [
+        "chopin-the-awakening:37.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.3"
+      ],
+      "target": [
+        "chopin-the-awakening:37.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.4"
+      ],
+      "target": [
+        "chopin-the-awakening:37.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.5"
+      ],
+      "target": [
+        "chopin-the-awakening:37.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.6"
+      ],
+      "target": [
+        "chopin-the-awakening:37.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.7"
+      ],
+      "target": [
+        "chopin-the-awakening:37.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.8"
+      ],
+      "target": [
+        "chopin-the-awakening:37.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.9"
+      ],
+      "target": [
+        "chopin-the-awakening:37.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.10"
+      ],
+      "target": [
+        "chopin-the-awakening:37.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.11"
+      ],
+      "target": [
+        "chopin-the-awakening:37.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.12"
+      ],
+      "target": [
+        "chopin-the-awakening:37.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:37.13"
+      ],
+      "target": [
+        "chopin-the-awakening:37.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.1"
+      ],
+      "target": [
+        "chopin-the-awakening:38.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.2"
+      ],
+      "target": [
+        "chopin-the-awakening:38.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.3"
+      ],
+      "target": [
+        "chopin-the-awakening:38.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.4"
+      ],
+      "target": [
+        "chopin-the-awakening:38.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.5"
+      ],
+      "target": [
+        "chopin-the-awakening:38.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.6"
+      ],
+      "target": [
+        "chopin-the-awakening:38.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.7"
+      ],
+      "target": [
+        "chopin-the-awakening:38.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.8"
+      ],
+      "target": [
+        "chopin-the-awakening:38.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.9"
+      ],
+      "target": [
+        "chopin-the-awakening:38.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.10"
+      ],
+      "target": [
+        "chopin-the-awakening:38.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.11"
+      ],
+      "target": [
+        "chopin-the-awakening:38.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.12"
+      ],
+      "target": [
+        "chopin-the-awakening:38.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.13"
+      ],
+      "target": [
+        "chopin-the-awakening:38.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.14"
+      ],
+      "target": [
+        "chopin-the-awakening:38.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.15"
+      ],
+      "target": [
+        "chopin-the-awakening:38.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.16"
+      ],
+      "target": [
+        "chopin-the-awakening:38.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.17"
+      ],
+      "target": [
+        "chopin-the-awakening:38.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.18"
+      ],
+      "target": [
+        "chopin-the-awakening:38.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:38.19"
+      ],
+      "target": [
+        "chopin-the-awakening:38.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.1"
+      ],
+      "target": [
+        "chopin-the-awakening:39.1"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.2"
+      ],
+      "target": [
+        "chopin-the-awakening:39.2"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.3"
+      ],
+      "target": [
+        "chopin-the-awakening:39.3"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.4"
+      ],
+      "target": [
+        "chopin-the-awakening:39.4"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.5"
+      ],
+      "target": [
+        "chopin-the-awakening:39.5"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.6"
+      ],
+      "target": [
+        "chopin-the-awakening:39.6"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.7"
+      ],
+      "target": [
+        "chopin-the-awakening:39.7"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.8"
+      ],
+      "target": [
+        "chopin-the-awakening:39.8"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.9"
+      ],
+      "target": [
+        "chopin-the-awakening:39.9"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.10"
+      ],
+      "target": [
+        "chopin-the-awakening:39.10"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.11"
+      ],
+      "target": [
+        "chopin-the-awakening:39.11"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.12"
+      ],
+      "target": [
+        "chopin-the-awakening:39.12"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.13"
+      ],
+      "target": [
+        "chopin-the-awakening:39.13"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.14"
+      ],
+      "target": [
+        "chopin-the-awakening:39.14"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.15"
+      ],
+      "target": [
+        "chopin-the-awakening:39.15"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.16"
+      ],
+      "target": [
+        "chopin-the-awakening:39.16"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.17"
+      ],
+      "target": [
+        "chopin-the-awakening:39.17"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.18"
+      ],
+      "target": [
+        "chopin-the-awakening:39.18"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.19"
+      ],
+      "target": [
+        "chopin-the-awakening:39.19"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.20"
+      ],
+      "target": [
+        "chopin-the-awakening:39.20"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.21"
+      ],
+      "target": [
+        "chopin-the-awakening:39.21"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.22"
+      ],
+      "target": [
+        "chopin-the-awakening:39.22"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.23"
+      ],
+      "target": [
+        "chopin-the-awakening:39.23"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.24"
+      ],
+      "target": [
+        "chopin-the-awakening:39.24"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.25"
+      ],
+      "target": [
+        "chopin-the-awakening:39.25"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.26"
+      ],
+      "target": [
+        "chopin-the-awakening:39.26"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.27"
+      ],
+      "target": [
+        "chopin-the-awakening:39.27"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.28"
+      ],
+      "target": [
+        "chopin-the-awakening:39.28"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.29"
+      ],
+      "target": [
+        "chopin-the-awakening:39.29"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.30"
+      ],
+      "target": [
+        "chopin-the-awakening:39.30"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.31"
+      ],
+      "target": [
+        "chopin-the-awakening:39.31"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.32"
+      ],
+      "target": [
+        "chopin-the-awakening:39.32"
+      ]
+    },
+    {
+      "source": [
+        "chopin-the-awakening:39.33"
+      ],
+      "target": [
+        "chopin-the-awakening:39.33"
+      ]
+    }
+  ]
+}

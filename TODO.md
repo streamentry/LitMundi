@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 57 published · 217 todo · 0 in progress · 226 on hold.**
+**500 selected works · 58 published · 216 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -106,7 +106,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **085. Frederick Douglass — Narrative of the Life of Frederick Douglass, an American Slave** · en · memoir · **Published** · [Evidence](https://www.gutenberg.org/ebooks/23) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/douglass-narrative-of-the-life-of-frederick-douglass-an-american-slave/douglass-narrative-vi-ai-2026/)
 - [ ] **086. Harriet Jacobs — Incidents in the Life of a Slave Girl** · en · memoir · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/11030)
 - [ ] **087. Natsume Soseki — I Am a Cat** · ja · novel · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person148.html)
-- [ ] **088. Kate Chopin — The Awakening** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/160)
+- [x] **088. Kate Chopin — The Awakening** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/160) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/chopin-the-awakening/chopin-awakening-vi-ai-2026/)
 - [ ] **089. Akiko Yosano — Midaregami / Tangled Hair** · ja · poetry collection · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person885.html)
 - [ ] **090. Edith Wharton — The Age of Innocence** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/541)
 - [x] **091. Henry James — The Turn of the Screw** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/209) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/james-the-turn-of-the-screw/james-screw-vi-ai-2026/)
