@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "work_id": "austen-persuasion",
+  "edition_id": "austen-persuasion-vi-ai-2026",
+  "source_edition_id": "austen-persuasion-en-pg105",
+  "title_vi": "Thuyết phục",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Austen’s balanced periodic narration, irony and free indirect style through Anne are recast into idiomatic Vietnamese periods, not copied clause by clause.",
+      "rationale": "The first drafts were too close to the English; naturalness was the weakest score."
+    },
+    {
+      "topic": "Pronouns",
+      "decision": "‘Nàng’ for Anne and ‘chàng’ for Wentworth in narration; other men ‘anh’/‘ông’ and other women ‘cô’/‘bà’.",
+      "rationale": "Keeps the two leads distinct from the rest of the cast."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-austen-persuasion",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "austen-persuasion:18.25",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Not inconsolable’ was mistranslated; corrected."
+        },
+        {
+          "segment": "austen-persuasion:20.52",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Could she have believed it’, a question about belief, was turned into a wish; corrected."
+        },
+        {
+          "segment": "austen-persuasion:10.35",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The proverbial eavesdropper’s fate was inverted; now ‘không nghe được lời nào tốt về mình’."
+        },
+        {
+          "segment": "austen-persuasion:2.17",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Anne was called Elizabeth’s elder sister; she is the younger."
+        },
+        {
+          "segment": "austen-persuasion:21.3",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Their union’ (Anne’s and Wentworth’s) was read as a marriage to Mr Elliot; corrected."
+        },
+        {
+          "segment": "austen-persuasion:23.6",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Which good Mrs Musgrove could not give’ was inverted; now the lack of taste is hers."
+        },
+        {
+          "segment": "austen-persuasion:9.5",
+          "category": "target_naturalness",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Charles Hayter was narrated with Wentworth’s marker ‘chàng’ and Mary as ‘bà’, so Hayter and Henrietta read as Wentworth and Anne; pronouns unified (nàng = Anne, chàng = Wentworth, anh for other young men, cô for Mary and the Miss Musgroves)."
+        },
+        {
+          "segment": "austen-persuasion:1.1",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Narration pronouns were inconsistent across slices; one system now runs through the book."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Thuyết phục",
+      "alternatives": [],
+      "rationale": "Anne’s ‘persuasion’ is the book’s hinge.",
+      "passages": [
+        "austen-persuasion:1.1"
+      ]
+    },
+    {
+      "source_term": "narration pronouns for the leads",
+      "draft_rendering": "nàng = Anne; chàng = Captain Wentworth",
+      "alternatives": [],
+      "rationale": "A single romance-register pair that keeps the two leads distinct.",
+      "passages": [
+        "austen-persuasion:1.2",
+        "austen-persuasion:9.22",
+        "austen-persuasion:19.28"
+      ]
+    },
+    {
+      "source_term": "Captain Wentworth / Admiral Croft / Lady Russell",
+      "draft_rendering": "thuyền trưởng Wentworth / đô đốc Croft / phu nhân Russell",
+      "alternatives": [],
+      "rationale": "Rank and title are rendered once and held.",
+      "passages": [
+        "austen-persuasion:1.10",
+        "austen-persuasion:5.6",
+        "austen-persuasion:13.33"
+      ]
+    },
+    {
+      "source_term": "bloom",
+      "draft_rendering": "vẻ tươi tắn",
+      "alternatives": [],
+      "rationale": "Anne’s lost bloom recurs.",
+      "passages": [
+        "austen-persuasion:1.20",
+        "austen-persuasion:12.7",
+        "austen-persuasion:13.11"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #105, an electronic transcription of Persuasion by Jane Austen (published posthumously in December 1817, dated 1818). The Gutenberg page does not name the exact printing and the text was not collated with the first edition.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "5aa4f7886843f861a538d7f37fd95fdc8c624bb98469aa9a59cc89dba6bbb3b2",
+  "target_sha256": "abfc51a559a32914924785198ed1376aaf727c6a582ee06f9160fb7916fefe45",
+  "coverage": {
+    "canonical_passages": 1036,
+    "translated_passages": 1036,
+    "aligned_passages": 1036
+  },
+  "ai_review_record": "corpus/reviews/austen-persuasion/austen-persuasion-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "austen-persuasion:9.16",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Bác’ for ‘uncle’ in unit 294 should be a kinship term by marriage."
+    },
+    {
+      "segment": "austen-persuasion:11.24",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Bận rộn’ renders ‘occupy’ loosely in unit 386."
+    }
+  ],
+  "title_review": {
+    "source_title": "Persuasion",
+    "target_title": "Thuyết phục",
+    "rationale": "The title is translated as ‘Thuyết phục’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "austen-persuasion:1.2"
+      ],
+      "assessment": "The opening: Sir Walter Elliot and the Baronetage."
+    },
+    {
+      "passages": [
+        "austen-persuasion:24.14"
+      ],
+      "assessment": "The last unit: ‘Finis’ (‘Hết’)."
+    }
+  ]
+}

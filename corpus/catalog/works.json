@@ -1063,5 +1063,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Persuasion",
+    "author": "Jane Austen",
+    "author_death_year": 1817,
+    "first_published_year": 1817,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "Jane Austen’s Persuasion (published December 1817, title page 1818) follows Anne Elliot, a baronet’s daughter who was persuaded years ago to break her engagement to Frederick Wentworth, a naval officer without fortune. When he returns wealthy from the navy and the Elliots let their house and move to Bath, she meets him again among younger women who admire him. Wikipedia calls it Austen’s last completed novel.",
+    "id": "austen-persuasion",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
