@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "work_id": "gilman-herland",
+  "edition_id": "gilman-herland-vi-ai-2026",
+  "source_edition_id": "gilman-herland-en-pg32",
+  "title_vi": "Herland",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Van’s gentle, argumentative first person and the three men’s distinct voices are kept in clear, humane, dryly humorous Vietnamese; the debates about motherhood, education and religion keep their logic exact.",
+      "rationale": "The book is carried by its arguments and its tone."
+    },
+    {
+      "topic": "Punctuation",
+      "decision": "Gilman’s em-dashes are kept, unspaced, where the source has them; a middle draft had flattened them to commas.",
+      "rationale": "The dashes carry the narrator’s asides."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-04",
+      "cycle": "vietnamese-500-gilman-herland",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "gilman-herland:2.107",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘swimming’ (the sweetness of the sensation) and ‘tore himself loose’ were rendered with the wrong senses (units 252 and 248), and the men’s aircraft was ‘khí cầu’ (balloon) in some units and a biplane in others; now consistently ‘máy bay’."
+        },
+        {
+          "segment": "gilman-herland:8.94",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘if you value your chances’ became ‘trông thấy tương lai’ and ‘tax the mind’ became ‘đánh thuế trí óc’ (units 934 and 1055); corrected."
+        },
+        {
+          "segment": "gilman-herland:2.36",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘as soon / as well’ idioms were rendered ‘thà … còn hơn’, which flips the sense (units 181 and 213); corrected."
+        },
+        {
+          "segment": "gilman-herland:7.82",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘train out, to breed out’ was rendered as excluding people from education; it means eliminating traits by education and selection."
+        },
+        {
+          "segment": "gilman-herland:8.35",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘bi-sexual’ was rendered ‘lưỡng tính’ (hermaphrodite/bisexual) in units 875, 881 and 886; now ‘hai giới’."
+        },
+        {
+          "segment": "gilman-herland:1.100",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Term drift (motherhood, mother-love, maternal), flattened em-dashes across the book, calques, and Ellador’s address forms were corrected over four rounds."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "motherhood / mother-love / maternal",
+      "draft_rendering": "thiên chức làm mẹ / tình mẫu tử / của người mẹ",
+      "alternatives": [],
+      "rationale": "One term for each, because the book’s argument depends on them.",
+      "passages": [
+        "gilman-herland:1.97",
+        "gilman-herland:4.30",
+        "gilman-herland:9.66"
+      ]
+    },
+    {
+      "source_term": "airship / aeroplane (the men’s craft)",
+      "draft_rendering": "máy bay",
+      "alternatives": [],
+      "rationale": "A first draft rendered it as a balloon in some units.",
+      "passages": [
+        "gilman-herland:1.79",
+        "gilman-herland:1.143",
+        "gilman-herland:4.20"
+      ]
+    },
+    {
+      "source_term": "Over Mother / Land Mother",
+      "draft_rendering": "Mẹ Cả / Mẹ Xứ Sở",
+      "alternatives": [],
+      "rationale": "Fixed Herland-specific titles.",
+      "passages": [
+        "gilman-herland:5.86",
+        "gilman-herland:8.64",
+        "gilman-herland:10.30"
+      ]
+    },
+    {
+      "source_term": "address forms among Van, Terry, Jeff and the women",
+      "draft_rendering": "tôi/anh in narration; cậu/tớ among the men; polite tôi/các cô to the women; the women warm and calm",
+      "alternatives": [],
+      "rationale": "One address system through the book.",
+      "passages": [
+        "gilman-herland:1.30",
+        "gilman-herland:4.110",
+        "gilman-herland:11.2"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #32, an electronic transcription of Herland by Charlotte Perkins Gilman, serialised in her magazine The Forerunner in 1915 and first issued as a book in 1979. The Gutenberg page does not name the exact printing and the text was not collated with the serial.",
+  "updated_at": "2026-11-04",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "10422630bedc20606c34a6b6525f0193f8b6ca414609d385007a1378c35b82da",
+  "target_sha256": "66abd76feca49ae1dd02ac44d5831a7ca3e8651494612fe2747dd7687539cb3e",
+  "coverage": {
+    "canonical_passages": 1395,
+    "translated_passages": 1395,
+    "aligned_passages": 1395
+  },
+  "ai_review_record": "corpus/reviews/gilman-herland/gilman-herland-vi-ai-2026/ai-review-v2-2026-11-04.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "gilman-herland:7.15",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The wordplay in ‘Some ‘ell’ at unit 750 is only partly re-created."
+    }
+  ],
+  "title_review": {
+    "source_title": "Herland",
+    "target_title": "Herland",
+    "rationale": "The title ‘Herland’ is kept as the book’s own name; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "gilman-herland:1.2"
+      ],
+      "assessment": "The opening: ‘This is written from memory, unfortunately.’"
+    },
+    {
+      "passages": [
+        "gilman-herland:12.96"
+      ],
+      "assessment": "The last line: ‘With which agreement we at last left Herland.’"
+    }
+  ]
+}

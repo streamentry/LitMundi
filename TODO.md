@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 59 published · 215 todo · 0 in progress · 226 on hold.**
+**500 selected works · 60 published · 214 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -234,7 +234,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **204. Mark Twain — The Adventures of Tom Sawyer** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/74)
 - [ ] **205. Louisa May Alcott — Little Women** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/514)
 - [ ] **206. Henry David Thoreau — Walden** · en · essay · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/205)
-- [ ] **207. Charlotte Perkins Gilman — Herland** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/32)
+- [x] **207. Charlotte Perkins Gilman — Herland** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/32) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/gilman-herland/gilman-herland-vi-ai-2026/)
 - [ ] **208. Edith Wharton — The House of Mirth** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/284)
 - [ ] **209. Henry James — The Portrait of a Lady** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/2833)
 - [ ] **210. Jack London — Martin Eden** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/1056)
