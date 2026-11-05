@@ -1,0 +1,116 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "rossetti-goblin-market-vi-ai-2026",
+  "source_edition_id": "rossetti-goblin-market-en-pg16950",
+  "reviewed_at": "2026-11-06",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct English-to-Vietnamese comparison of all 29 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported no major and twelve minor findings with a pre-revision weighted score of 8.73; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "e36f58ac9b6bc763adf09ea774b0b28ceb197a8f494cd6d8b3cc89d988853939",
+  "target_sha256": "588f8a5c2a4fc584c19b8e95aa4db9290ccc611567765d8f4acf555106839865",
+  "segments_reviewed": [
+    "rossetti-goblin-market:1.1",
+    "rossetti-goblin-market:1.2",
+    "rossetti-goblin-market:1.3",
+    "rossetti-goblin-market:1.4",
+    "rossetti-goblin-market:1.5",
+    "rossetti-goblin-market:1.6",
+    "rossetti-goblin-market:1.7",
+    "rossetti-goblin-market:1.8",
+    "rossetti-goblin-market:1.9",
+    "rossetti-goblin-market:1.10",
+    "rossetti-goblin-market:1.11",
+    "rossetti-goblin-market:1.12",
+    "rossetti-goblin-market:1.13",
+    "rossetti-goblin-market:1.14",
+    "rossetti-goblin-market:1.15",
+    "rossetti-goblin-market:1.16",
+    "rossetti-goblin-market:1.17",
+    "rossetti-goblin-market:1.18",
+    "rossetti-goblin-market:1.19",
+    "rossetti-goblin-market:1.20",
+    "rossetti-goblin-market:1.21",
+    "rossetti-goblin-market:1.22",
+    "rossetti-goblin-market:1.23",
+    "rossetti-goblin-market:1.24",
+    "rossetti-goblin-market:1.25",
+    "rossetti-goblin-market:1.26",
+    "rossetti-goblin-market:1.27",
+    "rossetti-goblin-market:1.28",
+    "rossetti-goblin-market:1.29"
+  ],
+  "scores": {
+    "semantic_fidelity": 8.5,
+    "literary_voice": 8.5,
+    "target_naturalness": 8.5,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 10
+  },
+  "findings": [
+    {
+      "segment": "rossetti-goblin-market:1.25",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "‘Aguish fear’ was clumsy (‘sợ lạnh sốt’), ‘cankered’ was only ‘héo’ and Lizzie was once ‘nàng’; now ‘sợ hãi và cơn sốt rét’, ‘mục ruỗng’ and ‘Lizzie’."
+    },
+    {
+      "segment": "rossetti-goblin-market:1.29",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "‘Fetch one if one goes astray’ meant bringing back (‘dẫn ta về’); the viewpoint slip ‘vì lợi cho chị’ inside third-person narration and the awkward ‘nắm tay mình vào’ were also corrected."
+    },
+    {
+      "segment": "rossetti-goblin-market:1.3",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The goblins drifted to ‘người lùn’; now ‘gã lùn’. ‘Pricking up’ the golden head is now ‘vểnh’."
+    },
+    {
+      "segment": "rossetti-goblin-market:1.6",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "‘Fair or red’ fruit was narrowed to ‘trắng’, and a stiff inversion about the water was smoothed."
+    },
+    {
+      "segment": "rossetti-goblin-market:1.16",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The ‘kneaded cakes of wheat’ were rendered two ways; now one."
+    },
+    {
+      "segment": "rossetti-goblin-market:1.21",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "resolved",
+      "explanation": "The calque ‘thành đô trinh nữ hoàng gia’ became ‘thành đô hoàng gia còn nguyên trinh’."
+    },
+    {
+      "segment": "rossetti-goblin-market:1.2",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The berry names (mâm xôi, mâm xôi bò, lý chua đen) blur raspberry, dewberry and blackberry; acceptable for the catalogue, left as is."
+    }
+  ],
+  "summary": "Full assessment of all 29 English/Vietnamese passages: the title and 28 verse paragraphs of the 567-line poem. A separate-context blind review of the first draft scored 8.50 for semantic fidelity, 8.50 for literary voice, 8.50 for target naturalness, 9.00 for imagery consistency and 10.00 for mechanics, weighted 8.73, with no major or critical finding and twelve minor ones. Eleven of the minors (aguish fear, cankered, a register slip, a viewpoint shift in the last stanza, ‘fetch one’, goblin drift and similar) were applied by hand without a further blind review; the berry-name looseness remains open. The final score of 8.73 on the half-point scale is above the unchanged 8.6 threshold.",
+  "title_review": {
+    "source_title": "Goblin Market",
+    "target_title": "Chợ yêu tinh",
+    "rationale": "The title is rendered as ‘Chợ yêu tinh’; no earlier Vietnamese title was checked."
+  }
+}

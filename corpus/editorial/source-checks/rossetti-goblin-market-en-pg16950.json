@@ -1,0 +1,51 @@
+{
+  "edition_id": "rossetti-goblin-market-en-pg16950",
+  "work_id": "rossetti-goblin-market",
+  "checked_at": "2026-11-06",
+  "checker_kind": "ai_assisted",
+  "source_sha256": "e36f58ac9b6bc763adf09ea774b0b28ceb197a8f494cd6d8b3cc89d988853939",
+  "segments_checked": [
+    "rossetti-goblin-market:1.1",
+    "rossetti-goblin-market:1.2",
+    "rossetti-goblin-market:1.3",
+    "rossetti-goblin-market:1.4",
+    "rossetti-goblin-market:1.5",
+    "rossetti-goblin-market:1.6",
+    "rossetti-goblin-market:1.7",
+    "rossetti-goblin-market:1.8",
+    "rossetti-goblin-market:1.9",
+    "rossetti-goblin-market:1.10",
+    "rossetti-goblin-market:1.11",
+    "rossetti-goblin-market:1.12",
+    "rossetti-goblin-market:1.13",
+    "rossetti-goblin-market:1.14",
+    "rossetti-goblin-market:1.15",
+    "rossetti-goblin-market:1.16",
+    "rossetti-goblin-market:1.17",
+    "rossetti-goblin-market:1.18",
+    "rossetti-goblin-market:1.19",
+    "rossetti-goblin-market:1.20",
+    "rossetti-goblin-market:1.21",
+    "rossetti-goblin-market:1.22",
+    "rossetti-goblin-market:1.23",
+    "rossetti-goblin-market:1.24",
+    "rossetti-goblin-market:1.25",
+    "rossetti-goblin-market:1.26",
+    "rossetti-goblin-market:1.27",
+    "rossetti-goblin-market:1.28",
+    "rossetti-goblin-market:1.29"
+  ],
+  "witness_url": "https://www.gutenberg.org/cache/epub/16950/pg16950-images.html",
+  "witness_pages": [
+    "The poem ‘Goblin Market’, 29 units in one section"
+  ],
+  "notes": "Complete paragraph extraction and exact canonical comparison passed for 29/29 units after the stated normalization. Each source paragraph was also read for continuity, beginning/end boundaries and the translation assessment. This is an AI-assisted technical check of the identified electronic witness, not independent human review or a new physical-facsimile collation.",
+  "normalization_decisions": [
+    "HTML tags, entity encoding and anchors removed; line breaks and repeated spaces normalized inside paragraphs.",
+    "Collection title page, other poems and printed line numbers removed; verse paragraphs kept as units with line breaks."
+  ],
+  "witness_extract_path": "corpus/editorial/source-witnesses/rossetti-goblin-market-en-pg16950-extract-2026-11-06.json",
+  "witness_extract_sha256": "0f206990bfa7fa4045aba8ffa3cc37bb818dfcc785f4ddbfd239fb89f9e941e0",
+  "access_method": "direct_https_html",
+  "html_witness_sha256": "5a5c06927a8eb28e2a2b88d727d83709edcde8c2fca82e19e03348ea8ff8a445"
+}

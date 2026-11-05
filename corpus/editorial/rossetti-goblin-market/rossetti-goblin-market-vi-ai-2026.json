@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "work_id": "rossetti-goblin-market",
+  "edition_id": "rossetti-goblin-market-vi-ai-2026",
+  "source_edition_id": "rossetti-goblin-market-en-pg16950",
+  "title_vi": "Chợ yêu tinh",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Rossetti’s nursery-rhyme music is rendered as short, speakable Vietnamese verse-lines, one for each English line, with rhyme and assonance only where they come naturally.",
+      "rationale": "Forced rhyme added filler and blurred sense in earlier verse translations."
+    },
+    {
+      "topic": "Source",
+      "decision": "Only the poem ‘Goblin Market’ is taken from the Gutenberg collection; the printed line numbers and the other poems are excluded.",
+      "rationale": "The work is a single poem."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-rossetti-goblin-market",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "rossetti-goblin-market:1.25",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Aguish fear’ was clumsy (‘sợ lạnh sốt’), ‘cankered’ was only ‘héo’ and Lizzie was once ‘nàng’; now ‘sợ hãi và cơn sốt rét’, ‘mục ruỗng’ and ‘Lizzie’."
+        },
+        {
+          "segment": "rossetti-goblin-market:1.29",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Fetch one if one goes astray’ meant bringing back (‘dẫn ta về’); the viewpoint slip ‘vì lợi cho chị’ inside third-person narration and the awkward ‘nắm tay mình vào’ were also corrected."
+        },
+        {
+          "segment": "rossetti-goblin-market:1.3",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The goblins drifted to ‘người lùn’; now ‘gã lùn’. ‘Pricking up’ the golden head is now ‘vểnh’."
+        },
+        {
+          "segment": "rossetti-goblin-market:1.6",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Fair or red’ fruit was narrowed to ‘trắng’, and a stiff inversion about the water was smoothed."
+        },
+        {
+          "segment": "rossetti-goblin-market:1.16",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The ‘kneaded cakes of wheat’ were rendered two ways; now one."
+        },
+        {
+          "segment": "rossetti-goblin-market:1.21",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The calque ‘thành đô trinh nữ hoàng gia’ became ‘thành đô hoàng gia còn nguyên trinh’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Come buy, come buy",
+      "draft_rendering": "Mua đi, mua đi",
+      "alternatives": [],
+      "rationale": "The goblins’ refrain, one rendering throughout.",
+      "passages": [
+        "rossetti-goblin-market:1.2",
+        "rossetti-goblin-market:1.3",
+        "rossetti-goblin-market:1.7"
+      ]
+    },
+    {
+      "source_term": "goblin",
+      "draft_rendering": "yêu tinh; bọn yêu tinh",
+      "alternatives": [
+        "gã lùn (once, for ‘little men’)"
+      ],
+      "rationale": "One word for the merchants, so the refrain and menace stay recognisable.",
+      "passages": [
+        "rossetti-goblin-market:1.2",
+        "rossetti-goblin-market:1.3",
+        "rossetti-goblin-market:1.6"
+      ]
+    },
+    {
+      "source_term": "For there is no friend like a sister / In calm or stormy weather",
+      "draft_rendering": "Vì không bạn nào bằng chị em gái / Dù trời yên hay giông bão",
+      "alternatives": [],
+      "rationale": "The poem’s closing moral, kept plain and speakable.",
+      "passages": [
+        "rossetti-goblin-market:1.29"
+      ]
+    },
+    {
+      "source_term": "Laura and Lizzie address",
+      "draft_rendering": "chị (Laura) / em (Lizzie)",
+      "alternatives": [],
+      "rationale": "One address pair in direct speech.",
+      "passages": [
+        "rossetti-goblin-market:1.6",
+        "rossetti-goblin-market:1.20",
+        "rossetti-goblin-market:1.25"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #16950, an electronic transcription of Rossetti’s collection Goblin Market, The Prince’s Progress, and Other Poems, taking only the poem ‘Goblin Market’. The Gutenberg page does not name the exact printing and the text was not collated with the 1862 first edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "e36f58ac9b6bc763adf09ea774b0b28ceb197a8f494cd6d8b3cc89d988853939",
+  "target_sha256": "588f8a5c2a4fc584c19b8e95aa4db9290ccc611567765d8f4acf555106839865",
+  "coverage": {
+    "canonical_passages": 29,
+    "translated_passages": 29,
+    "aligned_passages": 29
+  },
+  "ai_review_record": "corpus/reviews/rossetti-goblin-market/rossetti-goblin-market-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "rossetti-goblin-market:1.2",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The berry names (mâm xôi, mâm xôi bò, lý chua đen) blur raspberry, dewberry and blackberry; acceptable for the catalogue, left as is."
+    }
+  ],
+  "title_review": {
+    "source_title": "Goblin Market",
+    "target_title": "Chợ yêu tinh",
+    "rationale": "The title is rendered as ‘Chợ yêu tinh’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "rossetti-goblin-market:1.2"
+      ],
+      "assessment": "The opening cry of the goblin men and the fruit catalogue."
+    },
+    {
+      "passages": [
+        "rossetti-goblin-market:1.29"
+      ],
+      "assessment": "The closing stanza with the sisters’ moral."
+    }
+  ]
+}

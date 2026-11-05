@@ -1288,5 +1288,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Goblin Market",
+    "author": "Christina Rossetti",
+    "author_death_year": 1894,
+    "first_published_year": 1862,
+    "original_language": "en",
+    "genre": "poem",
+    "description": "“Goblin Market” is a narrative poem by Christina Rossetti, published in 1862 in her first commercial volume. Two sisters, Laura and Lizzie, hear goblin merchants crying their fruit at the glen, and Laura buys some with a lock of her hair. What follows is a story of craving, decline and a sister’s rescue. Readers have taken it as a fable of temptation, a study of Victorian women and the marketplace, or a plain tale of sisterly devotion.",
+    "id": "rossetti-goblin-market",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

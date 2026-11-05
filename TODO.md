@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 83 published · 191 todo · 0 in progress · 226 on hold.**
+**500 selected works · 84 published · 190 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -78,7 +78,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **057. Rabindranath Tagore — The Post Office** · bn · play · **Published** · [Evidence](https://www.nobelprize.org/prizes/literature/1913/tagore/bibliography/?print=1) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/tagore-post-office/tagore-dakghar-vi-ai-2026/)
 - [x] **058. Katherine Mansfield — Bliss and Other Stories** · en · collection · **Published** · [Evidence](https://www.gutenberg.org/ebooks/44385) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/mansfield-bliss-and-other-stories/mansfield-bliss-and-other-stories-vi-ai-2026/)
 - [ ] **059. Premchand — Nirmala** · hi · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/2059256/premchand/)
-- [ ] **060. Christina Rossetti — Goblin Market** · en · poem · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/16950)
+- [x] **060. Christina Rossetti — Goblin Market** · en · poem · **Published** · [Evidence](https://www.gutenberg.org/ebooks/16950) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/rossetti-goblin-market/rossetti-goblin-market-vi-ai-2026/)
 - [x] **061. Voltaire — Candide** · fr · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/19942) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/voltaire-candide/voltaire-candide-vi-ai-2026/)
 - [ ] **062. Bibhutibhushan Bandyopadhyay — Pather Panchali** · bn · novel · **Todo** · [Evidence](https://www.penguin.co.in/book/pather-panchali/)
 - [ ] **063. Gustave Flaubert — Madame Bovary** · fr · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/14155)
