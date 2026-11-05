@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "work_id": "buchner-dantons-tod",
+  "edition_id": "buchner-dantons-tod-vi-ai-2026",
+  "source_edition_id": "buchner-dantons-tod-de-pg5072",
+  "title_vi": "Cái chết của Danton",
+  "translation_direction": "de → vi; direct from the specifically identified complete German electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Büchner’s abrupt, quick-cut dialogue is kept: street obscenity and bawdy wit for the crowd, world-weary gallows humour for Danton, cold moral rhetoric for Robespierre and St. Just, the mad lyric of Lucile’s end.",
+      "rationale": "The play lives in these contrasts of register."
+    },
+    {
+      "topic": "Source",
+      "decision": "The German text comes from Project Gutenberg #5072; hard wraps of the transcription were joined into single lines except in songs, verse and cast lists.",
+      "rationale": "Wraps are not part of the work’s structure."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-buchner-dantons-tod",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "buchner-dantons-tod:3.9",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Lacroix’s ‘Tribunen’ (the rulers) were rendered as orators; now ‘bọn nắm quyền’."
+        },
+        {
+          "segment": "buchner-dantons-tod:3.119",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Lucile’s ‘Es geht einmal so’ (that is how it goes) was rendered as a hope that it would pass; now ‘Đời là thế mà.’"
+        },
+        {
+          "segment": "buchner-dantons-tod:3.137",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "In the scene where Danton wakes from his nightmare he called himself ‘tôi’ and Julie ‘em’; the fixed pair is anh/em, so ‘anh’ throughout units 413–437."
+        },
+        {
+          "segment": "buchner-dantons-tod:4.88",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Geätzt’ (fed) was rendered as ‘luyện’; now ‘nuôi lứa con non’."
+        },
+        {
+          "segment": "buchner-dantons-tod:4.150",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Schoß’ (womb) was rendered as ‘lòng ngực’; now ‘tử cung’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Wohlfahrtsausschuss / Nationalkonvent",
+      "draft_rendering": "Ủy ban Cứu quốc / Quốc ước",
+      "alternatives": [],
+      "rationale": "Fixed institutional terms.",
+      "passages": [
+        "buchner-dantons-tod:1.6",
+        "buchner-dantons-tod:2.24",
+        "buchner-dantons-tod:2.188"
+      ]
+    },
+    {
+      "source_term": "Sansculotten / Ohnehosen",
+      "draft_rendering": "dân không quần",
+      "alternatives": [],
+      "rationale": "One rendering for the Paris crowd.",
+      "passages": [
+        "buchner-dantons-tod:2.40",
+        "buchner-dantons-tod:2.82",
+        "buchner-dantons-tod:2.100"
+      ]
+    },
+    {
+      "source_term": "Danton–Julie address",
+      "draft_rendering": "anh / em",
+      "alternatives": [],
+      "rationale": "Fixed through the play; the friends among themselves use anh/tôi, the Committee ông/tôi, the crowd mày/tao.",
+      "passages": [
+        "buchner-dantons-tod:2.6",
+        "buchner-dantons-tod:3.137",
+        "buchner-dantons-tod:3.152"
+      ]
+    },
+    {
+      "source_term": "Bürger (direct address)",
+      "draft_rendering": "công dân",
+      "alternatives": [],
+      "rationale": "The Revolution’s address form.",
+      "passages": [
+        "buchner-dantons-tod:2.82",
+        "buchner-dantons-tod:2.180",
+        "buchner-dantons-tod:2.183"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #5072, an electronic transcription of Dantons Tod by Georg Büchner produced for Project Gutenberg of Germany. The Gutenberg page does not name the exact printing and the text was not collated with the 1835 first edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "3a615ded7cf88be5c8bd0756e0fc10b5f1adc97549539934f0f1d89c9bbc4abb",
+  "target_sha256": "5504fce363352825b2d4537873bd5962406d576038eaa86264106564a2d88df0",
+  "coverage": {
+    "canonical_passages": 872,
+    "translated_passages": 872,
+    "aligned_passages": 872
+  },
+  "ai_review_record": "corpus/reviews/buchner-dantons-tod/buchner-dantons-tod-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "buchner-dantons-tod:2.70",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A few crowd lines in Act I (‘Totgeschlagen, wer auswärts geht’, ‘Dezemvirn’ as ‘Thập nhân’) are loose or opaque; left as is."
+    },
+    {
+      "segment": "buchner-dantons-tod:5.138",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Several songs and the Berg/Montagne pun in Act IV carry only the sense, not the rhyme or the wordplay."
+    },
+    {
+      "segment": "buchner-dantons-tod:3.186",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A handful of bawdy puns (Eichel, Hosenlatz, Perpendikel) are rendered plainly."
+    }
+  ],
+  "title_review": {
+    "source_title": "Dantons Tod",
+    "target_title": "Cái chết của Danton",
+    "rationale": "The title is rendered as ‘Cái chết của Danton’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "buchner-dantons-tod:2.1"
+      ],
+      "assessment": "The opening of Act I: Danton and Julie at the card table."
+    },
+    {
+      "passages": [
+        "buchner-dantons-tod:5.169"
+      ],
+      "assessment": "The last unit: Lucile’s cry ‘Es lebe der König!’ and her arrest."
+    }
+  ]
+}

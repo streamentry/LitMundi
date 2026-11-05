@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 84 published · 190 todo · 0 in progress · 226 on hold.**
+**500 selected works · 85 published · 189 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -189,7 +189,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **162. Saadi — Gulistan** · fa · collection · **Todo** · [Evidence](https://www.loc.gov/item/2018672684/)
 - [ ] **163. Friedrich Schiller — Die Räuber** · de · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/47804)
 - [ ] **164. Abu al-Ala al-Maarri — The Epistle of Forgiveness** · ar · collection · **Todo** · [Evidence](https://nyupress.org/sale25-library-of-arabic-literature/)
-- [ ] **165. Georg Büchner — Dantons Tod** · de · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/5072)
+- [x] **165. Georg Büchner — Dantons Tod** · de · play · **Published** · [Evidence](https://www.gutenberg.org/ebooks/5072) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/buchner-dantons-tod/buchner-dantons-tod-vi-ai-2026/)
 - [ ] **166. Theodor Fontane — Effi Briest** · de · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/5323)
 - [ ] **167. al-Hariri — Maqamat / Impostures** · ar · collection · **Todo** · [Evidence](https://www.libraryofarabicliterature.org/extra-2/)
 - [x] **168. Alexander Pushkin — The Captain's Daughter** · ru · novel · **Published** · [Evidence](https://openlibrary.org/works/OL17680681W) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/pushkin-the-captain-s-daughter/pushkin-kapitanskaya-dochka-vi-ai-2026/)

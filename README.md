@@ -96,8 +96,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Molière — Tartuffe (Le Tartuffe ou l’Imposteur)](corpus/editorial/moliere-tartuffe/moliere-tartuffe-vi-ai-2026.json) | French; Wikisource transcription | 763 | 8.60 | AI-reviewed translation published |
 | [Molière — L’Avare](corpus/editorial/moliere-l-avare/moliere-l-avare-vi-ai-2026.json) | French; Wikisource transcription | 1086 | 8.60 | AI-reviewed translation published |
 | [Christina Rossetti — Goblin Market](corpus/editorial/rossetti-goblin-market/rossetti-goblin-market-vi-ai-2026.json) | English; Project Gutenberg #16950 | 29 | 8.73 | AI-reviewed translation published |
+| [Georg Büchner — Dantons Tod](corpus/editorial/buchner-dantons-tod/buchner-dantons-tod-vi-ai-2026.json) | German; Project Gutenberg #5072 | 872 | 8.73 | AI-reviewed translation published |
 
-All eighty-six originals are published, giving one hundred and seventy-two public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All eighty-seven originals are published, giving one hundred and seventy-four public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 
