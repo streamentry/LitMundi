@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "work_id": "soseki-kusamakura",
+  "edition_id": "soseki-kusamakura-vi-ai-2026",
+  "source_edition_id": "soseki-kusamakura-ja-aozora",
+  "title_vi": "Gối cỏ",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "The ironic, learned narrator, Nami’s quickness and the rustic village voices are kept in elegant, crisp Vietnamese with the essayistic digressions lucid and the poems translated for sense.",
+      "rationale": "The narrator’s pose and its failure are the book’s subject."
+    },
+    {
+      "topic": "Source",
+      "decision": "The Japanese text comes from Aozora Bunko, with ruby readings removed and the embedded JIS X 0213 characters restored; it is translated directly from the Japanese, not from an English version.",
+      "rationale": "Translation from the original."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-soseki-kusamakura",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "soseki-kusamakura:1.3",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘住みにくい’, the refrain of the famous opening, was rendered ‘khó ở’ (unwell); now ‘khó sống’, and the first paragraph is four balanced clauses with the refrain."
+        },
+        {
+          "segment": "soseki-kusamakura:1.34",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The sentence on probing motives had the ordinary novelist as its subject, losing the narrator’s own risk of vulgarity; restored."
+        },
+        {
+          "segment": "soseki-kusamakura:2.8",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘ぴしゃりと焼き付いた’ was rendered unintelligibly; corrected."
+        },
+        {
+          "segment": "soseki-kusamakura:2.30",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘山姥’ (a mountain hag) was rendered as a mountain maiden; now ‘mụ sơn quỷ’."
+        },
+        {
+          "segment": "soseki-kusamakura:2.53",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The clause ‘花を厭えば足を着くるに地なき’ was garbled; rewritten."
+        },
+        {
+          "segment": "soseki-kusamakura:3.9",
+          "category": "editorial_mechanics",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A kanshi line was transliterated; it is now translated for sense, as the house rule requires (‘Bóng trúc quét thềm, bụi chẳng động’)."
+        },
+        {
+          "segment": "soseki-kusamakura:3.17",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The corner of the building and the tall woman swapped roles; corrected after the last blind review, by hand."
+        },
+        {
+          "segment": "soseki-kusamakura:4.4",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Inari-fox rank and the young-lord allusions of a haiku were lost; now ‘Hồ ly Chính nhất vị’ and ‘Công tử’ with the sense carried."
+        },
+        {
+          "segment": "soseki-kusamakura:4.73",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘言語道断’ was rendered as a meaningless calque; now ‘quả là quá quắt, không nói nên lời’."
+        },
+        {
+          "segment": "soseki-kusamakura:7.17",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Kanjincho lyric was rendered as an assertion about Okura, then its last clause made the singer recognise her own song; fixed twice, the second time by hand after the last blind review."
+        },
+        {
+          "segment": "soseki-kusamakura:7.28",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘十分の美’ (full beauty) was rendered as one tenth of beauty; corrected."
+        },
+        {
+          "segment": "soseki-kusamakura:9.49",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The paired ‘ためか…ためか’ questions about the Venice couple were merged into one garbled sentence; restored."
+        },
+        {
+          "segment": "soseki-kusamakura:11.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘洒落’ (breezy, unfettered) was rendered ‘ngạo nghễ’ (arrogant) three times; now ‘phóng khoáng/tiêu sái’."
+        },
+        {
+          "segment": "soseki-kusamakura:13.72",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The concession (the faces are visible, yet the bond is already cut) was turned into a conditional; now ‘Dù… dù… dù…’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "住みにくい",
+      "draft_rendering": "khó sống",
+      "alternatives": [],
+      "rationale": "The refrain of the opening; ‘khó ở’ means unwell.",
+      "passages": [
+        "soseki-kusamakura:1.2",
+        "soseki-kusamakura:1.3",
+        "soseki-kusamakura:1.4"
+      ]
+    },
+    {
+      "source_term": "非人情",
+      "draft_rendering": "phi nhân tình",
+      "alternatives": [],
+      "rationale": "The narrator’s aesthetic detachment, kept as Sino-Vietnamese without gloss.",
+      "passages": [
+        "soseki-kusamakura:1.8",
+        "soseki-kusamakura:1.40"
+      ]
+    },
+    {
+      "source_term": "洒落",
+      "draft_rendering": "phóng khoáng / tiêu sái",
+      "alternatives": [],
+      "rationale": "The Zen monk’s unfettered manner, not arrogance.",
+      "passages": [
+        "soseki-kusamakura:11.5"
+      ]
+    },
+    {
+      "source_term": "poems",
+      "draft_rendering": "translated for sense as ‘ / ’-separated lines",
+      "alternatives": [],
+      "rationale": "No kanshi or haiku is left transliterated.",
+      "passages": [
+        "soseki-kusamakura:3.9",
+        "soseki-kusamakura:9.95",
+        "soseki-kusamakura:13.22"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Aozora Bunko electronic text of Natsume Soseki’s 草枕 (card 776), which cites Chikuma Bunko’s Natsume Soseki Zenshu 3 (Chikuma Shobo, 1987) and, for that, the Chikuma Zenshu Ruijuban (1971–72) as its source, with first publication in Shinshosetsu, September 1906; the project did not collate it with a printed edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "17176d297fe26afee1f454358e7b41d33a591442a76158c89ec8fd44ef1f68cc",
+  "target_sha256": "932a84b8af84db21fbff13d8d7c4787691c965214ae5312600429b7ca7c8df20",
+  "coverage": {
+    "canonical_passages": 1106,
+    "translated_passages": 1106,
+    "aligned_passages": 1106
+  },
+  "ai_review_record": "corpus/reviews/soseki-kusamakura/soseki-kusamakura-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.625,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "soseki-kusamakura:13.22",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The haiku in unit 1052 lacks the house ‘ / ’ line breaks."
+    },
+    {
+      "segment": "soseki-kusamakura:10.6",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The mat stops just short of the water in the Japanese; the Vietnamese lets the toes touch it."
+    },
+    {
+      "segment": "soseki-kusamakura:13.69",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Nami’s ‘go and die’ is softer than the cruelly direct Japanese."
+    },
+    {
+      "segment": "soseki-kusamakura:13.75",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘憐れ’ is rendered ‘thương xót’, leaning toward pity rather than tender sorrow."
+    }
+  ],
+  "title_review": {
+    "source_title": "草枕",
+    "target_title": "Gối cỏ",
+    "rationale": "The title is rendered as ‘Gối cỏ’ (grass pillow); no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "soseki-kusamakura:1.2"
+      ],
+      "assessment": "The opening: ‘Climbing a mountain path, I thought: if you work with your intellect, you grow sharp-cornered…’."
+    },
+    {
+      "passages": [
+        "soseki-kusamakura:13.76"
+      ],
+      "assessment": "The last unit: the painter’s picture is completed in an instant by Nami’s look of pity."
+    }
+  ]
+}
