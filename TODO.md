@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 74 published · 200 todo · 0 in progress · 226 on hold.**
+**500 selected works · 75 published · 199 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -75,7 +75,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **054. Rabindranath Tagore — The Home and the World** · bn · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/54667/rabindranath-tagore/)
 - [x] **055. H. G. Wells — The Time Machine** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/35) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/wells-the-time-machine/wells-timemachine-vi-ai-2026/)
 - [x] **056. Joseph Conrad — Heart of Darkness** · en · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/219) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/conrad-heart-of-darkness/conrad-heart-vi-ai-2026/)
-- [ ] **057. Rabindranath Tagore — The Post Office** · bn · play · **Todo** · [Evidence](https://www.nobelprize.org/prizes/literature/1913/tagore/bibliography/?print=1)
+- [x] **057. Rabindranath Tagore — The Post Office** · bn · play · **Published** · [Evidence](https://www.nobelprize.org/prizes/literature/1913/tagore/bibliography/?print=1) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/tagore-post-office/tagore-dakghar-vi-ai-2026/)
 - [x] **058. Katherine Mansfield — Bliss and Other Stories** · en · collection · **Published** · [Evidence](https://www.gutenberg.org/ebooks/44385) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/mansfield-bliss-and-other-stories/mansfield-bliss-and-other-stories-vi-ai-2026/)
 - [ ] **059. Premchand — Nirmala** · hi · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/2059256/premchand/)
 - [ ] **060. Christina Rossetti — Goblin Market** · en · poem · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/16950)

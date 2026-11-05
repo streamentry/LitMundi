@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "work_id": "tagore-post-office",
+  "edition_id": "tagore-dakghar-vi-ai-2026",
+  "source_edition_id": "tagore-dakghar-bn-wikisource",
+  "title_vi": "Bưu điện",
+  "translation_direction": "bn → vi; direct from the specifically identified complete Bengali electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Amal’s child wonder and relentless questions, Madhav’s anxious tenderness and the villagers’ voices are kept in plain spoken Vietnamese, with the restrained final pages left unexplained.",
+      "rationale": "The play’s sorrow depends on what is not said."
+    },
+    {
+      "topic": "Source",
+      "decision": "The Bengali text comes from Wikisource because the backlog entry carried no text; it is translated directly from the Bengali.",
+      "rationale": "Translation from the original, not from an English version."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-05",
+      "cycle": "vietnamese-500-tagore-post-office",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "tagore-post-office:2.28",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘পণ্ডিত’ (the scholars Amal refuses to become) was rendered differently in Acts I and II, losing the echo of the motif; unified as ‘học giả’."
+        },
+        {
+          "segment": "tagore-post-office:3.121",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The hour-count rendered as ‘bốn canh’ placed the scene after midnight, contradicting the king’s coming at midnight; now a loose evening time."
+        },
+        {
+          "segment": "tagore-post-office:3.139",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The speaker labelled ‘কবিরাজ’ in the source (units 393, 395, 397) is the royal physician; relabelled ‘Ngự y’ and recorded in the glossary."
+        },
+        {
+          "segment": "tagore-post-office:2.85",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The palm-leaf umbrella had been rendered as a hat; now a ‘dù lá gồi’."
+        },
+        {
+          "segment": "tagore-post-office:3.24",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "A calque in the vocative order (‘Amal con’); now ‘Amal con ơi’."
+        },
+        {
+          "segment": "tagore-post-office:3.165",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "A softening particle added to the closing line; removed to keep the restraint."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Bưu điện",
+      "alternatives": [],
+      "rationale": "‘ডাকঘর’ (post office).",
+      "passages": [
+        "tagore-post-office:1.1"
+      ]
+    },
+    {
+      "source_term": "address system",
+      "draft_rendering": "Amal→Madhav ‘dượng’; Madhav→Amal ‘con’; Amal→Fakir/Thakurda ‘ông/con’; headman ‘ông/cháu’",
+      "alternatives": [],
+      "rationale": "One pair per interlocutor across the three acts.",
+      "passages": [
+        "tagore-post-office:1.2",
+        "tagore-post-office:2.18",
+        "tagore-post-office:3.46"
+      ]
+    },
+    {
+      "source_term": "পণ্ডিত",
+      "draft_rendering": "học giả",
+      "alternatives": [],
+      "rationale": "The scholars who never leave their houses, echoed by Amal.",
+      "passages": [
+        "tagore-post-office:1.49",
+        "tagore-post-office:2.28",
+        "tagore-post-office:2.29"
+      ]
+    },
+    {
+      "source_term": "speaker labels",
+      "draft_rendering": "Amal; Madhav; Thakurda; Thầy lang; Ngự y; Trưởng làng; Sudha …",
+      "alternatives": [],
+      "rationale": "Labels kept stable; the royal physician is ‘Ngự y’.",
+      "passages": [
+        "tagore-post-office:1.2",
+        "tagore-post-office:3.139",
+        "tagore-post-office:3.141"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Bengali Wikisource transcription of ডাকঘর by Rabindranath Tagore (first published 1912), taken from the rendered pages of the three acts; the transcription was not collated with a printed edition by the project.",
+  "updated_at": "2026-11-05",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "1bd16ac497de54445dbc119d9c4327f5f45e8466fbe1b22bc4b72bd8407719d6",
+  "target_sha256": "7b2b8c9a08ca4026b91575eddf237a59fca28686ce99c380a830ecb7e933cde5",
+  "coverage": {
+    "canonical_passages": 419,
+    "translated_passages": 419,
+    "aligned_passages": 419
+  },
+  "ai_review_record": "corpus/reviews/tagore-post-office/tagore-dakghar-vi-ai-2026/ai-review-v2-2026-11-05.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.625,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "tagore-post-office:3.67",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The logic of unit 321 reads slightly stiff."
+    },
+    {
+      "segment": "tagore-post-office:3.128",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A detail (‘đạp tung’) is added in unit 382."
+    },
+    {
+      "segment": "tagore-post-office:3.146",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Con định gì, con?’ in unit 400 is stilted."
+    }
+  ],
+  "title_review": {
+    "source_title": "ডাকঘর",
+    "target_title": "Bưu điện",
+    "rationale": "The title is translated as ‘Bưu điện’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "tagore-post-office:1.2"
+      ],
+      "assessment": "The opening: Madhav’s worry about the child he has taken in."
+    },
+    {
+      "passages": [
+        "tagore-post-office:3.165"
+      ],
+      "assessment": "The last unit: Sudha’s message to Amal: that Sudha has not forgotten him."
+    }
+  ]
+}
