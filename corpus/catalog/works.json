@@ -1228,5 +1228,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "author_death_year": 1900,
+    "first_published_year": 1890,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "The Picture of Dorian Gray, Oscar Wilde’s only novel, first appeared as a shorter version in Lippincott’s Monthly Magazine in July 1890; the novel-length version followed in April 1891. In Victorian London, the painter Basil Hallward portrays the beautiful Dorian Gray, and Lord Henry Wotton’s hedonistic talk leads Dorian to wish that the portrait would age instead of him. The wish comes true, and the picture records every sin.",
+    "id": "wilde-the-picture-of-dorian-gray",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

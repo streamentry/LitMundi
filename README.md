@@ -91,8 +91,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Leo Tolstoy — Hadji Murat (Хаджи-Мурат)](corpus/editorial/tolstoy-hadji-murad/tolstoy-hadzhi-murat-vi-ai-2026.json) | Russian; Wikisource transcription | 1024 | 8.675 (displayed 8.68) | AI-reviewed translation published |
 | [Heinrich von Kleist — Michael Kohlhaas](corpus/editorial/kleist-michael-kohlhaas/kleist-michael-kohlhaas-vi-ai-2026.json) | German; Project Gutenberg #6645 | 37 | 8.675 (displayed 8.68) | AI-reviewed translation published |
 | [Natsume Soseki — Kusamakura (草枕)](corpus/editorial/soseki-kusamakura/soseki-kusamakura-vi-ai-2026.json) | Japanese; Aozora Bunko card 776 | 1106 | 8.625 (displayed 8.63) | AI-reviewed translation published |
+| [Oscar Wilde — The Picture of Dorian Gray](corpus/editorial/wilde-the-picture-of-dorian-gray/wilde-the-picture-of-dorian-gray-vi-ai-2026.json) | English; Project Gutenberg #174 | 1518 | 8.625 (displayed 8.63) | AI-reviewed translation published |
 
-All eighty-one originals are published, giving one hundred and sixty-two public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All eighty-two originals are published, giving one hundred and sixty-four public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

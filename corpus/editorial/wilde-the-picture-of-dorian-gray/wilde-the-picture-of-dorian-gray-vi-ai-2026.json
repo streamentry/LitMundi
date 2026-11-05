@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "work_id": "wilde-the-picture-of-dorian-gray",
+  "edition_id": "wilde-the-picture-of-dorian-gray-vi-ai-2026",
+  "source_edition_id": "wilde-the-picture-of-dorian-gray-en-pg174",
+  "title_vi": "Bức chân dung của Dorian Gray",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Wilde’s epigrams, Lord Henry’s paradoxes and the lush aesthetic description are kept in polished, witty Vietnamese with the same inversion structure, and the final scene stays cold and precise.",
+      "rationale": "The comedy and the horror need the same prose."
+    },
+    {
+      "topic": "Source",
+      "decision": "The English text comes from Project Gutenberg #174 (the 1891 book version); em dashes and the French verse are preserved.",
+      "rationale": "Translation from the original."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-wilde-the-picture-of-dorian-gray",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:2.44",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Far the best ending’ (by far the best) was inverted into ‘far from the best’; corrected."
+        },
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:6.18",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "James’s line to Sibyl was addressed to the wrong person (‘Con nghĩ Sibyl…’); now ‘Anh nghĩ em…’."
+        },
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:8.56",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The clause ‘she had marred him for a moment, if he had wounded her for an age’ was left dangling by a bare ‘nếu’; corrected."
+        },
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:12.12",
+          "category": "target_naturalness",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The long dawn sentence of chapter XI was calqued into near-unreadable Vietnamese; rewritten."
+        },
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:12.16",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Frankincense and aloes were both ‘trầm hương’; now ‘nhũ hương’ and ‘trầm hương’."
+        },
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:12.36",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Three relative clauses in the Renaissance catalogue were syntactically broken; rewritten."
+        },
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:15.12",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Gautier’s French verse was flat prose; now twelve lines of Vietnamese verse with a regular rhythm and rhymes."
+        },
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:16.4",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Lady Narborough’s jokes were carried over literally with a gloss; now Vietnamese idioms and a pun that keep the joke."
+        },
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:18.71",
+          "category": "editorial_mechanics",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Every em dash of the English in the last four chapters was dropped; all were restored."
+        },
+        {
+          "segment": "wilde-the-picture-of-dorian-gray:12.31",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The women who braved censure for Dorian’s sake were turned into Dorian defying censure; corrected after the last blind review, by hand."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Lord Henry → Dorian",
+      "draft_rendering": "tôi/cậu",
+      "alternatives": [],
+      "rationale": "The elder cynic and the young man; never ‘anh’.",
+      "passages": [
+        "wilde-the-picture-of-dorian-gray:3.127",
+        "wilde-the-picture-of-dorian-gray:6.24",
+        "wilde-the-picture-of-dorian-gray:18.71"
+      ]
+    },
+    {
+      "source_term": "Preface epigrams",
+      "draft_rendering": "crisp balanced Vietnamese epigrams",
+      "alternatives": [],
+      "rationale": "Wilde’s inversions are kept.",
+      "passages": [
+        "wilde-the-picture-of-dorian-gray:1.2",
+        "wilde-the-picture-of-dorian-gray:1.3",
+        "wilde-the-picture-of-dorian-gray:1.7"
+      ]
+    },
+    {
+      "source_term": "exquisite",
+      "draft_rendering": "tinh xảo / tuyệt mỹ",
+      "alternatives": [],
+      "rationale": "Not ‘tinh tuyển’ (selected).",
+      "passages": [
+        "wilde-the-picture-of-dorian-gray:20.42",
+        "wilde-the-picture-of-dorian-gray:21.20"
+      ]
+    },
+    {
+      "source_term": "frankincense / aloes",
+      "draft_rendering": "nhũ hương / trầm hương",
+      "alternatives": [],
+      "rationale": "Two different perfumes.",
+      "passages": [
+        "wilde-the-picture-of-dorian-gray:12.16",
+        "wilde-the-picture-of-dorian-gray:11.44"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #174, an electronic transcription of The Picture of Dorian Gray, the 1891 book version with the Preface and twenty chapters; the Gutenberg page does not name the exact printing and the text was not collated with the 1891 first book edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "3c231cb3ae63c78bf28f8fe808a00a3ba1fc40dc20cad53b35451964365eb6ad",
+  "target_sha256": "03fdb3af1000107afe8d8e9f73de1a75e9889b998cb932fae06ad1323edbb4ed",
+  "coverage": {
+    "canonical_passages": 1518,
+    "translated_passages": 1518,
+    "aligned_passages": 1518
+  },
+  "ai_review_record": "corpus/reviews/wilde-the-picture-of-dorian-gray/wilde-the-picture-of-dorian-gray-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.625,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "wilde-the-picture-of-dorian-gray:15.12",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Two lines of the Gautier verse have seven syllables where the French has eight, and a few rhyme words are fillers."
+    },
+    {
+      "segment": "wilde-the-picture-of-dorian-gray:16.4",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The bonnet in Lady Narborough’s first clause no longer has a referent after the idiom swap."
+    },
+    {
+      "segment": "wilde-the-picture-of-dorian-gray:15.54",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Narration calls Alan Campbell ‘ông’ in a few units where ‘anh ta’ is the rule."
+    }
+  ],
+  "title_review": {
+    "source_title": "The Picture of Dorian Gray",
+    "target_title": "Bức chân dung của Dorian Gray",
+    "rationale": "The title is rendered as ‘Bức chân dung của Dorian Gray’ (the portrait of Dorian Gray); no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "wilde-the-picture-of-dorian-gray:1.2"
+      ],
+      "assessment": "The Preface: ‘The artist is the creator of beautiful things.’"
+    },
+    {
+      "passages": [
+        "wilde-the-picture-of-dorian-gray:21.20"
+      ],
+      "assessment": "The last unit: the servants recognise the withered man by his rings."
+    }
+  ]
+}
