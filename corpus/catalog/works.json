@@ -1273,5 +1273,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "L’Avare",
+    "author": "Molière",
+    "author_death_year": 1673,
+    "first_published_year": 1669,
+    "original_language": "fr",
+    "genre": "play",
+    "description": "The Miser (L’Avare) is a five-act prose comedy by Molière, first performed in 1668. Harpagon, a rich widower, plans to marry the young Mariane, who loves his son Cléante, and to marry his daughter Élise to an old man who asks no dowry. When the cash box he has buried in his garden disappears, he suspects everyone. The play ends in a flurry of revelations about long-lost relatives.",
+    "id": "moliere-l-avare",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

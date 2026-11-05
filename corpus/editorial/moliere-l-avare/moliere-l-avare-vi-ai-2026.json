@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "work_id": "moliere-l-avare",
+  "edition_id": "moliere-l-avare-vi-ai-2026",
+  "source_edition_id": "moliere-l-avare-fr-wikisource",
+  "title_vi": "Lão hà tiện",
+  "translation_direction": "fr → vi; direct from the specifically identified complete French electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Molière’s prose is kept as brisk, speakable Vietnamese with each character’s register distinct: Harpagon’s stinginess and rage, Frosine’s flattery, Maître Jacques’s two hats, the lovers’ graceful anh/em.",
+      "rationale": "The comedy is in the differentiated voices."
+    },
+    {
+      "topic": "Source",
+      "decision": "The French text comes from French Wikisource’s Louandre edition; the editor’s Notice and footnotes were removed; the source’s scene-numbering irregularities are kept.",
+      "rationale": "Translation from the original."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-moliere-l-avare",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "moliere-l-avare:5.134",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Harpagon calls his son Cléante ‘tao/mày’ in the quarrel, against the glossary’s fixed ‘cha/con’. The French has the rude ‘tu’ there, so the glossary was amended after the review to allow the rage register in these scenes; no text change."
+        },
+        {
+          "segment": "moliere-l-avare:6.29",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Harpagon calls Maître Jacques ‘tao/mày’ in the interrogation against the fixed ‘tôi/anh’. Again the French is the rude ‘tu’; the glossary was amended to allow it, no text change."
+        },
+        {
+          "segment": "moliere-l-avare:4.94",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Fable’ (a byword) was rendered as ‘chuyện bịa’; now ‘đề tài đàm tiếu’."
+        },
+        {
+          "segment": "moliere-l-avare:4.195",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘En de trop belles mains’ was a comparative; now hands too fair to give it back."
+        },
+        {
+          "segment": "moliere-l-avare:5.23",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The garbled ‘quỷ thật là’ now ‘cái khó chết tiệt là’."
+        },
+        {
+          "segment": "moliere-l-avare:5.104",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "An ambiguous ‘cậu’ in Jacques’s report now ‘cậu ấy’."
+        },
+        {
+          "segment": "moliere-l-avare:6.179",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The unfinished ‘Cha là người mẹ con đã khóc’ was completed."
+        },
+        {
+          "segment": "moliere-l-avare:6.200",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "The garbled ‘xin em từ ông’ was corrected."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "cassette",
+      "draft_rendering": "cái hòm nhỏ",
+      "alternatives": [
+        "cái hòm"
+      ],
+      "rationale": "One rendering for the strongbox; big/small is kept only for Jacques’s gag.",
+      "passages": [
+        "moliere-l-avare:6.6",
+        "moliere-l-avare:6.57",
+        "moliere-l-avare:6.197"
+      ]
+    },
+    {
+      "source_term": "Il faut manger pour vivre, et non pas vivre pour manger.",
+      "draft_rendering": "Phải ăn để sống, chứ không phải sống để ăn.",
+      "alternatives": [],
+      "rationale": "The famous maxim, fixed wording.",
+      "passages": [
+        "moliere-l-avare:4.166"
+      ]
+    },
+    {
+      "source_term": "Au voleur !",
+      "draft_rendering": "Bắt trộm!",
+      "alternatives": [],
+      "rationale": "Harpagon’s cry, one rendering.",
+      "passages": [
+        "moliere-l-avare:5.171"
+      ]
+    },
+    {
+      "source_term": "Harpagon’s address forms",
+      "draft_rendering": "cha/con with his children; tao/mày with servants and, in rage, with Cléante and Jacques; tôi/anh with Maître Jacques when calm",
+      "alternatives": [],
+      "rationale": "Register is his character; the rage shift mirrors the French ‘tu’.",
+      "passages": [
+        "moliere-l-avare:5.121",
+        "moliere-l-avare:5.134",
+        "moliere-l-avare:6.29"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the French Wikisource transcription of L’Avare from Charles Louandre’s edition (Œuvres complètes de Molière, Charpentier, 1910, vol. III); the project did not collate it with the 1669 first edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "2faea96b369b27752b7db00ee7950c8ffe520049554623445cca42021d136680",
+  "target_sha256": "28e1cd11983b64248bab6b4327753cbb62afdcca794155fc5fa4cc8efb5112be",
+  "coverage": {
+    "canonical_passages": 1086,
+    "translated_passages": 1086,
+    "aligned_passages": 1086
+  },
+  "ai_review_record": "corpus/reviews/moliere-l-avare/moliere-l-avare-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.6,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "moliere-l-avare:6.108",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Harpagon’s ‘Rồi anh xem’ to the commissaire (976) still uses ‘anh’ where ‘ông’ would follow the address rule."
+    },
+    {
+      "segment": "moliere-l-avare:6.137",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Harpagon’s self-reference moves between ‘ta’, ‘tao’ and ‘cha’ in the last confrontation."
+    },
+    {
+      "segment": "moliere-l-avare:4.144",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Lunettes’ is ‘kính’ throughout, so the spectacles/telescope joke is clear only by context."
+    }
+  ],
+  "title_review": {
+    "source_title": "L’Avare",
+    "target_title": "Lão hà tiện",
+    "rationale": "The title is rendered as ‘Lão hà tiện’ (The Old Miser); no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "moliere-l-avare:2.1"
+      ],
+      "assessment": "The opening of Act I: Valère and Élise."
+    },
+    {
+      "passages": [
+        "moliere-l-avare:6.218"
+      ],
+      "assessment": "The last unit, closing Act V."
+    }
+  ]
+}

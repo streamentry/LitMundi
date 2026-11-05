@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 82 published · 192 todo · 0 in progress · 226 on hold.**
+**500 selected works · 83 published · 191 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -169,7 +169,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **145. J. M. Synge — The Playboy of the Western World** · en · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/1240)
 - [x] **146. Molière — Tartuffe** · fr · play · **Published** · [Evidence](https://www.gutenberg.org/ebooks/2027) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/moliere-tartuffe/moliere-tartuffe-vi-ai-2026/)
 - [ ] **147. Rabindranath Tagore — Gitanjali (Bengali collection, 1910)** · bn · poetry collection · **Todo** · [Evidence](https://www.nobelprize.org/prizes/literature/1913/tagore/biographical/?print=1)
-- [ ] **148. Molière — L'Avare** · fr · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/6318)
+- [x] **148. Molière — L'Avare** · fr · play · **Published** · [Evidence](https://www.gutenberg.org/ebooks/6318) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/moliere-l-avare/moliere-l-avare-vi-ai-2026/)
 - [ ] **149. Rabindranath Tagore — Gora** · bn · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/54667/rabindranath-tagore/)
 - [ ] **150. Madame de La Fayette — La Princesse de Clèves** · fr · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/18797)
 

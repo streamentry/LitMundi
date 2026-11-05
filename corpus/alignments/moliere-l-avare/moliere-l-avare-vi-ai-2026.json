@@ -1,0 +1,8696 @@
+{
+  "schema_version": 1,
+  "work_id": "moliere-l-avare",
+  "edition_id": "moliere-l-avare-vi-ai-2026",
+  "source_edition_id": "moliere-l-avare-fr-wikisource",
+  "links": [
+    {
+      "source": [
+        "moliere-l-avare:1.1"
+      ],
+      "target": [
+        "moliere-l-avare:1.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.2"
+      ],
+      "target": [
+        "moliere-l-avare:1.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.3"
+      ],
+      "target": [
+        "moliere-l-avare:1.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.4"
+      ],
+      "target": [
+        "moliere-l-avare:1.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.5"
+      ],
+      "target": [
+        "moliere-l-avare:1.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.6"
+      ],
+      "target": [
+        "moliere-l-avare:1.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.7"
+      ],
+      "target": [
+        "moliere-l-avare:1.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.8"
+      ],
+      "target": [
+        "moliere-l-avare:1.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.9"
+      ],
+      "target": [
+        "moliere-l-avare:1.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.10"
+      ],
+      "target": [
+        "moliere-l-avare:1.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.11"
+      ],
+      "target": [
+        "moliere-l-avare:1.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.12"
+      ],
+      "target": [
+        "moliere-l-avare:1.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.13"
+      ],
+      "target": [
+        "moliere-l-avare:1.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.14"
+      ],
+      "target": [
+        "moliere-l-avare:1.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:1.15"
+      ],
+      "target": [
+        "moliere-l-avare:1.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.1"
+      ],
+      "target": [
+        "moliere-l-avare:2.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.2"
+      ],
+      "target": [
+        "moliere-l-avare:2.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.3"
+      ],
+      "target": [
+        "moliere-l-avare:2.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.4"
+      ],
+      "target": [
+        "moliere-l-avare:2.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.5"
+      ],
+      "target": [
+        "moliere-l-avare:2.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.6"
+      ],
+      "target": [
+        "moliere-l-avare:2.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.7"
+      ],
+      "target": [
+        "moliere-l-avare:2.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.8"
+      ],
+      "target": [
+        "moliere-l-avare:2.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.9"
+      ],
+      "target": [
+        "moliere-l-avare:2.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.10"
+      ],
+      "target": [
+        "moliere-l-avare:2.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.11"
+      ],
+      "target": [
+        "moliere-l-avare:2.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.12"
+      ],
+      "target": [
+        "moliere-l-avare:2.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.13"
+      ],
+      "target": [
+        "moliere-l-avare:2.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.14"
+      ],
+      "target": [
+        "moliere-l-avare:2.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.15"
+      ],
+      "target": [
+        "moliere-l-avare:2.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.16"
+      ],
+      "target": [
+        "moliere-l-avare:2.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.17"
+      ],
+      "target": [
+        "moliere-l-avare:2.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.18"
+      ],
+      "target": [
+        "moliere-l-avare:2.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.19"
+      ],
+      "target": [
+        "moliere-l-avare:2.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.20"
+      ],
+      "target": [
+        "moliere-l-avare:2.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.21"
+      ],
+      "target": [
+        "moliere-l-avare:2.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.22"
+      ],
+      "target": [
+        "moliere-l-avare:2.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.23"
+      ],
+      "target": [
+        "moliere-l-avare:2.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.24"
+      ],
+      "target": [
+        "moliere-l-avare:2.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.25"
+      ],
+      "target": [
+        "moliere-l-avare:2.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.26"
+      ],
+      "target": [
+        "moliere-l-avare:2.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.27"
+      ],
+      "target": [
+        "moliere-l-avare:2.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.28"
+      ],
+      "target": [
+        "moliere-l-avare:2.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.29"
+      ],
+      "target": [
+        "moliere-l-avare:2.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.30"
+      ],
+      "target": [
+        "moliere-l-avare:2.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.31"
+      ],
+      "target": [
+        "moliere-l-avare:2.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.32"
+      ],
+      "target": [
+        "moliere-l-avare:2.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.33"
+      ],
+      "target": [
+        "moliere-l-avare:2.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.34"
+      ],
+      "target": [
+        "moliere-l-avare:2.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.35"
+      ],
+      "target": [
+        "moliere-l-avare:2.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.36"
+      ],
+      "target": [
+        "moliere-l-avare:2.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.37"
+      ],
+      "target": [
+        "moliere-l-avare:2.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.38"
+      ],
+      "target": [
+        "moliere-l-avare:2.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.39"
+      ],
+      "target": [
+        "moliere-l-avare:2.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.40"
+      ],
+      "target": [
+        "moliere-l-avare:2.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.41"
+      ],
+      "target": [
+        "moliere-l-avare:2.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.42"
+      ],
+      "target": [
+        "moliere-l-avare:2.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.43"
+      ],
+      "target": [
+        "moliere-l-avare:2.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.44"
+      ],
+      "target": [
+        "moliere-l-avare:2.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.45"
+      ],
+      "target": [
+        "moliere-l-avare:2.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.46"
+      ],
+      "target": [
+        "moliere-l-avare:2.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.47"
+      ],
+      "target": [
+        "moliere-l-avare:2.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.48"
+      ],
+      "target": [
+        "moliere-l-avare:2.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.49"
+      ],
+      "target": [
+        "moliere-l-avare:2.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.50"
+      ],
+      "target": [
+        "moliere-l-avare:2.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.51"
+      ],
+      "target": [
+        "moliere-l-avare:2.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.52"
+      ],
+      "target": [
+        "moliere-l-avare:2.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.53"
+      ],
+      "target": [
+        "moliere-l-avare:2.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.54"
+      ],
+      "target": [
+        "moliere-l-avare:2.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.55"
+      ],
+      "target": [
+        "moliere-l-avare:2.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.56"
+      ],
+      "target": [
+        "moliere-l-avare:2.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.57"
+      ],
+      "target": [
+        "moliere-l-avare:2.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.58"
+      ],
+      "target": [
+        "moliere-l-avare:2.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.59"
+      ],
+      "target": [
+        "moliere-l-avare:2.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.60"
+      ],
+      "target": [
+        "moliere-l-avare:2.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.61"
+      ],
+      "target": [
+        "moliere-l-avare:2.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.62"
+      ],
+      "target": [
+        "moliere-l-avare:2.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.63"
+      ],
+      "target": [
+        "moliere-l-avare:2.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.64"
+      ],
+      "target": [
+        "moliere-l-avare:2.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.65"
+      ],
+      "target": [
+        "moliere-l-avare:2.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.66"
+      ],
+      "target": [
+        "moliere-l-avare:2.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.67"
+      ],
+      "target": [
+        "moliere-l-avare:2.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.68"
+      ],
+      "target": [
+        "moliere-l-avare:2.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.69"
+      ],
+      "target": [
+        "moliere-l-avare:2.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.70"
+      ],
+      "target": [
+        "moliere-l-avare:2.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.71"
+      ],
+      "target": [
+        "moliere-l-avare:2.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.72"
+      ],
+      "target": [
+        "moliere-l-avare:2.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.73"
+      ],
+      "target": [
+        "moliere-l-avare:2.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.74"
+      ],
+      "target": [
+        "moliere-l-avare:2.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.75"
+      ],
+      "target": [
+        "moliere-l-avare:2.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.76"
+      ],
+      "target": [
+        "moliere-l-avare:2.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.77"
+      ],
+      "target": [
+        "moliere-l-avare:2.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.78"
+      ],
+      "target": [
+        "moliere-l-avare:2.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.79"
+      ],
+      "target": [
+        "moliere-l-avare:2.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.80"
+      ],
+      "target": [
+        "moliere-l-avare:2.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.81"
+      ],
+      "target": [
+        "moliere-l-avare:2.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.82"
+      ],
+      "target": [
+        "moliere-l-avare:2.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.83"
+      ],
+      "target": [
+        "moliere-l-avare:2.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.84"
+      ],
+      "target": [
+        "moliere-l-avare:2.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.85"
+      ],
+      "target": [
+        "moliere-l-avare:2.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.86"
+      ],
+      "target": [
+        "moliere-l-avare:2.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.87"
+      ],
+      "target": [
+        "moliere-l-avare:2.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.88"
+      ],
+      "target": [
+        "moliere-l-avare:2.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.89"
+      ],
+      "target": [
+        "moliere-l-avare:2.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.90"
+      ],
+      "target": [
+        "moliere-l-avare:2.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.91"
+      ],
+      "target": [
+        "moliere-l-avare:2.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.92"
+      ],
+      "target": [
+        "moliere-l-avare:2.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.93"
+      ],
+      "target": [
+        "moliere-l-avare:2.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.94"
+      ],
+      "target": [
+        "moliere-l-avare:2.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.95"
+      ],
+      "target": [
+        "moliere-l-avare:2.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.96"
+      ],
+      "target": [
+        "moliere-l-avare:2.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.97"
+      ],
+      "target": [
+        "moliere-l-avare:2.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.98"
+      ],
+      "target": [
+        "moliere-l-avare:2.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.99"
+      ],
+      "target": [
+        "moliere-l-avare:2.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.100"
+      ],
+      "target": [
+        "moliere-l-avare:2.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.101"
+      ],
+      "target": [
+        "moliere-l-avare:2.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.102"
+      ],
+      "target": [
+        "moliere-l-avare:2.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.103"
+      ],
+      "target": [
+        "moliere-l-avare:2.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.104"
+      ],
+      "target": [
+        "moliere-l-avare:2.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.105"
+      ],
+      "target": [
+        "moliere-l-avare:2.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.106"
+      ],
+      "target": [
+        "moliere-l-avare:2.106"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.107"
+      ],
+      "target": [
+        "moliere-l-avare:2.107"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.108"
+      ],
+      "target": [
+        "moliere-l-avare:2.108"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.109"
+      ],
+      "target": [
+        "moliere-l-avare:2.109"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.110"
+      ],
+      "target": [
+        "moliere-l-avare:2.110"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.111"
+      ],
+      "target": [
+        "moliere-l-avare:2.111"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.112"
+      ],
+      "target": [
+        "moliere-l-avare:2.112"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.113"
+      ],
+      "target": [
+        "moliere-l-avare:2.113"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.114"
+      ],
+      "target": [
+        "moliere-l-avare:2.114"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.115"
+      ],
+      "target": [
+        "moliere-l-avare:2.115"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.116"
+      ],
+      "target": [
+        "moliere-l-avare:2.116"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.117"
+      ],
+      "target": [
+        "moliere-l-avare:2.117"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.118"
+      ],
+      "target": [
+        "moliere-l-avare:2.118"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.119"
+      ],
+      "target": [
+        "moliere-l-avare:2.119"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.120"
+      ],
+      "target": [
+        "moliere-l-avare:2.120"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.121"
+      ],
+      "target": [
+        "moliere-l-avare:2.121"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.122"
+      ],
+      "target": [
+        "moliere-l-avare:2.122"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.123"
+      ],
+      "target": [
+        "moliere-l-avare:2.123"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.124"
+      ],
+      "target": [
+        "moliere-l-avare:2.124"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.125"
+      ],
+      "target": [
+        "moliere-l-avare:2.125"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.126"
+      ],
+      "target": [
+        "moliere-l-avare:2.126"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.127"
+      ],
+      "target": [
+        "moliere-l-avare:2.127"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.128"
+      ],
+      "target": [
+        "moliere-l-avare:2.128"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.129"
+      ],
+      "target": [
+        "moliere-l-avare:2.129"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.130"
+      ],
+      "target": [
+        "moliere-l-avare:2.130"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.131"
+      ],
+      "target": [
+        "moliere-l-avare:2.131"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.132"
+      ],
+      "target": [
+        "moliere-l-avare:2.132"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.133"
+      ],
+      "target": [
+        "moliere-l-avare:2.133"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.134"
+      ],
+      "target": [
+        "moliere-l-avare:2.134"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.135"
+      ],
+      "target": [
+        "moliere-l-avare:2.135"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.136"
+      ],
+      "target": [
+        "moliere-l-avare:2.136"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.137"
+      ],
+      "target": [
+        "moliere-l-avare:2.137"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.138"
+      ],
+      "target": [
+        "moliere-l-avare:2.138"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.139"
+      ],
+      "target": [
+        "moliere-l-avare:2.139"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.140"
+      ],
+      "target": [
+        "moliere-l-avare:2.140"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.141"
+      ],
+      "target": [
+        "moliere-l-avare:2.141"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.142"
+      ],
+      "target": [
+        "moliere-l-avare:2.142"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.143"
+      ],
+      "target": [
+        "moliere-l-avare:2.143"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.144"
+      ],
+      "target": [
+        "moliere-l-avare:2.144"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.145"
+      ],
+      "target": [
+        "moliere-l-avare:2.145"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.146"
+      ],
+      "target": [
+        "moliere-l-avare:2.146"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.147"
+      ],
+      "target": [
+        "moliere-l-avare:2.147"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.148"
+      ],
+      "target": [
+        "moliere-l-avare:2.148"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.149"
+      ],
+      "target": [
+        "moliere-l-avare:2.149"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.150"
+      ],
+      "target": [
+        "moliere-l-avare:2.150"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.151"
+      ],
+      "target": [
+        "moliere-l-avare:2.151"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.152"
+      ],
+      "target": [
+        "moliere-l-avare:2.152"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.153"
+      ],
+      "target": [
+        "moliere-l-avare:2.153"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.154"
+      ],
+      "target": [
+        "moliere-l-avare:2.154"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.155"
+      ],
+      "target": [
+        "moliere-l-avare:2.155"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.156"
+      ],
+      "target": [
+        "moliere-l-avare:2.156"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.157"
+      ],
+      "target": [
+        "moliere-l-avare:2.157"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.158"
+      ],
+      "target": [
+        "moliere-l-avare:2.158"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.159"
+      ],
+      "target": [
+        "moliere-l-avare:2.159"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.160"
+      ],
+      "target": [
+        "moliere-l-avare:2.160"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.161"
+      ],
+      "target": [
+        "moliere-l-avare:2.161"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.162"
+      ],
+      "target": [
+        "moliere-l-avare:2.162"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.163"
+      ],
+      "target": [
+        "moliere-l-avare:2.163"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.164"
+      ],
+      "target": [
+        "moliere-l-avare:2.164"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.165"
+      ],
+      "target": [
+        "moliere-l-avare:2.165"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.166"
+      ],
+      "target": [
+        "moliere-l-avare:2.166"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.167"
+      ],
+      "target": [
+        "moliere-l-avare:2.167"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.168"
+      ],
+      "target": [
+        "moliere-l-avare:2.168"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.169"
+      ],
+      "target": [
+        "moliere-l-avare:2.169"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.170"
+      ],
+      "target": [
+        "moliere-l-avare:2.170"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.171"
+      ],
+      "target": [
+        "moliere-l-avare:2.171"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.172"
+      ],
+      "target": [
+        "moliere-l-avare:2.172"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.173"
+      ],
+      "target": [
+        "moliere-l-avare:2.173"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.174"
+      ],
+      "target": [
+        "moliere-l-avare:2.174"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.175"
+      ],
+      "target": [
+        "moliere-l-avare:2.175"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.176"
+      ],
+      "target": [
+        "moliere-l-avare:2.176"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.177"
+      ],
+      "target": [
+        "moliere-l-avare:2.177"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.178"
+      ],
+      "target": [
+        "moliere-l-avare:2.178"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.179"
+      ],
+      "target": [
+        "moliere-l-avare:2.179"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.180"
+      ],
+      "target": [
+        "moliere-l-avare:2.180"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.181"
+      ],
+      "target": [
+        "moliere-l-avare:2.181"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.182"
+      ],
+      "target": [
+        "moliere-l-avare:2.182"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.183"
+      ],
+      "target": [
+        "moliere-l-avare:2.183"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.184"
+      ],
+      "target": [
+        "moliere-l-avare:2.184"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.185"
+      ],
+      "target": [
+        "moliere-l-avare:2.185"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.186"
+      ],
+      "target": [
+        "moliere-l-avare:2.186"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.187"
+      ],
+      "target": [
+        "moliere-l-avare:2.187"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.188"
+      ],
+      "target": [
+        "moliere-l-avare:2.188"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.189"
+      ],
+      "target": [
+        "moliere-l-avare:2.189"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.190"
+      ],
+      "target": [
+        "moliere-l-avare:2.190"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.191"
+      ],
+      "target": [
+        "moliere-l-avare:2.191"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.192"
+      ],
+      "target": [
+        "moliere-l-avare:2.192"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.193"
+      ],
+      "target": [
+        "moliere-l-avare:2.193"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.194"
+      ],
+      "target": [
+        "moliere-l-avare:2.194"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.195"
+      ],
+      "target": [
+        "moliere-l-avare:2.195"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.196"
+      ],
+      "target": [
+        "moliere-l-avare:2.196"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.197"
+      ],
+      "target": [
+        "moliere-l-avare:2.197"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.198"
+      ],
+      "target": [
+        "moliere-l-avare:2.198"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.199"
+      ],
+      "target": [
+        "moliere-l-avare:2.199"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.200"
+      ],
+      "target": [
+        "moliere-l-avare:2.200"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.201"
+      ],
+      "target": [
+        "moliere-l-avare:2.201"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.202"
+      ],
+      "target": [
+        "moliere-l-avare:2.202"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.203"
+      ],
+      "target": [
+        "moliere-l-avare:2.203"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.204"
+      ],
+      "target": [
+        "moliere-l-avare:2.204"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.205"
+      ],
+      "target": [
+        "moliere-l-avare:2.205"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.206"
+      ],
+      "target": [
+        "moliere-l-avare:2.206"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.207"
+      ],
+      "target": [
+        "moliere-l-avare:2.207"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.208"
+      ],
+      "target": [
+        "moliere-l-avare:2.208"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.209"
+      ],
+      "target": [
+        "moliere-l-avare:2.209"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.210"
+      ],
+      "target": [
+        "moliere-l-avare:2.210"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.211"
+      ],
+      "target": [
+        "moliere-l-avare:2.211"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.212"
+      ],
+      "target": [
+        "moliere-l-avare:2.212"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.213"
+      ],
+      "target": [
+        "moliere-l-avare:2.213"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.214"
+      ],
+      "target": [
+        "moliere-l-avare:2.214"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.215"
+      ],
+      "target": [
+        "moliere-l-avare:2.215"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.216"
+      ],
+      "target": [
+        "moliere-l-avare:2.216"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.217"
+      ],
+      "target": [
+        "moliere-l-avare:2.217"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.218"
+      ],
+      "target": [
+        "moliere-l-avare:2.218"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.219"
+      ],
+      "target": [
+        "moliere-l-avare:2.219"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.220"
+      ],
+      "target": [
+        "moliere-l-avare:2.220"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.221"
+      ],
+      "target": [
+        "moliere-l-avare:2.221"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.222"
+      ],
+      "target": [
+        "moliere-l-avare:2.222"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.223"
+      ],
+      "target": [
+        "moliere-l-avare:2.223"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.224"
+      ],
+      "target": [
+        "moliere-l-avare:2.224"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.225"
+      ],
+      "target": [
+        "moliere-l-avare:2.225"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.226"
+      ],
+      "target": [
+        "moliere-l-avare:2.226"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.227"
+      ],
+      "target": [
+        "moliere-l-avare:2.227"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.228"
+      ],
+      "target": [
+        "moliere-l-avare:2.228"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.229"
+      ],
+      "target": [
+        "moliere-l-avare:2.229"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.230"
+      ],
+      "target": [
+        "moliere-l-avare:2.230"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.231"
+      ],
+      "target": [
+        "moliere-l-avare:2.231"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.232"
+      ],
+      "target": [
+        "moliere-l-avare:2.232"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.233"
+      ],
+      "target": [
+        "moliere-l-avare:2.233"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.234"
+      ],
+      "target": [
+        "moliere-l-avare:2.234"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.235"
+      ],
+      "target": [
+        "moliere-l-avare:2.235"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.236"
+      ],
+      "target": [
+        "moliere-l-avare:2.236"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.237"
+      ],
+      "target": [
+        "moliere-l-avare:2.237"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.238"
+      ],
+      "target": [
+        "moliere-l-avare:2.238"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.239"
+      ],
+      "target": [
+        "moliere-l-avare:2.239"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.240"
+      ],
+      "target": [
+        "moliere-l-avare:2.240"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.241"
+      ],
+      "target": [
+        "moliere-l-avare:2.241"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.242"
+      ],
+      "target": [
+        "moliere-l-avare:2.242"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.243"
+      ],
+      "target": [
+        "moliere-l-avare:2.243"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.244"
+      ],
+      "target": [
+        "moliere-l-avare:2.244"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.245"
+      ],
+      "target": [
+        "moliere-l-avare:2.245"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.246"
+      ],
+      "target": [
+        "moliere-l-avare:2.246"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.247"
+      ],
+      "target": [
+        "moliere-l-avare:2.247"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.248"
+      ],
+      "target": [
+        "moliere-l-avare:2.248"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.249"
+      ],
+      "target": [
+        "moliere-l-avare:2.249"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.250"
+      ],
+      "target": [
+        "moliere-l-avare:2.250"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.251"
+      ],
+      "target": [
+        "moliere-l-avare:2.251"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.252"
+      ],
+      "target": [
+        "moliere-l-avare:2.252"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.253"
+      ],
+      "target": [
+        "moliere-l-avare:2.253"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.254"
+      ],
+      "target": [
+        "moliere-l-avare:2.254"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.255"
+      ],
+      "target": [
+        "moliere-l-avare:2.255"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.256"
+      ],
+      "target": [
+        "moliere-l-avare:2.256"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.257"
+      ],
+      "target": [
+        "moliere-l-avare:2.257"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.258"
+      ],
+      "target": [
+        "moliere-l-avare:2.258"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.259"
+      ],
+      "target": [
+        "moliere-l-avare:2.259"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.260"
+      ],
+      "target": [
+        "moliere-l-avare:2.260"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.261"
+      ],
+      "target": [
+        "moliere-l-avare:2.261"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.262"
+      ],
+      "target": [
+        "moliere-l-avare:2.262"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.263"
+      ],
+      "target": [
+        "moliere-l-avare:2.263"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.264"
+      ],
+      "target": [
+        "moliere-l-avare:2.264"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.265"
+      ],
+      "target": [
+        "moliere-l-avare:2.265"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.266"
+      ],
+      "target": [
+        "moliere-l-avare:2.266"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.267"
+      ],
+      "target": [
+        "moliere-l-avare:2.267"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.268"
+      ],
+      "target": [
+        "moliere-l-avare:2.268"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.269"
+      ],
+      "target": [
+        "moliere-l-avare:2.269"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.270"
+      ],
+      "target": [
+        "moliere-l-avare:2.270"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.271"
+      ],
+      "target": [
+        "moliere-l-avare:2.271"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.272"
+      ],
+      "target": [
+        "moliere-l-avare:2.272"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.273"
+      ],
+      "target": [
+        "moliere-l-avare:2.273"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.274"
+      ],
+      "target": [
+        "moliere-l-avare:2.274"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.275"
+      ],
+      "target": [
+        "moliere-l-avare:2.275"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.276"
+      ],
+      "target": [
+        "moliere-l-avare:2.276"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.277"
+      ],
+      "target": [
+        "moliere-l-avare:2.277"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.278"
+      ],
+      "target": [
+        "moliere-l-avare:2.278"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:2.279"
+      ],
+      "target": [
+        "moliere-l-avare:2.279"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.1"
+      ],
+      "target": [
+        "moliere-l-avare:3.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.2"
+      ],
+      "target": [
+        "moliere-l-avare:3.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.3"
+      ],
+      "target": [
+        "moliere-l-avare:3.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.4"
+      ],
+      "target": [
+        "moliere-l-avare:3.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.5"
+      ],
+      "target": [
+        "moliere-l-avare:3.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.6"
+      ],
+      "target": [
+        "moliere-l-avare:3.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.7"
+      ],
+      "target": [
+        "moliere-l-avare:3.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.8"
+      ],
+      "target": [
+        "moliere-l-avare:3.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.9"
+      ],
+      "target": [
+        "moliere-l-avare:3.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.10"
+      ],
+      "target": [
+        "moliere-l-avare:3.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.11"
+      ],
+      "target": [
+        "moliere-l-avare:3.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.12"
+      ],
+      "target": [
+        "moliere-l-avare:3.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.13"
+      ],
+      "target": [
+        "moliere-l-avare:3.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.14"
+      ],
+      "target": [
+        "moliere-l-avare:3.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.15"
+      ],
+      "target": [
+        "moliere-l-avare:3.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.16"
+      ],
+      "target": [
+        "moliere-l-avare:3.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.17"
+      ],
+      "target": [
+        "moliere-l-avare:3.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.18"
+      ],
+      "target": [
+        "moliere-l-avare:3.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.19"
+      ],
+      "target": [
+        "moliere-l-avare:3.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.20"
+      ],
+      "target": [
+        "moliere-l-avare:3.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.21"
+      ],
+      "target": [
+        "moliere-l-avare:3.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.22"
+      ],
+      "target": [
+        "moliere-l-avare:3.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.23"
+      ],
+      "target": [
+        "moliere-l-avare:3.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.24"
+      ],
+      "target": [
+        "moliere-l-avare:3.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.25"
+      ],
+      "target": [
+        "moliere-l-avare:3.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.26"
+      ],
+      "target": [
+        "moliere-l-avare:3.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.27"
+      ],
+      "target": [
+        "moliere-l-avare:3.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.28"
+      ],
+      "target": [
+        "moliere-l-avare:3.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.29"
+      ],
+      "target": [
+        "moliere-l-avare:3.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.30"
+      ],
+      "target": [
+        "moliere-l-avare:3.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.31"
+      ],
+      "target": [
+        "moliere-l-avare:3.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.32"
+      ],
+      "target": [
+        "moliere-l-avare:3.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.33"
+      ],
+      "target": [
+        "moliere-l-avare:3.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.34"
+      ],
+      "target": [
+        "moliere-l-avare:3.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.35"
+      ],
+      "target": [
+        "moliere-l-avare:3.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.36"
+      ],
+      "target": [
+        "moliere-l-avare:3.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.37"
+      ],
+      "target": [
+        "moliere-l-avare:3.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.38"
+      ],
+      "target": [
+        "moliere-l-avare:3.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.39"
+      ],
+      "target": [
+        "moliere-l-avare:3.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.40"
+      ],
+      "target": [
+        "moliere-l-avare:3.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.41"
+      ],
+      "target": [
+        "moliere-l-avare:3.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.42"
+      ],
+      "target": [
+        "moliere-l-avare:3.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.43"
+      ],
+      "target": [
+        "moliere-l-avare:3.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.44"
+      ],
+      "target": [
+        "moliere-l-avare:3.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.45"
+      ],
+      "target": [
+        "moliere-l-avare:3.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.46"
+      ],
+      "target": [
+        "moliere-l-avare:3.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.47"
+      ],
+      "target": [
+        "moliere-l-avare:3.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.48"
+      ],
+      "target": [
+        "moliere-l-avare:3.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.49"
+      ],
+      "target": [
+        "moliere-l-avare:3.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.50"
+      ],
+      "target": [
+        "moliere-l-avare:3.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.51"
+      ],
+      "target": [
+        "moliere-l-avare:3.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.52"
+      ],
+      "target": [
+        "moliere-l-avare:3.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.53"
+      ],
+      "target": [
+        "moliere-l-avare:3.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.54"
+      ],
+      "target": [
+        "moliere-l-avare:3.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.55"
+      ],
+      "target": [
+        "moliere-l-avare:3.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.56"
+      ],
+      "target": [
+        "moliere-l-avare:3.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.57"
+      ],
+      "target": [
+        "moliere-l-avare:3.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.58"
+      ],
+      "target": [
+        "moliere-l-avare:3.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.59"
+      ],
+      "target": [
+        "moliere-l-avare:3.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.60"
+      ],
+      "target": [
+        "moliere-l-avare:3.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.61"
+      ],
+      "target": [
+        "moliere-l-avare:3.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.62"
+      ],
+      "target": [
+        "moliere-l-avare:3.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.63"
+      ],
+      "target": [
+        "moliere-l-avare:3.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.64"
+      ],
+      "target": [
+        "moliere-l-avare:3.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.65"
+      ],
+      "target": [
+        "moliere-l-avare:3.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.66"
+      ],
+      "target": [
+        "moliere-l-avare:3.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.67"
+      ],
+      "target": [
+        "moliere-l-avare:3.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.68"
+      ],
+      "target": [
+        "moliere-l-avare:3.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.69"
+      ],
+      "target": [
+        "moliere-l-avare:3.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.70"
+      ],
+      "target": [
+        "moliere-l-avare:3.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.71"
+      ],
+      "target": [
+        "moliere-l-avare:3.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.72"
+      ],
+      "target": [
+        "moliere-l-avare:3.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.73"
+      ],
+      "target": [
+        "moliere-l-avare:3.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.74"
+      ],
+      "target": [
+        "moliere-l-avare:3.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.75"
+      ],
+      "target": [
+        "moliere-l-avare:3.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.76"
+      ],
+      "target": [
+        "moliere-l-avare:3.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.77"
+      ],
+      "target": [
+        "moliere-l-avare:3.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.78"
+      ],
+      "target": [
+        "moliere-l-avare:3.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.79"
+      ],
+      "target": [
+        "moliere-l-avare:3.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.80"
+      ],
+      "target": [
+        "moliere-l-avare:3.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.81"
+      ],
+      "target": [
+        "moliere-l-avare:3.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.82"
+      ],
+      "target": [
+        "moliere-l-avare:3.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.83"
+      ],
+      "target": [
+        "moliere-l-avare:3.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.84"
+      ],
+      "target": [
+        "moliere-l-avare:3.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.85"
+      ],
+      "target": [
+        "moliere-l-avare:3.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.86"
+      ],
+      "target": [
+        "moliere-l-avare:3.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.87"
+      ],
+      "target": [
+        "moliere-l-avare:3.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.88"
+      ],
+      "target": [
+        "moliere-l-avare:3.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.89"
+      ],
+      "target": [
+        "moliere-l-avare:3.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.90"
+      ],
+      "target": [
+        "moliere-l-avare:3.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.91"
+      ],
+      "target": [
+        "moliere-l-avare:3.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.92"
+      ],
+      "target": [
+        "moliere-l-avare:3.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.93"
+      ],
+      "target": [
+        "moliere-l-avare:3.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.94"
+      ],
+      "target": [
+        "moliere-l-avare:3.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.95"
+      ],
+      "target": [
+        "moliere-l-avare:3.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.96"
+      ],
+      "target": [
+        "moliere-l-avare:3.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.97"
+      ],
+      "target": [
+        "moliere-l-avare:3.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.98"
+      ],
+      "target": [
+        "moliere-l-avare:3.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.99"
+      ],
+      "target": [
+        "moliere-l-avare:3.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.100"
+      ],
+      "target": [
+        "moliere-l-avare:3.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.101"
+      ],
+      "target": [
+        "moliere-l-avare:3.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.102"
+      ],
+      "target": [
+        "moliere-l-avare:3.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.103"
+      ],
+      "target": [
+        "moliere-l-avare:3.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.104"
+      ],
+      "target": [
+        "moliere-l-avare:3.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.105"
+      ],
+      "target": [
+        "moliere-l-avare:3.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.106"
+      ],
+      "target": [
+        "moliere-l-avare:3.106"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.107"
+      ],
+      "target": [
+        "moliere-l-avare:3.107"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.108"
+      ],
+      "target": [
+        "moliere-l-avare:3.108"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.109"
+      ],
+      "target": [
+        "moliere-l-avare:3.109"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.110"
+      ],
+      "target": [
+        "moliere-l-avare:3.110"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.111"
+      ],
+      "target": [
+        "moliere-l-avare:3.111"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.112"
+      ],
+      "target": [
+        "moliere-l-avare:3.112"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.113"
+      ],
+      "target": [
+        "moliere-l-avare:3.113"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.114"
+      ],
+      "target": [
+        "moliere-l-avare:3.114"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.115"
+      ],
+      "target": [
+        "moliere-l-avare:3.115"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.116"
+      ],
+      "target": [
+        "moliere-l-avare:3.116"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.117"
+      ],
+      "target": [
+        "moliere-l-avare:3.117"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.118"
+      ],
+      "target": [
+        "moliere-l-avare:3.118"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.119"
+      ],
+      "target": [
+        "moliere-l-avare:3.119"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.120"
+      ],
+      "target": [
+        "moliere-l-avare:3.120"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.121"
+      ],
+      "target": [
+        "moliere-l-avare:3.121"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.122"
+      ],
+      "target": [
+        "moliere-l-avare:3.122"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.123"
+      ],
+      "target": [
+        "moliere-l-avare:3.123"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.124"
+      ],
+      "target": [
+        "moliere-l-avare:3.124"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.125"
+      ],
+      "target": [
+        "moliere-l-avare:3.125"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.126"
+      ],
+      "target": [
+        "moliere-l-avare:3.126"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.127"
+      ],
+      "target": [
+        "moliere-l-avare:3.127"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.128"
+      ],
+      "target": [
+        "moliere-l-avare:3.128"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.129"
+      ],
+      "target": [
+        "moliere-l-avare:3.129"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.130"
+      ],
+      "target": [
+        "moliere-l-avare:3.130"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.131"
+      ],
+      "target": [
+        "moliere-l-avare:3.131"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.132"
+      ],
+      "target": [
+        "moliere-l-avare:3.132"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.133"
+      ],
+      "target": [
+        "moliere-l-avare:3.133"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.134"
+      ],
+      "target": [
+        "moliere-l-avare:3.134"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.135"
+      ],
+      "target": [
+        "moliere-l-avare:3.135"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.136"
+      ],
+      "target": [
+        "moliere-l-avare:3.136"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.137"
+      ],
+      "target": [
+        "moliere-l-avare:3.137"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.138"
+      ],
+      "target": [
+        "moliere-l-avare:3.138"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.139"
+      ],
+      "target": [
+        "moliere-l-avare:3.139"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.140"
+      ],
+      "target": [
+        "moliere-l-avare:3.140"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.141"
+      ],
+      "target": [
+        "moliere-l-avare:3.141"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.142"
+      ],
+      "target": [
+        "moliere-l-avare:3.142"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.143"
+      ],
+      "target": [
+        "moliere-l-avare:3.143"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.144"
+      ],
+      "target": [
+        "moliere-l-avare:3.144"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.145"
+      ],
+      "target": [
+        "moliere-l-avare:3.145"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.146"
+      ],
+      "target": [
+        "moliere-l-avare:3.146"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.147"
+      ],
+      "target": [
+        "moliere-l-avare:3.147"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.148"
+      ],
+      "target": [
+        "moliere-l-avare:3.148"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.149"
+      ],
+      "target": [
+        "moliere-l-avare:3.149"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.150"
+      ],
+      "target": [
+        "moliere-l-avare:3.150"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.151"
+      ],
+      "target": [
+        "moliere-l-avare:3.151"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.152"
+      ],
+      "target": [
+        "moliere-l-avare:3.152"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.153"
+      ],
+      "target": [
+        "moliere-l-avare:3.153"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.154"
+      ],
+      "target": [
+        "moliere-l-avare:3.154"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.155"
+      ],
+      "target": [
+        "moliere-l-avare:3.155"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.156"
+      ],
+      "target": [
+        "moliere-l-avare:3.156"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.157"
+      ],
+      "target": [
+        "moliere-l-avare:3.157"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.158"
+      ],
+      "target": [
+        "moliere-l-avare:3.158"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.159"
+      ],
+      "target": [
+        "moliere-l-avare:3.159"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:3.160"
+      ],
+      "target": [
+        "moliere-l-avare:3.160"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.1"
+      ],
+      "target": [
+        "moliere-l-avare:4.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.2"
+      ],
+      "target": [
+        "moliere-l-avare:4.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.3"
+      ],
+      "target": [
+        "moliere-l-avare:4.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.4"
+      ],
+      "target": [
+        "moliere-l-avare:4.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.5"
+      ],
+      "target": [
+        "moliere-l-avare:4.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.6"
+      ],
+      "target": [
+        "moliere-l-avare:4.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.7"
+      ],
+      "target": [
+        "moliere-l-avare:4.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.8"
+      ],
+      "target": [
+        "moliere-l-avare:4.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.9"
+      ],
+      "target": [
+        "moliere-l-avare:4.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.10"
+      ],
+      "target": [
+        "moliere-l-avare:4.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.11"
+      ],
+      "target": [
+        "moliere-l-avare:4.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.12"
+      ],
+      "target": [
+        "moliere-l-avare:4.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.13"
+      ],
+      "target": [
+        "moliere-l-avare:4.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.14"
+      ],
+      "target": [
+        "moliere-l-avare:4.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.15"
+      ],
+      "target": [
+        "moliere-l-avare:4.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.16"
+      ],
+      "target": [
+        "moliere-l-avare:4.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.17"
+      ],
+      "target": [
+        "moliere-l-avare:4.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.18"
+      ],
+      "target": [
+        "moliere-l-avare:4.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.19"
+      ],
+      "target": [
+        "moliere-l-avare:4.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.20"
+      ],
+      "target": [
+        "moliere-l-avare:4.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.21"
+      ],
+      "target": [
+        "moliere-l-avare:4.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.22"
+      ],
+      "target": [
+        "moliere-l-avare:4.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.23"
+      ],
+      "target": [
+        "moliere-l-avare:4.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.24"
+      ],
+      "target": [
+        "moliere-l-avare:4.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.25"
+      ],
+      "target": [
+        "moliere-l-avare:4.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.26"
+      ],
+      "target": [
+        "moliere-l-avare:4.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.27"
+      ],
+      "target": [
+        "moliere-l-avare:4.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.28"
+      ],
+      "target": [
+        "moliere-l-avare:4.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.29"
+      ],
+      "target": [
+        "moliere-l-avare:4.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.30"
+      ],
+      "target": [
+        "moliere-l-avare:4.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.31"
+      ],
+      "target": [
+        "moliere-l-avare:4.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.32"
+      ],
+      "target": [
+        "moliere-l-avare:4.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.33"
+      ],
+      "target": [
+        "moliere-l-avare:4.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.34"
+      ],
+      "target": [
+        "moliere-l-avare:4.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.35"
+      ],
+      "target": [
+        "moliere-l-avare:4.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.36"
+      ],
+      "target": [
+        "moliere-l-avare:4.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.37"
+      ],
+      "target": [
+        "moliere-l-avare:4.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.38"
+      ],
+      "target": [
+        "moliere-l-avare:4.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.39"
+      ],
+      "target": [
+        "moliere-l-avare:4.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.40"
+      ],
+      "target": [
+        "moliere-l-avare:4.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.41"
+      ],
+      "target": [
+        "moliere-l-avare:4.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.42"
+      ],
+      "target": [
+        "moliere-l-avare:4.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.43"
+      ],
+      "target": [
+        "moliere-l-avare:4.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.44"
+      ],
+      "target": [
+        "moliere-l-avare:4.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.45"
+      ],
+      "target": [
+        "moliere-l-avare:4.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.46"
+      ],
+      "target": [
+        "moliere-l-avare:4.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.47"
+      ],
+      "target": [
+        "moliere-l-avare:4.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.48"
+      ],
+      "target": [
+        "moliere-l-avare:4.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.49"
+      ],
+      "target": [
+        "moliere-l-avare:4.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.50"
+      ],
+      "target": [
+        "moliere-l-avare:4.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.51"
+      ],
+      "target": [
+        "moliere-l-avare:4.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.52"
+      ],
+      "target": [
+        "moliere-l-avare:4.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.53"
+      ],
+      "target": [
+        "moliere-l-avare:4.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.54"
+      ],
+      "target": [
+        "moliere-l-avare:4.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.55"
+      ],
+      "target": [
+        "moliere-l-avare:4.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.56"
+      ],
+      "target": [
+        "moliere-l-avare:4.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.57"
+      ],
+      "target": [
+        "moliere-l-avare:4.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.58"
+      ],
+      "target": [
+        "moliere-l-avare:4.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.59"
+      ],
+      "target": [
+        "moliere-l-avare:4.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.60"
+      ],
+      "target": [
+        "moliere-l-avare:4.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.61"
+      ],
+      "target": [
+        "moliere-l-avare:4.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.62"
+      ],
+      "target": [
+        "moliere-l-avare:4.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.63"
+      ],
+      "target": [
+        "moliere-l-avare:4.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.64"
+      ],
+      "target": [
+        "moliere-l-avare:4.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.65"
+      ],
+      "target": [
+        "moliere-l-avare:4.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.66"
+      ],
+      "target": [
+        "moliere-l-avare:4.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.67"
+      ],
+      "target": [
+        "moliere-l-avare:4.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.68"
+      ],
+      "target": [
+        "moliere-l-avare:4.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.69"
+      ],
+      "target": [
+        "moliere-l-avare:4.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.70"
+      ],
+      "target": [
+        "moliere-l-avare:4.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.71"
+      ],
+      "target": [
+        "moliere-l-avare:4.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.72"
+      ],
+      "target": [
+        "moliere-l-avare:4.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.73"
+      ],
+      "target": [
+        "moliere-l-avare:4.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.74"
+      ],
+      "target": [
+        "moliere-l-avare:4.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.75"
+      ],
+      "target": [
+        "moliere-l-avare:4.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.76"
+      ],
+      "target": [
+        "moliere-l-avare:4.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.77"
+      ],
+      "target": [
+        "moliere-l-avare:4.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.78"
+      ],
+      "target": [
+        "moliere-l-avare:4.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.79"
+      ],
+      "target": [
+        "moliere-l-avare:4.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.80"
+      ],
+      "target": [
+        "moliere-l-avare:4.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.81"
+      ],
+      "target": [
+        "moliere-l-avare:4.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.82"
+      ],
+      "target": [
+        "moliere-l-avare:4.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.83"
+      ],
+      "target": [
+        "moliere-l-avare:4.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.84"
+      ],
+      "target": [
+        "moliere-l-avare:4.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.85"
+      ],
+      "target": [
+        "moliere-l-avare:4.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.86"
+      ],
+      "target": [
+        "moliere-l-avare:4.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.87"
+      ],
+      "target": [
+        "moliere-l-avare:4.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.88"
+      ],
+      "target": [
+        "moliere-l-avare:4.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.89"
+      ],
+      "target": [
+        "moliere-l-avare:4.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.90"
+      ],
+      "target": [
+        "moliere-l-avare:4.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.91"
+      ],
+      "target": [
+        "moliere-l-avare:4.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.92"
+      ],
+      "target": [
+        "moliere-l-avare:4.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.93"
+      ],
+      "target": [
+        "moliere-l-avare:4.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.94"
+      ],
+      "target": [
+        "moliere-l-avare:4.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.95"
+      ],
+      "target": [
+        "moliere-l-avare:4.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.96"
+      ],
+      "target": [
+        "moliere-l-avare:4.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.97"
+      ],
+      "target": [
+        "moliere-l-avare:4.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.98"
+      ],
+      "target": [
+        "moliere-l-avare:4.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.99"
+      ],
+      "target": [
+        "moliere-l-avare:4.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.100"
+      ],
+      "target": [
+        "moliere-l-avare:4.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.101"
+      ],
+      "target": [
+        "moliere-l-avare:4.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.102"
+      ],
+      "target": [
+        "moliere-l-avare:4.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.103"
+      ],
+      "target": [
+        "moliere-l-avare:4.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.104"
+      ],
+      "target": [
+        "moliere-l-avare:4.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.105"
+      ],
+      "target": [
+        "moliere-l-avare:4.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.106"
+      ],
+      "target": [
+        "moliere-l-avare:4.106"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.107"
+      ],
+      "target": [
+        "moliere-l-avare:4.107"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.108"
+      ],
+      "target": [
+        "moliere-l-avare:4.108"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.109"
+      ],
+      "target": [
+        "moliere-l-avare:4.109"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.110"
+      ],
+      "target": [
+        "moliere-l-avare:4.110"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.111"
+      ],
+      "target": [
+        "moliere-l-avare:4.111"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.112"
+      ],
+      "target": [
+        "moliere-l-avare:4.112"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.113"
+      ],
+      "target": [
+        "moliere-l-avare:4.113"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.114"
+      ],
+      "target": [
+        "moliere-l-avare:4.114"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.115"
+      ],
+      "target": [
+        "moliere-l-avare:4.115"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.116"
+      ],
+      "target": [
+        "moliere-l-avare:4.116"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.117"
+      ],
+      "target": [
+        "moliere-l-avare:4.117"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.118"
+      ],
+      "target": [
+        "moliere-l-avare:4.118"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.119"
+      ],
+      "target": [
+        "moliere-l-avare:4.119"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.120"
+      ],
+      "target": [
+        "moliere-l-avare:4.120"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.121"
+      ],
+      "target": [
+        "moliere-l-avare:4.121"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.122"
+      ],
+      "target": [
+        "moliere-l-avare:4.122"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.123"
+      ],
+      "target": [
+        "moliere-l-avare:4.123"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.124"
+      ],
+      "target": [
+        "moliere-l-avare:4.124"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.125"
+      ],
+      "target": [
+        "moliere-l-avare:4.125"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.126"
+      ],
+      "target": [
+        "moliere-l-avare:4.126"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.127"
+      ],
+      "target": [
+        "moliere-l-avare:4.127"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.128"
+      ],
+      "target": [
+        "moliere-l-avare:4.128"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.129"
+      ],
+      "target": [
+        "moliere-l-avare:4.129"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.130"
+      ],
+      "target": [
+        "moliere-l-avare:4.130"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.131"
+      ],
+      "target": [
+        "moliere-l-avare:4.131"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.132"
+      ],
+      "target": [
+        "moliere-l-avare:4.132"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.133"
+      ],
+      "target": [
+        "moliere-l-avare:4.133"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.134"
+      ],
+      "target": [
+        "moliere-l-avare:4.134"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.135"
+      ],
+      "target": [
+        "moliere-l-avare:4.135"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.136"
+      ],
+      "target": [
+        "moliere-l-avare:4.136"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.137"
+      ],
+      "target": [
+        "moliere-l-avare:4.137"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.138"
+      ],
+      "target": [
+        "moliere-l-avare:4.138"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.139"
+      ],
+      "target": [
+        "moliere-l-avare:4.139"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.140"
+      ],
+      "target": [
+        "moliere-l-avare:4.140"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.141"
+      ],
+      "target": [
+        "moliere-l-avare:4.141"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.142"
+      ],
+      "target": [
+        "moliere-l-avare:4.142"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.143"
+      ],
+      "target": [
+        "moliere-l-avare:4.143"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.144"
+      ],
+      "target": [
+        "moliere-l-avare:4.144"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.145"
+      ],
+      "target": [
+        "moliere-l-avare:4.145"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.146"
+      ],
+      "target": [
+        "moliere-l-avare:4.146"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.147"
+      ],
+      "target": [
+        "moliere-l-avare:4.147"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.148"
+      ],
+      "target": [
+        "moliere-l-avare:4.148"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.149"
+      ],
+      "target": [
+        "moliere-l-avare:4.149"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.150"
+      ],
+      "target": [
+        "moliere-l-avare:4.150"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.151"
+      ],
+      "target": [
+        "moliere-l-avare:4.151"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.152"
+      ],
+      "target": [
+        "moliere-l-avare:4.152"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.153"
+      ],
+      "target": [
+        "moliere-l-avare:4.153"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.154"
+      ],
+      "target": [
+        "moliere-l-avare:4.154"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.155"
+      ],
+      "target": [
+        "moliere-l-avare:4.155"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.156"
+      ],
+      "target": [
+        "moliere-l-avare:4.156"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.157"
+      ],
+      "target": [
+        "moliere-l-avare:4.157"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.158"
+      ],
+      "target": [
+        "moliere-l-avare:4.158"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.159"
+      ],
+      "target": [
+        "moliere-l-avare:4.159"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.160"
+      ],
+      "target": [
+        "moliere-l-avare:4.160"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.161"
+      ],
+      "target": [
+        "moliere-l-avare:4.161"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.162"
+      ],
+      "target": [
+        "moliere-l-avare:4.162"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.163"
+      ],
+      "target": [
+        "moliere-l-avare:4.163"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.164"
+      ],
+      "target": [
+        "moliere-l-avare:4.164"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.165"
+      ],
+      "target": [
+        "moliere-l-avare:4.165"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.166"
+      ],
+      "target": [
+        "moliere-l-avare:4.166"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.167"
+      ],
+      "target": [
+        "moliere-l-avare:4.167"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.168"
+      ],
+      "target": [
+        "moliere-l-avare:4.168"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.169"
+      ],
+      "target": [
+        "moliere-l-avare:4.169"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.170"
+      ],
+      "target": [
+        "moliere-l-avare:4.170"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.171"
+      ],
+      "target": [
+        "moliere-l-avare:4.171"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.172"
+      ],
+      "target": [
+        "moliere-l-avare:4.172"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.173"
+      ],
+      "target": [
+        "moliere-l-avare:4.173"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.174"
+      ],
+      "target": [
+        "moliere-l-avare:4.174"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.175"
+      ],
+      "target": [
+        "moliere-l-avare:4.175"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.176"
+      ],
+      "target": [
+        "moliere-l-avare:4.176"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.177"
+      ],
+      "target": [
+        "moliere-l-avare:4.177"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.178"
+      ],
+      "target": [
+        "moliere-l-avare:4.178"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.179"
+      ],
+      "target": [
+        "moliere-l-avare:4.179"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.180"
+      ],
+      "target": [
+        "moliere-l-avare:4.180"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.181"
+      ],
+      "target": [
+        "moliere-l-avare:4.181"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.182"
+      ],
+      "target": [
+        "moliere-l-avare:4.182"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.183"
+      ],
+      "target": [
+        "moliere-l-avare:4.183"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.184"
+      ],
+      "target": [
+        "moliere-l-avare:4.184"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.185"
+      ],
+      "target": [
+        "moliere-l-avare:4.185"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.186"
+      ],
+      "target": [
+        "moliere-l-avare:4.186"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.187"
+      ],
+      "target": [
+        "moliere-l-avare:4.187"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.188"
+      ],
+      "target": [
+        "moliere-l-avare:4.188"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.189"
+      ],
+      "target": [
+        "moliere-l-avare:4.189"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.190"
+      ],
+      "target": [
+        "moliere-l-avare:4.190"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.191"
+      ],
+      "target": [
+        "moliere-l-avare:4.191"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.192"
+      ],
+      "target": [
+        "moliere-l-avare:4.192"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.193"
+      ],
+      "target": [
+        "moliere-l-avare:4.193"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.194"
+      ],
+      "target": [
+        "moliere-l-avare:4.194"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.195"
+      ],
+      "target": [
+        "moliere-l-avare:4.195"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.196"
+      ],
+      "target": [
+        "moliere-l-avare:4.196"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.197"
+      ],
+      "target": [
+        "moliere-l-avare:4.197"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.198"
+      ],
+      "target": [
+        "moliere-l-avare:4.198"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.199"
+      ],
+      "target": [
+        "moliere-l-avare:4.199"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.200"
+      ],
+      "target": [
+        "moliere-l-avare:4.200"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.201"
+      ],
+      "target": [
+        "moliere-l-avare:4.201"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.202"
+      ],
+      "target": [
+        "moliere-l-avare:4.202"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.203"
+      ],
+      "target": [
+        "moliere-l-avare:4.203"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.204"
+      ],
+      "target": [
+        "moliere-l-avare:4.204"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.205"
+      ],
+      "target": [
+        "moliere-l-avare:4.205"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.206"
+      ],
+      "target": [
+        "moliere-l-avare:4.206"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.207"
+      ],
+      "target": [
+        "moliere-l-avare:4.207"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.208"
+      ],
+      "target": [
+        "moliere-l-avare:4.208"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.209"
+      ],
+      "target": [
+        "moliere-l-avare:4.209"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.210"
+      ],
+      "target": [
+        "moliere-l-avare:4.210"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.211"
+      ],
+      "target": [
+        "moliere-l-avare:4.211"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.212"
+      ],
+      "target": [
+        "moliere-l-avare:4.212"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.213"
+      ],
+      "target": [
+        "moliere-l-avare:4.213"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.214"
+      ],
+      "target": [
+        "moliere-l-avare:4.214"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.215"
+      ],
+      "target": [
+        "moliere-l-avare:4.215"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.216"
+      ],
+      "target": [
+        "moliere-l-avare:4.216"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.217"
+      ],
+      "target": [
+        "moliere-l-avare:4.217"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.218"
+      ],
+      "target": [
+        "moliere-l-avare:4.218"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.219"
+      ],
+      "target": [
+        "moliere-l-avare:4.219"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.220"
+      ],
+      "target": [
+        "moliere-l-avare:4.220"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.221"
+      ],
+      "target": [
+        "moliere-l-avare:4.221"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.222"
+      ],
+      "target": [
+        "moliere-l-avare:4.222"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.223"
+      ],
+      "target": [
+        "moliere-l-avare:4.223"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.224"
+      ],
+      "target": [
+        "moliere-l-avare:4.224"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.225"
+      ],
+      "target": [
+        "moliere-l-avare:4.225"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.226"
+      ],
+      "target": [
+        "moliere-l-avare:4.226"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.227"
+      ],
+      "target": [
+        "moliere-l-avare:4.227"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.228"
+      ],
+      "target": [
+        "moliere-l-avare:4.228"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.229"
+      ],
+      "target": [
+        "moliere-l-avare:4.229"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.230"
+      ],
+      "target": [
+        "moliere-l-avare:4.230"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.231"
+      ],
+      "target": [
+        "moliere-l-avare:4.231"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.232"
+      ],
+      "target": [
+        "moliere-l-avare:4.232"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.233"
+      ],
+      "target": [
+        "moliere-l-avare:4.233"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.234"
+      ],
+      "target": [
+        "moliere-l-avare:4.234"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.235"
+      ],
+      "target": [
+        "moliere-l-avare:4.235"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.236"
+      ],
+      "target": [
+        "moliere-l-avare:4.236"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.237"
+      ],
+      "target": [
+        "moliere-l-avare:4.237"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.238"
+      ],
+      "target": [
+        "moliere-l-avare:4.238"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.239"
+      ],
+      "target": [
+        "moliere-l-avare:4.239"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.240"
+      ],
+      "target": [
+        "moliere-l-avare:4.240"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.241"
+      ],
+      "target": [
+        "moliere-l-avare:4.241"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:4.242"
+      ],
+      "target": [
+        "moliere-l-avare:4.242"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.1"
+      ],
+      "target": [
+        "moliere-l-avare:5.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.2"
+      ],
+      "target": [
+        "moliere-l-avare:5.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.3"
+      ],
+      "target": [
+        "moliere-l-avare:5.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.4"
+      ],
+      "target": [
+        "moliere-l-avare:5.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.5"
+      ],
+      "target": [
+        "moliere-l-avare:5.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.6"
+      ],
+      "target": [
+        "moliere-l-avare:5.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.7"
+      ],
+      "target": [
+        "moliere-l-avare:5.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.8"
+      ],
+      "target": [
+        "moliere-l-avare:5.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.9"
+      ],
+      "target": [
+        "moliere-l-avare:5.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.10"
+      ],
+      "target": [
+        "moliere-l-avare:5.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.11"
+      ],
+      "target": [
+        "moliere-l-avare:5.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.12"
+      ],
+      "target": [
+        "moliere-l-avare:5.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.13"
+      ],
+      "target": [
+        "moliere-l-avare:5.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.14"
+      ],
+      "target": [
+        "moliere-l-avare:5.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.15"
+      ],
+      "target": [
+        "moliere-l-avare:5.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.16"
+      ],
+      "target": [
+        "moliere-l-avare:5.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.17"
+      ],
+      "target": [
+        "moliere-l-avare:5.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.18"
+      ],
+      "target": [
+        "moliere-l-avare:5.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.19"
+      ],
+      "target": [
+        "moliere-l-avare:5.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.20"
+      ],
+      "target": [
+        "moliere-l-avare:5.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.21"
+      ],
+      "target": [
+        "moliere-l-avare:5.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.22"
+      ],
+      "target": [
+        "moliere-l-avare:5.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.23"
+      ],
+      "target": [
+        "moliere-l-avare:5.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.24"
+      ],
+      "target": [
+        "moliere-l-avare:5.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.25"
+      ],
+      "target": [
+        "moliere-l-avare:5.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.26"
+      ],
+      "target": [
+        "moliere-l-avare:5.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.27"
+      ],
+      "target": [
+        "moliere-l-avare:5.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.28"
+      ],
+      "target": [
+        "moliere-l-avare:5.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.29"
+      ],
+      "target": [
+        "moliere-l-avare:5.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.30"
+      ],
+      "target": [
+        "moliere-l-avare:5.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.31"
+      ],
+      "target": [
+        "moliere-l-avare:5.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.32"
+      ],
+      "target": [
+        "moliere-l-avare:5.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.33"
+      ],
+      "target": [
+        "moliere-l-avare:5.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.34"
+      ],
+      "target": [
+        "moliere-l-avare:5.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.35"
+      ],
+      "target": [
+        "moliere-l-avare:5.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.36"
+      ],
+      "target": [
+        "moliere-l-avare:5.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.37"
+      ],
+      "target": [
+        "moliere-l-avare:5.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.38"
+      ],
+      "target": [
+        "moliere-l-avare:5.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.39"
+      ],
+      "target": [
+        "moliere-l-avare:5.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.40"
+      ],
+      "target": [
+        "moliere-l-avare:5.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.41"
+      ],
+      "target": [
+        "moliere-l-avare:5.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.42"
+      ],
+      "target": [
+        "moliere-l-avare:5.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.43"
+      ],
+      "target": [
+        "moliere-l-avare:5.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.44"
+      ],
+      "target": [
+        "moliere-l-avare:5.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.45"
+      ],
+      "target": [
+        "moliere-l-avare:5.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.46"
+      ],
+      "target": [
+        "moliere-l-avare:5.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.47"
+      ],
+      "target": [
+        "moliere-l-avare:5.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.48"
+      ],
+      "target": [
+        "moliere-l-avare:5.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.49"
+      ],
+      "target": [
+        "moliere-l-avare:5.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.50"
+      ],
+      "target": [
+        "moliere-l-avare:5.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.51"
+      ],
+      "target": [
+        "moliere-l-avare:5.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.52"
+      ],
+      "target": [
+        "moliere-l-avare:5.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.53"
+      ],
+      "target": [
+        "moliere-l-avare:5.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.54"
+      ],
+      "target": [
+        "moliere-l-avare:5.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.55"
+      ],
+      "target": [
+        "moliere-l-avare:5.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.56"
+      ],
+      "target": [
+        "moliere-l-avare:5.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.57"
+      ],
+      "target": [
+        "moliere-l-avare:5.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.58"
+      ],
+      "target": [
+        "moliere-l-avare:5.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.59"
+      ],
+      "target": [
+        "moliere-l-avare:5.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.60"
+      ],
+      "target": [
+        "moliere-l-avare:5.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.61"
+      ],
+      "target": [
+        "moliere-l-avare:5.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.62"
+      ],
+      "target": [
+        "moliere-l-avare:5.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.63"
+      ],
+      "target": [
+        "moliere-l-avare:5.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.64"
+      ],
+      "target": [
+        "moliere-l-avare:5.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.65"
+      ],
+      "target": [
+        "moliere-l-avare:5.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.66"
+      ],
+      "target": [
+        "moliere-l-avare:5.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.67"
+      ],
+      "target": [
+        "moliere-l-avare:5.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.68"
+      ],
+      "target": [
+        "moliere-l-avare:5.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.69"
+      ],
+      "target": [
+        "moliere-l-avare:5.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.70"
+      ],
+      "target": [
+        "moliere-l-avare:5.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.71"
+      ],
+      "target": [
+        "moliere-l-avare:5.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.72"
+      ],
+      "target": [
+        "moliere-l-avare:5.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.73"
+      ],
+      "target": [
+        "moliere-l-avare:5.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.74"
+      ],
+      "target": [
+        "moliere-l-avare:5.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.75"
+      ],
+      "target": [
+        "moliere-l-avare:5.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.76"
+      ],
+      "target": [
+        "moliere-l-avare:5.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.77"
+      ],
+      "target": [
+        "moliere-l-avare:5.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.78"
+      ],
+      "target": [
+        "moliere-l-avare:5.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.79"
+      ],
+      "target": [
+        "moliere-l-avare:5.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.80"
+      ],
+      "target": [
+        "moliere-l-avare:5.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.81"
+      ],
+      "target": [
+        "moliere-l-avare:5.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.82"
+      ],
+      "target": [
+        "moliere-l-avare:5.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.83"
+      ],
+      "target": [
+        "moliere-l-avare:5.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.84"
+      ],
+      "target": [
+        "moliere-l-avare:5.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.85"
+      ],
+      "target": [
+        "moliere-l-avare:5.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.86"
+      ],
+      "target": [
+        "moliere-l-avare:5.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.87"
+      ],
+      "target": [
+        "moliere-l-avare:5.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.88"
+      ],
+      "target": [
+        "moliere-l-avare:5.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.89"
+      ],
+      "target": [
+        "moliere-l-avare:5.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.90"
+      ],
+      "target": [
+        "moliere-l-avare:5.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.91"
+      ],
+      "target": [
+        "moliere-l-avare:5.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.92"
+      ],
+      "target": [
+        "moliere-l-avare:5.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.93"
+      ],
+      "target": [
+        "moliere-l-avare:5.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.94"
+      ],
+      "target": [
+        "moliere-l-avare:5.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.95"
+      ],
+      "target": [
+        "moliere-l-avare:5.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.96"
+      ],
+      "target": [
+        "moliere-l-avare:5.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.97"
+      ],
+      "target": [
+        "moliere-l-avare:5.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.98"
+      ],
+      "target": [
+        "moliere-l-avare:5.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.99"
+      ],
+      "target": [
+        "moliere-l-avare:5.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.100"
+      ],
+      "target": [
+        "moliere-l-avare:5.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.101"
+      ],
+      "target": [
+        "moliere-l-avare:5.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.102"
+      ],
+      "target": [
+        "moliere-l-avare:5.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.103"
+      ],
+      "target": [
+        "moliere-l-avare:5.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.104"
+      ],
+      "target": [
+        "moliere-l-avare:5.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.105"
+      ],
+      "target": [
+        "moliere-l-avare:5.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.106"
+      ],
+      "target": [
+        "moliere-l-avare:5.106"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.107"
+      ],
+      "target": [
+        "moliere-l-avare:5.107"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.108"
+      ],
+      "target": [
+        "moliere-l-avare:5.108"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.109"
+      ],
+      "target": [
+        "moliere-l-avare:5.109"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.110"
+      ],
+      "target": [
+        "moliere-l-avare:5.110"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.111"
+      ],
+      "target": [
+        "moliere-l-avare:5.111"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.112"
+      ],
+      "target": [
+        "moliere-l-avare:5.112"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.113"
+      ],
+      "target": [
+        "moliere-l-avare:5.113"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.114"
+      ],
+      "target": [
+        "moliere-l-avare:5.114"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.115"
+      ],
+      "target": [
+        "moliere-l-avare:5.115"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.116"
+      ],
+      "target": [
+        "moliere-l-avare:5.116"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.117"
+      ],
+      "target": [
+        "moliere-l-avare:5.117"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.118"
+      ],
+      "target": [
+        "moliere-l-avare:5.118"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.119"
+      ],
+      "target": [
+        "moliere-l-avare:5.119"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.120"
+      ],
+      "target": [
+        "moliere-l-avare:5.120"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.121"
+      ],
+      "target": [
+        "moliere-l-avare:5.121"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.122"
+      ],
+      "target": [
+        "moliere-l-avare:5.122"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.123"
+      ],
+      "target": [
+        "moliere-l-avare:5.123"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.124"
+      ],
+      "target": [
+        "moliere-l-avare:5.124"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.125"
+      ],
+      "target": [
+        "moliere-l-avare:5.125"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.126"
+      ],
+      "target": [
+        "moliere-l-avare:5.126"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.127"
+      ],
+      "target": [
+        "moliere-l-avare:5.127"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.128"
+      ],
+      "target": [
+        "moliere-l-avare:5.128"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.129"
+      ],
+      "target": [
+        "moliere-l-avare:5.129"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.130"
+      ],
+      "target": [
+        "moliere-l-avare:5.130"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.131"
+      ],
+      "target": [
+        "moliere-l-avare:5.131"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.132"
+      ],
+      "target": [
+        "moliere-l-avare:5.132"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.133"
+      ],
+      "target": [
+        "moliere-l-avare:5.133"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.134"
+      ],
+      "target": [
+        "moliere-l-avare:5.134"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.135"
+      ],
+      "target": [
+        "moliere-l-avare:5.135"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.136"
+      ],
+      "target": [
+        "moliere-l-avare:5.136"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.137"
+      ],
+      "target": [
+        "moliere-l-avare:5.137"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.138"
+      ],
+      "target": [
+        "moliere-l-avare:5.138"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.139"
+      ],
+      "target": [
+        "moliere-l-avare:5.139"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.140"
+      ],
+      "target": [
+        "moliere-l-avare:5.140"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.141"
+      ],
+      "target": [
+        "moliere-l-avare:5.141"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.142"
+      ],
+      "target": [
+        "moliere-l-avare:5.142"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.143"
+      ],
+      "target": [
+        "moliere-l-avare:5.143"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.144"
+      ],
+      "target": [
+        "moliere-l-avare:5.144"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.145"
+      ],
+      "target": [
+        "moliere-l-avare:5.145"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.146"
+      ],
+      "target": [
+        "moliere-l-avare:5.146"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.147"
+      ],
+      "target": [
+        "moliere-l-avare:5.147"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.148"
+      ],
+      "target": [
+        "moliere-l-avare:5.148"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.149"
+      ],
+      "target": [
+        "moliere-l-avare:5.149"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.150"
+      ],
+      "target": [
+        "moliere-l-avare:5.150"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.151"
+      ],
+      "target": [
+        "moliere-l-avare:5.151"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.152"
+      ],
+      "target": [
+        "moliere-l-avare:5.152"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.153"
+      ],
+      "target": [
+        "moliere-l-avare:5.153"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.154"
+      ],
+      "target": [
+        "moliere-l-avare:5.154"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.155"
+      ],
+      "target": [
+        "moliere-l-avare:5.155"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.156"
+      ],
+      "target": [
+        "moliere-l-avare:5.156"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.157"
+      ],
+      "target": [
+        "moliere-l-avare:5.157"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.158"
+      ],
+      "target": [
+        "moliere-l-avare:5.158"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.159"
+      ],
+      "target": [
+        "moliere-l-avare:5.159"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.160"
+      ],
+      "target": [
+        "moliere-l-avare:5.160"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.161"
+      ],
+      "target": [
+        "moliere-l-avare:5.161"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.162"
+      ],
+      "target": [
+        "moliere-l-avare:5.162"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.163"
+      ],
+      "target": [
+        "moliere-l-avare:5.163"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.164"
+      ],
+      "target": [
+        "moliere-l-avare:5.164"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.165"
+      ],
+      "target": [
+        "moliere-l-avare:5.165"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.166"
+      ],
+      "target": [
+        "moliere-l-avare:5.166"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.167"
+      ],
+      "target": [
+        "moliere-l-avare:5.167"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.168"
+      ],
+      "target": [
+        "moliere-l-avare:5.168"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.169"
+      ],
+      "target": [
+        "moliere-l-avare:5.169"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.170"
+      ],
+      "target": [
+        "moliere-l-avare:5.170"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.171"
+      ],
+      "target": [
+        "moliere-l-avare:5.171"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:5.172"
+      ],
+      "target": [
+        "moliere-l-avare:5.172"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.1"
+      ],
+      "target": [
+        "moliere-l-avare:6.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.2"
+      ],
+      "target": [
+        "moliere-l-avare:6.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.3"
+      ],
+      "target": [
+        "moliere-l-avare:6.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.4"
+      ],
+      "target": [
+        "moliere-l-avare:6.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.5"
+      ],
+      "target": [
+        "moliere-l-avare:6.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.6"
+      ],
+      "target": [
+        "moliere-l-avare:6.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.7"
+      ],
+      "target": [
+        "moliere-l-avare:6.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.8"
+      ],
+      "target": [
+        "moliere-l-avare:6.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.9"
+      ],
+      "target": [
+        "moliere-l-avare:6.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.10"
+      ],
+      "target": [
+        "moliere-l-avare:6.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.11"
+      ],
+      "target": [
+        "moliere-l-avare:6.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.12"
+      ],
+      "target": [
+        "moliere-l-avare:6.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.13"
+      ],
+      "target": [
+        "moliere-l-avare:6.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.14"
+      ],
+      "target": [
+        "moliere-l-avare:6.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.15"
+      ],
+      "target": [
+        "moliere-l-avare:6.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.16"
+      ],
+      "target": [
+        "moliere-l-avare:6.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.17"
+      ],
+      "target": [
+        "moliere-l-avare:6.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.18"
+      ],
+      "target": [
+        "moliere-l-avare:6.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.19"
+      ],
+      "target": [
+        "moliere-l-avare:6.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.20"
+      ],
+      "target": [
+        "moliere-l-avare:6.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.21"
+      ],
+      "target": [
+        "moliere-l-avare:6.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.22"
+      ],
+      "target": [
+        "moliere-l-avare:6.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.23"
+      ],
+      "target": [
+        "moliere-l-avare:6.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.24"
+      ],
+      "target": [
+        "moliere-l-avare:6.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.25"
+      ],
+      "target": [
+        "moliere-l-avare:6.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.26"
+      ],
+      "target": [
+        "moliere-l-avare:6.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.27"
+      ],
+      "target": [
+        "moliere-l-avare:6.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.28"
+      ],
+      "target": [
+        "moliere-l-avare:6.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.29"
+      ],
+      "target": [
+        "moliere-l-avare:6.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.30"
+      ],
+      "target": [
+        "moliere-l-avare:6.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.31"
+      ],
+      "target": [
+        "moliere-l-avare:6.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.32"
+      ],
+      "target": [
+        "moliere-l-avare:6.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.33"
+      ],
+      "target": [
+        "moliere-l-avare:6.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.34"
+      ],
+      "target": [
+        "moliere-l-avare:6.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.35"
+      ],
+      "target": [
+        "moliere-l-avare:6.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.36"
+      ],
+      "target": [
+        "moliere-l-avare:6.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.37"
+      ],
+      "target": [
+        "moliere-l-avare:6.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.38"
+      ],
+      "target": [
+        "moliere-l-avare:6.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.39"
+      ],
+      "target": [
+        "moliere-l-avare:6.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.40"
+      ],
+      "target": [
+        "moliere-l-avare:6.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.41"
+      ],
+      "target": [
+        "moliere-l-avare:6.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.42"
+      ],
+      "target": [
+        "moliere-l-avare:6.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.43"
+      ],
+      "target": [
+        "moliere-l-avare:6.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.44"
+      ],
+      "target": [
+        "moliere-l-avare:6.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.45"
+      ],
+      "target": [
+        "moliere-l-avare:6.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.46"
+      ],
+      "target": [
+        "moliere-l-avare:6.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.47"
+      ],
+      "target": [
+        "moliere-l-avare:6.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.48"
+      ],
+      "target": [
+        "moliere-l-avare:6.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.49"
+      ],
+      "target": [
+        "moliere-l-avare:6.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.50"
+      ],
+      "target": [
+        "moliere-l-avare:6.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.51"
+      ],
+      "target": [
+        "moliere-l-avare:6.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.52"
+      ],
+      "target": [
+        "moliere-l-avare:6.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.53"
+      ],
+      "target": [
+        "moliere-l-avare:6.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.54"
+      ],
+      "target": [
+        "moliere-l-avare:6.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.55"
+      ],
+      "target": [
+        "moliere-l-avare:6.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.56"
+      ],
+      "target": [
+        "moliere-l-avare:6.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.57"
+      ],
+      "target": [
+        "moliere-l-avare:6.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.58"
+      ],
+      "target": [
+        "moliere-l-avare:6.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.59"
+      ],
+      "target": [
+        "moliere-l-avare:6.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.60"
+      ],
+      "target": [
+        "moliere-l-avare:6.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.61"
+      ],
+      "target": [
+        "moliere-l-avare:6.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.62"
+      ],
+      "target": [
+        "moliere-l-avare:6.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.63"
+      ],
+      "target": [
+        "moliere-l-avare:6.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.64"
+      ],
+      "target": [
+        "moliere-l-avare:6.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.65"
+      ],
+      "target": [
+        "moliere-l-avare:6.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.66"
+      ],
+      "target": [
+        "moliere-l-avare:6.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.67"
+      ],
+      "target": [
+        "moliere-l-avare:6.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.68"
+      ],
+      "target": [
+        "moliere-l-avare:6.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.69"
+      ],
+      "target": [
+        "moliere-l-avare:6.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.70"
+      ],
+      "target": [
+        "moliere-l-avare:6.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.71"
+      ],
+      "target": [
+        "moliere-l-avare:6.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.72"
+      ],
+      "target": [
+        "moliere-l-avare:6.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.73"
+      ],
+      "target": [
+        "moliere-l-avare:6.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.74"
+      ],
+      "target": [
+        "moliere-l-avare:6.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.75"
+      ],
+      "target": [
+        "moliere-l-avare:6.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.76"
+      ],
+      "target": [
+        "moliere-l-avare:6.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.77"
+      ],
+      "target": [
+        "moliere-l-avare:6.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.78"
+      ],
+      "target": [
+        "moliere-l-avare:6.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.79"
+      ],
+      "target": [
+        "moliere-l-avare:6.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.80"
+      ],
+      "target": [
+        "moliere-l-avare:6.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.81"
+      ],
+      "target": [
+        "moliere-l-avare:6.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.82"
+      ],
+      "target": [
+        "moliere-l-avare:6.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.83"
+      ],
+      "target": [
+        "moliere-l-avare:6.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.84"
+      ],
+      "target": [
+        "moliere-l-avare:6.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.85"
+      ],
+      "target": [
+        "moliere-l-avare:6.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.86"
+      ],
+      "target": [
+        "moliere-l-avare:6.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.87"
+      ],
+      "target": [
+        "moliere-l-avare:6.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.88"
+      ],
+      "target": [
+        "moliere-l-avare:6.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.89"
+      ],
+      "target": [
+        "moliere-l-avare:6.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.90"
+      ],
+      "target": [
+        "moliere-l-avare:6.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.91"
+      ],
+      "target": [
+        "moliere-l-avare:6.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.92"
+      ],
+      "target": [
+        "moliere-l-avare:6.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.93"
+      ],
+      "target": [
+        "moliere-l-avare:6.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.94"
+      ],
+      "target": [
+        "moliere-l-avare:6.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.95"
+      ],
+      "target": [
+        "moliere-l-avare:6.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.96"
+      ],
+      "target": [
+        "moliere-l-avare:6.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.97"
+      ],
+      "target": [
+        "moliere-l-avare:6.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.98"
+      ],
+      "target": [
+        "moliere-l-avare:6.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.99"
+      ],
+      "target": [
+        "moliere-l-avare:6.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.100"
+      ],
+      "target": [
+        "moliere-l-avare:6.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.101"
+      ],
+      "target": [
+        "moliere-l-avare:6.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.102"
+      ],
+      "target": [
+        "moliere-l-avare:6.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.103"
+      ],
+      "target": [
+        "moliere-l-avare:6.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.104"
+      ],
+      "target": [
+        "moliere-l-avare:6.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.105"
+      ],
+      "target": [
+        "moliere-l-avare:6.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.106"
+      ],
+      "target": [
+        "moliere-l-avare:6.106"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.107"
+      ],
+      "target": [
+        "moliere-l-avare:6.107"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.108"
+      ],
+      "target": [
+        "moliere-l-avare:6.108"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.109"
+      ],
+      "target": [
+        "moliere-l-avare:6.109"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.110"
+      ],
+      "target": [
+        "moliere-l-avare:6.110"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.111"
+      ],
+      "target": [
+        "moliere-l-avare:6.111"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.112"
+      ],
+      "target": [
+        "moliere-l-avare:6.112"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.113"
+      ],
+      "target": [
+        "moliere-l-avare:6.113"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.114"
+      ],
+      "target": [
+        "moliere-l-avare:6.114"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.115"
+      ],
+      "target": [
+        "moliere-l-avare:6.115"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.116"
+      ],
+      "target": [
+        "moliere-l-avare:6.116"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.117"
+      ],
+      "target": [
+        "moliere-l-avare:6.117"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.118"
+      ],
+      "target": [
+        "moliere-l-avare:6.118"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.119"
+      ],
+      "target": [
+        "moliere-l-avare:6.119"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.120"
+      ],
+      "target": [
+        "moliere-l-avare:6.120"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.121"
+      ],
+      "target": [
+        "moliere-l-avare:6.121"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.122"
+      ],
+      "target": [
+        "moliere-l-avare:6.122"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.123"
+      ],
+      "target": [
+        "moliere-l-avare:6.123"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.124"
+      ],
+      "target": [
+        "moliere-l-avare:6.124"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.125"
+      ],
+      "target": [
+        "moliere-l-avare:6.125"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.126"
+      ],
+      "target": [
+        "moliere-l-avare:6.126"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.127"
+      ],
+      "target": [
+        "moliere-l-avare:6.127"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.128"
+      ],
+      "target": [
+        "moliere-l-avare:6.128"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.129"
+      ],
+      "target": [
+        "moliere-l-avare:6.129"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.130"
+      ],
+      "target": [
+        "moliere-l-avare:6.130"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.131"
+      ],
+      "target": [
+        "moliere-l-avare:6.131"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.132"
+      ],
+      "target": [
+        "moliere-l-avare:6.132"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.133"
+      ],
+      "target": [
+        "moliere-l-avare:6.133"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.134"
+      ],
+      "target": [
+        "moliere-l-avare:6.134"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.135"
+      ],
+      "target": [
+        "moliere-l-avare:6.135"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.136"
+      ],
+      "target": [
+        "moliere-l-avare:6.136"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.137"
+      ],
+      "target": [
+        "moliere-l-avare:6.137"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.138"
+      ],
+      "target": [
+        "moliere-l-avare:6.138"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.139"
+      ],
+      "target": [
+        "moliere-l-avare:6.139"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.140"
+      ],
+      "target": [
+        "moliere-l-avare:6.140"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.141"
+      ],
+      "target": [
+        "moliere-l-avare:6.141"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.142"
+      ],
+      "target": [
+        "moliere-l-avare:6.142"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.143"
+      ],
+      "target": [
+        "moliere-l-avare:6.143"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.144"
+      ],
+      "target": [
+        "moliere-l-avare:6.144"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.145"
+      ],
+      "target": [
+        "moliere-l-avare:6.145"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.146"
+      ],
+      "target": [
+        "moliere-l-avare:6.146"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.147"
+      ],
+      "target": [
+        "moliere-l-avare:6.147"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.148"
+      ],
+      "target": [
+        "moliere-l-avare:6.148"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.149"
+      ],
+      "target": [
+        "moliere-l-avare:6.149"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.150"
+      ],
+      "target": [
+        "moliere-l-avare:6.150"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.151"
+      ],
+      "target": [
+        "moliere-l-avare:6.151"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.152"
+      ],
+      "target": [
+        "moliere-l-avare:6.152"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.153"
+      ],
+      "target": [
+        "moliere-l-avare:6.153"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.154"
+      ],
+      "target": [
+        "moliere-l-avare:6.154"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.155"
+      ],
+      "target": [
+        "moliere-l-avare:6.155"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.156"
+      ],
+      "target": [
+        "moliere-l-avare:6.156"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.157"
+      ],
+      "target": [
+        "moliere-l-avare:6.157"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.158"
+      ],
+      "target": [
+        "moliere-l-avare:6.158"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.159"
+      ],
+      "target": [
+        "moliere-l-avare:6.159"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.160"
+      ],
+      "target": [
+        "moliere-l-avare:6.160"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.161"
+      ],
+      "target": [
+        "moliere-l-avare:6.161"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.162"
+      ],
+      "target": [
+        "moliere-l-avare:6.162"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.163"
+      ],
+      "target": [
+        "moliere-l-avare:6.163"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.164"
+      ],
+      "target": [
+        "moliere-l-avare:6.164"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.165"
+      ],
+      "target": [
+        "moliere-l-avare:6.165"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.166"
+      ],
+      "target": [
+        "moliere-l-avare:6.166"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.167"
+      ],
+      "target": [
+        "moliere-l-avare:6.167"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.168"
+      ],
+      "target": [
+        "moliere-l-avare:6.168"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.169"
+      ],
+      "target": [
+        "moliere-l-avare:6.169"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.170"
+      ],
+      "target": [
+        "moliere-l-avare:6.170"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.171"
+      ],
+      "target": [
+        "moliere-l-avare:6.171"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.172"
+      ],
+      "target": [
+        "moliere-l-avare:6.172"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.173"
+      ],
+      "target": [
+        "moliere-l-avare:6.173"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.174"
+      ],
+      "target": [
+        "moliere-l-avare:6.174"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.175"
+      ],
+      "target": [
+        "moliere-l-avare:6.175"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.176"
+      ],
+      "target": [
+        "moliere-l-avare:6.176"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.177"
+      ],
+      "target": [
+        "moliere-l-avare:6.177"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.178"
+      ],
+      "target": [
+        "moliere-l-avare:6.178"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.179"
+      ],
+      "target": [
+        "moliere-l-avare:6.179"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.180"
+      ],
+      "target": [
+        "moliere-l-avare:6.180"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.181"
+      ],
+      "target": [
+        "moliere-l-avare:6.181"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.182"
+      ],
+      "target": [
+        "moliere-l-avare:6.182"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.183"
+      ],
+      "target": [
+        "moliere-l-avare:6.183"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.184"
+      ],
+      "target": [
+        "moliere-l-avare:6.184"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.185"
+      ],
+      "target": [
+        "moliere-l-avare:6.185"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.186"
+      ],
+      "target": [
+        "moliere-l-avare:6.186"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.187"
+      ],
+      "target": [
+        "moliere-l-avare:6.187"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.188"
+      ],
+      "target": [
+        "moliere-l-avare:6.188"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.189"
+      ],
+      "target": [
+        "moliere-l-avare:6.189"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.190"
+      ],
+      "target": [
+        "moliere-l-avare:6.190"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.191"
+      ],
+      "target": [
+        "moliere-l-avare:6.191"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.192"
+      ],
+      "target": [
+        "moliere-l-avare:6.192"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.193"
+      ],
+      "target": [
+        "moliere-l-avare:6.193"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.194"
+      ],
+      "target": [
+        "moliere-l-avare:6.194"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.195"
+      ],
+      "target": [
+        "moliere-l-avare:6.195"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.196"
+      ],
+      "target": [
+        "moliere-l-avare:6.196"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.197"
+      ],
+      "target": [
+        "moliere-l-avare:6.197"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.198"
+      ],
+      "target": [
+        "moliere-l-avare:6.198"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.199"
+      ],
+      "target": [
+        "moliere-l-avare:6.199"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.200"
+      ],
+      "target": [
+        "moliere-l-avare:6.200"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.201"
+      ],
+      "target": [
+        "moliere-l-avare:6.201"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.202"
+      ],
+      "target": [
+        "moliere-l-avare:6.202"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.203"
+      ],
+      "target": [
+        "moliere-l-avare:6.203"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.204"
+      ],
+      "target": [
+        "moliere-l-avare:6.204"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.205"
+      ],
+      "target": [
+        "moliere-l-avare:6.205"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.206"
+      ],
+      "target": [
+        "moliere-l-avare:6.206"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.207"
+      ],
+      "target": [
+        "moliere-l-avare:6.207"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.208"
+      ],
+      "target": [
+        "moliere-l-avare:6.208"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.209"
+      ],
+      "target": [
+        "moliere-l-avare:6.209"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.210"
+      ],
+      "target": [
+        "moliere-l-avare:6.210"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.211"
+      ],
+      "target": [
+        "moliere-l-avare:6.211"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.212"
+      ],
+      "target": [
+        "moliere-l-avare:6.212"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.213"
+      ],
+      "target": [
+        "moliere-l-avare:6.213"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.214"
+      ],
+      "target": [
+        "moliere-l-avare:6.214"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.215"
+      ],
+      "target": [
+        "moliere-l-avare:6.215"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.216"
+      ],
+      "target": [
+        "moliere-l-avare:6.216"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.217"
+      ],
+      "target": [
+        "moliere-l-avare:6.217"
+      ]
+    },
+    {
+      "source": [
+        "moliere-l-avare:6.218"
+      ],
+      "target": [
+        "moliere-l-avare:6.218"
+      ]
+    }
+  ]
+}
