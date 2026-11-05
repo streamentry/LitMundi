@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "work_id": "kleist-michael-kohlhaas",
+  "edition_id": "kleist-michael-kohlhaas-vi-ai-2026",
+  "source_edition_id": "kleist-michael-kohlhaas-de-pg6645",
+  "title_vi": "Michael Kohlhaas",
+  "translation_direction": "de → vi; direct from the specifically identified complete German electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Kleist’s cold, breathless, legalistic chronicle voice is kept with the very long periods intact, one paragraph per unit, and no explanatory padding.",
+      "rationale": "The horror is in the facts, told in single breaths."
+    },
+    {
+      "topic": "Source",
+      "decision": "The German text comes from Project Gutenberg #6645 because de.wikisource has no accessible copy; it is translated directly from the German, not from an English version.",
+      "rationale": "Translation from the original."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-05",
+      "cycle": "vietnamese-500-kleist-michael-kohlhaas",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "kleist-michael-kohlhaas:1.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Sicherheit für zukünftige … seinen Mitbürgern’ was rendered in garbled Vietnamese; now ‘sự bảo đảm trước những xúc phạm về sau’ for his fellow citizens."
+        },
+        {
+          "segment": "kleist-michael-kohlhaas:1.28",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Der’ (the look) was read as the Junker in the sentence about a look that would have crushed him; first the referent of ‘không biết mặt’ was wrong, then the pronoun of the look was inverted; both corrected (the second after the last blind review)."
+        },
+        {
+          "segment": "kleist-michael-kohlhaas:1.30",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A clause about the horse dealer’s disgust was duplicated from a revision; removed."
+        },
+        {
+          "segment": "kleist-michael-kohlhaas:1.31",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The clause on Kohlhaas’s aversion to making common cause with Nagelschmidt was garbled; rewritten."
+        },
+        {
+          "segment": "kleist-michael-kohlhaas:1.36",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Seiner Milde ungeachtet’ (despite its mildness) was reversed into ‘despite its severity’; corrected."
+        },
+        {
+          "segment": "kleist-michael-kohlhaas:1.32",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The chancellor’s office was rendered two ways in units 31, 32, 35 and 37; now ‘Đại pháp quan’ and ‘Phủ Đại pháp quan’ throughout."
+        },
+        {
+          "segment": "kleist-michael-kohlhaas:1.4",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Goldwaage-like sense of justice clause in unit 4 was garbled (‘ông chưa chắc là một tội lỗi…’), found in the second review; rewritten after that review."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Kanzler / Staatskanzlei",
+      "draft_rendering": "Đại pháp quan / Phủ Đại pháp quan",
+      "alternatives": [],
+      "rationale": "One rendering for the Saxon chancellor and his office.",
+      "passages": [
+        "kleist-michael-kohlhaas:1.15",
+        "kleist-michael-kohlhaas:1.31",
+        "kleist-michael-kohlhaas:1.32"
+      ]
+    },
+    {
+      "source_term": "Prinz von Meißen",
+      "draft_rendering": "thân vương … xứ Meißen",
+      "alternatives": [],
+      "rationale": "The prince of the house of Meissen.",
+      "passages": [
+        "kleist-michael-kohlhaas:1.15",
+        "kleist-michael-kohlhaas:1.33"
+      ]
+    },
+    {
+      "source_term": "Abdecker",
+      "draft_rendering": "người lột da xác thú",
+      "alternatives": [],
+      "rationale": "The knacker who holds the horses.",
+      "passages": [
+        "kleist-michael-kohlhaas:1.4",
+        "kleist-michael-kohlhaas:1.27",
+        "kleist-michael-kohlhaas:1.28"
+      ]
+    },
+    {
+      "source_term": "Luther’s letter",
+      "draft_rendering": "stern ‘ngươi/ta’",
+      "alternatives": [],
+      "rationale": "The sermon-like letter keeps its own archaic weight.",
+      "passages": [
+        "kleist-michael-kohlhaas:1.17",
+        "kleist-michael-kohlhaas:1.18",
+        "kleist-michael-kohlhaas:1.19"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #6645, an electronic transcription of Heinrich von Kleist’s Ausgewählte Schriften, taking only Michael Kohlhaas, the last work in the volume; the Gutenberg page does not name the exact printing and the text was not collated with the 1810 first printing.",
+  "updated_at": "2026-11-05",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "3ebef7cd59dae4909370a235ae6afe0ffb2617c30722204c1493a7a518fa946c",
+  "target_sha256": "1ffd8e427520f858ad372d0b43019fb08d3415e6a6768077989b92d51dbcd6d7",
+  "coverage": {
+    "canonical_passages": 37,
+    "translated_passages": 37,
+    "aligned_passages": 37
+  },
+  "ai_review_record": "corpus/reviews/kleist-michael-kohlhaas/kleist-michael-kohlhaas-vi-ai-2026/ai-review-v2-2026-11-05.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "kleist-michael-kohlhaas:1.33",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Erzkanzler’ is rendered ‘Đại pháp quan’ where the glossary asks for ‘Tổng pháp quan’."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.31",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Vành móng ngựa’ for ‘vor den Schranken’ is a modern courtroom idiom."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.15",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Hauptmann’ and the town councillors are rendered with slightly anachronistic words."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.34",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Khuya sáng hôm sau’ does not fit ‘spät am andern Morgen’."
+    }
+  ],
+  "title_review": {
+    "source_title": "Michael Kohlhaas",
+    "target_title": "Michael Kohlhaas",
+    "rationale": "The title is the hero’s name; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "kleist-michael-kohlhaas:1.2"
+      ],
+      "assessment": "The opening: a horse dealer on the Havel in the middle of the sixteenth century, ‘one of the most upright and at the same time most terrible men of his time’."
+    },
+    {
+      "passages": [
+        "kleist-michael-kohlhaas:1.37"
+      ],
+      "assessment": "The last unit: the last of Kohlhaas’s descendants in the previous century."
+    }
+  ]
+}

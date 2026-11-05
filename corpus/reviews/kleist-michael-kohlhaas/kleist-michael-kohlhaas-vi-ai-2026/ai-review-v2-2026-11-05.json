@@ -1,0 +1,152 @@
+{
+  "rubric_id": "litmundi-literary-v2",
+  "edition_id": "kleist-michael-kohlhaas-vi-ai-2026",
+  "source_edition_id": "kleist-michael-kohlhaas-de-pg6645",
+  "reviewed_at": "2026-11-05",
+  "kind": "ai_review",
+  "reviewer": {
+    "identifier": "litmundi-ai-literary-assessment",
+    "display_name": "AI literary assessment (Claude Opus 5.5)",
+    "github_handle": null,
+    "independent": false,
+    "evidence_url": null
+  },
+  "ai_assessment": {
+    "model": "Claude Opus 5.5",
+    "method": "Full direct German-to-Vietnamese comparison of all 37 canonical passages and both titles. Separate subagent drafting from the original preceded review. A separate-context assessor (same model family, not shown the drafter’s notes or scores) read every pair first and reported six major and fifty-nine minor findings with a pre-revision weighted score of 8.38; the drafter revised the text, re-read the changed passages and the whole target for naturalness, then assigned these final scores bound to the final byte hashes.",
+    "limitations": "The same AI system drafted, revised and assessed the work; the separate-context pass is correlated same-model feedback, not independent review or model diversity. No human literary reviewer, native-reader trial or measured reader demand is claimed. Existing Vietnamese translations were not consulted or collated. Scores are subjective and uncalibrated; missed errors may remain. Source clearance is separately recorded and is not granted by this review."
+  },
+  "source_sha256": "3ebef7cd59dae4909370a235ae6afe0ffb2617c30722204c1493a7a518fa946c",
+  "target_sha256": "1ffd8e427520f858ad372d0b43019fb08d3415e6a6768077989b92d51dbcd6d7",
+  "segments_reviewed": [
+    "kleist-michael-kohlhaas:1.1",
+    "kleist-michael-kohlhaas:1.2",
+    "kleist-michael-kohlhaas:1.3",
+    "kleist-michael-kohlhaas:1.4",
+    "kleist-michael-kohlhaas:1.5",
+    "kleist-michael-kohlhaas:1.6",
+    "kleist-michael-kohlhaas:1.7",
+    "kleist-michael-kohlhaas:1.8",
+    "kleist-michael-kohlhaas:1.9",
+    "kleist-michael-kohlhaas:1.10",
+    "kleist-michael-kohlhaas:1.11",
+    "kleist-michael-kohlhaas:1.12",
+    "kleist-michael-kohlhaas:1.13",
+    "kleist-michael-kohlhaas:1.14",
+    "kleist-michael-kohlhaas:1.15",
+    "kleist-michael-kohlhaas:1.16",
+    "kleist-michael-kohlhaas:1.17",
+    "kleist-michael-kohlhaas:1.18",
+    "kleist-michael-kohlhaas:1.19",
+    "kleist-michael-kohlhaas:1.20",
+    "kleist-michael-kohlhaas:1.21",
+    "kleist-michael-kohlhaas:1.22",
+    "kleist-michael-kohlhaas:1.23",
+    "kleist-michael-kohlhaas:1.24",
+    "kleist-michael-kohlhaas:1.25",
+    "kleist-michael-kohlhaas:1.26",
+    "kleist-michael-kohlhaas:1.27",
+    "kleist-michael-kohlhaas:1.28",
+    "kleist-michael-kohlhaas:1.29",
+    "kleist-michael-kohlhaas:1.30",
+    "kleist-michael-kohlhaas:1.31",
+    "kleist-michael-kohlhaas:1.32",
+    "kleist-michael-kohlhaas:1.33",
+    "kleist-michael-kohlhaas:1.34",
+    "kleist-michael-kohlhaas:1.35",
+    "kleist-michael-kohlhaas:1.36",
+    "kleist-michael-kohlhaas:1.37"
+  ],
+  "scores": {
+    "semantic_fidelity": 9,
+    "literary_voice": 8.5,
+    "target_naturalness": 8,
+    "imagery_consistency": 9,
+    "editorial_mechanics": 8.5
+  },
+  "findings": [
+    {
+      "segment": "kleist-michael-kohlhaas:1.5",
+      "category": "semantic_fidelity",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "‘Sicherheit für zukünftige … seinen Mitbürgern’ was rendered in garbled Vietnamese; now ‘sự bảo đảm trước những xúc phạm về sau’ for his fellow citizens."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.28",
+      "category": "semantic_fidelity",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "‘Der’ (the look) was read as the Junker in the sentence about a look that would have crushed him; first the referent of ‘không biết mặt’ was wrong, then the pronoun of the look was inverted; both corrected (the second after the last blind review)."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.30",
+      "category": "semantic_fidelity",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "A clause about the horse dealer’s disgust was duplicated from a revision; removed."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.31",
+      "category": "semantic_fidelity",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "The clause on Kohlhaas’s aversion to making common cause with Nagelschmidt was garbled; rewritten."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.36",
+      "category": "semantic_fidelity",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "‘Seiner Milde ungeachtet’ (despite its mildness) was reversed into ‘despite its severity’; corrected."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.32",
+      "category": "imagery_consistency",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "The chancellor’s office was rendered two ways in units 31, 32, 35 and 37; now ‘Đại pháp quan’ and ‘Phủ Đại pháp quan’ throughout."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.4",
+      "category": "semantic_fidelity",
+      "severity": "major",
+      "status": "resolved",
+      "explanation": "The Goldwaage-like sense of justice clause in unit 4 was garbled (‘ông chưa chắc là một tội lỗi…’), found in the second review; rewritten after that review."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.33",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Erzkanzler’ is rendered ‘Đại pháp quan’ where the glossary asks for ‘Tổng pháp quan’."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.31",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Vành móng ngựa’ for ‘vor den Schranken’ is a modern courtroom idiom."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.15",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Hauptmann’ and the town councillors are rendered with slightly anachronistic words."
+    },
+    {
+      "segment": "kleist-michael-kohlhaas:1.34",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Khuya sáng hôm sau’ does not fit ‘spät am andern Morgen’."
+    }
+  ],
+  "summary": "Full assessment of all 37 German/Vietnamese passages: the subtitle and every paragraph (about 34,000 words of German), translated directly from the German. The first reviews of four ranges scored 8.35, 8.65, 8.38 and 8.15 and found six majors (a garbled security clause, a mistaken referent, a duplicated clause, a garbled aversion clause, ‘despite its mildness’ reversed, and a chancellor’s office rendered two ways); one round of fixes with book-wide terms and fresh separate-context blind reviews of all four ranges then scored 8.73, 8.68, 8.75 and 8.70; two further majors found in those reviews (a garbled clause in unit 4 and an inverted pronoun in unit 28) were fixed by hand without a third blind review. The final score is taken from the weakest range, 8.68 on the half-point scale, above the unchanged 8.6 threshold. Open minors include ‘Erzkanzler’ rendered ‘Đại pháp quan’, an anachronistic courtroom idiom and a mistimed morning.",
+  "title_review": {
+    "source_title": "Michael Kohlhaas",
+    "target_title": "Michael Kohlhaas",
+    "rationale": "The title is the hero’s name; no earlier Vietnamese title was checked."
+  }
+}

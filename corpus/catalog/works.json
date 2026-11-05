@@ -1198,5 +1198,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Michael Kohlhaas",
+    "author": "Heinrich von Kleist",
+    "author_death_year": 1811,
+    "first_published_year": 1810,
+    "original_language": "de",
+    "genre": "novella",
+    "description": "Michael Kohlhaas, a novella by Heinrich von Kleist (fragment in Phöbus 1808, complete in 1810), follows a horse dealer wronged by a minor nobleman. When the courts fail him, he turns to a violent private campaign against Saxony. Kleist based it on the 16th-century story of the merchant Hans Kohlhase.",
+    "id": "kleist-michael-kohlhaas",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

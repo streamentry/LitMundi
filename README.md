@@ -89,8 +89,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Rabindranath Tagore — The Post Office (ডাকঘর)](corpus/editorial/tagore-post-office/tagore-dakghar-vi-ai-2026.json) | Bengali; Wikisource transcription | 419 | 8.625 (displayed 8.63) | AI-reviewed translation published |
 | [Henrik Ibsen — A Doll's House (Et dukkehjem)](corpus/editorial/ibsen-a-dolls-house/ibsen-et-dukkehjem-vi-ai-2026.json) | Norwegian; Wikisource transcription | 1372 | 8.80 | AI-reviewed translation published |
 | [Leo Tolstoy — Hadji Murat (Хаджи-Мурат)](corpus/editorial/tolstoy-hadji-murad/tolstoy-hadzhi-murat-vi-ai-2026.json) | Russian; Wikisource transcription | 1024 | 8.675 (displayed 8.68) | AI-reviewed translation published |
+| [Heinrich von Kleist — Michael Kohlhaas](corpus/editorial/kleist-michael-kohlhaas/kleist-michael-kohlhaas-vi-ai-2026.json) | German; Project Gutenberg #6645 | 37 | 8.675 (displayed 8.68) | AI-reviewed translation published |
 
-All seventy-nine originals are published, giving one hundred and fifty-eight public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All eighty originals are published, giving one hundred and sixty public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 
