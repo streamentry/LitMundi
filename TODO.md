@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 80 published · 194 todo · 0 in progress · 226 on hold.**
+**500 selected works · 81 published · 193 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -192,7 +192,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **165. Georg Büchner — Dantons Tod** · de · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/5072)
 - [ ] **166. Theodor Fontane — Effi Briest** · de · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/5323)
 - [ ] **167. al-Hariri — Maqamat / Impostures** · ar · collection · **Todo** · [Evidence](https://www.libraryofarabicliterature.org/extra-2/)
-- [ ] **168. Alexander Pushkin — The Captain's Daughter** · ru · novel · **Todo** · [Evidence](https://openlibrary.org/works/OL17680681W)
+- [x] **168. Alexander Pushkin — The Captain's Daughter** · ru · novel · **Published** · [Evidence](https://openlibrary.org/works/OL17680681W) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/pushkin-the-captain-s-daughter/pushkin-kapitanskaya-dochka-vi-ai-2026/)
 - [ ] **169. Usama ibn Munqidh — The Book of Contemplation / Kitab al-I’tibar** · ar · memoir · **Todo** · [Evidence](https://www.penguinrandomhouse.com/books/304094/the-book-of-contemplation-by-usama-ibn-munqidh/)
 - [ ] **170. Nikolai Gogol — Dead Souls** · ru · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/1081)
 - [ ] **171. Ivan Turgenev — Fathers and Sons** · ru · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/47935)

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "work_id": "pushkin-the-captain-s-daughter",
+  "edition_id": "pushkin-kapitanskaya-dochka-vi-ai-2026",
+  "source_edition_id": "pushkin-kapitanskaya-dochka-ru-wikisource",
+  "title_vi": "Con gái viên đại úy",
+  "translation_direction": "ru → vi; direct from the specifically identified complete Russian electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Pushkin’s lean, brisk, ironic memoir prose is kept without ornament; Pugachev’s rough warmth, Savelich’s old-servant speech and the proverbs are rendered with Vietnamese equivalents.",
+      "rationale": "The economy of the style is the point."
+    },
+    {
+      "topic": "Source",
+      "decision": "The Russian text comes from Wikisource’s page of the 1978 Nauka edition; editorial notes and page numbers were removed, and the omitted chapter kept as a final section.",
+      "rationale": "Translation from the original."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-pushkin-the-captain-s-daughter",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "pushkin-the-captain-s-daughter:2.23",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The father’s counsel ‘кому присягнешь’ was garbled into ‘the son who swore’; now ‘người mà con đã tuyên thệ trung thành’."
+        },
+        {
+          "segment": "pushkin-the-captain-s-daughter:4.12",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Я его хозяйка’ (I am his wife) was rendered as ‘landlady’; now ‘tôi là vợ ông ấy’."
+        },
+        {
+          "segment": "pushkin-the-captain-s-daughter:5.9",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Grinev’s rhymed love poem in the stilted Trediakovsky manner was rendered as unrhymed neutral verse, which left Shvabrin’s mockery unmotivated; now three rhymed ABAB quatrains in an archaic, over-sweet register (checked by a narrower review after the fix)."
+        },
+        {
+          "segment": "pushkin-the-captain-s-daughter:8.24",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Казацкие старшины’ was rendered ‘già làng’; now ‘các thủ lĩnh Cô-dắc’."
+        },
+        {
+          "segment": "pushkin-the-captain-s-daughter:13.39",
+          "category": "literary_voice",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Pugachev was called ‘hắn’ in the tender farewell; now ‘ông ta’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Не приведи бог видеть русский бунт",
+      "draft_rendering": "Xin Chúa chớ cho thấy một cuộc nổi loạn của Nga — vô nghĩa và tàn bạo, không chút xót thương",
+      "alternatives": [],
+      "rationale": "The famous line, kept in one wording.",
+      "passages": [
+        "pushkin-the-captain-s-daughter:14.40",
+        "pushkin-the-captain-s-daughter:16.74"
+      ]
+    },
+    {
+      "source_term": "казацкие старшины",
+      "draft_rendering": "các thủ lĩnh Cô-dắc",
+      "alternatives": [],
+      "rationale": "Cossack officers or elders, not village elders.",
+      "passages": [
+        "pushkin-the-captain-s-daughter:8.24",
+        "pushkin-the-captain-s-daughter:10.30"
+      ]
+    },
+    {
+      "source_term": "Pugachev in narration",
+      "draft_rendering": "Pugachev / ông ta",
+      "alternatives": [],
+      "rationale": "‘Hắn’ only in the mouths of those who despise him.",
+      "passages": [
+        "pushkin-the-captain-s-daughter:9.23",
+        "pushkin-the-captain-s-daughter:13.39"
+      ]
+    },
+    {
+      "source_term": "title",
+      "draft_rendering": "Con gái viên đại úy",
+      "alternatives": [],
+      "rationale": "Captain Mironov’s daughter.",
+      "passages": [
+        "pushkin-the-captain-s-daughter:1.1"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Russian Wikisource transcription of Капитанская дочка (1836) based on the 1978 Nauka edition (Pushkin, Polnoe sobranie sochinenij v 10 tomakh, vol. 6, pp. 258–370, via az.lib.ru); the project did not collate it with the first printing in Sovremennik.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "0cc22c9954b0adee29588b06402b835e623ae0a910c655e6a19fbdddd7f8112e",
+  "target_sha256": "27c2382c055bfda98b7e68ba4d00af0c77791c7ba6a570672b78db1aefce8e0d",
+  "coverage": {
+    "canonical_passages": 743,
+    "translated_passages": 743,
+    "aligned_passages": 743
+  },
+  "ai_review_record": "corpus/reviews/pushkin-the-captain-s-daughter/pushkin-kapitanskaya-dochka-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "pushkin-the-captain-s-daughter:5.7",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Междуусобие’ is rendered ‘cuộc xích mích trong nhà’, which understates the mock-heroic word."
+    },
+    {
+      "segment": "pushkin-the-captain-s-daughter:5.20",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The last two rhymes of the poem reuse the syllable ‘ơi’ and the last line runs long."
+    },
+    {
+      "segment": "pushkin-the-captain-s-daughter:5.26",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Самолюбивый’ is rendered ‘tự ái’ (touchy) rather than vain."
+    }
+  ],
+  "title_review": {
+    "source_title": "Капитанская дочка",
+    "target_title": "Con gái viên đại úy",
+    "rationale": "The title is rendered as ‘Con gái viên đại úy’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "pushkin-the-captain-s-daughter:2.1"
+      ],
+      "assessment": "The opening: Grinev’s account of his father, a retired premier-major in Simbirsk."
+    },
+    {
+      "passages": [
+        "pushkin-the-captain-s-daughter:16.77"
+      ],
+      "assessment": "The last unit: the narrator’s incomplete closing note on the pardon and the story’s end."
+    }
+  ]
+}
