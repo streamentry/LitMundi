@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "work_id": "moliere-tartuffe",
+  "edition_id": "moliere-tartuffe-vi-ai-2026",
+  "source_edition_id": "moliere-tartuffe-fr-wikisource",
+  "title_vi": "Tartuffe, hay Kẻ giả đạo đức",
+  "translation_direction": "fr → vi; direct from the specifically identified complete French electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Molière’s brisk comic verse is rendered as speakable Vietnamese lines, one per French line, with rhyme only where it comes naturally; Dorine’s pertness, Pernelle’s scolding and Tartuffe’s unction keep their registers, and the Préface and Placets are elegant periodic prose.",
+      "rationale": "Forced rhyme added filler and blurred sense in a test round and was dropped."
+    },
+    {
+      "topic": "Source",
+      "decision": "The French text comes from French Wikisource’s Louandre edition; the editor’s Notice, footnotes and verse numbers were removed.",
+      "rationale": "Translation from the original."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-moliere-tartuffe",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "moliere-tartuffe:6.37",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Mme Pernelle’s ‘j’en rabats de moitié’ (I esteem it half as much) was garbled as ‘I will visit half as often’; corrected."
+        },
+        {
+          "segment": "moliere-tartuffe:6.81",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Grands élancements’ was rendered unintelligibly and made Elmire a target of Tartuffe’s reproaches; now ‘những cơn xúc động dâng cao’."
+        },
+        {
+          "segment": "moliere-tartuffe:7.46",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Orgon called Tartuffe ‘hắn’ (contempt that belongs to Dorine); now ‘ông ấy’."
+        },
+        {
+          "segment": "moliere-tartuffe:7.229",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Dorine’s ‘son frère’ (Mariane’s brother Damis) was ambiguous; now named."
+        },
+        {
+          "segment": "moliere-tartuffe:8.82",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Tartuffe’s ‘je ne suis rien moins que ce qu’on pense’ (I am anything but what people think) was blurred; corrected by hand after a review."
+        },
+        {
+          "segment": "moliere-tartuffe:8.78",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "In the Orgon–Tartuffe scene the address pair drifted to ‘anh’ for every ‘vous’; now Tartuffe says ‘ông’ and Orgon ‘ngài’, with ‘anh’ only for ‘mon frère’."
+        },
+        {
+          "segment": "moliere-tartuffe:9.10",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Cléante’s ‘il’ (Damis, the rightful heir) read as Orgon or Tartuffe; now ‘cậu ấy’ (fixed by hand)."
+        },
+        {
+          "segment": "moliere-tartuffe:9.58",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Elmire’s single rhetorical question was split into stacked ‘nếu’ clauses with no main clause; rewritten as one question."
+        },
+        {
+          "segment": "moliere-tartuffe:10.100",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Taisez-vous. C’est le mot qu’il vous faut toujours dire’ was inverted (it is the word to be said to Dorine); corrected."
+        },
+        {
+          "segment": "moliere-tartuffe:10.125",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Cléante’s argument had lost the antecedent of ‘il’ (ce zèle); restored."
+        },
+        {
+          "segment": "moliere-tartuffe:10.131",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Exempt’s ‘sa conduite’ (Tartuffe’s lead) was mistranslated, and ‘la retraite d’un ami’ (a friend’s flight) was read as Orgon sheltering him; both corrected, the second by hand after the last review."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Couvrez ce sein que je ne saurais voir.",
+      "draft_rendering": "Che cái ngực ấy đi, tôi không chịu nổi khi nhìn thấy.",
+      "alternatives": [],
+      "rationale": "The famous line, kept in one wording.",
+      "passages": [
+        "moliere-tartuffe:8.22"
+      ]
+    },
+    {
+      "source_term": "Le pauvre homme !",
+      "draft_rendering": "Tội nghiệp ông ấy!",
+      "alternatives": [],
+      "rationale": "Orgon’s refrain, one rendering throughout.",
+      "passages": [
+        "moliere-tartuffe:6.56",
+        "moliere-tartuffe:8.126"
+      ]
+    },
+    {
+      "source_term": "Tartuffe in others’ mouths",
+      "draft_rendering": "ông ấy (Orgon, Pernelle, Mariane) / hắn (Dorine, Damis, Elmire) / ông ta (Cléante)",
+      "alternatives": [],
+      "rationale": "The pronoun is a character’s verdict on Tartuffe.",
+      "passages": [
+        "moliere-tartuffe:7.46",
+        "moliere-tartuffe:9.40",
+        "moliere-tartuffe:10.12"
+      ]
+    },
+    {
+      "source_term": "Orgon–Tartuffe address",
+      "draft_rendering": "Tartuffe: tôi/ông; Orgon: tôi/ngài; ‘mon frère’ → anh",
+      "alternatives": [],
+      "rationale": "Reverence of the dupe, unction of the deceiver.",
+      "passages": [
+        "moliere-tartuffe:8.78",
+        "moliere-tartuffe:8.124"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the French Wikisource transcription of Tartuffe ou l’Imposteur from Charles Louandre’s edition (Œuvres complètes de Molière, Charpentier, 1910, vol. II, texts validated); the project did not collate it with the 1669 first edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "5773d8b34a45c9745286bf20fa8f55c7327ae5768b957486e6ce0e54e2bb8a20",
+  "target_sha256": "edefd12dd1709bededaf9dcf9d7bb6160f66aa8ff3bb956519600448bc33eb17",
+  "coverage": {
+    "canonical_passages": 763,
+    "translated_passages": 763,
+    "aligned_passages": 763
+  },
+  "ai_review_record": "corpus/reviews/moliere-tartuffe/moliere-tartuffe-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.6,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "moliere-tartuffe:6.86",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Long speeches by Cléante keep only occasional rhyme; the lines are speakable but plainer than the verse."
+    },
+    {
+      "segment": "moliere-tartuffe:10.83",
+      "category": "imagery_consistency",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The Loyal/déloyal pun is rendered in plain sense (‘chẳng trung thực chút nào’)."
+    },
+    {
+      "segment": "moliere-tartuffe:10.117",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A stiff intensifier ‘mới’ in Tartuffe’s lines."
+    }
+  ],
+  "title_review": {
+    "source_title": "Le Tartuffe ou l’Imposteur",
+    "target_title": "Tartuffe, hay Kẻ giả đạo đức",
+    "rationale": "The title is rendered as ‘Tartuffe, hay Kẻ giả đạo đức’ (Tartuffe, or the Hypocrite); no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "moliere-tartuffe:2.1"
+      ],
+      "assessment": "The opening of the Préface: the play’s long persecution."
+    },
+    {
+      "passages": [
+        "moliere-tartuffe:10.141"
+      ],
+      "assessment": "The last unit: ‘Fin du Tartuffe’."
+    }
+  ]
+}

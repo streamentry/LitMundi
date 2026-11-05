@@ -1258,5 +1258,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Le Tartuffe ou l’Imposteur",
+    "author": "Molière",
+    "author_death_year": 1673,
+    "first_published_year": 1669,
+    "original_language": "fr",
+    "genre": "play",
+    "description": "Tartuffe, or The Impostor, is a verse comedy by Molière, first performed in 1664 and printed in its final form in 1669. Orgon and his mother are won over by Tartuffe, a vagrant who apes devotion; he is promised Orgon’s daughter Mariane, courts his wife Elmire and is made heir to the house. The family, led by the maid Dorine, works to expose him before the household is lost.",
+    "id": "moliere-tartuffe",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

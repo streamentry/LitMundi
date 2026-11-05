@@ -1,0 +1,6112 @@
+{
+  "schema_version": 1,
+  "work_id": "moliere-tartuffe",
+  "edition_id": "moliere-tartuffe-vi-ai-2026",
+  "source_edition_id": "moliere-tartuffe-fr-wikisource",
+  "links": [
+    {
+      "source": [
+        "moliere-tartuffe:1.1"
+      ],
+      "target": [
+        "moliere-tartuffe:1.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.2"
+      ],
+      "target": [
+        "moliere-tartuffe:1.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.3"
+      ],
+      "target": [
+        "moliere-tartuffe:1.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.4"
+      ],
+      "target": [
+        "moliere-tartuffe:1.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.5"
+      ],
+      "target": [
+        "moliere-tartuffe:1.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.6"
+      ],
+      "target": [
+        "moliere-tartuffe:1.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.7"
+      ],
+      "target": [
+        "moliere-tartuffe:1.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.8"
+      ],
+      "target": [
+        "moliere-tartuffe:1.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.9"
+      ],
+      "target": [
+        "moliere-tartuffe:1.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.10"
+      ],
+      "target": [
+        "moliere-tartuffe:1.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.11"
+      ],
+      "target": [
+        "moliere-tartuffe:1.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.12"
+      ],
+      "target": [
+        "moliere-tartuffe:1.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:1.13"
+      ],
+      "target": [
+        "moliere-tartuffe:1.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:2.1"
+      ],
+      "target": [
+        "moliere-tartuffe:2.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:2.2"
+      ],
+      "target": [
+        "moliere-tartuffe:2.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:2.3"
+      ],
+      "target": [
+        "moliere-tartuffe:2.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:2.4"
+      ],
+      "target": [
+        "moliere-tartuffe:2.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:2.5"
+      ],
+      "target": [
+        "moliere-tartuffe:2.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:2.6"
+      ],
+      "target": [
+        "moliere-tartuffe:2.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:2.7"
+      ],
+      "target": [
+        "moliere-tartuffe:2.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:3.1"
+      ],
+      "target": [
+        "moliere-tartuffe:3.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:3.2"
+      ],
+      "target": [
+        "moliere-tartuffe:3.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:3.3"
+      ],
+      "target": [
+        "moliere-tartuffe:3.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:3.4"
+      ],
+      "target": [
+        "moliere-tartuffe:3.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:3.5"
+      ],
+      "target": [
+        "moliere-tartuffe:3.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:3.6"
+      ],
+      "target": [
+        "moliere-tartuffe:3.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:4.1"
+      ],
+      "target": [
+        "moliere-tartuffe:4.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:4.2"
+      ],
+      "target": [
+        "moliere-tartuffe:4.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:4.3"
+      ],
+      "target": [
+        "moliere-tartuffe:4.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.1"
+      ],
+      "target": [
+        "moliere-tartuffe:5.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.2"
+      ],
+      "target": [
+        "moliere-tartuffe:5.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.3"
+      ],
+      "target": [
+        "moliere-tartuffe:5.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.4"
+      ],
+      "target": [
+        "moliere-tartuffe:5.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.5"
+      ],
+      "target": [
+        "moliere-tartuffe:5.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.6"
+      ],
+      "target": [
+        "moliere-tartuffe:5.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.7"
+      ],
+      "target": [
+        "moliere-tartuffe:5.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.8"
+      ],
+      "target": [
+        "moliere-tartuffe:5.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.9"
+      ],
+      "target": [
+        "moliere-tartuffe:5.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.10"
+      ],
+      "target": [
+        "moliere-tartuffe:5.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.11"
+      ],
+      "target": [
+        "moliere-tartuffe:5.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.12"
+      ],
+      "target": [
+        "moliere-tartuffe:5.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.13"
+      ],
+      "target": [
+        "moliere-tartuffe:5.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:5.14"
+      ],
+      "target": [
+        "moliere-tartuffe:5.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.1"
+      ],
+      "target": [
+        "moliere-tartuffe:6.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.2"
+      ],
+      "target": [
+        "moliere-tartuffe:6.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.3"
+      ],
+      "target": [
+        "moliere-tartuffe:6.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.4"
+      ],
+      "target": [
+        "moliere-tartuffe:6.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.5"
+      ],
+      "target": [
+        "moliere-tartuffe:6.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.6"
+      ],
+      "target": [
+        "moliere-tartuffe:6.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.7"
+      ],
+      "target": [
+        "moliere-tartuffe:6.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.8"
+      ],
+      "target": [
+        "moliere-tartuffe:6.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.9"
+      ],
+      "target": [
+        "moliere-tartuffe:6.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.10"
+      ],
+      "target": [
+        "moliere-tartuffe:6.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.11"
+      ],
+      "target": [
+        "moliere-tartuffe:6.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.12"
+      ],
+      "target": [
+        "moliere-tartuffe:6.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.13"
+      ],
+      "target": [
+        "moliere-tartuffe:6.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.14"
+      ],
+      "target": [
+        "moliere-tartuffe:6.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.15"
+      ],
+      "target": [
+        "moliere-tartuffe:6.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.16"
+      ],
+      "target": [
+        "moliere-tartuffe:6.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.17"
+      ],
+      "target": [
+        "moliere-tartuffe:6.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.18"
+      ],
+      "target": [
+        "moliere-tartuffe:6.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.19"
+      ],
+      "target": [
+        "moliere-tartuffe:6.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.20"
+      ],
+      "target": [
+        "moliere-tartuffe:6.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.21"
+      ],
+      "target": [
+        "moliere-tartuffe:6.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.22"
+      ],
+      "target": [
+        "moliere-tartuffe:6.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.23"
+      ],
+      "target": [
+        "moliere-tartuffe:6.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.24"
+      ],
+      "target": [
+        "moliere-tartuffe:6.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.25"
+      ],
+      "target": [
+        "moliere-tartuffe:6.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.26"
+      ],
+      "target": [
+        "moliere-tartuffe:6.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.27"
+      ],
+      "target": [
+        "moliere-tartuffe:6.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.28"
+      ],
+      "target": [
+        "moliere-tartuffe:6.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.29"
+      ],
+      "target": [
+        "moliere-tartuffe:6.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.30"
+      ],
+      "target": [
+        "moliere-tartuffe:6.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.31"
+      ],
+      "target": [
+        "moliere-tartuffe:6.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.32"
+      ],
+      "target": [
+        "moliere-tartuffe:6.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.33"
+      ],
+      "target": [
+        "moliere-tartuffe:6.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.34"
+      ],
+      "target": [
+        "moliere-tartuffe:6.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.35"
+      ],
+      "target": [
+        "moliere-tartuffe:6.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.36"
+      ],
+      "target": [
+        "moliere-tartuffe:6.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.37"
+      ],
+      "target": [
+        "moliere-tartuffe:6.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.38"
+      ],
+      "target": [
+        "moliere-tartuffe:6.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.39"
+      ],
+      "target": [
+        "moliere-tartuffe:6.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.40"
+      ],
+      "target": [
+        "moliere-tartuffe:6.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.41"
+      ],
+      "target": [
+        "moliere-tartuffe:6.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.42"
+      ],
+      "target": [
+        "moliere-tartuffe:6.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.43"
+      ],
+      "target": [
+        "moliere-tartuffe:6.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.44"
+      ],
+      "target": [
+        "moliere-tartuffe:6.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.45"
+      ],
+      "target": [
+        "moliere-tartuffe:6.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.46"
+      ],
+      "target": [
+        "moliere-tartuffe:6.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.47"
+      ],
+      "target": [
+        "moliere-tartuffe:6.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.48"
+      ],
+      "target": [
+        "moliere-tartuffe:6.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.49"
+      ],
+      "target": [
+        "moliere-tartuffe:6.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.50"
+      ],
+      "target": [
+        "moliere-tartuffe:6.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.51"
+      ],
+      "target": [
+        "moliere-tartuffe:6.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.52"
+      ],
+      "target": [
+        "moliere-tartuffe:6.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.53"
+      ],
+      "target": [
+        "moliere-tartuffe:6.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.54"
+      ],
+      "target": [
+        "moliere-tartuffe:6.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.55"
+      ],
+      "target": [
+        "moliere-tartuffe:6.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.56"
+      ],
+      "target": [
+        "moliere-tartuffe:6.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.57"
+      ],
+      "target": [
+        "moliere-tartuffe:6.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.58"
+      ],
+      "target": [
+        "moliere-tartuffe:6.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.59"
+      ],
+      "target": [
+        "moliere-tartuffe:6.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.60"
+      ],
+      "target": [
+        "moliere-tartuffe:6.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.61"
+      ],
+      "target": [
+        "moliere-tartuffe:6.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.62"
+      ],
+      "target": [
+        "moliere-tartuffe:6.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.63"
+      ],
+      "target": [
+        "moliere-tartuffe:6.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.64"
+      ],
+      "target": [
+        "moliere-tartuffe:6.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.65"
+      ],
+      "target": [
+        "moliere-tartuffe:6.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.66"
+      ],
+      "target": [
+        "moliere-tartuffe:6.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.67"
+      ],
+      "target": [
+        "moliere-tartuffe:6.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.68"
+      ],
+      "target": [
+        "moliere-tartuffe:6.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.69"
+      ],
+      "target": [
+        "moliere-tartuffe:6.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.70"
+      ],
+      "target": [
+        "moliere-tartuffe:6.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.71"
+      ],
+      "target": [
+        "moliere-tartuffe:6.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.72"
+      ],
+      "target": [
+        "moliere-tartuffe:6.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.73"
+      ],
+      "target": [
+        "moliere-tartuffe:6.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.74"
+      ],
+      "target": [
+        "moliere-tartuffe:6.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.75"
+      ],
+      "target": [
+        "moliere-tartuffe:6.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.76"
+      ],
+      "target": [
+        "moliere-tartuffe:6.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.77"
+      ],
+      "target": [
+        "moliere-tartuffe:6.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.78"
+      ],
+      "target": [
+        "moliere-tartuffe:6.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.79"
+      ],
+      "target": [
+        "moliere-tartuffe:6.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.80"
+      ],
+      "target": [
+        "moliere-tartuffe:6.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.81"
+      ],
+      "target": [
+        "moliere-tartuffe:6.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.82"
+      ],
+      "target": [
+        "moliere-tartuffe:6.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.83"
+      ],
+      "target": [
+        "moliere-tartuffe:6.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.84"
+      ],
+      "target": [
+        "moliere-tartuffe:6.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.85"
+      ],
+      "target": [
+        "moliere-tartuffe:6.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.86"
+      ],
+      "target": [
+        "moliere-tartuffe:6.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.87"
+      ],
+      "target": [
+        "moliere-tartuffe:6.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.88"
+      ],
+      "target": [
+        "moliere-tartuffe:6.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.89"
+      ],
+      "target": [
+        "moliere-tartuffe:6.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.90"
+      ],
+      "target": [
+        "moliere-tartuffe:6.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.91"
+      ],
+      "target": [
+        "moliere-tartuffe:6.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.92"
+      ],
+      "target": [
+        "moliere-tartuffe:6.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.93"
+      ],
+      "target": [
+        "moliere-tartuffe:6.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.94"
+      ],
+      "target": [
+        "moliere-tartuffe:6.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.95"
+      ],
+      "target": [
+        "moliere-tartuffe:6.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.96"
+      ],
+      "target": [
+        "moliere-tartuffe:6.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.97"
+      ],
+      "target": [
+        "moliere-tartuffe:6.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.98"
+      ],
+      "target": [
+        "moliere-tartuffe:6.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.99"
+      ],
+      "target": [
+        "moliere-tartuffe:6.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.100"
+      ],
+      "target": [
+        "moliere-tartuffe:6.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.101"
+      ],
+      "target": [
+        "moliere-tartuffe:6.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.102"
+      ],
+      "target": [
+        "moliere-tartuffe:6.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.103"
+      ],
+      "target": [
+        "moliere-tartuffe:6.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.104"
+      ],
+      "target": [
+        "moliere-tartuffe:6.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.105"
+      ],
+      "target": [
+        "moliere-tartuffe:6.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.106"
+      ],
+      "target": [
+        "moliere-tartuffe:6.106"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.107"
+      ],
+      "target": [
+        "moliere-tartuffe:6.107"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.108"
+      ],
+      "target": [
+        "moliere-tartuffe:6.108"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.109"
+      ],
+      "target": [
+        "moliere-tartuffe:6.109"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.110"
+      ],
+      "target": [
+        "moliere-tartuffe:6.110"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:6.111"
+      ],
+      "target": [
+        "moliere-tartuffe:6.111"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.1"
+      ],
+      "target": [
+        "moliere-tartuffe:7.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.2"
+      ],
+      "target": [
+        "moliere-tartuffe:7.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.3"
+      ],
+      "target": [
+        "moliere-tartuffe:7.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.4"
+      ],
+      "target": [
+        "moliere-tartuffe:7.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.5"
+      ],
+      "target": [
+        "moliere-tartuffe:7.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.6"
+      ],
+      "target": [
+        "moliere-tartuffe:7.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.7"
+      ],
+      "target": [
+        "moliere-tartuffe:7.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.8"
+      ],
+      "target": [
+        "moliere-tartuffe:7.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.9"
+      ],
+      "target": [
+        "moliere-tartuffe:7.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.10"
+      ],
+      "target": [
+        "moliere-tartuffe:7.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.11"
+      ],
+      "target": [
+        "moliere-tartuffe:7.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.12"
+      ],
+      "target": [
+        "moliere-tartuffe:7.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.13"
+      ],
+      "target": [
+        "moliere-tartuffe:7.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.14"
+      ],
+      "target": [
+        "moliere-tartuffe:7.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.15"
+      ],
+      "target": [
+        "moliere-tartuffe:7.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.16"
+      ],
+      "target": [
+        "moliere-tartuffe:7.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.17"
+      ],
+      "target": [
+        "moliere-tartuffe:7.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.18"
+      ],
+      "target": [
+        "moliere-tartuffe:7.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.19"
+      ],
+      "target": [
+        "moliere-tartuffe:7.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.20"
+      ],
+      "target": [
+        "moliere-tartuffe:7.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.21"
+      ],
+      "target": [
+        "moliere-tartuffe:7.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.22"
+      ],
+      "target": [
+        "moliere-tartuffe:7.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.23"
+      ],
+      "target": [
+        "moliere-tartuffe:7.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.24"
+      ],
+      "target": [
+        "moliere-tartuffe:7.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.25"
+      ],
+      "target": [
+        "moliere-tartuffe:7.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.26"
+      ],
+      "target": [
+        "moliere-tartuffe:7.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.27"
+      ],
+      "target": [
+        "moliere-tartuffe:7.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.28"
+      ],
+      "target": [
+        "moliere-tartuffe:7.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.29"
+      ],
+      "target": [
+        "moliere-tartuffe:7.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.30"
+      ],
+      "target": [
+        "moliere-tartuffe:7.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.31"
+      ],
+      "target": [
+        "moliere-tartuffe:7.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.32"
+      ],
+      "target": [
+        "moliere-tartuffe:7.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.33"
+      ],
+      "target": [
+        "moliere-tartuffe:7.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.34"
+      ],
+      "target": [
+        "moliere-tartuffe:7.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.35"
+      ],
+      "target": [
+        "moliere-tartuffe:7.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.36"
+      ],
+      "target": [
+        "moliere-tartuffe:7.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.37"
+      ],
+      "target": [
+        "moliere-tartuffe:7.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.38"
+      ],
+      "target": [
+        "moliere-tartuffe:7.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.39"
+      ],
+      "target": [
+        "moliere-tartuffe:7.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.40"
+      ],
+      "target": [
+        "moliere-tartuffe:7.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.41"
+      ],
+      "target": [
+        "moliere-tartuffe:7.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.42"
+      ],
+      "target": [
+        "moliere-tartuffe:7.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.43"
+      ],
+      "target": [
+        "moliere-tartuffe:7.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.44"
+      ],
+      "target": [
+        "moliere-tartuffe:7.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.45"
+      ],
+      "target": [
+        "moliere-tartuffe:7.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.46"
+      ],
+      "target": [
+        "moliere-tartuffe:7.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.47"
+      ],
+      "target": [
+        "moliere-tartuffe:7.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.48"
+      ],
+      "target": [
+        "moliere-tartuffe:7.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.49"
+      ],
+      "target": [
+        "moliere-tartuffe:7.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.50"
+      ],
+      "target": [
+        "moliere-tartuffe:7.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.51"
+      ],
+      "target": [
+        "moliere-tartuffe:7.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.52"
+      ],
+      "target": [
+        "moliere-tartuffe:7.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.53"
+      ],
+      "target": [
+        "moliere-tartuffe:7.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.54"
+      ],
+      "target": [
+        "moliere-tartuffe:7.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.55"
+      ],
+      "target": [
+        "moliere-tartuffe:7.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.56"
+      ],
+      "target": [
+        "moliere-tartuffe:7.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.57"
+      ],
+      "target": [
+        "moliere-tartuffe:7.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.58"
+      ],
+      "target": [
+        "moliere-tartuffe:7.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.59"
+      ],
+      "target": [
+        "moliere-tartuffe:7.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.60"
+      ],
+      "target": [
+        "moliere-tartuffe:7.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.61"
+      ],
+      "target": [
+        "moliere-tartuffe:7.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.62"
+      ],
+      "target": [
+        "moliere-tartuffe:7.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.63"
+      ],
+      "target": [
+        "moliere-tartuffe:7.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.64"
+      ],
+      "target": [
+        "moliere-tartuffe:7.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.65"
+      ],
+      "target": [
+        "moliere-tartuffe:7.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.66"
+      ],
+      "target": [
+        "moliere-tartuffe:7.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.67"
+      ],
+      "target": [
+        "moliere-tartuffe:7.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.68"
+      ],
+      "target": [
+        "moliere-tartuffe:7.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.69"
+      ],
+      "target": [
+        "moliere-tartuffe:7.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.70"
+      ],
+      "target": [
+        "moliere-tartuffe:7.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.71"
+      ],
+      "target": [
+        "moliere-tartuffe:7.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.72"
+      ],
+      "target": [
+        "moliere-tartuffe:7.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.73"
+      ],
+      "target": [
+        "moliere-tartuffe:7.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.74"
+      ],
+      "target": [
+        "moliere-tartuffe:7.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.75"
+      ],
+      "target": [
+        "moliere-tartuffe:7.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.76"
+      ],
+      "target": [
+        "moliere-tartuffe:7.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.77"
+      ],
+      "target": [
+        "moliere-tartuffe:7.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.78"
+      ],
+      "target": [
+        "moliere-tartuffe:7.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.79"
+      ],
+      "target": [
+        "moliere-tartuffe:7.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.80"
+      ],
+      "target": [
+        "moliere-tartuffe:7.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.81"
+      ],
+      "target": [
+        "moliere-tartuffe:7.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.82"
+      ],
+      "target": [
+        "moliere-tartuffe:7.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.83"
+      ],
+      "target": [
+        "moliere-tartuffe:7.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.84"
+      ],
+      "target": [
+        "moliere-tartuffe:7.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.85"
+      ],
+      "target": [
+        "moliere-tartuffe:7.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.86"
+      ],
+      "target": [
+        "moliere-tartuffe:7.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.87"
+      ],
+      "target": [
+        "moliere-tartuffe:7.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.88"
+      ],
+      "target": [
+        "moliere-tartuffe:7.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.89"
+      ],
+      "target": [
+        "moliere-tartuffe:7.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.90"
+      ],
+      "target": [
+        "moliere-tartuffe:7.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.91"
+      ],
+      "target": [
+        "moliere-tartuffe:7.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.92"
+      ],
+      "target": [
+        "moliere-tartuffe:7.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.93"
+      ],
+      "target": [
+        "moliere-tartuffe:7.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.94"
+      ],
+      "target": [
+        "moliere-tartuffe:7.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.95"
+      ],
+      "target": [
+        "moliere-tartuffe:7.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.96"
+      ],
+      "target": [
+        "moliere-tartuffe:7.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.97"
+      ],
+      "target": [
+        "moliere-tartuffe:7.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.98"
+      ],
+      "target": [
+        "moliere-tartuffe:7.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.99"
+      ],
+      "target": [
+        "moliere-tartuffe:7.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.100"
+      ],
+      "target": [
+        "moliere-tartuffe:7.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.101"
+      ],
+      "target": [
+        "moliere-tartuffe:7.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.102"
+      ],
+      "target": [
+        "moliere-tartuffe:7.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.103"
+      ],
+      "target": [
+        "moliere-tartuffe:7.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.104"
+      ],
+      "target": [
+        "moliere-tartuffe:7.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.105"
+      ],
+      "target": [
+        "moliere-tartuffe:7.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.106"
+      ],
+      "target": [
+        "moliere-tartuffe:7.106"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.107"
+      ],
+      "target": [
+        "moliere-tartuffe:7.107"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.108"
+      ],
+      "target": [
+        "moliere-tartuffe:7.108"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.109"
+      ],
+      "target": [
+        "moliere-tartuffe:7.109"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.110"
+      ],
+      "target": [
+        "moliere-tartuffe:7.110"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.111"
+      ],
+      "target": [
+        "moliere-tartuffe:7.111"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.112"
+      ],
+      "target": [
+        "moliere-tartuffe:7.112"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.113"
+      ],
+      "target": [
+        "moliere-tartuffe:7.113"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.114"
+      ],
+      "target": [
+        "moliere-tartuffe:7.114"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.115"
+      ],
+      "target": [
+        "moliere-tartuffe:7.115"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.116"
+      ],
+      "target": [
+        "moliere-tartuffe:7.116"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.117"
+      ],
+      "target": [
+        "moliere-tartuffe:7.117"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.118"
+      ],
+      "target": [
+        "moliere-tartuffe:7.118"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.119"
+      ],
+      "target": [
+        "moliere-tartuffe:7.119"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.120"
+      ],
+      "target": [
+        "moliere-tartuffe:7.120"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.121"
+      ],
+      "target": [
+        "moliere-tartuffe:7.121"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.122"
+      ],
+      "target": [
+        "moliere-tartuffe:7.122"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.123"
+      ],
+      "target": [
+        "moliere-tartuffe:7.123"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.124"
+      ],
+      "target": [
+        "moliere-tartuffe:7.124"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.125"
+      ],
+      "target": [
+        "moliere-tartuffe:7.125"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.126"
+      ],
+      "target": [
+        "moliere-tartuffe:7.126"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.127"
+      ],
+      "target": [
+        "moliere-tartuffe:7.127"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.128"
+      ],
+      "target": [
+        "moliere-tartuffe:7.128"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.129"
+      ],
+      "target": [
+        "moliere-tartuffe:7.129"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.130"
+      ],
+      "target": [
+        "moliere-tartuffe:7.130"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.131"
+      ],
+      "target": [
+        "moliere-tartuffe:7.131"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.132"
+      ],
+      "target": [
+        "moliere-tartuffe:7.132"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.133"
+      ],
+      "target": [
+        "moliere-tartuffe:7.133"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.134"
+      ],
+      "target": [
+        "moliere-tartuffe:7.134"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.135"
+      ],
+      "target": [
+        "moliere-tartuffe:7.135"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.136"
+      ],
+      "target": [
+        "moliere-tartuffe:7.136"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.137"
+      ],
+      "target": [
+        "moliere-tartuffe:7.137"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.138"
+      ],
+      "target": [
+        "moliere-tartuffe:7.138"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.139"
+      ],
+      "target": [
+        "moliere-tartuffe:7.139"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.140"
+      ],
+      "target": [
+        "moliere-tartuffe:7.140"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.141"
+      ],
+      "target": [
+        "moliere-tartuffe:7.141"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.142"
+      ],
+      "target": [
+        "moliere-tartuffe:7.142"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.143"
+      ],
+      "target": [
+        "moliere-tartuffe:7.143"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.144"
+      ],
+      "target": [
+        "moliere-tartuffe:7.144"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.145"
+      ],
+      "target": [
+        "moliere-tartuffe:7.145"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.146"
+      ],
+      "target": [
+        "moliere-tartuffe:7.146"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.147"
+      ],
+      "target": [
+        "moliere-tartuffe:7.147"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.148"
+      ],
+      "target": [
+        "moliere-tartuffe:7.148"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.149"
+      ],
+      "target": [
+        "moliere-tartuffe:7.149"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.150"
+      ],
+      "target": [
+        "moliere-tartuffe:7.150"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.151"
+      ],
+      "target": [
+        "moliere-tartuffe:7.151"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.152"
+      ],
+      "target": [
+        "moliere-tartuffe:7.152"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.153"
+      ],
+      "target": [
+        "moliere-tartuffe:7.153"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.154"
+      ],
+      "target": [
+        "moliere-tartuffe:7.154"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.155"
+      ],
+      "target": [
+        "moliere-tartuffe:7.155"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.156"
+      ],
+      "target": [
+        "moliere-tartuffe:7.156"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.157"
+      ],
+      "target": [
+        "moliere-tartuffe:7.157"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.158"
+      ],
+      "target": [
+        "moliere-tartuffe:7.158"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.159"
+      ],
+      "target": [
+        "moliere-tartuffe:7.159"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.160"
+      ],
+      "target": [
+        "moliere-tartuffe:7.160"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.161"
+      ],
+      "target": [
+        "moliere-tartuffe:7.161"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.162"
+      ],
+      "target": [
+        "moliere-tartuffe:7.162"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.163"
+      ],
+      "target": [
+        "moliere-tartuffe:7.163"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.164"
+      ],
+      "target": [
+        "moliere-tartuffe:7.164"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.165"
+      ],
+      "target": [
+        "moliere-tartuffe:7.165"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.166"
+      ],
+      "target": [
+        "moliere-tartuffe:7.166"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.167"
+      ],
+      "target": [
+        "moliere-tartuffe:7.167"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.168"
+      ],
+      "target": [
+        "moliere-tartuffe:7.168"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.169"
+      ],
+      "target": [
+        "moliere-tartuffe:7.169"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.170"
+      ],
+      "target": [
+        "moliere-tartuffe:7.170"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.171"
+      ],
+      "target": [
+        "moliere-tartuffe:7.171"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.172"
+      ],
+      "target": [
+        "moliere-tartuffe:7.172"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.173"
+      ],
+      "target": [
+        "moliere-tartuffe:7.173"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.174"
+      ],
+      "target": [
+        "moliere-tartuffe:7.174"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.175"
+      ],
+      "target": [
+        "moliere-tartuffe:7.175"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.176"
+      ],
+      "target": [
+        "moliere-tartuffe:7.176"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.177"
+      ],
+      "target": [
+        "moliere-tartuffe:7.177"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.178"
+      ],
+      "target": [
+        "moliere-tartuffe:7.178"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.179"
+      ],
+      "target": [
+        "moliere-tartuffe:7.179"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.180"
+      ],
+      "target": [
+        "moliere-tartuffe:7.180"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.181"
+      ],
+      "target": [
+        "moliere-tartuffe:7.181"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.182"
+      ],
+      "target": [
+        "moliere-tartuffe:7.182"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.183"
+      ],
+      "target": [
+        "moliere-tartuffe:7.183"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.184"
+      ],
+      "target": [
+        "moliere-tartuffe:7.184"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.185"
+      ],
+      "target": [
+        "moliere-tartuffe:7.185"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.186"
+      ],
+      "target": [
+        "moliere-tartuffe:7.186"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.187"
+      ],
+      "target": [
+        "moliere-tartuffe:7.187"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.188"
+      ],
+      "target": [
+        "moliere-tartuffe:7.188"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.189"
+      ],
+      "target": [
+        "moliere-tartuffe:7.189"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.190"
+      ],
+      "target": [
+        "moliere-tartuffe:7.190"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.191"
+      ],
+      "target": [
+        "moliere-tartuffe:7.191"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.192"
+      ],
+      "target": [
+        "moliere-tartuffe:7.192"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.193"
+      ],
+      "target": [
+        "moliere-tartuffe:7.193"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.194"
+      ],
+      "target": [
+        "moliere-tartuffe:7.194"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.195"
+      ],
+      "target": [
+        "moliere-tartuffe:7.195"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.196"
+      ],
+      "target": [
+        "moliere-tartuffe:7.196"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.197"
+      ],
+      "target": [
+        "moliere-tartuffe:7.197"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.198"
+      ],
+      "target": [
+        "moliere-tartuffe:7.198"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.199"
+      ],
+      "target": [
+        "moliere-tartuffe:7.199"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.200"
+      ],
+      "target": [
+        "moliere-tartuffe:7.200"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.201"
+      ],
+      "target": [
+        "moliere-tartuffe:7.201"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.202"
+      ],
+      "target": [
+        "moliere-tartuffe:7.202"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.203"
+      ],
+      "target": [
+        "moliere-tartuffe:7.203"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.204"
+      ],
+      "target": [
+        "moliere-tartuffe:7.204"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.205"
+      ],
+      "target": [
+        "moliere-tartuffe:7.205"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.206"
+      ],
+      "target": [
+        "moliere-tartuffe:7.206"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.207"
+      ],
+      "target": [
+        "moliere-tartuffe:7.207"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.208"
+      ],
+      "target": [
+        "moliere-tartuffe:7.208"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.209"
+      ],
+      "target": [
+        "moliere-tartuffe:7.209"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.210"
+      ],
+      "target": [
+        "moliere-tartuffe:7.210"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.211"
+      ],
+      "target": [
+        "moliere-tartuffe:7.211"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.212"
+      ],
+      "target": [
+        "moliere-tartuffe:7.212"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.213"
+      ],
+      "target": [
+        "moliere-tartuffe:7.213"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.214"
+      ],
+      "target": [
+        "moliere-tartuffe:7.214"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.215"
+      ],
+      "target": [
+        "moliere-tartuffe:7.215"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.216"
+      ],
+      "target": [
+        "moliere-tartuffe:7.216"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.217"
+      ],
+      "target": [
+        "moliere-tartuffe:7.217"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.218"
+      ],
+      "target": [
+        "moliere-tartuffe:7.218"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.219"
+      ],
+      "target": [
+        "moliere-tartuffe:7.219"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.220"
+      ],
+      "target": [
+        "moliere-tartuffe:7.220"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.221"
+      ],
+      "target": [
+        "moliere-tartuffe:7.221"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.222"
+      ],
+      "target": [
+        "moliere-tartuffe:7.222"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.223"
+      ],
+      "target": [
+        "moliere-tartuffe:7.223"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.224"
+      ],
+      "target": [
+        "moliere-tartuffe:7.224"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.225"
+      ],
+      "target": [
+        "moliere-tartuffe:7.225"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.226"
+      ],
+      "target": [
+        "moliere-tartuffe:7.226"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.227"
+      ],
+      "target": [
+        "moliere-tartuffe:7.227"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.228"
+      ],
+      "target": [
+        "moliere-tartuffe:7.228"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.229"
+      ],
+      "target": [
+        "moliere-tartuffe:7.229"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.230"
+      ],
+      "target": [
+        "moliere-tartuffe:7.230"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.231"
+      ],
+      "target": [
+        "moliere-tartuffe:7.231"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.232"
+      ],
+      "target": [
+        "moliere-tartuffe:7.232"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.233"
+      ],
+      "target": [
+        "moliere-tartuffe:7.233"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.234"
+      ],
+      "target": [
+        "moliere-tartuffe:7.234"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.235"
+      ],
+      "target": [
+        "moliere-tartuffe:7.235"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:7.236"
+      ],
+      "target": [
+        "moliere-tartuffe:7.236"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.1"
+      ],
+      "target": [
+        "moliere-tartuffe:8.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.2"
+      ],
+      "target": [
+        "moliere-tartuffe:8.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.3"
+      ],
+      "target": [
+        "moliere-tartuffe:8.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.4"
+      ],
+      "target": [
+        "moliere-tartuffe:8.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.5"
+      ],
+      "target": [
+        "moliere-tartuffe:8.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.6"
+      ],
+      "target": [
+        "moliere-tartuffe:8.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.7"
+      ],
+      "target": [
+        "moliere-tartuffe:8.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.8"
+      ],
+      "target": [
+        "moliere-tartuffe:8.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.9"
+      ],
+      "target": [
+        "moliere-tartuffe:8.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.10"
+      ],
+      "target": [
+        "moliere-tartuffe:8.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.11"
+      ],
+      "target": [
+        "moliere-tartuffe:8.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.12"
+      ],
+      "target": [
+        "moliere-tartuffe:8.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.13"
+      ],
+      "target": [
+        "moliere-tartuffe:8.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.14"
+      ],
+      "target": [
+        "moliere-tartuffe:8.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.15"
+      ],
+      "target": [
+        "moliere-tartuffe:8.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.16"
+      ],
+      "target": [
+        "moliere-tartuffe:8.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.17"
+      ],
+      "target": [
+        "moliere-tartuffe:8.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.18"
+      ],
+      "target": [
+        "moliere-tartuffe:8.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.19"
+      ],
+      "target": [
+        "moliere-tartuffe:8.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.20"
+      ],
+      "target": [
+        "moliere-tartuffe:8.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.21"
+      ],
+      "target": [
+        "moliere-tartuffe:8.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.22"
+      ],
+      "target": [
+        "moliere-tartuffe:8.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.23"
+      ],
+      "target": [
+        "moliere-tartuffe:8.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.24"
+      ],
+      "target": [
+        "moliere-tartuffe:8.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.25"
+      ],
+      "target": [
+        "moliere-tartuffe:8.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.26"
+      ],
+      "target": [
+        "moliere-tartuffe:8.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.27"
+      ],
+      "target": [
+        "moliere-tartuffe:8.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.28"
+      ],
+      "target": [
+        "moliere-tartuffe:8.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.29"
+      ],
+      "target": [
+        "moliere-tartuffe:8.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.30"
+      ],
+      "target": [
+        "moliere-tartuffe:8.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.31"
+      ],
+      "target": [
+        "moliere-tartuffe:8.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.32"
+      ],
+      "target": [
+        "moliere-tartuffe:8.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.33"
+      ],
+      "target": [
+        "moliere-tartuffe:8.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.34"
+      ],
+      "target": [
+        "moliere-tartuffe:8.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.35"
+      ],
+      "target": [
+        "moliere-tartuffe:8.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.36"
+      ],
+      "target": [
+        "moliere-tartuffe:8.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.37"
+      ],
+      "target": [
+        "moliere-tartuffe:8.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.38"
+      ],
+      "target": [
+        "moliere-tartuffe:8.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.39"
+      ],
+      "target": [
+        "moliere-tartuffe:8.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.40"
+      ],
+      "target": [
+        "moliere-tartuffe:8.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.41"
+      ],
+      "target": [
+        "moliere-tartuffe:8.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.42"
+      ],
+      "target": [
+        "moliere-tartuffe:8.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.43"
+      ],
+      "target": [
+        "moliere-tartuffe:8.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.44"
+      ],
+      "target": [
+        "moliere-tartuffe:8.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.45"
+      ],
+      "target": [
+        "moliere-tartuffe:8.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.46"
+      ],
+      "target": [
+        "moliere-tartuffe:8.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.47"
+      ],
+      "target": [
+        "moliere-tartuffe:8.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.48"
+      ],
+      "target": [
+        "moliere-tartuffe:8.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.49"
+      ],
+      "target": [
+        "moliere-tartuffe:8.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.50"
+      ],
+      "target": [
+        "moliere-tartuffe:8.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.51"
+      ],
+      "target": [
+        "moliere-tartuffe:8.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.52"
+      ],
+      "target": [
+        "moliere-tartuffe:8.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.53"
+      ],
+      "target": [
+        "moliere-tartuffe:8.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.54"
+      ],
+      "target": [
+        "moliere-tartuffe:8.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.55"
+      ],
+      "target": [
+        "moliere-tartuffe:8.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.56"
+      ],
+      "target": [
+        "moliere-tartuffe:8.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.57"
+      ],
+      "target": [
+        "moliere-tartuffe:8.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.58"
+      ],
+      "target": [
+        "moliere-tartuffe:8.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.59"
+      ],
+      "target": [
+        "moliere-tartuffe:8.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.60"
+      ],
+      "target": [
+        "moliere-tartuffe:8.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.61"
+      ],
+      "target": [
+        "moliere-tartuffe:8.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.62"
+      ],
+      "target": [
+        "moliere-tartuffe:8.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.63"
+      ],
+      "target": [
+        "moliere-tartuffe:8.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.64"
+      ],
+      "target": [
+        "moliere-tartuffe:8.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.65"
+      ],
+      "target": [
+        "moliere-tartuffe:8.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.66"
+      ],
+      "target": [
+        "moliere-tartuffe:8.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.67"
+      ],
+      "target": [
+        "moliere-tartuffe:8.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.68"
+      ],
+      "target": [
+        "moliere-tartuffe:8.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.69"
+      ],
+      "target": [
+        "moliere-tartuffe:8.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.70"
+      ],
+      "target": [
+        "moliere-tartuffe:8.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.71"
+      ],
+      "target": [
+        "moliere-tartuffe:8.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.72"
+      ],
+      "target": [
+        "moliere-tartuffe:8.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.73"
+      ],
+      "target": [
+        "moliere-tartuffe:8.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.74"
+      ],
+      "target": [
+        "moliere-tartuffe:8.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.75"
+      ],
+      "target": [
+        "moliere-tartuffe:8.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.76"
+      ],
+      "target": [
+        "moliere-tartuffe:8.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.77"
+      ],
+      "target": [
+        "moliere-tartuffe:8.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.78"
+      ],
+      "target": [
+        "moliere-tartuffe:8.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.79"
+      ],
+      "target": [
+        "moliere-tartuffe:8.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.80"
+      ],
+      "target": [
+        "moliere-tartuffe:8.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.81"
+      ],
+      "target": [
+        "moliere-tartuffe:8.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.82"
+      ],
+      "target": [
+        "moliere-tartuffe:8.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.83"
+      ],
+      "target": [
+        "moliere-tartuffe:8.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.84"
+      ],
+      "target": [
+        "moliere-tartuffe:8.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.85"
+      ],
+      "target": [
+        "moliere-tartuffe:8.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.86"
+      ],
+      "target": [
+        "moliere-tartuffe:8.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.87"
+      ],
+      "target": [
+        "moliere-tartuffe:8.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.88"
+      ],
+      "target": [
+        "moliere-tartuffe:8.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.89"
+      ],
+      "target": [
+        "moliere-tartuffe:8.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.90"
+      ],
+      "target": [
+        "moliere-tartuffe:8.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.91"
+      ],
+      "target": [
+        "moliere-tartuffe:8.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.92"
+      ],
+      "target": [
+        "moliere-tartuffe:8.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.93"
+      ],
+      "target": [
+        "moliere-tartuffe:8.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.94"
+      ],
+      "target": [
+        "moliere-tartuffe:8.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.95"
+      ],
+      "target": [
+        "moliere-tartuffe:8.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.96"
+      ],
+      "target": [
+        "moliere-tartuffe:8.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.97"
+      ],
+      "target": [
+        "moliere-tartuffe:8.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.98"
+      ],
+      "target": [
+        "moliere-tartuffe:8.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.99"
+      ],
+      "target": [
+        "moliere-tartuffe:8.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.100"
+      ],
+      "target": [
+        "moliere-tartuffe:8.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.101"
+      ],
+      "target": [
+        "moliere-tartuffe:8.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.102"
+      ],
+      "target": [
+        "moliere-tartuffe:8.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.103"
+      ],
+      "target": [
+        "moliere-tartuffe:8.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.104"
+      ],
+      "target": [
+        "moliere-tartuffe:8.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.105"
+      ],
+      "target": [
+        "moliere-tartuffe:8.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.106"
+      ],
+      "target": [
+        "moliere-tartuffe:8.106"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.107"
+      ],
+      "target": [
+        "moliere-tartuffe:8.107"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.108"
+      ],
+      "target": [
+        "moliere-tartuffe:8.108"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.109"
+      ],
+      "target": [
+        "moliere-tartuffe:8.109"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.110"
+      ],
+      "target": [
+        "moliere-tartuffe:8.110"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.111"
+      ],
+      "target": [
+        "moliere-tartuffe:8.111"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.112"
+      ],
+      "target": [
+        "moliere-tartuffe:8.112"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.113"
+      ],
+      "target": [
+        "moliere-tartuffe:8.113"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.114"
+      ],
+      "target": [
+        "moliere-tartuffe:8.114"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.115"
+      ],
+      "target": [
+        "moliere-tartuffe:8.115"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.116"
+      ],
+      "target": [
+        "moliere-tartuffe:8.116"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.117"
+      ],
+      "target": [
+        "moliere-tartuffe:8.117"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.118"
+      ],
+      "target": [
+        "moliere-tartuffe:8.118"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.119"
+      ],
+      "target": [
+        "moliere-tartuffe:8.119"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.120"
+      ],
+      "target": [
+        "moliere-tartuffe:8.120"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.121"
+      ],
+      "target": [
+        "moliere-tartuffe:8.121"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.122"
+      ],
+      "target": [
+        "moliere-tartuffe:8.122"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.123"
+      ],
+      "target": [
+        "moliere-tartuffe:8.123"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.124"
+      ],
+      "target": [
+        "moliere-tartuffe:8.124"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.125"
+      ],
+      "target": [
+        "moliere-tartuffe:8.125"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.126"
+      ],
+      "target": [
+        "moliere-tartuffe:8.126"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:8.127"
+      ],
+      "target": [
+        "moliere-tartuffe:8.127"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.1"
+      ],
+      "target": [
+        "moliere-tartuffe:9.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.2"
+      ],
+      "target": [
+        "moliere-tartuffe:9.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.3"
+      ],
+      "target": [
+        "moliere-tartuffe:9.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.4"
+      ],
+      "target": [
+        "moliere-tartuffe:9.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.5"
+      ],
+      "target": [
+        "moliere-tartuffe:9.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.6"
+      ],
+      "target": [
+        "moliere-tartuffe:9.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.7"
+      ],
+      "target": [
+        "moliere-tartuffe:9.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.8"
+      ],
+      "target": [
+        "moliere-tartuffe:9.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.9"
+      ],
+      "target": [
+        "moliere-tartuffe:9.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.10"
+      ],
+      "target": [
+        "moliere-tartuffe:9.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.11"
+      ],
+      "target": [
+        "moliere-tartuffe:9.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.12"
+      ],
+      "target": [
+        "moliere-tartuffe:9.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.13"
+      ],
+      "target": [
+        "moliere-tartuffe:9.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.14"
+      ],
+      "target": [
+        "moliere-tartuffe:9.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.15"
+      ],
+      "target": [
+        "moliere-tartuffe:9.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.16"
+      ],
+      "target": [
+        "moliere-tartuffe:9.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.17"
+      ],
+      "target": [
+        "moliere-tartuffe:9.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.18"
+      ],
+      "target": [
+        "moliere-tartuffe:9.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.19"
+      ],
+      "target": [
+        "moliere-tartuffe:9.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.20"
+      ],
+      "target": [
+        "moliere-tartuffe:9.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.21"
+      ],
+      "target": [
+        "moliere-tartuffe:9.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.22"
+      ],
+      "target": [
+        "moliere-tartuffe:9.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.23"
+      ],
+      "target": [
+        "moliere-tartuffe:9.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.24"
+      ],
+      "target": [
+        "moliere-tartuffe:9.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.25"
+      ],
+      "target": [
+        "moliere-tartuffe:9.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.26"
+      ],
+      "target": [
+        "moliere-tartuffe:9.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.27"
+      ],
+      "target": [
+        "moliere-tartuffe:9.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.28"
+      ],
+      "target": [
+        "moliere-tartuffe:9.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.29"
+      ],
+      "target": [
+        "moliere-tartuffe:9.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.30"
+      ],
+      "target": [
+        "moliere-tartuffe:9.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.31"
+      ],
+      "target": [
+        "moliere-tartuffe:9.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.32"
+      ],
+      "target": [
+        "moliere-tartuffe:9.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.33"
+      ],
+      "target": [
+        "moliere-tartuffe:9.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.34"
+      ],
+      "target": [
+        "moliere-tartuffe:9.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.35"
+      ],
+      "target": [
+        "moliere-tartuffe:9.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.36"
+      ],
+      "target": [
+        "moliere-tartuffe:9.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.37"
+      ],
+      "target": [
+        "moliere-tartuffe:9.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.38"
+      ],
+      "target": [
+        "moliere-tartuffe:9.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.39"
+      ],
+      "target": [
+        "moliere-tartuffe:9.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.40"
+      ],
+      "target": [
+        "moliere-tartuffe:9.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.41"
+      ],
+      "target": [
+        "moliere-tartuffe:9.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.42"
+      ],
+      "target": [
+        "moliere-tartuffe:9.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.43"
+      ],
+      "target": [
+        "moliere-tartuffe:9.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.44"
+      ],
+      "target": [
+        "moliere-tartuffe:9.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.45"
+      ],
+      "target": [
+        "moliere-tartuffe:9.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.46"
+      ],
+      "target": [
+        "moliere-tartuffe:9.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.47"
+      ],
+      "target": [
+        "moliere-tartuffe:9.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.48"
+      ],
+      "target": [
+        "moliere-tartuffe:9.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.49"
+      ],
+      "target": [
+        "moliere-tartuffe:9.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.50"
+      ],
+      "target": [
+        "moliere-tartuffe:9.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.51"
+      ],
+      "target": [
+        "moliere-tartuffe:9.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.52"
+      ],
+      "target": [
+        "moliere-tartuffe:9.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.53"
+      ],
+      "target": [
+        "moliere-tartuffe:9.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.54"
+      ],
+      "target": [
+        "moliere-tartuffe:9.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.55"
+      ],
+      "target": [
+        "moliere-tartuffe:9.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.56"
+      ],
+      "target": [
+        "moliere-tartuffe:9.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.57"
+      ],
+      "target": [
+        "moliere-tartuffe:9.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.58"
+      ],
+      "target": [
+        "moliere-tartuffe:9.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.59"
+      ],
+      "target": [
+        "moliere-tartuffe:9.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.60"
+      ],
+      "target": [
+        "moliere-tartuffe:9.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.61"
+      ],
+      "target": [
+        "moliere-tartuffe:9.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.62"
+      ],
+      "target": [
+        "moliere-tartuffe:9.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.63"
+      ],
+      "target": [
+        "moliere-tartuffe:9.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.64"
+      ],
+      "target": [
+        "moliere-tartuffe:9.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.65"
+      ],
+      "target": [
+        "moliere-tartuffe:9.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.66"
+      ],
+      "target": [
+        "moliere-tartuffe:9.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.67"
+      ],
+      "target": [
+        "moliere-tartuffe:9.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.68"
+      ],
+      "target": [
+        "moliere-tartuffe:9.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.69"
+      ],
+      "target": [
+        "moliere-tartuffe:9.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.70"
+      ],
+      "target": [
+        "moliere-tartuffe:9.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.71"
+      ],
+      "target": [
+        "moliere-tartuffe:9.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.72"
+      ],
+      "target": [
+        "moliere-tartuffe:9.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.73"
+      ],
+      "target": [
+        "moliere-tartuffe:9.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.74"
+      ],
+      "target": [
+        "moliere-tartuffe:9.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.75"
+      ],
+      "target": [
+        "moliere-tartuffe:9.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.76"
+      ],
+      "target": [
+        "moliere-tartuffe:9.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.77"
+      ],
+      "target": [
+        "moliere-tartuffe:9.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.78"
+      ],
+      "target": [
+        "moliere-tartuffe:9.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.79"
+      ],
+      "target": [
+        "moliere-tartuffe:9.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.80"
+      ],
+      "target": [
+        "moliere-tartuffe:9.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.81"
+      ],
+      "target": [
+        "moliere-tartuffe:9.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.82"
+      ],
+      "target": [
+        "moliere-tartuffe:9.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.83"
+      ],
+      "target": [
+        "moliere-tartuffe:9.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.84"
+      ],
+      "target": [
+        "moliere-tartuffe:9.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.85"
+      ],
+      "target": [
+        "moliere-tartuffe:9.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.86"
+      ],
+      "target": [
+        "moliere-tartuffe:9.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.87"
+      ],
+      "target": [
+        "moliere-tartuffe:9.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.88"
+      ],
+      "target": [
+        "moliere-tartuffe:9.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.89"
+      ],
+      "target": [
+        "moliere-tartuffe:9.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.90"
+      ],
+      "target": [
+        "moliere-tartuffe:9.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.91"
+      ],
+      "target": [
+        "moliere-tartuffe:9.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.92"
+      ],
+      "target": [
+        "moliere-tartuffe:9.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.93"
+      ],
+      "target": [
+        "moliere-tartuffe:9.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.94"
+      ],
+      "target": [
+        "moliere-tartuffe:9.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.95"
+      ],
+      "target": [
+        "moliere-tartuffe:9.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.96"
+      ],
+      "target": [
+        "moliere-tartuffe:9.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.97"
+      ],
+      "target": [
+        "moliere-tartuffe:9.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.98"
+      ],
+      "target": [
+        "moliere-tartuffe:9.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.99"
+      ],
+      "target": [
+        "moliere-tartuffe:9.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.100"
+      ],
+      "target": [
+        "moliere-tartuffe:9.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.101"
+      ],
+      "target": [
+        "moliere-tartuffe:9.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.102"
+      ],
+      "target": [
+        "moliere-tartuffe:9.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.103"
+      ],
+      "target": [
+        "moliere-tartuffe:9.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.104"
+      ],
+      "target": [
+        "moliere-tartuffe:9.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:9.105"
+      ],
+      "target": [
+        "moliere-tartuffe:9.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.1"
+      ],
+      "target": [
+        "moliere-tartuffe:10.1"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.2"
+      ],
+      "target": [
+        "moliere-tartuffe:10.2"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.3"
+      ],
+      "target": [
+        "moliere-tartuffe:10.3"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.4"
+      ],
+      "target": [
+        "moliere-tartuffe:10.4"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.5"
+      ],
+      "target": [
+        "moliere-tartuffe:10.5"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.6"
+      ],
+      "target": [
+        "moliere-tartuffe:10.6"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.7"
+      ],
+      "target": [
+        "moliere-tartuffe:10.7"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.8"
+      ],
+      "target": [
+        "moliere-tartuffe:10.8"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.9"
+      ],
+      "target": [
+        "moliere-tartuffe:10.9"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.10"
+      ],
+      "target": [
+        "moliere-tartuffe:10.10"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.11"
+      ],
+      "target": [
+        "moliere-tartuffe:10.11"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.12"
+      ],
+      "target": [
+        "moliere-tartuffe:10.12"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.13"
+      ],
+      "target": [
+        "moliere-tartuffe:10.13"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.14"
+      ],
+      "target": [
+        "moliere-tartuffe:10.14"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.15"
+      ],
+      "target": [
+        "moliere-tartuffe:10.15"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.16"
+      ],
+      "target": [
+        "moliere-tartuffe:10.16"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.17"
+      ],
+      "target": [
+        "moliere-tartuffe:10.17"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.18"
+      ],
+      "target": [
+        "moliere-tartuffe:10.18"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.19"
+      ],
+      "target": [
+        "moliere-tartuffe:10.19"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.20"
+      ],
+      "target": [
+        "moliere-tartuffe:10.20"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.21"
+      ],
+      "target": [
+        "moliere-tartuffe:10.21"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.22"
+      ],
+      "target": [
+        "moliere-tartuffe:10.22"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.23"
+      ],
+      "target": [
+        "moliere-tartuffe:10.23"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.24"
+      ],
+      "target": [
+        "moliere-tartuffe:10.24"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.25"
+      ],
+      "target": [
+        "moliere-tartuffe:10.25"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.26"
+      ],
+      "target": [
+        "moliere-tartuffe:10.26"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.27"
+      ],
+      "target": [
+        "moliere-tartuffe:10.27"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.28"
+      ],
+      "target": [
+        "moliere-tartuffe:10.28"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.29"
+      ],
+      "target": [
+        "moliere-tartuffe:10.29"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.30"
+      ],
+      "target": [
+        "moliere-tartuffe:10.30"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.31"
+      ],
+      "target": [
+        "moliere-tartuffe:10.31"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.32"
+      ],
+      "target": [
+        "moliere-tartuffe:10.32"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.33"
+      ],
+      "target": [
+        "moliere-tartuffe:10.33"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.34"
+      ],
+      "target": [
+        "moliere-tartuffe:10.34"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.35"
+      ],
+      "target": [
+        "moliere-tartuffe:10.35"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.36"
+      ],
+      "target": [
+        "moliere-tartuffe:10.36"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.37"
+      ],
+      "target": [
+        "moliere-tartuffe:10.37"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.38"
+      ],
+      "target": [
+        "moliere-tartuffe:10.38"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.39"
+      ],
+      "target": [
+        "moliere-tartuffe:10.39"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.40"
+      ],
+      "target": [
+        "moliere-tartuffe:10.40"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.41"
+      ],
+      "target": [
+        "moliere-tartuffe:10.41"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.42"
+      ],
+      "target": [
+        "moliere-tartuffe:10.42"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.43"
+      ],
+      "target": [
+        "moliere-tartuffe:10.43"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.44"
+      ],
+      "target": [
+        "moliere-tartuffe:10.44"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.45"
+      ],
+      "target": [
+        "moliere-tartuffe:10.45"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.46"
+      ],
+      "target": [
+        "moliere-tartuffe:10.46"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.47"
+      ],
+      "target": [
+        "moliere-tartuffe:10.47"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.48"
+      ],
+      "target": [
+        "moliere-tartuffe:10.48"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.49"
+      ],
+      "target": [
+        "moliere-tartuffe:10.49"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.50"
+      ],
+      "target": [
+        "moliere-tartuffe:10.50"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.51"
+      ],
+      "target": [
+        "moliere-tartuffe:10.51"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.52"
+      ],
+      "target": [
+        "moliere-tartuffe:10.52"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.53"
+      ],
+      "target": [
+        "moliere-tartuffe:10.53"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.54"
+      ],
+      "target": [
+        "moliere-tartuffe:10.54"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.55"
+      ],
+      "target": [
+        "moliere-tartuffe:10.55"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.56"
+      ],
+      "target": [
+        "moliere-tartuffe:10.56"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.57"
+      ],
+      "target": [
+        "moliere-tartuffe:10.57"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.58"
+      ],
+      "target": [
+        "moliere-tartuffe:10.58"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.59"
+      ],
+      "target": [
+        "moliere-tartuffe:10.59"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.60"
+      ],
+      "target": [
+        "moliere-tartuffe:10.60"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.61"
+      ],
+      "target": [
+        "moliere-tartuffe:10.61"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.62"
+      ],
+      "target": [
+        "moliere-tartuffe:10.62"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.63"
+      ],
+      "target": [
+        "moliere-tartuffe:10.63"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.64"
+      ],
+      "target": [
+        "moliere-tartuffe:10.64"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.65"
+      ],
+      "target": [
+        "moliere-tartuffe:10.65"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.66"
+      ],
+      "target": [
+        "moliere-tartuffe:10.66"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.67"
+      ],
+      "target": [
+        "moliere-tartuffe:10.67"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.68"
+      ],
+      "target": [
+        "moliere-tartuffe:10.68"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.69"
+      ],
+      "target": [
+        "moliere-tartuffe:10.69"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.70"
+      ],
+      "target": [
+        "moliere-tartuffe:10.70"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.71"
+      ],
+      "target": [
+        "moliere-tartuffe:10.71"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.72"
+      ],
+      "target": [
+        "moliere-tartuffe:10.72"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.73"
+      ],
+      "target": [
+        "moliere-tartuffe:10.73"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.74"
+      ],
+      "target": [
+        "moliere-tartuffe:10.74"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.75"
+      ],
+      "target": [
+        "moliere-tartuffe:10.75"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.76"
+      ],
+      "target": [
+        "moliere-tartuffe:10.76"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.77"
+      ],
+      "target": [
+        "moliere-tartuffe:10.77"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.78"
+      ],
+      "target": [
+        "moliere-tartuffe:10.78"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.79"
+      ],
+      "target": [
+        "moliere-tartuffe:10.79"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.80"
+      ],
+      "target": [
+        "moliere-tartuffe:10.80"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.81"
+      ],
+      "target": [
+        "moliere-tartuffe:10.81"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.82"
+      ],
+      "target": [
+        "moliere-tartuffe:10.82"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.83"
+      ],
+      "target": [
+        "moliere-tartuffe:10.83"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.84"
+      ],
+      "target": [
+        "moliere-tartuffe:10.84"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.85"
+      ],
+      "target": [
+        "moliere-tartuffe:10.85"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.86"
+      ],
+      "target": [
+        "moliere-tartuffe:10.86"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.87"
+      ],
+      "target": [
+        "moliere-tartuffe:10.87"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.88"
+      ],
+      "target": [
+        "moliere-tartuffe:10.88"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.89"
+      ],
+      "target": [
+        "moliere-tartuffe:10.89"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.90"
+      ],
+      "target": [
+        "moliere-tartuffe:10.90"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.91"
+      ],
+      "target": [
+        "moliere-tartuffe:10.91"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.92"
+      ],
+      "target": [
+        "moliere-tartuffe:10.92"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.93"
+      ],
+      "target": [
+        "moliere-tartuffe:10.93"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.94"
+      ],
+      "target": [
+        "moliere-tartuffe:10.94"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.95"
+      ],
+      "target": [
+        "moliere-tartuffe:10.95"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.96"
+      ],
+      "target": [
+        "moliere-tartuffe:10.96"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.97"
+      ],
+      "target": [
+        "moliere-tartuffe:10.97"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.98"
+      ],
+      "target": [
+        "moliere-tartuffe:10.98"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.99"
+      ],
+      "target": [
+        "moliere-tartuffe:10.99"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.100"
+      ],
+      "target": [
+        "moliere-tartuffe:10.100"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.101"
+      ],
+      "target": [
+        "moliere-tartuffe:10.101"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.102"
+      ],
+      "target": [
+        "moliere-tartuffe:10.102"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.103"
+      ],
+      "target": [
+        "moliere-tartuffe:10.103"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.104"
+      ],
+      "target": [
+        "moliere-tartuffe:10.104"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.105"
+      ],
+      "target": [
+        "moliere-tartuffe:10.105"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.106"
+      ],
+      "target": [
+        "moliere-tartuffe:10.106"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.107"
+      ],
+      "target": [
+        "moliere-tartuffe:10.107"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.108"
+      ],
+      "target": [
+        "moliere-tartuffe:10.108"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.109"
+      ],
+      "target": [
+        "moliere-tartuffe:10.109"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.110"
+      ],
+      "target": [
+        "moliere-tartuffe:10.110"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.111"
+      ],
+      "target": [
+        "moliere-tartuffe:10.111"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.112"
+      ],
+      "target": [
+        "moliere-tartuffe:10.112"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.113"
+      ],
+      "target": [
+        "moliere-tartuffe:10.113"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.114"
+      ],
+      "target": [
+        "moliere-tartuffe:10.114"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.115"
+      ],
+      "target": [
+        "moliere-tartuffe:10.115"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.116"
+      ],
+      "target": [
+        "moliere-tartuffe:10.116"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.117"
+      ],
+      "target": [
+        "moliere-tartuffe:10.117"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.118"
+      ],
+      "target": [
+        "moliere-tartuffe:10.118"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.119"
+      ],
+      "target": [
+        "moliere-tartuffe:10.119"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.120"
+      ],
+      "target": [
+        "moliere-tartuffe:10.120"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.121"
+      ],
+      "target": [
+        "moliere-tartuffe:10.121"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.122"
+      ],
+      "target": [
+        "moliere-tartuffe:10.122"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.123"
+      ],
+      "target": [
+        "moliere-tartuffe:10.123"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.124"
+      ],
+      "target": [
+        "moliere-tartuffe:10.124"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.125"
+      ],
+      "target": [
+        "moliere-tartuffe:10.125"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.126"
+      ],
+      "target": [
+        "moliere-tartuffe:10.126"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.127"
+      ],
+      "target": [
+        "moliere-tartuffe:10.127"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.128"
+      ],
+      "target": [
+        "moliere-tartuffe:10.128"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.129"
+      ],
+      "target": [
+        "moliere-tartuffe:10.129"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.130"
+      ],
+      "target": [
+        "moliere-tartuffe:10.130"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.131"
+      ],
+      "target": [
+        "moliere-tartuffe:10.131"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.132"
+      ],
+      "target": [
+        "moliere-tartuffe:10.132"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.133"
+      ],
+      "target": [
+        "moliere-tartuffe:10.133"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.134"
+      ],
+      "target": [
+        "moliere-tartuffe:10.134"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.135"
+      ],
+      "target": [
+        "moliere-tartuffe:10.135"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.136"
+      ],
+      "target": [
+        "moliere-tartuffe:10.136"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.137"
+      ],
+      "target": [
+        "moliere-tartuffe:10.137"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.138"
+      ],
+      "target": [
+        "moliere-tartuffe:10.138"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.139"
+      ],
+      "target": [
+        "moliere-tartuffe:10.139"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.140"
+      ],
+      "target": [
+        "moliere-tartuffe:10.140"
+      ]
+    },
+    {
+      "source": [
+        "moliere-tartuffe:10.141"
+      ],
+      "target": [
+        "moliere-tartuffe:10.141"
+      ]
+    }
+  ]
+}
