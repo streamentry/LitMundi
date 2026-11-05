@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 73 published · 201 todo · 0 in progress · 226 on hold.**
+**500 selected works · 74 published · 200 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -91,7 +91,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **070. Heinrich von Kleist — Michael Kohlhaas** · de · novella · **Todo** · [Evidence](https://openlibrary.org/works/OL1451547W)
 - [x] **071. Thomas Mann — Der Tod in Venedig** · de · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/66073) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/mann-der-tod-in-venedig/mann-der-tod-in-venedig-vi-ai-2026/)
 - [x] **072. Kahlil Gibran — The Prophet** · en · poetry collection · **Published** · [Evidence](https://www.gutenberg.org/files/58585/58585-h/58585-h.htm) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/gibran-prophet/gibran-the-prophet-vi-ai-2026/)
-- [ ] **073. Fyodor Dostoevsky — Notes from Underground** · ru · novella · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/600)
+- [x] **073. Fyodor Dostoevsky — Notes from Underground** · ru · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/600) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/dostoevsky-notes-from-underground/dostoevsky-zapiski-iz-podolya-vi-ai-2026/)
 - [x] **074. Kahlil Gibran — The Madman: His Parables and Poems** · en · collection · **Published** · [Evidence](https://www.gutenberg.org/cache/epub/5616/pg5616-images.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/gibran-madman/gibran-madman-vi-ai-2026/)
 - [ ] **075. Leo Tolstoy — Hadji Murad** · ru · novella · **Todo** · [Evidence](https://openlibrary.org/works/OL267106W)
 - [x] **076. Anton Chekhov — Ward No. 6** · ru · novella · **Published** · [Evidence](https://openlibrary.org/works/OL55450W) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/chekhov-ward-no-6/chekhov-palata-6-vi-ai-2026/)

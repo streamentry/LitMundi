@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "work_id": "dostoevsky-notes-from-underground",
+  "edition_id": "dostoevsky-zapiski-iz-podolya-vi-ai-2026",
+  "source_edition_id": "dostoevsky-zapiski-iz-podolya-ru-wikisource",
+  "title_vi": "Ghi chép từ dưới hầm",
+  "translation_direction": "ru → vi; direct from the specifically identified complete Russian electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "The Underground Man’s spiteful, self-lacerating, digressive confession is kept in sharp colloquial-literary Vietnamese, with the particle-flavoured sarcasm and abrupt shifts of the original and no softening.",
+      "rationale": "The text’s force is its contradiction of cringing and aggression in one sentence."
+    },
+    {
+      "topic": "Source",
+      "decision": "The Russian text comes from Wikisource because the backlog’s Open Library entry carries no text; the editorial footnotes in the transcription were removed.",
+      "rationale": "Translation is directly from the Russian."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-05",
+      "cycle": "vietnamese-500-dostoevsky-notes-from-underground",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "dostoevsky-notes-from-underground:2.3",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Прав, что подлец’ was rendered as a tautology, losing the ironic ‘he is in the right’; restored."
+        },
+        {
+          "segment": "dostoevsky-notes-from-underground:12.4",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Помириться на уме’ was read as being satisfied with his own intellect instead of settling for a face that looks intelligent; corrected."
+        },
+        {
+          "segment": "dostoevsky-notes-from-underground:12.9",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘В хлопочках’ (in cotton wool) was read as fuss, losing the jewel-in-cotton image; restored as ‘bọc bông’."
+        },
+        {
+          "segment": "dostoevsky-notes-from-underground:18.2",
+          "category": "target_naturalness",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The address pronouns of the narrator and Liza switched between tôi/cô and anh/em inconsistently in and around the tirade; one rule applied across units 239–520."
+        },
+        {
+          "segment": "dostoevsky-notes-from-underground:20.20",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Припадок/истерика’ (a fit, hysterics) was rendered ‘cơn lên đồng’ (spirit-possession ritual) in units 476, 478, 494 and 495; now ‘cơn kích động’ or ‘cơn nức nở’."
+        },
+        {
+          "segment": "dostoevsky-notes-from-underground:11.13",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Впрочем’ was always rendered ‘vả lại’; varied naturally."
+        },
+        {
+          "segment": "dostoevsky-notes-from-underground:12.14",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Трактир’ was rendered ‘quán trọ’ (inn); now ‘quán ăn’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Ghi chép từ dưới hầm",
+      "alternatives": [],
+      "rationale": "‘Подполье’ is rendered ‘dưới hầm’ throughout.",
+      "passages": [
+        "dostoevsky-notes-from-underground:1.1",
+        "dostoevsky-notes-from-underground:1.2"
+      ]
+    },
+    {
+      "source_term": "chapter headings",
+      "draft_rendering": "Phần I. Dưới hầm · Chương I … Phần II · Chương X",
+      "alternatives": [],
+      "rationale": "Heading units built from the page titles; the part title is added to the first chapter of each part.",
+      "passages": [
+        "dostoevsky-notes-from-underground:1.1",
+        "dostoevsky-notes-from-underground:12.1"
+      ]
+    },
+    {
+      "source_term": "Liza address",
+      "draft_rendering": "tôi/cô in the cold scenes and the outburst; anh/em in the sentimental scenes",
+      "alternatives": [],
+      "rationale": "One pair per scene across the book.",
+      "passages": [
+        "dostoevsky-notes-from-underground:17.25",
+        "dostoevsky-notes-from-underground:18.2",
+        "dostoevsky-notes-from-underground:20.14"
+      ]
+    },
+    {
+      "source_term": "живая жизнь",
+      "draft_rendering": "cuộc sống sống động",
+      "alternatives": [],
+      "rationale": "The ‘living life’ he says we have forgotten.",
+      "passages": [
+        "dostoevsky-notes-from-underground:21.2",
+        "dostoevsky-notes-from-underground:21.17"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Russian Wikisource transcription of Записки из подполья (Dostoevsky, first printed in Epokha, 1864), fetched chapter by chapter as raw wikitext; the page is not marked as fully proofread, and the text was not collated with the first printing.",
+  "updated_at": "2026-11-05",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "5f72cd9018871428b450c8f202e9289a3095e8a619258cb4c3fe505f0fb1d771",
+  "target_sha256": "82f67573955d601e39b5df6b211a0b45577ad4bc63c83c11b3808d8dde8cc097",
+  "coverage": {
+    "canonical_passages": 520,
+    "translated_passages": 520,
+    "aligned_passages": 520
+  },
+  "ai_review_record": "corpus/reviews/dostoevsky-notes-from-underground/dostoevsky-zapiski-iz-podolya-vi-ai-2026/ai-review-v2-2026-11-05.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "dostoevsky-notes-from-underground:20.34",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The rendering of ‘Воскреситель’ in unit 490 is only approximate."
+    },
+    {
+      "segment": "dostoevsky-notes-from-underground:8.4",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "A short gloss on ‘kukish’ in unit 34 goes beyond the Russian."
+    }
+  ],
+  "title_review": {
+    "source_title": "Записки из подполья",
+    "target_title": "Ghi chép từ dưới hầm",
+    "rationale": "The title is translated as ‘Ghi chép từ dưới hầm’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "dostoevsky-notes-from-underground:1.2"
+      ],
+      "assessment": "The author’s note: ‘Both the author of the notes and the Notes themselves are, of course, fictitious.’"
+    },
+    {
+      "passages": [
+        "dostoevsky-notes-from-underground:21.22"
+      ],
+      "assessment": "The last unit: ‘But the notes of this paradoxalist do not end here.’"
+    }
+  ]
+}
