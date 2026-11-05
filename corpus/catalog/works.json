@@ -1183,5 +1183,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Хаджи-Мурат",
+    "author": "Leo Tolstoy",
+    "author_death_year": 1910,
+    "first_published_year": 1912,
+    "original_language": "ru",
+    "genre": "novella",
+    "description": "Hadji Murat (Хаджи-Мурат), a novella by Leo Tolstoy written 1896–1904 and published posthumously in 1912, follows an Avar rebel commander who, to avenge himself and save his captive family, forges an uneasy alliance with the Russians he has been fighting in the Caucasus. The narrator opens with a crushed thistle that still lives. Tolstoy drew on Russian archives, including Hadji Murat’s own account of his life.",
+    "id": "tolstoy-hadji-murad",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

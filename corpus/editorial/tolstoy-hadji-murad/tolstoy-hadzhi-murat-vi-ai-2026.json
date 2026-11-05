@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "work_id": "tolstoy-hadji-murad",
+  "edition_id": "tolstoy-hadzhi-murat-vi-ai-2026",
+  "source_edition_id": "tolstoy-hadzhi-murat-ru-wikisource",
+  "title_vi": "Hadji Murat",
+  "translation_direction": "ru → vi; direct from the specifically identified complete Russian electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Tolstoy’s calm, concrete late style, the cold irony of the court chapters and the plain respect for the mountain people are kept in sober literary Vietnamese with no explanatory padding; French stays French.",
+      "rationale": "The effect depends on the facts being allowed to speak."
+    },
+    {
+      "topic": "Source",
+      "decision": "The Russian text comes from Wikisource because the backlog entry named no text; it is translated directly from the Russian.",
+      "rationale": "Translation from the original, not from an English or other version."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-05",
+      "cycle": "vietnamese-500-tolstoy-hadji-murad",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "tolstoy-hadji-murad:6.4",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Пасынок’ (Bulka, the wife’s son) was rendered as Vorontsov’s own stepson in a way that reversed the relation; now ‘con riêng của vợ Vorontsov’, consistent with ‘cha dượng’."
+        },
+        {
+          "segment": "tolstoy-hadji-murad:9.50",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Вышел к русским’ (Hadji Murat’s defection) was rendered ‘ra đầu hàng’ / ‘ra hàng’, turning defection into surrender, in units 456, 477 and 546; now ‘sang phía người Nga’."
+        },
+        {
+          "segment": "tolstoy-hadji-murad:14.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Лихорадочное состояние’ (a feverish, agitated state) was rendered as malaria; corrected."
+        },
+        {
+          "segment": "tolstoy-hadji-murad:15.28",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Шурин’ (the empress’s brother, the Prussian king) was rendered ‘người anh rể’ (a sister’s husband), in units 625 and 636; now ‘anh vợ’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Hadji Murat",
+      "alternatives": [],
+      "rationale": "Latin transcription of the hero’s name.",
+      "passages": [
+        "tolstoy-hadji-murad:1.1",
+        "tolstoy-hadji-murad:1.2"
+      ]
+    },
+    {
+      "source_term": "вышел к русским",
+      "draft_rendering": "sang phía người Nga",
+      "alternatives": [],
+      "rationale": "Defection, not surrender.",
+      "passages": [
+        "tolstoy-hadji-murad:9.50",
+        "tolstoy-hadji-murad:10.18",
+        "tolstoy-hadji-murad:12.34"
+      ]
+    },
+    {
+      "source_term": "thistle frame",
+      "draft_rendering": "cây kế … Tatar … cây kế bị giẫm nát giữa cánh đồng vừa cày",
+      "alternatives": [],
+      "rationale": "The image of chapter I returns in the last line.",
+      "passages": [
+        "tolstoy-hadji-murad:1.2",
+        "tolstoy-hadji-murad:1.3",
+        "tolstoy-hadji-murad:25.46"
+      ]
+    },
+    {
+      "source_term": "шурин",
+      "draft_rendering": "anh vợ",
+      "alternatives": [],
+      "rationale": "The empress’s brother.",
+      "passages": [
+        "tolstoy-hadji-murad:15.28",
+        "tolstoy-hadji-murad:15.39"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Russian Wikisource transcription of Хаджи-Мурат (written 1896–1904, first published posthumously in 1912), which cites the 1912 Berlin edition and the 1983 Soviet 22-volume edition as its sources; the project did not collate it with a printed edition.",
+  "updated_at": "2026-11-05",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "1a1262646b07d5c89d20c578b352ff714acf0628078d65c8b16bf15f21203ba4",
+  "target_sha256": "71888b84f560e749646c1df96da07b567b288aa0304d976340e6a007cd709b3e",
+  "coverage": {
+    "canonical_passages": 1024,
+    "translated_passages": 1024,
+    "aligned_passages": 1024
+  },
+  "ai_review_record": "corpus/reviews/tolstoy-hadji-murad/tolstoy-hadzhi-murat-vi-ai-2026/ai-review-v2-2026-11-05.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "tolstoy-hadji-murad:14.6",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Сдался’ is rendered ‘đầu hàng’, a wording the book avoids for Hadji Murat’s defection."
+    },
+    {
+      "segment": "tolstoy-hadji-murad:13.23",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The masked word is rendered ‘đ...n’, which reads as an arbitrary fragment."
+    },
+    {
+      "segment": "tolstoy-hadji-murad:6.51",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Marya Vasilyevna’s garbled proverb reads as nonsense."
+    },
+    {
+      "segment": "tolstoy-hadji-murad:6.6",
+      "category": "literary_voice",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Hadji Murat’s broken Russian is rendered as correct Vietnamese."
+    }
+  ],
+  "title_review": {
+    "source_title": "Хаджи-Мурат",
+    "target_title": "Hadji Murat",
+    "rationale": "The title is the hero’s name in Latin letters; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "tolstoy-hadji-murad:1.2"
+      ],
+      "assessment": "The opening: the narrator, returning home across the fields, gathers a bouquet and sees the thistle."
+    },
+    {
+      "passages": [
+        "tolstoy-hadji-murad:25.46"
+      ],
+      "assessment": "The last unit: the crushed thistle among the ploughed field recalls Hadji Murat’s death."
+    }
+  ]
+}
