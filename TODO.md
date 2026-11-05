@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 75 published · 199 todo · 0 in progress · 226 on hold.**
+**500 selected works · 76 published · 198 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -98,7 +98,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **077. Murasaki Shikibu — The Tale of Genji** · ja · novel · **Todo** · [Evidence](https://nhk-fdn.or.jp/int/en/catalog/educational/detail_language/la_story-land-in-classical-japanese.html)
 - [x] **078. Anonymous: Lazarillo — Lazarillo de Tormes** · es · novella · **Published** · [Evidence](https://www.gutenberg.org/ebooks/320) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/lazarillo-lazarillo-de-tormes/anonymous-lazarillo-vi-ai-2026/)
 - [ ] **079. Sei Shonagon — The Pillow Book** · ja · essay · **Todo** · [Evidence](https://nhk-fdn.or.jp/int/en/catalog/educational/detail_language/la_story-land-in-classical-japanese.html)
-- [ ] **080. Henrik Ibsen — A Doll's House** · no · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/15492)
+- [x] **080. Henrik Ibsen — A Doll's House** · no · play · **Published** · [Evidence](https://www.gutenberg.org/ebooks/15492) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/ibsen-a-dolls-house/ibsen-et-dukkehjem-vi-ai-2026/)
 - [x] **081. Hans Christian Andersen — The Little Mermaid** · da · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/1597) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/andersen-the-little-mermaid/andersen-den-lille-havfrue-vi-ai-2026/)
 - [ ] **082. Anonymous (Japanese epic tradition) — The Tale of the Heike** · ja · epic · **Todo** · [Evidence](https://nhk-fdn.or.jp/int/en/catalog/educational/detail_language/la_story-land-in-classical-japanese.html)
 - [x] **083. Nathaniel Hawthorne — Young Goodman Brown** · en · short story · **Published** · [Evidence](https://www.gutenberg.org/ebooks/512) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/hawthorne-young-goodman-brown/hawthorne-ygb-vi-ai-2026/)

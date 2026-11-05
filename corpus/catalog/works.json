@@ -1168,5 +1168,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Et dukkehjem",
+    "author": "Henrik Ibsen",
+    "author_death_year": 1906,
+    "first_published_year": 1879,
+    "original_language": "no",
+    "genre": "play",
+    "description": "A Doll’s House (Et dukkehjem, 1879) is a three-act play by Henrik Ibsen about Nora Helmer, a wife and mother who has secretly borrowed money by forging her father’s signature. When a bank clerk threatens to expose her, the marriage she has treated as safe is put to the test. Written in Dano-Norwegian, it caused what Wikipedia calls a storm of outraged controversy and became one of the most-performed plays in the world.",
+    "id": "ibsen-a-dolls-house",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

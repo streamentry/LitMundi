@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "work_id": "ibsen-a-dolls-house",
+  "edition_id": "ibsen-et-dukkehjem-vi-ai-2026",
+  "source_edition_id": "ibsen-et-dukkehjem-no-wikisource",
+  "title_vi": "Ngôi nhà búp bê",
+  "translation_direction": "no → vi; direct from the specifically identified complete Norwegian electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Nora’s bright patter over fear and her sudden cold clarity in the last act, Helmer’s pomposity and Rank’s wry fatalism are kept in spoken stage Vietnamese with no explanatory padding.",
+      "rationale": "The play turns on the switch of register at the reckoning."
+    },
+    {
+      "topic": "Source",
+      "decision": "The Norwegian text comes from Wikisource because the backlog entry named an English translation; it is translated directly from the Dano-Norwegian.",
+      "rationale": "Translation from the original, not from an English version."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-05",
+      "cycle": "vietnamese-500-ibsen-a-dolls-house",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "ibsen-a-dolls-house:2.328",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Nora called herself ‘mẹ’ to the nurse Anne-Marie, who raised her; the pair is ‘con/vú’, and ‘mẹ’ is kept only toward her own children."
+        },
+        {
+          "segment": "ibsen-a-dolls-house:3.317",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Krogstad’s ‘tas til nåde igjen’ was rendered in garbled Vietnamese; corrected."
+        },
+        {
+          "segment": "ibsen-a-dolls-house:4.102",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Romansproget’ (the language of novels) was rendered as ‘Romance languages’; corrected, and the Capripike pun tightened."
+        },
+        {
+          "segment": "ibsen-a-dolls-house:4.394",
+          "category": "literary_voice",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Farvel’ was rendered ‘Vĩnh biệt’ (farewell for ever) in Nora’s last word and in units 1204 and 1347, adding a finality the Norwegian lacks; now ‘Từ biệt’."
+        },
+        {
+          "segment": "ibsen-a-dolls-house:3.232",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Rank’s ‘fru Helmer’ was ‘cô Nora’ here and ‘cô Helmer’ elsewhere; unified as ‘cô Helmer’."
+        },
+        {
+          "segment": "ibsen-a-dolls-house:3.285",
+          "category": "imagery_consistency",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "‘Vinkelskriver’ was rendered two ways; unified as ‘thầy cãi lậu’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "title",
+      "draft_rendering": "Ngôi nhà búp bê",
+      "alternatives": [],
+      "rationale": "‘Et dukkehjem’, a doll’s home.",
+      "passages": [
+        "ibsen-a-dolls-house:1.1",
+        "ibsen-a-dolls-house:1.2"
+      ]
+    },
+    {
+      "source_term": "Nora–Helmer address",
+      "draft_rendering": "em/anh; from ‘Sett deg, Torvald’ Nora says tôi/anh",
+      "alternatives": [],
+      "rationale": "The change of register marks the end of the pet-name marriage.",
+      "passages": [
+        "ibsen-a-dolls-house:2.289",
+        "ibsen-a-dolls-house:4.275",
+        "ibsen-a-dolls-house:4.397"
+      ]
+    },
+    {
+      "source_term": "pet names",
+      "draft_rendering": "chim sơn ca nhỏ; sóc nhỏ; chim tiêu hoang; Nora bé bỏng",
+      "alternatives": [],
+      "rationale": "Helmer’s patronising diminutives, one rendering each.",
+      "passages": [
+        "ibsen-a-dolls-house:2.14",
+        "ibsen-a-dolls-house:4.145",
+        "ibsen-a-dolls-house:4.265"
+      ]
+    },
+    {
+      "source_term": "det vidunderlige",
+      "draft_rendering": "điều kỳ diệu / điều kỳ diệu nhất",
+      "alternatives": [],
+      "rationale": "The play’s last line returns to the wonderful thing Nora hoped for.",
+      "passages": [
+        "ibsen-a-dolls-house:4.351",
+        "ibsen-a-dolls-house:4.397"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Norwegian Wikisource transcription of Et dukkehjem by Henrik Ibsen (1879), which identifies itself as the electronic edition of Terje Sørensen and Heather McNeill from Project Runeberg; the project did not collate it with a printed edition.",
+  "updated_at": "2026-11-05",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "8df493dbb772aa12d3416ed3cdf5f65a2162346a3dd1b759db63ec9de0fd6a84",
+  "target_sha256": "ae9227db11eeccd5ded6a32d2e35629db5ab9e37726fff2f371868b3f1fd5331",
+  "coverage": {
+    "canonical_passages": 1372,
+    "translated_passages": 1372,
+    "aligned_passages": 1372
+  },
+  "ai_review_record": "corpus/reviews/ibsen-a-dolls-house/ibsen-et-dukkehjem-vi-ai-2026/ai-review-v2-2026-11-05.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.8,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "ibsen-a-dolls-house:3.317",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The corrected rendering of ‘tas til nåde igjen’ still sounds slightly lordly."
+    },
+    {
+      "segment": "ibsen-a-dolls-house:4.284",
+      "category": "semantic_fidelity",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "‘Vợ và chồng’ reverses ‘mann og kone’ against the anh/tôi order."
+    },
+    {
+      "segment": "ibsen-a-dolls-house:4.397",
+      "category": "editorial_mechanics",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "The stage direction for the slamming door is a little awkward."
+    }
+  ],
+  "title_review": {
+    "source_title": "Et dukkehjem",
+    "target_title": "Ngôi nhà búp bê",
+    "rationale": "The title is translated as ‘Ngôi nhà búp bê’; no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "ibsen-a-dolls-house:1.2"
+      ],
+      "assessment": "The cast list: ‘Advokat Helmer. Nora, hans hustru. Doktor Rank. …’"
+    },
+    {
+      "passages": [
+        "ibsen-a-dolls-house:4.397"
+      ],
+      "assessment": "The last unit: the sound of the street door closing below."
+    }
+  ]
+}
