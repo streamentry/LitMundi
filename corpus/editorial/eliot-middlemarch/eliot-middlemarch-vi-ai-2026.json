@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "work_id": "eliot-middlemarch",
+  "edition_id": "eliot-middlemarch-vi-ai-2026",
+  "source_edition_id": "eliot-middlemarch-en-pg145",
+  "title_vi": "Middlemarch",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "George Eliot’s ironic, essayistic narrator is kept, with the moral generalisation as generalisation and the irony as irony.",
+      "rationale": "The book is its narrator’s irony."
+    },
+    {
+      "topic": "Scope",
+      "decision": "The translation covers the complete novel as printed by Gutenberg #145, the Contents, Prelude, eight books and Finale, 4669 units.",
+      "rationale": "The witness defines the scope."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-eliot-middlemarch",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "eliot-middlemarch:3.22",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Amethyst” rendered as ruby; corrected to the amethyst sense."
+        },
+        {
+          "segment": "eliot-middlemarch:3.39",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Same amethyst error, repeated; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:3.558",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Six children” rendered as seven; corrected to the English count."
+        },
+        {
+          "segment": "eliot-middlemarch:3.581",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A question assigned to the wrong speaker (Fred and his mother); corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:3.617",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Rosamond’s innuendo assigned to her mother; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:4.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Few things worth the pains” was inverted to “fewer things worth the effort”; restored."
+        },
+        {
+          "segment": "eliot-middlemarch:4.315",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Larcher’s skimping of attendance was rendered as making it a luxury; restored."
+        },
+        {
+          "segment": "eliot-middlemarch:4.525",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Chị tôi” used for Celia, the younger sister; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:5.410",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Solomon’s seniority reversed and the English “Brother” left in Vietnamese; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:7.228",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Keble’s “The Christian Year” rendered as the year “Năm Thiên Chúa”; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:7.300",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Sir James’s “put that color on it” garbled; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:7.290",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Business “kept for” Dorothea, reversed from “kept from”; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:9.16",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A double negation reversed on Lydgate’s marriage; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:9.168",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Pronouns reversed in Rosamond’s complaint; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:10.7",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Dorothea called Celia’s “em vợ”; corrected to the elder-sister form."
+        },
+        {
+          "segment": "eliot-middlemarch:10.403",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Nam tước” used for baronet in the precedence joke; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:10.573",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Tipton cousins’ “dubiously mixed” blood was attributed to the Freshitt children; the irony restored."
+        },
+        {
+          "segment": "eliot-middlemarch:10.575",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Will Ladislaw given as Casaubon’s nephew where the source says cousin; corrected."
+        },
+        {
+          "segment": "eliot-middlemarch:10.255",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Proteges” rendered as “người”; corrected to the English sense."
+        },
+        {
+          "segment": "eliot-middlemarch:10.66",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“On the fifth day after the meeting” read as Thursday; corrected."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Dorothea Brooke / Mr. Casaubon / Mr. Ladislaw / Lydgate",
+      "draft_rendering": "Dorothea; ông Casaubon; Ladislaw; Lydgate",
+      "alternatives": [],
+      "rationale": "Names kept as in the English; men’s forms of address fixed by the glossary.",
+      "passages": [
+        "eliot-middlemarch:6.351",
+        "eliot-middlemarch:6.376",
+        "eliot-middlemarch:6.435"
+      ]
+    },
+    {
+      "source_term": "Sir James Chettam (baronet)",
+      "draft_rendering": "ngài Chettam; tòng nam tước for the rank",
+      "alternatives": [
+        "baronet"
+      ],
+      "rationale": "One rendering of the rank across the book; ‘nam tước’ is reserved for baron.",
+      "passages": [
+        "eliot-middlemarch:3.56",
+        "eliot-middlemarch:3.99",
+        "eliot-middlemarch:3.134",
+        "eliot-middlemarch:3.351",
+        "eliot-middlemarch:10.403",
+        "eliot-middlemarch:10.570"
+      ]
+    },
+    {
+      "source_term": "Captain (army officer)",
+      "draft_rendering": "Đại úy",
+      "alternatives": [],
+      "rationale": "Army rank, not ship’s captain.",
+      "passages": [
+        "eliot-middlemarch:8.297",
+        "eliot-middlemarch:9.80"
+      ]
+    },
+    {
+      "source_term": "Middlemarch / Tipton Grange / Lowick / Freshitt / Bride Street",
+      "draft_rendering": "Middlemarch; Tipton Grange; Lowick; Freshitt; phố Bride",
+      "alternatives": [],
+      "rationale": "Place names as in the source.",
+      "passages": [
+        "eliot-middlemarch:10.564"
+      ]
+    },
+    {
+      "source_term": "Providence / the Almighty",
+      "draft_rendering": "Đức Chúa Trời; Thiên Ý (one rendering per context)",
+      "alternatives": [],
+      "rationale": "A single theological rendering through the book.",
+      "passages": [
+        "eliot-middlemarch:5.427",
+        "eliot-middlemarch:5.177"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #145, an electronic transcription of Middlemarch. The Gutenberg page does not name the exact printing and the text was not collated with the 1871–72 first edition. Where the witness reads 'Balstrode' at unit 3952 (a single occurrence), the translation follows the witness and the question is recorded as an open source-witness point.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "24692f7df4523ecd4f902995406d19c9cae4e31825fcd1ec7803411e700e71b8",
+  "target_sha256": "1042dedfb846b5b6ce2eda074071fcbb948a1b9b60d9d7cbe730061a54af52ad",
+  "coverage": {
+    "canonical_passages": 4669,
+    "translated_passages": 4669,
+    "aligned_passages": 4669
+  },
+  "ai_review_record": "corpus/reviews/eliot-middlemarch/eliot-middlemarch-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [],
+  "title_review": {
+    "source_title": "Middlemarch",
+    "target_title": "Middlemarch",
+    "rationale": "The title is the work’s own, ‘Middlemarch’, the name of the town; the Vietnamese edition keeps the English title."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "eliot-middlemarch:1.1"
+      ],
+      "assessment": "The table of contents, rendered as ‘Mục lục’."
+    },
+    {
+      "passages": [
+        "eliot-middlemarch:10.577"
+      ],
+      "assessment": "The last unit of the witness: the closing unit of the Finale."
+    }
+  ]
+}

@@ -1408,5 +1408,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "author_death_year": 1880,
+    "first_published_year": 1872,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "Middlemarch is a novel by George Eliot, the pen name of Mary Ann Evans, first published in eight parts from December 1871 to December 1872. It follows intersecting stories in a fictional Midlands town from 1829 to 1832, including Dorothea Brooke’s marriage, Tertius Lydgate’s medical ambitions and the lives of their neighbours. The text on this site is Project Gutenberg #145, the complete novel with its Prelude, eight books and Finale.",
+    "id": "eliot-middlemarch",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
