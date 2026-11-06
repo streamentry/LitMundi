@@ -1318,5 +1318,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Die Räuber",
+    "author": "Friedrich Schiller",
+    "author_death_year": 1805,
+    "first_published_year": 1781,
+    "original_language": "de",
+    "genre": "play",
+    "description": "The Robbers (Die Räuber) is Friedrich Schiller’s first published play, a five-act drama about two brothers from a noble family, the open-hearted Karl and the scheming Franz. Franz’s lies drive Karl out of his father’s house and into a band of outlaws, and the play follows the consequences of that choice. Schiller wrote it towards the end of the Sturm und Drang movement, and its premiere in Mannheim in January 1782 made him famous almost overnight.",
+    "id": "schiller-die-rauber",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

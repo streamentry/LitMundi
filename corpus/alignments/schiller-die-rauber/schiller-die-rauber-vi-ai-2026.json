@@ -1,0 +1,9992 @@
+{
+  "schema_version": 1,
+  "work_id": "schiller-die-rauber",
+  "edition_id": "schiller-die-rauber-vi-ai-2026",
+  "source_edition_id": "schiller-die-rauber-de-pg47804",
+  "links": [
+    {
+      "source": [
+        "schiller-die-rauber:1.1"
+      ],
+      "target": [
+        "schiller-die-rauber:1.1"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.2"
+      ],
+      "target": [
+        "schiller-die-rauber:1.2"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.3"
+      ],
+      "target": [
+        "schiller-die-rauber:1.3"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.4"
+      ],
+      "target": [
+        "schiller-die-rauber:1.4"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.5"
+      ],
+      "target": [
+        "schiller-die-rauber:1.5"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.6"
+      ],
+      "target": [
+        "schiller-die-rauber:1.6"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.7"
+      ],
+      "target": [
+        "schiller-die-rauber:1.7"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.8"
+      ],
+      "target": [
+        "schiller-die-rauber:1.8"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.9"
+      ],
+      "target": [
+        "schiller-die-rauber:1.9"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.10"
+      ],
+      "target": [
+        "schiller-die-rauber:1.10"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.11"
+      ],
+      "target": [
+        "schiller-die-rauber:1.11"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.12"
+      ],
+      "target": [
+        "schiller-die-rauber:1.12"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.13"
+      ],
+      "target": [
+        "schiller-die-rauber:1.13"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.14"
+      ],
+      "target": [
+        "schiller-die-rauber:1.14"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.15"
+      ],
+      "target": [
+        "schiller-die-rauber:1.15"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.16"
+      ],
+      "target": [
+        "schiller-die-rauber:1.16"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.17"
+      ],
+      "target": [
+        "schiller-die-rauber:1.17"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.18"
+      ],
+      "target": [
+        "schiller-die-rauber:1.18"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.19"
+      ],
+      "target": [
+        "schiller-die-rauber:1.19"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.20"
+      ],
+      "target": [
+        "schiller-die-rauber:1.20"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.21"
+      ],
+      "target": [
+        "schiller-die-rauber:1.21"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:1.22"
+      ],
+      "target": [
+        "schiller-die-rauber:1.22"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.1"
+      ],
+      "target": [
+        "schiller-die-rauber:2.1"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.2"
+      ],
+      "target": [
+        "schiller-die-rauber:2.2"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.3"
+      ],
+      "target": [
+        "schiller-die-rauber:2.3"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.4"
+      ],
+      "target": [
+        "schiller-die-rauber:2.4"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.5"
+      ],
+      "target": [
+        "schiller-die-rauber:2.5"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.6"
+      ],
+      "target": [
+        "schiller-die-rauber:2.6"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.7"
+      ],
+      "target": [
+        "schiller-die-rauber:2.7"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.8"
+      ],
+      "target": [
+        "schiller-die-rauber:2.8"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.9"
+      ],
+      "target": [
+        "schiller-die-rauber:2.9"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.10"
+      ],
+      "target": [
+        "schiller-die-rauber:2.10"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.11"
+      ],
+      "target": [
+        "schiller-die-rauber:2.11"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.12"
+      ],
+      "target": [
+        "schiller-die-rauber:2.12"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:2.13"
+      ],
+      "target": [
+        "schiller-die-rauber:2.13"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.1"
+      ],
+      "target": [
+        "schiller-die-rauber:3.1"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.2"
+      ],
+      "target": [
+        "schiller-die-rauber:3.2"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.3"
+      ],
+      "target": [
+        "schiller-die-rauber:3.3"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.4"
+      ],
+      "target": [
+        "schiller-die-rauber:3.4"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.5"
+      ],
+      "target": [
+        "schiller-die-rauber:3.5"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.6"
+      ],
+      "target": [
+        "schiller-die-rauber:3.6"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.7"
+      ],
+      "target": [
+        "schiller-die-rauber:3.7"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.8"
+      ],
+      "target": [
+        "schiller-die-rauber:3.8"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.9"
+      ],
+      "target": [
+        "schiller-die-rauber:3.9"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.10"
+      ],
+      "target": [
+        "schiller-die-rauber:3.10"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.11"
+      ],
+      "target": [
+        "schiller-die-rauber:3.11"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.12"
+      ],
+      "target": [
+        "schiller-die-rauber:3.12"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.13"
+      ],
+      "target": [
+        "schiller-die-rauber:3.13"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.14"
+      ],
+      "target": [
+        "schiller-die-rauber:3.14"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.15"
+      ],
+      "target": [
+        "schiller-die-rauber:3.15"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.16"
+      ],
+      "target": [
+        "schiller-die-rauber:3.16"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.17"
+      ],
+      "target": [
+        "schiller-die-rauber:3.17"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.18"
+      ],
+      "target": [
+        "schiller-die-rauber:3.18"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.19"
+      ],
+      "target": [
+        "schiller-die-rauber:3.19"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.20"
+      ],
+      "target": [
+        "schiller-die-rauber:3.20"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.21"
+      ],
+      "target": [
+        "schiller-die-rauber:3.21"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.22"
+      ],
+      "target": [
+        "schiller-die-rauber:3.22"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.23"
+      ],
+      "target": [
+        "schiller-die-rauber:3.23"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.24"
+      ],
+      "target": [
+        "schiller-die-rauber:3.24"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.25"
+      ],
+      "target": [
+        "schiller-die-rauber:3.25"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.26"
+      ],
+      "target": [
+        "schiller-die-rauber:3.26"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.27"
+      ],
+      "target": [
+        "schiller-die-rauber:3.27"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.28"
+      ],
+      "target": [
+        "schiller-die-rauber:3.28"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.29"
+      ],
+      "target": [
+        "schiller-die-rauber:3.29"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.30"
+      ],
+      "target": [
+        "schiller-die-rauber:3.30"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.31"
+      ],
+      "target": [
+        "schiller-die-rauber:3.31"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.32"
+      ],
+      "target": [
+        "schiller-die-rauber:3.32"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.33"
+      ],
+      "target": [
+        "schiller-die-rauber:3.33"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.34"
+      ],
+      "target": [
+        "schiller-die-rauber:3.34"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.35"
+      ],
+      "target": [
+        "schiller-die-rauber:3.35"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.36"
+      ],
+      "target": [
+        "schiller-die-rauber:3.36"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.37"
+      ],
+      "target": [
+        "schiller-die-rauber:3.37"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.38"
+      ],
+      "target": [
+        "schiller-die-rauber:3.38"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.39"
+      ],
+      "target": [
+        "schiller-die-rauber:3.39"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.40"
+      ],
+      "target": [
+        "schiller-die-rauber:3.40"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.41"
+      ],
+      "target": [
+        "schiller-die-rauber:3.41"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.42"
+      ],
+      "target": [
+        "schiller-die-rauber:3.42"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.43"
+      ],
+      "target": [
+        "schiller-die-rauber:3.43"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.44"
+      ],
+      "target": [
+        "schiller-die-rauber:3.44"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.45"
+      ],
+      "target": [
+        "schiller-die-rauber:3.45"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.46"
+      ],
+      "target": [
+        "schiller-die-rauber:3.46"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.47"
+      ],
+      "target": [
+        "schiller-die-rauber:3.47"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.48"
+      ],
+      "target": [
+        "schiller-die-rauber:3.48"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.49"
+      ],
+      "target": [
+        "schiller-die-rauber:3.49"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.50"
+      ],
+      "target": [
+        "schiller-die-rauber:3.50"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.51"
+      ],
+      "target": [
+        "schiller-die-rauber:3.51"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.52"
+      ],
+      "target": [
+        "schiller-die-rauber:3.52"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.53"
+      ],
+      "target": [
+        "schiller-die-rauber:3.53"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.54"
+      ],
+      "target": [
+        "schiller-die-rauber:3.54"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.55"
+      ],
+      "target": [
+        "schiller-die-rauber:3.55"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.56"
+      ],
+      "target": [
+        "schiller-die-rauber:3.56"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.57"
+      ],
+      "target": [
+        "schiller-die-rauber:3.57"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.58"
+      ],
+      "target": [
+        "schiller-die-rauber:3.58"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.59"
+      ],
+      "target": [
+        "schiller-die-rauber:3.59"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.60"
+      ],
+      "target": [
+        "schiller-die-rauber:3.60"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.61"
+      ],
+      "target": [
+        "schiller-die-rauber:3.61"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.62"
+      ],
+      "target": [
+        "schiller-die-rauber:3.62"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.63"
+      ],
+      "target": [
+        "schiller-die-rauber:3.63"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.64"
+      ],
+      "target": [
+        "schiller-die-rauber:3.64"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.65"
+      ],
+      "target": [
+        "schiller-die-rauber:3.65"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.66"
+      ],
+      "target": [
+        "schiller-die-rauber:3.66"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.67"
+      ],
+      "target": [
+        "schiller-die-rauber:3.67"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.68"
+      ],
+      "target": [
+        "schiller-die-rauber:3.68"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.69"
+      ],
+      "target": [
+        "schiller-die-rauber:3.69"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.70"
+      ],
+      "target": [
+        "schiller-die-rauber:3.70"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.71"
+      ],
+      "target": [
+        "schiller-die-rauber:3.71"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.72"
+      ],
+      "target": [
+        "schiller-die-rauber:3.72"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.73"
+      ],
+      "target": [
+        "schiller-die-rauber:3.73"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.74"
+      ],
+      "target": [
+        "schiller-die-rauber:3.74"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.75"
+      ],
+      "target": [
+        "schiller-die-rauber:3.75"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.76"
+      ],
+      "target": [
+        "schiller-die-rauber:3.76"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.77"
+      ],
+      "target": [
+        "schiller-die-rauber:3.77"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.78"
+      ],
+      "target": [
+        "schiller-die-rauber:3.78"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.79"
+      ],
+      "target": [
+        "schiller-die-rauber:3.79"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.80"
+      ],
+      "target": [
+        "schiller-die-rauber:3.80"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.81"
+      ],
+      "target": [
+        "schiller-die-rauber:3.81"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.82"
+      ],
+      "target": [
+        "schiller-die-rauber:3.82"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.83"
+      ],
+      "target": [
+        "schiller-die-rauber:3.83"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.84"
+      ],
+      "target": [
+        "schiller-die-rauber:3.84"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.85"
+      ],
+      "target": [
+        "schiller-die-rauber:3.85"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.86"
+      ],
+      "target": [
+        "schiller-die-rauber:3.86"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.87"
+      ],
+      "target": [
+        "schiller-die-rauber:3.87"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.88"
+      ],
+      "target": [
+        "schiller-die-rauber:3.88"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.89"
+      ],
+      "target": [
+        "schiller-die-rauber:3.89"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.90"
+      ],
+      "target": [
+        "schiller-die-rauber:3.90"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.91"
+      ],
+      "target": [
+        "schiller-die-rauber:3.91"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.92"
+      ],
+      "target": [
+        "schiller-die-rauber:3.92"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.93"
+      ],
+      "target": [
+        "schiller-die-rauber:3.93"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.94"
+      ],
+      "target": [
+        "schiller-die-rauber:3.94"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.95"
+      ],
+      "target": [
+        "schiller-die-rauber:3.95"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.96"
+      ],
+      "target": [
+        "schiller-die-rauber:3.96"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.97"
+      ],
+      "target": [
+        "schiller-die-rauber:3.97"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.98"
+      ],
+      "target": [
+        "schiller-die-rauber:3.98"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.99"
+      ],
+      "target": [
+        "schiller-die-rauber:3.99"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.100"
+      ],
+      "target": [
+        "schiller-die-rauber:3.100"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.101"
+      ],
+      "target": [
+        "schiller-die-rauber:3.101"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.102"
+      ],
+      "target": [
+        "schiller-die-rauber:3.102"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.103"
+      ],
+      "target": [
+        "schiller-die-rauber:3.103"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.104"
+      ],
+      "target": [
+        "schiller-die-rauber:3.104"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.105"
+      ],
+      "target": [
+        "schiller-die-rauber:3.105"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.106"
+      ],
+      "target": [
+        "schiller-die-rauber:3.106"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.107"
+      ],
+      "target": [
+        "schiller-die-rauber:3.107"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.108"
+      ],
+      "target": [
+        "schiller-die-rauber:3.108"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.109"
+      ],
+      "target": [
+        "schiller-die-rauber:3.109"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.110"
+      ],
+      "target": [
+        "schiller-die-rauber:3.110"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.111"
+      ],
+      "target": [
+        "schiller-die-rauber:3.111"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.112"
+      ],
+      "target": [
+        "schiller-die-rauber:3.112"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.113"
+      ],
+      "target": [
+        "schiller-die-rauber:3.113"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.114"
+      ],
+      "target": [
+        "schiller-die-rauber:3.114"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.115"
+      ],
+      "target": [
+        "schiller-die-rauber:3.115"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.116"
+      ],
+      "target": [
+        "schiller-die-rauber:3.116"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.117"
+      ],
+      "target": [
+        "schiller-die-rauber:3.117"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.118"
+      ],
+      "target": [
+        "schiller-die-rauber:3.118"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.119"
+      ],
+      "target": [
+        "schiller-die-rauber:3.119"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.120"
+      ],
+      "target": [
+        "schiller-die-rauber:3.120"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.121"
+      ],
+      "target": [
+        "schiller-die-rauber:3.121"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.122"
+      ],
+      "target": [
+        "schiller-die-rauber:3.122"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.123"
+      ],
+      "target": [
+        "schiller-die-rauber:3.123"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.124"
+      ],
+      "target": [
+        "schiller-die-rauber:3.124"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.125"
+      ],
+      "target": [
+        "schiller-die-rauber:3.125"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.126"
+      ],
+      "target": [
+        "schiller-die-rauber:3.126"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.127"
+      ],
+      "target": [
+        "schiller-die-rauber:3.127"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.128"
+      ],
+      "target": [
+        "schiller-die-rauber:3.128"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.129"
+      ],
+      "target": [
+        "schiller-die-rauber:3.129"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.130"
+      ],
+      "target": [
+        "schiller-die-rauber:3.130"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.131"
+      ],
+      "target": [
+        "schiller-die-rauber:3.131"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.132"
+      ],
+      "target": [
+        "schiller-die-rauber:3.132"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.133"
+      ],
+      "target": [
+        "schiller-die-rauber:3.133"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.134"
+      ],
+      "target": [
+        "schiller-die-rauber:3.134"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.135"
+      ],
+      "target": [
+        "schiller-die-rauber:3.135"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.136"
+      ],
+      "target": [
+        "schiller-die-rauber:3.136"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.137"
+      ],
+      "target": [
+        "schiller-die-rauber:3.137"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.138"
+      ],
+      "target": [
+        "schiller-die-rauber:3.138"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.139"
+      ],
+      "target": [
+        "schiller-die-rauber:3.139"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.140"
+      ],
+      "target": [
+        "schiller-die-rauber:3.140"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.141"
+      ],
+      "target": [
+        "schiller-die-rauber:3.141"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.142"
+      ],
+      "target": [
+        "schiller-die-rauber:3.142"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.143"
+      ],
+      "target": [
+        "schiller-die-rauber:3.143"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.144"
+      ],
+      "target": [
+        "schiller-die-rauber:3.144"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.145"
+      ],
+      "target": [
+        "schiller-die-rauber:3.145"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.146"
+      ],
+      "target": [
+        "schiller-die-rauber:3.146"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.147"
+      ],
+      "target": [
+        "schiller-die-rauber:3.147"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.148"
+      ],
+      "target": [
+        "schiller-die-rauber:3.148"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.149"
+      ],
+      "target": [
+        "schiller-die-rauber:3.149"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.150"
+      ],
+      "target": [
+        "schiller-die-rauber:3.150"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.151"
+      ],
+      "target": [
+        "schiller-die-rauber:3.151"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.152"
+      ],
+      "target": [
+        "schiller-die-rauber:3.152"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.153"
+      ],
+      "target": [
+        "schiller-die-rauber:3.153"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.154"
+      ],
+      "target": [
+        "schiller-die-rauber:3.154"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.155"
+      ],
+      "target": [
+        "schiller-die-rauber:3.155"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.156"
+      ],
+      "target": [
+        "schiller-die-rauber:3.156"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.157"
+      ],
+      "target": [
+        "schiller-die-rauber:3.157"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.158"
+      ],
+      "target": [
+        "schiller-die-rauber:3.158"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.159"
+      ],
+      "target": [
+        "schiller-die-rauber:3.159"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.160"
+      ],
+      "target": [
+        "schiller-die-rauber:3.160"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.161"
+      ],
+      "target": [
+        "schiller-die-rauber:3.161"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.162"
+      ],
+      "target": [
+        "schiller-die-rauber:3.162"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.163"
+      ],
+      "target": [
+        "schiller-die-rauber:3.163"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.164"
+      ],
+      "target": [
+        "schiller-die-rauber:3.164"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.165"
+      ],
+      "target": [
+        "schiller-die-rauber:3.165"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.166"
+      ],
+      "target": [
+        "schiller-die-rauber:3.166"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.167"
+      ],
+      "target": [
+        "schiller-die-rauber:3.167"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.168"
+      ],
+      "target": [
+        "schiller-die-rauber:3.168"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.169"
+      ],
+      "target": [
+        "schiller-die-rauber:3.169"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.170"
+      ],
+      "target": [
+        "schiller-die-rauber:3.170"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.171"
+      ],
+      "target": [
+        "schiller-die-rauber:3.171"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.172"
+      ],
+      "target": [
+        "schiller-die-rauber:3.172"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.173"
+      ],
+      "target": [
+        "schiller-die-rauber:3.173"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.174"
+      ],
+      "target": [
+        "schiller-die-rauber:3.174"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.175"
+      ],
+      "target": [
+        "schiller-die-rauber:3.175"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.176"
+      ],
+      "target": [
+        "schiller-die-rauber:3.176"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.177"
+      ],
+      "target": [
+        "schiller-die-rauber:3.177"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.178"
+      ],
+      "target": [
+        "schiller-die-rauber:3.178"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.179"
+      ],
+      "target": [
+        "schiller-die-rauber:3.179"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.180"
+      ],
+      "target": [
+        "schiller-die-rauber:3.180"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.181"
+      ],
+      "target": [
+        "schiller-die-rauber:3.181"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.182"
+      ],
+      "target": [
+        "schiller-die-rauber:3.182"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.183"
+      ],
+      "target": [
+        "schiller-die-rauber:3.183"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.184"
+      ],
+      "target": [
+        "schiller-die-rauber:3.184"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.185"
+      ],
+      "target": [
+        "schiller-die-rauber:3.185"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.186"
+      ],
+      "target": [
+        "schiller-die-rauber:3.186"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.187"
+      ],
+      "target": [
+        "schiller-die-rauber:3.187"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.188"
+      ],
+      "target": [
+        "schiller-die-rauber:3.188"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.189"
+      ],
+      "target": [
+        "schiller-die-rauber:3.189"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.190"
+      ],
+      "target": [
+        "schiller-die-rauber:3.190"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.191"
+      ],
+      "target": [
+        "schiller-die-rauber:3.191"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.192"
+      ],
+      "target": [
+        "schiller-die-rauber:3.192"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.193"
+      ],
+      "target": [
+        "schiller-die-rauber:3.193"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.194"
+      ],
+      "target": [
+        "schiller-die-rauber:3.194"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.195"
+      ],
+      "target": [
+        "schiller-die-rauber:3.195"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.196"
+      ],
+      "target": [
+        "schiller-die-rauber:3.196"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.197"
+      ],
+      "target": [
+        "schiller-die-rauber:3.197"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.198"
+      ],
+      "target": [
+        "schiller-die-rauber:3.198"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.199"
+      ],
+      "target": [
+        "schiller-die-rauber:3.199"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.200"
+      ],
+      "target": [
+        "schiller-die-rauber:3.200"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.201"
+      ],
+      "target": [
+        "schiller-die-rauber:3.201"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.202"
+      ],
+      "target": [
+        "schiller-die-rauber:3.202"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.203"
+      ],
+      "target": [
+        "schiller-die-rauber:3.203"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.204"
+      ],
+      "target": [
+        "schiller-die-rauber:3.204"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.205"
+      ],
+      "target": [
+        "schiller-die-rauber:3.205"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.206"
+      ],
+      "target": [
+        "schiller-die-rauber:3.206"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.207"
+      ],
+      "target": [
+        "schiller-die-rauber:3.207"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.208"
+      ],
+      "target": [
+        "schiller-die-rauber:3.208"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.209"
+      ],
+      "target": [
+        "schiller-die-rauber:3.209"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.210"
+      ],
+      "target": [
+        "schiller-die-rauber:3.210"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.211"
+      ],
+      "target": [
+        "schiller-die-rauber:3.211"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.212"
+      ],
+      "target": [
+        "schiller-die-rauber:3.212"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.213"
+      ],
+      "target": [
+        "schiller-die-rauber:3.213"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.214"
+      ],
+      "target": [
+        "schiller-die-rauber:3.214"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.215"
+      ],
+      "target": [
+        "schiller-die-rauber:3.215"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.216"
+      ],
+      "target": [
+        "schiller-die-rauber:3.216"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.217"
+      ],
+      "target": [
+        "schiller-die-rauber:3.217"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.218"
+      ],
+      "target": [
+        "schiller-die-rauber:3.218"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.219"
+      ],
+      "target": [
+        "schiller-die-rauber:3.219"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.220"
+      ],
+      "target": [
+        "schiller-die-rauber:3.220"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.221"
+      ],
+      "target": [
+        "schiller-die-rauber:3.221"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.222"
+      ],
+      "target": [
+        "schiller-die-rauber:3.222"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.223"
+      ],
+      "target": [
+        "schiller-die-rauber:3.223"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.224"
+      ],
+      "target": [
+        "schiller-die-rauber:3.224"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.225"
+      ],
+      "target": [
+        "schiller-die-rauber:3.225"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.226"
+      ],
+      "target": [
+        "schiller-die-rauber:3.226"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.227"
+      ],
+      "target": [
+        "schiller-die-rauber:3.227"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.228"
+      ],
+      "target": [
+        "schiller-die-rauber:3.228"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.229"
+      ],
+      "target": [
+        "schiller-die-rauber:3.229"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.230"
+      ],
+      "target": [
+        "schiller-die-rauber:3.230"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.231"
+      ],
+      "target": [
+        "schiller-die-rauber:3.231"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.232"
+      ],
+      "target": [
+        "schiller-die-rauber:3.232"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.233"
+      ],
+      "target": [
+        "schiller-die-rauber:3.233"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.234"
+      ],
+      "target": [
+        "schiller-die-rauber:3.234"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.235"
+      ],
+      "target": [
+        "schiller-die-rauber:3.235"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.236"
+      ],
+      "target": [
+        "schiller-die-rauber:3.236"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.237"
+      ],
+      "target": [
+        "schiller-die-rauber:3.237"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.238"
+      ],
+      "target": [
+        "schiller-die-rauber:3.238"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.239"
+      ],
+      "target": [
+        "schiller-die-rauber:3.239"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.240"
+      ],
+      "target": [
+        "schiller-die-rauber:3.240"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:3.241"
+      ],
+      "target": [
+        "schiller-die-rauber:3.241"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.1"
+      ],
+      "target": [
+        "schiller-die-rauber:4.1"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.2"
+      ],
+      "target": [
+        "schiller-die-rauber:4.2"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.3"
+      ],
+      "target": [
+        "schiller-die-rauber:4.3"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.4"
+      ],
+      "target": [
+        "schiller-die-rauber:4.4"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.5"
+      ],
+      "target": [
+        "schiller-die-rauber:4.5"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.6"
+      ],
+      "target": [
+        "schiller-die-rauber:4.6"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.7"
+      ],
+      "target": [
+        "schiller-die-rauber:4.7"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.8"
+      ],
+      "target": [
+        "schiller-die-rauber:4.8"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.9"
+      ],
+      "target": [
+        "schiller-die-rauber:4.9"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.10"
+      ],
+      "target": [
+        "schiller-die-rauber:4.10"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.11"
+      ],
+      "target": [
+        "schiller-die-rauber:4.11"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.12"
+      ],
+      "target": [
+        "schiller-die-rauber:4.12"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.13"
+      ],
+      "target": [
+        "schiller-die-rauber:4.13"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.14"
+      ],
+      "target": [
+        "schiller-die-rauber:4.14"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.15"
+      ],
+      "target": [
+        "schiller-die-rauber:4.15"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.16"
+      ],
+      "target": [
+        "schiller-die-rauber:4.16"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.17"
+      ],
+      "target": [
+        "schiller-die-rauber:4.17"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.18"
+      ],
+      "target": [
+        "schiller-die-rauber:4.18"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.19"
+      ],
+      "target": [
+        "schiller-die-rauber:4.19"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.20"
+      ],
+      "target": [
+        "schiller-die-rauber:4.20"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.21"
+      ],
+      "target": [
+        "schiller-die-rauber:4.21"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.22"
+      ],
+      "target": [
+        "schiller-die-rauber:4.22"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.23"
+      ],
+      "target": [
+        "schiller-die-rauber:4.23"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.24"
+      ],
+      "target": [
+        "schiller-die-rauber:4.24"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.25"
+      ],
+      "target": [
+        "schiller-die-rauber:4.25"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.26"
+      ],
+      "target": [
+        "schiller-die-rauber:4.26"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.27"
+      ],
+      "target": [
+        "schiller-die-rauber:4.27"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.28"
+      ],
+      "target": [
+        "schiller-die-rauber:4.28"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.29"
+      ],
+      "target": [
+        "schiller-die-rauber:4.29"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.30"
+      ],
+      "target": [
+        "schiller-die-rauber:4.30"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.31"
+      ],
+      "target": [
+        "schiller-die-rauber:4.31"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.32"
+      ],
+      "target": [
+        "schiller-die-rauber:4.32"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.33"
+      ],
+      "target": [
+        "schiller-die-rauber:4.33"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.34"
+      ],
+      "target": [
+        "schiller-die-rauber:4.34"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.35"
+      ],
+      "target": [
+        "schiller-die-rauber:4.35"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.36"
+      ],
+      "target": [
+        "schiller-die-rauber:4.36"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.37"
+      ],
+      "target": [
+        "schiller-die-rauber:4.37"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.38"
+      ],
+      "target": [
+        "schiller-die-rauber:4.38"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.39"
+      ],
+      "target": [
+        "schiller-die-rauber:4.39"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.40"
+      ],
+      "target": [
+        "schiller-die-rauber:4.40"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.41"
+      ],
+      "target": [
+        "schiller-die-rauber:4.41"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.42"
+      ],
+      "target": [
+        "schiller-die-rauber:4.42"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.43"
+      ],
+      "target": [
+        "schiller-die-rauber:4.43"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.44"
+      ],
+      "target": [
+        "schiller-die-rauber:4.44"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.45"
+      ],
+      "target": [
+        "schiller-die-rauber:4.45"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.46"
+      ],
+      "target": [
+        "schiller-die-rauber:4.46"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.47"
+      ],
+      "target": [
+        "schiller-die-rauber:4.47"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.48"
+      ],
+      "target": [
+        "schiller-die-rauber:4.48"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.49"
+      ],
+      "target": [
+        "schiller-die-rauber:4.49"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.50"
+      ],
+      "target": [
+        "schiller-die-rauber:4.50"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.51"
+      ],
+      "target": [
+        "schiller-die-rauber:4.51"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.52"
+      ],
+      "target": [
+        "schiller-die-rauber:4.52"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.53"
+      ],
+      "target": [
+        "schiller-die-rauber:4.53"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.54"
+      ],
+      "target": [
+        "schiller-die-rauber:4.54"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.55"
+      ],
+      "target": [
+        "schiller-die-rauber:4.55"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.56"
+      ],
+      "target": [
+        "schiller-die-rauber:4.56"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.57"
+      ],
+      "target": [
+        "schiller-die-rauber:4.57"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.58"
+      ],
+      "target": [
+        "schiller-die-rauber:4.58"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.59"
+      ],
+      "target": [
+        "schiller-die-rauber:4.59"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.60"
+      ],
+      "target": [
+        "schiller-die-rauber:4.60"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.61"
+      ],
+      "target": [
+        "schiller-die-rauber:4.61"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.62"
+      ],
+      "target": [
+        "schiller-die-rauber:4.62"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.63"
+      ],
+      "target": [
+        "schiller-die-rauber:4.63"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.64"
+      ],
+      "target": [
+        "schiller-die-rauber:4.64"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.65"
+      ],
+      "target": [
+        "schiller-die-rauber:4.65"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.66"
+      ],
+      "target": [
+        "schiller-die-rauber:4.66"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.67"
+      ],
+      "target": [
+        "schiller-die-rauber:4.67"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.68"
+      ],
+      "target": [
+        "schiller-die-rauber:4.68"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.69"
+      ],
+      "target": [
+        "schiller-die-rauber:4.69"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.70"
+      ],
+      "target": [
+        "schiller-die-rauber:4.70"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.71"
+      ],
+      "target": [
+        "schiller-die-rauber:4.71"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.72"
+      ],
+      "target": [
+        "schiller-die-rauber:4.72"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.73"
+      ],
+      "target": [
+        "schiller-die-rauber:4.73"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.74"
+      ],
+      "target": [
+        "schiller-die-rauber:4.74"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.75"
+      ],
+      "target": [
+        "schiller-die-rauber:4.75"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.76"
+      ],
+      "target": [
+        "schiller-die-rauber:4.76"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.77"
+      ],
+      "target": [
+        "schiller-die-rauber:4.77"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.78"
+      ],
+      "target": [
+        "schiller-die-rauber:4.78"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.79"
+      ],
+      "target": [
+        "schiller-die-rauber:4.79"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.80"
+      ],
+      "target": [
+        "schiller-die-rauber:4.80"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.81"
+      ],
+      "target": [
+        "schiller-die-rauber:4.81"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.82"
+      ],
+      "target": [
+        "schiller-die-rauber:4.82"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.83"
+      ],
+      "target": [
+        "schiller-die-rauber:4.83"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.84"
+      ],
+      "target": [
+        "schiller-die-rauber:4.84"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.85"
+      ],
+      "target": [
+        "schiller-die-rauber:4.85"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.86"
+      ],
+      "target": [
+        "schiller-die-rauber:4.86"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.87"
+      ],
+      "target": [
+        "schiller-die-rauber:4.87"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.88"
+      ],
+      "target": [
+        "schiller-die-rauber:4.88"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.89"
+      ],
+      "target": [
+        "schiller-die-rauber:4.89"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.90"
+      ],
+      "target": [
+        "schiller-die-rauber:4.90"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.91"
+      ],
+      "target": [
+        "schiller-die-rauber:4.91"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.92"
+      ],
+      "target": [
+        "schiller-die-rauber:4.92"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.93"
+      ],
+      "target": [
+        "schiller-die-rauber:4.93"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.94"
+      ],
+      "target": [
+        "schiller-die-rauber:4.94"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.95"
+      ],
+      "target": [
+        "schiller-die-rauber:4.95"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.96"
+      ],
+      "target": [
+        "schiller-die-rauber:4.96"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.97"
+      ],
+      "target": [
+        "schiller-die-rauber:4.97"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.98"
+      ],
+      "target": [
+        "schiller-die-rauber:4.98"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.99"
+      ],
+      "target": [
+        "schiller-die-rauber:4.99"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.100"
+      ],
+      "target": [
+        "schiller-die-rauber:4.100"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.101"
+      ],
+      "target": [
+        "schiller-die-rauber:4.101"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.102"
+      ],
+      "target": [
+        "schiller-die-rauber:4.102"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.103"
+      ],
+      "target": [
+        "schiller-die-rauber:4.103"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.104"
+      ],
+      "target": [
+        "schiller-die-rauber:4.104"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.105"
+      ],
+      "target": [
+        "schiller-die-rauber:4.105"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.106"
+      ],
+      "target": [
+        "schiller-die-rauber:4.106"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.107"
+      ],
+      "target": [
+        "schiller-die-rauber:4.107"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.108"
+      ],
+      "target": [
+        "schiller-die-rauber:4.108"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.109"
+      ],
+      "target": [
+        "schiller-die-rauber:4.109"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.110"
+      ],
+      "target": [
+        "schiller-die-rauber:4.110"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.111"
+      ],
+      "target": [
+        "schiller-die-rauber:4.111"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.112"
+      ],
+      "target": [
+        "schiller-die-rauber:4.112"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.113"
+      ],
+      "target": [
+        "schiller-die-rauber:4.113"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.114"
+      ],
+      "target": [
+        "schiller-die-rauber:4.114"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.115"
+      ],
+      "target": [
+        "schiller-die-rauber:4.115"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.116"
+      ],
+      "target": [
+        "schiller-die-rauber:4.116"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.117"
+      ],
+      "target": [
+        "schiller-die-rauber:4.117"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.118"
+      ],
+      "target": [
+        "schiller-die-rauber:4.118"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.119"
+      ],
+      "target": [
+        "schiller-die-rauber:4.119"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.120"
+      ],
+      "target": [
+        "schiller-die-rauber:4.120"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.121"
+      ],
+      "target": [
+        "schiller-die-rauber:4.121"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.122"
+      ],
+      "target": [
+        "schiller-die-rauber:4.122"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.123"
+      ],
+      "target": [
+        "schiller-die-rauber:4.123"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.124"
+      ],
+      "target": [
+        "schiller-die-rauber:4.124"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.125"
+      ],
+      "target": [
+        "schiller-die-rauber:4.125"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.126"
+      ],
+      "target": [
+        "schiller-die-rauber:4.126"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.127"
+      ],
+      "target": [
+        "schiller-die-rauber:4.127"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.128"
+      ],
+      "target": [
+        "schiller-die-rauber:4.128"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.129"
+      ],
+      "target": [
+        "schiller-die-rauber:4.129"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.130"
+      ],
+      "target": [
+        "schiller-die-rauber:4.130"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.131"
+      ],
+      "target": [
+        "schiller-die-rauber:4.131"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.132"
+      ],
+      "target": [
+        "schiller-die-rauber:4.132"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.133"
+      ],
+      "target": [
+        "schiller-die-rauber:4.133"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.134"
+      ],
+      "target": [
+        "schiller-die-rauber:4.134"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.135"
+      ],
+      "target": [
+        "schiller-die-rauber:4.135"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.136"
+      ],
+      "target": [
+        "schiller-die-rauber:4.136"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.137"
+      ],
+      "target": [
+        "schiller-die-rauber:4.137"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.138"
+      ],
+      "target": [
+        "schiller-die-rauber:4.138"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.139"
+      ],
+      "target": [
+        "schiller-die-rauber:4.139"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.140"
+      ],
+      "target": [
+        "schiller-die-rauber:4.140"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.141"
+      ],
+      "target": [
+        "schiller-die-rauber:4.141"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.142"
+      ],
+      "target": [
+        "schiller-die-rauber:4.142"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.143"
+      ],
+      "target": [
+        "schiller-die-rauber:4.143"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.144"
+      ],
+      "target": [
+        "schiller-die-rauber:4.144"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.145"
+      ],
+      "target": [
+        "schiller-die-rauber:4.145"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.146"
+      ],
+      "target": [
+        "schiller-die-rauber:4.146"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.147"
+      ],
+      "target": [
+        "schiller-die-rauber:4.147"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.148"
+      ],
+      "target": [
+        "schiller-die-rauber:4.148"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.149"
+      ],
+      "target": [
+        "schiller-die-rauber:4.149"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.150"
+      ],
+      "target": [
+        "schiller-die-rauber:4.150"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.151"
+      ],
+      "target": [
+        "schiller-die-rauber:4.151"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.152"
+      ],
+      "target": [
+        "schiller-die-rauber:4.152"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.153"
+      ],
+      "target": [
+        "schiller-die-rauber:4.153"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.154"
+      ],
+      "target": [
+        "schiller-die-rauber:4.154"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.155"
+      ],
+      "target": [
+        "schiller-die-rauber:4.155"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.156"
+      ],
+      "target": [
+        "schiller-die-rauber:4.156"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.157"
+      ],
+      "target": [
+        "schiller-die-rauber:4.157"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.158"
+      ],
+      "target": [
+        "schiller-die-rauber:4.158"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.159"
+      ],
+      "target": [
+        "schiller-die-rauber:4.159"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.160"
+      ],
+      "target": [
+        "schiller-die-rauber:4.160"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.161"
+      ],
+      "target": [
+        "schiller-die-rauber:4.161"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.162"
+      ],
+      "target": [
+        "schiller-die-rauber:4.162"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.163"
+      ],
+      "target": [
+        "schiller-die-rauber:4.163"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.164"
+      ],
+      "target": [
+        "schiller-die-rauber:4.164"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.165"
+      ],
+      "target": [
+        "schiller-die-rauber:4.165"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.166"
+      ],
+      "target": [
+        "schiller-die-rauber:4.166"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.167"
+      ],
+      "target": [
+        "schiller-die-rauber:4.167"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.168"
+      ],
+      "target": [
+        "schiller-die-rauber:4.168"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.169"
+      ],
+      "target": [
+        "schiller-die-rauber:4.169"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.170"
+      ],
+      "target": [
+        "schiller-die-rauber:4.170"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.171"
+      ],
+      "target": [
+        "schiller-die-rauber:4.171"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.172"
+      ],
+      "target": [
+        "schiller-die-rauber:4.172"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.173"
+      ],
+      "target": [
+        "schiller-die-rauber:4.173"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.174"
+      ],
+      "target": [
+        "schiller-die-rauber:4.174"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.175"
+      ],
+      "target": [
+        "schiller-die-rauber:4.175"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.176"
+      ],
+      "target": [
+        "schiller-die-rauber:4.176"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.177"
+      ],
+      "target": [
+        "schiller-die-rauber:4.177"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.178"
+      ],
+      "target": [
+        "schiller-die-rauber:4.178"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.179"
+      ],
+      "target": [
+        "schiller-die-rauber:4.179"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.180"
+      ],
+      "target": [
+        "schiller-die-rauber:4.180"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.181"
+      ],
+      "target": [
+        "schiller-die-rauber:4.181"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.182"
+      ],
+      "target": [
+        "schiller-die-rauber:4.182"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.183"
+      ],
+      "target": [
+        "schiller-die-rauber:4.183"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.184"
+      ],
+      "target": [
+        "schiller-die-rauber:4.184"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.185"
+      ],
+      "target": [
+        "schiller-die-rauber:4.185"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.186"
+      ],
+      "target": [
+        "schiller-die-rauber:4.186"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.187"
+      ],
+      "target": [
+        "schiller-die-rauber:4.187"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.188"
+      ],
+      "target": [
+        "schiller-die-rauber:4.188"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.189"
+      ],
+      "target": [
+        "schiller-die-rauber:4.189"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.190"
+      ],
+      "target": [
+        "schiller-die-rauber:4.190"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.191"
+      ],
+      "target": [
+        "schiller-die-rauber:4.191"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.192"
+      ],
+      "target": [
+        "schiller-die-rauber:4.192"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.193"
+      ],
+      "target": [
+        "schiller-die-rauber:4.193"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.194"
+      ],
+      "target": [
+        "schiller-die-rauber:4.194"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.195"
+      ],
+      "target": [
+        "schiller-die-rauber:4.195"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.196"
+      ],
+      "target": [
+        "schiller-die-rauber:4.196"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.197"
+      ],
+      "target": [
+        "schiller-die-rauber:4.197"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.198"
+      ],
+      "target": [
+        "schiller-die-rauber:4.198"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.199"
+      ],
+      "target": [
+        "schiller-die-rauber:4.199"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.200"
+      ],
+      "target": [
+        "schiller-die-rauber:4.200"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.201"
+      ],
+      "target": [
+        "schiller-die-rauber:4.201"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.202"
+      ],
+      "target": [
+        "schiller-die-rauber:4.202"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.203"
+      ],
+      "target": [
+        "schiller-die-rauber:4.203"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.204"
+      ],
+      "target": [
+        "schiller-die-rauber:4.204"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.205"
+      ],
+      "target": [
+        "schiller-die-rauber:4.205"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.206"
+      ],
+      "target": [
+        "schiller-die-rauber:4.206"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.207"
+      ],
+      "target": [
+        "schiller-die-rauber:4.207"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.208"
+      ],
+      "target": [
+        "schiller-die-rauber:4.208"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.209"
+      ],
+      "target": [
+        "schiller-die-rauber:4.209"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.210"
+      ],
+      "target": [
+        "schiller-die-rauber:4.210"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.211"
+      ],
+      "target": [
+        "schiller-die-rauber:4.211"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.212"
+      ],
+      "target": [
+        "schiller-die-rauber:4.212"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.213"
+      ],
+      "target": [
+        "schiller-die-rauber:4.213"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.214"
+      ],
+      "target": [
+        "schiller-die-rauber:4.214"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.215"
+      ],
+      "target": [
+        "schiller-die-rauber:4.215"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.216"
+      ],
+      "target": [
+        "schiller-die-rauber:4.216"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.217"
+      ],
+      "target": [
+        "schiller-die-rauber:4.217"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.218"
+      ],
+      "target": [
+        "schiller-die-rauber:4.218"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.219"
+      ],
+      "target": [
+        "schiller-die-rauber:4.219"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.220"
+      ],
+      "target": [
+        "schiller-die-rauber:4.220"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.221"
+      ],
+      "target": [
+        "schiller-die-rauber:4.221"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.222"
+      ],
+      "target": [
+        "schiller-die-rauber:4.222"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.223"
+      ],
+      "target": [
+        "schiller-die-rauber:4.223"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.224"
+      ],
+      "target": [
+        "schiller-die-rauber:4.224"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.225"
+      ],
+      "target": [
+        "schiller-die-rauber:4.225"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.226"
+      ],
+      "target": [
+        "schiller-die-rauber:4.226"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.227"
+      ],
+      "target": [
+        "schiller-die-rauber:4.227"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.228"
+      ],
+      "target": [
+        "schiller-die-rauber:4.228"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.229"
+      ],
+      "target": [
+        "schiller-die-rauber:4.229"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.230"
+      ],
+      "target": [
+        "schiller-die-rauber:4.230"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.231"
+      ],
+      "target": [
+        "schiller-die-rauber:4.231"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.232"
+      ],
+      "target": [
+        "schiller-die-rauber:4.232"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.233"
+      ],
+      "target": [
+        "schiller-die-rauber:4.233"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.234"
+      ],
+      "target": [
+        "schiller-die-rauber:4.234"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.235"
+      ],
+      "target": [
+        "schiller-die-rauber:4.235"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.236"
+      ],
+      "target": [
+        "schiller-die-rauber:4.236"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.237"
+      ],
+      "target": [
+        "schiller-die-rauber:4.237"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.238"
+      ],
+      "target": [
+        "schiller-die-rauber:4.238"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.239"
+      ],
+      "target": [
+        "schiller-die-rauber:4.239"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.240"
+      ],
+      "target": [
+        "schiller-die-rauber:4.240"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.241"
+      ],
+      "target": [
+        "schiller-die-rauber:4.241"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.242"
+      ],
+      "target": [
+        "schiller-die-rauber:4.242"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.243"
+      ],
+      "target": [
+        "schiller-die-rauber:4.243"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.244"
+      ],
+      "target": [
+        "schiller-die-rauber:4.244"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.245"
+      ],
+      "target": [
+        "schiller-die-rauber:4.245"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.246"
+      ],
+      "target": [
+        "schiller-die-rauber:4.246"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.247"
+      ],
+      "target": [
+        "schiller-die-rauber:4.247"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.248"
+      ],
+      "target": [
+        "schiller-die-rauber:4.248"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.249"
+      ],
+      "target": [
+        "schiller-die-rauber:4.249"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.250"
+      ],
+      "target": [
+        "schiller-die-rauber:4.250"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.251"
+      ],
+      "target": [
+        "schiller-die-rauber:4.251"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.252"
+      ],
+      "target": [
+        "schiller-die-rauber:4.252"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.253"
+      ],
+      "target": [
+        "schiller-die-rauber:4.253"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.254"
+      ],
+      "target": [
+        "schiller-die-rauber:4.254"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.255"
+      ],
+      "target": [
+        "schiller-die-rauber:4.255"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.256"
+      ],
+      "target": [
+        "schiller-die-rauber:4.256"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.257"
+      ],
+      "target": [
+        "schiller-die-rauber:4.257"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.258"
+      ],
+      "target": [
+        "schiller-die-rauber:4.258"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.259"
+      ],
+      "target": [
+        "schiller-die-rauber:4.259"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.260"
+      ],
+      "target": [
+        "schiller-die-rauber:4.260"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.261"
+      ],
+      "target": [
+        "schiller-die-rauber:4.261"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.262"
+      ],
+      "target": [
+        "schiller-die-rauber:4.262"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.263"
+      ],
+      "target": [
+        "schiller-die-rauber:4.263"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.264"
+      ],
+      "target": [
+        "schiller-die-rauber:4.264"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.265"
+      ],
+      "target": [
+        "schiller-die-rauber:4.265"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.266"
+      ],
+      "target": [
+        "schiller-die-rauber:4.266"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.267"
+      ],
+      "target": [
+        "schiller-die-rauber:4.267"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.268"
+      ],
+      "target": [
+        "schiller-die-rauber:4.268"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.269"
+      ],
+      "target": [
+        "schiller-die-rauber:4.269"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.270"
+      ],
+      "target": [
+        "schiller-die-rauber:4.270"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.271"
+      ],
+      "target": [
+        "schiller-die-rauber:4.271"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.272"
+      ],
+      "target": [
+        "schiller-die-rauber:4.272"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.273"
+      ],
+      "target": [
+        "schiller-die-rauber:4.273"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.274"
+      ],
+      "target": [
+        "schiller-die-rauber:4.274"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.275"
+      ],
+      "target": [
+        "schiller-die-rauber:4.275"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.276"
+      ],
+      "target": [
+        "schiller-die-rauber:4.276"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.277"
+      ],
+      "target": [
+        "schiller-die-rauber:4.277"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.278"
+      ],
+      "target": [
+        "schiller-die-rauber:4.278"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.279"
+      ],
+      "target": [
+        "schiller-die-rauber:4.279"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.280"
+      ],
+      "target": [
+        "schiller-die-rauber:4.280"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.281"
+      ],
+      "target": [
+        "schiller-die-rauber:4.281"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.282"
+      ],
+      "target": [
+        "schiller-die-rauber:4.282"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.283"
+      ],
+      "target": [
+        "schiller-die-rauber:4.283"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.284"
+      ],
+      "target": [
+        "schiller-die-rauber:4.284"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.285"
+      ],
+      "target": [
+        "schiller-die-rauber:4.285"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.286"
+      ],
+      "target": [
+        "schiller-die-rauber:4.286"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.287"
+      ],
+      "target": [
+        "schiller-die-rauber:4.287"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.288"
+      ],
+      "target": [
+        "schiller-die-rauber:4.288"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.289"
+      ],
+      "target": [
+        "schiller-die-rauber:4.289"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.290"
+      ],
+      "target": [
+        "schiller-die-rauber:4.290"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.291"
+      ],
+      "target": [
+        "schiller-die-rauber:4.291"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.292"
+      ],
+      "target": [
+        "schiller-die-rauber:4.292"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.293"
+      ],
+      "target": [
+        "schiller-die-rauber:4.293"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.294"
+      ],
+      "target": [
+        "schiller-die-rauber:4.294"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.295"
+      ],
+      "target": [
+        "schiller-die-rauber:4.295"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.296"
+      ],
+      "target": [
+        "schiller-die-rauber:4.296"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.297"
+      ],
+      "target": [
+        "schiller-die-rauber:4.297"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.298"
+      ],
+      "target": [
+        "schiller-die-rauber:4.298"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.299"
+      ],
+      "target": [
+        "schiller-die-rauber:4.299"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.300"
+      ],
+      "target": [
+        "schiller-die-rauber:4.300"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.301"
+      ],
+      "target": [
+        "schiller-die-rauber:4.301"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.302"
+      ],
+      "target": [
+        "schiller-die-rauber:4.302"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.303"
+      ],
+      "target": [
+        "schiller-die-rauber:4.303"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.304"
+      ],
+      "target": [
+        "schiller-die-rauber:4.304"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.305"
+      ],
+      "target": [
+        "schiller-die-rauber:4.305"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.306"
+      ],
+      "target": [
+        "schiller-die-rauber:4.306"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.307"
+      ],
+      "target": [
+        "schiller-die-rauber:4.307"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.308"
+      ],
+      "target": [
+        "schiller-die-rauber:4.308"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.309"
+      ],
+      "target": [
+        "schiller-die-rauber:4.309"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.310"
+      ],
+      "target": [
+        "schiller-die-rauber:4.310"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.311"
+      ],
+      "target": [
+        "schiller-die-rauber:4.311"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.312"
+      ],
+      "target": [
+        "schiller-die-rauber:4.312"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.313"
+      ],
+      "target": [
+        "schiller-die-rauber:4.313"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.314"
+      ],
+      "target": [
+        "schiller-die-rauber:4.314"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.315"
+      ],
+      "target": [
+        "schiller-die-rauber:4.315"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:4.316"
+      ],
+      "target": [
+        "schiller-die-rauber:4.316"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.1"
+      ],
+      "target": [
+        "schiller-die-rauber:5.1"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.2"
+      ],
+      "target": [
+        "schiller-die-rauber:5.2"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.3"
+      ],
+      "target": [
+        "schiller-die-rauber:5.3"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.4"
+      ],
+      "target": [
+        "schiller-die-rauber:5.4"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.5"
+      ],
+      "target": [
+        "schiller-die-rauber:5.5"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.6"
+      ],
+      "target": [
+        "schiller-die-rauber:5.6"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.7"
+      ],
+      "target": [
+        "schiller-die-rauber:5.7"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.8"
+      ],
+      "target": [
+        "schiller-die-rauber:5.8"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.9"
+      ],
+      "target": [
+        "schiller-die-rauber:5.9"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.10"
+      ],
+      "target": [
+        "schiller-die-rauber:5.10"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.11"
+      ],
+      "target": [
+        "schiller-die-rauber:5.11"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.12"
+      ],
+      "target": [
+        "schiller-die-rauber:5.12"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.13"
+      ],
+      "target": [
+        "schiller-die-rauber:5.13"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.14"
+      ],
+      "target": [
+        "schiller-die-rauber:5.14"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.15"
+      ],
+      "target": [
+        "schiller-die-rauber:5.15"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.16"
+      ],
+      "target": [
+        "schiller-die-rauber:5.16"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.17"
+      ],
+      "target": [
+        "schiller-die-rauber:5.17"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.18"
+      ],
+      "target": [
+        "schiller-die-rauber:5.18"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.19"
+      ],
+      "target": [
+        "schiller-die-rauber:5.19"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.20"
+      ],
+      "target": [
+        "schiller-die-rauber:5.20"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.21"
+      ],
+      "target": [
+        "schiller-die-rauber:5.21"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.22"
+      ],
+      "target": [
+        "schiller-die-rauber:5.22"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.23"
+      ],
+      "target": [
+        "schiller-die-rauber:5.23"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.24"
+      ],
+      "target": [
+        "schiller-die-rauber:5.24"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.25"
+      ],
+      "target": [
+        "schiller-die-rauber:5.25"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.26"
+      ],
+      "target": [
+        "schiller-die-rauber:5.26"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.27"
+      ],
+      "target": [
+        "schiller-die-rauber:5.27"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.28"
+      ],
+      "target": [
+        "schiller-die-rauber:5.28"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.29"
+      ],
+      "target": [
+        "schiller-die-rauber:5.29"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.30"
+      ],
+      "target": [
+        "schiller-die-rauber:5.30"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.31"
+      ],
+      "target": [
+        "schiller-die-rauber:5.31"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.32"
+      ],
+      "target": [
+        "schiller-die-rauber:5.32"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.33"
+      ],
+      "target": [
+        "schiller-die-rauber:5.33"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.34"
+      ],
+      "target": [
+        "schiller-die-rauber:5.34"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.35"
+      ],
+      "target": [
+        "schiller-die-rauber:5.35"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.36"
+      ],
+      "target": [
+        "schiller-die-rauber:5.36"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.37"
+      ],
+      "target": [
+        "schiller-die-rauber:5.37"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.38"
+      ],
+      "target": [
+        "schiller-die-rauber:5.38"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.39"
+      ],
+      "target": [
+        "schiller-die-rauber:5.39"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.40"
+      ],
+      "target": [
+        "schiller-die-rauber:5.40"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.41"
+      ],
+      "target": [
+        "schiller-die-rauber:5.41"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.42"
+      ],
+      "target": [
+        "schiller-die-rauber:5.42"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.43"
+      ],
+      "target": [
+        "schiller-die-rauber:5.43"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.44"
+      ],
+      "target": [
+        "schiller-die-rauber:5.44"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.45"
+      ],
+      "target": [
+        "schiller-die-rauber:5.45"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.46"
+      ],
+      "target": [
+        "schiller-die-rauber:5.46"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.47"
+      ],
+      "target": [
+        "schiller-die-rauber:5.47"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.48"
+      ],
+      "target": [
+        "schiller-die-rauber:5.48"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.49"
+      ],
+      "target": [
+        "schiller-die-rauber:5.49"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.50"
+      ],
+      "target": [
+        "schiller-die-rauber:5.50"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.51"
+      ],
+      "target": [
+        "schiller-die-rauber:5.51"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.52"
+      ],
+      "target": [
+        "schiller-die-rauber:5.52"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.53"
+      ],
+      "target": [
+        "schiller-die-rauber:5.53"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.54"
+      ],
+      "target": [
+        "schiller-die-rauber:5.54"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.55"
+      ],
+      "target": [
+        "schiller-die-rauber:5.55"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.56"
+      ],
+      "target": [
+        "schiller-die-rauber:5.56"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.57"
+      ],
+      "target": [
+        "schiller-die-rauber:5.57"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.58"
+      ],
+      "target": [
+        "schiller-die-rauber:5.58"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.59"
+      ],
+      "target": [
+        "schiller-die-rauber:5.59"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.60"
+      ],
+      "target": [
+        "schiller-die-rauber:5.60"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.61"
+      ],
+      "target": [
+        "schiller-die-rauber:5.61"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.62"
+      ],
+      "target": [
+        "schiller-die-rauber:5.62"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.63"
+      ],
+      "target": [
+        "schiller-die-rauber:5.63"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.64"
+      ],
+      "target": [
+        "schiller-die-rauber:5.64"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.65"
+      ],
+      "target": [
+        "schiller-die-rauber:5.65"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.66"
+      ],
+      "target": [
+        "schiller-die-rauber:5.66"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.67"
+      ],
+      "target": [
+        "schiller-die-rauber:5.67"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.68"
+      ],
+      "target": [
+        "schiller-die-rauber:5.68"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.69"
+      ],
+      "target": [
+        "schiller-die-rauber:5.69"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.70"
+      ],
+      "target": [
+        "schiller-die-rauber:5.70"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.71"
+      ],
+      "target": [
+        "schiller-die-rauber:5.71"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.72"
+      ],
+      "target": [
+        "schiller-die-rauber:5.72"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.73"
+      ],
+      "target": [
+        "schiller-die-rauber:5.73"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.74"
+      ],
+      "target": [
+        "schiller-die-rauber:5.74"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.75"
+      ],
+      "target": [
+        "schiller-die-rauber:5.75"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.76"
+      ],
+      "target": [
+        "schiller-die-rauber:5.76"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.77"
+      ],
+      "target": [
+        "schiller-die-rauber:5.77"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.78"
+      ],
+      "target": [
+        "schiller-die-rauber:5.78"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.79"
+      ],
+      "target": [
+        "schiller-die-rauber:5.79"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.80"
+      ],
+      "target": [
+        "schiller-die-rauber:5.80"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.81"
+      ],
+      "target": [
+        "schiller-die-rauber:5.81"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.82"
+      ],
+      "target": [
+        "schiller-die-rauber:5.82"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.83"
+      ],
+      "target": [
+        "schiller-die-rauber:5.83"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.84"
+      ],
+      "target": [
+        "schiller-die-rauber:5.84"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.85"
+      ],
+      "target": [
+        "schiller-die-rauber:5.85"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.86"
+      ],
+      "target": [
+        "schiller-die-rauber:5.86"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.87"
+      ],
+      "target": [
+        "schiller-die-rauber:5.87"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.88"
+      ],
+      "target": [
+        "schiller-die-rauber:5.88"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.89"
+      ],
+      "target": [
+        "schiller-die-rauber:5.89"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.90"
+      ],
+      "target": [
+        "schiller-die-rauber:5.90"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.91"
+      ],
+      "target": [
+        "schiller-die-rauber:5.91"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.92"
+      ],
+      "target": [
+        "schiller-die-rauber:5.92"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.93"
+      ],
+      "target": [
+        "schiller-die-rauber:5.93"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.94"
+      ],
+      "target": [
+        "schiller-die-rauber:5.94"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.95"
+      ],
+      "target": [
+        "schiller-die-rauber:5.95"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.96"
+      ],
+      "target": [
+        "schiller-die-rauber:5.96"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.97"
+      ],
+      "target": [
+        "schiller-die-rauber:5.97"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.98"
+      ],
+      "target": [
+        "schiller-die-rauber:5.98"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.99"
+      ],
+      "target": [
+        "schiller-die-rauber:5.99"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.100"
+      ],
+      "target": [
+        "schiller-die-rauber:5.100"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.101"
+      ],
+      "target": [
+        "schiller-die-rauber:5.101"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.102"
+      ],
+      "target": [
+        "schiller-die-rauber:5.102"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.103"
+      ],
+      "target": [
+        "schiller-die-rauber:5.103"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.104"
+      ],
+      "target": [
+        "schiller-die-rauber:5.104"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.105"
+      ],
+      "target": [
+        "schiller-die-rauber:5.105"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.106"
+      ],
+      "target": [
+        "schiller-die-rauber:5.106"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.107"
+      ],
+      "target": [
+        "schiller-die-rauber:5.107"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.108"
+      ],
+      "target": [
+        "schiller-die-rauber:5.108"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.109"
+      ],
+      "target": [
+        "schiller-die-rauber:5.109"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.110"
+      ],
+      "target": [
+        "schiller-die-rauber:5.110"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.111"
+      ],
+      "target": [
+        "schiller-die-rauber:5.111"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.112"
+      ],
+      "target": [
+        "schiller-die-rauber:5.112"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.113"
+      ],
+      "target": [
+        "schiller-die-rauber:5.113"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.114"
+      ],
+      "target": [
+        "schiller-die-rauber:5.114"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.115"
+      ],
+      "target": [
+        "schiller-die-rauber:5.115"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.116"
+      ],
+      "target": [
+        "schiller-die-rauber:5.116"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.117"
+      ],
+      "target": [
+        "schiller-die-rauber:5.117"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.118"
+      ],
+      "target": [
+        "schiller-die-rauber:5.118"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.119"
+      ],
+      "target": [
+        "schiller-die-rauber:5.119"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.120"
+      ],
+      "target": [
+        "schiller-die-rauber:5.120"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.121"
+      ],
+      "target": [
+        "schiller-die-rauber:5.121"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.122"
+      ],
+      "target": [
+        "schiller-die-rauber:5.122"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.123"
+      ],
+      "target": [
+        "schiller-die-rauber:5.123"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.124"
+      ],
+      "target": [
+        "schiller-die-rauber:5.124"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.125"
+      ],
+      "target": [
+        "schiller-die-rauber:5.125"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.126"
+      ],
+      "target": [
+        "schiller-die-rauber:5.126"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.127"
+      ],
+      "target": [
+        "schiller-die-rauber:5.127"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.128"
+      ],
+      "target": [
+        "schiller-die-rauber:5.128"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.129"
+      ],
+      "target": [
+        "schiller-die-rauber:5.129"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.130"
+      ],
+      "target": [
+        "schiller-die-rauber:5.130"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.131"
+      ],
+      "target": [
+        "schiller-die-rauber:5.131"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.132"
+      ],
+      "target": [
+        "schiller-die-rauber:5.132"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.133"
+      ],
+      "target": [
+        "schiller-die-rauber:5.133"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.134"
+      ],
+      "target": [
+        "schiller-die-rauber:5.134"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.135"
+      ],
+      "target": [
+        "schiller-die-rauber:5.135"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.136"
+      ],
+      "target": [
+        "schiller-die-rauber:5.136"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.137"
+      ],
+      "target": [
+        "schiller-die-rauber:5.137"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.138"
+      ],
+      "target": [
+        "schiller-die-rauber:5.138"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.139"
+      ],
+      "target": [
+        "schiller-die-rauber:5.139"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.140"
+      ],
+      "target": [
+        "schiller-die-rauber:5.140"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.141"
+      ],
+      "target": [
+        "schiller-die-rauber:5.141"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.142"
+      ],
+      "target": [
+        "schiller-die-rauber:5.142"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.143"
+      ],
+      "target": [
+        "schiller-die-rauber:5.143"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.144"
+      ],
+      "target": [
+        "schiller-die-rauber:5.144"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.145"
+      ],
+      "target": [
+        "schiller-die-rauber:5.145"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.146"
+      ],
+      "target": [
+        "schiller-die-rauber:5.146"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.147"
+      ],
+      "target": [
+        "schiller-die-rauber:5.147"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.148"
+      ],
+      "target": [
+        "schiller-die-rauber:5.148"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.149"
+      ],
+      "target": [
+        "schiller-die-rauber:5.149"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.150"
+      ],
+      "target": [
+        "schiller-die-rauber:5.150"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.151"
+      ],
+      "target": [
+        "schiller-die-rauber:5.151"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:5.152"
+      ],
+      "target": [
+        "schiller-die-rauber:5.152"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.1"
+      ],
+      "target": [
+        "schiller-die-rauber:6.1"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.2"
+      ],
+      "target": [
+        "schiller-die-rauber:6.2"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.3"
+      ],
+      "target": [
+        "schiller-die-rauber:6.3"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.4"
+      ],
+      "target": [
+        "schiller-die-rauber:6.4"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.5"
+      ],
+      "target": [
+        "schiller-die-rauber:6.5"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.6"
+      ],
+      "target": [
+        "schiller-die-rauber:6.6"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.7"
+      ],
+      "target": [
+        "schiller-die-rauber:6.7"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.8"
+      ],
+      "target": [
+        "schiller-die-rauber:6.8"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.9"
+      ],
+      "target": [
+        "schiller-die-rauber:6.9"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.10"
+      ],
+      "target": [
+        "schiller-die-rauber:6.10"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.11"
+      ],
+      "target": [
+        "schiller-die-rauber:6.11"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.12"
+      ],
+      "target": [
+        "schiller-die-rauber:6.12"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.13"
+      ],
+      "target": [
+        "schiller-die-rauber:6.13"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.14"
+      ],
+      "target": [
+        "schiller-die-rauber:6.14"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.15"
+      ],
+      "target": [
+        "schiller-die-rauber:6.15"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.16"
+      ],
+      "target": [
+        "schiller-die-rauber:6.16"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.17"
+      ],
+      "target": [
+        "schiller-die-rauber:6.17"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.18"
+      ],
+      "target": [
+        "schiller-die-rauber:6.18"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.19"
+      ],
+      "target": [
+        "schiller-die-rauber:6.19"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.20"
+      ],
+      "target": [
+        "schiller-die-rauber:6.20"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.21"
+      ],
+      "target": [
+        "schiller-die-rauber:6.21"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.22"
+      ],
+      "target": [
+        "schiller-die-rauber:6.22"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.23"
+      ],
+      "target": [
+        "schiller-die-rauber:6.23"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.24"
+      ],
+      "target": [
+        "schiller-die-rauber:6.24"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.25"
+      ],
+      "target": [
+        "schiller-die-rauber:6.25"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.26"
+      ],
+      "target": [
+        "schiller-die-rauber:6.26"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.27"
+      ],
+      "target": [
+        "schiller-die-rauber:6.27"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.28"
+      ],
+      "target": [
+        "schiller-die-rauber:6.28"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.29"
+      ],
+      "target": [
+        "schiller-die-rauber:6.29"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.30"
+      ],
+      "target": [
+        "schiller-die-rauber:6.30"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.31"
+      ],
+      "target": [
+        "schiller-die-rauber:6.31"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.32"
+      ],
+      "target": [
+        "schiller-die-rauber:6.32"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.33"
+      ],
+      "target": [
+        "schiller-die-rauber:6.33"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.34"
+      ],
+      "target": [
+        "schiller-die-rauber:6.34"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.35"
+      ],
+      "target": [
+        "schiller-die-rauber:6.35"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.36"
+      ],
+      "target": [
+        "schiller-die-rauber:6.36"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.37"
+      ],
+      "target": [
+        "schiller-die-rauber:6.37"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.38"
+      ],
+      "target": [
+        "schiller-die-rauber:6.38"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.39"
+      ],
+      "target": [
+        "schiller-die-rauber:6.39"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.40"
+      ],
+      "target": [
+        "schiller-die-rauber:6.40"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.41"
+      ],
+      "target": [
+        "schiller-die-rauber:6.41"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.42"
+      ],
+      "target": [
+        "schiller-die-rauber:6.42"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.43"
+      ],
+      "target": [
+        "schiller-die-rauber:6.43"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.44"
+      ],
+      "target": [
+        "schiller-die-rauber:6.44"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.45"
+      ],
+      "target": [
+        "schiller-die-rauber:6.45"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.46"
+      ],
+      "target": [
+        "schiller-die-rauber:6.46"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.47"
+      ],
+      "target": [
+        "schiller-die-rauber:6.47"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.48"
+      ],
+      "target": [
+        "schiller-die-rauber:6.48"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.49"
+      ],
+      "target": [
+        "schiller-die-rauber:6.49"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.50"
+      ],
+      "target": [
+        "schiller-die-rauber:6.50"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.51"
+      ],
+      "target": [
+        "schiller-die-rauber:6.51"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.52"
+      ],
+      "target": [
+        "schiller-die-rauber:6.52"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.53"
+      ],
+      "target": [
+        "schiller-die-rauber:6.53"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.54"
+      ],
+      "target": [
+        "schiller-die-rauber:6.54"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.55"
+      ],
+      "target": [
+        "schiller-die-rauber:6.55"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.56"
+      ],
+      "target": [
+        "schiller-die-rauber:6.56"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.57"
+      ],
+      "target": [
+        "schiller-die-rauber:6.57"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.58"
+      ],
+      "target": [
+        "schiller-die-rauber:6.58"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.59"
+      ],
+      "target": [
+        "schiller-die-rauber:6.59"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.60"
+      ],
+      "target": [
+        "schiller-die-rauber:6.60"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.61"
+      ],
+      "target": [
+        "schiller-die-rauber:6.61"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.62"
+      ],
+      "target": [
+        "schiller-die-rauber:6.62"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.63"
+      ],
+      "target": [
+        "schiller-die-rauber:6.63"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.64"
+      ],
+      "target": [
+        "schiller-die-rauber:6.64"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.65"
+      ],
+      "target": [
+        "schiller-die-rauber:6.65"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.66"
+      ],
+      "target": [
+        "schiller-die-rauber:6.66"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.67"
+      ],
+      "target": [
+        "schiller-die-rauber:6.67"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.68"
+      ],
+      "target": [
+        "schiller-die-rauber:6.68"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.69"
+      ],
+      "target": [
+        "schiller-die-rauber:6.69"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.70"
+      ],
+      "target": [
+        "schiller-die-rauber:6.70"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.71"
+      ],
+      "target": [
+        "schiller-die-rauber:6.71"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.72"
+      ],
+      "target": [
+        "schiller-die-rauber:6.72"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.73"
+      ],
+      "target": [
+        "schiller-die-rauber:6.73"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.74"
+      ],
+      "target": [
+        "schiller-die-rauber:6.74"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.75"
+      ],
+      "target": [
+        "schiller-die-rauber:6.75"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.76"
+      ],
+      "target": [
+        "schiller-die-rauber:6.76"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.77"
+      ],
+      "target": [
+        "schiller-die-rauber:6.77"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.78"
+      ],
+      "target": [
+        "schiller-die-rauber:6.78"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.79"
+      ],
+      "target": [
+        "schiller-die-rauber:6.79"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.80"
+      ],
+      "target": [
+        "schiller-die-rauber:6.80"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.81"
+      ],
+      "target": [
+        "schiller-die-rauber:6.81"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.82"
+      ],
+      "target": [
+        "schiller-die-rauber:6.82"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.83"
+      ],
+      "target": [
+        "schiller-die-rauber:6.83"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.84"
+      ],
+      "target": [
+        "schiller-die-rauber:6.84"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.85"
+      ],
+      "target": [
+        "schiller-die-rauber:6.85"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.86"
+      ],
+      "target": [
+        "schiller-die-rauber:6.86"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.87"
+      ],
+      "target": [
+        "schiller-die-rauber:6.87"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.88"
+      ],
+      "target": [
+        "schiller-die-rauber:6.88"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.89"
+      ],
+      "target": [
+        "schiller-die-rauber:6.89"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.90"
+      ],
+      "target": [
+        "schiller-die-rauber:6.90"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.91"
+      ],
+      "target": [
+        "schiller-die-rauber:6.91"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.92"
+      ],
+      "target": [
+        "schiller-die-rauber:6.92"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.93"
+      ],
+      "target": [
+        "schiller-die-rauber:6.93"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.94"
+      ],
+      "target": [
+        "schiller-die-rauber:6.94"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.95"
+      ],
+      "target": [
+        "schiller-die-rauber:6.95"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.96"
+      ],
+      "target": [
+        "schiller-die-rauber:6.96"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.97"
+      ],
+      "target": [
+        "schiller-die-rauber:6.97"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.98"
+      ],
+      "target": [
+        "schiller-die-rauber:6.98"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.99"
+      ],
+      "target": [
+        "schiller-die-rauber:6.99"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.100"
+      ],
+      "target": [
+        "schiller-die-rauber:6.100"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.101"
+      ],
+      "target": [
+        "schiller-die-rauber:6.101"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.102"
+      ],
+      "target": [
+        "schiller-die-rauber:6.102"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.103"
+      ],
+      "target": [
+        "schiller-die-rauber:6.103"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.104"
+      ],
+      "target": [
+        "schiller-die-rauber:6.104"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.105"
+      ],
+      "target": [
+        "schiller-die-rauber:6.105"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.106"
+      ],
+      "target": [
+        "schiller-die-rauber:6.106"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.107"
+      ],
+      "target": [
+        "schiller-die-rauber:6.107"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.108"
+      ],
+      "target": [
+        "schiller-die-rauber:6.108"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.109"
+      ],
+      "target": [
+        "schiller-die-rauber:6.109"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.110"
+      ],
+      "target": [
+        "schiller-die-rauber:6.110"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.111"
+      ],
+      "target": [
+        "schiller-die-rauber:6.111"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.112"
+      ],
+      "target": [
+        "schiller-die-rauber:6.112"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.113"
+      ],
+      "target": [
+        "schiller-die-rauber:6.113"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.114"
+      ],
+      "target": [
+        "schiller-die-rauber:6.114"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.115"
+      ],
+      "target": [
+        "schiller-die-rauber:6.115"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.116"
+      ],
+      "target": [
+        "schiller-die-rauber:6.116"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.117"
+      ],
+      "target": [
+        "schiller-die-rauber:6.117"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.118"
+      ],
+      "target": [
+        "schiller-die-rauber:6.118"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.119"
+      ],
+      "target": [
+        "schiller-die-rauber:6.119"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.120"
+      ],
+      "target": [
+        "schiller-die-rauber:6.120"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.121"
+      ],
+      "target": [
+        "schiller-die-rauber:6.121"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.122"
+      ],
+      "target": [
+        "schiller-die-rauber:6.122"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.123"
+      ],
+      "target": [
+        "schiller-die-rauber:6.123"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.124"
+      ],
+      "target": [
+        "schiller-die-rauber:6.124"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.125"
+      ],
+      "target": [
+        "schiller-die-rauber:6.125"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.126"
+      ],
+      "target": [
+        "schiller-die-rauber:6.126"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.127"
+      ],
+      "target": [
+        "schiller-die-rauber:6.127"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.128"
+      ],
+      "target": [
+        "schiller-die-rauber:6.128"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.129"
+      ],
+      "target": [
+        "schiller-die-rauber:6.129"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.130"
+      ],
+      "target": [
+        "schiller-die-rauber:6.130"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.131"
+      ],
+      "target": [
+        "schiller-die-rauber:6.131"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.132"
+      ],
+      "target": [
+        "schiller-die-rauber:6.132"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.133"
+      ],
+      "target": [
+        "schiller-die-rauber:6.133"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.134"
+      ],
+      "target": [
+        "schiller-die-rauber:6.134"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.135"
+      ],
+      "target": [
+        "schiller-die-rauber:6.135"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.136"
+      ],
+      "target": [
+        "schiller-die-rauber:6.136"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.137"
+      ],
+      "target": [
+        "schiller-die-rauber:6.137"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.138"
+      ],
+      "target": [
+        "schiller-die-rauber:6.138"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.139"
+      ],
+      "target": [
+        "schiller-die-rauber:6.139"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.140"
+      ],
+      "target": [
+        "schiller-die-rauber:6.140"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.141"
+      ],
+      "target": [
+        "schiller-die-rauber:6.141"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.142"
+      ],
+      "target": [
+        "schiller-die-rauber:6.142"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.143"
+      ],
+      "target": [
+        "schiller-die-rauber:6.143"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.144"
+      ],
+      "target": [
+        "schiller-die-rauber:6.144"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.145"
+      ],
+      "target": [
+        "schiller-die-rauber:6.145"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.146"
+      ],
+      "target": [
+        "schiller-die-rauber:6.146"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.147"
+      ],
+      "target": [
+        "schiller-die-rauber:6.147"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.148"
+      ],
+      "target": [
+        "schiller-die-rauber:6.148"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.149"
+      ],
+      "target": [
+        "schiller-die-rauber:6.149"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.150"
+      ],
+      "target": [
+        "schiller-die-rauber:6.150"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.151"
+      ],
+      "target": [
+        "schiller-die-rauber:6.151"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.152"
+      ],
+      "target": [
+        "schiller-die-rauber:6.152"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.153"
+      ],
+      "target": [
+        "schiller-die-rauber:6.153"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.154"
+      ],
+      "target": [
+        "schiller-die-rauber:6.154"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.155"
+      ],
+      "target": [
+        "schiller-die-rauber:6.155"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.156"
+      ],
+      "target": [
+        "schiller-die-rauber:6.156"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.157"
+      ],
+      "target": [
+        "schiller-die-rauber:6.157"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.158"
+      ],
+      "target": [
+        "schiller-die-rauber:6.158"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.159"
+      ],
+      "target": [
+        "schiller-die-rauber:6.159"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.160"
+      ],
+      "target": [
+        "schiller-die-rauber:6.160"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.161"
+      ],
+      "target": [
+        "schiller-die-rauber:6.161"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.162"
+      ],
+      "target": [
+        "schiller-die-rauber:6.162"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.163"
+      ],
+      "target": [
+        "schiller-die-rauber:6.163"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.164"
+      ],
+      "target": [
+        "schiller-die-rauber:6.164"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.165"
+      ],
+      "target": [
+        "schiller-die-rauber:6.165"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.166"
+      ],
+      "target": [
+        "schiller-die-rauber:6.166"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.167"
+      ],
+      "target": [
+        "schiller-die-rauber:6.167"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.168"
+      ],
+      "target": [
+        "schiller-die-rauber:6.168"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.169"
+      ],
+      "target": [
+        "schiller-die-rauber:6.169"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.170"
+      ],
+      "target": [
+        "schiller-die-rauber:6.170"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.171"
+      ],
+      "target": [
+        "schiller-die-rauber:6.171"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.172"
+      ],
+      "target": [
+        "schiller-die-rauber:6.172"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.173"
+      ],
+      "target": [
+        "schiller-die-rauber:6.173"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.174"
+      ],
+      "target": [
+        "schiller-die-rauber:6.174"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.175"
+      ],
+      "target": [
+        "schiller-die-rauber:6.175"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.176"
+      ],
+      "target": [
+        "schiller-die-rauber:6.176"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.177"
+      ],
+      "target": [
+        "schiller-die-rauber:6.177"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.178"
+      ],
+      "target": [
+        "schiller-die-rauber:6.178"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.179"
+      ],
+      "target": [
+        "schiller-die-rauber:6.179"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.180"
+      ],
+      "target": [
+        "schiller-die-rauber:6.180"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.181"
+      ],
+      "target": [
+        "schiller-die-rauber:6.181"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.182"
+      ],
+      "target": [
+        "schiller-die-rauber:6.182"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.183"
+      ],
+      "target": [
+        "schiller-die-rauber:6.183"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.184"
+      ],
+      "target": [
+        "schiller-die-rauber:6.184"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.185"
+      ],
+      "target": [
+        "schiller-die-rauber:6.185"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.186"
+      ],
+      "target": [
+        "schiller-die-rauber:6.186"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.187"
+      ],
+      "target": [
+        "schiller-die-rauber:6.187"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.188"
+      ],
+      "target": [
+        "schiller-die-rauber:6.188"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.189"
+      ],
+      "target": [
+        "schiller-die-rauber:6.189"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.190"
+      ],
+      "target": [
+        "schiller-die-rauber:6.190"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.191"
+      ],
+      "target": [
+        "schiller-die-rauber:6.191"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.192"
+      ],
+      "target": [
+        "schiller-die-rauber:6.192"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.193"
+      ],
+      "target": [
+        "schiller-die-rauber:6.193"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.194"
+      ],
+      "target": [
+        "schiller-die-rauber:6.194"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.195"
+      ],
+      "target": [
+        "schiller-die-rauber:6.195"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.196"
+      ],
+      "target": [
+        "schiller-die-rauber:6.196"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.197"
+      ],
+      "target": [
+        "schiller-die-rauber:6.197"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.198"
+      ],
+      "target": [
+        "schiller-die-rauber:6.198"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.199"
+      ],
+      "target": [
+        "schiller-die-rauber:6.199"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.200"
+      ],
+      "target": [
+        "schiller-die-rauber:6.200"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.201"
+      ],
+      "target": [
+        "schiller-die-rauber:6.201"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.202"
+      ],
+      "target": [
+        "schiller-die-rauber:6.202"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.203"
+      ],
+      "target": [
+        "schiller-die-rauber:6.203"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.204"
+      ],
+      "target": [
+        "schiller-die-rauber:6.204"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.205"
+      ],
+      "target": [
+        "schiller-die-rauber:6.205"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.206"
+      ],
+      "target": [
+        "schiller-die-rauber:6.206"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.207"
+      ],
+      "target": [
+        "schiller-die-rauber:6.207"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.208"
+      ],
+      "target": [
+        "schiller-die-rauber:6.208"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.209"
+      ],
+      "target": [
+        "schiller-die-rauber:6.209"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.210"
+      ],
+      "target": [
+        "schiller-die-rauber:6.210"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.211"
+      ],
+      "target": [
+        "schiller-die-rauber:6.211"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.212"
+      ],
+      "target": [
+        "schiller-die-rauber:6.212"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.213"
+      ],
+      "target": [
+        "schiller-die-rauber:6.213"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.214"
+      ],
+      "target": [
+        "schiller-die-rauber:6.214"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.215"
+      ],
+      "target": [
+        "schiller-die-rauber:6.215"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.216"
+      ],
+      "target": [
+        "schiller-die-rauber:6.216"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.217"
+      ],
+      "target": [
+        "schiller-die-rauber:6.217"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.218"
+      ],
+      "target": [
+        "schiller-die-rauber:6.218"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.219"
+      ],
+      "target": [
+        "schiller-die-rauber:6.219"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.220"
+      ],
+      "target": [
+        "schiller-die-rauber:6.220"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.221"
+      ],
+      "target": [
+        "schiller-die-rauber:6.221"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.222"
+      ],
+      "target": [
+        "schiller-die-rauber:6.222"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.223"
+      ],
+      "target": [
+        "schiller-die-rauber:6.223"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.224"
+      ],
+      "target": [
+        "schiller-die-rauber:6.224"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.225"
+      ],
+      "target": [
+        "schiller-die-rauber:6.225"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.226"
+      ],
+      "target": [
+        "schiller-die-rauber:6.226"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.227"
+      ],
+      "target": [
+        "schiller-die-rauber:6.227"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.228"
+      ],
+      "target": [
+        "schiller-die-rauber:6.228"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.229"
+      ],
+      "target": [
+        "schiller-die-rauber:6.229"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.230"
+      ],
+      "target": [
+        "schiller-die-rauber:6.230"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.231"
+      ],
+      "target": [
+        "schiller-die-rauber:6.231"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.232"
+      ],
+      "target": [
+        "schiller-die-rauber:6.232"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.233"
+      ],
+      "target": [
+        "schiller-die-rauber:6.233"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.234"
+      ],
+      "target": [
+        "schiller-die-rauber:6.234"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.235"
+      ],
+      "target": [
+        "schiller-die-rauber:6.235"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.236"
+      ],
+      "target": [
+        "schiller-die-rauber:6.236"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.237"
+      ],
+      "target": [
+        "schiller-die-rauber:6.237"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.238"
+      ],
+      "target": [
+        "schiller-die-rauber:6.238"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.239"
+      ],
+      "target": [
+        "schiller-die-rauber:6.239"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.240"
+      ],
+      "target": [
+        "schiller-die-rauber:6.240"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.241"
+      ],
+      "target": [
+        "schiller-die-rauber:6.241"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.242"
+      ],
+      "target": [
+        "schiller-die-rauber:6.242"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.243"
+      ],
+      "target": [
+        "schiller-die-rauber:6.243"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.244"
+      ],
+      "target": [
+        "schiller-die-rauber:6.244"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.245"
+      ],
+      "target": [
+        "schiller-die-rauber:6.245"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.246"
+      ],
+      "target": [
+        "schiller-die-rauber:6.246"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.247"
+      ],
+      "target": [
+        "schiller-die-rauber:6.247"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.248"
+      ],
+      "target": [
+        "schiller-die-rauber:6.248"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.249"
+      ],
+      "target": [
+        "schiller-die-rauber:6.249"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.250"
+      ],
+      "target": [
+        "schiller-die-rauber:6.250"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.251"
+      ],
+      "target": [
+        "schiller-die-rauber:6.251"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.252"
+      ],
+      "target": [
+        "schiller-die-rauber:6.252"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.253"
+      ],
+      "target": [
+        "schiller-die-rauber:6.253"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.254"
+      ],
+      "target": [
+        "schiller-die-rauber:6.254"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.255"
+      ],
+      "target": [
+        "schiller-die-rauber:6.255"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.256"
+      ],
+      "target": [
+        "schiller-die-rauber:6.256"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.257"
+      ],
+      "target": [
+        "schiller-die-rauber:6.257"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.258"
+      ],
+      "target": [
+        "schiller-die-rauber:6.258"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.259"
+      ],
+      "target": [
+        "schiller-die-rauber:6.259"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.260"
+      ],
+      "target": [
+        "schiller-die-rauber:6.260"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.261"
+      ],
+      "target": [
+        "schiller-die-rauber:6.261"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.262"
+      ],
+      "target": [
+        "schiller-die-rauber:6.262"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.263"
+      ],
+      "target": [
+        "schiller-die-rauber:6.263"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.264"
+      ],
+      "target": [
+        "schiller-die-rauber:6.264"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.265"
+      ],
+      "target": [
+        "schiller-die-rauber:6.265"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.266"
+      ],
+      "target": [
+        "schiller-die-rauber:6.266"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.267"
+      ],
+      "target": [
+        "schiller-die-rauber:6.267"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.268"
+      ],
+      "target": [
+        "schiller-die-rauber:6.268"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.269"
+      ],
+      "target": [
+        "schiller-die-rauber:6.269"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.270"
+      ],
+      "target": [
+        "schiller-die-rauber:6.270"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.271"
+      ],
+      "target": [
+        "schiller-die-rauber:6.271"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.272"
+      ],
+      "target": [
+        "schiller-die-rauber:6.272"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.273"
+      ],
+      "target": [
+        "schiller-die-rauber:6.273"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.274"
+      ],
+      "target": [
+        "schiller-die-rauber:6.274"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.275"
+      ],
+      "target": [
+        "schiller-die-rauber:6.275"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.276"
+      ],
+      "target": [
+        "schiller-die-rauber:6.276"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.277"
+      ],
+      "target": [
+        "schiller-die-rauber:6.277"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.278"
+      ],
+      "target": [
+        "schiller-die-rauber:6.278"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.279"
+      ],
+      "target": [
+        "schiller-die-rauber:6.279"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.280"
+      ],
+      "target": [
+        "schiller-die-rauber:6.280"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.281"
+      ],
+      "target": [
+        "schiller-die-rauber:6.281"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.282"
+      ],
+      "target": [
+        "schiller-die-rauber:6.282"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.283"
+      ],
+      "target": [
+        "schiller-die-rauber:6.283"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:6.284"
+      ],
+      "target": [
+        "schiller-die-rauber:6.284"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.1"
+      ],
+      "target": [
+        "schiller-die-rauber:7.1"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.2"
+      ],
+      "target": [
+        "schiller-die-rauber:7.2"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.3"
+      ],
+      "target": [
+        "schiller-die-rauber:7.3"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.4"
+      ],
+      "target": [
+        "schiller-die-rauber:7.4"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.5"
+      ],
+      "target": [
+        "schiller-die-rauber:7.5"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.6"
+      ],
+      "target": [
+        "schiller-die-rauber:7.6"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.7"
+      ],
+      "target": [
+        "schiller-die-rauber:7.7"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.8"
+      ],
+      "target": [
+        "schiller-die-rauber:7.8"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.9"
+      ],
+      "target": [
+        "schiller-die-rauber:7.9"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.10"
+      ],
+      "target": [
+        "schiller-die-rauber:7.10"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.11"
+      ],
+      "target": [
+        "schiller-die-rauber:7.11"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.12"
+      ],
+      "target": [
+        "schiller-die-rauber:7.12"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.13"
+      ],
+      "target": [
+        "schiller-die-rauber:7.13"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.14"
+      ],
+      "target": [
+        "schiller-die-rauber:7.14"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.15"
+      ],
+      "target": [
+        "schiller-die-rauber:7.15"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.16"
+      ],
+      "target": [
+        "schiller-die-rauber:7.16"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.17"
+      ],
+      "target": [
+        "schiller-die-rauber:7.17"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.18"
+      ],
+      "target": [
+        "schiller-die-rauber:7.18"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.19"
+      ],
+      "target": [
+        "schiller-die-rauber:7.19"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.20"
+      ],
+      "target": [
+        "schiller-die-rauber:7.20"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.21"
+      ],
+      "target": [
+        "schiller-die-rauber:7.21"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.22"
+      ],
+      "target": [
+        "schiller-die-rauber:7.22"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.23"
+      ],
+      "target": [
+        "schiller-die-rauber:7.23"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.24"
+      ],
+      "target": [
+        "schiller-die-rauber:7.24"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.25"
+      ],
+      "target": [
+        "schiller-die-rauber:7.25"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.26"
+      ],
+      "target": [
+        "schiller-die-rauber:7.26"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.27"
+      ],
+      "target": [
+        "schiller-die-rauber:7.27"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.28"
+      ],
+      "target": [
+        "schiller-die-rauber:7.28"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.29"
+      ],
+      "target": [
+        "schiller-die-rauber:7.29"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.30"
+      ],
+      "target": [
+        "schiller-die-rauber:7.30"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.31"
+      ],
+      "target": [
+        "schiller-die-rauber:7.31"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.32"
+      ],
+      "target": [
+        "schiller-die-rauber:7.32"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.33"
+      ],
+      "target": [
+        "schiller-die-rauber:7.33"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.34"
+      ],
+      "target": [
+        "schiller-die-rauber:7.34"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.35"
+      ],
+      "target": [
+        "schiller-die-rauber:7.35"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.36"
+      ],
+      "target": [
+        "schiller-die-rauber:7.36"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.37"
+      ],
+      "target": [
+        "schiller-die-rauber:7.37"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.38"
+      ],
+      "target": [
+        "schiller-die-rauber:7.38"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.39"
+      ],
+      "target": [
+        "schiller-die-rauber:7.39"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.40"
+      ],
+      "target": [
+        "schiller-die-rauber:7.40"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.41"
+      ],
+      "target": [
+        "schiller-die-rauber:7.41"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.42"
+      ],
+      "target": [
+        "schiller-die-rauber:7.42"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.43"
+      ],
+      "target": [
+        "schiller-die-rauber:7.43"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.44"
+      ],
+      "target": [
+        "schiller-die-rauber:7.44"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.45"
+      ],
+      "target": [
+        "schiller-die-rauber:7.45"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.46"
+      ],
+      "target": [
+        "schiller-die-rauber:7.46"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.47"
+      ],
+      "target": [
+        "schiller-die-rauber:7.47"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.48"
+      ],
+      "target": [
+        "schiller-die-rauber:7.48"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.49"
+      ],
+      "target": [
+        "schiller-die-rauber:7.49"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.50"
+      ],
+      "target": [
+        "schiller-die-rauber:7.50"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.51"
+      ],
+      "target": [
+        "schiller-die-rauber:7.51"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.52"
+      ],
+      "target": [
+        "schiller-die-rauber:7.52"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.53"
+      ],
+      "target": [
+        "schiller-die-rauber:7.53"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.54"
+      ],
+      "target": [
+        "schiller-die-rauber:7.54"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.55"
+      ],
+      "target": [
+        "schiller-die-rauber:7.55"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.56"
+      ],
+      "target": [
+        "schiller-die-rauber:7.56"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.57"
+      ],
+      "target": [
+        "schiller-die-rauber:7.57"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.58"
+      ],
+      "target": [
+        "schiller-die-rauber:7.58"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.59"
+      ],
+      "target": [
+        "schiller-die-rauber:7.59"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.60"
+      ],
+      "target": [
+        "schiller-die-rauber:7.60"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.61"
+      ],
+      "target": [
+        "schiller-die-rauber:7.61"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.62"
+      ],
+      "target": [
+        "schiller-die-rauber:7.62"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.63"
+      ],
+      "target": [
+        "schiller-die-rauber:7.63"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.64"
+      ],
+      "target": [
+        "schiller-die-rauber:7.64"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.65"
+      ],
+      "target": [
+        "schiller-die-rauber:7.65"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.66"
+      ],
+      "target": [
+        "schiller-die-rauber:7.66"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.67"
+      ],
+      "target": [
+        "schiller-die-rauber:7.67"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.68"
+      ],
+      "target": [
+        "schiller-die-rauber:7.68"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.69"
+      ],
+      "target": [
+        "schiller-die-rauber:7.69"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.70"
+      ],
+      "target": [
+        "schiller-die-rauber:7.70"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.71"
+      ],
+      "target": [
+        "schiller-die-rauber:7.71"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.72"
+      ],
+      "target": [
+        "schiller-die-rauber:7.72"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.73"
+      ],
+      "target": [
+        "schiller-die-rauber:7.73"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.74"
+      ],
+      "target": [
+        "schiller-die-rauber:7.74"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.75"
+      ],
+      "target": [
+        "schiller-die-rauber:7.75"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.76"
+      ],
+      "target": [
+        "schiller-die-rauber:7.76"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.77"
+      ],
+      "target": [
+        "schiller-die-rauber:7.77"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.78"
+      ],
+      "target": [
+        "schiller-die-rauber:7.78"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.79"
+      ],
+      "target": [
+        "schiller-die-rauber:7.79"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.80"
+      ],
+      "target": [
+        "schiller-die-rauber:7.80"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.81"
+      ],
+      "target": [
+        "schiller-die-rauber:7.81"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.82"
+      ],
+      "target": [
+        "schiller-die-rauber:7.82"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.83"
+      ],
+      "target": [
+        "schiller-die-rauber:7.83"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.84"
+      ],
+      "target": [
+        "schiller-die-rauber:7.84"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.85"
+      ],
+      "target": [
+        "schiller-die-rauber:7.85"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.86"
+      ],
+      "target": [
+        "schiller-die-rauber:7.86"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.87"
+      ],
+      "target": [
+        "schiller-die-rauber:7.87"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.88"
+      ],
+      "target": [
+        "schiller-die-rauber:7.88"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.89"
+      ],
+      "target": [
+        "schiller-die-rauber:7.89"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.90"
+      ],
+      "target": [
+        "schiller-die-rauber:7.90"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.91"
+      ],
+      "target": [
+        "schiller-die-rauber:7.91"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.92"
+      ],
+      "target": [
+        "schiller-die-rauber:7.92"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.93"
+      ],
+      "target": [
+        "schiller-die-rauber:7.93"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.94"
+      ],
+      "target": [
+        "schiller-die-rauber:7.94"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.95"
+      ],
+      "target": [
+        "schiller-die-rauber:7.95"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.96"
+      ],
+      "target": [
+        "schiller-die-rauber:7.96"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.97"
+      ],
+      "target": [
+        "schiller-die-rauber:7.97"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.98"
+      ],
+      "target": [
+        "schiller-die-rauber:7.98"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.99"
+      ],
+      "target": [
+        "schiller-die-rauber:7.99"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.100"
+      ],
+      "target": [
+        "schiller-die-rauber:7.100"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.101"
+      ],
+      "target": [
+        "schiller-die-rauber:7.101"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.102"
+      ],
+      "target": [
+        "schiller-die-rauber:7.102"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.103"
+      ],
+      "target": [
+        "schiller-die-rauber:7.103"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.104"
+      ],
+      "target": [
+        "schiller-die-rauber:7.104"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.105"
+      ],
+      "target": [
+        "schiller-die-rauber:7.105"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.106"
+      ],
+      "target": [
+        "schiller-die-rauber:7.106"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.107"
+      ],
+      "target": [
+        "schiller-die-rauber:7.107"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.108"
+      ],
+      "target": [
+        "schiller-die-rauber:7.108"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.109"
+      ],
+      "target": [
+        "schiller-die-rauber:7.109"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.110"
+      ],
+      "target": [
+        "schiller-die-rauber:7.110"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.111"
+      ],
+      "target": [
+        "schiller-die-rauber:7.111"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.112"
+      ],
+      "target": [
+        "schiller-die-rauber:7.112"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.113"
+      ],
+      "target": [
+        "schiller-die-rauber:7.113"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.114"
+      ],
+      "target": [
+        "schiller-die-rauber:7.114"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.115"
+      ],
+      "target": [
+        "schiller-die-rauber:7.115"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.116"
+      ],
+      "target": [
+        "schiller-die-rauber:7.116"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.117"
+      ],
+      "target": [
+        "schiller-die-rauber:7.117"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.118"
+      ],
+      "target": [
+        "schiller-die-rauber:7.118"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.119"
+      ],
+      "target": [
+        "schiller-die-rauber:7.119"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.120"
+      ],
+      "target": [
+        "schiller-die-rauber:7.120"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.121"
+      ],
+      "target": [
+        "schiller-die-rauber:7.121"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.122"
+      ],
+      "target": [
+        "schiller-die-rauber:7.122"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.123"
+      ],
+      "target": [
+        "schiller-die-rauber:7.123"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.124"
+      ],
+      "target": [
+        "schiller-die-rauber:7.124"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.125"
+      ],
+      "target": [
+        "schiller-die-rauber:7.125"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.126"
+      ],
+      "target": [
+        "schiller-die-rauber:7.126"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.127"
+      ],
+      "target": [
+        "schiller-die-rauber:7.127"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.128"
+      ],
+      "target": [
+        "schiller-die-rauber:7.128"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.129"
+      ],
+      "target": [
+        "schiller-die-rauber:7.129"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.130"
+      ],
+      "target": [
+        "schiller-die-rauber:7.130"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.131"
+      ],
+      "target": [
+        "schiller-die-rauber:7.131"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.132"
+      ],
+      "target": [
+        "schiller-die-rauber:7.132"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.133"
+      ],
+      "target": [
+        "schiller-die-rauber:7.133"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.134"
+      ],
+      "target": [
+        "schiller-die-rauber:7.134"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.135"
+      ],
+      "target": [
+        "schiller-die-rauber:7.135"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.136"
+      ],
+      "target": [
+        "schiller-die-rauber:7.136"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.137"
+      ],
+      "target": [
+        "schiller-die-rauber:7.137"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.138"
+      ],
+      "target": [
+        "schiller-die-rauber:7.138"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.139"
+      ],
+      "target": [
+        "schiller-die-rauber:7.139"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.140"
+      ],
+      "target": [
+        "schiller-die-rauber:7.140"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.141"
+      ],
+      "target": [
+        "schiller-die-rauber:7.141"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.142"
+      ],
+      "target": [
+        "schiller-die-rauber:7.142"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.143"
+      ],
+      "target": [
+        "schiller-die-rauber:7.143"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.144"
+      ],
+      "target": [
+        "schiller-die-rauber:7.144"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.145"
+      ],
+      "target": [
+        "schiller-die-rauber:7.145"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.146"
+      ],
+      "target": [
+        "schiller-die-rauber:7.146"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.147"
+      ],
+      "target": [
+        "schiller-die-rauber:7.147"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.148"
+      ],
+      "target": [
+        "schiller-die-rauber:7.148"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.149"
+      ],
+      "target": [
+        "schiller-die-rauber:7.149"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.150"
+      ],
+      "target": [
+        "schiller-die-rauber:7.150"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.151"
+      ],
+      "target": [
+        "schiller-die-rauber:7.151"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.152"
+      ],
+      "target": [
+        "schiller-die-rauber:7.152"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.153"
+      ],
+      "target": [
+        "schiller-die-rauber:7.153"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.154"
+      ],
+      "target": [
+        "schiller-die-rauber:7.154"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.155"
+      ],
+      "target": [
+        "schiller-die-rauber:7.155"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.156"
+      ],
+      "target": [
+        "schiller-die-rauber:7.156"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.157"
+      ],
+      "target": [
+        "schiller-die-rauber:7.157"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.158"
+      ],
+      "target": [
+        "schiller-die-rauber:7.158"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.159"
+      ],
+      "target": [
+        "schiller-die-rauber:7.159"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.160"
+      ],
+      "target": [
+        "schiller-die-rauber:7.160"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.161"
+      ],
+      "target": [
+        "schiller-die-rauber:7.161"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.162"
+      ],
+      "target": [
+        "schiller-die-rauber:7.162"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.163"
+      ],
+      "target": [
+        "schiller-die-rauber:7.163"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.164"
+      ],
+      "target": [
+        "schiller-die-rauber:7.164"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.165"
+      ],
+      "target": [
+        "schiller-die-rauber:7.165"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.166"
+      ],
+      "target": [
+        "schiller-die-rauber:7.166"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.167"
+      ],
+      "target": [
+        "schiller-die-rauber:7.167"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.168"
+      ],
+      "target": [
+        "schiller-die-rauber:7.168"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.169"
+      ],
+      "target": [
+        "schiller-die-rauber:7.169"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.170"
+      ],
+      "target": [
+        "schiller-die-rauber:7.170"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.171"
+      ],
+      "target": [
+        "schiller-die-rauber:7.171"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.172"
+      ],
+      "target": [
+        "schiller-die-rauber:7.172"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.173"
+      ],
+      "target": [
+        "schiller-die-rauber:7.173"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.174"
+      ],
+      "target": [
+        "schiller-die-rauber:7.174"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.175"
+      ],
+      "target": [
+        "schiller-die-rauber:7.175"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.176"
+      ],
+      "target": [
+        "schiller-die-rauber:7.176"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.177"
+      ],
+      "target": [
+        "schiller-die-rauber:7.177"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.178"
+      ],
+      "target": [
+        "schiller-die-rauber:7.178"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.179"
+      ],
+      "target": [
+        "schiller-die-rauber:7.179"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.180"
+      ],
+      "target": [
+        "schiller-die-rauber:7.180"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.181"
+      ],
+      "target": [
+        "schiller-die-rauber:7.181"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.182"
+      ],
+      "target": [
+        "schiller-die-rauber:7.182"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.183"
+      ],
+      "target": [
+        "schiller-die-rauber:7.183"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.184"
+      ],
+      "target": [
+        "schiller-die-rauber:7.184"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.185"
+      ],
+      "target": [
+        "schiller-die-rauber:7.185"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.186"
+      ],
+      "target": [
+        "schiller-die-rauber:7.186"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.187"
+      ],
+      "target": [
+        "schiller-die-rauber:7.187"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.188"
+      ],
+      "target": [
+        "schiller-die-rauber:7.188"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.189"
+      ],
+      "target": [
+        "schiller-die-rauber:7.189"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.190"
+      ],
+      "target": [
+        "schiller-die-rauber:7.190"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.191"
+      ],
+      "target": [
+        "schiller-die-rauber:7.191"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.192"
+      ],
+      "target": [
+        "schiller-die-rauber:7.192"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.193"
+      ],
+      "target": [
+        "schiller-die-rauber:7.193"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.194"
+      ],
+      "target": [
+        "schiller-die-rauber:7.194"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.195"
+      ],
+      "target": [
+        "schiller-die-rauber:7.195"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.196"
+      ],
+      "target": [
+        "schiller-die-rauber:7.196"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.197"
+      ],
+      "target": [
+        "schiller-die-rauber:7.197"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.198"
+      ],
+      "target": [
+        "schiller-die-rauber:7.198"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.199"
+      ],
+      "target": [
+        "schiller-die-rauber:7.199"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.200"
+      ],
+      "target": [
+        "schiller-die-rauber:7.200"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.201"
+      ],
+      "target": [
+        "schiller-die-rauber:7.201"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.202"
+      ],
+      "target": [
+        "schiller-die-rauber:7.202"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.203"
+      ],
+      "target": [
+        "schiller-die-rauber:7.203"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.204"
+      ],
+      "target": [
+        "schiller-die-rauber:7.204"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.205"
+      ],
+      "target": [
+        "schiller-die-rauber:7.205"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.206"
+      ],
+      "target": [
+        "schiller-die-rauber:7.206"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.207"
+      ],
+      "target": [
+        "schiller-die-rauber:7.207"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.208"
+      ],
+      "target": [
+        "schiller-die-rauber:7.208"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.209"
+      ],
+      "target": [
+        "schiller-die-rauber:7.209"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.210"
+      ],
+      "target": [
+        "schiller-die-rauber:7.210"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.211"
+      ],
+      "target": [
+        "schiller-die-rauber:7.211"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.212"
+      ],
+      "target": [
+        "schiller-die-rauber:7.212"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.213"
+      ],
+      "target": [
+        "schiller-die-rauber:7.213"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.214"
+      ],
+      "target": [
+        "schiller-die-rauber:7.214"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.215"
+      ],
+      "target": [
+        "schiller-die-rauber:7.215"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.216"
+      ],
+      "target": [
+        "schiller-die-rauber:7.216"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.217"
+      ],
+      "target": [
+        "schiller-die-rauber:7.217"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.218"
+      ],
+      "target": [
+        "schiller-die-rauber:7.218"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.219"
+      ],
+      "target": [
+        "schiller-die-rauber:7.219"
+      ]
+    },
+    {
+      "source": [
+        "schiller-die-rauber:7.220"
+      ],
+      "target": [
+        "schiller-die-rauber:7.220"
+      ]
+    }
+  ]
+}

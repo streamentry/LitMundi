@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "work_id": "schiller-die-rauber",
+  "edition_id": "schiller-die-rauber-vi-ai-2026",
+  "source_edition_id": "schiller-die-rauber-de-pg47804",
+  "title_vi": "Bọn cướp",
+  "translation_direction": "de → vi; direct from the specifically identified complete German electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Schiller’s Sturm und Drang rhetoric is kept as vivid, excessive Vietnamese; the robbers’ speech is crude and lively; Franz’s cold smoothness keeps its calculation.",
+      "rationale": "The play is its rhetorical excess and the contrast of the brothers."
+    },
+    {
+      "topic": "Source",
+      "decision": "The German text comes from Project Gutenberg #47804; the preface is included as its own section.",
+      "rationale": "Translation from the original."
+    },
+    {
+      "topic": "Editorial choice",
+      "decision": "Spiegelberg’s antisemitic phrase at unit 458 is rendered faithfully as the source’s content, not softened; it stands in the speaker’s voice, not the translator’s.",
+      "rationale": "Silent softening would change the text; the editor should confirm."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-schiller-die-rauber",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "schiller-die-rauber:3.20",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Franz’s reading of Karl’s letter called the elder brother “em trai”; now “anh trai”, the sibling seniority of the German."
+        },
+        {
+          "segment": "schiller-die-rauber:3.69",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Same sibling error in Franz’s soliloquy (“Đó là anh trai ngươi!”)."
+        },
+        {
+          "segment": "schiller-die-rauber:3.127",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The salutation “Unglücklicher Bruder!” was addressed to the elder Karl; now “Người anh bất hạnh”."
+        },
+        {
+          "segment": "schiller-die-rauber:3.217",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Auskeuchte” (expired) was rendered as sneezing; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:3.225",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Amalia’s “Bruder meines Karls” made Franz the elder brother; now “Em trai của Karl”."
+        },
+        {
+          "segment": "schiller-die-rauber:3.80",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The insult “Kastraten-Jahrhundert” lost its central word; restored as “thái giám”."
+        },
+        {
+          "segment": "schiller-die-rauber:4.203",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Even if half an Our Father” was inverted to “unless”; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:4.230",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Steps “staggering forward” were rendered as stepping back; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:4.109",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Amalia’s “Mein, mein!” (mine, mine) was rendered as a denial; now “Của em”."
+        },
+        {
+          "segment": "schiller-die-rauber:4.182",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The antisemitic phrase of Spiegelberg is kept as the source’s content (“làm ăn kiểu Do Thái”), not softened; the editor should confirm this choice."
+        },
+        {
+          "segment": "schiller-die-rauber:6.38",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Block” as the execution block was rendered as a mat; now a chopping block."
+        },
+        {
+          "segment": "schiller-die-rauber:6.147",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Nachtigall (nightingale) was rendered as a skylark; now họa mi."
+        },
+        {
+          "segment": "schiller-die-rauber:6.194",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Man vermißt ihn” (he is missed) was rendered as remembering him; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:6.276",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Geadelt” (ennobled) was rendered as canonised; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:7.111",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Hutschnur” is a hat cord, not a watch chain; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:7.204",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Weib” as Moor’s cold address to Amalia had been tender; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:7.52",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The direction of the avenger was reversed; Franz is to go out to meet him. Corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:7.191",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Poche dem Tyrannen-Verhängniß” (defy the tyrant’s fate) was rendered as knocking; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:4.23",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Franz’s “em trai” for Karl, the elder brother, corrected to “anh trai”."
+        },
+        {
+          "segment": "schiller-die-rauber:4.45",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The same sibling reversal at Prag, corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:4.103",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Mein Bruder” for Karl, corrected to “anh trai của con”."
+        },
+        {
+          "segment": "schiller-die-rauber:5.104",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The relative clause whose subject is freedom’s name had been attached to the men; now attached to tự do."
+        },
+        {
+          "segment": "schiller-die-rauber:4.34",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Ihn und Ihn” (two men) was rendered as one; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:4.168",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Versicherte” (secured) was rendered as bribed; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:4.176",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Bettelvögten” (beggar-wardens) was rendered as beggars; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:6.9",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Fanger” is a bird-catcher, not a gardener; corrected."
+        },
+        {
+          "segment": "schiller-die-rauber:7.178",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Bräutigam” (groom) was dropped, leaving the reply without an antecedent; restored."
+        },
+        {
+          "segment": "schiller-die-rauber:4.29",
+          "category": "semantic_fidelity",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Minor sense and register fixes in Act II, applied after checking the German."
+        },
+        {
+          "segment": "schiller-die-rauber:7.187",
+          "category": "target_naturalness",
+          "severity": "minor",
+          "status": "resolved",
+          "explanation": "Minor phrasing fixes in Act V, applied after checking the German."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Räuber / Räuberbande",
+      "draft_rendering": "băng cướp; cướp (speaker label)",
+      "alternatives": [],
+      "rationale": "The robber band and its members.",
+      "passages": [
+        "schiller-die-rauber:3.179",
+        "schiller-die-rauber:4.214",
+        "schiller-die-rauber:7.111"
+      ]
+    },
+    {
+      "source_term": "Karl–Amalia address",
+      "draft_rendering": "anh / em (fixed); Karl to the band: ngươi / ta",
+      "alternatives": [],
+      "rationale": "The lovers’ pair is stable; the robber band’s register is harsher.",
+      "passages": [
+        "schiller-die-rauber:7.176",
+        "schiller-die-rauber:7.178",
+        "schiller-die-rauber:7.190"
+      ]
+    },
+    {
+      "source_term": "Franz–Karl kinship",
+      "draft_rendering": "Karl: anh trai (elder); Franz: em trai (younger)",
+      "alternatives": [],
+      "rationale": "Karl is the elder son; every sibling reference follows that.",
+      "passages": [
+        "schiller-die-rauber:3.20",
+        "schiller-die-rauber:3.69",
+        "schiller-die-rauber:3.225",
+        "schiller-die-rauber:4.23",
+        "schiller-die-rauber:4.45",
+        "schiller-die-rauber:4.103"
+      ]
+    },
+    {
+      "source_term": "Lenore-type proper names and Hauptmann",
+      "draft_rendering": "thủ lĩnh (Hauptmann)",
+      "alternatives": [],
+      "rationale": "One term for the robber chief.",
+      "passages": [
+        "schiller-die-rauber:4.39",
+        "schiller-die-rauber:4.295"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #47804, an electronic transcription of Die Räuber: Ein Schauspiel from the 1781 text. The Gutenberg page does not name the exact printing and the text was not collated with the first edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "63fbef86d9f563da0f10938465acfa6feac7b1ab5b7a2d6be01670b731bbc781",
+  "target_sha256": "29a38d0f834e5510b5ae552e86c1b9c71456976cd5ef817728607a2ace6dcb8e",
+  "coverage": {
+    "canonical_passages": 1248,
+    "translated_passages": 1248,
+    "aligned_passages": 1248
+  },
+  "ai_review_record": "corpus/reviews/schiller-die-rauber/schiller-die-rauber-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.7,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [],
+  "title_review": {
+    "source_title": "Die Räuber",
+    "target_title": "Bọn cướp",
+    "rationale": "The title is rendered as ‘Bọn cướp’ (The Robbers); no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "schiller-die-rauber:3.20"
+      ],
+      "assessment": "Franz reads Karl’s letter aloud; the Leipzig correspondent’s letter."
+    },
+    {
+      "passages": [
+        "schiller-die-rauber:7.216"
+      ],
+      "assessment": "Moor’s last defiance before his death."
+    }
+  ]
+}
