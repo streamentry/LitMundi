@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "work_id": "dickens-great-expectations",
+  "edition_id": "dickens-great-expectations-vi-ai-2026",
+  "source_edition_id": "dickens-great-expectations-en-pg1400",
+  "title_vi": "Những Kỳ Vọng Lớn",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Dickens’s comic and retrospective narrator is kept; the grotesque exaggeration and the adult narrator’s irony are carried over without modernising.",
+      "rationale": "The book is its comedy and its retrospect."
+    },
+    {
+      "topic": "Scope",
+      "decision": "The translation covers the complete novel as printed by Gutenberg #1400, the table of contents and 59 chapters, 3893 units.",
+      "rationale": "The witness defines the scope."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-dickens-great-expectations",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "dickens-great-expectations:9.29",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A name used before Pip learns it; the address was rendered without the name."
+        },
+        {
+          "segment": "dickens-great-expectations:16.3",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A comic ditty was given invented narration; restored to the sung lines only."
+        },
+        {
+          "segment": "dickens-great-expectations:16.89",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A lyric was paraphrased rather than rendered; restored."
+        },
+        {
+          "segment": "dickens-great-expectations:21.49",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Jew’s cousin was rendered as the master; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:23.30",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A possessive given to Herbert instead of Pip; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:23.56",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Twenty minutes to nine” read as 8:20; corrected to 8:40."
+        },
+        {
+          "segment": "dickens-great-expectations:29.11",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The convicts were made to treat the guard; the English has them treating him; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:39.36",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The referent of “it” was given to Estella instead of Miss Havisham’s breast; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:39.83",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Estella’s correction of Pip was reversed; restored."
+        },
+        {
+          "segment": "dickens-great-expectations:40.67",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A pronoun pointed at the dog instead of the gentleman; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:43.9",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Public boarding-school” gave Compeyson the wrong class; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:44.34",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A young lady was called a matron; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:47.4",
+          "category": "target_naturalness",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A bay-window was mistranslated; corrected to the architectural sense."
+        },
+        {
+          "segment": "dickens-great-expectations:47.26",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The refrain sentence was inverted; restored."
+        },
+        {
+          "segment": "dickens-great-expectations:54.38",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Goes out of his way” reversed; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:56.58",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A pew-opener was taken for a collector; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:58.75",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Joe’s “harm” pun has no Vietnamese equivalent; the sense is kept and the pun is recorded as lost."
+        },
+        {
+          "segment": "dickens-great-expectations:60.40",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The pronouns of Pip’s reply were reversed; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:16.71",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Come on your birthday” was given Miss Havisham’s birthday instead of Pip’s; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:3.15",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Pip’s address and self-reference to Mrs. Joe were inconsistent with the glossary; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:10.11",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Pumblechook’s triumph was reversed; restored."
+        },
+        {
+          "segment": "dickens-great-expectations:11.40",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Nevvy” lost its nephew sense; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:17.10",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Tea for Joe” was given as tea for coffee, and “that strength” had no referent; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:6.47",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The convict’s sarcasm (“worth my while to murder him”) was reversed; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:12.45",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Jaggers’s cool formal register was turned into a rustic bully’s; corrected."
+        },
+        {
+          "segment": "dickens-great-expectations:16.27",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“A gross or two” of screws was rendered as a dozen; corrected to the scale of the joke."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Estella’s cold address to Pip",
+      "draft_rendering": "anh (cold lines); Pip (her use of the name)",
+      "alternatives": [],
+      "rationale": "The decided rule for cold speech from Estella to Pip; warm lines are kept warm.",
+      "passages": [
+        "dickens-great-expectations:9.30",
+        "dickens-great-expectations:9.63",
+        "dickens-great-expectations:9.92",
+        "dickens-great-expectations:30.59",
+        "dickens-great-expectations:45.66"
+      ]
+    },
+    {
+      "source_term": "Mrs. Joe Gargery",
+      "draft_rendering": "bà Gargery",
+      "alternatives": [
+        "bà Joe"
+      ],
+      "rationale": "The glossary form; the draft standardises on it.",
+      "passages": [
+        "dickens-great-expectations:3.60",
+        "dickens-great-expectations:5.2",
+        "dickens-great-expectations:5.14",
+        "dickens-great-expectations:8.70"
+      ]
+    },
+    {
+      "source_term": "Miss Havisham",
+      "draft_rendering": "cô Havisham (narration); bà Havisham where the glossary sets it",
+      "alternatives": [],
+      "rationale": "Narration uses cô Havisham.",
+      "passages": [
+        "dickens-great-expectations:12.2",
+        "dickens-great-expectations:16.71"
+      ]
+    },
+    {
+      "source_term": "Satis House",
+      "draft_rendering": "Satis House (name kept; the pun ‘Enough House’ glossed in translation where it occurs)",
+      "alternatives": [
+        "Nhà Đủ Rồi"
+      ],
+      "rationale": "The name is kept; the pun is translated where it is a pun.",
+      "passages": [
+        "dickens-great-expectations:9.24"
+      ]
+    },
+    {
+      "source_term": "Joe Gargery’s dialect",
+      "draft_rendering": "rural colloquial Vietnamese without imitation spelling",
+      "alternatives": [],
+      "rationale": "Dialect is kept recognisably rural, not imitated in spelling.",
+      "passages": [
+        "dickens-great-expectations:8.27",
+        "dickens-great-expectations:36.8",
+        "dickens-great-expectations:36.10"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #1400, the 1867 edition of Great Expectations. The Gutenberg page does not name every printing detail and the text was not collated with the 1861 serial or the 1862 volume.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "17921084eb2ef331c0a25404a8ef75b3075fea5885a9aa569b11fc9a77c21ce2",
+  "target_sha256": "d476119f2c175cfb84a4c1356489021b047680107c3418db99d96b1c90eed30c",
+  "coverage": {
+    "canonical_passages": 3893,
+    "translated_passages": 3893,
+    "aligned_passages": 3893
+  },
+  "ai_review_record": "corpus/reviews/dickens-great-expectations/dickens-great-expectations-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.625,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [],
+  "title_review": {
+    "source_title": "Great Expectations",
+    "target_title": "Những Kỳ Vọng Lớn",
+    "rationale": "The title follows the translation’s chosen Vietnamese title, ‘Những Kỳ Vọng Lớn’ (Great Expectations); no other Vietnamese edition was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "dickens-great-expectations:1.1"
+      ],
+      "assessment": "The table of contents, rendered as ‘Mục lục’."
+    },
+    {
+      "passages": [
+        "dickens-great-expectations:60.47"
+      ],
+      "assessment": "The last unit of the witness: the closing paragraph of the novel."
+    }
+  ]
+}
