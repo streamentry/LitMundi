@@ -1333,5 +1333,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Вишнёвый сад",
+    "author": "Anton Chekhov",
+    "author_death_year": 1904,
+    "first_published_year": 1904,
+    "original_language": "ru",
+    "genre": "play",
+    "description": "The Cherry Orchard (Вишнёвый сад) is Anton Chekhov’s last play, written in 1903 and first staged by the Moscow Art Theatre on 17 January 1904, under Konstantin Stanislavski. In four acts it follows Lyubov Ranevskaya, a landowner back from Paris, and her family and neighbours as the estate and its famous orchard are put up for sale to pay debts. Chekhov called it a comedy, but Stanislavski’s production treated it as a tragedy, and directors have been working with that split ever since.",
+    "id": "chekhov-the-cherry-orchard",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

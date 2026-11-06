@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "work_id": "chekhov-the-cherry-orchard",
+  "edition_id": "chekhov-cherry-orchard-vi-ai-2026",
+  "source_edition_id": "chekhov-cherry-orchard-ru-wikisource",
+  "title_vi": "Vườn anh đào",
+  "translation_direction": "ru → vi; direct from the specifically identified complete Russian electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Chekhov’s mood, pauses (‘Im lặng’) and ironic elegy are kept: short fragments, ellipses and long pauses are rendered faithfully.",
+      "rationale": "The play lives in its pauses and its irony."
+    },
+    {
+      "topic": "Structure",
+      "decision": "Paragraphs that the transcription leaves without a speaker are kept unlabelled rather than assigned a speaker.",
+      "rationale": "Assigning speakers would invent attribution the transcription does not make."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-chekhov-the-cherry-orchard",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "chekhov-the-cherry-orchard:1.10",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Lopakhin’s ‘punched me in the face with his fist’ was rendered as ‘slapped’; corrected to a punch."
+        },
+        {
+          "segment": "chekhov-the-cherry-orchard:1.92",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Ania’s younger brother Grisha was called ‘anh’; now ‘em’."
+        },
+        {
+          "segment": "chekhov-the-cherry-orchard:1.134",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Вырубить’ (cut down) the whole old orchard was rendered as cutting back some trees; corrected."
+        },
+        {
+          "segment": "chekhov-the-cherry-orchard:2.37",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Yasha and Dunyasha’s address was reversed (the addressee is Yasha, so ‘anh’, and Dunyasha is ‘em’); corrected."
+        },
+        {
+          "segment": "chekhov-the-cherry-orchard:4.77",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The second ‘Не правда ли?’ with its stage direction (kissing her mother’s hands) was omitted; restored."
+        },
+        {
+          "segment": "chekhov-the-cherry-orchard:4.97",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Pishchik’s ‘Всем должен’ (I owe everybody) was rendered as a general remark; corrected."
+        },
+        {
+          "segment": "chekhov-the-cherry-orchard:4.76",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "‘Бабушка’ (grandmother) for the Yaroslavl countess was given the maternal ‘bà ngoại’; changed to the neutral ‘bà’."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Вишнёвый сад",
+      "draft_rendering": "Vườn anh đào",
+      "alternatives": [],
+      "rationale": "The title and the orchard, one term throughout.",
+      "passages": [
+        "chekhov-the-cherry-orchard:1.1",
+        "chekhov-the-cherry-orchard:1.134",
+        "chekhov-the-cherry-orchard:1.231"
+      ]
+    },
+    {
+      "source_term": "Lyubov Andreyevna / Ranevskaya",
+      "draft_rendering": "Lyubov Andreyevna (label); bà Ranevskaya (narration)",
+      "alternatives": [],
+      "rationale": "The label keeps the name; the narration uses the family form.",
+      "passages": [
+        "chekhov-the-cherry-orchard:1.10",
+        "chekhov-the-cherry-orchard:4.76"
+      ]
+    },
+    {
+      "source_term": "Address pairs",
+      "draft_rendering": "Ranevskaya–Anya con/mẹ; Ranevskaya–Gaev anh/em; Lopakhin–Ranevskaya tôi/bà; Yasha–Dunyasha anh/em",
+      "alternatives": [],
+      "rationale": "Fixed through the play.",
+      "passages": [
+        "chekhov-the-cherry-orchard:2.37",
+        "chekhov-the-cherry-orchard:4.77"
+      ]
+    },
+    {
+      "source_term": "Russian kin and social terms",
+      "draft_rendering": "бабушка → bà; мужичок → người nông dân bé nhỏ; кулак → tên cu-lắc",
+      "alternatives": [],
+      "rationale": "Kin and class terms kept with a consistent Vietnamese equivalent.",
+      "passages": [
+        "chekhov-the-cherry-orchard:1.10",
+        "chekhov-the-cherry-orchard:1.92",
+        "chekhov-the-cherry-orchard:4.76"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Russian Wikisource transcription of Вишнёвый сад, the four acts in separate subpages, as the text the project could read directly; the project did not collate it with the 1904 first edition or the later Chekhov edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "1328cf2808be3bedee5553ccbd73cd066d3f802c9a89d97873349b5a552cad90",
+  "target_sha256": "c98d01b916d845e30ebaab71b6fd05a9f19c66e5d38c33a4f01b551524b9a3f2",
+  "coverage": {
+    "canonical_passages": 843,
+    "translated_passages": 843,
+    "aligned_passages": 843
+  },
+  "ai_review_record": "corpus/reviews/chekhov-the-cherry-orchard/chekhov-cherry-orchard-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.675,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [
+    {
+      "segment": "chekhov-the-cherry-orchard:2.142",
+      "category": "target_naturalness",
+      "severity": "minor",
+      "status": "open",
+      "explanation": "Gaev is addressed as ‘bác’ in a few lines where ‘cậu’ fits the kinship; left for the editor to confirm."
+    }
+  ],
+  "title_review": {
+    "source_title": "Вишнёвый сад",
+    "target_title": "Vườn anh đào",
+    "rationale": "The title is rendered as ‘Vườn anh đào’ (The Cherry Orchard); no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "chekhov-the-cherry-orchard:1.1"
+      ],
+      "assessment": "The opening stage direction of Act I: the nursery room at dawn."
+    },
+    {
+      "passages": [
+        "chekhov-the-cherry-orchard:4.187"
+      ],
+      "assessment": "The last unit: the sound of an axe striking the cherry trees."
+    }
+  ]
+}
