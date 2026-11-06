@@ -1378,5 +1378,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "La Princesse de Clèves",
+    "author": "Madame de La Fayette",
+    "author_death_year": 1693,
+    "first_published_year": 1678,
+    "original_language": "fr",
+    "genre": "novel",
+    "description": "La Princesse de Clèves is a French novel published anonymously in March 1678 and generally attributed to Madame de La Fayette. Its action runs from October 1558 to November 1559 at the court of Henri II, where a sixteen-year-old heiress marries the Prince de Clèves and then meets the Duke de Nemours. The text on this site is Project Gutenberg #18797, which includes the publisher’s preface and all four parts of the novel.",
+    "id": "fayette-la-princesse-de-cleves",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

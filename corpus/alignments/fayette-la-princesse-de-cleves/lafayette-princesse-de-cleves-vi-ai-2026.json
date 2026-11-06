@@ -1,0 +1,4288 @@
+{
+  "schema_version": 1,
+  "work_id": "fayette-la-princesse-de-cleves",
+  "edition_id": "lafayette-princesse-de-cleves-vi-ai-2026",
+  "source_edition_id": "lafayette-princesse-de-cleves-fr-pg18797",
+  "links": [
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.1"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.1"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.2"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.2"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.3"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.3"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.4"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.4"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.5"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.5"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.6"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.6"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.7"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.7"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.8"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.8"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.9"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.9"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.10"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.10"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.11"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.11"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.12"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.12"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.13"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.13"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.14"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.14"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.15"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.15"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.16"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.16"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.17"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.17"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.18"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.18"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.19"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.19"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.20"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.20"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.21"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.21"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.22"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.22"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.23"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.23"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.24"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.24"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.25"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.25"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.26"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.26"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.27"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.27"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.28"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.28"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.29"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.29"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.30"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.30"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.31"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.31"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.32"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.32"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.33"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.33"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.34"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.34"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.35"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.35"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.36"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.36"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.37"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.37"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.38"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.38"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.39"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.39"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.40"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.40"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.41"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.41"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.42"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.42"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.43"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.43"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.44"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.44"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.45"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.45"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.46"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.46"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.47"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.47"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.48"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.48"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.49"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.49"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.50"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.50"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.51"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.51"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.52"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.52"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.53"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.53"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.54"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.54"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.55"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.55"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.56"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.56"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.57"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.57"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.58"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.58"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.59"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.59"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.60"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.60"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.61"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.61"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.62"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.62"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.63"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.63"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.64"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.64"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.65"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.65"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.66"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.66"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.67"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.67"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.68"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.68"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.69"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.69"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.70"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.70"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.71"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.71"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.72"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.72"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.73"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.73"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.74"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.74"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.75"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.75"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.76"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.76"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.77"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.77"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.78"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.78"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.79"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.79"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.80"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.80"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.81"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.81"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.82"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.82"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.83"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.83"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.84"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.84"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.85"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.85"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.86"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.86"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.87"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.87"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.88"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.88"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.89"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.89"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.90"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.90"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.91"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.91"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.92"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.92"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.93"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.93"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.94"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.94"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.95"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.95"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.96"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.96"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.97"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.97"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.98"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.98"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.99"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.99"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.100"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.100"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.101"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.101"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.102"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.102"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.103"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.103"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.104"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.104"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.105"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.105"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.106"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.106"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.107"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.107"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.108"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.108"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.109"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.109"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.110"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.110"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.111"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.111"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.112"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.112"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.113"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.113"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.114"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.114"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.115"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.115"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.116"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.116"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.117"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.117"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.118"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.118"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.119"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.119"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.120"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.120"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.121"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.121"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.122"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.122"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.123"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.123"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.124"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.124"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.125"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.125"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.126"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.126"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.127"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.127"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.128"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.128"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.129"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.129"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:1.130"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:1.130"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.1"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.1"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.2"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.2"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.3"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.3"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.4"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.4"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.5"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.5"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.6"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.6"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.7"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.7"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.8"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.8"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.9"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.9"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.10"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.10"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.11"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.11"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.12"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.12"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.13"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.13"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.14"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.14"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.15"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.15"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.16"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.16"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.17"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.17"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.18"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.18"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.19"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.19"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.20"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.20"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.21"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.21"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.22"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.22"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.23"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.23"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.24"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.24"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.25"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.25"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.26"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.26"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.27"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.27"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.28"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.28"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.29"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.29"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.30"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.30"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.31"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.31"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.32"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.32"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.33"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.33"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.34"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.34"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.35"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.35"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.36"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.36"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.37"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.37"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.38"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.38"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.39"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.39"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.40"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.40"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.41"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.41"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.42"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.42"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.43"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.43"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.44"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.44"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.45"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.45"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.46"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.46"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.47"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.47"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.48"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.48"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.49"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.49"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.50"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.50"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.51"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.51"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.52"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.52"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.53"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.53"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.54"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.54"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.55"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.55"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.56"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.56"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.57"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.57"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.58"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.58"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.59"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.59"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.60"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.60"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.61"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.61"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.62"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.62"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.63"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.63"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.64"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.64"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.65"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.65"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.66"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.66"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.67"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.67"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.68"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.68"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.69"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.69"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.70"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.70"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.71"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.71"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.72"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.72"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.73"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.73"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.74"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.74"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.75"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.75"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.76"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.76"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.77"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.77"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.78"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.78"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.79"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.79"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.80"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.80"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.81"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.81"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.82"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.82"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.83"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.83"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.84"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.84"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.85"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.85"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.86"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.86"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.87"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.87"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.88"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.88"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.89"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.89"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.90"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.90"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.91"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.91"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.92"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.92"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.93"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.93"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.94"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.94"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.95"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.95"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.96"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.96"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.97"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.97"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.98"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.98"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.99"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.99"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.100"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.100"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.101"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.101"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.102"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.102"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.103"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.103"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.104"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.104"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.105"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.105"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.106"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.106"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:2.107"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:2.107"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.1"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.1"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.2"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.2"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.3"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.3"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.4"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.4"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.5"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.5"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.6"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.6"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.7"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.7"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.8"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.8"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.9"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.9"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.10"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.10"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.11"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.11"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.12"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.12"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.13"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.13"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.14"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.14"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.15"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.15"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.16"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.16"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.17"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.17"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.18"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.18"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.19"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.19"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.20"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.20"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.21"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.21"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.22"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.22"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.23"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.23"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.24"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.24"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.25"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.25"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.26"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.26"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.27"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.27"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.28"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.28"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.29"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.29"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.30"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.30"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.31"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.31"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.32"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.32"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.33"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.33"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.34"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.34"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.35"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.35"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.36"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.36"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.37"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.37"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.38"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.38"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.39"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.39"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.40"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.40"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.41"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.41"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.42"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.42"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.43"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.43"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.44"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.44"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.45"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.45"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.46"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.46"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.47"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.47"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.48"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.48"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.49"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.49"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.50"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.50"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.51"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.51"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.52"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.52"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.53"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.53"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.54"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.54"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.55"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.55"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.56"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.56"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.57"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.57"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.58"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.58"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.59"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.59"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.60"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.60"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.61"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.61"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.62"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.62"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.63"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.63"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.64"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.64"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.65"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.65"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.66"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.66"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.67"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.67"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.68"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.68"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.69"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.69"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.70"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.70"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.71"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.71"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.72"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.72"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.73"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.73"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.74"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.74"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.75"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.75"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.76"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.76"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.77"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.77"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.78"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.78"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.79"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.79"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.80"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.80"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.81"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.81"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.82"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.82"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.83"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.83"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.84"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.84"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.85"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.85"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.86"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.86"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.87"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.87"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.88"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.88"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.89"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.89"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.90"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.90"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.91"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.91"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.92"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.92"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.93"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.93"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.94"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.94"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.95"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.95"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.96"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.96"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.97"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.97"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.98"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.98"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.99"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.99"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.100"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.100"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.101"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.101"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.102"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.102"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.103"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.103"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.104"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.104"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.105"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.105"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.106"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.106"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.107"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.107"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.108"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.108"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.109"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.109"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.110"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.110"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.111"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.111"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.112"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.112"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.113"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.113"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.114"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.114"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.115"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.115"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.116"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.116"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.117"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.117"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.118"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.118"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.119"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.119"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.120"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.120"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.121"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.121"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.122"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.122"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.123"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.123"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.124"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.124"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.125"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.125"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.126"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.126"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.127"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.127"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.128"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.128"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.129"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.129"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.130"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.130"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.131"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.131"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.132"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.132"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.133"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.133"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.134"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.134"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.135"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.135"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.136"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.136"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.137"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.137"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.138"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.138"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.139"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.139"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.140"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.140"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.141"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.141"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.142"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.142"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.143"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.143"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.144"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.144"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.145"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.145"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.146"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.146"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.147"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.147"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.148"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.148"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.149"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.149"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.150"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.150"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.151"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.151"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.152"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.152"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.153"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.153"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.154"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.154"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.155"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.155"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.156"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.156"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.157"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.157"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.158"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.158"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.159"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.159"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.160"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.160"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:3.161"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:3.161"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.1"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.1"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.2"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.2"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.3"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.3"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.4"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.4"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.5"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.5"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.6"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.6"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.7"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.7"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.8"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.8"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.9"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.9"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.10"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.10"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.11"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.11"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.12"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.12"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.13"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.13"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.14"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.14"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.15"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.15"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.16"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.16"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.17"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.17"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.18"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.18"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.19"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.19"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.20"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.20"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.21"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.21"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.22"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.22"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.23"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.23"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.24"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.24"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.25"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.25"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.26"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.26"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.27"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.27"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.28"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.28"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.29"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.29"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.30"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.30"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.31"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.31"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.32"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.32"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.33"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.33"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.34"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.34"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.35"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.35"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.36"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.36"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.37"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.37"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.38"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.38"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.39"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.39"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.40"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.40"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.41"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.41"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.42"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.42"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.43"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.43"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.44"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.44"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.45"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.45"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.46"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.46"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.47"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.47"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.48"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.48"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.49"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.49"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.50"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.50"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.51"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.51"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.52"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.52"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.53"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.53"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.54"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.54"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.55"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.55"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.56"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.56"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.57"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.57"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.58"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.58"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.59"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.59"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.60"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.60"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.61"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.61"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.62"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.62"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.63"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.63"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.64"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.64"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.65"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.65"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.66"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.66"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.67"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.67"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.68"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.68"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.69"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.69"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.70"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.70"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.71"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.71"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.72"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.72"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.73"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.73"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.74"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.74"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.75"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.75"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.76"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.76"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.77"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.77"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.78"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.78"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.79"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.79"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.80"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.80"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.81"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.81"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.82"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.82"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.83"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.83"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.84"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.84"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.85"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.85"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.86"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.86"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.87"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.87"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.88"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.88"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.89"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.89"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.90"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.90"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.91"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.91"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.92"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.92"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.93"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.93"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.94"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.94"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.95"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.95"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.96"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.96"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.97"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.97"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.98"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.98"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.99"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.99"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.100"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.100"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.101"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.101"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.102"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.102"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.103"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.103"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.104"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.104"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.105"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.105"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.106"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.106"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.107"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.107"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.108"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.108"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.109"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.109"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.110"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.110"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.111"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.111"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.112"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.112"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.113"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.113"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.114"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.114"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.115"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.115"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.116"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.116"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.117"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.117"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.118"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.118"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.119"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.119"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.120"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.120"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.121"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.121"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.122"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.122"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.123"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.123"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.124"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.124"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.125"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.125"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.126"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.126"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.127"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.127"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.128"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.128"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.129"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.129"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.130"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.130"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.131"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.131"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.132"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.132"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.133"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.133"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.134"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.134"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.135"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.135"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.136"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.136"
+      ]
+    },
+    {
+      "source": [
+        "fayette-la-princesse-de-cleves:4.137"
+      ],
+      "target": [
+        "fayette-la-princesse-de-cleves:4.137"
+      ]
+    }
+  ]
+}

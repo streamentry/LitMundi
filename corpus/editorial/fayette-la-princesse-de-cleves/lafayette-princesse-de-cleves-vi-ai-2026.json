@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "work_id": "fayette-la-princesse-de-cleves",
+  "edition_id": "lafayette-princesse-de-cleves-vi-ai-2026",
+  "source_edition_id": "lafayette-princesse-de-cleves-fr-pg18797",
+  "title_vi": "Công nương xứ Clèves",
+  "translation_direction": "fr → vi; direct from the specifically identified complete French electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Madame de La Fayette’s classical analytic prose is kept: long periodic sentences, abstract moral vocabulary and restraint, without modernised casual speech.",
+      "rationale": "The book is its analysis of passion and duty."
+    },
+    {
+      "topic": "Scope",
+      "decision": "The translation covers the publisher’s preface and the four parts exactly as Gutenberg #18797 prints them.",
+      "rationale": "The witness defines the scope."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-fayette-la-princesse-de-cleves",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "fayette-la-princesse-de-cleves:1.30",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Reverses who marries whom in the arrangement with the King of Scotland."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:1.72",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The connétable is the object of “éloigna”; the translation made the king the one sent away."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:1.81",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Cette reine” is the Dauphine; the sense was reversed."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:1.84",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“La reine, sa femme” is the Dauphin’s wife, the Dauphine, not the queen."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:1.109",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Madame de Clèves speaks to the Dauphine; the speaker and address form were wrong."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:2.21",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“De l’avoir perdue” refers to Madame de Tournon, a woman; the translation read “nó” (it)."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:2.23",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Reversed sense: she had found him pleasing at about the time he loved her, not the reverse."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:2.65",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Vu” means read, not heard: the tales the Dauphine means are ones you have read."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:2.98",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Wrong location and referent: the Vidame goes to Nemours’s house and into Nemours’s bedroom."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:3.2",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Cette princesse” is the queen, not a young princess."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:3.18",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Soit vue” (be seen) was negated in the translation."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:3.31",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The speaker is Madame de Clèves addressing the Dauphine; the referent was wrong."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:3.39",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The subject of “enverrait quérir” is Madame de Clèves, not the dauphine."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:3.99",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The second “ce prince” refers to Nemours, not to a different man."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:3.125",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Ce n’est pas de vous dont vous parlez”: Nemours is not speaking about himself; the translation made it about the friend."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:3.155",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Ce prince tomba” is the King (Henri II), who has just been wounded; the translation made him a prince."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:3.159",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Les cachets de ce prince” are the King’s seals; the translation gave them to the prince."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:4.3",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Referent error in the clause about the children not resembling their father."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:4.8",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Il lui fut impossible de demeurer chez la reine” refers to the Dauphine, not the queen."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:4.29",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Reversed sense in Nemours’s soliloquy."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:4.51",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Ne cherchent que l’honneur de vous séduire” means their only aim is the glory of seducing you; the idiom was misread."
+        },
+        {
+          "segment": "fayette-la-princesse-de-cleves:4.90",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The referent was flipped in the clause about being saved from extravagances."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Dauphin / Dauphine / Reine / Reine mère / Roi",
+      "draft_rendering": "Thái tử; Thái tử phi; Hoàng hậu; Hoàng thái hậu; nhà vua",
+      "alternatives": [],
+      "rationale": "Royal titles kept distinct throughout: the heir, the Dauphine, the queen (Catherine de Médicis), the queen mother and the king.",
+      "passages": [
+        "fayette-la-princesse-de-cleves:1.30",
+        "fayette-la-princesse-de-cleves:1.84",
+        "fayette-la-princesse-de-cleves:1.109",
+        "fayette-la-princesse-de-cleves:3.161"
+      ]
+    },
+    {
+      "source_term": "Madame de Clèves / Monsieur de Nemours / Madame de Chartres",
+      "draft_rendering": "bà de Clèves; ông de Nemours; bà de Chartres",
+      "alternatives": [],
+      "rationale": "Narration names fixed as in the glossary.",
+      "passages": [
+        "fayette-la-princesse-de-cleves:1.7",
+        "fayette-la-princesse-de-cleves:1.50",
+        "fayette-la-princesse-de-cleves:1.60"
+      ]
+    },
+    {
+      "source_term": "La vertu / la passion / le devoir / le repos",
+      "draft_rendering": "đức hạnh; đam mê; bổn phận; sự yên ổn",
+      "alternatives": [],
+      "rationale": "One rendering of each abstract term.",
+      "passages": [
+        "fayette-la-princesse-de-cleves:3.49",
+        "fayette-la-princesse-de-cleves:4.16",
+        "fayette-la-princesse-de-cleves:4.76"
+      ]
+    },
+    {
+      "source_term": "Address pairs",
+      "draft_rendering": "Madame de Clèves–Nemours and Madame de Clèves–her husband: bà/ông (formal); Madame de Chartres–daughter: mẹ/con; Nemours to the queen: tâu hoàng hậu",
+      "alternatives": [],
+      "rationale": "Stable forms of address through the book.",
+      "passages": [
+        "fayette-la-princesse-de-cleves:1.109"
+      ]
+    },
+    {
+      "source_term": "Title",
+      "draft_rendering": "Công nương xứ Clèves",
+      "alternatives": [],
+      "rationale": "Title as chosen for this edition.",
+      "passages": [
+        "fayette-la-princesse-de-cleves:1.1"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #18797, an electronic transcription of La Princesse de Clèves. The Gutenberg page does not name the exact printing and the text was not collated with the 1678 first edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "43251734a66657d24d5255045461263b4722d583638d3712b03c6bab6040dade",
+  "target_sha256": "1117a8c883762e25e37192fbd7010ab1cd898841e4a365519f4bd4805d697875",
+  "coverage": {
+    "canonical_passages": 535,
+    "translated_passages": 535,
+    "aligned_passages": 535
+  },
+  "ai_review_record": "corpus/reviews/fayette-la-princesse-de-cleves/lafayette-princesse-de-cleves-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.65,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [],
+  "title_review": {
+    "source_title": "La Princesse de Clèves",
+    "target_title": "Công nương xứ Clèves",
+    "rationale": "The title follows the glossary and catalog choice, ‘Công nương xứ Clèves’ (The Princess of Clèves)."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "fayette-la-princesse-de-cleves:1.1"
+      ],
+      "assessment": "The publisher’s preface, “LE LIBRAIRE AU LECTEUR.”, rendered “NGƯỜI XUẤT BẢN GỬI ĐỘC GIẢ.”"
+    },
+    {
+      "passages": [
+        "fayette-la-princesse-de-cleves:4.137"
+      ],
+      "assessment": "The last unit of the witness, the final unit of the Quatrième partie."
+    }
+  ]
+}

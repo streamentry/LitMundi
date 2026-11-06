@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 89 published · 185 todo · 0 in progress · 226 on hold.**
+**500 selected works · 90 published · 184 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -171,7 +171,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **147. Rabindranath Tagore — Gitanjali (Bengali collection, 1910)** · bn · poetry collection · **Todo** · [Evidence](https://www.nobelprize.org/prizes/literature/1913/tagore/biographical/?print=1)
 - [x] **148. Molière — L'Avare** · fr · play · **Published** · [Evidence](https://www.gutenberg.org/ebooks/6318) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/moliere-l-avare/moliere-l-avare-vi-ai-2026/)
 - [ ] **149. Rabindranath Tagore — Gora** · bn · novel · **Todo** · [Evidence](https://www.penguinrandomhouse.com/authors/54667/rabindranath-tagore/)
-- [ ] **150. Madame de La Fayette — La Princesse de Clèves** · fr · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/18797)
+- [x] **150. Madame de La Fayette — La Princesse de Clèves** · fr · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/18797) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/fayette-la-princesse-de-cleves/lafayette-princesse-de-cleves-vi-ai-2026/)
 
 ## 151–200
 
