@@ -1348,5 +1348,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Три сестры",
+    "author": "Anton Chekhov",
+    "author_death_year": 1904,
+    "first_published_year": 1901,
+    "original_language": "ru",
+    "genre": "play",
+    "description": "Three Sisters (Три сестры) is a play in four acts by Anton Chekhov, written in 1900 and first performed by the Moscow Art Theatre on 31 January 1901. Olga, Masha and Irina Prozorov have lived in a provincial town since leaving Moscow eleven years earlier, and they still talk about going back. Around them, army officers, a new member of the household and money troubles keep life moving without taking the sisters anywhere.",
+    "id": "chekhov-three-sisters",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 87 published · 187 todo · 0 in progress · 226 on hold.**
+**500 selected works · 88 published · 186 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -202,7 +202,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **175. Leo Tolstoy — Anna Karenina** · ru · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/1399)
 - [x] **176. Anton Chekhov — The Cherry Orchard** · ru · play · **Published** · [Evidence](https://www.gutenberg.org/ebooks/7986) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/chekhov-the-cherry-orchard/chekhov-cherry-orchard-vi-ai-2026/)
 - [ ] **177. Farid ud-Din Attar — The Conference of the Birds** · fa · poem · **Todo** · [Evidence](https://www.penguinrandomhouse.com/books/260888/the-conference-of-the-birds-by-farid-ud-din-attar/)
-- [ ] **178. Anton Chekhov — Three Sisters** · ru · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/7986)
+- [x] **178. Anton Chekhov — Three Sisters** · ru · play · **Published** · [Evidence](https://www.gutenberg.org/ebooks/7986) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/chekhov-three-sisters/chekhov-three-sisters-vi-ai-2026/)
 - [ ] **179. Nizami Ganjavi — Layli and Majnun** · fa · poem · **Todo** · [Evidence](https://www.penguinrandomhouse.com/books/600207/layli-and-majnun-by-nezami-ganjavi-translated-with-an-introduction-and-notes-by-dick-davis/)
 - [ ] **180. Mikhail Lermontov — A Hero of Our Time** · ru · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/913)
 - [ ] **181. Sophocles — Oedipus Rex** · grc · play · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/31)

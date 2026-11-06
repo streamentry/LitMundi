@@ -99,8 +99,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Georg Büchner — Dantons Tod](corpus/editorial/buchner-dantons-tod/buchner-dantons-tod-vi-ai-2026.json) | German; Project Gutenberg #5072 | 872 | 8.73 | AI-reviewed translation published |
 | [Friedrich Schiller — Die Räuber](corpus/editorial/schiller-die-rauber/schiller-die-rauber-vi-ai-2026.json) | German; Project Gutenberg #47804 | 1248 | 8.70 | AI-reviewed translation published |
 | [Anton Chekhov — The Cherry Orchard (Вишнёвый сад)](corpus/editorial/chekhov-the-cherry-orchard/chekhov-cherry-orchard-vi-ai-2026.json) | Russian; Russian Wikisource | 843 | 8.68 | AI-reviewed translation published |
+| [Anton Chekhov — Three Sisters (Три сестры)](corpus/editorial/chekhov-three-sisters/chekhov-three-sisters-vi-ai-2026.json) | Russian; Russian Wikisource | 1041 | 8.78 | AI-reviewed translation published |
 
-All eighty-nine originals are published, giving one hundred and seventy-eight public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All ninety originals are published, giving one hundred and eighty public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

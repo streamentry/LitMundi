@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "work_id": "chekhov-three-sisters",
+  "edition_id": "chekhov-three-sisters-vi-ai-2026",
+  "source_edition_id": "chekhov-three-sisters-ru-wikisource",
+  "title_vi": "Ba chị em",
+  "translation_direction": "ru → vi; direct from the specifically identified complete Russian electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Chekhov’s elegy of unfulfilled longing is kept: the refrain of Moscow, the long pauses rendered as (Im lặng.), the officers’ easy talk and the sisters’ restless dreams stay faithful.",
+      "rationale": "The play lives in its longing and its pauses."
+    },
+    {
+      "topic": "Structure",
+      "decision": "Paragraphs that the transcription leaves without a speaker are kept unlabelled rather than assigned a speaker.",
+      "rationale": "Assigning speakers would invent attribution the transcription does not make."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-chekhov-three-sisters",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "chekhov-three-sisters:1.59",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Masha’s sibling forms were reversed (she called herself “em” and Irina “chị”); corrected to chị/em in her speech."
+        },
+        {
+          "segment": "chekhov-three-sisters:1.116",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Irina’s forms reversed as well; corrected."
+        },
+        {
+          "segment": "chekhov-three-sisters:1.212",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A stage direction used “bà” for a woman whom the Russian only refers to as “к ней”; corrected."
+        },
+        {
+          "segment": "chekhov-three-sisters:2.283",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The troika ride (“прокатиться”) was rendered as a walk; corrected to a drive."
+        },
+        {
+          "segment": "chekhov-three-sisters:2.303",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The same troika ride in Natasha’s line; corrected."
+        },
+        {
+          "segment": "chekhov-three-sisters:2.271",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Solyony’s “Мне все равно” (I don’t care) was rendered as “Tôi không sao”; corrected."
+        },
+        {
+          "segment": "chekhov-three-sisters:3.4",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Не дай бог” (God forbid) was rendered as “Chúa phù hộ”, reversing it; corrected."
+        },
+        {
+          "segment": "chekhov-three-sisters:3.30",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Olga’s own refusal was given the sibling form of the addressee; corrected."
+        },
+        {
+          "segment": "chekhov-three-sisters:3.114",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Tuzenbakh’s opening jibe at Masha was addressed to Irina; corrected."
+        },
+        {
+          "segment": "chekhov-three-sisters:4.58",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Kozyrev’s boys’ gymnasium was rendered as a girls’ school; corrected to a boys’ school."
+        },
+        {
+          "segment": "chekhov-three-sisters:4.171",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The addressee of “ты снесешь” was lost; corrected."
+        },
+        {
+          "segment": "chekhov-three-sisters:4.185",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Привык я к вам” (I have grown used to you) was rendered as the place; corrected to the sisters."
+        },
+        {
+          "segment": "chekhov-three-sisters:4.256",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Кому она нужна” reversed its dependency; corrected."
+        },
+        {
+          "segment": "chekhov-three-sisters:1.189",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "An invented rank class was removed from “надворный советник”."
+        },
+        {
+          "segment": "chekhov-three-sisters:3.71",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "In Act III, “не его дело” shifted the referent to Kulygin; corrected to the director."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Москва (refrain)",
+      "draft_rendering": "Mátxcơva",
+      "alternatives": [],
+      "rationale": "The city name in the sisters’ refrain, one rendering throughout.",
+      "passages": [
+        "chekhov-three-sisters:2.27"
+      ]
+    },
+    {
+      "source_term": "Sibling forms",
+      "draft_rendering": "Olga: chị to Masha and Irina; Irina: em to Olga, chị to Masha; Masha: chị to Irina",
+      "alternatives": [],
+      "rationale": "Olga is the eldest, Masha the middle, Irina the youngest.",
+      "passages": [
+        "chekhov-three-sisters:1.59",
+        "chekhov-three-sisters:1.116",
+        "chekhov-three-sisters:3.30"
+      ]
+    },
+    {
+      "source_term": "Именины / ангел",
+      "draft_rendering": "ngày mừng tên thánh",
+      "alternatives": [],
+      "rationale": "The name-day celebration, one term.",
+      "passages": [
+        "chekhov-three-sisters:1.59",
+        "chekhov-three-sisters:1.189",
+        "chekhov-three-sisters:3.114"
+      ]
+    },
+    {
+      "source_term": "Гимназия",
+      "draft_rendering": "trường trung học nữ (girls); trường trung học nam (boys)",
+      "alternatives": [],
+      "rationale": "The school’s sex is kept consistent with the character.",
+      "passages": [
+        "chekhov-three-sisters:4.58",
+        "chekhov-three-sisters:4.65",
+        "chekhov-three-sisters:4.176"
+      ]
+    }
+  ],
+  "witness_decision": "Selected the Russian Wikisource transcription of Три сестры, the four acts in separate subpages, as the text the project could read directly; the project did not collate it with the 1901 first edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "b7e8e2d0cbcda848f9afaec1bc05545656f22d2c59f801d7efa52201ad3cefe1",
+  "target_sha256": "9dd45adffdbebc6989719b8bef51be48289c0898f708d8e1958d6d12fb9a5f79",
+  "coverage": {
+    "canonical_passages": 1041,
+    "translated_passages": 1041,
+    "aligned_passages": 1041
+  },
+  "ai_review_record": "corpus/reviews/chekhov-three-sisters/chekhov-three-sisters-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.775,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [],
+  "title_review": {
+    "source_title": "Три сестры",
+    "target_title": "Ba chị em",
+    "rationale": "The title is rendered as ‘Ba chị em’ (The Three Sisters); no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "chekhov-three-sisters:1.1"
+      ],
+      "assessment": "The opening stage direction of Act I: the Prozorov drawing room at noon."
+    },
+    {
+      "passages": [
+        "chekhov-three-sisters:4.261"
+      ],
+      "assessment": "The last unit: the sisters’ final cry of longing."
+    }
+  ]
+}
