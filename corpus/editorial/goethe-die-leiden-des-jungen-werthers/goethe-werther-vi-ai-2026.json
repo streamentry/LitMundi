@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "work_id": "goethe-die-leiden-des-jungen-werthers",
+  "edition_id": "goethe-werther-vi-ai-2026",
+  "source_edition_id": "goethe-werther-de-pg2407",
+  "title_vi": "Nỗi đau của chàng Werther trẻ tuổi",
+  "translation_direction": "de → vi; direct from the specifically identified complete German electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Goethe’s sentimental rhythm, dashes and exclamations are kept; the nature imagery (valley, linden trees, moon, spring) carries the mood.",
+      "rationale": "The novel is its voice and its feeling."
+    },
+    {
+      "topic": "Scope",
+      "decision": "The translation covers exactly the first book of Gutenberg’s file; the novel’s ending and any second book are not claimed.",
+      "rationale": "The witness defines the scope."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-goethe-die-leiden-des-jungen-werthers",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.20",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Anzügliches” (engaging, attractive) was rendered as unpleasant; corrected to attractive."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.25",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Freundschaftsbezeigungen” (displays of friendship) was rendered as declarations of love; corrected."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.97",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The young men were described as flippant, not as going far; corrected."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.129",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Lotte’s address to Werther was inconsistent (“cô” then “anh”); made “anh” throughout."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.12",
+          "category": "imagery_consistency",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Melusine simile reversed who is bound; corrected."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.65",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Chapeau” is her partner’s jocular name, not a hat; corrected."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.88",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The pastor’s unmarried daughter was given the wife’s role; corrected to the daughter."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.135",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The subject who risks his life is the man, not the arm; corrected."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.165",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The humbled party is “us”, not the giver; corrected."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.71",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“entweihten” has no agent; the Vietnamese no longer names the addressee as the profaner."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.75",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Werther sees Lotte’s eyes, not the reverse; corrected."
+        },
+        {
+          "segment": "goethe-die-leiden-des-jungen-werthers:1.14",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The direction of sending the books was reversed; corrected."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Werther / Lotte / Albert / Wilhelm",
+      "draft_rendering": "Werther; Lotte; Albert; Wilhelm",
+      "alternatives": [],
+      "rationale": "Names kept as in the German.",
+      "passages": [
+        "goethe-die-leiden-des-jungen-werthers:1.1",
+        "goethe-die-leiden-des-jungen-werthers:1.14",
+        "goethe-die-leiden-des-jungen-werthers:1.75"
+      ]
+    },
+    {
+      "source_term": "Bester Freund (letter address)",
+      "draft_rendering": "Bạn thân mến",
+      "alternatives": [],
+      "rationale": "The letter salutation to Wilhelm, one rendering.",
+      "passages": [
+        "goethe-die-leiden-des-jungen-werthers:1.2"
+      ]
+    },
+    {
+      "source_term": "Leb’ wohl",
+      "draft_rendering": "Vĩnh biệt",
+      "alternatives": [],
+      "rationale": "The farewell, one rendering.",
+      "passages": [
+        "goethe-die-leiden-des-jungen-werthers:1.26",
+        "goethe-die-leiden-des-jungen-werthers:1.166",
+        "goethe-die-leiden-des-jungen-werthers:1.168",
+        "goethe-die-leiden-des-jungen-werthers:1.181"
+      ]
+    },
+    {
+      "source_term": "Address pairs",
+      "draft_rendering": "Werther–Lotte: em / anh (Lotte speaks to him as anh); Werther–Wilhelm: anh / bạn in letters",
+      "alternatives": [],
+      "rationale": "Stable pairs through the book.",
+      "passages": [
+        "goethe-die-leiden-des-jungen-werthers:1.14",
+        "goethe-die-leiden-des-jungen-werthers:1.75",
+        "goethe-die-leiden-des-jungen-werthers:1.129"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #2407, an electronic transcription labelled ‘Die Leiden des jungen Werther — Band 1’, based on the Hamburger Ausgabe, Band 6. The Gutenberg page does not name the exact printing and the text was not collated with the 1774 first edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "dd71d2682fdb314477cd42da4dc13c395bff7b07f4a26272281ec74301ed052c",
+  "target_sha256": "1d4424a0ca82bb1538bd9afbf63a444390c55636cb262094839f6ffd20f245df",
+  "coverage": {
+    "canonical_passages": 181,
+    "translated_passages": 181,
+    "aligned_passages": 181
+  },
+  "ai_review_record": "corpus/reviews/goethe-die-leiden-des-jungen-werthers/goethe-werther-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.625,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [],
+  "title_review": {
+    "source_title": "Die Leiden des jungen Werthers",
+    "target_title": "Nỗi đau của chàng Werther trẻ tuổi",
+    "rationale": "The title is rendered as ‘Nỗi đau của chàng Werther trẻ tuổi’ (The Sorrows of Young Werther); no earlier Vietnamese title was checked."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "goethe-die-leiden-des-jungen-werthers:1.1"
+      ],
+      "assessment": "The title of the novel in the edition used."
+    },
+    {
+      "passages": [
+        "goethe-die-leiden-des-jungen-werthers:1.181"
+      ],
+      "assessment": "The last unit: the closing words of the letters in Band 1."
+    }
+  ]
+}

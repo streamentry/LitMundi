@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 88 published · 186 todo · 0 in progress · 226 on hold.**
+**500 selected works · 89 published · 185 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -185,7 +185,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [ ] **158. Émile Zola — Thérèse Raquin** · fr · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/7461)
 - [ ] **159. Ibn Hazm — The Ring of the Dove** · ar · essay · **Todo** · [Evidence](https://search.worldcat.org/title/The-ring-of-the-dove-%3A-a-treatise-on-the-art-and-practice-of-Arab-love/oclc/37632556)
 - [ ] **160. Colette — La Vagabonde** · fr · novel · **Todo** · [Evidence](https://openlibrary.org/works/OL1184870W)
-- [ ] **161. Johann Wolfgang von Goethe — Die Leiden des jungen Werthers** · de · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/2407)
+- [x] **161. Johann Wolfgang von Goethe — Die Leiden des jungen Werthers** · de · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/2407) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/goethe-die-leiden-des-jungen-werthers/goethe-werther-vi-ai-2026/)
 - [ ] **162. Saadi — Gulistan** · fa · collection · **Todo** · [Evidence](https://www.loc.gov/item/2018672684/)
 - [x] **163. Friedrich Schiller — Die Räuber** · de · play · **Published** · [Evidence](https://www.gutenberg.org/ebooks/47804) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/schiller-die-rauber/schiller-die-rauber-vi-ai-2026/)
 - [ ] **164. Abu al-Ala al-Maarri — The Epistle of Forgiveness** · ar · collection · **Todo** · [Evidence](https://nyupress.org/sale25-library-of-arabic-literature/)

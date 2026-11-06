@@ -1363,5 +1363,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Die Leiden des jungen Werthers",
+    "author": "Johann Wolfgang von Goethe",
+    "author_death_year": 1832,
+    "first_published_year": 1774,
+    "original_language": "de",
+    "genre": "novel",
+    "description": "The Sorrows of Young Werther (Die Leiden des jungen Werthers) is an epistolary novel by Johann Wolfgang von Goethe, published in Leipzig on 29 September 1774. Werther writes to his friend Wilhelm about nature, his own moods and his feelings for Charlotte, who is already engaged to a man named Albert. The text this site uses is the first book only, a run of dated letters from May to September 1771.",
+    "id": "goethe-die-leiden-des-jungen-werthers",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]
