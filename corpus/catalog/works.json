@@ -1393,5 +1393,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "author_death_year": 1855,
+    "first_published_year": 1847,
+    "original_language": "en",
+    "genre": "novel",
+    "description": "Jane Eyre is a novel by Charlotte Brontë, published under the pen name “Currer Bell” on 19 October 1847 by Smith, Elder & Co. of London. Jane narrates it in the first person, from her unhappy childhood at Gateshead Hall and her schooling at Lowood, through her work as governess at Thornfield Hall. The text on this site is Project Gutenberg #1260, the complete novel in 38 chapters, printed from an 1897 Service & Paton edition with illustrations by F. H. Townsend.",
+    "id": "bronte-jane-eyre",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

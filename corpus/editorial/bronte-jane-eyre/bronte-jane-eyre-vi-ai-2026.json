@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "work_id": "bronte-jane-eyre",
+  "edition_id": "bronte-jane-eyre-vi-ai-2026",
+  "source_edition_id": "bronte-jane-eyre-en-pg1260",
+  "title_vi": "Jane Eyre",
+  "translation_direction": "en → vi; direct from the specifically identified complete English electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Charlotte Brontë’s plain, moral first-person prose is kept, with Jane’s self-analysis as analysis and the dialect of Yorkshire and Scots servants rendered by Vietnamese speech levels rather than by imitation.",
+      "rationale": "The book is its moral voice and its voices."
+    },
+    {
+      "topic": "Scope",
+      "decision": "The translation covers the complete novel as printed by Gutenberg #1260, 38 chapters, 4055 units.",
+      "rationale": "The witness defines the scope."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-06",
+      "cycle": "vietnamese-500-bronte-jane-eyre",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "bronte-jane-eyre:3.26",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A ballad line was turned into a route direction; the verse sense was restored."
+        },
+        {
+          "segment": "bronte-jane-eyre:3.81",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The grandfather was given the wrong side of the family; corrected to the maternal side."
+        },
+        {
+          "segment": "bronte-jane-eyre:8.56",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The pronoun “cô” was ambiguous between Miss Temple and Helen; disambiguated."
+        },
+        {
+          "segment": "bronte-jane-eyre:9.30",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Crib” is a small bed, not a cradle, in the death scene of Helen Burns."
+        },
+        {
+          "segment": "bronte-jane-eyre:9.35",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Same sense error as the death-scene bed, repeated in the next unit."
+        },
+        {
+          "segment": "bronte-jane-eyre:9.61",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Same sense error as the death-scene bed, repeated in a later unit."
+        },
+        {
+          "segment": "bronte-jane-eyre:11.21",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The quarter-hour strike was rendered as a different time; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:11.42",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The name Adèle was misspelled against the glossary form."
+        },
+        {
+          "segment": "bronte-jane-eyre:11.62",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Same name form as 789."
+        },
+        {
+          "segment": "bronte-jane-eyre:11.66",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Same name form as 789."
+        },
+        {
+          "segment": "bronte-jane-eyre:11.94",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Wrong sibling address form; corrected to the English speaker and addressee."
+        },
+        {
+          "segment": "bronte-jane-eyre:11.96",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Same address form as 841."
+        },
+        {
+          "segment": "bronte-jane-eyre:11.101",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Address form in a speech; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:11.123",
+          "category": "editorial_mechanics",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A typo changed the sentence; corrected to the intended word."
+        },
+        {
+          "segment": "bronte-jane-eyre:17.77",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Reviewer-flagged referent or sense error in the second-slice draft; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:18.21",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A negation was reversed (“Alas! yes”); corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:19.76",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Reviewer-flagged referent or sense error; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:20.119",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Reviewer-flagged referent or sense error; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:20.157",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Reviewer-flagged sense error; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:21.78",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Currency error (“not five shillings”); corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:21.145",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Mrs. Reed’s resentment was inverted; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:21.172",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Reviewer-flagged referent or sense error; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:29.13",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "St. John’s judgement on Jane’s looks was lost (“plain” rendered as a word of simplicity); corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:26.61",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A garbled sentence in Rochester’s speech; rewritten with the sense and the dash kept."
+        },
+        {
+          "segment": "bronte-jane-eyre:23.6",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The nightingale was rendered as a lark; corrected in three scenes."
+        },
+        {
+          "segment": "bronte-jane-eyre:23.54",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Same nightingale error, second scene."
+        },
+        {
+          "segment": "bronte-jane-eyre:23.81",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Same nightingale error, third scene."
+        },
+        {
+          "segment": "bronte-jane-eyre:28.5",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A bird-species error; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:28.58",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A bird-species error; corrected."
+        },
+        {
+          "segment": "bronte-jane-eyre:32.61",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "“Deistic philosophers” was rendered as theism; the contrast in St. John’s speech was restored."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "Mr. Rochester / Mrs. Reed / Mrs. Fairfax / Miss Temple / Miss Abbot",
+      "draft_rendering": "ông Rochester; bà Reed; bà Fairfax; cô Temple; cô Abbot",
+      "alternatives": [],
+      "rationale": "Names and forms of address kept as the glossary fixes them.",
+      "passages": [
+        "bronte-jane-eyre:3.22",
+        "bronte-jane-eyre:3.38",
+        "bronte-jane-eyre:11.22",
+        "bronte-jane-eyre:14.4"
+      ]
+    },
+    {
+      "source_term": "Thornfield / Gateshead / Lowood / Moor House / Ferndean",
+      "draft_rendering": "Thornfield; Gateshead; trường Lowood; Moor House; Ferndean",
+      "alternatives": [],
+      "rationale": "Place names kept in English; Lowood as a school.",
+      "passages": [
+        "bronte-jane-eyre:29.109"
+      ]
+    },
+    {
+      "source_term": "Providence / the Almighty",
+      "draft_rendering": "Thượng Đế (one rendering per context)",
+      "alternatives": [],
+      "rationale": "A single theological rendering through the book.",
+      "passages": [
+        "bronte-jane-eyre:26.61",
+        "bronte-jane-eyre:7.49"
+      ]
+    },
+    {
+      "source_term": "Passion / duty / reason / independence",
+      "draft_rendering": "đam mê; bổn phận; lý trí; sự độc lập",
+      "alternatives": [],
+      "rationale": "One rendering of each abstract term.",
+      "passages": [
+        "bronte-jane-eyre:26.90",
+        "bronte-jane-eyre:27.9"
+      ]
+    },
+    {
+      "source_term": "Sir (to Mr. Rochester)",
+      "draft_rendering": "ngài; thưa ngài (servants may use ông)",
+      "alternatives": [],
+      "rationale": "The glossary rule for direct address to a gentleman of rank.",
+      "passages": [
+        "bronte-jane-eyre:26.8",
+        "bronte-jane-eyre:12.16"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Project Gutenberg #1260, an electronic transcription of Jane Eyre. The Gutenberg page does not name the exact printing and the text was not collated with the 1847 first edition.",
+  "updated_at": "2026-11-06",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "9f2fef4e814f929e449c898d101b68ff861cb3cb880c2825852c8e8f070c6296",
+  "target_sha256": "a7444081b0341f81eac4eddff3fbe3ccdc1ff15948befd78af046dcbcd559827",
+  "coverage": {
+    "canonical_passages": 4055,
+    "translated_passages": 4055,
+    "aligned_passages": 4055
+  },
+  "ai_review_record": "corpus/reviews/bronte-jane-eyre/bronte-jane-eyre-vi-ai-2026/ai-review-v2-2026-11-06.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.75,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [],
+  "title_review": {
+    "source_title": "Jane Eyre",
+    "target_title": "Jane Eyre",
+    "rationale": "The title is the work’s own, ‘Jane Eyre’; the Vietnamese edition keeps the English name."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "bronte-jane-eyre:1.1"
+      ],
+      "assessment": "Chapter I, the first unit of the novel."
+    },
+    {
+      "passages": [
+        "bronte-jane-eyre:38.24"
+      ],
+      "assessment": "The last unit of the witness: the closing lines of the final chapter."
+    }
+  ]
+}
