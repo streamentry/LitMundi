@@ -772,5 +772,117 @@
       "human_contributors": [],
       "notes": "Generated and revised directly from the cited original-language source using AI. No human creative translator/editor or independent human literary approval is recorded. The assessment record discloses its model, method and limitations."
     }
+  },
+  {
+    "id": "maupassant-parure-fr-pg14790",
+    "work_id": "maupassant-la-parure",
+    "language": "fr",
+    "title": "La Parure",
+    "kind": "source",
+    "status": "published",
+    "label": "La Parure · French, Project Gutenberg #14790 transcription",
+    "content_path": "corpus/segments/maupassant-la-parure/maupassant-parure-fr-pg14790.json",
+    "source_edition_id": null,
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Guy de Maupassant, \"La Parure\", in Contes du jour et de la nuit (Project Gutenberg #14790, David Price transcription). The first print appearance and the exact 1885 collection witness are not verified in this record; the story is recorded here as a French source text only.",
+      "catalog_url": "https://www.gutenberg.org/ebooks/14790",
+      "text_url": "https://www.gutenberg.org/cache/epub/14790/pg14790.txt",
+      "retrieved_at": "2026-11-07",
+      "source_witness": "Project Gutenberg #14790 plain-text transcription, LA PARURE section, 128 canonical paragraphs. No claim of a newly inspected facsimile."
+    },
+    "rights": {
+      "status": "public_domain_assessed",
+      "license": "Public Domain (underlying Guy de Maupassant text)",
+      "basis": "Assessed 2026-11-07 for the transcription used: Maupassant died in 1893, so France life-plus-70 and Vietnam life-plus-50 terms have expired; the story was first published in 1884 and is pre-1929 for US purposes. Only the underlying story is reused, without Gutenberg packaging or modern annotations. Not a worldwide legal guarantee.",
+      "jurisdictions_assessed": [
+        "US",
+        "FR",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://www.gutenberg.org/ebooks/14790",
+        "https://www.gutenberg.org/cache/epub/14790/pg14790.txt"
+      ]
+    },
+    "credits": {
+      "author": "Guy de Maupassant",
+      "translator": null,
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "source_checked",
+      "reviewers": [],
+      "evidence_urls": [
+        "https://www.gutenberg.org/cache/epub/14790/pg14790.txt"
+      ],
+      "notes": "AI-assisted technical extraction of 128 canonical units from the plain-text transcription. Not independent human certification."
+    }
+  },
+  {
+    "id": "maupassant-parure-vi-ai-2026",
+    "work_id": "maupassant-la-parure",
+    "language": "vi",
+    "title": "Món trang sức",
+    "kind": "translation",
+    "status": "draft",
+    "label": "Bản dịch tiếng Việt bằng AI · đánh giá AI v2 (bản nháp)",
+    "content_path": "corpus/segments/maupassant-la-parure/maupassant-parure-vi-ai-2026.json",
+    "source_edition_id": "maupassant-parure-fr-pg14790",
+    "legacy_slugs": [],
+    "provenance": {
+      "citation": "Complete direct AI-generated Vietnamese translation from the identified French transcription; no existing Vietnamese text or modern relay translation was used.",
+      "catalog_url": null,
+      "text_url": null,
+      "retrieved_at": "2026-11-07",
+      "source_witness": "maupassant-parure-fr-pg14790"
+    },
+    "rights": {
+      "status": "cleared",
+      "license": "CC-BY-4.0",
+      "basis": "AI-produced Vietnamese translation generated directly from the separately assessed French source text. Under the project AI-content policy, any applicable rights controlled by the publishing maintainer are offered under CC BY 4.0. No human authorship, exclusive copyright, new restriction on public-domain material or worldwide protection is asserted.",
+      "jurisdictions_assessed": [
+        "US",
+        "FR",
+        "VN"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/docs/AI-CONTENT-POLICY.md",
+        "https://creativecommons.org/licenses/by/4.0/legalcode.en"
+      ]
+    },
+    "credits": {
+      "author": "Guy de Maupassant",
+      "translator": "Claude Haiku 5.5 (AI translation)",
+      "editors": [],
+      "ai_assisted": true
+    },
+    "review": {
+      "status": "ai_reviewed",
+      "reviewers": [],
+      "ai_reviewers": [
+        "litmundi-ai-self-assessment-claude-haiku-5-5"
+      ],
+      "rubric_id": "litmundi-literary-v2",
+      "record_paths": [
+        "corpus/reviews/maupassant-la-parure/maupassant-parure-vi-ai-2026/ai-review-v2-2026-11-07b.json"
+      ],
+      "evidence_urls": [
+        "https://github.com/streamentry/LitMundi/blob/main/corpus/reviews/maupassant-la-parure/maupassant-parure-vi-ai-2026/ai-review-v2-2026-11-07b.json"
+      ],
+      "notes": "Second AI assessment on the revised draft, scoring 8.675 with the first record kept as history at 8.55. Same-system assessment; no independent human certification.",
+      "score": 8.68
+    },
+    "publication_policy": "litmundi-literary-v2",
+    "generation": {
+      "kind": "ai_generated",
+      "tools": [
+        "Claude Haiku 5.5 (AI translation)"
+      ],
+      "direct_from_original": true,
+      "human_contributors": [],
+      "notes": "Generated directly from the cited French source text using AI. No human creative translator or editor is recorded."
+    }
   }
 ]

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_on": "2026-11-01",
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-07",
   "target_language": "vi",
   "scope": "500 complete literary works selected as new or unfinished Vietnamese translation tasks. This is an editorial production queue, not an objective universal ranking, a verified 500-work translation gap, or publication clearance. Previously published Wilde The Artist and Machado Um Apólogo are excluded.",
   "methodology": [
@@ -3757,7 +3757,7 @@
       "rights_screen": "likely_public_domain",
       "rights_note": "Old underlying work is a public-domain candidate only; exact witness, editorial layers, translators and relevant jurisdictions require a separate clearance.",
       "publication_edition_id": null,
-      "status": "todo",
+      "status": "in_review",
       "vietnamese_supply": {
         "status": "atlas_evidence_available",
         "atlas_work_id": "maupassant-la-parure",

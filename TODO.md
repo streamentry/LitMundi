@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 3 published · 271 todo · 0 in progress · 226 on hold.**
+**500 selected works · 3 published · 270 todo · 1 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -19,7 +19,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **001. Emilia Pardo Bazán — El encaje roto** · es · short story · **Published** · [Evidence](https://cervantesvirtual.com/obra/cuentos-de-amor/) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/pardo-bazan-el-encaje-roto/pardo-encaje-vi-ai-draft-2026/)
 - [x] **002. Kate Chopin — The Story of an Hour** · en · short story · **Published** · [Evidence](https://www.katechopin.org/story-hour/) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/chopin-story-of-an-hour/chopin-hour-vi-ai-2026/)
 - [x] **003. Saki — The Open Window** · en · short story · **Published** · [Evidence](https://www.annotated-saki.info/first-publication/) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/saki-the-open-window/saki-open-window-vi-ai-2026/)
-- [ ] **004. Guy de Maupassant — La Parure** · fr · short story · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/14790)
+- [ ] **004. Guy de Maupassant — La Parure** · fr · short story · **AI assessment** · [Evidence](https://www.gutenberg.org/ebooks/14790)
 - [ ] **005. Ryunosuke Akutagawa — 蜘蛛の糸 / The Spider’s Thread** · ja · short story · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person879.html)
 - [ ] **006. Machado de Assis — A Cartomante** · pt · short story · **Todo** · [Evidence](https://openlibrary.org/works/OL1003023W)
 - [ ] **007. Lu Xun — 孔乙己 / Kong Yiji** · zh · short story · **Todo** · [Evidence](https://jsis.washington.edu/earc/lu-xun-the-father-of-modern-chinese-literature-ncta-online-book-study/)
