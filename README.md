@@ -105,8 +105,9 @@ Current edition states and qualifying evidence are recorded in [the catalog](cor
 | [Charlotte Brontë — Jane Eyre](corpus/editorial/bronte-jane-eyre/bronte-jane-eyre-vi-ai-2026.json) | English; Project Gutenberg #1260 | 4055 | 8.75 | AI-reviewed translation published |
 | [George Eliot — Middlemarch](corpus/editorial/eliot-middlemarch/eliot-middlemarch-vi-ai-2026.json) | English; Project Gutenberg #145 | 4669 | 8.68 | AI-reviewed translation published |
 | [Charles Dickens — Great Expectations](corpus/editorial/dickens-great-expectations/dickens-great-expectations-vi-ai-2026.json) | English; Project Gutenberg #1400 | 3893 | 8.63 | AI-reviewed translation published |
+| [Natsume Sōseki — Kokoro (こゝろ)](corpus/editorial/soseki-kokoro/soseki-kokoro-vi-ai-2026.json) | Japanese; Aozora Bunko card 773 | 1331 | 8.73 | AI-reviewed translation published |
 
-All ninety-five originals are published, giving one hundred and ninety public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
+All ninety-six originals are published, giving one hundred and ninety-two public editions in total. These AI assessments disclose that the same AI system revised and evaluated the translations; they do not claim independent human review or reader validation. [The first 500-program batch](docs/BATCH-001-VIETNAMESE-500.md) records the three newly qualifying Vietnamese editions and their complete 67 source/target paragraph pairs. Pardo Bazán's earlier failing 8.55 assessment remains in the review history.
 
 The [AI-first release report](docs/RELEASE-AI-FIRST-2026-11-01.md) records the policy change, actual assessments and technical verification.
 

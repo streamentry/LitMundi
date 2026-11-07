@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "work_id": "soseki-kokoro",
+  "edition_id": "soseki-kokoro-vi-ai-2026",
+  "source_edition_id": "soseki-kokoro-ja-aozora-773",
+  "title_vi": "Tâm",
+  "translation_direction": "ja → vi; direct from the specifically identified complete Japanese electronic witness",
+  "ai_disclosure": "Direct AI-produced Vietnamese prose by Claude Opus 5.5. The drafting system conducted the final full assessment; a separate-context assessment by the same model family read every pair and supplied findings first. No human translator, editor, reviewer, independent model consensus or actual reader feedback is recorded.",
+  "review_process": {
+    "rubric_id": "litmundi-literary-v2",
+    "required_ai_assessments": 1,
+    "minimum_weighted_score": 8.6,
+    "required_human_reviewers": 0,
+    "entry_conditions": [
+      "Complete named-source and Vietnamese texts, explicit alignment and exact content hashes.",
+      "Compare every source and target passage; disclose that this assessor also revised the text and has seen earlier AI assessments.",
+      "Source and target edition titles are present and compared explicitly; the title review must match both catalog title strings exactly."
+    ],
+    "exit_conditions": [
+      "One complete AI review with a weighted score at least 8.6 using the five unchanged weights and half-point category scores; no separate numerical dimension floors.",
+      "All canonical passages reviewed; no unresolved major or critical finding; source and target hashes match the final text.",
+      "Publication and rights status are recorded separately in the edition catalog; an AI score does not supply a license.",
+      "The selected review includes source_title, target_title and a substantive title rationale; changed titles require a fresh matching review."
+    ],
+    "human_feedback": "Optional after publication or while a work remains a draft; no prior human publication review is required by v2."
+  },
+  "decisions": [
+    {
+      "topic": "Voice",
+      "decision": "Sōseki’s plain, measured, inward prose and the formal Meiji narrator are kept; the restraint is kept rather than modernised.",
+      "rationale": "The book is its restraint and its self-examination."
+    },
+    {
+      "topic": "Scope",
+      "decision": "The translation covers the complete novel as printed by Aozora Bunko card 773: three parts, 1331 units.",
+      "rationale": "The witness defines the scope."
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-11-07",
+      "cycle": "vietnamese-500-soseki-kokoro",
+      "scope": "Complete initial direct translation, separate-context full source/target assessment and concrete revisions before the selected final review.",
+      "changes": [
+        {
+          "segment": "soseki-kokoro:1.18",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The soft cloth sash was rendered with a romanisation name; corrected to a soft cloth sash."
+        },
+        {
+          "segment": "soseki-kokoro:1.38",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The question was inverted; the teacher asks the narrator; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:1.143",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A sentence about women and the appeal of a woman was mistranslated; restored."
+        },
+        {
+          "segment": "soseki-kokoro:1.166",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A joke on mixed Tokyo and provincial origins was read as mixed race; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:1.192",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The causal logic was reversed; corrected to the Japanese cause and effect."
+        },
+        {
+          "segment": "soseki-kokoro:1.311",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A quoted line of the teacher was read as the narrator’s; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:2.31",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "An inheritance sense of taking one’s share during the father’s lifetime was lost; restored."
+        },
+        {
+          "segment": "soseki-kokoro:2.68",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "Ten or twenty years was rendered as about 120 years; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:2.162",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The complaint was given to the father; the mother and narrator complain to the uncle; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:2.272",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The father thanks his wife; the speaker and address were corrected."
+        },
+        {
+          "segment": "soseki-kokoro:2.273",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The mother’s quoted words were attributed to Mẹ in the third person; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.4",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The central term for ego was given the wrong sense; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.14",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The narrator’s word Tokyo was given to the mother’s deathbed words; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.22",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "二里 rendered as two miles while unit 992 gives eight kilometres; made consistent."
+        },
+        {
+          "segment": "soseki-kokoro:3.23",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The uncle’s house and residence conditions were reversed; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.32",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The sake cup of a wedding was rendered as betrothal; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.51",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The friend’s advice was inverted; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.55",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The tram-line clause was placed in the past against the Japanese; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.92",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "No adult man in the house was rendered as no house; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.106",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The group of three including the narrator was misstated; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.201",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A major referent error in part 下; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.237",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "K’s audacity was reversed and the narrator’s self-assessment inverted; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.296",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The planned action was changed to going to meet K; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.307",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The inverted who cannot apologise was corrected to the narrator; the apology sense restored."
+        },
+        {
+          "segment": "soseki-kokoro:3.309",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A referent error in part 下; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.315",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The referent was reversed: the father and brother had neglected K; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.345",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "A referent error in part 下; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.310",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The widow of a military man was made the wife of an officer; corrected to a military widow."
+        },
+        {
+          "segment": "soseki-kokoro:3.259",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The sugi cedar grove was rendered as a tamarisk grove; corrected to Japanese cedar."
+        },
+        {
+          "segment": "soseki-kokoro:3.328",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The wife as the subject of the thought was misidentified as an older woman; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.338",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The trait was said to be stronger in men when the source says women; corrected."
+        },
+        {
+          "segment": "soseki-kokoro:3.247",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The Way was made the subject of the sacrifice sentence; corrected to the source sense."
+        },
+        {
+          "segment": "soseki-kokoro:3.242",
+          "category": "semantic_fidelity",
+          "severity": "major",
+          "status": "resolved",
+          "explanation": "The place name Ryūoka was a misreading of Tatsuoka-chō (たつおか); corrected."
+        }
+      ]
+    }
+  ],
+  "selection_limit": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made.",
+  "glossary": [
+    {
+      "source_term": "先生 (the teacher)",
+      "draft_rendering": "tiên sinh (narration); bà vợ tiên sinh for the wife",
+      "alternatives": [],
+      "rationale": "The narrator’s name for the teacher, kept throughout; the wife is named by her role.",
+      "passages": [
+        "soseki-kokoro:1.1",
+        "soseki-kokoro:1.29",
+        "soseki-kokoro:1.30"
+      ]
+    },
+    {
+      "source_term": "私 (the narrator) and K",
+      "draft_rendering": "tôi; K kept as K",
+      "alternatives": [],
+      "rationale": "The narrator’s humble first person and the friend’s initial kept.",
+      "passages": [
+        "soseki-kokoro:1.1",
+        "soseki-kokoro:1.62",
+        "soseki-kokoro:3.86"
+      ]
+    },
+    {
+      "source_term": "Title",
+      "draft_rendering": "Tâm",
+      "alternatives": [
+        "Kokoro"
+      ],
+      "rationale": "Vietnamese title: heart, mind.",
+      "passages": [
+        "soseki-kokoro:1.1"
+      ]
+    },
+    {
+      "source_term": "Nested quotes in letters",
+      "draft_rendering": "inner 「」 as ‘ ’ inside an open letter quote “ ”",
+      "alternatives": [],
+      "rationale": "Typographic convention for nested dialogue in the letter.",
+      "passages": [
+        "soseki-kokoro:3.14",
+        "soseki-kokoro:3.19",
+        "soseki-kokoro:3.275",
+        "soseki-kokoro:3.325"
+      ]
+    }
+  ],
+  "witness_decision": "Selected Aozora Bunko card 773, the text file 773_14560 for Sōseki's Kokoro (1914). The Aozora page does not name the exact printing and the text was not collated with the first serial or book edition.",
+  "updated_at": "2026-11-07",
+  "stage": "published_ai_reviewed",
+  "source_sha256": "5931a9d695f4b022ce07fd31d440e6c62f8eecc5fb612c93966fbe376b33ee83",
+  "target_sha256": "a3b106a188f2220281d34f9e59c808d2788de632784d4cf395f315501ee95ba8",
+  "coverage": {
+    "canonical_passages": 1331,
+    "translated_passages": 1331,
+    "aligned_passages": 1331
+  },
+  "ai_review_record": "corpus/reviews/soseki-kokoro/soseki-kokoro-vi-ai-2026/ai-review-v2-2026-11-07.json",
+  "current_quality_assessment": {
+    "rubric_id": "litmundi-literary-v2",
+    "weighted_score": 8.725,
+    "threshold": 8.6,
+    "passes_ai_quality_gate": true,
+    "publication_status_authority": "corpus/catalog/editions.json"
+  },
+  "unresolved_questions": [],
+  "title_review": {
+    "source_title": "Kokoro",
+    "target_title": "Tâm",
+    "rationale": "The title is the translation’s chosen Vietnamese title, ‘Tâm’ (heart); the original is Kokoro."
+  },
+  "passage_assessment_notes": [
+    {
+      "passages": [
+        "soseki-kokoro:1.1"
+      ],
+      "assessment": "The part heading 上 先生と私, rendered Thượng — Tiên sinh và tôi."
+    },
+    {
+      "passages": [
+        "soseki-kokoro:3.358"
+      ],
+      "assessment": "The last unit of the witness: the closing paragraph of the letter."
+    }
+  ]
+}

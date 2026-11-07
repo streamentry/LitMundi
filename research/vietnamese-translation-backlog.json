@@ -4706,7 +4706,7 @@
       "title": "Kokoro",
       "author": "Natsume Soseki",
       "original_language": "ja",
-      "publication_year": null,
+      "publication_year": 1914,
       "form": "novel",
       "tradition": "Japan",
       "priority_band": 2,
@@ -4714,10 +4714,10 @@
       "source_ids": [
         "world-aozora-soseki"
       ],
-      "rights_screen": "likely_public_domain",
-      "rights_note": "Historical original is a public-domain candidate only. Verify an exact original-language witness, territory, transcription and edition rights before production; no modern translation rights are assumed.",
-      "publication_edition_id": null,
-      "status": "todo",
+      "rights_screen": "cleared_in_corpus",
+      "rights_note": "The exact source and Vietnamese edition have separate rights assessments in corpus/catalog/editions.json. Clearance is limited to those recorded witnesses, uses and jurisdictions; it is not a blanket license for other editions.",
+      "publication_edition_id": "soseki-kokoro-vi-ai-2026",
+      "status": "published",
       "vietnamese_supply": {
         "status": "not_audited",
         "atlas_work_id": null,

@@ -1438,5 +1438,20 @@
       "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
     },
     "visibility": "public"
+  },
+  {
+    "title": "Kokoro",
+    "author": "Natsume Soseki",
+    "author_death_year": 1916,
+    "first_published_year": 1914,
+    "original_language": "ja",
+    "genre": "novel",
+    "description": "Kokoro is a 1914 novel by Natsume Sōseki, first serialised in the Asahi Shimbun from 20 April to 11 August 1914. A young man grows close to an older man he calls Sensei, who keeps a secret from his past. The text on this site is the Aozora Bunko transcription of the whole novel in three parts, translated into Vietnamese as Tâm.",
+    "id": "soseki-kokoro",
+    "translation_gap": {
+      "status": "unverified",
+      "notes": "Chosen for a complete, directly sourced and openly reusable Vietnamese edition. Existing Vietnamese translations, their quality and reader demand have not been comprehensively assessed; no absence or superiority claim is made."
+    },
+    "visibility": "public"
   }
 ]

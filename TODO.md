@@ -2,7 +2,7 @@
 
 > Generated from [the canonical queue](research/vietnamese-translation-backlog.json). Edit the JSON, then run `npm run todo:render`; CI rejects a stale checklist.
 
-**500 selected works · 93 published · 181 todo · 0 in progress · 226 on hold.**
+**500 selected works · 94 published · 180 todo · 0 in progress · 226 on hold.**
 
 These are 500 new or unfinished translation tasks as of 2026-11-01. The previously published Wilde *The Artist* and Machado *Um Apólogo* are outside this count. A checked box means a complete Vietnamese edition is actually published in the corpus.
 
@@ -59,7 +59,7 @@ Publication still requires a complete current AI assessment with an unrounded we
 - [x] **041. George Eliot — Silas Marner** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/550) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/eliot-silas-marner/eliot-silas-vi-ai-2026/)
 - [x] **042. Kamo no Chomei — Hojoki** · ja · essay · **Published** · [Evidence](https://www.penguinrandomhouse.com/books/316262/essays-in-idleness-and-hojoki-by-kenko-and-chomei/) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/chomei-hojoki/chomei-hojoki-vi-ai-2026/)
 - [x] **043. Charles Dickens — Great Expectations** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/1400) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/dickens-great-expectations/dickens-great-expectations-vi-ai-2026/)
-- [ ] **044. Natsume Soseki — Kokoro** · ja · novel · **Todo** · [Evidence](https://www.aozora.gr.jp/index_pages/person148.html)
+- [x] **044. Natsume Soseki — Kokoro** · ja · novel · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person148.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/soseki-kokoro/soseki-kokoro-vi-ai-2026/)
 - [ ] **045. Thomas Hardy — Tess of the d'Urbervilles** · en · novel · **Todo** · [Evidence](https://www.gutenberg.org/ebooks/110)
 - [x] **046. Virginia Woolf — Mrs Dalloway** · en · novel · **Published** · [Evidence](https://www.gutenberg.org/ebooks/71865) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/woolf-mrs-dalloway/woolf-mrs-dalloway-vi-ai-2026/)
 - [x] **047. Natsume Soseki — Botchan** · ja · novel · **Published** · [Evidence](https://www.aozora.gr.jp/index_pages/person148.html) · [Đọc bản dịch](https://streamentry.github.io/LitMundi/vi/read/soseki-botchan/soseki-botchan-vi-ai-2026/)
